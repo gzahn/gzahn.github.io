@@ -15,10 +15,10 @@ output: html_document
 div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "gray">
-# About me / [CV](https://github.com/gzahn/Profile/blob/master/CV_TT.pdf)
-#### Browse this site for information about our research or [follow this link](https://github.com/gzahn/Profile/blob/master/CV_TT.pdf) for my (fairly) current C.V.
+# **About me / [CV](https://github.com/gzahn/Profile/blob/master/CV_TT.pdf)**
+### **Browse this site for information about our research or [follow this link](https://github.com/gzahn/Profile/blob/master/CV_TT.pdf) for my (fairly) current C.V.**
 
-##### I am an Assistant Professor of Mycology at Utah Valley University. My students and I are investigating extremophilic fungi, the effect of fire severity on forest soil microbial community recovery, and the microbes associated with coral ecosystems under climate change. 
+### I am an Assistant Professor of Mycology at Utah Valley University. My students and I are investigating extremophilic fungi, the effect of fire severity on forest soil microbial community recovery, and the microbes associated with coral ecosystems under climate change. I am broadly interested in microbial ecology and biogeochemistry, but am particularly drawn to applied questions and manipulative experimentation.
 
 
 <div style= "float:right;position: relative;top:10px">
@@ -27,12 +27,12 @@ knitr::include_graphics("../wp-content/uploads/geoff.jpg")
 ```
 </div>
 
-##### I received my PhD in Biology at the University of Arkansas, where my research focused on the distributional and functional ecology of slime molds.  I received my B.S. in Biology at Missouri State University where I became interested in conservation.  I am broadly interested in microbial ecology and biogeochemistry, but am particularly drawn to applied questions and manipulative experimentation.
+### I received my PhD in Biology at the University of Arkansas, where my research focused on the distributional and functional ecology of slime molds.  I received my B.S. in Biology at Missouri State University where I became interested in conservation.  
 
-##### When I am not playing with my microbes I enjoy hiking, brewing, kayaking for days at  a time, and cooking. Also, I have the best dog ever, Dr. Indiana Jones.
+### When I am not playing with my microbes I enjoy hiking, brewing, kayaking for days at  a time, and cooking. Also, I have the best dog ever, Dr. Indiana Jones.
 </div>
 
-<div style= "float:left;position: relative;top:-10px">
+<div style= "float:left;position: relative;top:-10px;left:20px">
 ```{r, out.width = "300px",echo=FALSE}
 knitr::include_graphics("../wp-content/uploads/P4280105-300x225.jpg")
 ```
@@ -47,7 +47,7 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 <br><br><br>
 ___
 
-#### Contact Info:
+## Contact Info:
 
 Geoffrey Zahn<br>
 Biology Department - Utah Valley University<br>

@@ -47,7 +47,7 @@ What we think of as “plant” traits, may actually be microbial traits in disg
 
 ___
 
-**Wainwright BJ., Zahn GL., Arlyza IS., Amend AS. 2018. Seagrass-associated fungal communities follow Wallace’s line, but host genotype does not structure fungal community. Journal of Biogeography:n/a-n/a. DOI: 10.1111/jbi.13168.**
+**Wainwright BJ., Zahn GL., Arlyza IS., Amend AS. 2018. Seagrass-associated fungal communities follow Wallace’s line, but host genotype does not structure fungal community. Journal of Biogeography:n/a-n/a. https://doi.org/10.1111/jbi.13168.**
 
 Fungi associated with the seagrass Syringodium isoetifolium had different community structure on either side of Wallace’s Line, a theoretical boundary that separates Asian and Australasian flora and fauna. This suggests that whatever processes enforce this “boundary” in macro organisms may be at work at the microbial scale as well.
 
@@ -71,13 +71,13 @@ Even 100m below the surface of the ocean, in the mesophotic zone, fungi are asso
 
 ___
 
-**Geoffrey Zahn, Rota Wagai, Seiichiro Yonemura. 2016. The effects of amoebal bacterivory on carbon and nitrogen dynamics depend on temperature and soil structure interactions. Soil Biology and Biochemistry, 94:133-137. DOI 10.1016/j.soilbio.2015.11.021**
+**Geoffrey Zahn, Rota Wagai, Seiichiro Yonemura. 2016. The effects of amoebal bacterivory on carbon and nitrogen dynamics depend on temperature and soil structure interactions. Soil Biology and Biochemistry, 94:133-137. https://doi.org/10.1016/j.soilbio.2015.11.021**
 
 Amoebae in soils are some of the top bacterial predators, and they are responsible for helping determine C and N turnover rates. But with global warming and changes to agricultural management practices, the effect of amoebal bacterivory is altered. Soil carbon models (Q10) should incorporate food web dynamics to increase accuracy.
 
 ___
 
-**Geoffrey Zahn, Steven L. Stephenson, Frederick W. Spiegel. 2014. Ecological distribution of protosteloid amoebae in New Zealand. PeerJ 2:e296; DOI 10.7717/peerj.296**
+**Geoffrey Zahn, Steven L. Stephenson, Frederick W. Spiegel. 2014. Ecological distribution of protosteloid amoebae in New Zealand. PeerJ 2:e296; https://doi.org/10.7717/peerj.296**
 
 In a thorough survey of New Zealand, we detected broad environmental influences on the distribution of 30 protosteloid amoebae. Latitude, precipitation, and elevation matter as limiters of distribution.
 
@@ -103,12 +103,12 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 <div class = "blue">
 
 # COMING SOON ...
-Fungi in the atmosphere: A decade of air samples from Mauna Loa Observatory<br>
+**Fungi in the atmosphere: A decade of air samples from Mauna Loa Observatory<br>
 Extremophile fungi in The Great Salt Lake<br>
 Fungal community recovery after forest fires<br>
 Human oral mycobiome determinants<br>
 More coral microbiomes!<br>
-Including outgroups in fungal meta-barcoding studies<br>
+Including outgroups in fungal meta-barcoding studies<br>**
 
 
 </div>
