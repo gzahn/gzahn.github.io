@@ -1,6 +1,7 @@
 ---
 output: html_document
 ---
+[HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs_and_pres/)
 
 <style>
 div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
@@ -18,7 +19,7 @@ knitr::include_graphics("../wp-content/uploads/Lab_Members-1024x675.jpg")
 </div>
 
 
-#### Here’s the [online lab handbook](https://github.com/gzahn/Lab_Manual) with expectations and information for lab members.
+#### Here’s the [online lab handbook](https://github.com/gzahn/Lab_Manual/blob/master/README.md) with expectations and information for lab members.
 
 #### Students interested in joining the lab should [fill out this application](https://github.com/gzahn/Profile/raw/master/Student_Research_Application.docx) and bring a hard copy to my office.
 

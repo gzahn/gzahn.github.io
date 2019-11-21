@@ -1,6 +1,8 @@
 ---
 output: html_document
 ---
+[HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs_and_pres/)
+
 <style>
 div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 </style>
