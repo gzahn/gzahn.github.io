@@ -1,0 +1,34 @@
+---
+output: html_document
+---
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs_and_pres/) | [BLOG](http://gzahn.github.io/blog-archive/)
+
+<br><br><br><br><br><br><br><br><br>
+<br><br><br>
+___
+
+#### Contact Info:
+
+Geoffrey Zahn<br>
+Biology Department - Utah Valley University<br>
+800 W University Parkway - SB243c<br>
+Orem, UT 84058<br>
+zahn.geoff@gmail.com
+
+
+</div>
+
+

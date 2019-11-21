@@ -1,0 +1,27 @@
+---
+output: html_document
+---
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs_and_pres/) | [BLOG](http://gzahn.github.io/blog-archive/)
+
+___
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+
+
+#### [Outgroups for RDP Classifier](http://gzahn.github.io/blog-archive/outgroups-for-rdp-classifier/)<br>
+#### Breaking free from OTUs – If and when to merge paired-end reads<br>
+#### Limitations of the UNITE fungal database<br>
+#### NMDS Example<br>
+#### (old!) Getting your QIIME OTU table into R<br>
+#### (old!) QIIME Installing all that software!<br>
+#### (old!) 3. Initial OTU analyses<br>
+#### (old!) 2. Cleaning ITS reads and Picking OTUs<br>
+#### (old!) 1. Data Prep through formatted fasta<br>
+
+
+
+</div>
