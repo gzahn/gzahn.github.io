@@ -48,49 +48,51 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 <br><br>
 
 <div style= "float:right;position: relative;">
-```{r, out.width = "200px",echo=FALSE}
+```{r, out.width = "400px",echo=FALSE}
 knitr::include_graphics("../wp-content/uploads/coral.jpeg")
 ```
 </div>
 
 ## **Urbanized coral reefs and seagrass meadows**
 ### We're collaborating with the National University of Singapore to explore the microbes associating with corals, and are especially interested in tracking community structure during bleaching events.
-<br><br><br>
+<br><br><br><br><br><br><br>
 
 <div style= "float:left;position: relative;left: -5px">
-```{r, out.width = "200px",echo=FALSE,fig.}
+```{r, out.width = "400px",echo=FALSE,fig.}
 knitr::include_graphics("../wp-content/uploads/firesoil.jpg")
 ```
 </div>
 
 ## **Alpine forest fires**
 ### We're using microcosms and the natural laboratory of Utah alpine forests to study microbial succession in soils after fires. Our sampling includes fire sites from ~20 years ago to recently burned areas. 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 <div style= "float:right;position: relative;">
-```{r, out.width = "200px",echo=FALSE}
+```{r, out.width = "400px",echo=FALSE}
 knitr::include_graphics("../wp-content/uploads/dictyped.png")
 ```
 </div>
 
+<br><br>
+
 ## **Soil microcosms**
 ### We are using manipulated soil microcosms and high-throughput DNA sequencing to tease apart the roles that amoeboid predators have in shaping bacterial communities and how this role is influenced by a changing climate. By experimentally manipulating soil communities, we can study predations role in nutrient cycling under changing climate conditions.
-<br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
 
 
 <div style= "float:left;position: relative;left: -5px;top: 15">
-```{r, out.width = "200px",echo=FALSE}
+```{r, out.width = "400px",echo=FALSE}
 knitr::include_graphics("../wp-content/uploads/gsl.jpg")
 ```
 </div>
 
 ## **The Great Salt Lake**
 ### We are curious about the fungi that inhabit the hypersaline environment of the Great Salt Lake, and are sampling water and sediment along a salinity gradient from a freshwater input source up through the extremely hypersaline northern half of the lake. Our initial aim is to collect baseline data on the microbial food web in this important habitat and explore the environmental limits of extremophilic fungi. We are building a culture library of the unique fungi we find.
-<br><br>
+<br><br><br><br><br>
 
 
 <div style= "float:right;position: relative;">
-```{r, out.width = "200px",echo=FALSE}
+```{r, out.width = "400px",echo=FALSE}
 knitr::include_graphics("../wp-content/uploads/cactus.jpg")
 ```
 </div>
