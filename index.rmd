@@ -16,18 +16,30 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 
 ## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs_and_pres/) | [BLOG](http://gzahn.github.io/blog-archive/)
 
+# Zahn Lab - Utah Valley University
+
+<div style= "float:right;position: relative;top:20px">
+```{r, out.width = "400px",echo=FALSE}
+knitr::include_graphics("./wp-content/uploads/geoff_nap.jpg")
+```
+
 <br><br><br><br><br><br><br><br><br>
 <br><br><br>
+
+</div>
+
 ___
 
-#### Contact Info:
+<br>
+
+#### **Contact Info:**
 
 Geoffrey Zahn<br>
 Biology Department - Utah Valley University<br>
 800 W University Parkway - SB243c<br>
 Orem, UT 84058<br>
 zahn.geoff@gmail.com
-
+<br><br><br>
 
 </div>
 

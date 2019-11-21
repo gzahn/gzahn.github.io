@@ -7,13 +7,13 @@ output: html_document
 div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "gray">
-# About me / CV
-#### Browse this site for information about my research or [follow this link](https://github.com/gzahn/Profile/blob/master/CV_TT.pdf) for my (fairly) current C.V.
+# About me / [CV](https://github.com/gzahn/Profile/blob/master/CV_TT.pdf)
+#### Browse this site for information about our research or [follow this link](https://github.com/gzahn/Profile/blob/master/CV_TT.pdf) for my (fairly) current C.V.
 
 ##### I am an Assistant Professor of Mycology at Utah Valley University. My students and I are investigating extremophilic fungi, the effect of fire severity on forest soil microbial community recovery, and the microbes associated with coral ecosystems under climate change. 
 
 
-<div style= "float:right;position: relative;">
+<div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "400px",echo=FALSE}
 knitr::include_graphics("../wp-content/uploads/geoff.jpg")
 ```
@@ -24,7 +24,7 @@ knitr::include_graphics("../wp-content/uploads/geoff.jpg")
 ##### When I am not playing with my microbes I enjoy hiking, brewing, kayaking for days at  a time, and cooking. Also, I have the best dog ever, Dr. Indiana Jones.
 </div>
 
-<div style= "float:left;position: relative;">
+<div style= "float:left;position: relative;top:-10px">
 ```{r, out.width = "300px",echo=FALSE}
 knitr::include_graphics("../wp-content/uploads/P4280105-300x225.jpg")
 ```
