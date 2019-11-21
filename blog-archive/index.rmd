@@ -14,7 +14,7 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 #### [Outgroups for RDP Classifier](http://gzahn.github.io/blog-archive/outgroups-for-rdp-classifier/)<br>
 #### Breaking free from OTUs – If and when to merge paired-end reads<br>
-#### Limitations of the UNITE fungal database<br>
+#### [Limitations of the UNITE fungal database](http://gzahn.github.io/blog-archive/limitations-of-the-unite-fungal-database/)<br>
 #### NMDS Example<br>
 #### (old!) Getting your QIIME OTU table into R<br>
 #### (old!) QIIME Installing all that software!<br>
