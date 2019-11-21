@@ -99,6 +99,6 @@ knitr::include_graphics("../wp-content/uploads/cactus.jpg")
 
 ## **Critically-endangered cacti**
 ### Working with Capitol Reef National Park, we developed non-detrimental methods to explore the microbial endophytes of critically-endangered cacti. We are using this system to explore the role of fungal symbionts in alleviating pathogen damage and herbivory for these rare plants.
-<br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
  
 </div>
