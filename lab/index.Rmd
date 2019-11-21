@@ -54,7 +54,7 @@ knitr::include_graphics("../wp-content/uploads/coral.jpeg")
 </div>
 
 ## **Urbanized coral reefs and seagrass meadows**
-### We're collaborating with the National University of Singapore to explore the microbes associating with corals, and are especially interested in tracking community structure during bleaching events.
+### We're collaborating with the National University of Singapore to explore the microbes associating with corals, and are especially interested in tracking community structure during bleaching events. By comparing coral microbiomes at a range of spatial scales, across a diversity of human imapcts, coral ages, and even localized ocean currents, we are piecing together the core coral microbiome and uncovering factors that shape microbial community formation on these endangered ecosystems.
 <br><br><br><br><br><br><br>
 
 <div style= "float:left;position: relative;left: -5px">
@@ -64,7 +64,7 @@ knitr::include_graphics("../wp-content/uploads/firesoil.jpg")
 </div>
 
 ## **Alpine forest fires**
-### We're using microcosms and the natural laboratory of Utah alpine forests to study microbial succession in soils after fires. Our sampling includes fire sites from ~20 years ago to recently burned areas. 
+### We're using microcosms and the natural laboratory of Utah alpine forests to study microbial succession in soils after fires. Our sampling includes fire sites from ~20 years ago to recently burned areas. We also use simulated forest fires in a series of mesocosms to track microbial recovery at a very fine temporal scale. Preliminary data agrees with the hypothesis that full recovery can take decades, but we are seeing that temperature and precipitation increases can speed up this recovery time.
 <br><br><br><br><br><br><br><br>
 
 <div style= "float:right;position: relative;">
@@ -76,8 +76,8 @@ knitr::include_graphics("../wp-content/uploads/dictyped.png")
 <br><br>
 
 ## **Soil microcosms**
-### We are using manipulated soil microcosms and high-throughput DNA sequencing to tease apart the roles that amoeboid predators have in shaping bacterial communities and how this role is influenced by a changing climate. By experimentally manipulating soil communities, we can study predations role in nutrient cycling under changing climate conditions.
-<br><br><br><br><br><br><br><br><br><br><br>
+### We are using manipulated soil microcosms and high-throughput DNA sequencing to tease apart the roles that amoeboid predators have in shaping bacterial communities and how this role is influenced by a changing climate. By experimentally manipulating soil communities, we can study predations role in nutrient cycling under changing climate conditions. Our key player in this system is *Dictyostelium discoideum*, the cellular slime mold. Our previous work has shown that soil structure and temperature interact to change the influence of predation on carbon cycling. We are extending that work to uncover how this effect is mediated by looking at how predation "preferences" change under warming conditions.
+<br><br><br><br><br><br><br><br><br>
 
 
 <div style= "float:left;position: relative;left: -5px;top: 15">
@@ -87,7 +87,7 @@ knitr::include_graphics("../wp-content/uploads/gsl.jpg")
 </div>
 
 ## **The Great Salt Lake**
-### We are curious about the fungi that inhabit the hypersaline environment of the Great Salt Lake, and are sampling water and sediment along a salinity gradient from a freshwater input source up through the extremely hypersaline northern half of the lake. Our initial aim is to collect baseline data on the microbial food web in this important habitat and explore the environmental limits of extremophilic fungi. We are building a culture library of the unique fungi we find.
+### We are curious about the fungi that inhabit the hypersaline environment of the Great Salt Lake, and are sampling water and sediment along a salinity gradient from a freshwater input source up through the extremely hypersaline northern half of the lake. Our initial aim is to collect baseline data on the microbial food web in this important habitat and explore the environmental limits of extremophilic fungi. We are also building a culture library of the unique fungi we find, for future bioprospecting and phylogenetic work.
 <br><br><br><br><br>
 
 
@@ -98,7 +98,7 @@ knitr::include_graphics("../wp-content/uploads/cactus.jpg")
 </div>
 
 ## **Critically-endangered cacti**
-### Working with Capitol Reef National Park, we developed non-detrimental methods to explore the microbial endophytes of critically-endangered cacti. We are using this system to explore the role of fungal symbionts in alleviating pathogen damage and herbivory for these rare plants.
+### Working with Capitol Reef National Park, we developed non-detrimental methods to explore the microbial endophytes of critically-endangered cacti. We are using this system to explore the role of fungal symbionts in alleviating pathogen damage and herbivory for these rare plants.  This is a difficult study system, but has tangible and rewarding impacts on the survival of these cacti in nature.
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
  
 </div>
