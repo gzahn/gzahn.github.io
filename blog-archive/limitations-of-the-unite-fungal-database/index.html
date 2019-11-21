@@ -372,6 +372,13 @@ $(document).ready(function () {
 </div>
 
 
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 <div id="home-about-me-lab-research-blog" class="section level2">
 <h2><a href="http://gzahn.github.io/">HOME</a> | <a href="http://gzahn.github.io/about-me/">ABOUT ME</a> | <a href="http://gzahn.github.io/lab/">LAB</a> | <a href="http://gzahn.github.io/pubs-and-pres/">RESEARCH</a> | <a href="http://gzahn.github.io/blog-archive/">BLOG</a></h2>
 <hr />
@@ -405,7 +412,7 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 </ol>
 <hr />
 <h4 id="the-first-step-is-to-make-sure-you-have-entrez-direct-installed-on-your-machine.-this-is-a-tool-from-ncbi-that-allows-you-to-query-the-ncbi-database-remotely-from-the-command-line.-then-we-will-use-it-to-design-a-search-query-against-ncbi">1) The first step is to make sure you have ENTREZ Direct installed on your machine. This is a tool from NCBI that allows you to query the NCBI database remotely from the command line. Then we will use it to design a search query against NCBI…</h4>
-<pre class="bash"><code># Install EDirect on your local machine:
+<pre class="r"><code># Install EDirect on your local machine:
 
 cd ~
 perl -MNet::FTP -e \
@@ -421,9 +428,9 @@ echo &quot;export PATH=\$PATH:\$HOME/edirect&quot; &gt;&gt; $HOME/.bash_profile
 exec bash</code></pre>
 <p>Now we can design a query that will scour NCBI and pull only the records that we want to include in our database. There is a slight learning curve to figuring out how to “word” your query, so I recommend going onto the <a href="https://www.ncbi.nlm.nih.gov/gquery/">NCBI ENTREZ search page</a> and playing with the filters and search terms to see how to “phrase things.” Once you have a search you like, you can see the exact search terms in the bottom right of the results page (see example screenshot). For my query, I wanted to pull all the “complete” (between 300 and 600 bp) ITS1 reads that didn’t come up as a random unknown gut fungus (There are LOT of these in NCBI thanks to the daily barrage of gut metagenome papers coming out).</p>
 <p>This search string looks like this:</p>
-<pre class="bash"><code>(“internal transcribed spacer 1″[All Fields] AND (“300″[SLEN] : “600”[SLEN])) NOT “uncultured Neocallimastigales”[porgn] NOT “bacteria”[Filter]</code></pre>
+<pre class="r"><code>(“internal transcribed spacer 1″[All Fields] AND (“300″[SLEN] : “600”[SLEN])) NOT “uncultured Neocallimastigales”[porgn] NOT “bacteria”[Filter]</code></pre>
 <p>. . . And to use it in EDirect, it looks like this (note the character escapes before crucial quotes):</p>
-<pre class="bash"><code>esearch -db nuccore -query &quot;\&quot;\(internal transcribed spacer 1\&quot;[All Fields] AND \(300[SLEN] : 600[SLEN]\)\) NOT \&quot;uncultured Neocallimastigales\&quot;[porgn] NOT \&quot;bacteria\&quot;[Filter]&quot; \
+<pre class="r"><code>esearch -db nuccore -query &quot;\&quot;\(internal transcribed spacer 1\&quot;[All Fields] AND \(300[SLEN] : 600[SLEN]\)\) NOT \&quot;uncultured Neocallimastigales\&quot;[porgn] NOT \&quot;bacteria\&quot;[Filter]&quot; \
  | efetch -format fasta -mode text &gt; ./Desktop/NCBI_ITS1_DB_raw.fasta
 
 # this downloads fasta with ALL ncbi seqs of ITS1 between 300:600 bp, that aren&#39;t bacterial or 
@@ -432,12 +439,10 @@ exec bash</code></pre>
 # depending on size of query results, this can take some time, so be careful about hangups and make 
 # sure your connection is good</code></pre>
 <p>Okay, now since NCBI has all kinds of crazy uncurated data, we need to look for empty sequences before proceeding, as these will cause major problems down the line. You can find and remove these really quickly with awk:</p>
-<pre class="bash"><code>
-###  Search for and remove any empty sequences ###
+<pre class="r"><code>###  Search for and remove any empty sequences ###
 awk &#39;BEGIN {RS = &quot;&gt;&quot; ; FS = &quot;\n&quot; ; ORS = &quot;&quot;} {if ($2) print &quot;&gt;&quot;$0}&#39; NCBI_ITS1_DB_raw.fasta &gt; NCBI_ITS1_DB.fasta</code></pre>
 <h4 id="now-that-we-have-the-sequences-we-want-the-second-step-is-to-download-all-of-the-ncbi-names-and-taxonomic-information">2) Now that we have the sequences we want, the second step is to download all of the NCBI names and taxonomic information</h4>
-<pre class="bash"><code>
-### Download NCBI names and taxonomy information (check md5sums to ensure proper downloads) ###
+<pre class="r"><code>### Download NCBI names and taxonomy information (check md5sums to ensure proper downloads) ###
 
 #accession_to_taxid
  ftp ftp://ftp.ncbi.nih.gov/pub/taxonomy/accession2taxid/nucl_gb.accession2taxid.gz
@@ -450,13 +455,12 @@ awk &#39;BEGIN {RS = &quot;&gt;&quot; ; FS = &quot;\n&quot; ; ORS = &quot;&quot;
 #files_to_keep = nodes.dmp, names.dmp, merged.dmp and delnodes.dmp
  rm citations.dmp division.dmp gc.prt gencode.dmp</code></pre>
 <h4 id="now-we-should-be-ready-to-format-the-database-for-use-in-qiime.-i-played-around-with-clumsy-ways-of-doing-this-but-the-fastest-and-simplest-is-a-script-by-christopher-baker-named-entrez_qiime.py">3) Now we should be ready to format the database for use in QIIME. I played around with clumsy ways of doing this, but the fastest and simplest is a script by Christopher Baker named <a href="https://github.com/bakerccm/entrez_qiime">entrez_qiime.py</a></h4>
-<pre class="bash"><code>
-# script available at:  https://github.com/bakerccm/entrez_qiime
+<pre class="r"><code># script available at:  https://github.com/bakerccm/entrez_qiime
 # note that absolute filepaths are necessary or the script may return an error
 
 python enterz_qiime.py -i ABSOLUTE_PATH/NCBI_ITS1_DB.fasta -o ABSOLUTE_OUTPUT_PATH/NCBI_ITS1_Taxonomy.txt -r kingdom,phyllum,class,order,family,genus,species</code></pre>
 <h4 id="the-entrez_qiime.py-script-is-super-fast-and-easy-but-your-files-will-probably-need-a-lot-of-grooming-or-qiime-will-act-very-rudely.-here-are-the-steps-that-were-needed-to-prepare-my-files">4) The entrez_qiime.py script is super fast and easy, but your files will probably need a lot of grooming or QIIME will act very rudely. Here are the steps that were needed to prepare my files:</h4>
-<pre class="bash"><code>### Validate and Tidy up files ###
+<pre class="r"><code>### Validate and Tidy up files ###
 
 ### Edit output file to include rank IDs (QIIME needs them for some scripts)
 cat NCBI_ITS1_Taxonomy.txt | sed &#39;s/\t/\tk__/&#39; | sed &#39;s/;/&gt;p__/&#39; | sed &#39;s/;/&gt;c__/&#39; | sed &#39;s/;/&gt;o__/&#39; | sed &#39;s/;/&gt;f__/&#39; | sed &#39;s/;/&gt;g__/&#39; | sed &#39;s/;/&gt;s__/&#39; | sed &#39;s/&gt;/;/g&#39; &gt; NCBI_ITS1_QIIME_Taxonomy.txt

@@ -1,6 +1,13 @@
 ---
 output: html_document
 ---
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 
 <style>
 div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}

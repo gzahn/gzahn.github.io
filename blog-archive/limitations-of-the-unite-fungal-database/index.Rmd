@@ -1,6 +1,14 @@
 ---
 output: html_document
 ---
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
 ## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/)
 
 ___
@@ -52,7 +60,7 @@ ___
 
 #### 1) The first step is to make sure you have ENTREZ Direct installed on your machine.  This is a tool from NCBI that allows you to query the NCBI database remotely from the command line. Then we will use it to design a search query against NCBI...
 
-```{bash,include=TRUE,eval=FALSE}
+```{r,include=TRUE,eval=FALSE}
 # Install EDirect on your local machine:
 
 cd ~
@@ -74,13 +82,13 @@ Now we can design a query that will scour NCBI and pull only the records that we
 
 This search string looks like this:
 
-```{bash,include=TRUE,eval=FALSE}
+```{r,include=TRUE,eval=FALSE}
 (“internal transcribed spacer 1″[All Fields] AND (“300″[SLEN] : “600”[SLEN])) NOT “uncultured Neocallimastigales”[porgn] NOT “bacteria”[Filter]
 ```
 
 . . . And to use it in EDirect, it looks like this (note the character escapes before crucial quotes):
 
-```{bash,include=TRUE,eval=FALSE}
+```{r,include=TRUE,eval=FALSE}
 esearch -db nuccore -query "\"\(internal transcribed spacer 1\"[All Fields] AND \(300[SLEN] : 600[SLEN]\)\) NOT \"uncultured Neocallimastigales\"[porgn] NOT \"bacteria\"[Filter]" \
  | efetch -format fasta -mode text > ./Desktop/NCBI_ITS1_DB_raw.fasta
 
@@ -93,7 +101,7 @@ esearch -db nuccore -query "\"\(internal transcribed spacer 1\"[All Fields] AND 
 
  Okay, now since NCBI has all kinds of crazy uncurated data, we need to look for empty sequences before proceeding, as these will cause major problems down the line.  You can find and remove these really quickly with awk:
 
-```{bash,include=TRUE,eval=FALSE}
+```{r,include=TRUE,eval=FALSE}
 
 ###  Search for and remove any empty sequences ###
 awk 'BEGIN {RS = ">" ; FS = "\n" ; ORS = ""} {if ($2) print ">"$0}' NCBI_ITS1_DB_raw.fasta > NCBI_ITS1_DB.fasta
@@ -101,7 +109,7 @@ awk 'BEGIN {RS = ">" ; FS = "\n" ; ORS = ""} {if ($2) print ">"$0}' NCBI_ITS1_DB
 
 #### 2) Now that we have the sequences we want, the second step is to download all of the NCBI names and taxonomic information
 
-```{bash,include=TRUE,eval=FALSE}
+```{r,include=TRUE,eval=FALSE}
 
 ### Download NCBI names and taxonomy information (check md5sums to ensure proper downloads) ###
 
@@ -120,7 +128,7 @@ awk 'BEGIN {RS = ">" ; FS = "\n" ; ORS = ""} {if ($2) print ">"$0}' NCBI_ITS1_DB
 #### 3) Now we should be ready to format the database for use in QIIME. I played around with clumsy ways of doing this, but the fastest and simplest is a script by Christopher Baker named [entrez_qiime.py](https://github.com/bakerccm/entrez_qiime)
 
 
-```{bash,include=TRUE,eval=FALSE}
+```{r,include=TRUE,eval=FALSE}
 
 # script available at:  https://github.com/bakerccm/entrez_qiime
 # note that absolute filepaths are necessary or the script may return an error
@@ -131,7 +139,7 @@ python enterz_qiime.py -i ABSOLUTE_PATH/NCBI_ITS1_DB.fasta -o ABSOLUTE_OUTPUT_PA
 #### 4) The entrez_qiime.py script is super fast and easy, but your files will probably need a lot of grooming or QIIME will act very rudely.  Here are the steps that were needed to prepare my files:
 
  
-```{bash,eval=FALSE,include=TRUE}
+```{r,eval=FALSE,include=TRUE}
 ### Validate and Tidy up files ###
 
 ### Edit output file to include rank IDs (QIIME needs them for some scripts)
