@@ -1,0 +1,159 @@
+---
+output: html_document
+---
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [DATA COURSE](http://gzahn.github.io/data-course/)
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+# **Intro to Data Analysis**
+Utah Valley University - BIOL3100
+
+## Quick links:
+
+#### [Course GitHub Repository](https://github.com/gzahn/Data_Course)
+#### [Course Syllabus](https://github.com/gzahn/Data_Course/blob/master/Syllabus.pdf)
+
+
+</div>
+
+___
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+#### Week 1
++ **Topics:** 
+  - Installing Software | Command-line | Git version control 
++ **Assignments**  
+  - Read: [What is Git all about?](https://github.com/gzahn/gzahn.github.io/blob/master/Readings/Bryan_2017_Excuse_me%2C_do_you_have_a_moment_to_talk_about_vers.pdf)
+  - Install Git, R, and R-Studio on your laptop (part of Assignment 1)
+  - Be ready to explain what Git, R, and R-Studio are.
+  - Do [Assignment 1](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_1/Assignment_1.pdf) and upload a link to your new GitHub account to Canvas.
++ **Resources**
+  - [Download Git](https://git-scm.com/downloads)
+  - [Download R](https://cran.cnr.berkeley.edu/)
+  - [Download R-Studio](https://rstudio.com/products/rstudio/download/#download)
+  - [Navigating with the command line](https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855)
+  - [Basic Git Commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
++ **Practice**
+  - Make 10 separate changes and commits to your README.md file and push each one to GitHub 
+
+___
+
+#### Week 2
++ **Topics**
+  - File paths | Pipes | Redirection | Wildcards | Essential Unix Commands
++ **Assignments**
+  - [Assignment 2](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_2/Assignment_2.pdf)
++ **Resources**
+  - [Remedial Unix Shell](https://github.com/gzahn/Data_Course/blob/master/Readings/Further_Reading_for_Shell_Tricks.pdf)
+  - [Basic Unix Commands](https://www.unixtutorial.org/basic-unix-commands?print=pdf)
+  - [Very Useful Tutorial](https://www.learnenough.com/command-line-tutorial/basics#sec-introduction)
++ **Practice**
+  - [Exercise 1](https://github.com/gzahn/Data_Course/blob/master/Exercises/shell_detective.txt)
+  - [Exercise 2](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_unicorn_code.txt)
+  
+#### Week 3
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+#### Week 2
++ **Topics**
++ **Assignments**
++ **Resources**
++ **Practice**
+
+
+</div>
