@@ -1,5 +1,7 @@
 ---
-output: html_document
+output: 
+html_document:
+  number_sections=TRUE
 pagetitle: BIOL3100
 ---
 
@@ -13,17 +15,41 @@ pagetitle: BIOL3100
 
 ## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [DATA COURSE](http://gzahn.github.io/data-course/)
 
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "300px",echo=FALSE}
+knitr::include_graphics("../media/sticker.png")
+```
+</div>
+
 <style>
 div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "gray">
-# **Intro to Data Analysis**
+
+
+# **Intro to Data Analysis**{#top}
 Utah Valley University - BIOL3100
+
+
 
 ## Quick links:
 
 #### [Course GitHub Repository](https://github.com/gzahn/Data_Course)
 #### [Course Syllabus](https://github.com/gzahn/Data_Course/blob/master/Syllabus.pdf)
+#### [Shared Course Notes](https://docs.google.com/document/d/1Nnjv1RkdegUR3pOp8Jb81ryE-_C59T4dLWYyJqVSz9Y/edit?usp=sharing)
+(Anyone with link can edit)
+
+___
+
+#### Table of Contents
+
+[Week 1](#Week-1)    |    [Week 5](#Week-5)    |    [Week 9](#Week-9) | [Week 13](#Week-13)
+
+[Week 2](#Week-2)    |    [Week 6](#Week-6)    |    [Week 10](#Week-10) | [Week 14](#Week-14)
+
+[Week 3](#Week-3)    |    [Week 7](#Week-7)    |    [Week 11](#Week-11) | [Week 15](#Week-15)
+
+[Week 4](#Week-4)    |    [Week 8](#Week-8)    |    [Week 12](#Week-12) | [Week 16](#Week-16)
 
 
 </div>
@@ -37,7 +63,7 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 
 ## The Command Line, File Paths, Git
 
-### Week 1
+### Week 1{#Week-1}
 + **Topics:** 
   - Installing Software | Command-line | Git version control 
 + **Assignments**  
@@ -54,9 +80,9 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 + **Practice**
   - Make 10 separate changes and commits to your README.md file and push each one to GitHub 
 
+[Back to top of page](#top)
 
-
-### Week 2
+### Week 2{#Week-2}
 + **Topics**
   - File paths | Pipes | Redirection | Wildcards | Essential Unix Commands | Parameters
 + **Assignments**
@@ -69,11 +95,13 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
   - [Exercise 1](https://github.com/gzahn/Data_Course/blob/master/Exercises/shell_detective.txt)
   - [Exercise 2](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_unicorn_code.txt)
   
+[Back to top of page](#top)
+
 ___
 
 ## Getting to Know R
 
-### Week 3
+### Week 3{#Week-3}
 + **Topics**
   - R Data types and conversions | Reading and Writing Files | For-Loops | Packages and Projects
 + **Assignments**
@@ -93,9 +121,9 @@ ___
   - [Missing Values](https://github.com/gzahn/Data_Course/blob/master/Exercises/05_Missing_Values.pdf)
   - [Loops in R](https://github.com/gzahn/Data_Course/blob/master/Exercises/08_Loops.pdf)
   
-
+[Back to top of page](#top)
   
-#### Week 4
+#### Week 4{#Week-4}
 + **Topics**
   - Logical Operations | Subsetting | "Grammar of Graphics" ggplot Intro
 + **Assignments**
@@ -109,12 +137,15 @@ ___
 + **Practice**
   - [Logical Operations](https://github.com/gzahn/Data_Course/blob/master/Exercises/06_Logical_Operations.pdf)
   - Find a **new** built-in data set in R. Use several methods to subset it over and over until you are an expert!
+  - [Out-of-order Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/data_frame_subsets_out-of-order.R)
   
+[Back to top of page](#top)
+
 ___
 
 ## Visualizing a Data Set
 
-### Week 5
+### Week 5{#Week-5}
 + **Topics**
   - ggplot | patchwork | ggforce
 + **Assignments**
@@ -127,12 +158,16 @@ ___
   - [Extensive ggplot2 Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html)
 + **Practice**
   - Ugly plot contest!
+  - [Out-of-order Plotting Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_CO2_plot.R)
+  - [ggplot Examples](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/ggplot_intro.R)
   
+[Back to top of page](#top)
+
 ___
 
 ## Clean and Transform Data
 
-### Week 6
+### Week 6{#Week-6}
 + **Topics**
   - Tidy Data | dplyr verbs | tidyr verbs
 + **Assignments**
@@ -145,10 +180,14 @@ ___
   - [tidyr Verbs](https://tidyr.tidyverse.org/)
   - [tidyverse Cheat Sheet](https://github.com/gzahn/Data_Course/blob/master/Readings/Tidyverse%2BCheat%2BSheet.pdf)
 + **Practice**
+  - [BioLog Challenge](https://github.com/gzahn/Data_Course/blob/master/Exercises/BioLog_Challenge.R)
+  - [Out-of-order Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_CO2_plot.R)
+  - [Out-of-order Code2](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_grading_code.R)
+
+[Back to top of page](#top)
 
 
-
-### Week 7
+### Week 7{#Week-7}
 + **Topics**
   - Data Wrangling | Joins | The Curse of Other Peoples' Data
 + **Assignments**
@@ -162,13 +201,16 @@ ___
   - [Visual Explanations of Joins](https://github.com/gadenbuie/tidyexplain)
 + **Practice**
   - Download [this spreadsheet](https://github.com/gzahn/Tidy_Data_Workshop/raw/master/Worst%20Data%20Storage%20Ever.xlsx). See if you figure out all the things wrong with it.
-  - 
+  - [Error Sleuth Practice](https://github.com/gzahn/Data_Course/blob/master/Exercises/error_sleuth_pt1.R)
+  - [Data Entry Case Study](https://github.com/gzahn/Data_Course/blob/master/Exercises/Data_Entry_Case_Study.txt)
+  
+[Back to top of page](#top)
 
 ___
 
 ## Getting More From R
 
-### Week 8
+### Week 8{#Week-8}
 + **Topics**
   - Writing Functions | Conditional Execution | source()
 + **Assignments**
@@ -182,12 +224,14 @@ ___
   - Write a **useful** function that you might want to use in the future (your choice)
   - Put all of these functions into a new R script and save it in **your** main data course repository
   - In a new empty R script, call your functions with source() and test them out
-  
+
+[Back to top of page](#top)
+
 ___
 
 ## Model Building and Testing
 
-### Week 9
+### Week 9{#Week-9}
 + **Topics**
   - Building and Testing Models
 + **Assignments**
@@ -197,10 +241,14 @@ ___
   - [Model Basics](https://r4ds.had.co.nz/model-basics.html)
   - [Model Fitting](https://r4ds.had.co.nz/model-building.html)
 + **Practice**
+  - [Building Models Example](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/building_basic_models.R)
+  - [Intro to Hypothesis Testing](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/hyp_testing_intro.R)
+  - [Cross-Validation and Logistic Regression](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/simple_regression.R)
+  
+[Back to top of page](#top)  
 
 
-
-### Week 10
+### Week 10{#Week-10}
 + **Topics**
   - More models | Statistical Tests
 + **Assignments**
@@ -211,11 +259,13 @@ ___
   - 
 + **Practice**
 
+[Back to top of page](#top)
+
 ___
 
 ## Communicating Your Results
 
-### Week 11
+### Week 11{#Week-11}
 + **Topics**
   - R-Markdown | Reproducible Reports
 + **Assignments**
@@ -225,9 +275,9 @@ ___
   - [Markdown Live Preview Generator](https://dillinger.io/)
 + **Practice**
 
+[Back to top of page](#top)
 
-
-### Week 12
+### Week 12{#Week-12}
 + **Topics**
   - Proper Project Organization | Collaboration 
 + **Assignments**
@@ -236,11 +286,13 @@ ___
 + **Resources**
 + **Practice**
 
+[Back to top of page](#top)
+
 ___
 
 ## Putting it all together
 
-### Week 13
+### Week 13{#Week-13}
 + **Topics**
   - Data Analysis from raw to report
 + **Assignments**
@@ -248,31 +300,41 @@ ___
 + **Practice**
   - Analyze the "esoph" data set and generate a markdown report
 
+
+[Back to top of page](#top)
+
 ___
 
-### Week 14
+### Week 14{#Week-14}
 + **Topics**
-  - TBD
+  - Building a website
 + **Assignments**
   - Work on Final Project
+  - Create a GitHub Personal Website
+
+
+[Back to top of page](#top)
 
 ___
 
-### Week 15
+### Week 15{#Week-15}
 + **Topics**
   -TBD
 + **Assignments**
   - Work on Final Project
 
 
+[Back to top of page](#top)
+
 ___
 
-### Week 16
+### Week 16{#Week-16}
 + **Topics**
   - TBD
 + **Assignments**
   - Exam 4 (Redo any previous exam to replace it's score)
 
+[Back to top of page](#top)
 
 ___
 
