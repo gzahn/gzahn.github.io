@@ -38,6 +38,7 @@ Utah Valley University - BIOL3100
 #### [Course Syllabus](https://github.com/gzahn/Data_Course/blob/master/Syllabus.pdf)
 #### [Shared Course Notes](https://docs.google.com/document/d/1Nnjv1RkdegUR3pOp8Jb81ryE-_C59T4dLWYyJqVSz9Y/edit?usp=sharing)
 (Anyone with link can edit)
+
 #### [The philosophy of this course](http://gzahn.github.io/media/spocklogic.jpg)
 
 ___
