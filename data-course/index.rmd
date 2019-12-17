@@ -1,6 +1,8 @@
 ---
 output: html_document
+pagetitle: BIOL3100
 ---
+
 <style type="text/css">
 .main-container {
   max-width: 1800px;
@@ -33,7 +35,9 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
 
-#### Week 1
+## The Command Line, File Paths, Git
+
+### Week 1
 + **Topics:** 
   - Installing Software | Command-line | Git version control 
 + **Assignments**  
@@ -50,11 +54,11 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 + **Practice**
   - Make 10 separate changes and commits to your README.md file and push each one to GitHub 
 
-___
 
-#### Week 2
+
+### Week 2
 + **Topics**
-  - File paths | Pipes | Redirection | Wildcards | Essential Unix Commands
+  - File paths | Pipes | Redirection | Wildcards | Essential Unix Commands | Parameters
 + **Assignments**
   - [Assignment 2](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_2/Assignment_2.pdf)
 + **Resources**
@@ -65,95 +69,211 @@ ___
   - [Exercise 1](https://github.com/gzahn/Data_Course/blob/master/Exercises/shell_detective.txt)
   - [Exercise 2](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_unicorn_code.txt)
   
-#### Week 3
+___
+
+## Getting to Know R
+
+### Week 3
 + **Topics**
+  - R Data types and conversions | Reading and Writing Files | For-Loops | Packages and Projects
 + **Assignments**
+  - [Assignment 3](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_3/Assignment_3.pdf)
+  - [Assignment 4](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_4/Assignment_4.pdf)
++ **Resources**
+  - [Data Types in R](https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/)
+  - [For-Loops](https://www.datamentor.io/r-programming/for-loop/)
+  - [Reading data into R](https://www.datacamp.com/community/tutorials/r-data-import-tutorial)
+  - [R Projects](https://r4ds.had.co.nz/workflow-projects.html)
++ **Practice**
+  - [Vectors](https://github.com/gzahn/Data_Course/blob/master/Exercises/01_Vectors.pdf)
+  - [Factors](https://github.com/gzahn/Data_Course/blob/master/Exercises/07_Factors.pdf)
+  - [Characters](https://github.com/gzahn/Data_Course/blob/master/Exercises/04_Characters.pdf)
+  - [Regular Sequences](https://github.com/gzahn/Data_Course/blob/master/Exercises/02_Regular_Sequences.pdf)
+  - [Indexing](https://github.com/gzahn/Data_Course/blob/master/Exercises/03_Indexing.pdf)
+  - [Missing Values](https://github.com/gzahn/Data_Course/blob/master/Exercises/05_Missing_Values.pdf)
+  - [Loops in R](https://github.com/gzahn/Data_Course/blob/master/Exercises/08_Loops.pdf)
+  
+
+  
+#### Week 4
++ **Topics**
+  - Logical Operations | Subsetting | "Grammar of Graphics" ggplot Intro
++ **Assignments**
+  - Read through the materials in the Resources section below
+  - [Assignment 5](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_5/Assignment_5.pdf)
+  - Exam 1
++ **Resources**
+  - [Subsetting](http://adv-r.had.co.nz/Subsetting.html)
+  - [More Subsetting](https://www.r-bloggers.com/5-ways-to-subset-a-data-frame-in-r/)(It's important!)
+  - [Operators](https://www.statmethods.net/management/operators.html)
++ **Practice**
+  - [Logical Operations](https://github.com/gzahn/Data_Course/blob/master/Exercises/06_Logical_Operations.pdf)
+  - Find a **new** built-in data set in R. Use several methods to subset it over and over until you are an expert!
+  
+___
+
+## Visualizing a Data Set
+
+### Week 5
++ **Topics**
+  - ggplot | patchwork | ggforce
++ **Assignments**
+  - [Assignment 6](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_6/Assignment_6new.pdf)
++ **Resources**
+  - [ggplot Introduction](https://r4ds.had.co.nz/data-visualisation.html)
+  - [More ggplot](https://ggplot2.tidyverse.org/)
+  - [ggforce](https://ggforce.data-imaginist.com/)
+  - [patchwork](https://github.com/thomasp85/patchwork)
+  - [Extensive ggplot2 Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html)
++ **Practice**
+  - Ugly plot contest!
+  
+___
+
+## Clean and Transform Data
+
+### Week 6
++ **Topics**
+  - Tidy Data | dplyr verbs | tidyr verbs
++ **Assignments**
+  - Read this paper: [Tidy Data](https://github.com/gzahn/Data_Course/blob/master/Readings/tidy-data_Wickham.pdf)
+  - [Assignment 7](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_7/Assignment_7new.pdf)
++ **Resources**
+  - [Tidy Data Chapter](https://r4ds.had.co.nz/tidy-data.html#tidy-data-1)
+  - [Transforming Data Frames](https://r4ds.had.co.nz/transform.html)
+  - [dplyr Verbs](https://dplyr.tidyverse.org/)
+  - [tidyr Verbs](https://tidyr.tidyverse.org/)
+  - [tidyverse Cheat Sheet](https://github.com/gzahn/Data_Course/blob/master/Readings/Tidyverse%2BCheat%2BSheet.pdf)
++ **Practice**
+
+
+
+### Week 7
++ **Topics**
+  - Data Wrangling | Joins | The Curse of Other Peoples' Data
++ **Assignments**
+  - Read [This Handout](https://github.com/gzahn/Data_Course/blob/master/Readings/Excel_Advice_Handout.pdf)
+  - Read [This Paper](https://github.com/gzahn/Data_Course/blob/master/Readings/Broman_and_Woo_2017_Data_organization_in_spreadsheets.pdf)
+  - Create a validated Excel Spreadsheet for data collection for te experiment we design in class
+  - Exam 2
++ **Resources**
+  - [Data Wrangling Chapter](https://r4ds.had.co.nz/wrangle-intro.html)
+  - [Wrangling Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+  - [Visual Explanations of Joins](https://github.com/gadenbuie/tidyexplain)
++ **Practice**
+  - Download [this spreadsheet](https://github.com/gzahn/Tidy_Data_Workshop/raw/master/Worst%20Data%20Storage%20Ever.xlsx). See if you figure out all the things wrong with it.
+  - 
+
+___
+
+## Getting More From R
+
+### Week 8
++ **Topics**
+  - Writing Functions | Conditional Execution | source()
++ **Assignments**
++ **Resources**
+  - [Functions](https://r4ds.had.co.nz/functions.html)
+  - [Conditional Execution](https://r4ds.had.co.nz/functions.html#conditional-execution)
++ **Practice**
+  - Write a function that returns the min, max, and mean of any set of real numbers
+  - Write a function that takes a data frame and returns a new data frame with one **random** column removed
+  - Write a function that takes a data frame... if there are more than 3 columns, your function should return the column names as-is; if there are 3 or fewer columns, your function should return the column names in **reverse order.**
+  - Write a **useful** function that you might want to use in the future (your choice)
+  - Put all of these functions into a new R script and save it in **your** main data course repository
+  - In a new empty R script, call your functions with source() and test them out
+  
+___
+
+## Model Building and Testing
+
+### Week 9
++ **Topics**
+  - Building and Testing Models
++ **Assignments**
+  - [Assignment 8](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_8/Assignment_8new.pdf)
++ **Resources**
+  - [Modeling Intro](https://r4ds.had.co.nz/model-intro.html)
+  - [Model Basics](https://r4ds.had.co.nz/model-basics.html)
+  - [Model Fitting](https://r4ds.had.co.nz/model-building.html)
++ **Practice**
+
+
+
+### Week 10
++ **Topics**
+  - More models | Statistical Tests
++ **Assignments**
++ **Resources**
+  - [Linear Regression](http://r-statistics.co/Linear-Regression.html)
+  - [More Linear Regression](https://www.dataquest.io/blog/statistical-learning-for-predictive-modeling-r/)
+  - [Common Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html)
+  - 
++ **Practice**
+
+___
+
+## Communicating Your Results
+
+### Week 11
++ **Topics**
+  - R-Markdown | Reproducible Reports
++ **Assignments**
+  - [Assignment 9](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_9/Assignment_9new.pdf)
++ **Resources**
+  - [Intro to R Markdown](https://github.com/cbwall/Intro-to-Rmarkdown)
+  - [Markdown Live Preview Generator](https://dillinger.io/)
++ **Practice**
+
+
+
+### Week 12
++ **Topics**
+  - Proper Project Organization | Collaboration 
++ **Assignments**
+  - Peer evaluation of Assignment 9 (Organization, Portability, Accuracy, Understandablity)
+  - Exam 3
 + **Resources**
 + **Practice**
 
-#### Week 2
+___
+
+## Putting it all together
+
+### Week 13
 + **Topics**
+  - Data Analysis from raw to report
 + **Assignments**
 + **Resources**
 + **Practice**
+  - Analyze the "esoph" data set and generate a markdown report
 
-#### Week 2
+___
+
+### Week 14
 + **Topics**
+  - TBD
 + **Assignments**
-+ **Resources**
-+ **Practice**
+  - Work on Final Project
 
-#### Week 2
+___
+
+### Week 15
 + **Topics**
+  -TBD
 + **Assignments**
-+ **Resources**
-+ **Practice**
+  - Work on Final Project
 
-#### Week 2
+
+___
+
+### Week 16
 + **Topics**
+  - TBD
 + **Assignments**
-+ **Resources**
-+ **Practice**
+  - Exam 4 (Redo any previous exam to replace it's score)
 
-#### Week 2
-+ **Topics**
-+ **Assignments**
-+ **Resources**
-+ **Practice**
 
-#### Week 2
-+ **Topics**
-+ **Assignments**
-+ **Resources**
-+ **Practice**
-
-#### Week 2
-+ **Topics**
-+ **Assignments**
-+ **Resources**
-+ **Practice**
-
-#### Week 2
-+ **Topics**
-+ **Assignments**
-+ **Resources**
-+ **Practice**
-
-#### Week 2
-+ **Topics**
-+ **Assignments**
-+ **Resources**
-+ **Practice**
-
-#### Week 2
-+ **Topics**
-+ **Assignments**
-+ **Resources**
-+ **Practice**
-
-#### Week 2
-+ **Topics**
-+ **Assignments**
-+ **Resources**
-+ **Practice**
-
-#### Week 2
-+ **Topics**
-+ **Assignments**
-+ **Resources**
-+ **Practice**
-
-#### Week 2
-+ **Topics**
-+ **Assignments**
-+ **Resources**
-+ **Practice**
-
-#### Week 2
-+ **Topics**
-+ **Assignments**
-+ **Resources**
-+ **Practice**
-
+___
 
 </div>

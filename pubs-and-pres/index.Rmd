@@ -23,6 +23,14 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 ___
 
+**Tipton\*, L., Zahn\*, G., Datlof, E., Kivlin, S. N., Sheridan, P., Amend, A. S., & Hynson, N. A.. 2019. Fungal aerobiota are not affected by time nor environment over a 13-y time series at the Mauna Loa Observatory. Proceedings of the National Academy of Sciences. https://doi.org/10.1073/pnas.1907414116**
+
+Upper-atmosphere fungal assemblages are stochastic over a decadal scale. Seriously *nothing* seems to affect them deterministically.
+
+*These authors contributed equally to this work
+
+___
+
 **Benjamin J. Wainwright, Geoffrey L. Zahn, Joshua Zushi, Nicole Li Ying Lee, Jillian Lean Sim Ooi, Jen Nie Lee, Danwei Huang. 2019. Seagrass-associated fungal communities show distance decay of similarity that has implications for seagrass management and restoration. Ecology and Evolution. https://doi.org/10.1002/ece3.5631**
 
 Even with few presumed barriers to dispersal, seagrass-associated fungal communities appear to be structured by location.
