@@ -62,7 +62,7 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
 
-## The Command Line, File Paths, Git
+
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
 knitr::include_graphics("../media/week1.jpg")
@@ -85,6 +85,8 @@ knitr::include_graphics("../media/week1.jpg")
   - [Mechanisms of Antibiotic Resistance](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4888801/)
   
 [Back to top of page](#top)
+
+___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
@@ -135,6 +137,8 @@ knitr::include_graphics("../media/week3.jpg")
   
 [Back to top of page](#top)
   
+___
+
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "250px",echo=FALSE}
 knitr::include_graphics("../media/week4.png")
@@ -207,6 +211,8 @@ knitr::include_graphics("../media/week6.png")
   
 [Back to top of page](#top)
 
+
+___
 
 ### **Week 7**{#Week-7}
 
