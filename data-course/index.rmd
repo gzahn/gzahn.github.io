@@ -38,6 +38,7 @@ Utah Valley University - BIOL3100
 #### [Course Syllabus](https://github.com/gzahn/Data_Course/blob/master/Syllabus.pdf)
 #### [Shared Course Notes](https://docs.google.com/document/d/1Nnjv1RkdegUR3pOp8Jb81ryE-_C59T4dLWYyJqVSz9Y/edit?usp=sharing)
 (Anyone with link can edit)
+#### [The philosophy of this course](http://gzahn.github.io/media/spocklogic.jpg)
 
 ___
 
@@ -52,6 +53,8 @@ ___
 [Week 4](#Week-4)    |    [Week 8](#Week-8)    |    [Week 12](#Week-12) | [Week 16](#Week-16)
 
 
+
+
 </div>
 
 ___
@@ -62,8 +65,13 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 <div class = "blue">
 
 ## The Command Line, File Paths, Git
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "250px",echo=FALSE}
+knitr::include_graphics("../media/git_2x.png")
+```
+</div>
 
-### Week 1{#Week-1}
+### **Week 1**{#Week-1}
 + **Topics:** 
   - Installing Software | Command-line | Git version control 
 + **Assignments**  
@@ -82,7 +90,13 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 
 [Back to top of page](#top)
 
-### Week 2{#Week-2}
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/file_tree.png")
+```
+</div>
+
+### **Week 2**{#Week-2}
 + **Topics**
   - File paths | Pipes | Redirection | Wildcards | Essential Unix Commands | Parameters
 + **Assignments**
@@ -101,7 +115,14 @@ ___
 
 ## Getting to Know R
 
-### Week 3{#Week-3}
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/Rvariablesdata.jpg")
+```
+</div>
+
+
+### **Week 3**{#Week-3}
 + **Topics**
   - R Data types and conversions | Reading and Writing Files | For-Loops | Packages and Projects
 + **Assignments**
@@ -123,7 +144,14 @@ ___
   
 [Back to top of page](#top)
   
-#### Week 4{#Week-4}
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/operators.png")
+```
+</div>
+  
+  
+### **Week 4**{#Week-4}
 + **Topics**
   - Logical Operations | Subsetting | "Grammar of Graphics" ggplot Intro
 + **Assignments**
@@ -145,7 +173,13 @@ ___
 
 ## Visualizing a Data Set
 
-### Week 5{#Week-5}
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/ggplot_example.png")
+```
+</div>
+
+### **Week 5**{#Week-5}
 + **Topics**
   - ggplot | patchwork | ggforce
 + **Assignments**
@@ -167,7 +201,13 @@ ___
 
 ## Clean and Transform Data
 
-### Week 6{#Week-6}
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/sepalwidth.jpg")
+```
+</div>
+
+### **Week 6**{#Week-6}
 + **Topics**
   - Tidy Data | dplyr verbs | tidyr verbs
 + **Assignments**
@@ -186,14 +226,19 @@ ___
 
 [Back to top of page](#top)
 
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/real_world_data.jpg")
+```
+</div>
 
-### Week 7{#Week-7}
+### **Week 7**{#Week-7}
 + **Topics**
   - Data Wrangling | Joins | The Curse of Other Peoples' Data
 + **Assignments**
   - Read [This Handout](https://github.com/gzahn/Data_Course/blob/master/Readings/Excel_Advice_Handout.pdf)
   - Read [This Paper](https://github.com/gzahn/Data_Course/blob/master/Readings/Broman_and_Woo_2017_Data_organization_in_spreadsheets.pdf)
-  - Create a validated Excel Spreadsheet for data collection for te experiment we design in class
+  - Create a validated Excel Spreadsheet for data collection for the experiment we design in class
   - Exam 2
 + **Resources**
   - [Data Wrangling Chapter](https://r4ds.had.co.nz/wrangle-intro.html)
@@ -210,7 +255,14 @@ ___
 
 ## Getting More From R
 
-### Week 8{#Week-8}
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/function.png")
+```
+</div>
+
+
+### **Week 8**{#Week-8}
 + **Topics**
   - Writing Functions | Conditional Execution | source()
 + **Assignments**
@@ -229,9 +281,15 @@ ___
 
 ___
 
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/model1.png")
+```
+</div>
+
 ## Model Building and Testing
 
-### Week 9{#Week-9}
+### **Week 9**{#Week-9}
 + **Topics**
   - Building and Testing Models
 + **Assignments**
@@ -245,10 +303,17 @@ ___
   - [Intro to Hypothesis Testing](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/hyp_testing_intro.R)
   - [Cross-Validation and Logistic Regression](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/simple_regression.R)
   
+  
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/logistic.jpg")
+```
+</div>
+
 [Back to top of page](#top)  
 
 
-### Week 10{#Week-10}
+### **Week 10**{#Week-10}
 + **Topics**
   - More models | Statistical Tests
 + **Assignments**
@@ -265,7 +330,14 @@ ___
 
 ## Communicating Your Results
 
-### Week 11{#Week-11}
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/rmd.png")
+```
+</div>
+
+### **Week 11**{#Week-11}
 + **Topics**
   - R-Markdown | Reproducible Reports
 + **Assignments**
@@ -277,26 +349,45 @@ ___
 
 [Back to top of page](#top)
 
-### Week 12{#Week-12}
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/jennybryan.jpeg")
+```
+</div>
+
+### **Week 12**{#Week-12}
 + **Topics**
   - Proper Project Organization | Collaboration 
 + **Assignments**
   - Peer evaluation of Assignment 9 (Organization, Portability, Accuracy, Understandablity)
   - Exam 3
 + **Resources**
+  - [Project-oriented Workflows](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
+  - [Reproducible, Portable, Self-Contained](https://ptds2018.netlify.com/tutorials/workflow/)
+  - [Proper Project Organization Example](https://github.com/gzahn/Data_Course/tree/master/Code_Examples/Example_Project)
+  - [Another, More Detailed Example](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf)
 + **Practice**
 
 [Back to top of page](#top)
 
 ___
 
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/aliens.jpg")
+```
+</div>
+
 ## Putting it all together
 
-### Week 13{#Week-13}
+### **Week 13**{#Week-13}
 + **Topics**
   - Data Analysis from raw to report
 + **Assignments**
+  - We will work together in class to do a complete analysis in real-time
 + **Resources**
+  - [Benefits of Live Coding](https://gzahn.github.io/Readings/LiveCoding.pdf)
 + **Practice**
   - Analyze the "esoph" data set and generate a markdown report
 
@@ -305,19 +396,37 @@ ___
 
 ___
 
-### Week 14{#Week-14}
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/404.PNG")
+```
+</div>
+
+### **Week 14**{#Week-14}
 + **Topics**
   - Building a website
 + **Assignments**
   - Work on Final Project
   - Create a GitHub Personal Website
+  - Upload a brief CV and the updated (improved) html of Assignment 9
++ **Resources**
+  - [GitHub Pages](https://pages.github.com/)
+  - Here's the [GitHub repository for this entire website](https://github.com/gzahn/gzahn.github.io)
 
 
 [Back to top of page](#top)
 
 ___
 
-### Week 15{#Week-15}
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/final.png")
+```
+</div>
+
+### **Week 15**{#Week-15}
 + **Topics**
   -TBD
 + **Assignments**
@@ -328,7 +437,7 @@ ___
 
 ___
 
-### Week 16{#Week-16}
+### **Week 16**{#Week-16}
 + **Topics**
   - TBD
 + **Assignments**
