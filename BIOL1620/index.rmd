@@ -426,6 +426,7 @@ knitr::include_graphics("../media/week15.jpg")
   - Community Ecology [Free Online Course](https://alison.com/topic/learn/72407/patterns-of-population-distribution-learning-outcomes) (you get what you pay for)
   - Decent Community Ecology [Video](https://ocw.mit.edu/high-school/biology/exam-prep/ecology/communities-ecosystems/community-ecology/#vid_index)
   - IPCC AR5 [Report](https://www.ipcc.ch/site/assets/uploads/2018/02/SYR_AR5_FINAL_full.pdf) Read it and weep.
+  - Modeling Trout [Extinction Risk](https://trout.shinyapps.io/lahontan/)
 
 [Back to top of page](#top)
 
