@@ -37,7 +37,8 @@ Utah Valley University - BIOL1620
 #### [Course Syllabus](http://gzahn.github.io/media/BIOL_1620_Syllabus_FA_2020.pdf)
 #### [Shared Course Notes](https://docs.google.com/document/d/1ZUwrp3pccob99FptLDjIShcp2Y5PNIiJ1FJ95mUNYMk/edit?usp=sharing)
 (Anyone with link can edit)
-
+#### [Your-Choice Reading List](https://gzahn.github.io/media/Zotero_Report.html)
+Aduiobooks are only fine if they are **unabridged**.
 ___
 
 #### Table of Contents
@@ -426,6 +427,7 @@ knitr::include_graphics("../media/week15.jpg")
 + **Readings and Assignments**
   - Campbell Chs 54-55
   - Canvas quiz 10 due Monday before 12pm
+  - Final Your-Choice Points Due Friday 11:59pm
 + **Resources**
   - Community Ecology [Slides](https://github.com/gzahn/BIOL_1620/raw/master/25_Community_Ecology.pdf)
   - Analyze Metagenomes Yourself! With [This Website](https://www.mg-rast.org/mgmain.html?mgpage=analysis)
