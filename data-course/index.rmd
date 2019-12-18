@@ -185,6 +185,7 @@ knitr::include_graphics("../media/ggplot_example.png")
   - ggplot | patchwork | ggforce
 + **Assignments**
   - [Assignment 6](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_6/Assignment_6new.pdf)
+  - [Ugly plot contest!](https://gzahn.github.io/uglyplotcontest.html)
 + **Resources**
   - [ggplot Introduction](https://r4ds.had.co.nz/data-visualisation.html)
   - [More ggplot](https://ggplot2.tidyverse.org/)
@@ -192,9 +193,9 @@ knitr::include_graphics("../media/ggplot_example.png")
   - [patchwork](https://github.com/thomasp85/patchwork)
   - [Extensive ggplot2 Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html)
 + **Practice**
-  - Ugly plot contest!
   - [Out-of-order Plotting Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_CO2_plot.R)
   - [ggplot Examples](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/ggplot_intro.R)
+  - ggplot [Shiny App](https://huygens.science.uva.nl/ggPlotteR/) Lets you use GUI to see ggplot code.
   
 [Back to top of page](#top)
 
