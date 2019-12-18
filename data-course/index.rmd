@@ -185,7 +185,7 @@ knitr::include_graphics("../media/ggplot_example.png")
   - ggplot | patchwork | ggforce
 + **Assignments**
   - [Assignment 6](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_6/Assignment_6new.pdf)
-  - [Ugly plot contest!](https://gzahn.github.io/uglyplotcontest.html)
+  - [Ugly plot contest!](https://gzahn.github.io/data-course/uglyplotcontest.html)
 + **Resources**
   - [ggplot Introduction](https://r4ds.had.co.nz/data-visualisation.html)
   - [More ggplot](https://ggplot2.tidyverse.org/)
