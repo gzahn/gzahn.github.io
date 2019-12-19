@@ -10,7 +10,7 @@ ___
 
 #### A good plot has the following:
 + **Easily distinguishable colors (colorblind-friendly) or grayscale**
-+ **Properly labeled axes withh appropriate scales**
++ **Properly labeled axes with appropriate scales**
 + **Legible font size**
 + **If a legend is present, it is easy to read and uses intuitive labels**
 + **The correct geoms for the data types**
@@ -71,7 +71,7 @@ knitr::include_graphics("../media/badplot5.jpeg")
 ```
 </div>
 
-I think it's kind of a line plot withhout grouping. I also think "mass" and "gender" somehow share the y-axis. I hate it.
+I think it's kind of a line plot without grouping. I also think "mass" and "gender" somehow share the y-axis. I hate it.
 
 
 <div style= "float:center;position: relative;top:10px">

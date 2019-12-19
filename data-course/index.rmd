@@ -347,7 +347,11 @@ knitr::include_graphics("../media/rmd.png")
 + **Resources**
   - [Intro to R Markdown](https://github.com/cbwall/Intro-to-Rmarkdown)
   - [Markdown Live Preview Generator](https://dillinger.io/)
+  - Expert-Level [Markdown Project](https://github.com/cbwall/Coral-isotopes-across-space-and-time)
 + **Practice**
+  - Using the resources above, generate a markdown document that analyzes the "iris" data set and push it to a new GitHub repository named Iris_Markdown
+  - Play with options and code to create a document that looks good and presents your analysis and results clearly
+  - This is similar to Assignment_9, but I'm asking for a brand new "Iris_Markdown" repository that is self-contained.
 
 [Back to top of page](#top)
 
@@ -370,7 +374,9 @@ knitr::include_graphics("../media/jennybryan.jpeg")
   - [Proper Project Organization Example](https://github.com/gzahn/Data_Course/tree/master/Code_Examples/Example_Project)
   - [Another, More Detailed Example](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf)
 + **Practice**
-
+  - Peer evaluations of Iris_Markdown repositories (from last week); Clean them up and make them more organized
+  
+  
 [Back to top of page](#top)
 
 ___
@@ -407,15 +413,16 @@ knitr::include_graphics("../media/404.PNG")
 
 ### **Week 14**{#Week-14}
 + **Topics**
-  - Building a website
+  - Building a website with GitHub and R-Markdown
 + **Assignments**
   - Work on Final Project
   - Create a GitHub Personal Website
-  - Upload a brief CV and the updated (improved) html of Assignment 9
+  - Upload a brief CV and the updated (improved) html of Assignment 9 to your new website
 + **Resources**
   - [GitHub Pages](https://pages.github.com/)
-  - Here's the [GitHub repository for this entire website](https://github.com/gzahn/gzahn.github.io)
-
+  - Here's the [GitHub repository for this course website](https://github.com/gzahn/gzahn.github.io/)
++ **Practice**
+  - Go through my course website repository (link above) and try to relate the code there to the html version of the website your internet browser is displays
 
 [Back to top of page](#top)
 
@@ -430,7 +437,7 @@ knitr::include_graphics("../media/final.png")
 
 ### **Week 15**{#Week-15}
 + **Topics**
-  -TBD
+  - TBD
 + **Assignments**
   - Work on Final Project
 
