@@ -1,0 +1,13 @@
+Major Points:
+
+- Early Earth conditions and the rise of oxygen
+- Redox reactions
+- Metabolism
+- Environmental change relates to evolutionary pressures
+- Mutations + Heritability + Selection Coefficient = Evolution
+- Evolution is not goal oriented
+- How to read a phylogeny (clades, ancestral nodes, sisters)
+- Homologies (Orthologs and Paralogs) vs Analogies
+- Organisms' evolutionary history is documented in their genomes
+- Horizontal (Lateral) Gene Transfer
+- Phylogenies are testable and falsifiable explanations of observed diversity (hypotheses) that make predictions

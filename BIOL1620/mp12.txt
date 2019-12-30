@@ -1,0 +1,16 @@
+Major Points:
+- Define "behavior"
+- Bad ideas in study of behavior: Nature vs nurture, reinforcement "theory", universality
+- Proximate vs ultimate (evolutionary) causes for behaviors
+	proximate = immediate stimuli, physiological and anatomical mechanisms
+	ultimate = evolutionary significance of a behavior (why that behavior evolved)
+- Types of behavior:
+	- fixed action pattern
+	- taxis / kinesis
+	- learned (habituation, imprinting, spatial, associative)
+- Classical vs Operant conditioning
+- Superstition = False signal still elicits a behavior, this makes sense evolutionarily, even though it seems dumb
+- Cognition seems to be somewhat rare
+- Behaviors influence fitness and are selected for (or against) by the environment like any other trait
+- Behavioral traits are rarely the result of a single gene though
+- How does the story of cuckoos depend on the evolutionary pressures on behaviors?

@@ -1,0 +1,14 @@
+Major Points:
+- Population vs Community
+- Symbioses are a spectrum from Parisitism to Mutualism
+- Competition leads to resource partitioning because competition is bad for everyone involved
+- "Niche" is how an organism makes a living. Realized niche is fundamental niche minus competition
+- Trophic structure is limited by thermodynamics
+- Why are big fierce animals rare?
+- How to define and measure biodiversity? (richness and evenness)
+- How to compare similarity of two communities with a bunch of different species? (How to read an ordination plot)
+- Community ecology in "real life"
+	- Microbiomes
+	- Forensics
+- Attine ants as a model system to study ecological interactions (Behaviors, Pathogens, Competition, Population growth, coevolution, symbioses, microbiomes, etc.)
+
