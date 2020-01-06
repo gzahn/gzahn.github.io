@@ -73,20 +73,27 @@ knitr::include_graphics("../media/git_2x.png")
 </div>
 
 ### **Week 1**{#Week-1}
-+ **Topics:** 
+**Topics:** 
+
   - Installing Software | Command-line | Git version control 
-+ **Assignments**  
+
+**Assignments**  
+
   - Read: [What is Git all about?](https://github.com/gzahn/gzahn.github.io/blob/master/Readings/Bryan_2017_Excuse_me%2C_do_you_have_a_moment_to_talk_about_vers.pdf)
   - Install Git, R, and R-Studio on your laptop (part of Assignment 1)
   - Be ready to explain what Git, R, and R-Studio are.
   - Do [Assignment 1](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_1/Assignment_1.pdf) and upload a link to your new GitHub account to Canvas.
-+ **Resources**
+
+**Resources**
+
   - [Download Git](https://git-scm.com/downloads)
   - [Download R](https://cran.cnr.berkeley.edu/)
   - [Download R-Studio](https://rstudio.com/products/rstudio/download/#download)
   - [Navigating with the command line](https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855)
   - [Basic Git Commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
-+ **Practice**
+
+**Practice**
+
   - Make 10 separate changes and commits to your README.md file and push each one to GitHub 
 
 [Back to top of page](#top)
@@ -98,15 +105,22 @@ knitr::include_graphics("../media/file_tree.png")
 </div>
 
 ### **Week 2**{#Week-2}
-+ **Topics**
+**Topics**
+
   - File paths | Pipes | Redirection | Wildcards | Essential Unix Commands | Parameters
-+ **Assignments**
+
+**Assignments**
+
   - [Assignment 2](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_2/Assignment_2.pdf)
-+ **Resources**
+
+**Resources**
+
   - [Remedial Unix Shell](https://github.com/gzahn/Data_Course/blob/master/Readings/Further_Reading_for_Shell_Tricks.pdf)
   - [Basic Unix Commands](https://www.unixtutorial.org/basic-unix-commands?print=pdf)
   - [Very Useful Tutorial](https://www.learnenough.com/command-line-tutorial/basics#sec-introduction)
-+ **Practice**
+
+**Practice**
+
   - [Exercise 1](https://github.com/gzahn/Data_Course/blob/master/Exercises/shell_detective.txt)
   - [Exercise 2](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_unicorn_code.txt)
   
@@ -124,17 +138,24 @@ knitr::include_graphics("../media/Rvariablesdata.jpg")
 
 
 ### **Week 3**{#Week-3}
-+ **Topics**
+**Topics**
+
   - R Data types and conversions | Reading and Writing Files | For-Loops | Packages and Projects
-+ **Assignments**
+
+**Assignments**
+
   - [Assignment 3](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_3/Assignment_3.pdf)
   - [Assignment 4](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_4/Assignment_4.pdf)
-+ **Resources**
+
+**Resources**
+
   - [Data Types in R](https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/)
   - [For-Loops](https://www.datamentor.io/r-programming/for-loop/)
   - [Reading data into R](https://www.datacamp.com/community/tutorials/r-data-import-tutorial)
   - [R Projects](https://r4ds.had.co.nz/workflow-projects.html)
-+ **Practice**
+
+**Practice**
+
   - [Vectors](https://github.com/gzahn/Data_Course/blob/master/Exercises/01_Vectors.pdf)
   - [Factors](https://github.com/gzahn/Data_Course/blob/master/Exercises/07_Factors.pdf)
   - [Characters](https://github.com/gzahn/Data_Course/blob/master/Exercises/04_Characters.pdf)
@@ -153,17 +174,24 @@ knitr::include_graphics("../media/operators.png")
   
   
 ### **Week 4**{#Week-4}
-+ **Topics**
+**Topics**
+
   - Logical Operations | Subsetting | "Grammar of Graphics" ggplot Intro
-+ **Assignments**
+
+**Assignments**
+
   - Read through the materials in the Resources section below
   - [Assignment 5](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_5/Assignment_5.pdf)
   - Exam 1
-+ **Resources**
+
+**Resources**
+
   - [Subsetting](http://adv-r.had.co.nz/Subsetting.html)
   - [More Subsetting](https://www.r-bloggers.com/5-ways-to-subset-a-data-frame-in-r/)(It's important!)
   - [Operators](https://www.statmethods.net/management/operators.html)
-+ **Practice**
+
+**Practice**
+
   - [Logical Operations](https://github.com/gzahn/Data_Course/blob/master/Exercises/06_Logical_Operations.pdf)
   - Find a **new** built-in data set in R. Use several methods to subset it over and over until you are an expert!
   - [Out-of-order Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/data_frame_subsets_out-of-order.R)
@@ -181,18 +209,24 @@ knitr::include_graphics("../media/ggplot_example.png")
 </div>
 
 ### **Week 5**{#Week-5}
-+ **Topics**
+**Topics**
+
   - ggplot | patchwork | ggforce
-+ **Assignments**
+
+**Assignments**
+
   - [Assignment 6](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_6/Assignment_6new.pdf)
   - [Ugly plot contest!](https://gzahn.github.io/data-course/uglyplotcontest.html)
-+ **Resources**
+
+**Resources**
+
   - [ggplot Introduction](https://r4ds.had.co.nz/data-visualisation.html)
   - [More ggplot](https://ggplot2.tidyverse.org/)
   - [ggforce](https://ggforce.data-imaginist.com/)
   - [patchwork](https://github.com/thomasp85/patchwork)
   - [Extensive ggplot2 Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html)
-+ **Practice**
+
+**Practice**
   - [Out-of-order Plotting Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_CO2_plot.R)
   - [ggplot Examples](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/ggplot_intro.R)
   - ggplot [Shiny App](https://huygens.science.uva.nl/ggPlotteR/) Lets you use GUI to see ggplot code.
@@ -210,18 +244,24 @@ knitr::include_graphics("../media/sepalwidth.jpg")
 </div>
 
 ### **Week 6**{#Week-6}
-+ **Topics**
+**Topics**
+
   - Tidy Data | dplyr verbs | tidyr verbs
-+ **Assignments**
+
+**Assignments**
+
   - Read this paper: [Tidy Data](https://github.com/gzahn/Data_Course/blob/master/Readings/tidy-data_Wickham.pdf)
   - [Assignment 7](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_7/Assignment_7new.pdf)
-+ **Resources**
+
+**Resources**
+
   - [Tidy Data Chapter](https://r4ds.had.co.nz/tidy-data.html#tidy-data-1)
   - [Transforming Data Frames](https://r4ds.had.co.nz/transform.html)
   - [dplyr Verbs](https://dplyr.tidyverse.org/)
   - [tidyr Verbs](https://tidyr.tidyverse.org/)
   - [tidyverse Cheat Sheet](https://github.com/gzahn/Data_Course/blob/master/Readings/Tidyverse%2BCheat%2BSheet.pdf)
-+ **Practice**
+
+**Practice**
   - [BioLog Challenge](https://github.com/gzahn/Data_Course/blob/master/Exercises/BioLog_Challenge.R)
   - [Out-of-order Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_CO2_plot.R)
   - [Out-of-order Code2](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_grading_code.R)
@@ -235,18 +275,25 @@ knitr::include_graphics("../media/real_world_data.jpg")
 </div>
 
 ### **Week 7**{#Week-7}
-+ **Topics**
+**Topics**
+
   - Data Wrangling | Joins | [The Curse of Other Peoples' Data](https://github.com/gzahn/media/data_science_workflow.png)
-+ **Assignments**
+
+**Assignments**
+
   - Read [This Handout](https://github.com/gzahn/Data_Course/blob/master/Readings/Excel_Advice_Handout.pdf)
   - Read [This Paper](https://github.com/gzahn/Data_Course/blob/master/Readings/Broman_and_Woo_2017_Data_organization_in_spreadsheets.pdf)
   - Create a validated Excel Spreadsheet for data collection for the experiment we design in class
   - Exam 2
-+ **Resources**
+
+**Resources**
+
   - [Data Wrangling Chapter](https://r4ds.had.co.nz/wrangle-intro.html)
   - [Wrangling Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
   - [Visual Explanations of Joins](https://github.com/gadenbuie/tidyexplain)
-+ **Practice**
+
+**Practice**
+
   - Download [this spreadsheet](https://github.com/gzahn/Tidy_Data_Workshop/raw/master/Worst%20Data%20Storage%20Ever.xlsx). See if you figure out all the things wrong with it.
   - [Error Sleuth Practice](https://github.com/gzahn/Data_Course/blob/master/Exercises/error_sleuth_pt1.R)
   - [Data Entry Case Study](https://github.com/gzahn/Data_Course/blob/master/Exercises/Data_Entry_Case_Study.txt)
@@ -265,13 +312,19 @@ knitr::include_graphics("../media/function.png")
 
 
 ### **Week 8**{#Week-8}
-+ **Topics**
+**Topics**
+
   - Writing Functions | Conditional Execution | source()
-+ **Assignments**
-+ **Resources**
+
+**Assignments**
+
+**Resources**
+
   - [Functions](https://r4ds.had.co.nz/functions.html)
   - [Conditional Execution](https://r4ds.had.co.nz/functions.html#conditional-execution)
-+ **Practice**
+
+**Practice**
+
   - Write a function that returns the min, max, and mean of any set of real numbers
   - Write a function that takes a data frame and returns a new data frame with one **random** column removed
   - Write a function that takes a data frame... if there are more than 3 columns, your function should return the column names as-is; if there are 3 or fewer columns, your function should return the column names in **reverse order.**
@@ -292,15 +345,22 @@ knitr::include_graphics("../media/model1.png")
 ## Model Building and Testing
 
 ### **Week 9**{#Week-9}
-+ **Topics**
+**Topics**
+
   - Building and Testing Models
-+ **Assignments**
+
+**Assignments**
+
   - [Assignment 8](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_8/Assignment_8new.pdf)
-+ **Resources**
+
+**Resources**
+
   - [Modeling Intro](https://r4ds.had.co.nz/model-intro.html)
   - [Model Basics](https://r4ds.had.co.nz/model-basics.html)
   - [Model Fitting](https://r4ds.had.co.nz/model-building.html)
-+ **Practice**
+
+**Practice**
+
   - [Building Models Example](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/building_basic_models.R)
   - [Intro to Hypothesis Testing](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/hyp_testing_intro.R)
   - [Cross-Validation and Logistic Regression](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/simple_regression.R)
@@ -316,15 +376,19 @@ knitr::include_graphics("../media/logistic.jpg")
 
 
 ### **Week 10**{#Week-10}
-+ **Topics**
+**Topics**
+
   - More models | Statistical Tests
-+ **Assignments**
-+ **Resources**
+
+**Assignments**
+
+**Resources**
+
   - [Linear Regression](http://r-statistics.co/Linear-Regression.html)
   - [More Linear Regression](https://www.dataquest.io/blog/statistical-learning-for-predictive-modeling-r/)
   - [Common Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html)
-  - 
-+ **Practice**
+ 
+**Practice**
 
 [Back to top of page](#top)
 
@@ -340,15 +404,22 @@ knitr::include_graphics("../media/rmd.png")
 </div>
 
 ### **Week 11**{#Week-11}
-+ **Topics**
+**Topics**
+
   - R-Markdown | Reproducible Reports
-+ **Assignments**
+
+**Assignments**
+
   - [Assignment 9](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_9/Assignment_9new.pdf)
-+ **Resources**
+
+**Resources**
+
   - [Intro to R Markdown](https://github.com/cbwall/Intro-to-Rmarkdown)
   - [Markdown Live Preview Generator](https://dillinger.io/)
   - Expert-Level [Markdown Project](https://github.com/cbwall/Coral-isotopes-across-space-and-time)
-+ **Practice**
+
+**Practice**
+
   - Using the resources above, generate a markdown document that analyzes the "iris" data set and push it to a new GitHub repository named Iris_Markdown
   - Play with options and code to create a document that looks good and presents your analysis and results clearly
   - This is similar to Assignment_9, but I'm asking for a brand new "Iris_Markdown" repository that is self-contained.
@@ -363,17 +434,24 @@ knitr::include_graphics("../media/jennybryan.jpeg")
 </div>
 
 ### **Week 12**{#Week-12}
-+ **Topics**
+**Topics**
+
   - Proper Project Organization | Collaboration 
-+ **Assignments**
+
+**Assignments**
+
   - Peer evaluation of Assignment 9 (Organization, Portability, Accuracy, Understandablity)
   - Exam 3
-+ **Resources**
+
+**Resources**
+
   - [Project-oriented Workflows](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
   - [Reproducible, Portable, Self-Contained](https://ptds2018.netlify.com/tutorials/workflow/)
   - [Proper Project Organization Example](https://github.com/gzahn/Data_Course/tree/master/Code_Examples/Example_Project)
   - [Another, More Detailed Example](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf)
-+ **Practice**
+
+**Practice**
+
   - Peer evaluations of Iris_Markdown repositories (from last week); Clean them up and make them more organized
   
   
@@ -390,13 +468,20 @@ knitr::include_graphics("../media/aliens.jpg")
 ## Putting it all together
 
 ### **Week 13**{#Week-13}
-+ **Topics**
+**Topics**
+
   - Data Analysis from raw to report
-+ **Assignments**
+
+**Assignments**
+
   - We will work together in class to do a complete analysis in real-time
-+ **Resources**
+
+**Resources**
+
   - [Benefits of Live Coding](https://gzahn.github.io/Readings/LiveCoding.pdf)
-+ **Practice**
+
+**Practice**
+
   - Analyze the "esoph" data set and generate a markdown report
 
 
@@ -412,16 +497,23 @@ knitr::include_graphics("../media/404.PNG")
 </div>
 
 ### **Week 14**{#Week-14}
-+ **Topics**
+**Topics**
+
   - Building a website with GitHub and R-Markdown
-+ **Assignments**
+
+**Assignments**
+
   - Work on Final Project
   - Create a GitHub Personal Website
   - Upload a brief CV and the updated (improved) html of Assignment 9 to your new website
-+ **Resources**
+
+**Resources**
+
   - [GitHub Pages](https://pages.github.com/)
   - Here's the [GitHub repository for this course website](https://github.com/gzahn/gzahn.github.io/)
-+ **Practice**
+
+**Practice**
+
   - Go through my course website repository (link above) and try to relate the code there to the html version of the website your internet browser is displays
 
 [Back to top of page](#top)
@@ -436,9 +528,12 @@ knitr::include_graphics("../media/final.png")
 </div>
 
 ### **Week 15**{#Week-15}
-+ **Topics**
+**Topics**
+
   - TBD
-+ **Assignments**
+
+**Assignments**
+
   - Work on Final Project
 
 
@@ -447,9 +542,12 @@ knitr::include_graphics("../media/final.png")
 ___
 
 ### **Week 16**{#Week-16}
-+ **Topics**
+**Topics**
+
   - TBD
-+ **Assignments**
+
+**Assignments**
+
   - Exam 4 (Redo any previous exam to replace it's score)
 
 [Back to top of page](#top)
