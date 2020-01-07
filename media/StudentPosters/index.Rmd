@@ -1,0 +1,42 @@
+---
+output: html_document
+---
+
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [DATA COURSE](http://gzahn.github.io/data-course/)
+
+# **Zahn Lab - Utah Valley University**
+
+### Selected Student Research Posters
+
+![Poster1](Bread_poster.pdf)
+
+
+![Poster2](competition_poster.pdf)
+
+![Poster3](endophyte_poster.pdf)
+
+![Poster4](jimenez_poster_PR_2018.pdf)
+
+![Poster5](NCUR_McGee_2019.pdf)
+
+![Poster6](UCUR_2019_Brunetti.pdf)
+
+![Poster7](UCUR_2019_Haws.pdf)
+
+![Poster8](UCUR_2019_Oral_Microbiome.pdf)
+
+
+___
+
+<br>
+
+## **Contact Info:**
+
+### Geoffrey Zahn<br>
+### Biology Department - Utah Valley University<br>
+### 800 W University Parkway - SB243c<br>
+### Orem, UT 84058<br>
+### zahn.geoff@gmail.com
+<br><br><br>
+
+
