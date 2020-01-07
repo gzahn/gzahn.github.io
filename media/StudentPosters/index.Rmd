@@ -8,22 +8,19 @@ output: html_document
 
 ### Selected Student Research Posters
 
-![Poster1](Bread_poster.pdf)
+![Poster2](competition_poster.pdf.jpg)
 
+![Poster3](endophyte_poster.pdf.jpg)
 
-![Poster2](competition_poster.pdf)
+![Poster4](jimenez_poster_PR_2018.pdf.jpg)
 
-![Poster3](endophyte_poster.pdf)
+![Poster5](NCUR_McGee_2019.pdf.jpg)
 
-![Poster4](jimenez_poster_PR_2018.pdf)
+![Poster6](UCUR_2019_Brunetti.pdf.jpg)
 
-![Poster5](NCUR_McGee_2019.pdf)
+![Poster7](UCUR_2019_Haws.pdf.jpg)
 
-![Poster6](UCUR_2019_Brunetti.pdf)
-
-![Poster7](UCUR_2019_Haws.pdf)
-
-![Poster8](UCUR_2019_Oral_Microbiome.pdf)
+![Poster8](UCUR_2019_Oral_Microbiome.pdf.jpg)
 
 
 ___
