@@ -91,6 +91,9 @@ knitr::include_graphics("../media/git_2x.png")
   - [Download R-Studio](https://rstudio.com/products/rstudio/download/#download)
   - [Navigating with the command line](https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855)
   - [Basic Git Commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
+  - [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+  - [Git tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) for beginners
+  
 
 **Practice**
 
