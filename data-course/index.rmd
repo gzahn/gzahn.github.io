@@ -280,7 +280,7 @@ knitr::include_graphics("../media/real_world_data.jpg")
 ### **Week 7**{#Week-7}
 **Topics**
 
-  - Data Wrangling | Joins | [The Curse of Other Peoples' Data](https://github.com/gzahn/media/data_science_workflow.png)
+  - Data Wrangling | Joins | [The Curse of Other Peoples' Data](https://gzahn.github.io/media/data_science_workflow.png)
 
 **Assignments**
 
