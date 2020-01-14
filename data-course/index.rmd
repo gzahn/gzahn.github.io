@@ -124,6 +124,7 @@ knitr::include_graphics("../media/file_tree.png")
   - [Very Useful Tutorial](https://www.learnenough.com/command-line-tutorial/basics#sec-introduction)
   - On the [Annoyance of](http://www.pgbovine.net/command-line-bullshittery.htm) Command-Line Bullshittery
   - On the [Value of](https://medium.com/@eytanadar/on-the-value-of-command-line-bullshittery-94dc19ec8c61#.4qt0dd22r) Command-Line Bullshittery
+  - So is this stuff even useful for bioinformatics?  [YES!](https://github.com/stephenturner/oneliners)
 
 **Practice**
 
