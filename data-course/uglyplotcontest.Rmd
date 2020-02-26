@@ -26,8 +26,108 @@ ___
 
 ___
 
-##### Here are some ugly plots from previous students:
+##### Here are some ugly plots from previous students... a gallery of deepest shame:
 
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/Ugly_Plot_Alex.jpg")
+```
+</div>
+
+I said no pie charts. But I also said I wanted the rules of good design to be broken. Fair is fair.
+
+___
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/PARK_UglyPlot_ColorBlindBabyYoda.png")
+```
+</div>
+
+starwars never looked so glaringly bad.
+
+___
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/ugly78.png")
+```
+</div>
+
+ggplot(mtcars,aes(x=wt,y=as.factor(mpg,color="StupidPastel)))
+
+___
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/uglyanim.jpg")
+```
+</div>
+
+This one was animated...poorly.
+
+___
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/UGLY_BLING_RAIGNE.png")
+```
+</div>
+
+Diamonds are for vomit.
+
+___
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/Ugly_Plot.png")
+```
+</div>
+
+Looks like an old-school slide projector, but I think its iris.
+
+___
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/uglyplot(1).png")
+```
+</div>
+
+Award for best misuse of labels. No question.
+
+___
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/uglyplot.png")
+```
+</div>
+
+Zoom in. See the greatness of titanic deaths.
+
+___
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/ugly_plot.png")
+```
+</div>
+
+Radiohead: Kid A Bad Legend
+
+___
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/ugly_plot4.png")
+```
+</div>
+
+Do vaccines cause autism? No. Does this plot?
+
+___
 
 <div style= "float:center;position: relative;top:10px">
 ```{r, out.width = "500px",echo=FALSE}
@@ -36,6 +136,8 @@ knitr::include_graphics("../media/badplot1.png")
 </div>
 
 Iris, like you've never seen it before. Wonderfully unacceptable colors and point sizes.
+
+___
 
 
 <div style= "float:center;position: relative;top:10px">
@@ -47,6 +149,8 @@ knitr::include_graphics("../media/badplot2.png")
 Nice, horrible work with custom point images and annotation.
 
 
+___
+
 <div style= "float:center;position: relative;top:10px">
 ```{r, out.width = "500px",echo=FALSE}
 knitr::include_graphics("../media/badplot3.jpeg")
@@ -54,6 +158,8 @@ knitr::include_graphics("../media/badplot3.jpeg")
 </div>
 
 Horrible legend labels, low resolution, truly foul all around.
+
+___
 
 
 <div style= "float:center;position: relative;top:10px">
@@ -73,6 +179,8 @@ knitr::include_graphics("../media/badplot5.jpeg")
 
 I think it's kind of a line plot without grouping. I also think "mass" and "gender" somehow share the y-axis. I hate it.
 
+___
+
 
 <div style= "float:center;position: relative;top:10px">
 ```{r, out.width = "500px",echo=FALSE}
@@ -82,5 +190,13 @@ knitr::include_graphics("../media/badplot6.jpeg")
 
 The double meaningless legends take this to a new level of greatness. Bonus points for low-res export.
 
+___
+
 
 ## Think you can beat these?!
+
+
+
+___
+
+___
