@@ -237,6 +237,7 @@ knitr::include_graphics("../media/ggplot_example.png")
   - [Extensive ggplot2 Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html){target="_blank"}
 
 **Practice**
+
   - [Out-of-order Plotting Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_CO2_plot.R){target="_blank"}
   - [ggplot Examples](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/ggplot_intro.R){target="_blank"}
   - ggplot [Shiny App](https://huygens.science.uva.nl/ggPlotteR/){target="_blank"} Lets you use GUI to see ggplot code.
@@ -272,6 +273,7 @@ knitr::include_graphics("../media/sepalwidth.jpg")
   - [tidyverse Cheat Sheet](https://github.com/gzahn/Data_Course/blob/master/Readings/Tidyverse%2BCheat%2BSheet.pdf){target="_blank"}
 
 **Practice**
+
   - [BioLog Challenge](https://github.com/gzahn/Data_Course/blob/master/Exercises/BioLog_Challenge.R)
   - [Out-of-order Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_CO2_plot.R)
   - [Out-of-order Code2](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_grading_code.R)
