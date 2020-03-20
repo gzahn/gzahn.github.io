@@ -347,7 +347,7 @@ knitr::include_graphics("../media/model1.png")
   - Fake "Science" Version of [Same Experiment](https://non-gmoreport.com/articles/june2013/farmer-experiment-squirrels-prefer-organic-corn.php){target="_blank"}
   - Glyphosate [MDS](https://www.lakerestoration.com/pdf/glyphosatemsds.pdf){target="_blank"}
   - Evolution of [Plant Carnivory](https://www.nature.com/news/how-plants-evolved-into-carnivores-1.21425){target="_blank"}
-
+  - Wonderful [documentary](https://www.amazon.com/Plants-Behaving-Badly-Season-1/dp/B071HDHGJ2) from PBS (Need Amazon Prime subscription). Episode 1 is about carnivorous plants. Episode 2 is about orchids.
   
 ___
 
@@ -424,6 +424,14 @@ knitr::include_graphics("../media/week12.png")
   - Seed Plants [Slides](https://github.com/gzahn/BIOL_1620/raw/master/21_Seed_Plants.pdf) 
   - Plant Anatomy [Slides](https://github.com/gzahn/BIOL_1620/raw/master/22_Plant_Anatomy.pdf)
 
+**Supplemental videos**
+
+  - [Seed plants 1](https://youtu.be/iKsntUnAFdw) (What good are seeds?)
+  - [Seed plants 2](https://youtu.be/XBuOh7j0uLY) (Major gytmnosperm groups)
+  - [Seed plants 3](https://youtu.be/yFp3D7eU_fs) (Angiosperms)
+  - [Seed plants 4](https://youtu.be/HlYZnKWeVLg) (Outtake)
+  
+  
 </br></br></br></br></br>
 
 
