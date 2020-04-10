@@ -467,7 +467,11 @@ knitr::include_graphics("../media/week13.png")
   - Classical vs Operant [Conditioning](https://www.khanacademy.org/test-prep/mcat/behavior/learning-slug/a/classical-and-operant-conditioning-article){target="_blank"}
   - Cuckoo Bird [Gentees](https://cpb-us-w2.wpmucdn.com/u.osu.edu/dist/3/39517/files/2015/09/35025058-14uu57d.pdf){target="_blank"}
   
-  
+**Supplemental videos**
+
+  - [Animal Behavior 1](https://www.youtube.com/watch?v=jqlJdyONbYc&t=18s)
+  - [Animal Behavior 2](https://www.youtube.com/watch?v=IwnXupjOKxE)
+  - [Animal Behavior 3](https://www.youtube.com/watch?v=ai6MSqFHiHg)
   
 [Back to top of page](#top)
 
@@ -498,7 +502,15 @@ knitr::include_graphics("../media/week14.jpg")
   - Population [Genomics](https://www.nature.com/scitable/knowledge/library/population-genomics-15812442/){target="_blank"}
   - Population Genetics and [Neanderthals](https://www.genomeweb.com/sequencing/neanderthal-population-dynamics-clarified-new-sequence-data){target="_blank"}
   - More [Amazing Neanderthal Stuff](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5772775/){target="_blank"}
+  - Earth's [historical climate](https://xkcd.com/1732/){target="_blank"} cartoon
+  - IPCC [AR5 Synthesis Report](https://www.ipcc.ch/site/assets/uploads/2018/02/SYR_AR5_FINAL_full.pdf){target="_blank"}
+  - IPCC [Physical Sciences Basis](https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_all_final.pdf){target="_blank"} Report - Evidence for anthropogenic climate change
   
+**Supplemental videos**
+
+  - [Ecology Intro 1](https://www.youtube.com/watch?v=YZmmx_fWQfo) - Levels of scale
+  - [Ecology Intro 2](https://www.youtube.com/watch?v=oU7xCrTfs2s) - Climate modeling
+  - [Ecology Intro 3]() - Intro to population ecology
 
 [Back to top of page](#top)
 
