@@ -493,7 +493,7 @@ knitr::include_graphics("../media/aliens.jpg")
 **Resources**
 
   - [Benefits of Live Coding](https://gzahn.github.io/Readings/LiveCoding.pdf)
-  - [Example RMD to HTML](http://gzahn.github.io/data-course/example_rmd_website.html)
+  - [Example RMD to HTML](http://gzahn.github.io/data-course/example_rmd_webpage.html)
 
 **Practice**
 
