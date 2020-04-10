@@ -1,0 +1,53 @@
+---
+title: "Exam3_example"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is just a template for how to turn an Rmarkdown file into a web page that you can link from your main website...
+
+For this example, we will be using the *tidyverse* package and the built-in *iris* dataset.
+
+First thing is to load the packages and the data that we need:
+```{r, message=FALSE,warning=FALSE,echo=TRUE}
+library(tidyverse)
+library(GGally)
+library(modelr)
+data("iris")
+```
+
+
+Next, we'll take a quick look at the data:
+```{r,message=FALSE,warning=FALSE}
+ggpairs(iris)
+```
+
+
+
+For this example, we will be using the column "Sepal.Length" as our dependent variable, so we will build a quick plot showing its relationship to Sepal.Width and species:
+```{r,message=FALSE,warning=FALSE}
+ggplot(iris, aes(x=Sepal.Width,y=Sepal.Length,color=Species)) +
+  geom_point() +
+  geom_smooth(method="lm",se=FALSE) +
+  theme_minimal()
+```
+
+
+Looks to me like there's a positive relationship between Sepal.Width and Sepal.Length, and that this varies based on Species. Let's build a simple model:
+```{r,message=FALSE,warning=FALSE}
+mod <- glm(data=iris,formula = Sepal.Length ~ Sepal.Width * Species)
+```
+
+We can use the modelr package to make predictions from our model. I'll go ahead and pipe that new data frame straight into ggplot to compare reality with my model predictions:
+```{r,warning=FALSE,message=FALSE}
+add_predictions(iris,mod) %>%
+  ggplot(aes(x=Sepal.Width)) +
+  geom_point(aes(y=pred),color="Red",shape=2) +
+  geom_point(aes(y=Sepal.Length,color=Species))
+```
+
+
+For the sake of simplicity, I'll finish my web page here. Your own analyses should use cross-validation when needed, do more exploatory work, and possibly compare a few different models to see which is a better predictor of reality...
