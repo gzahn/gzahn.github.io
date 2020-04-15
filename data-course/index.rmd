@@ -528,6 +528,7 @@ knitr::include_graphics("../media/404.PNG")
   - [GitHub Pages](https://pages.github.com/)
   - Here's the [GitHub repository for this course website](https://github.com/gzahn/gzahn.github.io/)
   - Rmarkdown to web page walkthrough [video](https://www.youtube.com/watch?v=2-8-L1ltdx0){target="_blank"}
+  - Reproducible workflow [video](https://youtu.be/s3JldKoA0zw){target="_blank"}
 
 **Practice**
 
