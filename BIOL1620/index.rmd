@@ -84,7 +84,7 @@ knitr::include_graphics("../media/week1.jpg")
   - Campbell Chs 25-26
   - Canvas quiz 1 due 11am Friday of the first week
   - Pick a book to read for Your-Choice Points ASAP
-  - Good time to get some points for [this podcast](https://gzahn.github.io/BIOL1620/media/Making_Sense_166_McCarthy_Sam_Harris.mp3){target="_blank"}
+  - Good time to get some points for [this podcast](https://gzahn.github.io/media/Making_Sense_166_McCarthy_Sam_Harris.mp3){target="_blank"}
 
 **Resources**
 
