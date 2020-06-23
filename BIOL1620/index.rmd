@@ -86,7 +86,7 @@ knitr::include_graphics("../media/week1.jpg")
 **Readings and Assignments**  
 
   - Campbell Chs 25-26
-  - Canvas quiz 1 due 11am Friday of the first week
+  - Canvas quiz 1 due 2pm Friday of the first week
   - Pick a book to read for Your-Choice Points ASAP
   - Good time to get some Your-Choice points for [this podcast](https://gzahn.github.io/media/Making_Sense_166_McCarthy_Sam_Harris.mp3){target="_blank"}
 
