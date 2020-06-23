@@ -30,6 +30,10 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 # **College Biology II**{#top}
 Utah Valley University - BIOL1620
 
+#### This course section is entirely online. All assignments, quizzes, and exams will be turned in and taken on Canvas. My preferred contact method is our group Slack channel.
+
+#### This webpage will host links to all resources and videos, and serves as a roadmap for the semester, listing reading assignments and due dates, etc.
+[How to use this website](https://youtu.be/fnQ7ziEg9SY){target="_blank"}
 
 
 ## Quick links:
@@ -84,7 +88,7 @@ knitr::include_graphics("../media/week1.jpg")
   - Campbell Chs 25-26
   - Canvas quiz 1 due 11am Friday of the first week
   - Pick a book to read for Your-Choice Points ASAP
-  - Good time to get some points for [this podcast](https://gzahn.github.io/BIOL1620/media/Making_Sense_166_McCarthy_Sam_Harris.mp3){target="_blank"}
+  - Good time to get some Your-Choice points for [this podcast](https://gzahn.github.io/media/Making_Sense_166_McCarthy_Sam_Harris.mp3){target="_blank"}
 
 **Resources**
 
@@ -119,16 +123,16 @@ knitr::include_graphics("../media/week2.jpg")
 
 **Readings and Assignments**
 
-  - Good (optional points) Your-Choice book for this would be [What is Life?](https://gzahn.github.io/media/What-is-Life.pdf) (free pdf at the link)
+  - Good (optional points) Your-Choice book for this would be [What is Life?](https://gzahn.github.io/media/What-is-Life.pdf){target="_blank"} (free pdf at the link)
 
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp2.txt){target="_blank"}
-  - Survey of Metabolic Groups [Slides](https://github.com/gzahn/BIOL_1620/raw/master/04_TOL_Survey_Metabolism.pdf)
+  - Survey of Metabolic Groups [Slides](https://github.com/gzahn/BIOL_1620/raw/master/04_TOL_Survey_Metabolism.pdf){target="_blank"}
   - [Primary Nutritional Groups](https://en.wikipedia.org/wiki/Primary_nutritional_groups){target="_blank"}
   - What is Life [Online Resource](https://www.khanacademy.org/science/high-school-biology/hs-biology-foundations/hs-biology-and-the-scientific-method/a/what-is-life){target="_blank"}
   - [The True Meaning of Life](https://www.youtube.com/watch?v=aboZctrHfK8){target="_blank"}
-  - Interesting, if Provocative,  [Hypothesis](https://www.scientificamerican.com/article/a-new-physics-theory-of-life/){target="_blank"}
+  - Interesting, if Provocative, [Hypothesis](https://www.scientificamerican.com/article/a-new-physics-theory-of-life/){target="_blank"}
   
 **Videos**
 
@@ -156,7 +160,7 @@ knitr::include_graphics("../media/week3.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 22-23
-  - Canvas quiz 2 due Wednesday before 11am
+  - Canvas quiz 2 due _Wednesday_ before 2pm
 
 **Resources**
 
@@ -192,7 +196,7 @@ knitr::include_graphics("../media/week4.png")
 **Readings and Assignments**
 
   - Campbell Ch 27
-  - Canvas quiz 3 due Monday before 11am
+  - Canvas quiz 3 due Monday before 2pm
   - Exam 1 on Friday
   - 1/4th of the semester as passed, and you need to turn in Your-Choice Points
 
@@ -230,7 +234,7 @@ knitr::include_graphics("../media/week5.png")
 **Readings and Assignments**
 
   - Campbell Ch 28
-  - Canvas quiz 4 due Monday before 11am
+  - Canvas quiz 4 due Monday before 2pm
 
 **Resources**
 
@@ -264,7 +268,7 @@ knitr::include_graphics("../media/week6.png")
 **Readings and Assignments**
 
   - Campbell Ch 32
-  - Canvas quiz 5 due Monday before 11am
+  - Canvas quiz 5 due Monday before 2pm
 
 **Resources**
 
@@ -304,7 +308,7 @@ knitr::include_graphics("../media/week7.png")
 **Readings and Assignments**
 
   - Campbell Chs 33-34
-  - Canvas quiz 6 due Monday before 11am
+  - Canvas quiz 6 due Monday before 2pm
   - Note: No Class Monday – Washington and Lincoln Day
   - Optional Your-Choice Points: Cave of Forgotten Dreams [Video](https://drive.google.com/open?id=1els5LTLnstqsqKFZ-9gm34M8sJtQ3SVZ){target="_blank"} goes well with these lessons
 
@@ -342,7 +346,7 @@ knitr::include_graphics("../media/week8.jpg")
 **Readings and Assignments**
 
   - Campbell Ch 31
-  - Canvas quiz 7 due Monday before 11am
+  - Canvas quiz 7 due Monday before 2pm
   - Exam 2 on Friday
   - 50 Your-Choice Points Due Friday **Before** Exam 2
 
@@ -418,7 +422,7 @@ knitr::include_graphics("../media/week10.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 29-30
-  - Canvas quiz 8 due Monday before 11am
+  - Canvas quiz 8 due Monday before 2pm
 
 **Resources**
 
@@ -487,7 +491,6 @@ knitr::include_graphics("../media/week13.png")
 **Assignments**
 
   - Exam 3 Friday
-  - Your-Choice Points are **nearly due**
   - Campbell Chs 39, 51 (Optional)
   - No quiz over these chapters
 
@@ -525,7 +528,8 @@ knitr::include_graphics("../media/week14.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 52, 53
-  - Canvas quiz 9 due Monday before 11am
+  - Canvas quiz 9 due Monday before 2pm
+  - Your-Choice Points are **nearly due**
 
 **Resources**
 
@@ -564,6 +568,8 @@ After your gluttonous meal, instead of watching TV, you should pick up that Your
 
 Seriously, it's almost too late at this point. That book review is essentially overdue already, and you wouldn't be in this position if you had taken all the advice that told you to read that book and write that review months ago, but here you are. Maybe you have to rush it and you don't get full credit, but it's better than nothing, right?
 
+- **All Your-Choice Points Due Sunday (end of break) at 11:59pm**
+
 ___
 
 
@@ -581,9 +587,8 @@ knitr::include_graphics("../media/week15.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 54-55
-  - Canvas quiz 10 due Monday before 11am
-  - Final Your-Choice Points Due Friday 11:59pm
-
+  - Canvas quiz 10 due Monday before 2pm
+  
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp14.txt){target="_blank"}
