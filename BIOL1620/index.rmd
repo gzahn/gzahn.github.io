@@ -42,7 +42,7 @@ Utah Valley University - BIOL1620
 Audiobooks are only acceptable if they are **unabridged**.
 
 #### [Advice from Former Students](https://github.com/gzahn/Protocols/blob/master/BIOL_1620_Advice_from_Students.pdf){target="_blank"}
-
+#### Wear a mask if you're in public, please [(see this paper)](https://gzahn.github.io/media/2009637117.full.pdf){target="_blank"}
 ___
 
 #### Table of Contents
@@ -84,6 +84,7 @@ knitr::include_graphics("../media/week1.jpg")
   - Campbell Chs 25-26
   - Canvas quiz 1 due 11am Friday of the first week
   - Pick a book to read for Your-Choice Points ASAP
+  - Good time to get some points for [this podcast](https://gzahn.github.io/BIOL1620/media/Making_Sense_166_McCarthy_Sam_Harris.mp3){target="_blank"}
 
 **Resources**
 
@@ -95,6 +96,12 @@ knitr::include_graphics("../media/week1.jpg")
   - [How to Build Phylogenies](https://www.khanacademy.org/science/biology/her/tree-of-life/a/building-an-evolutionary-tree){target="_blank"}
   - [Mechanisms of Antibiotic Resistance](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4888801/){target="_blank"}
   
+**Videos**
+
+  - 
+  -
+  -
+
 [Back to top of page](#top)
 
 ___
@@ -112,7 +119,7 @@ knitr::include_graphics("../media/week2.jpg")
 
 **Readings and Assignments**
 
-  - Good (optional points) Your-Choice book for this would be [What is Life?](https://gzahn.github.io/media/What-is-Life.pdf)
+  - Good (optional points) Your-Choice book for this would be [What is Life?](https://gzahn.github.io/media/What-is-Life.pdf) (free pdf at the link)
 
 **Resources**
 
@@ -123,7 +130,11 @@ knitr::include_graphics("../media/week2.jpg")
   - [The True Meaning of Life](https://www.youtube.com/watch?v=aboZctrHfK8){target="_blank"}
   - Interesting, if Provocative,  [Hypothesis](https://www.scientificamerican.com/article/a-new-physics-theory-of-life/){target="_blank"}
   
-  
+**Videos**
+
+  - 
+  -
+  -  
   
   
 [Back to top of page](#top)
@@ -156,7 +167,11 @@ knitr::include_graphics("../media/week3.jpg")
   - Artificial vs Natural Selection [Program](https://learn.genetics.utah.edu/content/evolution/artificialnatural/){target="_blank"}
   - Nature of Science [Presentation](https://www.vmnh.net/content/File/VSSI_1_2012/nospresentation72112.pdf){target="_blank"}
   
-  
+**Videos**
+
+  - 
+  -
+  -  
   
 [Back to top of page](#top)
   
@@ -182,12 +197,19 @@ knitr::include_graphics("../media/week4.png")
   - 1/4th of the semester as passed, and you need to turn in Your-Choice Points
 
 **Resources**
+
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp4.txt){target="_blank"}
   - Bacteria and Archaea [Slides](https://github.com/gzahn/BIOL_1620/raw/master/07_Prokaryotes.pdf)
   - Lateral Gene Transfer [Between Humans and Microbes](https://www.the-scientist.com/features/bacteria-and-humans-have-been-swapping-dna-for-millennia-32779){target="_blank"}
   - Endosymbiosis [Evidence](https://www.biology.iupui.edu/biocourses/N100/2k2endosymb.html){target="_blank"} 
   - Primary vs Secondary [Endosymbiosis](https://endosymbiotichypothesis.wordpress.com/primary-versus-secondary-endosymbiosis/){target="_blank"}
   - *Paulinella* [complicates things](https://www.sciencedirect.com/science/article/pii/S0960982212003077){target="_blank"}
+
+**Videos**
+
+  - 
+  -
+  -
   
 [Back to top of page](#top)
 
@@ -217,6 +239,12 @@ knitr::include_graphics("../media/week5.png")
   - Revised [Classification of Eukaryotes](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1550-7408.2012.00644.x){target="_blank"}
   - Why the World Needs [Protists](https://bioone.org/journals/The-Journal-of-Eukaryotic-Microbiology/volume-51/issue-1/j.1550-7408.2004.tb00156.x/Why-the-World-Needs-Protistsa-classinternal-link-hrefn1--sup1/10.1111/j.1550-7408.2004.tb00156.x.pdf?casa_token=byYM1ThozLMAAAAA:RK4pMnynfHEP6fTlNWdFKk0CkWfMqbQEbc_Y25MJcsLvCcL-rcb0cg8X0rSrOmY6CbaYgUw){target="_blank"}
 
+**Videos**
+
+  - 
+  -
+  -
+  
 [Back to top of page](#top)
 
 ___
@@ -249,6 +277,12 @@ knitr::include_graphics("../media/week6.png")
   - Cambrian [Fossils](http://www.fossilmuseum.net/Paleobiology/CambrianFossils.htm){target="_blank"}
   - [Burgess Shale](https://burgess-shale.rom.on.ca/en/science/burgess-shale/03-fossils.php){target="_blank"}
   - Good [Website](https://www.shapeoflife.org/) on animal groups (Click on "Resources" at the top of the page)
+  
+**Videos**
+
+  - 
+  -
+  -
   
 [Back to top of page](#top)
 
@@ -283,7 +317,11 @@ knitr::include_graphics("../media/week7.png")
   - Human Evolution [Timeline](http://humanorigins.si.edu/evidence/human-evolution-timeline-interactive){target="_blank"}
   - Animal [Phyla](http://www.fossilmuseum.net/Tree_of_Life/Kingdom_animalia/animalphyla.htm){target="_blank"}
   
-  
+**Videos**
+
+  - 
+  -
+  -  
 
 [Back to top of page](#top)
 
@@ -316,14 +354,19 @@ knitr::include_graphics("../media/week8.jpg")
   - Fungal [Phyla](https://courses.lumenlearning.com/wmopen-biology2/chapter/classifications-of-fungi/){target="_blank"}
   - Fungal Endophytes and [Your Favorite Professor](https://www.sciencenews.org/article/plant-microbes-crops-food-endangered-species){target="_blank"} (Free, but need to enter an email address to subscribe in order to read the article)
   
+**Videos**
 
+  - 
+  -
+  -
+  
 [Back to top of page](#top)
 
 ___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("../media/model1.png")
+knitr::include_graphics("../media/fertilizer.jpeg")
 ```
 </div>
 
@@ -347,7 +390,14 @@ knitr::include_graphics("../media/model1.png")
   - Fake "Science" Version of [Same Experiment](https://non-gmoreport.com/articles/june2013/farmer-experiment-squirrels-prefer-organic-corn.php){target="_blank"}
   - Glyphosate [MDS](https://www.lakerestoration.com/pdf/glyphosatemsds.pdf){target="_blank"}
   - Evolution of [Plant Carnivory](https://www.nature.com/news/how-plants-evolved-into-carnivores-1.21425){target="_blank"}
-  - Wonderful [documentary](https://www.amazon.com/Plants-Behaving-Badly-Season-1/dp/B071HDHGJ2) from PBS (Need Amazon Prime subscription). Episode 1 is about carnivorous plants. Episode 2 is about orchids.
+  - Wonderful [documentary](https://www.amazon.com/Plants-Behaving-Badly-Season-1/dp/B071HDHGJ2){target="_blank"} from PBS (Need Amazon Prime subscription). Episode 1 is about carnivorous plants. Episode 2 is about orchids.
+  - [New study](https://www.cell.com/current-biology/fulltext/S0960-9822(20)30567-4){target="_blank"} shows **duplication of entire genomes!** of carnivorous plants. They're expressing root proteins in their leaves, WTF!?
+
+**Videos**
+
+  - 
+  -
+  -
   
 ___
 
@@ -378,6 +428,11 @@ knitr::include_graphics("../media/week10.jpg")
   - Adaptations for [Land](https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/25%3A_Seedless_Plants/25.1%3A_Early_Plant_Life/25.1C%3A_Plant_Adaptations_to_Life_on_Land){target="_blank"}
   - Alternation of Generations [Video](https://study.com/academy/lesson/alternation-of-generations-the-gametophyte-and-sporophyte.html){target="_blank"}
   
+**Videos**
+
+  - 
+  -
+  -  
   
 [Back to top of page](#top)
 
@@ -385,30 +440,12 @@ ___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("../media/Week11.jpg")
-```
-</div>
-
-### **Week 11**{#Week-11}
-##### SPRING BREAK!
-
-I mean, honestly, you probably haven't finished the Your-Choice Points yet.
-
-You should probably be pretty worried about that or you'll be scrambling like an idiot at the end of the semester right when all your other classes have things due. And then you'll give me a crappy book review and you'll get a bad grade on it with no chance for a re-do, and you will be very sad and I will not care about your sadness. Your sadness will feed me and make me grow more powerful. So think about that during Spring Break.
-</br></br>
-
-[Back to top of page](#top)
-
-
-___
-
-  <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "250px",echo=FALSE}
 knitr::include_graphics("../media/week12.png")
 ```
 </div>
 
-### **Week 12**{#Week-12}
+### **Week 11**{#Week-11}
+
 **Topics**
 
   - Major Plant Groups | Plant Anatomy
@@ -424,29 +461,25 @@ knitr::include_graphics("../media/week12.png")
   - Seed Plants [Slides](https://github.com/gzahn/BIOL_1620/raw/master/21_Seed_Plants.pdf) 
   - Plant Anatomy [Slides](https://github.com/gzahn/BIOL_1620/raw/master/22_Plant_Anatomy.pdf)
 
-**Supplemental videos**
+**Videos**
 
   - [Seed plants 1](https://youtu.be/iKsntUnAFdw) (What good are seeds?)
   - [Seed plants 2](https://youtu.be/XBuOh7j0uLY) (Major gytmnosperm groups)
   - [Seed plants 3](https://youtu.be/yFp3D7eU_fs) (Angiosperms)
   - [Seed plants 4](https://youtu.be/HlYZnKWeVLg) (Outtake)
-  
-  
-</br></br></br></br></br>
 
 
 [Back to top of page](#top)
 
 ___
 
-<div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+  <div style= "float:right;position: relative;top:10px">
+```{r, out.width = "250px",echo=FALSE}
 knitr::include_graphics("../media/week13.png")
 ```
 </div>
 
-
-### **Week 13**{#Week-13}
+### **Week 12**{#Week-12}
 **Topics**
 
   - Animal Behavior
@@ -467,7 +500,7 @@ knitr::include_graphics("../media/week13.png")
   - Classical vs Operant [Conditioning](https://www.khanacademy.org/test-prep/mcat/behavior/learning-slug/a/classical-and-operant-conditioning-article){target="_blank"}
   - Cuckoo Bird [Gentees](https://cpb-us-w2.wpmucdn.com/u.osu.edu/dist/3/39517/files/2015/09/35025058-14uu57d.pdf){target="_blank"}
   
-**Supplemental videos**
+**Videos**
 
   - [Animal Behavior 1](https://www.youtube.com/watch?v=jqlJdyONbYc&t=18s)
   - [Animal Behavior 2](https://www.youtube.com/watch?v=IwnXupjOKxE)
@@ -477,14 +510,14 @@ knitr::include_graphics("../media/week13.png")
 
 ___
 
-
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
 knitr::include_graphics("../media/week14.jpg")
 ```
 </div>
 
-### **Week 14**{#Week-14}
+
+### **Week 13**{#Week-13}
 **Topics**
 
   - Population Ecology
@@ -506,13 +539,30 @@ knitr::include_graphics("../media/week14.jpg")
   - IPCC [AR5 Synthesis Report](https://www.ipcc.ch/site/assets/uploads/2018/02/SYR_AR5_FINAL_full.pdf){target="_blank"}
   - IPCC [Physical Sciences Basis](https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_all_final.pdf){target="_blank"} Report - Evidence for anthropogenic climate change
   
-**Supplemental videos**
+**Videos**
 
   - [Ecology Intro 1](https://www.youtube.com/watch?v=YZmmx_fWQfo) - Levels of scale
   - [Ecology Intro 2](https://www.youtube.com/watch?v=oU7xCrTfs2s) - Climate modeling
   - [Ecology Intro 3]() - Intro to population ecology
 
 [Back to top of page](#top)
+
+___
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/turkey.jpeg")
+```
+</div>
+
+### **Week 14**{#Week-14}
+
+# Thanksgiving Break
+
+After your gluttonous meal, instead of watching TV, you should pick up that Your-Choice book you have been pretending to read and just read it like a champion. You're gonna want those points!
+
+Seriously, it's almost too late at this point. That book review is essentially overdue already, and you wouldn't be in this position if you had taken all the advice that told you to read that book and write that review months ago, but here you are. Maybe you have to rush it and you don't get full credit, but it's better than nothing, right?
 
 ___
 
@@ -545,6 +595,12 @@ knitr::include_graphics("../media/week15.jpg")
   - IPCC AR5 [Report](https://www.ipcc.ch/site/assets/uploads/2018/02/SYR_AR5_FINAL_full.pdf){target="_blank"} Read it and weep.
   - Modeling Trout [Extinction Risk](https://trout.shinyapps.io/lahontan/){target="_blank"}
 
+**Videos**
+
+  - 
+  -
+  -
+
 [Back to top of page](#top)
 
 ___
@@ -571,6 +627,11 @@ knitr::include_graphics("../media/week16.jpg")
   - Daisyball [Simulation](http://www.gingerbooth.com/flash/daisyball/DaisyBall.html){target="_blank"}
   - [Gaia hypothesis](https://courses.seas.harvard.edu/climate/eli/Courses/EPS281r/Sources/Gaia/Gaia-hypothesis-wikipedia.pdf){target="_blank"}
   
+**Videos**
+
+  - 
+  -
+  -
   
   
 [Back to top of page](#top)
