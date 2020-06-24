@@ -588,6 +588,9 @@ knitr::include_graphics("../media/week15.jpg")
 
   - Campbell Chs 54-55
   - Canvas quiz 10 due Monday before 2pm
+  - If you haven't turned in Your-Choice Points yet, you've missed your chance
+  - Also, if that's the case, you had your chance so no whining
+
   
 **Resources**
 
@@ -596,7 +599,7 @@ knitr::include_graphics("../media/week15.jpg")
   - Analyze Metagenomes Yourself! With [This Website](https://www.mg-rast.org/mgmain.html?mgpage=analysis){target="_blank"}
   - Community Ecology [Free Online Course](https://alison.com/topic/learn/72407/patterns-of-population-distribution-learning-outcomes){target="_blank"} (you get what you pay for)
   - Decent Community Ecology [Video](https://ocw.mit.edu/high-school/biology/exam-prep/ecology/communities-ecosystems/community-ecology/#vid_index){target="_blank"}
-  - Sea Ice [Video](https://gzahn/github.io/media/SeaIce.mp4){target="_blank"}
+  - Sea Ice [Video](https://gzahn.github.io/media/SeaIce.mp4){target="_blank"}
   - IPCC AR5 [Report](https://www.ipcc.ch/site/assets/uploads/2018/02/SYR_AR5_FINAL_full.pdf){target="_blank"} Read it and weep.
   - Modeling Trout [Extinction Risk](https://trout.shinyapps.io/lahontan/){target="_blank"}
 
@@ -623,9 +626,7 @@ knitr::include_graphics("../media/week16.jpg")
 
 **Readings and Assignments**
 
-  - Post-Test Friday
-  - If you haven't turned in Your-Choice Points yet, you've missed your chance
-  - Also, if that's the case, you had your chance so no whining
+  - Post-Test Wednesday
 
 **Resources**
 
@@ -643,4 +644,13 @@ knitr::include_graphics("../media/week16.jpg")
 
 ___
 
+<br/>
+
+### **For the Final Exam schedule,** [**click here**](https://www.uvu.edu/academicscheduling/exam_schedule/){target="_blank"}
+
+<br/>
+
+___
+
 </div>
+

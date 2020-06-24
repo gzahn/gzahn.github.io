@@ -10,7 +10,7 @@ output: html_document
 }
 </style>
 
-## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [DATA COURSE](http://gzahn.github.io/data-course/)
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [DATA COURSE](http://gzahn.github.io/data-course/) | [INTRO BIO II](http://gzahn.github.io/BIOL1620/) | [MYCOLOGY](http://gzahn.github.io/mycology/)
 
 <style>
 div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}

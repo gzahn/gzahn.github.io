@@ -1,0 +1,560 @@
+---
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: MYCOLOGY
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [DATA COURSE](http://gzahn.github.io/data-course/) | [INTRO BIO II](http://gzahn.github.io/BIOL1620/) | [MYCOLOGY](http://gzahn.github.io/mycology/)
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "300px",echo=FALSE}
+knitr::include_graphics("./media/w_w_book.jpg")
+```
+</div>
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+
+# **MYCOLOGY**{#top}
+Utah Valley University - BIOL1620
+
+#### This course section is entirely online. All assignments, quizzes, and exams will be turned in and taken on Canvas. My preferred contact method is our group Slack channel.
+
+#### This webpage will host links to all resources and videos, and serves as a roadmap for the semester, listing readings, assignments, etc.
+
+
+## Quick links:
+
+#### [Course Syllabus](){target="_blank"}
+
+#### [Text Book](https://gzahn.github.io/mycology/media/WEBSTER_and_WEBER_3rd-ed.pdf)
+
+
+___
+
+#### Table of Contents
+
+[Week 1](#Week-1)    |    [Week 5](#Week-5)    |    [Week 9](#Week-9) | [Week 13](#Week-13)
+
+[Week 2](#Week-2)    |    [Week 6](#Week-6)    |    [Week 10](#Week-10) | [Week 14](#Week-14)
+
+[Week 3](#Week-3)    |    [Week 7](#Week-7)    |    [Week 11](#Week-11) | [Week 15](#Week-15)
+
+[Week 4](#Week-4)    |    [Week 8](#Week-8)    |    [Week 12](#Week-12) | [Week 16](#Week-16)
+
+
+
+
+</div>
+
+___
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/Ch02_Evolution_summary.jpg")
+```
+</div>
+
+### **Week 1**{#Week-1}
+
+**Topics:** 
+
+  - What are fungi? | Chytrids and divergence from metazoa | Fungal phylogeny
+
+**Readings and Assignments**  
+
+  - Read [James, et al., 2006](https://gzahn.github.io/mycology/media/James_et_al_-_2006_Reconstructing_the_early_evolution_of_Fungi.pdf)
+  - Read Webster & Weber: 1.1, 1.5, 6.1 
+  - Canvas quiz on readings
+  - Find and grow zygomycete fungi (Canvas assignment)
+  - Get "Mr. Bloomfield's Orchard" by Nicholas Money [(LINK)](https://amzn.to/2ByMPTa){target="_blank}
+  
+  
+**Resources**
+
+  - [Major Topics]()
+  -
+  -
+  -
+  -
+  
+**Videos**
+
+  - 
+  -
+  -
+
+[Back to top of page](#top)
+
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/mycelium.jpg")
+```
+</div>
+
+### **Week 2**{#Week-2}
+**Topics**
+
+  - The "hyphal lifestyle" | Fungal physiology | Zygomycetes | Reproduction in fungi
+
+**Readings and Assignments**
+
+  - Read [Fisher, et al., 2018](https://gzahn.github.io/mycology/media/fisher2018.pdf)
+  - Read Webster & Weber: **1.3** | **1.4** | **7.1** | **7.2** | **7.3.1** | **7.3.2**
+  - Canvas quiz on readings
+
+
+**Resources**
+
+  - [Major Topics](https://gzahn.github.io/){target="_blank"}
+  - fungal mating types
+  - zygo life cycle
+  - 
+  
+**Videos**
+
+  - 
+  -
+  -  
+  
+  
+[Back to top of page](#top)
+
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/asco_life_cycle.jpg")
+```
+</div>
+
+
+### **Week 3**{#Week-3}
+
+**Topics**
+
+  - Ascomycetes | Species concept in fungi | Anamorphs and Teleomorphs | Dikaryotism
+
+**Readings and Assignments**
+
+  - 
+
+**Resources**
+
+  - [Major Topics]
+  
+**Videos**
+
+  - 
+  -
+  -  
+  
+[Back to top of page](#top)
+  
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "250px",echo=FALSE}
+knitr::include_graphics("./media/basidios.jpg")
+```
+</div>
+  
+  
+### **Week 4**{#Week-4}
+**Topics**
+
+  - Basidiomycetes
+
+**Readings and Assignments**
+
+  - 
+  
+**Resources**
+
+  - [Major Topics]
+  
+**Videos**
+
+  - 
+  -
+  -
+  
+[Back to top of page](#top)
+
+___
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/dispersal.jpeg")
+```
+</div>
+
+### **Week 5**{#Week-5}
+**Topics**
+
+  - Fungal development | Mushroom mechanics | Active dispersal
+  
+**Readings and Assignments**
+
+  - Read [Hammad, et al., 1993](https://gzahn.github.io/mycology/media/Hammad_et_al_1993.pdf)
+  
+**Resources**
+
+  - [Major Topics]
+  
+**Videos**
+
+  - 
+  -
+  -
+  
+[Back to top of page](#top)
+
+___
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/medical_mycology.jpeg")
+```
+</div>
+
+### **Week 6**{#Week-6}
+**Topics**
+
+  - Medical mycology 
+  
+**Readings and Assignments**
+
+  - Read [Huffnagle & Noverr, 2013](https://gzahn.github.io/mycology/media/Huffnagle_and_Noverr_2013.pdf)
+  
+**Resources**
+
+  - [Major Topics]
+  
+**Videos**
+
+  - 
+  -
+  -
+  
+[Back to top of page](#top)
+
+
+___
+
+### **Week 7**{#Week-7}
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/rust.jpg")
+```
+</div>
+
+**Topics**
+
+  - Plant pathogens
+  
+**Readings and Assignments**
+
+  - Read [Roy, 1993](https://gzahn.github.io/mycology/media/Roy_1993.pdf)
+  -
+  -
+  -
+  
+  
+**Resources**
+
+  - [Major Topics]
+  -
+  -
+  -
+  -
+  
+**Videos**
+
+  - 
+  -
+  -  
+
+[Back to top of page](#top)
+
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/dist_chytrid.jpg")
+```
+</div>
+
+
+### **Week 8**{#Week-8}
+**Topics**
+
+  - Distribution and dispersal | Population ecology
+  
+**Readings and Assignments**
+
+  - Read [Glassman, et al., 2017](https://gzahn.github.io/mycology/media/Glassman_et_al_2017.pdf)
+  
+**Resources**
+
+  - [Major Topics]
+  
+**Videos**
+
+  - 
+  -
+  -
+  
+[Back to top of page](#top)
+
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/symbiosis.jpeg")
+```
+</div>
+
+
+
+### **Week 9**{#Week-9}
+**Topics**
+
+  - Symbioses: Endophytes
+  
+**Readings and Assignments**
+
+  - Read [Christian, et al., 2017](https://gzahn.github.io/mycology/media/Christian_et_al_2017.pdf)
+  
+**Resources**
+
+  - [Major Topics]
+  
+**Videos**
+
+  - 
+  -
+  -
+  
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/ectomycorrhizae.jpg")
+```
+</div>
+
+[Back to top of page](#top)  
+
+
+### **Week 10**{#Week-10}
+
+**Topics**
+
+  - Symbioses: Mycorrhizae
+  
+**Readings and Assignments**
+
+  - 
+  
+**Resources**
+
+  - [Major Topics]
+  
+**Videos**
+
+  - 
+  -
+  -  
+  
+[Back to top of page](#top)
+
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/lichen.jpg")
+```
+</div>
+
+### **Week 11**{#Week-11}
+
+**Topics**
+
+  - Symbioses: Lichens
+  
+**Readings and Assignments**
+
+  - 
+  
+**Resources**
+
+  - [Major Topics]
+  
+**Videos**
+
+  - 
+  
+
+[Back to top of page](#top)
+
+___
+
+  <div style= "float:right;position: relative;top:10px">
+```{r, out.width = "250px",echo=FALSE}
+knitr::include_graphics("./media/rot_fungi_ecosystem.pdf")
+```
+</div>
+
+### **Week 12**{#Week-12}
+
+**Topics**
+
+  - Fungal ecosystem services
+  
+**Assignments**
+
+  - 
+  
+**Resources**
+
+  - [Major Topics]
+  
+**Videos**
+
+  - 
+  
+[Back to top of page](#top)
+
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/ethnomycology.jpeg")
+```
+</div>
+
+
+### **Week 13**{#Week-13}
+
+**Topics**
+
+  - Ethnomycology
+  
+**Readings and Assignments**
+
+  - Read [Dugan, 2008](https://gzahn.github.io/mycology/media/Dugan_2008.pdf)
+  
+**Resources**
+
+  - [Major Topics]
+  
+**Videos**
+
+  - 
+  
+[Back to top of page](#top)
+
+___
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/turkey.jpeg")
+```
+</div>
+
+### **Week 14**{#Week-14}
+
+# Thanksgiving Break
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
+___
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/Primer_map_2015_March.png")
+```
+</div>
+
+### **Week 15**{#Week-15}
+
+**Topics**
+
+  - Molecular mycology | Intro to fungal bioinformatics
+  
+**Readings and Assignments**
+
+  - Read [Raja, et al., 2017](https://gzahn.github.io/mycology/media/Raja_et_al_2017.pdf)
+  
+**Resources**
+
+  - [Major Topics]
+  
+**Videos**
+
+  - 
+  -
+  -
+
+[Back to top of page](#top)
+
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/week16.jpg")
+```
+</div>
+
+### **Week 16**{#Week-16}
+
+**Topics**
+
+  - Wrap-up
+  
+**Readings and Assignments**
+
+  - 
+  
+**Resources**
+
+  - [Main Topics] 
+  
+**Videos**
+
+  - 
+  -
+  -
+  
+  
+[Back to top of page](#top)
+
+___
+
+</div>

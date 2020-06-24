@@ -13,7 +13,7 @@ pagetitle: BIOL3100
 }
 </style>
 
-## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [DATA COURSE](http://gzahn.github.io/data-course/) | [INTRO BIO II](http://gzahn.github.io/BIOL1620/)
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [DATA COURSE](http://gzahn.github.io/data-course/) | [INTRO BIO II](http://gzahn.github.io/BIOL1620/) | [MYCOLOGY](http://gzahn.github.io/mycology/)
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "300px",echo=FALSE}
@@ -329,7 +329,8 @@ knitr::include_graphics("../media/function.png")
   - Writing Functions | Conditional Execution | source()
 
 **Assignments**
-
+  - Watch [this video](https://resources.rstudio.com/rstudio-conf-2020/object-of-type-closure-is-not-subsettable-jenny-bryan){target="_blank"} from Jenny Bryan about debugging
+  
 **Resources**
 
   - [Functions](https://r4ds.had.co.nz/functions.html){target="_blank"}
@@ -401,6 +402,7 @@ knitr::include_graphics("../media/logistic.jpg")
   - [Common Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html){target="_blank"}
   - [Mixed-effect Models](https://peerj.com/articles/4794/){target="_blank"}
   - [Everything is a Regression](https://towardsdatascience.com/everything-is-just-a-regression-5a3bf22c459c){target="_blank"}
+  _ [Introduction to mixed effects models](https://peerj.com/articles/4794/){target="_blank"} This is a VERY good paper.
  
 **Practice**
 
