@@ -408,7 +408,7 @@ knitr::include_graphics("./media/lichen.jpg")
   
 **Readings and Assignments**
 
-  - 
+  - Read [Spribille, et al., 2016](https://gzahn.github.io/mycology/media/Spribille_et_al_2016.pdf)
   
 **Resources**
 
