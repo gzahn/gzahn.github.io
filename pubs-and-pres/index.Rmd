@@ -23,6 +23,12 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 ___
 
+**Darcy J L, Swift S, Cobian G M, Zahn G, Perry B A, Amend A.. 2020. Fungal communities living within leaves of native Hawaiian dicots are structured by landscape-scale variables as well as by host plants. Molecular Ecolgy (In Press)**
+
+Landscape-scale variation in plant phylogeny, NDVI, elevation, evapotranspiration, etc., show how the interaction of factors at large and small spatial and phylogenetic scales shape fungal symbiont communities.
+
+___
+
 **Tipton\*, L., Zahn\*, G., Datlof, E., Kivlin, S. N., Sheridan, P., Amend, A. S., & Hynson, N. A.. 2019. Fungal aerobiota are not affected by time nor environment over a 13-y time series at the Mauna Loa Observatory. Proceedings of the National Academy of Sciences. https://doi.org/10.1073/pnas.1907414116**
 
 Upper-atmosphere fungal assemblages are stochastic over a decadal scale. Seriously *nothing* seems to affect them deterministically.

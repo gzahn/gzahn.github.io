@@ -60,7 +60,7 @@ ____
 
 ## Good web resources:
 
-[**21st Century Guidebook to Fungi**](http://www.davidmoore.org.uk/21st_Century_Guidebook_to_Fungi_PLATINUM/index.htm){target="_blank} (This is pretty useful for this class!)
+[**21st Century Guidebook to Fungi**](http://www.davidmoore.org.uk/21st_Century_Guidebook_to_Fungi_PLATINUM/index.htm){target="_blank} (This is pretty useful for this class!) Full [download link](https://gzahn.github.io/mycology/media/21st_Century_Guide_to_Fungi_1st_ed.zip) for older edition (zipped).
 
 Cornell's [**Virtual Fungal Library**](http://mycology.cornell.edu/){target="_blank} (Extensive links to resources!)
 
@@ -72,7 +72,7 @@ Nice [**YouTube Channel**](https://www.youtube.com/channel/UCkzY4M9kg2VmqJ2nNcNM
 
 ___
 
-#### Table of Contents
+## Table of Contents
 
 [Week 1](#Week-1)    |    [Week 5](#Week-5)    |    [Week 9](#Week-9) | [Week 13](#Week-13)
 
@@ -97,7 +97,7 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./media/Ch02_Evolution_summary.jpg")
+knitr::include_graphics("./media/Fungal_Evol_Hist.png")
 ```
 </div>
 
