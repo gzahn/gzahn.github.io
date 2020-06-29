@@ -121,7 +121,7 @@ knitr::include_graphics("./media/Fungal_Evol_Hist.png")
 **Resources**
 
   - [Main study topics](https://gzahn.github.io/mycology/study_topics/week_1.txt){target="_blank"}
-  - Lesson [slides](https://gzahn.github.io/mycology/lectures/week1.odp){target="_blank"}
+  - Lesson [slides](https://gzahn.github.io/mycology/lectures/Week1.odp){target="_blank"}
   - Lesson [video]() (Recorded during class and posted after)
   - How to isolate Zygomycetes with soil and bread...for assignment [video](https://youtu.be/JzVBlk0Rqj8){target="_blank"}
 
