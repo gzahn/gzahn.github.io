@@ -124,6 +124,9 @@ knitr::include_graphics("./media/Fungal_Evol_Hist.png")
   - Lesson [slides](https://gzahn.github.io/mycology/lectures/Week1.odp){target="_blank"}
   - Lesson [video]() (Recorded during class and posted after)
   - How to isolate Zygomycetes with soil and bread...for assignment [video](https://youtu.be/JzVBlk0Rqj8){target="_blank"}
+  - Fungi are probably at least [800 million years old!](https://advances.sciencemag.org/content/6/4/eaax7599){target="_blank"}
+  - [Fossil fungi](http://www-news.uchicago.edu/releases/07/070423.fungus.shtmla){target="_blank}
+  - [Biophysics of pressurized growth in fungi](https://www.nature.com/articles/nrmicro2591.pdf?origin=ppub){target="_blank}
 
 **Videos**
 
@@ -152,24 +155,29 @@ knitr::include_graphics("./media/mycelium.jpg")
 
   - Read [Fisher, et al., 2018](https://gzahn.github.io/mycology/media/fisher2018.pdf)
   - Read Webster & Weber: **1.2** | **1.3** | **1.4** | **7.1** | **7.2** | **7.3.1** | **7.3.2**
-  - Canvas quiz on readings
-  - Slack discussion on readings
+  - Canvas quiz on readings  (due before class Thursday)
+  - Slack discussion on readings (Thursday 11:15am)
 
 
 **Resources**
 
-  - [Major Topics](https://gzahn.github.io/){target="_blank"}
-  - fungal mating types
-  - zygo life cycle
-  - Fungi are probably at least [800 million years old!](https://advances.sciencemag.org/content/6/4/eaax7599){target="_blank"}
-  - [Fossil fungi](http://www-news.uchicago.edu/releases/07/070423.fungus.shtmla){target="_blank}
-  - [Biophysics of pressurized growth in fungi](https://www.nature.com/articles/nrmicro2591.pdf?origin=ppub){target="_blank}
+  - [Main study topics](https://gzahn.github.io/mycology/study_topics/week_1.txt){target="_blank"}
+  - Lesson [slides](https://gzahn.github.io/mycology/lectures/Week2.odp){target="_blank"}
+  - Lesson [video]() (Recorded during class and posted after)
+  - ZyGoLife [website](http://zygolife.org/home/){target="_blank} for current phylogenies, etc.
+  - Phylum-level [classification of Zygomycetes](https://www.tandfonline.com/doi/full/10.3852/16-042){target="_blank}
+  - Good [web page](https://www.forestfloornarrative.com/blog/2017/8/24/hyphal-aggregates){target="_blank} on hyphal aggregates
+  
+  
   
 **Videos**
 
-  - 
-  -
-  -  
+  - Generic Zygomycete [life cycle video](https://youtu.be/1tpEKYvKy7I){target="_blank}
+  - Another life cycle [video](https://youtu.be/M-dDUB5mnko){target="_blank}
+  - Zygospore formation [video](https://youtu.be/8Hqfc1xeF1M){target="_blank}
+  - Hyphal types [video](https://youtu.be/ISPA7IM4zaU){target="_blank"} (though she mispronounces "coenocytic" ... it's like "see - no - sit - ic")
+  - Mucor as a human pathogen [video](https://youtu.be/DntLhHpdAuc){target="_blank"}
+  - Mucor as a model of Zygomycete anatomy [video](https://youtu.be/OPldLIlltNg){target="_blank"} (ridiculous music warning)
   
   
 [Back to top of page](#top)
