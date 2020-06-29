@@ -114,14 +114,16 @@ knitr::include_graphics("./media/Fungal_Evol_Hist.png")
   - Read [James, et al., 2006](https://gzahn.github.io/mycology/media/James_et_al_-_2006_Reconstructing_the_early_evolution_of_Fungi.pdf)
   - Read Webster & Weber: **1.1** | **1.5** | **6.1** 
   - Canvas quiz on readings (due before class Thursday)
-  - Find and grow zygomycete fungi (Canvas assignment)
+  - Find and grow zygomycete fungi (Canvas assignment; video walkthrough below)
   - Get "Mr. Bloomfield's Orchard" by Nicholas Money [(LINK)](https://amzn.to/2ByMPTa){target="_blank}
   - Slack discussion on readings (Thursday 11:15am)
   
 **Resources**
 
-  - Lesson [slides]()
-  - Lesson [video]()
+  - [Main study topics](https://gzahn.github.io/mycology/study_topics/week_1.txt){target="_blank"}
+  - Lesson [slides](https://gzahn.github.io/mycology/lectures/week1.odp){target="_blank"}
+  - Lesson [video]() (Recorded during class and posted after)
+  - How to isolate Zygomycetes with soil and bread...for assignment [video](https://youtu.be/JzVBlk0Rqj8){target="_blank"}
 
 **Videos**
 
