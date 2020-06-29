@@ -44,7 +44,7 @@ The course consists of several components:
     + Scientific papers: Usually weekly, linked below
     + Fun book: *Mr. Bloomfield's Orchard*, by Nicholas Money
   - **Weekly quizzes on reading material** (on Canvas)
-  - **Assorted "Redneck mycology" lab and field exercises** (on Canvas)
+  - **Assorted "home mycology" lab and field exercises** (on Canvas)
   - **Exams** (3 of these, on Canvas, open-note) 
   - **Project: Design a new fungus**
 
@@ -110,27 +110,27 @@ knitr::include_graphics("./media/Fungal_Evol_Hist.png")
 
 **Readings and Assignments**  
 
+  - Study the lesson slides (link below)
   - Read [James, et al., 2006](https://gzahn.github.io/mycology/media/James_et_al_-_2006_Reconstructing_the_early_evolution_of_Fungi.pdf)
-  - Read Webster & Weber: 1.1, 1.5, 6.1 
-  - Canvas quiz on readings
+  - Read Webster & Weber: **1.1** | **1.5** | **6.1** 
+  - Canvas quiz on readings (due before class Thursday)
   - Find and grow zygomycete fungi (Canvas assignment)
   - Get "Mr. Bloomfield's Orchard" by Nicholas Money [(LINK)](https://amzn.to/2ByMPTa){target="_blank}
-  
+  - Slack discussion on readings (Thursday 11:15am)
   
 **Resources**
 
-  - [Major Topics]()
-  - 
-  -
-  -
-  -
-  
+  - Lesson [slides]()
+  - Lesson [video]()
+
 **Videos**
 
-  - 
-  -
-  -
-
+  - Chytrid [trophic modes](https://www.youtube.com/watch?v=N6Z_MlahSx8){target="_blank}
+  - What's [killing the world's amphibians?](https://www.youtube.com/watch?v=BvidpapF1bg){target="_blank}
+  - Chytrid sexual [life cycle](https://www.youtube.com/watch?v=ehQusvH8r1s){target="_blank}
+  - Cool time-lapse video of [growing hyphae](https://www.youtube.com/watch?v=i9T727tz7FA){target="_blank}
+  - Hyphal morphology [video](https://www.youtube.com/watch?v=OZuFzbNIVUQ){target="_blank}
+  
 [Back to top of page](#top)
 
 ___
@@ -151,6 +151,7 @@ knitr::include_graphics("./media/mycelium.jpg")
   - Read [Fisher, et al., 2018](https://gzahn.github.io/mycology/media/fisher2018.pdf)
   - Read Webster & Weber: **1.2** | **1.3** | **1.4** | **7.1** | **7.2** | **7.3.1** | **7.3.2**
   - Canvas quiz on readings
+  - Slack discussion on readings
 
 
 **Resources**
@@ -158,7 +159,9 @@ knitr::include_graphics("./media/mycelium.jpg")
   - [Major Topics](https://gzahn.github.io/){target="_blank"}
   - fungal mating types
   - zygo life cycle
-  - 
+  - Fungi are probably at least [800 million years old!](https://advances.sciencemag.org/content/6/4/eaax7599){target="_blank"}
+  - [Fossil fungi](http://www-news.uchicago.edu/releases/07/070423.fungus.shtmla){target="_blank}
+  - [Biophysics of pressurized growth in fungi](https://www.nature.com/articles/nrmicro2591.pdf?origin=ppub){target="_blank}
   
 **Videos**
 
@@ -187,6 +190,8 @@ knitr::include_graphics("./media/asco_life_cycle.jpg")
 **Readings and Assignments**
 
   - Read Webster & Weber: **8** | **10.2** | **12.1** | **12.2.1**
+  - Canvas quiz on readings
+  - Slack discussion on readings
 
 **Resources**
 
@@ -219,6 +224,8 @@ knitr::include_graphics("./media/basidios.jpg")
 **Readings and Assignments**
 
   - Read Webster & Weber: **18** | **19.1** | **20.1** | **21.1** | **24.1**
+  - Canvas quiz on readings
+  - Slack discussion on readings
   
 **Resources**
 
