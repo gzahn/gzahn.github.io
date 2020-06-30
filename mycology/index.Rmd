@@ -44,9 +44,15 @@ The course consists of several components:
     + Scientific papers: Usually weekly, linked below
     + Fun book: *Mr. Bloomfield's Orchard*, by Nicholas Money
   - **Weekly quizzes on reading material** (on Canvas)
-  - **Assorted "home mycology" lab and field exercises** (on Canvas)
+  - **Assorted "home mycology" lab, research, and field exercises** (on Canvas)
   - **Exams** (3 of these, on Canvas, open-note) 
-  - **Project: Design a new fungus**
+
+The course is broken into 4 rough sections:
+
+  1. Getting to know fungal biology and major groups (get ready for a bunch of terminology)
+  2. Fungi as the enemy (human and plant pathogens, fungal distribution, secondary compounds)
+  3. Fungi as a friend (mutualistic symbioses)
+  4. Molecular mycology (intro to modern methods and fungal bioinformatics)
 
 ___
 
@@ -61,6 +67,8 @@ ____
 ## Good web resources:
 
 [**21st Century Guidebook to Fungi**](http://www.davidmoore.org.uk/21st_Century_Guidebook_to_Fungi_PLATINUM/index.htm){target="_blank} (This is pretty useful for this class!) Full [download link](https://gzahn.github.io/mycology/media/21st_Century_Guide_to_Fungi_1st_ed.zip) for older edition (zipped).
+
+"The Fifth Kingdom" [website](http://www.mycolog.com/fifthtoc.html){target="_blank"}
 
 Cornell's [**Virtual Fungal Library**](http://mycology.cornell.edu/){target="_blank} (Extensive links to resources!)
 
@@ -157,7 +165,7 @@ knitr::include_graphics("./media/mycelium.jpg")
   - Read Webster & Weber: **1.2** | **1.3** | **1.4** | **7.1** | **7.2** | **7.3.1** | **7.3.2**
   - Canvas quiz on readings  (due before class Thursday)
   - Slack discussion on readings (Thursday 11:15am)
-
+  - Turn in your Zygomycete photos (Canvas)
 
 **Resources**
 
@@ -199,15 +207,26 @@ knitr::include_graphics("./media/asco_life_cycle.jpg")
 
 **Readings and Assignments**
 
-  - Read Webster & Weber: **8** | **10.2** | **12.1** | **12.2.1**
-  - Canvas quiz on readings
-  - Slack discussion on readings
+  - Read Webster & Weber: **8** | **10.2** | **12.1** | **12.2.1** | **17.2.6**
+  - Canvas quiz on readings (due before class Thursday)
+  - Slack discussion on readings (Thursday 11:15am)
+  - How many Ascomycete species exist? (Canvas assignment)
 
 **Resources**
 
-  - [Major Topics]
-  - ascus formation video
-  - 
+  - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_3.txt){target="_blank"}
+  - Leson [slides](){target="_blank"}
+  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Species concept in fungi [paper](http://140.232.1.129/faculty/dhibbett/Reprints%20PDFs/Taylor%20et%20al%202000%20FGB.pdf){target="_blank"}
+  - Ascus formation [web page](http://website.nbm-mnb.ca/mycologywebpages/NaturalHistoryOfFungi/Asci.html){target="_blank"}
+  - Anamorphs and Teliomorphs [paper](https://gzahn.github.io/mycology/media/Kirschner_2019.pdf){target="_blank"}
+  - [Saccharomyces](https://mmbr.asm.org/content/mmbr/52/4/536.full.pdf){target="_blank"}
+  - [Sordaria](https://botit.botany.wisc.edu/toms_fungi/mar2007.html){target="_blank"}
+  - [Alternaria](https://microbenotes.com/alternaria-alternata/){target="_blank"}
+  - [Xylaria](https://www.researchgate.net/profile/Bitty_Roy/publication/291205851_Spatial_Ecology_of_the_Fungal_Genus_Xylaria_in_a_Tropical_Cloud_Forest/links/5b0aff7caca2725783ea5226/Spatial-Ecology-of-the-Fungal-Genus-Xylaria-in-a-Tropical-Cloud-Forest.pdf?_sg%5B0%5D=fzmK3YP24yHpk6IUyNunKNS_YcId4zwW3mSnQLgQTLP9AJtFYwOLp3LVPRA912Naiw9YyNtIMxaYyfeIXzbdFg.KYhMYissEHmJQeAyzM0zRohYDWGV1nla4FjitQeroTVaMC0szw8nxAPZwedkSGifd-sM8vGNb2rAMRhkuXCOPA&_sg%5B1%5D=T6R2h1UVgXv6iUi4vPnQBHRmmQ0CfhTR6BNVlGjVh05r5gipSFvVq0OcaQVdcNn53lUD7Ttz1Nt_j1p-WPWnJkVL3PvnMdBDCm1elCKi01f8.KYhMYissEHmJQeAyzM0zRohYDWGV1nla4FjitQeroTVaMC0szw8nxAPZwedkSGifd-sM8vGNb2rAMRhkuXCOPA&_iepl=){target="_blank"}
+  - Mycobank fungal name [synonym search](http://www.mycobank.org/quicksearch.aspx){target="_blank"}
+  - What's so good about being diploid? [paper](https://onlinelibrary.wiley.com/doi/full/10.1046/j.1420-9101.2001.00245.x){target="_blank"}
+  - Why does Saccharomyces cereviseae perform ethanol fermentation even in the presence of oxygen, even at a cost to energy production? [paper](https://www.frontiersin.org/articles/10.3389/fmolb.2014.00017/full){target="_blank"}
   
 **Videos**
 
@@ -261,12 +280,13 @@ knitr::include_graphics("./media/dispersal.jpeg")
 ### **Week 5**{#Week-5}
 **Topics**
 
-  - Fungal development | Mushroom mechanics | Active dispersal
+  - Fungal development | Mushroom mechanics | Active dispersal | Mushroom ID
   
 **Readings and Assignments**
 
   - Read [Hammad, et al., 1993](https://gzahn.github.io/mycology/media/Hammad_et_al_1993.pdf)
   - **Exam 1** (Covers material from weeks 1-4)
+  - Fungal collections (5 types) and IDs
   
 **Resources**
 
@@ -628,7 +648,7 @@ ___
 
 ## Final Exam 
 
-#### The final exam is project-based. You will design **and illustrate** a new fungal species, complete with a detailed life-cycle, physiology, ecology, etc.
+#### The final exam is project-based. You will design **and illustrate** a new fungal species, complete with a detailed life-cycle, physiology, ecology, etc.    ?????????????????????
 
 **For the Final Exam schedule,** [**click here**](https://www.uvu.edu/academicscheduling/exam_schedule/){target="_blank"}
 
