@@ -5,6 +5,7 @@ html_document:
 pagetitle: MYCOLOGY
 ---
 
+
 <style type="text/css">
 .main-container {
   max-width: 1800px;
@@ -13,7 +14,9 @@ pagetitle: MYCOLOGY
 }
 </style>
 
-## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [DATA COURSE](http://gzahn.github.io/data-course/) | [INTRO BIO II](http://gzahn.github.io/BIOL1620/) | [MYCOLOGY](http://gzahn.github.io/mycology/)
+
+
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [TEACHING](http://gzahn.github.io/coursemap/)
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "300px",echo=FALSE}
@@ -215,7 +218,7 @@ knitr::include_graphics("./media/asco_life_cycle.jpg")
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_3.txt){target="_blank"}
-  - Leson [slides](){target="_blank"}
+  - Leson [slides](https://gzahn.github.io/mycology/lectures/Week3_mini.odp){target="_blank"}
   - Lesson [video](){target="_blank"} (Recorded during class and posted after)
   - Species concept in fungi [paper](http://140.232.1.129/faculty/dhibbett/Reprints%20PDFs/Taylor%20et%20al%202000%20FGB.pdf){target="_blank"}
   - Ascus formation [web page](http://website.nbm-mnb.ca/mycologywebpages/NaturalHistoryOfFungi/Asci.html){target="_blank"}
@@ -230,10 +233,12 @@ knitr::include_graphics("./media/asco_life_cycle.jpg")
   
 **Videos**
 
-  - 
-  -
-  -  
-  
+  - [Good overview](https://youtu.be/q7V9avKWeo0){target="_blank"} of Ascomycete characteristcs
+  - Sordaria [crossing over](https://youtu.be/gXUxH1aFRp0){target="_blank"}
+  - How fungi helped us solve the central dogma of biology: 
+    + [Part 1](https://youtu.be/cETqxjsB_Bw){target="_blank"} (Why *Neruospora crassa* was the perfect model organism) 
+    + [Part 2](https://youtu.be/fXASTY-YoRQ){target="_blank"} (The famous Beadle and Tatum experiment)
+    
 [Back to top of page](#top)
   
 ___
