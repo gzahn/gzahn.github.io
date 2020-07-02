@@ -13,7 +13,8 @@ pagetitle: BIOL3100
 }
 </style>
 
-## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [TEACHING](http://gzahn.github.io/coursemap/)
+
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/)
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "300px",echo=FALSE}
@@ -40,6 +41,7 @@ Utah Valley University - BIOL3100
 (Anyone with link can edit)
 
 #### [The philosophy of this course](http://gzahn.github.io/media/spocklogic.jpg)
+
 
 ___
 
@@ -574,4 +576,9 @@ ___
 
 ___
 
+<br/>
+
+**'Luck is statistics taken personally.' -- Penn Jillette**
+
 </div>
+

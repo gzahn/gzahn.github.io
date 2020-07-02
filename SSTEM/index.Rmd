@@ -1,0 +1,579 @@
+---
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: MYCOLOGY
+---
+
+
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+
+
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/)
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "300px",echo=FALSE}
+knitr::include_graphics("../coursemap/media/NSFlogoTrans.png")
+```
+</div>
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+
+# **Intro to Undergrad Resarch: NSF S-STEM Cohort**{#top}
+Utah Valley University
+
+#### This course section is entirely online. All assignments, quizzes, and exams will be turned in and taken on Canvas. My preferred contact method is our group Slack channel.
+
+#### This webpage will host links to all resources and videos, and serves as a roadmap for the semester, listing readings, assignments, etc.
+
+___
+
+#### **Course overview:**
+
+
+___
+
+## Quick links:
+
+#### [Course Syllabus](https://gzahn.github.io/SSTEM/media/S-STEM_Course_Syllabus_COVID.pdf){target="_blank"}
+
+
+____
+
+
+
+## Table of Contents
+
+[Week 1](#Week-1)    |    [Week 5](#Week-5)    |    [Week 9](#Week-9) | [Week 13](#Week-13)
+
+[Week 2](#Week-2)    |    [Week 6](#Week-6)    |    [Week 10](#Week-10) | [Week 14](#Week-14)
+
+[Week 3](#Week-3)    |    [Week 7](#Week-7)    |    [Week 11](#Week-11) | [Week 15](#Week-15)
+
+[Week 4](#Week-4)    |    [Week 8](#Week-8)    |    [Week 12](#Week-12) | [Week 16](#Week-16)
+
+
+
+
+</div>
+
+___
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/larry.gif")
+```
+</div>
+
+
+### **Week 1 - Getting to know the program and mentors**{#Week-1}
+
+**Topics:** 
+
+  - Biology research mentors' presentations
+  - Getting to know your cohort
+  - Logistics and expectations of S-STEM program
+
+**Assignments:**  
+
+  - Watch all mentor introduction videos [link](){target="_blank"}
+  - Group discussion and Q/A session online
+  - Turn in your ranked [mentor choice form](https://gzahn.github.io/SSTEM/media/Research_Mentor_Ranking_Sheet.xlsx){target="_blank"}
+  
+**Resources**
+
+  - 
+
+[Back to top of page](#top)
+
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "300px",echo=FALSE}
+knitr::include_graphics("./media/yoda.gif")
+```
+</div>
+
+
+### **Week 2 - What makes for good mentorship**{#Week-2}
+
+**Topics:** 
+
+  - Expectations for advisors and advisees
+  - What to look for in an advisor
+
+**Assignments:**  
+
+  - **begin lab rotations (2 weeks per lab, 5 labs)**
+  -
+  - 
+  
+**Resources**
+
+  - 
+  - 
+  - 
+  - 
+  - 
+  
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/dogsurf.gif")
+```
+</div>
+
+
+### **Week 3 - effective time management**{#Week-3}
+
+**Topics:** 
+
+  - Fitting research into academics
+  - Work-life balance
+  - Mental health
+  
+**Assignments:**  
+
+  - 
+  - 
+  - 
+  
+**Resources**
+
+  - 
+  - 
+  - 
+  - 
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/stupidpeople.gif")
+```
+</div>
+
+
+### **Week 4 - issues facing underrepresented scholars**{#Week-4}
+
+**Topics:** 
+
+  - Racial, gender, and sexual-orientation biases 
+  - Finding and fixing our own biases
+  - How to be part of the solution
+
+**Assignments:**  
+
+  - Read **all** of the following pieces below in the resources section (video is optional if you're time-crunched, but you should make the time!)
+  - Group video chat
+  - Turn in a reflection piece on your place within these issues
+  
+**Resources**
+
+  - Hal's [Story](https://functionalecologists.com/2020/06/30/hal-halvorson-living-openly/){target="_blank"}
+  - Female perspectives in [STEM](http://www.fromthelabbench.com/from-the-lab-bench-science-blog/2016/3/8/being-woman){target="_blank"}
+  - On "being black in nature" [part 1](https://www.earthisland.org/journal/index.php/articles/entry/being-black-while-in-nature/){target="_blank"} [part 2](https://orionmagazine.org/article/9-rules-for-the-black-birdwatcher/){target="_blank"} [part 3](https://baynature.org/2020/06/04/qa-with-bird-savant-john-robinson-on-black-birders-week/){target="_blank"}
+  - "STEMing while black" panel discussion [video](https://youtu.be/JoOTePPNK1w){target="_blank"}
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/money.gif")
+```
+</div>
+
+
+### **Week 5 - applying for funding**{#Week-5}
+
+**Topics:** 
+  
+  -	Internal funding opportunities at UVU
+	-	Application processes
+
+**Assignments:**  
+
+  - Check out the resources below
+  - Identify a funding source you'd like to try for and make a timeline for applying
+  
+**Resources**
+
+  - SAC, URSCA, and TEELS [awards](https://www.uvu.edu/cos/student_funding_resources.html){target="_blank"}
+  - BOTS [award](https://www.uvu.edu/undergrad-research/student-research/apply-for-funding/bots.html){target="_blank"}
+  - CRFS [award](https://www.uvu.edu/crfs/programs/grants.html){target="_blank"}
+  - Rough grant deadline [spreadsheet](https://github.com/gzahn/Protocols/raw/master/UVU_Student_Grants_Timeline.ods){target="_blank"}
+  - 
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/reading.gif")
+```
+</div>
+
+
+### **Week 6 - how to read a scientific paper**{#Week-6}
+
+**Topics:** 
+
+  - Research reports / reviews / editorials
+	- Following the citation trail
+	- Critical evaluation
+			
+**Assignments:**  
+
+  - 
+  - 
+  - 
+  
+**Resources**
+
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/hermione.gif")
+```
+</div>
+
+
+### **Week 7 - how to find gaps in knowledge**{#Week-7}
+
+**Topics:** 
+
+  - Using the library
+  - Literature reviews
+  - Managing references with Zotero
+  
+**Assignments:**  
+
+  - 
+  - 
+  - 
+  
+**Resources**
+
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/Science-Experiment.gif")
+```
+</div>
+
+
+### **Week 8 - experimental design**{#Week-8}
+
+**Topics:** 
+
+  - Principles and types 
+  - Qualitative, quantitative, how we "know"
+  - Observational vs manipulated
+  - Inductive and deductive reasoning
+  
+**Assignments:**  
+
+  - 
+  - 
+  - 
+  
+**Resources**
+
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/office_space.gif")
+```
+</div>
+
+
+### **Week 9 - realities of research**{#Week-9}
+
+**Topics:** 
+
+  - Keeping a lab notebook
+	- Reproducibility
+	-	Adapting to inevitable failure
+	
+**Assignments:**  
+
+  - 
+  - 
+  - 
+  
+**Resources**
+
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/bookburning.gif")
+```
+</div>
+
+
+### **Week 10 - the publication process**{#Week-10}
+
+**Topics:** 
+
+  - Writing science
+  - Selecting an appropriate journal
+	-	Peer review process
+	
+**Assignments:**  
+
+  - 
+  - 
+  - 
+  
+**Resources**
+
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/dwight.gif")
+```
+</div>
+
+
+### **Week 11 - giving effective presentations**{#Week-11}
+
+**Topics:** 
+
+  - Types of presentations
+  - Poster design
+	-	Telling a storylogistics and expectations of S-STEM program
+	- Logistics tips and tricks
+
+**Assignments:**  
+
+  - 
+  - 
+  - 
+  
+**Resources**
+
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/conference.gif")
+```
+</div>
+
+
+### **Week 12 - getting the most out of a conference**{#Week-12}
+
+**Topics:** 
+
+  - Finding a conference
+  - The art of "abstract projection"
+  - What goes on at a Typical conference
+  - How to network
+			
+**Assignments:**  
+
+  - **Finish lab rotations / select research mentor**
+  - Sign mentorship agreement documents
+  - 
+  
+**Resources**
+
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/computersmash.gif")
+```
+</div>
+
+
+### **Week 13 - how to build and prepare an effective CV**{#Week-13}
+
+**Topics:** 
+
+  - Effective use of social media
+  - Web presence
+  - What goes on a CV
+  
+**Assignments:**  
+
+  - Look through the resources to see undergrad CV examples
+  - Upload and share your CV on Slack
+  - Peer-review of each others' CVs
+  - **work with mentor to select research topic**
+  
+**Resources**
+
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/jake.gif")
+```
+</div>
+
+
+### **Week 14 - Thanksgiving Break**{#Week-14}
+
+**Topics:** 
+
+  - Stuffing vs mashed potatoes
+  - How to bring up science with your crazy "5G-towers-are-causing-coronavirus" aunt
+  - How to avoid your racist uncle
+  
+**Assignments:**  
+
+  - **annotated literature review of research topic (due at end of break)**
+  
+**Resources**
+
+  - Recipe [website](https://www.seriouseats.com/thanksgiving){target="_blank"}
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/longroad.gif")
+```
+</div>
+
+
+### **Week 15 - next steps**{#Week-15}
+
+**Topics:** 
+
+  - Getting the most from the S-STEM program
+  - Setting goals
+  - Building a support network of collaborators and allies
+
+**Assignments:**  
+
+  - **develop research plans with your mentor and work on your poster**
+  
+**Resources**
+
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+
+[Back to top of page](#top)
+
+___
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/fin.gif")
+```
+</div>
+
+
+### **Week 16 - presenting your research plan**{#Week-16}
+  
+**Assignments:**  
+
+  - **Poster session ~~in SB atrium~~ online**
+  
+**Resources**
+
+  - 
+
+[Back to top of page](#top)
+
+___
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+</div>

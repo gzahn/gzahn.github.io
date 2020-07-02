@@ -6,3 +6,4 @@ data-course/media/
 media/Bibliography.html
 /mycology/media/Amend_tenure_talk.pptx
 mycology/lectures/Week3.odp
+*.~lock*

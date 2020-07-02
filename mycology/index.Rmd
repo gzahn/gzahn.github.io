@@ -16,7 +16,7 @@ pagetitle: MYCOLOGY
 
 
 
-## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [TEACHING](http://gzahn.github.io/coursemap/)
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/)
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "300px",echo=FALSE}
@@ -257,18 +257,26 @@ knitr::include_graphics("./media/basidios.jpg")
 
 **Readings and Assignments**
 
-  - Read Webster & Weber: **18** | **19.1** | **20.1** | **21.1** | **24.1**
-  - Canvas quiz on readings
-  - Slack discussion on readings
-  
+  - Read Webster & Weber: **18** | **19.1** | **19.4.5** | **20.1** | **20.3** | **21.1** | **21.5**
+  - Canvas quiz on readings (due before class Thursday)
+  - Slack discussion on readings (Thursday 11:15am)
+
 **Resources**
 
-  - [Major Topics]
+  - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_3.txt){target="_blank"}
+  - Leson [slides](https://gzahn.github.io/mycology/lectures/Week_4.odp){target="_blank"}
+  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Basidiomycete [life cycle](){target="_blank"}
+  - Basidiomycete [phylogeny](){target="_blank"}
+  - [Pleurotus](){target="_blank"}
+  - [Lycoperdon](){target="_blank"}
+  - [Tremella](){target="_blank"}
+
   
 **Videos**
 
-  - 
-  -
+  - Basidium formation 
+  - Spore discharge
   -
   
 [Back to top of page](#top)
@@ -291,7 +299,7 @@ knitr::include_graphics("./media/dispersal.jpeg")
 
   - Read [Hammad, et al., 1993](https://gzahn.github.io/mycology/media/Hammad_et_al_1993.pdf)
   - **Exam 1** (Covers material from weeks 1-4)
-  - Fungal collections (5 types) and IDs
+  - Fungal collections (5 types) and IDs (Turned in on Canvas next week)
   
 **Resources**
 

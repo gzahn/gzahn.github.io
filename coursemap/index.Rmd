@@ -19,8 +19,8 @@ text-align: justify
 </style>
 
 
-## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) |  [TEACHING](http://gzahn.github.io/coursemap/)
 
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/)
 
 <br/><br/>
 
@@ -32,12 +32,12 @@ text-align: justify
 
 
 <div style= "float:center;position: relative;top:10px">
-```{r, out.width = "1000",echo=FALSE}
-knitr::include_graphics("./media/all_figs.png")
+```{r, out.width = "1400",echo=FALSE}
+knitr::include_graphics("./media/all_figs2.png")
 ```
 
 
-# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[INTRO BIO II](http://gzahn.github.io/BIOL1620/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MYCOLOGY](https://gzahn.github.io/mycology) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [DATA ANALYSIS](http://gzahn.github.io/data-course/)
+# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[INTRO BIO II](http://gzahn.github.io/BIOL1620/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [MYCOLOGY](https://gzahn.github.io/mycology)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [DATA ANALYSIS](http://gzahn.github.io/data-course/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [S-STEM](http://gzahn.github.io/SSTEM/)
 
 
 
