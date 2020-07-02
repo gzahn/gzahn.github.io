@@ -2,7 +2,7 @@
 output: 
 html_document:
   number_sections=TRUE
-pagetitle: MYCOLOGY
+pagetitle: Intro to Undergrad Research
 ---
 
 
@@ -95,11 +95,14 @@ knitr::include_graphics("./media/larry.gif")
 
   - Watch all mentor introduction videos [link](){target="_blank"}
   - Group discussion and Q/A session online
-  - Turn in your ranked [mentor choice form](https://gzahn.github.io/SSTEM/media/Research_Mentor_Ranking_Sheet.xlsx){target="_blank"}
+  - **Turn in your ranked** [**mentor choice form**](https://gzahn.github.io/SSTEM/media/Research_Mentor_Ranking_Sheet.xlsx){target="_blank"}
+  - Read this short [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5417415/){target="_blank"} for discussion
   
 **Resources**
 
-  - 
+  - About the S-STEM Program from NSF [slide](https://nsf.gov/attachments/244322/public/S-STEM_Powerpoint1.pptx){target="_blank"}
+  - About UVU's Biology S-STEM Program [Excerpts from proposal](https://gzahn.github.io/SSTEM/media/UVU_S-STEM_proposal_excerpts.pdf){target="_blank"}
+  - Previous cohort's research proposal [posters](https://gzahn.github.io/SSTEM/media/Fa_2019_Research_Proposal_Posters.pdf){target="_blank"}
 
 [Back to top of page](#top)
 
@@ -118,20 +121,21 @@ knitr::include_graphics("./media/yoda.gif")
 
   - Expectations for advisors and advisees
   - What to look for in an advisor
+  - Imposter syndrome and other mental
 
 **Assignments:**  
 
   - **begin lab rotations (2 weeks per lab, 5 labs)**
-  -
-  - 
+  - **it's up to you to make the most of your time with each research mentor**
+  - **stay in touch**
   
 **Resources**
 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Advice from the NIH [link](https://www.niaid.nih.gov/grants-contracts/choose-mentor)
+  - Advice from the AHA [link](https://www.ahajournals.org/doi/full/10.1161/circulationaha.107.752683)
+  - Advice from grad students [link](https://evbio.uchicago.edu/sites/default/files/client-wysiwyg-uploads/BSD%20Student%20Mentor%20Guide.pdf){target="_blank"}
+  - Things your mentor wants you to know [link](https://undergradinthelab.com/node/126){target="_blank"}
+  - The importance of [peer-mentoring](https://www.insidehighered.com/news/2019/10/11/study-says-when-it-comes-everyday-mentoring-and-training-sciences-postdocs-are-new){target="_blank"}
   
 
 [Back to top of page](#top)
@@ -151,19 +155,22 @@ knitr::include_graphics("./media/dogsurf.gif")
   - Fitting research into academics
   - Work-life balance
   - Mental health
+  - Imposter syndrome and other cognitive snags
   
 **Assignments:**  
 
-  - 
-  - 
-  - 
+  - Create a time budget that makes room for classes, work, family, research, and staring into the existential void
+  - Take care of yourself
+  - Keep in touch with your lab rotation activities and email your next mentor
   
 **Resources**
 
-  - 
-  - 
-  - 
-  - 
+  - Advice from "undergrad in the lab" about time management [link ](https://undergradinthelab.com/node/149) [link 2](https://undergradinthelab.com/node/156){target="_blank"} [link 3](https://undergradinthelab.com/node/98){target="_blank"}
+  - Undergrad research and [mental health](https://www.lifescied.org/doi/10.1187/cbe.19-11-0217){target="_blank"}
+  - Talking about mental health during [grad school](https://www.chronicle.com/article/Why-We-Need-to-Talk-More-About/247002){target="_blank"}
+  - Imposter syndrome and [how to fight it](https://www.apa.org/gradpsych/2013/11/fraud){target="_blank"}
+  - Dunning-Kruger effect [explained](https://youtu.be/GJz66wm95-M){target="_blank"}
+  - Excellent piece on imposter syndrome from [Josh Schimel](https://schimelwritingscience.wordpress.com/2017/11/09/what-the-hell-am-i-doing-here-impostor-syndrome-and-role-models/){target="_blank"}
 
 [Back to top of page](#top)
 
@@ -185,9 +192,10 @@ knitr::include_graphics("./media/stupidpeople.gif")
 
 **Assignments:**  
 
-  - Read **all** of the following pieces below in the resources section (video is optional if you're time-crunched, but you should make the time!)
+  - Read **all** of the pieces below in the resources section (video is optional if you're time-crunched, but it's interesting)
   - Group video chat
   - Turn in a reflection piece on your place within these issues
+  - Don't forget about your research duties; Ask your mentor useful questions to see if the lab is a good fit.
   
 **Resources**
 
@@ -211,7 +219,7 @@ knitr::include_graphics("./media/money.gif")
 **Topics:** 
   
   -	Internal funding opportunities at UVU
-	-	Application processes
+  - Application processes
 
 **Assignments:**  
 
@@ -224,7 +232,7 @@ knitr::include_graphics("./media/money.gif")
   - BOTS [award](https://www.uvu.edu/undergrad-research/student-research/apply-for-funding/bots.html){target="_blank"}
   - CRFS [award](https://www.uvu.edu/crfs/programs/grants.html){target="_blank"}
   - Rough grant deadline [spreadsheet](https://github.com/gzahn/Protocols/raw/master/UVU_Student_Grants_Timeline.ods){target="_blank"}
-  - 
+  - Funded SAC [example](https://gzahn.github.io/SSTEM/media/SAC_Example.pdf)
 
 [Back to top of page](#top)
 
@@ -241,23 +249,24 @@ knitr::include_graphics("./media/reading.gif")
 **Topics:** 
 
   - Research reports / reviews / editorials
-	- Following the citation trail
-	- Critical evaluation
+  - Following the backwards citation trail
+  - Critical evaluation
 			
 **Assignments:**  
 
-  - 
-  - 
-  - 
+  - Find the following paper in full:
+  
+  Walker, R. S., Gurven, M., Burger, O., & Hamilton, M. J. (2008). The trade-off between number and size of offspring in humans and other primates. Proceedings of the Royal Society B: Biological Sciences, 275(1636), 827–834.
+
+  - Follow a citation trail backwards for at least 5 statements you found interesting in the paper
+  - Compile a document with the bibliographies of the previous works and the quoted relevant sections
   
 **Resources**
 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Your best friend for finding papers: [google scholar](https://scholar.google.com/){target="_blank"}
+  - An illegal way to get papers you don't have access to is [SciHub](https://sci-hub.tw/){target="_blank"} (I would never advocate this behavior though)
+  - Types of scholarly [publications](https://undergraduatesciencelibrarian.org/a-very-brief-introduction-to-the-scientific-literature/types-of-scientific-literature/){target="_blank"}
+  - Don't forget about [pre-prints](https://www.sciencemag.org/news/2017/09/are-preprints-future-biology-survival-guide-scientists){target="_blank"}
 
 [Back to top of page](#top)
 
@@ -279,22 +288,21 @@ knitr::include_graphics("./media/hermione.gif")
   
 **Assignments:**  
 
-  - 
-  - 
-  - 
+  - Download [Zotero](https://www.zotero.org/){target="_blank"}
+  - Use it to collect 20 peer-reviewed articles on a topic of your choice
+  - Create a bibliography in the format required by the journal *"Nature"*
   
 **Resources**
 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-
+  - Your UVU [librarian](https://www.uvu.edu/library/guides/biology.html){target="_blank"}
+  - Intro to library [video series](https://www.uvu.edu/library/tutorials/biology/m1-intro.html){target="_blank"} (arrow button to keep going is hidden at the top-right)- 
+  - Zotero quick-start [guide](https://www.zotero.org/support/quick_start_guide)
+  - Be sure to take advantage of the life-saving [add-on features](https://www.zotero.org/support/plugins){target="_blank"}
+  
 [Back to top of page](#top)
 
 ___
+
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
 knitr::include_graphics("./media/Science-Experiment.gif")
@@ -313,18 +321,17 @@ knitr::include_graphics("./media/Science-Experiment.gif")
   
 **Assignments:**  
 
-  - 
-  - 
-  - 
-  
+  - Bring your research ideas to group discussions
+  - Go through the resources below well enough to follow a discussion as we design experiments together
+
 **Resources**
 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Short primer on [designs](https://www.scribbr.com/methodology/experimental-design/){target="_blank"}
+  - Much longer, but much more thorough, intro to [design](https://conjointly.com/kb/navigating-the-kb/){target="_blank"}
+  - Inductive vs deductive [reasoning](https://www.livescience.com/21569-deduction-vs-induction.html){target="_blank"}
+  - [](){target="_blank"}
+  - [](){target="_blank"}
+  - [](){target="_blank"}
 
 [Back to top of page](#top)
 
@@ -346,18 +353,19 @@ knitr::include_graphics("./media/office_space.gif")
 	
 **Assignments:**  
 
-  - 
+  - Read this [short paper](https://jcs.biologists.org/content/121/11/1771){target="_blank"}
   - 
   - 
   
 **Resources**
 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Lab notebook [rules](https://undergradinthelab.com/node/200){target="_blank"}
+  - What is [reproducible research?](https://stm.sciencemag.org/content/8/341/341ps12.full){target="_blank"}
+  - The why and how of making science [reproducible](https://ropensci.github.io/reproducibility-guide/sections/introduction/){target="_blank"}
+  - Failure is the most common part of science [article](https://www.natureindex.com/news-blog/how-to-deal-with-failure-rejection-academic-research-say-senior-scientists){target="_blank"}
+  - Paper on the value of [failure in science](https://www.frontiersin.org/articles/10.3389/fnins.2019.01121/full){target="_blank"}
+  - Here's a perfect [example](http://htmlpreview.github.io/?https://raw.githubusercontent.com/cbwall/Coral-larvae-temp-and-nutrients/master/Kitchen-et-al.-larvae-temp-nutr.html){target="_blank"} of making research fully-open and reproducible (check out the "code" buttons, showing **exactly** how each analysis was done!)
+  - Shameless plug for another class I teach: [Data Analysis for Biologists](https://gzahn.github.io/data-course/)
 
 [Back to top of page](#top)
 
@@ -375,23 +383,21 @@ knitr::include_graphics("./media/bookburning.gif")
 
   - Writing science
   - Selecting an appropriate journal
-	-	Peer review process
+  - Peer review process
 	
 **Assignments:**  
 
-  - 
-  - 
-  - 
+  - Find 3 journals that you would like to eventually submit a manuscript to
+  - Find their "author information" pages
   
 **Resources**
 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-
+  - The peer-review [process](https://authorservices.wiley.com/Reviewers/journal-reviewers/what-is-peer-review/the-peer-review-process.html){target="_blank"}
+  - Article on [writing science](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/bes2.1258){target="_blank"}
+  - What you wish you'd have know before submitting your [first article](https://schimelwritingscience.wordpress.com/2016/06/08/what-do-you-wish-you-had-known-before-submitting-your-first-article/){target="_blank"}
+  - Why journals are so slow [processing manuscript submissions](https://schimelwritingscience.wordpress.com/2014/12/29/why-journals-sometimes-are-slow-processing-papers-look-in-the-mirror/){target="_blank"}
+ 
+ 
 [Back to top of page](#top)
 
 ___
@@ -408,24 +414,23 @@ knitr::include_graphics("./media/dwight.gif")
 
   - Types of presentations
   - Poster design
-	-	Telling a storylogistics and expectations of S-STEM program
-	- Logistics tips and tricks
+  - Telling a storylogistics and expectations of S-STEM program
+  - Logistics tips and tricks
 
 **Assignments:**  
 
-  - 
-  - 
-  - 
+  - Go through the resources below
+  - Check out the previous cohort [posters](https://gzahn.github.io/SSTEM/media/Fa_2019_Research_Proposal_Posters.pdf){target="_blank"}
+  - Find the worst scientific poster of all time - show it to us in our group chat
   
 **Resources**
 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-
+  - Video on [poster design](https://youtu.be/1RwJbhkCA58){target="_blank"} and poster sessions
+  - How to do a bad job with a [poster presentation](https://gzahn.github.io/SSTEM/media/forgettable_poster.docx){target="_blank"}
+  - 10 simple rules for [good posters](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.0030102){target="_blank"}
+  - More good poster design [info](https://undergradinthelab.com/node/48){target="_blank"}
+  
+  
 [Back to top of page](#top)
 
 ___
@@ -449,16 +454,15 @@ knitr::include_graphics("./media/conference.gif")
 
   - **Finish lab rotations / select research mentor**
   - Sign mentorship agreement documents
-  - 
+  - Discuss relevant conferences with your mentor
   
 **Resources**
 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - [UCUR](http://ucur.org/){target="_blank"}
+  - [NCUR](https://www.cur.org/what/events/students/ncur/){target="_blank"}
+  - Undergrad at a conference [trip report](https://timescavengers.blog/2018/05/14/attending-professional-conferences-as-an-undergraduate/){target="_blank"}
+  - Conference [tips](https://webcache.googleusercontent.com/search?q=cache:p9xZVRLtMo8J:https://undergrad.research.ucsb.edu/2016/01/undergraduate-researchers-guide-conferences-packing/+&cd=12&hl=en&ct=clnk&gl=us&client=ubuntu){target="_blank"}
+
 
 [Back to top of page](#top)
 
@@ -481,19 +485,18 @@ knitr::include_graphics("./media/computersmash.gif")
 **Assignments:**  
 
   - Look through the resources to see undergrad CV examples
+  - Track down the CVs of 3 scientists who's work interests you. What do they have in common? What's unique?
   - Upload and share your CV on Slack
   - Peer-review of each others' CVs
   - **work with mentor to select research topic**
   
 **Resources**
 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-
+  - Thoughts from [*Nature*](https://www.nature.com/articles/s41556-018-0253-6){target="_blank"}
+  - Thoughts about [#Sciencetwitter](https://astrobites.org/2020/01/17/you-should-get-twitter-for-science/){target="_blank"}
+  - Example undergrad [CV](https://www.american.edu/careercenter/upload/curriculum-vitae-samples.pdf){target="_blank"}
+  - Make a free website [here](https://www.wix.com/){target="_blank"} or [here](https://pages.github.com/){target="_blank"}
+ 
 [Back to top of page](#top)
 
 ___
@@ -542,14 +545,7 @@ knitr::include_graphics("./media/longroad.gif")
 
   - **develop research plans with your mentor and work on your poster**
   
-**Resources**
-
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+<br/><br/><br/><br/><br/><br/>
 
 [Back to top of page](#top)
 
@@ -567,9 +563,8 @@ knitr::include_graphics("./media/fin.gif")
 
   - **Poster session ~~in SB atrium~~ online**
   
-**Resources**
 
-  - 
+<br/><br/><br/>
 
 [Back to top of page](#top)
 
