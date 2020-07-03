@@ -35,7 +35,6 @@ Utah Valley University - BIOL3100
 
 ## Quick links:
 
-#### [Course GitHub Repository](https://github.com/gzahn/Data_Course)
 #### [Course Syllabus](https://github.com/gzahn/Data_Course/blob/master/Syllabus.pdf)
 #### [Shared Course Notes](https://docs.google.com/document/d/1Nnjv1RkdegUR3pOp8Jb81ryE-_C59T4dLWYyJqVSz9Y/edit?usp=sharing)
 (Anyone with link can edit)
@@ -84,7 +83,8 @@ knitr::include_graphics("../media/git_2x.png")
   - Read: [What is Git all about?](https://github.com/gzahn/gzahn.github.io/blob/master/Readings/Bryan_2017_Excuse_me%2C_do_you_have_a_moment_to_talk_about_vers.pdf)
   - Install Git, R, and R-Studio on your laptop (part of Assignment 1)
   - Be ready to explain what Git, R, and R-Studio are.
-  - Do [Assignment 1](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_1/Assignment_1.pdf) and upload a link to your new GitHub account to Canvas.
+  - Do [Assignment 1](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_1/Assignment_1.html){target="_blank"} and upload a link to your new GitHub account to Canvas.
+  - Take a look at [this document](){target="_blank"} to see where this class is going
 
 **Resources**
 
@@ -237,6 +237,7 @@ knitr::include_graphics("../media/ggplot_example.png")
   - [ggforce](https://ggforce.data-imaginist.com/){target="_blank"}
   - [patchwork](https://github.com/thomasp85/patchwork){target="_blank"}
   - [Extensive ggplot2 Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html){target="_blank"}
+  - How to plot anything in ggplot [part 1](https://t.co/LxwwSsESQM?amp=1){target="_blank"} | [part 2](https://t.co/uZda0KRAgp?amp=1){target="_blank"} (This is a **GOOD** thing to watch!)
 
 **Practice**
 

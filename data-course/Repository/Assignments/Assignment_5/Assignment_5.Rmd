@@ -1,0 +1,54 @@
+---
+title: "Assignment_5"
+author: "gzahn"
+date: "June 17, 2019"
+output: pdf_document
+---
+
+
+# **Assignment 5**
+
+In this assignment you will:
+
++ Work through the introduction to the *ggplot2* package found in the R-script "Assignment_5.R"
++ Learn how to set up and modify a ggplot figure
++ Learn how to save your image to a custom file
++ Practice using ggplot to explore a data set by completing the assigned tasks below
+
+**All file paths should be relative, starting from the Assignment_5 directory!! (where you found this file)**
+
+**This means that you need to create a new R-Project named "Assignment_5.Rproj" in your Assignment_5 directory, and work from scripts within that.**
+
+__________
+
+
+## **For credit ...**
+
+1.  Upload an r-script named LASTNAME_ggplot.R to Canvas
+2.  Push that same file to your GitHub repository along with any generated image files
+
+__________
+
+We will work through an R script called "Assignment_5.R"
+
+We will work through this script in class, pausing to understand what's going on at each point.
+
+After you have grasped the basics of ggplot, complete the following tasks, generating nice-looking figures as directed:
+
+1.  Load the "iris" data set
+2.  Duplicate the following 3 figures (on next 3 pages) and save them in your Assignment_5 directory as "iris_fig1.png", "iris_fig2.png", "iris_fig3.png", respectively.
+3.  Keep in mind that by default, I make most of my figures with theme_minimal() 
+4.  Read through the different plot types on this website 
+
+<http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html> 
+
+and use the info to reproduce the fourth figure below. Save it as "iris_fig4.png"
+This last task requires you to use the internet to solve a tricky R task.  This is the most important skill you can learn in this course!
+You'll probably have to figure out some functions you've not seen before and reconfigure them to the iris data.
+
+![](i1.png)
+![](i2.png)
+
+![](i3.png)
+
+![](i4.png)
