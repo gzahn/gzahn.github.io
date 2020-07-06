@@ -43,7 +43,7 @@ Utah Valley University - BIOL3100
 #### [The philosophy of this course](http://gzahn.github.io/media/spocklogic.jpg)
 
 #### R for Data Science [Website](https://r4ds.had.co.nz/){target="_blank"}
-
+  
 #### Collection of beginner R [resources](https://www.learnr4free.com/beginner.html){target="_blank"}
 
 
@@ -203,9 +203,10 @@ knitr::include_graphics("../media/Rvariablesdata.jpg")
 
 **Assignments**
 
+  - Watch [this video](https://youtu.be/MokZ4OQVuu4){target="_blank"} on how to set up your personal Git Directory and R-Projects for completing assignments
   - Read [this chapter](https://www.datacamp.com/community/tutorials/r-packages-guide){target="_blank"} on what a "package" is in R
   - Read [this chapter](https://r4ds.had.co.nz/workflow-projects.html){target="_blank"} on R-Projects (We will **ALWAYS** work from within R-Projects from now on)
-  - Do [Assignment 3](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_3/Assignment_3.html){target="_blank"}
+  - Do [Assignment 3](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_3/Assignment_3.html){target="_blank"} (We will start this one together during live class)
   - Do [Assignment 4](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_4/Assignment_4.html){target="_blank"}
 
 **Resources**
@@ -245,7 +246,13 @@ knitr::include_graphics("../media/operators.png")
 **Assignments**
 
   - Read through the materials in the Resources section below
-  - [Assignment 5](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_5/Assignment_5.pdf)
+  - Make sure you have the following packages installed if you don't already:
+    + *tidyverse*
+    + *carData*
+    + *RColorBrewer*
+    + [*colorblindr*](https://github.com/clauswilke/colorblindr){target="_blank"} This one is "special" and not found on CRAN so click the link for install instructions.
+
+  - [Assignment 5](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_5/Assignment_5.html){target="_blank"}
   - Exam 1
 
 **Resources**
@@ -254,6 +261,8 @@ knitr::include_graphics("../media/operators.png")
   - [Subsetting](http://adv-r.had.co.nz/Subsetting.html){target="_blank"}
   - [More Subsetting](https://www.r-bloggers.com/5-ways-to-subset-a-data-frame-in-r/){target="_blank"} (It's important!)
   - [Operators](https://www.statmethods.net/management/operators.html){target="_blank"}
+  - [ggplot Introduction](https://r4ds.had.co.nz/data-visualisation.html){target="_blank"}
+
 
 **Practice**
 
@@ -293,7 +302,6 @@ knitr::include_graphics("../media/ggplot_example.png")
 **Resources**
 
   - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
-  - [ggplot Introduction](https://r4ds.had.co.nz/data-visualisation.html){target="_blank"}
   - [More ggplot](https://ggplot2.tidyverse.org/){target="_blank"}
   - [ggforce](https://ggforce.data-imaginist.com/){target="_blank"}
   - [patchwork](https://github.com/thomasp85/patchwork){target="_blank"}

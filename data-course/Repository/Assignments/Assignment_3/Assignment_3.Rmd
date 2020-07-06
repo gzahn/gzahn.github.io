@@ -10,7 +10,7 @@ pagetitle: Assignment_3
 
 In this assignment you will:
 
-+ Complete the work we start in class by filling in the [Assignment_3 R script](https://gzahn.github.io/data-course/Repository/Assignment_3/Assignment_3.R){target="_blank"} 
++ Complete the work we start in class by filling in the [Assignment_3 R script](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_3/Assignment_3.R){target="_blank"} 
   + Work with vectors and type conversions
   + Begin to clean messy data with code
   + Make simple scatterplots and export them to files
