@@ -35,11 +35,16 @@ Utah Valley University - BIOL3100
 
 ## Quick links:
 
-#### [Course Syllabus](https://github.com/gzahn/Data_Course/blob/master/Syllabus.pdf)
-#### [Shared Course Notes](https://docs.google.com/document/d/1Nnjv1RkdegUR3pOp8Jb81ryE-_C59T4dLWYyJqVSz9Y/edit?usp=sharing)
+#### [Course Syllabus](https://github.com/gzahn/Data_Course/blob/master/Syllabus.pdf){target="_blank"}
+#### Course [file repository](https://github.com/gzahn/Data_Course){target="_blank"}
+#### [Shared Course Notes](https://docs.google.com/document/d/1Nnjv1RkdegUR3pOp8Jb81ryE-_C59T4dLWYyJqVSz9Y/edit?usp=sharing){target="_blank"}
 (Anyone with link can edit)
 
 #### [The philosophy of this course](http://gzahn.github.io/media/spocklogic.jpg)
+
+#### R for Data Science [Website](https://r4ds.had.co.nz/){target="_blank"}
+
+#### Collection of beginner R [resources](https://www.learnr4free.com/beginner.html){target="_blank"}
 
 
 ___
@@ -84,25 +89,39 @@ knitr::include_graphics("../media/git_2x.png")
   - Install Git, R, and R-Studio on your laptop (part of Assignment 1)
   - Be ready to explain what Git, R, and R-Studio are.
   - Do [Assignment 1](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_1/Assignment_1.html){target="_blank"} and upload a link to your new GitHub account to Canvas.
-  - Take a look at [this document](){target="_blank"} to see where this class is going
+  - Take a look at [this document](https://gzahn.github.io/data-course/Repository/Code_Examples/iris_analysis.html){target="_blank"} to see where this class is going
+  - Go through ALL the resources below. I put them here for a reason. Most are short web resources or videos (some that I made).
 
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Video: Meet the [command line](https://youtu.be/cg115YYQYgc){target="_blank"} of your computer
   - [Download Git](https://git-scm.com/downloads){target="_blank"}
   - [Download R](https://cran.cnr.berkeley.edu/){target="_blank"}
   - [Download R-Studio](https://rstudio.com/products/rstudio/download/#download){target="_blank"}
-  - [Navigating with the command line](https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855){target="_blank"}
-  - [Basic Git Commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html){target="_blank"}
-  - [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet){target="_blank"}
-  - [Git tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners){target="_blank"} for beginners
-  - Best [Git Cheat Sheet Ever!](https://remembertheapi.com/products/git-cheat-sheet-black-mug-11oz){target="_blank"}
+  - [Navigating with the command line](https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855){target="_blank"} (great video!)
+  - [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet){target="_blank"} (handy reference)
+  - [Git tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners){target="_blank"} for beginners (another walkthrough, if you need it)
+  - Best [Git Cheat Sheet Ever!](https://remembertheapi.com/products/git-cheat-sheet-black-mug-11oz){target="_blank"} (Excellent gift idea for a teacher...joking!)
   
 
 **Practice**
 
-  - Make 10 separate changes and commits to your README.md file and push each one to GitHub 
+  - Make 10 more separate changes and commits to your README.md file and push each one to GitHub 
+  - Close and open your command line terminal 10 times
+  - Open your command line terminal and navigate to your new personal GitHub repository for this course (Data_Course_LASTNAME) / Navigate back to your desktop / From your Desktop (without using "cd") display the contents of Data_Course_LASTNAME/README.md onto your computer screen.
+  - Please view this short [video clip](https://gzahn.github.io/data-course/media/paint_the_fence.mp4){target="_blank"} from "Karate Kid" (Seriously)
+    + When I tell you to close and open your command line 10 times, it's not because I hate you.
+    + It's because I, too, have had to learn this stuff from scratch
+    + It's because I know that repetition is crucial to learning this, especially at the beginning
+    + And it's because if you don't spend the time to do this stuff over and over now, by week 6 you will be drowning and helpless.
+    + When I say "push 10 separate commits to your GitHub repo," what I'm actually saying is "Show me 'Paint the Fence'!"
+    + Because very soon, Mr. Miyagi will be attacking you with things like "Error in url[i] = paste(df[,2], gsub(" ", "_",  : 
+  object of type 'closure' is not subsettable"
 
 [Back to top of page](#top)
+
+___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
@@ -117,28 +136,56 @@ knitr::include_graphics("../media/file_tree.png")
 
 **Assignments**
 
-  - [Assignment 2](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_2/Assignment_2.pdf)
+  - [Assignment 2](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_2/Assignment_2.html){target="_blank"}
 
 **Resources**
   
-  - The [Two Cultures of Computing](http://www.pgbovine.net/two-cultures-of-computing.htm){target="_blank"} and how to get over your fear of coding 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Remedial Unix Shell](https://github.com/gzahn/Data_Course/blob/master/Readings/Further_Reading_for_Shell_Tricks.pdf){target="_blank"}
   - [Basic Unix Commands](https://www.unixtutorial.org/basic-unix-commands?print=pdf){target="_blank"}
   - [Very Useful Tutorial](https://www.learnenough.com/command-line-tutorial/basics#sec-introduction){target="_blank"}
   - On the [Value of](https://medium.com/@eytanadar/on-the-value-of-command-line-bullshittery-94dc19ec8c61#.4qt0dd22r){target="_blank"} Command-Line Bullshittery
   - On the [Annoyance of](https://gzahn.github.io/archived_websites/command_line_bullshittery.html){target="_blank"} Command-Line Bullshittery
   - So is this stuff even useful for bioinformatics?  [YES!](https://github.com/stephenturner/oneliners){target="_blank"}
+  - Video walkthroughs of some command line stuff:
+    + [Part 1 - first commands](https://youtu.be/t5ovp3Iibl0){target="_blank"}
+    + [Part 2 - pipes and wildcards](https://youtu.be/9YRwN2Tu1AM){target="_blank"}
+    + [Part 3 - relative filepaths](https://youtu.be/2UsV3xva_Lk){target="_blank"}
+    + Command line program [flags/parameters](https://youtu.be/sLayockzACQ){target="_blank"}
+    + How to avoid two potentially dangerous [command line errors](https://youtu.be/_31MXNlHU_E){target="_blank"}
+    + For-loops [video](https://youtu.be/aMmG4iXTBYk){target="_blank"} walkthrough in BASH
+  - Bonus tips: 
+    + BASH aliases [video](https://youtu.be/21LpBiQVDhM){target="_blank"}
+    + BASH alias [examples](https://gzahn.github.io/data-course/Repository/Code_Examples/handy_bash_aliases.txt){target="_blank"}
 
 **Practice**
 
-  - [Exercise 1](https://github.com/gzahn/Data_Course/blob/master/Exercises/shell_detective.txt)
-  - [Exercise 2](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_unicorn_code.txt)
-  - [Shell *find* exercise](https://raw.githubusercontent.com/gzahn/Data_Course/master/Exercises/shell_find_example.txt)
-  - 
+  - [Exercise 1](https://gzahn.github.io/data-course/Repository/Exercises/shell_detective.txt)
+  - [Exercise 2](https://gzahn.github.io/data-course/Repository/Exercises/out-of-order_unicorn_code.txt)
+  - Shell *find* [exercise](https://gzahn.github.io/data-course/Repository/Exercises/shell_find_example.txt)
+  - Pick some random files in our Data/ directory and practice (a bunch of times) using the following commands (with various flags and linking them with pipes):
+    + head
+    + tail
+    + wc
+    + ls
+    + sort
+    + uniq
+  - Practice using wildcards (*) to show the contents of random files
+    + Pick a few random files in a directory and try to write a wildcard expression that shows ONLY those files (wash, rinse, repeat)
+  - find out what the following shell commands do and how to use them (then practice using them):
+    + cp
+    + mv
   
 [Back to top of page](#top)
 
-___
+
+
+</div>
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
 
 ## Getting to Know R
 
@@ -152,19 +199,21 @@ knitr::include_graphics("../media/Rvariablesdata.jpg")
 ### **Week 3**{#Week-3}
 **Topics**
 
-  - R Data types and conversions | Reading and Writing Files | For-Loops | Packages and Projects
+  - R Data types and conversions | Reading and Writing Files | Packages and Projects
 
 **Assignments**
 
-  - [Assignment 3](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_3/Assignment_3.pdf)
-  - [Assignment 4](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_4/Assignment_4.pdf)
+  - Read [this chapter](https://www.datacamp.com/community/tutorials/r-packages-guide){target="_blank"} on what a "package" is in R
+  - Read [this chapter](https://r4ds.had.co.nz/workflow-projects.html){target="_blank"} on R-Projects (We will **ALWAYS** work from within R-Projects from now on)
+  - Do [Assignment 3](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_3/Assignment_3.html){target="_blank"}
+  - Do [Assignment 4](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_4/Assignment_4.html){target="_blank"}
 
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Data Types in R](https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/){target="_blank"}
   - [For-Loops](https://www.datamentor.io/r-programming/for-loop/){target="_blank"}
   - [Reading data into R](https://www.datacamp.com/community/tutorials/r-data-import-tutorial){target="_blank"}
-  - [R Projects](https://r4ds.had.co.nz/workflow-projects.html){target="_blank"}
 
 **Practice**
 
@@ -177,6 +226,9 @@ knitr::include_graphics("../media/Rvariablesdata.jpg")
   - [Loops in R](https://github.com/gzahn/Data_Course/blob/master/Exercises/08_Loops.pdf)
   
 [Back to top of page](#top)
+
+___
+
   
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
@@ -198,6 +250,7 @@ knitr::include_graphics("../media/operators.png")
 
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Subsetting](http://adv-r.had.co.nz/Subsetting.html){target="_blank"}
   - [More Subsetting](https://www.r-bloggers.com/5-ways-to-subset-a-data-frame-in-r/){target="_blank"} (It's important!)
   - [Operators](https://www.statmethods.net/management/operators.html){target="_blank"}
@@ -210,7 +263,13 @@ knitr::include_graphics("../media/operators.png")
   
 [Back to top of page](#top)
 
-___
+
+</div>
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
 
 ## Visualizing a Data Set
 
@@ -229,9 +288,11 @@ knitr::include_graphics("../media/ggplot_example.png")
 
   - [Assignment 6](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_6/Assignment_6new.pdf)
   - [Ugly plot contest!](https://gzahn.github.io/data-course/uglyplotcontest.html)
+  - Prevent embarrassment... see how [NOT to make a chart](https://gzahn.github.io/data-course/embarrassment.html){target="_blank"}, except for the Ugly Plot Contest, of course, where you should try to upend good sense.
 
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [ggplot Introduction](https://r4ds.had.co.nz/data-visualisation.html){target="_blank"}
   - [More ggplot](https://ggplot2.tidyverse.org/){target="_blank"}
   - [ggforce](https://ggforce.data-imaginist.com/){target="_blank"}
@@ -247,7 +308,14 @@ knitr::include_graphics("../media/ggplot_example.png")
   
 [Back to top of page](#top)
 
-___
+
+
+</div>
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
 
 ## Clean and Transform Data
 
@@ -269,6 +337,7 @@ knitr::include_graphics("../media/sepalwidth.jpg")
 
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Tidy Data Chapter](https://r4ds.had.co.nz/tidy-data.html#tidy-data-1){target="_blank"}
   - [Transforming Data Frames](https://r4ds.had.co.nz/transform.html){target="_blank"}
   - [dplyr Verbs](https://dplyr.tidyverse.org/){target="_blank"}
@@ -282,6 +351,10 @@ knitr::include_graphics("../media/sepalwidth.jpg")
   - [Out-of-order Code2](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_grading_code.R)
 
 [Back to top of page](#top)
+
+
+___
+
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
@@ -303,9 +376,12 @@ knitr::include_graphics("../media/real_world_data.jpg")
 
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Data Wrangling Chapter](https://r4ds.had.co.nz/wrangle-intro.html){target="_blank"}
   - [Wrangling Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf){target="_blank"}
   - [Visual Explanations of Joins](https://github.com/gadenbuie/tidyexplain){target="_blank"}
+  - Janitor package on [CRAN](https://cran.r-project.org/web/packages/janitor/index.html){target="_blank"}
+
 
 **Practice**
 
@@ -315,7 +391,14 @@ knitr::include_graphics("../media/real_world_data.jpg")
   
 [Back to top of page](#top)
 
-___
+
+
+</div>
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
 
 ## Getting More From R
 
@@ -336,6 +419,7 @@ knitr::include_graphics("../media/function.png")
   
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Functions](https://r4ds.had.co.nz/functions.html){target="_blank"}
   - [Conditional Execution](https://r4ds.had.co.nz/functions.html#conditional-execution){target="_blank"}
 
@@ -350,7 +434,16 @@ knitr::include_graphics("../media/function.png")
 
 [Back to top of page](#top)
 
-___
+
+</div>
+
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
@@ -371,6 +464,7 @@ knitr::include_graphics("../media/model1.png")
 
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Modeling Intro](https://r4ds.had.co.nz/model-intro.html){target="_blank"}
   - [Model Basics](https://r4ds.had.co.nz/model-basics.html){target="_blank"}
   - [Model Fitting](https://r4ds.had.co.nz/model-building.html){target="_blank"}
@@ -391,6 +485,8 @@ knitr::include_graphics("../media/logistic.jpg")
 [Back to top of page](#top)  
 
 
+___
+
 ### **Week 10**{#Week-10}
 **Topics**
 
@@ -400,6 +496,7 @@ knitr::include_graphics("../media/logistic.jpg")
 
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Linear Regression](http://r-statistics.co/Linear-Regression.html){target="_blank"}
   - [More Linear Regression](https://www.dataquest.io/blog/statistical-learning-for-predictive-modeling-r/){target="_blank"}
   - [Common Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html){target="_blank"}
@@ -411,7 +508,15 @@ knitr::include_graphics("../media/logistic.jpg")
 
 [Back to top of page](#top)
 
-___
+
+
+</div>
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
 
 ## Communicating Your Results
 
@@ -433,6 +538,7 @@ knitr::include_graphics("../media/rmd.png")
 
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Intro to R Markdown](https://github.com/cbwall/Intro-to-Rmarkdown)
   - [Markdown Live Preview Generator](https://dillinger.io/)
   - Expert-Level [Markdown Project](https://github.com/cbwall/Coral-isotopes-across-space-and-time)
@@ -445,6 +551,7 @@ knitr::include_graphics("../media/rmd.png")
 
 [Back to top of page](#top)
 
+___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
@@ -464,6 +571,7 @@ knitr::include_graphics("../media/jennybryan.jpeg")
 
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Project-oriented Workflows](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
   - [Reproducible, Portable, Self-Contained](https://ptds2018.netlify.com/tutorials/workflow/)
   - [Proper Project Organization Example](https://github.com/gzahn/Data_Course/tree/master/Code_Examples/Example_Project)
@@ -478,7 +586,17 @@ knitr::include_graphics("../media/jennybryan.jpeg")
   
 [Back to top of page](#top)
 
-___
+
+
+</div>
+
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
@@ -499,6 +617,7 @@ knitr::include_graphics("../media/aliens.jpg")
 
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Benefits of Live Coding](https://gzahn.github.io/Readings/LiveCoding.pdf)
 
 **Practice**
@@ -530,6 +649,7 @@ knitr::include_graphics("../media/404.PNG")
 
 **Resources**
 
+  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [GitHub Pages](https://pages.github.com/)
   - Here's the [GitHub repository for this course website](https://github.com/gzahn/gzahn.github.io/)
   - Rmarkdown to web page walkthrough [video](https://www.youtube.com/watch?v=2-8-L1ltdx0){target="_blank"}

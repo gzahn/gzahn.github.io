@@ -1,8 +1,8 @@
 ---
-title: "Assignment 4"
-author: "gzahn"
-date: "December 30, 2018"
-output: pdf_document
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: Assignment_4
 ---
 
 ```{r setup, include=FALSE}
@@ -46,15 +46,15 @@ We will use the built-in function read.table() to load some data.
 
 ```{r, echo=TRUE}
 ?read.table() #This brings up the help file
-df = read.csv("../../Data/landdata-states.csv") # why did I change to read.csv ???
+df <-  read.csv("../../Data/landdata-states.csv") # why did I change to read.csv ???
 class(df) # what type of object is df?
 head(df) # shows the first 6 elements of an object (first 6 rows if you give it a data frame)
 ```
 
 
-Now, we have a data frame loaded into R as an object called "df."
+Now, we have a data frame loaded into R and stored as an object called "df."
 If you open that same file with a plain text editor you'd see a bunch of values separated by commas.
-The read.csv() function is a convenient way to tell R that those commas represent different values and each "\\n" (newline) character means a new row. It automatically treats the first row as column headers.  
+The read.csv() function is a convenient way to tell R that those commas separate different values and each "\\n" (newline) character means a new row. It automatically treats the first row as column headers.  
 
 **Questions:**
 

@@ -5,7 +5,7 @@ html_document:
 pagetitle: Assignment_1
 ---
 
-# **Assignment 1**
+# **Assignment 1 - Getting set up to use the command line and R**
 
 In this assignment, you will:
 

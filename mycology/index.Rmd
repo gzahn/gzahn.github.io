@@ -126,7 +126,7 @@ knitr::include_graphics("./media/Fungal_Evol_Hist.png")
   - Read Webster & Weber: **1.1** | **1.5** | **6.1** 
   - Canvas quiz on readings (due before class Thursday)
   - Find and grow zygomycete fungi (Canvas assignment; video walkthrough below)
-  - Get "Mr. Bloomfield's Orchard" by Nicholas Money [(LINK)](https://amzn.to/2ByMPTa){target="_blank}
+  - Buy this cool pocket microscope [Amazon link](https://amzn.to/3grbsQG){target="_blank"} (this is in lieu of your textbook fee)
   - Slack discussion on readings (Thursday 11:15am)
   
 **Resources**
