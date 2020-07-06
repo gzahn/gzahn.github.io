@@ -40,6 +40,7 @@ Utah Valley University - BIOL3100
 #### [Shared Course Notes](https://docs.google.com/document/d/1Nnjv1RkdegUR3pOp8Jb81ryE-_C59T4dLWYyJqVSz9Y/edit?usp=sharing){target="_blank"}
 (Anyone with link can edit)
 
+#### [Exams GitHub Repository](https://github.com/gzahn/BIOL3100_Exams.git){target="_blank"} (Exams will be uploaded at the appropriate times)
 #### [The philosophy of this course](http://gzahn.github.io/media/spocklogic.jpg)
 
 #### R for Data Science [Website](https://r4ds.had.co.nz/){target="_blank"}
@@ -250,10 +251,10 @@ knitr::include_graphics("../media/operators.png")
     + *tidyverse*
     + *carData*
     + *RColorBrewer*
-    + [*colorblindr*](https://github.com/clauswilke/colorblindr){target="_blank"} This one is "special" and not found on CRAN so click the link for install instructions.
+    + [*colorblindr*](https://github.com/clauswilke/colorblindr/blob/master/README.md){target="_blank"} This one is "special" and not found on CRAN so click the link for install instructions.
 
   - [Assignment 5](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_5/Assignment_5.html){target="_blank"}
-  - Exam 1
+  - #### **Exam 1** (Link at top of page)
 
 **Resources**
 
@@ -295,8 +296,8 @@ knitr::include_graphics("../media/ggplot_example.png")
 
 **Assignments**
 
-  - [Assignment 6](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_6/Assignment_6new.pdf)
-  - [Ugly plot contest!](https://gzahn.github.io/data-course/uglyplotcontest.html)
+  - [Assignment 6](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_6/Assignment_6.html){target="_blank"}
+  - [Ugly plot contest!](https://gzahn.github.io/data-course/uglyplotcontest.html){target="_blank"}
   - Prevent embarrassment... see how [NOT to make a chart](https://gzahn.github.io/data-course/embarrassment.html){target="_blank"}, except for the Ugly Plot Contest, of course, where you should try to upend good sense.
 
 **Resources**
@@ -341,7 +342,7 @@ knitr::include_graphics("../media/sepalwidth.jpg")
 **Assignments**
 
   - Read this paper: [Tidy Data](https://github.com/gzahn/Data_Course/blob/master/Readings/tidy-data_Wickham.pdf){target="_blank"}
-  - [Assignment 7](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_7/Assignment_7new.pdf)
+  - [Assignment 7](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_7/Assignment_7.html){target="_blank"}
 
 **Resources**
 
@@ -350,7 +351,7 @@ knitr::include_graphics("../media/sepalwidth.jpg")
   - [Transforming Data Frames](https://r4ds.had.co.nz/transform.html){target="_blank"}
   - [dplyr Verbs](https://dplyr.tidyverse.org/){target="_blank"}
   - [tidyr Verbs](https://tidyr.tidyverse.org/){target="_blank"}
-  - [tidyverse Cheat Sheet](https://github.com/gzahn/Data_Course/blob/master/Readings/Tidyverse%2BCheat%2BSheet.pdf){target="_blank"}
+  - [tidyverse Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf){target="_blank"}
 
 **Practice**
 

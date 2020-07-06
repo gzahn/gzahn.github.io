@@ -37,10 +37,10 @@ After you have grasped the basics of ggplot, complete the following tasks (in yo
 1.  Load the "iris" data set
 2.  Duplicate the first 3 figures below and save them in your Assignment_5 directory as "iris_fig1.png", "iris_fig2.png", "iris_fig3.png", respectively.
 3.  Keep in mind that by default, I make most of my figures with theme_minimal() 
-4.  Read through the different plot types on [this website](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html){target="_blank"} and use the info to reproduce the fourth figure below. Save it as "iris_fig4.png"
+4.  Read through the different plot types on [this website](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html){target="_blank"} and use the info to reproduce the fourth figure below. Save it as "iris_fig4.png" (this is a great website to bookmark)
 
 This last task requires you to use the internet to solve a tricky R task.  This is the most important skill you can learn in this course!
-You'll probably have to figure out some functions you've not seen before and reconfigure them to the iris data.
+You'll probably have to figure out some functions you've not seen before and reconfigure them to the iris data. Yes, this is tricky. Yes, that's on purpose. The learning comes with figuring it out!
 
 ![](i1.png)
 ![](i2.png)
