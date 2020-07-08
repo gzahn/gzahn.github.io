@@ -308,6 +308,7 @@ knitr::include_graphics("../media/ggplot_example.png")
   - [patchwork](https://github.com/thomasp85/patchwork){target="_blank"}
   - [Extensive ggplot2 Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html){target="_blank"}
   - How to plot anything in ggplot [part 1](https://t.co/LxwwSsESQM?amp=1){target="_blank"} | [part 2](https://t.co/uZda0KRAgp?amp=1){target="_blank"} (This is a **GOOD** thing to watch!)
+  - Evolution of a ggplot [tutorial](https://cedricscherer.netlify.app/2019/05/17/the-evolution-of-a-ggplot-ep.-1/){target="_blank"}
 
 **Practice**
 
@@ -355,9 +356,9 @@ knitr::include_graphics("../media/sepalwidth.jpg")
 
 **Practice**
 
-  - [BioLog Challenge](https://github.com/gzahn/Data_Course/blob/master/Exercises/BioLog_Challenge.R)
-  - [Out-of-order Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_CO2_plot.R)
-  - [Out-of-order Code2](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_grading_code.R)
+  - [BioLog Challenge](https://gzahn.github.io/data-course/Repository/Exercises/BioLog_Challenge.R){target="_blank"}
+  - [Out-of-order Code](https://gzahn.github.io/data-course/Repository/Exercises/out-of-order_CO2_plot.R){target="_blank"}
+  - [Out-of-order Code2](https://gzahn.github.io/data-course/Repository/Exercises/out-of-order_grading_code.R){target="_blank"}
 
 [Back to top of page](#top)
 
@@ -378,8 +379,8 @@ knitr::include_graphics("../media/real_world_data.jpg")
 
 **Assignments**
 
-  - Read [This Handout](https://github.com/gzahn/Data_Course/blob/master/Readings/Excel_Advice_Handout.pdf)
-  - Read [This Paper](https://github.com/gzahn/Data_Course/blob/master/Readings/Broman_and_Woo_2017_Data_organization_in_spreadsheets.pdf)
+  - Read [This Handout](https://gzahn.github.io/data-course/Repository/Readings/Excel_Advice_Handout.pdf)
+  - Read [This Paper](https://gzahn.github.io/data-course/Repository/Readings/Broman_and_Woo_2017_Data_organization_in_spreadsheets.pdf)
   - Create a validated Excel Spreadsheet for data collection for the experiment we design in class
   - Exam 2
 
@@ -394,9 +395,9 @@ knitr::include_graphics("../media/real_world_data.jpg")
 
 **Practice**
 
-  - Download [this spreadsheet](https://github.com/gzahn/Tidy_Data_Workshop/raw/master/Worst%20Data%20Storage%20Ever.xlsx). See if you figure out all the things wrong with it.
-  - [Error Sleuth Practice](https://github.com/gzahn/Data_Course/blob/master/Exercises/error_sleuth_pt1.R)
-  - [Data Entry Case Study](https://github.com/gzahn/Data_Course/blob/master/Exercises/Data_Entry_Case_Study.txt)
+  - Download [this spreadsheet](https://github.com/gzahn/Tidy_Data_Workshop/raw/master/Worst%20Data%20Storage%20Ever.xlsx){target="_blank"}. See if you figure out all the things wrong with it.
+  - [Error Sleuth Practice](https://gzahn.github.io/data-course/Repository/Exercises/error_sleuth_pt1.R){target="_blank"}
+  - [Data Entry Case Study](https://gzahn.github.io/data-course/Repository/Exercises/Data_Entry_Case_Study.txt){target="_blank"}
   
 [Back to top of page](#top)
 
@@ -425,6 +426,7 @@ knitr::include_graphics("../media/function.png")
 
 **Assignments**
   - Watch [this video](https://resources.rstudio.com/rstudio-conf-2020/object-of-type-closure-is-not-subsettable-jenny-bryan){target="_blank"} from Jenny Bryan about debugging
+  - #### **Exam 2** (Link at top of page)
   
 **Resources**
 
@@ -440,6 +442,8 @@ knitr::include_graphics("../media/function.png")
   - Write a **useful** function that you might want to use in the future (your choice)
   - Put all of these functions into a new R script and save it in **your** main data course repository
   - In a new empty R script, call your functions with source() and test them out
+  - There's a stupid function I wrote in "/Code_Examples/thlayli.R"
+    + It takes a data.frame as an input and does *WHAT* to it?
 
 [Back to top of page](#top)
 
@@ -474,6 +478,7 @@ knitr::include_graphics("../media/model1.png")
 **Resources**
 
   - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - What is a [statistical model?](https://help.xlstat.com/s/article/what-is-statistical-modeling?language=en_US){target="_blank"}
   - [Modeling Intro](https://r4ds.had.co.nz/model-intro.html){target="_blank"}
   - [Model Basics](https://r4ds.had.co.nz/model-basics.html){target="_blank"}
   - [Model Fitting](https://r4ds.had.co.nz/model-building.html){target="_blank"}
@@ -503,6 +508,9 @@ ___
 
 **Assignments**
 
+  - Show up to class. Models are confusing at first and there's a lot to learn.
+  - Ask questions during class.
+
 **Resources**
 
   - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
@@ -511,9 +519,13 @@ ___
   - [Common Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html){target="_blank"}
   - [Mixed-effect Models](https://peerj.com/articles/4794/){target="_blank"}
   - [Everything is a Regression](https://towardsdatascience.com/everything-is-just-a-regression-5a3bf22c459c){target="_blank"}
-  _ [Introduction to mixed effects models](https://peerj.com/articles/4794/){target="_blank"} This is a VERY good paper.
+  - [Introduction to mixed effects models](https://peerj.com/articles/4794/){target="_blank"} This is a VERY good paper!
  
 **Practice**
+
+  - Go through the R script "/Exercises/more_models.R"
+    + Follow along with my analyses of the first two data sets
+    + Complete an analysis of the third data set
 
 [Back to top of page](#top)
 
@@ -556,7 +568,7 @@ knitr::include_graphics("../media/rmd.png")
 
   - Using the resources above, generate a markdown document that analyzes the "iris" data set and push it to a new GitHub repository named Iris_Markdown
   - Play with options and code to create a document that looks good and presents your analysis and results clearly
-  - This is similar to Assignment_9, but I'm asking for a brand new "Iris_Markdown" repository that is self-contained.
+  - This is similar to Assignment_9, but I'm asking for a brand new "Iris_Markdown" repository that is a self-contained report of Iris analyses
 
 [Back to top of page](#top)
 
@@ -575,8 +587,8 @@ knitr::include_graphics("../media/jennybryan.jpeg")
 
 **Assignments**
 
-  - Peer evaluation of Assignment 9 (Organization, Portability, Accuracy, Understandablity)
-  - Exam 3
+  - Peer evaluation of Assignment 9 HTML reports (Organization, Portability, Accuracy, Understandablity)
+  - #### **Exam 3** (Link at top of page)
 
 **Resources**
 
@@ -627,7 +639,7 @@ knitr::include_graphics("../media/aliens.jpg")
 **Resources**
 
   - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
-  - [Benefits of Live Coding](https://gzahn.github.io/Readings/LiveCoding.pdf)
+  - [Benefits of Live Coding](https://gzahn.github.io/Readings/LiveCoding.pdf){target="_blank"}
 
 **Practice**
 
@@ -666,7 +678,11 @@ knitr::include_graphics("../media/404.PNG")
 
 **Practice**
 
-  - Go through my course website repository (link above) and try to relate the code there to the html version of the website your internet browser is displays
+  - Go through my course website repository (link above) and try to relate the code there to the html version of the website your internet browser displays
+  - Work on your personal website:
+    + Add multiple pages with internal links
+    + Be sure to have a "Projects" page that links to HTML reports you've made, including your final project
+    + Be careful not to push any files larger than 50Mb to GitHub or it will break your repository!
 
 [Back to top of page](#top)
 
@@ -700,7 +716,7 @@ ___
 
 **Assignments**
 
-  - Exam 4 (Redo any previous exam to replace it's score)
+  - #### **Exam 4** (Redo any previous exam to replace it's score)
 
 [Back to top of page](#top)
 
