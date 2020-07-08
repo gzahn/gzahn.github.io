@@ -473,7 +473,7 @@ knitr::include_graphics("../media/model1.png")
 
 **Assignments**
 
-  - [Assignment 8](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_8/Assignment_8new.pdf)
+  - [Assignment 8](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_8/Assignment_8.html){target="_blank"}
 
 **Resources**
 
@@ -555,14 +555,14 @@ knitr::include_graphics("../media/rmd.png")
 
 **Assignments**
 
-  - [Assignment 9](https://github.com/gzahn/Data_Course/blob/master/Assignments/Assignment_9/Assignment_9new.pdf)
+  - [Assignment 9](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_9/Assignment_9.html){target="_blank"}
 
 **Resources**
 
   - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
-  - [Intro to R Markdown](https://github.com/cbwall/Intro-to-Rmarkdown)
-  - [Markdown Live Preview Generator](https://dillinger.io/)
-  - Expert-Level [Markdown Project](https://github.com/cbwall/Coral-isotopes-across-space-and-time)
+  - [Intro to R Markdown](https://github.com/cbwall/Intro-to-Rmarkdown){target="_blank"}
+  - [Markdown Live Preview Generator](https://dillinger.io/){target="_blank"}
+  - Expert-Level [Markdown Project](https://github.com/cbwall/Coral-isotopes-across-space-and-time){target="_blank"}
 
 **Practice**
 
@@ -593,10 +593,10 @@ knitr::include_graphics("../media/jennybryan.jpeg")
 **Resources**
 
   - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
-  - [Project-oriented Workflows](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
-  - [Reproducible, Portable, Self-Contained](https://ptds2018.netlify.com/tutorials/workflow/)
-  - [Proper Project Organization Example](https://github.com/gzahn/Data_Course/tree/master/Code_Examples/Example_Project)
-  - [Another, More Detailed Example](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf)
+  - [Project-oriented Workflows](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/){target="_blank"}
+  - [Reproducible, Portable, Self-Contained](https://ptds2018.netlify.com/tutorials/workflow/){target="_blank"}
+  - [Proper Project Organization Example](https://github.com/gzahn/Data_Course/tree/master/Code_Examples/Example_Project){target="_blank"}
+  - [Another, More Detailed Example](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf){target="_blank"}
   - [Project organization part 1](https://www.youtube.com/watch?v=dSHGfoHTTko){target="_blank"} video
   - [Project organization part 2](https://www.youtube.com/watch?v=1ntfdvkQZFg){target="_blank"} video
 
@@ -671,8 +671,8 @@ knitr::include_graphics("../media/404.PNG")
 **Resources**
 
   - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
-  - [GitHub Pages](https://pages.github.com/)
-  - Here's the [GitHub repository for this course website](https://github.com/gzahn/gzahn.github.io/)
+  - [GitHub Pages](https://pages.github.com/){target="_blank"}
+  - Here's the [GitHub repository for this course website](https://github.com/gzahn/gzahn.github.io/){target="_blank"}
   - Rmarkdown to web page walkthrough [video](https://www.youtube.com/watch?v=2-8-L1ltdx0){target="_blank"}
   - Reproducible workflow [video](https://youtu.be/s3JldKoA0zw){target="_blank"}
 
