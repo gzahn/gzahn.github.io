@@ -31,16 +31,16 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 
 # **MYCOLOGY**{#top}
-Utah Valley University - BIOL1620
+**Utah Valley University - BIOL1620**
 
-#### This course section is entirely online. All assignments, quizzes, and exams will be turned in and taken on Canvas. My preferred contact method is our group Slack channel.
+This course section is entirely online. All assignments, quizzes, and exams will be turned in and taken on Canvas. My preferred contact method is our group Slack channel.
 
-#### This webpage will host links to all resources and videos, and serves as a roadmap for the semester, listing readings, assignments, etc.
+This webpage will host links to all resources and videos, and serves as a roadmap for the semester, listing readings, assignments, etc.
 
 ___
 
 #### **Course overview:**
-The course consists of several components:
+**The course consists of several components:**
   
   - **Required readings**
     + Textbook: Webster and Weber, *Introduction to Fungi - 3rd ed.* (specific sections)
@@ -50,12 +50,29 @@ The course consists of several components:
   - **Assorted "home mycology" lab, research, and field exercises** (on Canvas)
   - **Exams** (3 of these, on Canvas, open-note) 
 
-The course is broken into 4 rough sections:
+**The course is broken into 4 rough sections:**
 
-  1. Getting to know fungal biology and major groups (get ready for a bunch of terminology)
-  2. Fungi as the enemy (human and plant pathogens, fungal distribution, secondary compounds)
-  3. Fungi as a friend (mutualistic symbioses)
-  4. Molecular mycology (intro to modern methods and fungal bioinformatics)
+  **1.** Getting to know fungal biology and major groups (get ready for a bunch of mycological terminology)
+  
+  **2.** Fungi as the enemy (human and plant pathogens, fungal distribution, secondary compounds)
+  
+  **3.** Fungi as a friend (mutualistic symbioses)
+  
+  **4.** Molecular mycology (intro to modern methods and fungal bioinformatics)
+  
+**Course assumptions (about you):**
+
+  - You know how to read a phylogeny and argue whether a trait is ancestral or derived
+  - You know how to find and read a scientific journal article
+  - You can write intelligibly 
+  - You understand the following terms and concepts:
+    + monophyletic, taxon, clade, outgroup
+    + central dogma of biology
+    + chromosome, locus, gene, variant, phenotype
+    + niche, dispersal, genetic drift, diploid/haploid
+    + respiration, oxidation/reduction
+  - In other words, you've had (and paid attention to) the material from BIOL1610 and BIOL1620
+
 
 ___
 
@@ -65,13 +82,15 @@ ___
 
 #### [Course Text Book](https://gzahn.github.io/mycology/media/WEBSTER_and_WEBER_3rd-ed.pdf){target="_blank"}
 
+#### My [Hillbilly Mycology](https://gzahn.github.io/mycology/hillbilly_mycology.html){target="_blank"} resource page
+
 ____
 
 ## Good web resources:
 
 [**21st Century Guidebook to Fungi**](http://www.davidmoore.org.uk/21st_Century_Guidebook_to_Fungi_PLATINUM/index.htm){target="_blank} (This is pretty useful for this class!) Full [download link](https://gzahn.github.io/mycology/media/21st_Century_Guide_to_Fungi_1st_ed.zip) for older edition (zipped).
 
-"The Fifth Kingdom" [website](http://www.mycolog.com/fifthtoc.html){target="_blank"}
+"The Fifth Kingdom" [**website**](http://www.mycolog.com/fifthtoc.html){target="_blank"}
 
 Cornell's [**Virtual Fungal Library**](http://mycology.cornell.edu/){target="_blank} (Extensive links to resources!)
 
@@ -144,9 +163,7 @@ knitr::include_graphics("./media/Fungal_Evol_Hist.png")
   - Chytrid [trophic modes](https://www.youtube.com/watch?v=N6Z_MlahSx8){target="_blank}
   - What's [killing the world's amphibians?](https://www.youtube.com/watch?v=BvidpapF1bg){target="_blank}
   - Chytrid sexual [life cycle](https://www.youtube.com/watch?v=ehQusvH8r1s){target="_blank}
-  - Cool time-lapse video of [growing hyphae](https://www.youtube.com/watch?v=i9T727tz7FA){target="_blank}
-  - Hyphal morphology [video](https://www.youtube.com/watch?v=OZuFzbNIVUQ){target="_blank}
-  
+    
 [Back to top of page](#top)
 
 ___
@@ -168,7 +185,7 @@ knitr::include_graphics("./media/mycelium.jpg")
   - Read Webster & Weber: **1.2** | **1.3** | **1.4** | **7.1** | **7.2** | **7.3.1** | **7.3.2**
   - Canvas quiz on readings  (due before class Thursday)
   - Slack discussion on readings (Thursday 11:15am)
-  - Turn in your Zygomycete photos (Canvas)
+  - Turn in your Zygomycete microscopy photos (Canvas)
 
 **Resources**
 
@@ -189,6 +206,9 @@ knitr::include_graphics("./media/mycelium.jpg")
   - Hyphal types [video](https://youtu.be/ISPA7IM4zaU){target="_blank"} (though she mispronounces "coenocytic" ... it's like "see - no - sit - ic")
   - Mucor as a human pathogen [video](https://youtu.be/DntLhHpdAuc){target="_blank"}
   - Mucor as a model of Zygomycete anatomy [video](https://youtu.be/OPldLIlltNg){target="_blank"} (ridiculous music warning)
+  - Cool time-lapse video of [growing hyphae](https://www.youtube.com/watch?v=i9T727tz7FA){target="_blank}
+  - Hyphal morphology [video](https://www.youtube.com/watch?v=OZuFzbNIVUQ){target="_blank}
+
   
   
 [Back to top of page](#top)
