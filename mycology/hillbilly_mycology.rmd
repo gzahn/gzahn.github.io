@@ -89,7 +89,7 @@ This is a very low-nutrient "jelly" made from seaweed. It provides a medium for 
 
 [**Petri dishes**](https://amzn.to/2ZNIeoM){target="_blank"}
 
-Lot's of things work here. The short wide-mouth Mason jars are nice, but a bit pricey. The benefit is that you can "autoclave" them for sterility. Still, you can use the condiment cups from the link as long as you sterilize them with alcohol and let them dry completely in a clean location before pouring your media into them. 
+Lot's of things work here. The short wide-mouth Mason jars are nice, but a bit pricey. The benefit is that you can "autoclave" them for sterility. Still, you can use the condiment cups from the link as long as you sterilize them with 91% isopropyl alcohol and let them dry completely in a clean location before pouring your media into them. 
 
 [**Biological Stain**](https://www.amazon.com/Amazon-Brand-Turmeric-Ground-Ounces/dp/B07W1WWT5D/ref=sr_1_7?dchild=1&keywords=turmeric+powder&qid=1594249188&s=grocery&sr=1-7){target="_blank"}
 
@@ -118,6 +118,17 @@ ___
 
 ## Protocols{#protocols}
 
+[**Make hillbilly agar plates at home**](){target="_blank"}
+
+  - Various nutrient agar [recipes](https://raw.githubusercontent.com/gzahn/Protocols/master/media_recipes_gz.txt){target="_blank"}
+  - Make nutrient agar using a pressure cooker and mason jar [video](https://youtu.be/kX2vwOY21-w){target="_blank"}
+  - Melt and pour sterile agar into condiment cups [video](https://youtu.be/H5hGdLrU4_w?list=PLynpVN9S7ExbSbGKJo6pVVnsp5iZURjr0){target="_blank"}
+  - Note that unless you have a hillbilly [flow hood](https://youtu.be/lUQDPC9HX4Q){target="_blank"} or [glove box](https://youtu.be/oGDUNB3w1aU){target="_blank"},  contamination can be an issue when pouring agar plates or working with fungal cultures.
+
+
+</br></br>
+
+
 [**Isolate Zygomycetes from soil**](){target="_blank"}
 
   - Step 1 - the moldy bread experience [video](https://youtu.be/JzVBlk0Rqj8){target="_blank"}
@@ -137,24 +148,17 @@ ___
 </br></br>
 
 
-[**Grow oyster mushrooms at home**](){target="_blank"}
-
-There are really a ton of good resources already made for this particular project. We will go through this together as a class on a small scale:
-
-  - Overview of the steps involved [**web page**](https://blog.freshcapmushrooms.com/learn/how-to-grow-mushrooms-a-basic-outline/){target="_blank"}
-  - How to find yourself a clone for free [**video**](https://www.youtube.com/watch?v=TDhQcRPPd9c){target="_blank"}
-  - How to transfer fungal cultures to new growth medium [**video**](https://www.youtube.com/watch?v=sk4Adz12W5U){target="_blank"}
-  - How to clean up a culture without antibiotics [**video**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6834272/){target="_blank"}
-  - Grain spawn recipe [**instructions**](https://blog.freshcapmushrooms.com/learn/how-to-make-perfect-grain-spawn-for-growing-mushrooms-at-home/){target="_blank"}
-  - Inoculating your bulk carbon source and fruiting [**instructions**](https://blog.freshcapmushrooms.com/learn/grow-at-home-how-to-grow-mushrooms-at-home-using-straw-logs/){target="_blank"}
- 
-
-</br></br>
 
 
 [**Slide culture**](https://www.youtube.com/watch?v=0RJKvTngF5s){target="_blank"}
 
-  - How to view intact sporangial structures on a slide
+  - How to view intact sporangial structures on a slide [video](https://youtu.be/FcW5tHrbAos){target="_blank"}
+  - Easily adapted for home mycology:
+    + use a Mason jar instead of glass petri dish
+    + use homemade agar of really almost any recipe suitable for fungal growth
+    + Stain with turmeric
+    + Observe with a pocket microscope
+    
 
 
 </br></br>
@@ -162,15 +166,25 @@ There are really a ton of good resources already made for this particular projec
 
 [**Spore prints and spore characteristics**](){target="_blank"}
 
-  - How to make a spore print [video](){target="_blank"}
-  - Visualizing spores [video](){target="_blank"}
-  - Stephanie Kivlin's spore trait database [download](https://gzahn.github.io/mycology/media/FungalTraits_2011_05_25.xlsx){target="_blank"}
+  - How to make a spore print [instructions](https://www.milkwood.net/2014/01/06/making-spore-prints/){target="_blank"}
+  - Visualizing spores [instructions](https://www.mushroomexpert.com/microscope.html){target="_blank"}
+  - Stephanie Kivlin's spore trait database [download](https://gzahn.github.io/mycology/media/FungalTraits_2011_05_25.xlsx){target="_blank"} (2015 version)
   - Spore morphology [slideshow](https://gzahn.github.io/mycology/media/Spore_morphology_Presentation.pdf){target="_blank"} from Estelle Levetin, PhD
 
 
 </br></br>
 
 
+[**Collecting and identifying macrofungi**](https://www.mushroomexpert.com/studying.html){target="_blank"} (**NO**, not for eating! You're not an expert, so don't take the risk.)
+
+  - General overview of considerations and note-taking [link](https://www.mushroomexpert.com/studying.html){target="_blank"}
+  - Recommendations for how to collect macrofungi [link](http://sweetgum.nybg.org/science/projects/boletineae/wp-content/uploads/sites/6/2016/08/collecting_illustrated.pdf){target="_blank"}
+  - Illustrated glossary of morphological terms [link](https://www.mushroomexpert.com/glossary.html){target="_blank"}
+  - Illustrated guide to fungal morphology [link](https://www.researchgate.net/publication/281625151_General_Aspects_of_Mushroom_Fungi){target="_blank"} from the Denchev Lab.
+
+
+
+</br></br>
 
 [**Mating crosses**](){target="_blank"}
 
@@ -183,16 +197,38 @@ There are really a ton of good resources already made for this particular projec
 
 
 
-[**Cheese mycology**](){target="_blank"}
+[**Edible mycology**](){target="_blank"}
 
-
+  - Blue cheese (*Penicillium roqueforti*)
+    + Good recipe [link](https://cheesemaking.com/products/bleu-dauvergne-recipe){target="_blank"}
+    + Culture your own pores for the price of some cheese [link](https://curd-nerd.com/cultivate-your-own-blue-mold/){target="_blank"}
+  - Tempeh (*Rhizopus sp.*)
+    + Cooked soybeans, cultured with fungi. Super delicious. [Instructions](https://www.topcultures.com/make-tempeh/){target="_blank"}
+    + Best culture source, in my opinion [link](https://www.topcultures.com/product-category/tempeh-starters/){target="_blank"}
+  - Sourdough
+    + Capturing wild yeast [link](https://bootlegbiology.com/diy/capturing-yeast/){target="_blank"}
+    + Isolating yeast strains from wild sourdough [link](https://bootlegbiology.com/diy/isolating-yeast/){target="_blank"}
+    + Sourdough for Science Experiment [teacher's guide](http://studentsdiscover.org/wp-content/uploads/Sourdough-for-Science-Teacher-Guide.pdf){target="_blank"}
 
 </br></br>
 
+  
+[**Grow oyster mushrooms at home**](){target="_blank"}
+
+There are really a ton of good resources already made for this particular project. We will go through this together as a class on a small scale:
+
+  - Overview of the steps involved [**web page**](https://blog.freshcapmushrooms.com/learn/how-to-grow-mushrooms-a-basic-outline/){target="_blank"}
+  - How to find yourself a clone for free [**video**](https://www.youtube.com/watch?v=TDhQcRPPd9c){target="_blank"}
+  - How to transfer fungal cultures to new growth medium [**video**](https://www.youtube.com/watch?v=sk4Adz12W5U){target="_blank"}
+  - How to clean up a culture without antibiotics [**video**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6834272/){target="_blank"}
+  - Grain spawn recipe [**instructions**](https://blog.freshcapmushrooms.com/learn/how-to-make-perfect-grain-spawn-for-growing-mushrooms-at-home/){target="_blank"}
+  - Inoculating your bulk carbon source and fruiting [**instructions**](https://blog.freshcapmushrooms.com/learn/grow-at-home-how-to-grow-mushrooms-at-home-using-straw-logs/){target="_blank"}
+ 
+
+  
 
 
-[**Sourdough mycology**](){target="_blank"}
-
+</br></br>
 
 
 </br></br>

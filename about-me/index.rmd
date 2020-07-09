@@ -1,5 +1,6 @@
 ---
 output: html_document
+pagetitle: ABOUT ME
 ---
 <style type="text/css">
 .main-container {

@@ -1,5 +1,6 @@
 ---
 output: html_document
+pagetitle: Zahn Lab - Publications
 ---
 
 <style type="text/css">

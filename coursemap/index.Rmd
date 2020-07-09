@@ -2,7 +2,7 @@
 output: 
 html_document:
   number_sections=TRUE
-pagetitle: MYCOLOGY
+pagetitle: TEACHING
 ---
 
 
