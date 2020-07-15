@@ -33,7 +33,7 @@ Utah Valley University - BIOL3100
 
 
 
-## Quick links:
+## Handy links:
 
 #### [Course Syllabus](https://github.com/gzahn/Data_Course/blob/master/Syllabus.pdf){target="_blank"}
 #### Course [file repository](https://github.com/gzahn/Data_Course){target="_blank"}
@@ -46,6 +46,10 @@ Utah Valley University - BIOL3100
 #### R for Data Science [Website](https://r4ds.had.co.nz/){target="_blank"}
   
 #### Collection of beginner R [resources](https://www.learnr4free.com/beginner.html){target="_blank"}
+
+#### Amy Willis' Intro to R [course](https://github.com/adw96/biost509){target="_blank"} 
+(for related alternative exercises/lessons)
+
 
 
 ___
@@ -172,8 +176,10 @@ knitr::include_graphics("../media/file_tree.png")
     + sort
     + uniq
   - Practice using wildcards (*) to show the contents of random files
+    + Write a command using wildcard(s) that lists *only* the files "ethane.pbd" and "methane.pbd" in the Data/data-shell/molecules/ directory
     + Pick a few random files in a directory and try to write a wildcard expression that shows ONLY those files (wash, rinse, repeat)
   - find out what the following shell commands do and how to use them (then practice using them):
+    + touch
     + cp
     + mv
   
@@ -213,9 +219,12 @@ knitr::include_graphics("../media/Rvariablesdata.jpg")
 **Resources**
 
   - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Intro to what RStudio is [video](https://youtu.be/cnQ-v1UUWyE){target="_blank"}
   - [Data Types in R](https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/){target="_blank"}
   - [For-Loops](https://www.datamentor.io/r-programming/for-loop/){target="_blank"}
   - [Reading data into R](https://www.datacamp.com/community/tutorials/r-data-import-tutorial){target="_blank"}
+  - Using 'pipes' in R [chapter](https://r4ds.had.co.nz/pipes.html#introduction-11){target="_blank"}
+  - For-loops in R [chapter](https://r4ds.had.co.nz/iteration.html){target="_blank"}
 
 **Practice**
 
@@ -391,6 +400,9 @@ knitr::include_graphics("../media/real_world_data.jpg")
   - [Wrangling Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf){target="_blank"}
   - [Visual Explanations of Joins](https://github.com/gadenbuie/tidyexplain){target="_blank"}
   - Janitor package on [CRAN](https://cran.r-project.org/web/packages/janitor/index.html){target="_blank"}
+  - Rstats [illustrations](https://github.com/allisonhorst/stats-illustrations){target="_blank"}
+  - Working with [strings and regular expressions](https://craig.rbind.io/post/2020-06-28-asgr-2-3-string-manipulation/){target="_blank"} using the *stringr* package
+  
 
 
 **Practice**
@@ -425,7 +437,9 @@ knitr::include_graphics("../media/function.png")
   - Writing Functions | Conditional Execution | source()
 
 **Assignments**
+
   - Watch [this video](https://resources.rstudio.com/rstudio-conf-2020/object-of-type-closure-is-not-subsettable-jenny-bryan){target="_blank"} from Jenny Bryan about debugging
+  - Read [this chapter](https://r4ds.had.co.nz/functions.html){target="_blank"} and do all the exercises in it as you read
   - #### **Exam 2** (Link at top of page)
   
 **Resources**
@@ -438,12 +452,15 @@ knitr::include_graphics("../media/function.png")
 
   - Write a function that returns the min, max, and mean of any set of real numbers
   - Write a function that takes a data frame and returns a new data frame with one **random** column removed
+  - Fix my out-of-order [code](https://gzahn.github.io/data-course/Repository/Exercises/out_of_order_function.R){target="_blank"} for a summarizing function
   - Write a function that takes a data frame... if there are more than 3 columns, your function should return the column names as-is; if there are 3 or fewer columns, your function should return the column names in **reverse order.**
   - Write a **useful** function that you might want to use in the future (your choice)
   - Put all of these functions into a new R script and save it in **your** main data course repository
   - In a new empty R script, call your functions with source() and test them out
   - There's a stupid function I wrote in "/Code_Examples/thlayli.R"
     + It takes a data.frame as an input and does *WHAT* to it?
+  - What's the difference between '|' and '||' or '&' and '&&' ? Why should you always use the double-form in a conditional expression?
+  
 
 [Back to top of page](#top)
 
@@ -520,6 +537,11 @@ ___
   - [Mixed-effect Models](https://peerj.com/articles/4794/){target="_blank"}
   - [Everything is a Regression](https://towardsdatascience.com/everything-is-just-a-regression-5a3bf22c459c){target="_blank"}
   - [Introduction to mixed effects models](https://peerj.com/articles/4794/){target="_blank"} This is a VERY good paper!
+  - How to use [lmer](https://rstudio-pubs-static.s3.amazonaws.com/63556_e35cc7e2dfb54a5bb551f3fa4b3ec4ae.html){target="_blank"}
+  - Comparing multiple models with [regression tables](https://evalsp20.classes.andrewheiss.com/reference/regtables/){target="_blank"}
+  - Intro to Machine Learning [online text](https://lgatto.github.io/IntroMachineLearningWithR/an-introduction-to-machine-learning-with-r.html){target="_blank"}
+  - Free case studies using [Machine Learning in R](https://supervised-ml-course.netlify.app/){target="_blank"}
+  
  
 **Practice**
 
