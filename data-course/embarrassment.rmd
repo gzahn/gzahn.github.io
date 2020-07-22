@@ -42,10 +42,12 @@ knitr::include_graphics("./media/badstats2.png")
 
 ## [Serial offender](https://www.businessinsider.com/fox-news-charts-tricks-data-2012-11){target="_blank"}
 
+## My favorite [graph](https://gzahn.github.io/data-course/media/badstats4.png){target="_blank"} so far. Look closely...
+
 ## Definitely [keep this in mind!](https://www.tylervigen.com/spurious-correlations){target="_blank"}
 
 
-## Look, someone found the "fit trendline" function in Excel and made [national policy](https://twitter.com/NateSilver538/status/1257476755574718470){target="_blank"} based on it!
+## Look, someone found the "fit trendline" function in Excel and made [national policy](https://www.vox.com/2020/5/8/21250641/kevin-hassett-cubic-model-smoothing){target="_blank"} based on it!
 
 *Note: This seriously happened and people died because of it.
 
@@ -55,21 +57,29 @@ knitr::include_graphics("./media/BadStats.png")
 ```
 </div>
 
-## [Explanation](https://www.vox.com/2020/5/8/21250641/kevin-hassett-cubic-model-smoothing){target="_blank"} of the previous link
-
 ## Just don't use [pie charts](https://blog.funnel.io/why-we-dont-use-pie-charts-and-some-tips-on-better-data-visualizations){target="_blank"}
 
 ## Do follow [these rules](https://guides.library.duke.edu/datavis/topten){target="_blank"}
 
-</br></br>
+</br></br></br>
 
 
 
 Note: The guy embarrassing himself publicly on the right is a full professor of economics at UC Irvine. I honestly don't know how he has a job there, but he's already provided us with a wealth of lessons. 
 
 </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-</br></br></br></br></br></br></br></br></br>
-</br></br></br>
+
+
+<div style= "float:left;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("./media/GeorgiaLie.png")
+```
+</div>
+
+
+
+
+</br></br></br></br></br></br></br></br></br></br>
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "500px",echo=FALSE}
@@ -78,7 +88,7 @@ knitr::include_graphics("./media/badstats3.png")
 </div>
 
 
-
+</br></br></br></br>
 </br></br></br></br></br></br></br></br></br></br></br></br>
 </br></br></br></br></br></br></br></br></br></br></br></br>
 </br></br></br></br></br></br></br></br></br></br></br></br>

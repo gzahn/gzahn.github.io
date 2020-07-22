@@ -318,6 +318,7 @@ knitr::include_graphics("../media/ggplot_example.png")
   - [Extensive ggplot2 Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html){target="_blank"}
   - How to plot anything in ggplot [part 1](https://t.co/LxwwSsESQM?amp=1){target="_blank"} | [part 2](https://t.co/uZda0KRAgp?amp=1){target="_blank"} (This is a **GOOD** thing to watch!)
   - Evolution of a ggplot [tutorial](https://cedricscherer.netlify.app/2019/05/17/the-evolution-of-a-ggplot-ep.-1/){target="_blank"}
+  - Catalog of [visualization types](https://flowingdata.com/chart-types) (Awesome source of inspiration for your plots...but memberhip fee required to see code. Booooo)
 
 **Practice**
 
@@ -447,6 +448,7 @@ knitr::include_graphics("../media/function.png")
   - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Functions](https://r4ds.had.co.nz/functions.html){target="_blank"}
   - [Conditional Execution](https://r4ds.had.co.nz/functions.html#conditional-execution){target="_blank"}
+  - Functionals and the *purrr* package [chapter](https://adv-r.hadley.nz/functionals.html){target="_blank"}
 
 **Practice**
 

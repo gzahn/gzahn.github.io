@@ -141,9 +141,10 @@ knitr::include_graphics("./media/Fungal_Evol_Hist.png")
 **Readings and Assignments**  
 
   - Study the lesson slides (link below)
-  - Read [James, et al., 2006](https://gzahn.github.io/mycology/media/James_et_al_-_2006_Reconstructing_the_early_evolution_of_Fungi.pdf)
+  - Read [James, et al., 2006](https://gzahn.github.io/mycology/media/James_et_al_-_2006_Reconstructing_the_early_evolution_of_Fungi.pdf){target="_blank"}
   - Read Webster & Weber: **1.1** | **1.5** | **6.1** 
   - Canvas quiz on readings (due before class Thursday)
+  - Watch [this video](https://youtu.be/jLAHbP-LLFM){target="_blank"} on how fungi changed the world. Watch it before next week.
   - Find and grow zygomycete fungi (Canvas assignment; video walkthrough below)
   - Buy this cool pocket microscope [Amazon link](https://amzn.to/3grbsQG){target="_blank"} (this is in lieu of your textbook fee)
   - Slack discussion on readings (Thursday 11:15am)
@@ -324,6 +325,7 @@ knitr::include_graphics("./media/dispersal.jpeg")
 **Resources**
 
   - [Major Topics]
+  - How to collect fungi [notes and videos](https://mycoflora.org/index.php?option=com_sppagebuilder&view=page&id=18){target="_blank"}
   
 **Videos**
 
@@ -628,13 +630,16 @@ knitr::include_graphics("./media/Primer_map_2015_March.png")
   
 **Readings and Assignments**
 
-  - Read [Raja, et al., 2017](https://gzahn.github.io/mycology/media/Raja_et_al_2017.pdf)
+  - Read [Raja, et al., 2017](https://gzahn.github.io/mycology/media/Raja_et_al_2017.pdf){target="_blank"}
   - Read Money: Chapter 9
 
   
 **Resources**
 
   - [Major Topics]
+  - How to use BLAST [tutorial](https://digitalworldbiology.com/blast){target="_blank"}
+  - [Terminology](https://www.ncbi.nlm.nih.gov/BLAST/tutorial/Altschul-1.html){target="_blank"} of sequence similarity 
+  
   
 **Videos**
 

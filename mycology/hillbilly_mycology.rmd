@@ -176,10 +176,20 @@ ___
 </br></br>
 
 
+[**Insect-associated fungi**](){target="_blank"}
+
+  - Housefly fungi
+  - Insect agar-walk [method](https://www.mdpi.com/2075-4450/7/2/16/htm){target="_blank"}
+  
+
+</br></br>
+
+
 [**Collecting and identifying macrofungi**](https://www.mushroomexpert.com/studying.html){target="_blank"} (**NO**, not for eating! You're not an expert, so don't take the risk.)
 
   - General overview of considerations and note-taking [link](https://www.mushroomexpert.com/studying.html){target="_blank"}
   - Recommendations for how to collect macrofungi [link](http://sweetgum.nybg.org/science/projects/boletineae/wp-content/uploads/sites/6/2016/08/collecting_illustrated.pdf){target="_blank"}
+  - Resources for [finding](https://www.youtube.com/watch?v=LKF_pIY0Zpc){target="_blank"}, [collecting](https://mycoflora.org/index.php?option=com_sppagebuilder&view=page&id=18){target="_blank"}, and [documenting](https://mycoflora.org/index.php?option=com_sppagebuilder&view=page&id=19){target="_blank"} macrofungi in the field
   - Illustrated glossary of morphological terms [link](https://www.mushroomexpert.com/glossary.html){target="_blank"}
   - Illustrated guide to fungal morphology [link](https://www.researchgate.net/publication/281625151_General_Aspects_of_Mushroom_Fungi){target="_blank"} from the Denchev Lab.
 

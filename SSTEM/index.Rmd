@@ -121,7 +121,6 @@ knitr::include_graphics("./media/yoda.gif")
 
   - Expectations for advisors and advisees
   - What to look for in an advisor
-  - Imposter syndrome and other mental
 
 **Assignments:**  
 
@@ -165,7 +164,7 @@ knitr::include_graphics("./media/dogsurf.gif")
   
 **Resources**
 
-  - Advice from "undergrad in the lab" about time management [link ](https://undergradinthelab.com/node/149) [link 2](https://undergradinthelab.com/node/156){target="_blank"} [link 3](https://undergradinthelab.com/node/98){target="_blank"}
+  - Advice from "undergrad in the lab" about time management: [link 1 ](https://undergradinthelab.com/node/149) | [link 2](https://undergradinthelab.com/node/156){target="_blank"} | [link 3](https://undergradinthelab.com/node/98){target="_blank"}
   - Undergrad research and [mental health](https://www.lifescied.org/doi/10.1187/cbe.19-11-0217){target="_blank"}
   - Talking about mental health during [grad school](https://www.chronicle.com/article/Why-We-Need-to-Talk-More-About/247002){target="_blank"}
   - Imposter syndrome and [how to fight it](https://www.apa.org/gradpsych/2013/11/fraud){target="_blank"}
@@ -189,6 +188,8 @@ knitr::include_graphics("./media/stupidpeople.gif")
   - Racial, gender, and sexual-orientation biases 
   - Finding and fixing our own biases
   - How to be part of the solution
+  - Discussion with [Jazmine Benjamin](https://twitter.com/J_I_Benjamin){target="_blank"} (PhD student at U Alabama, Birmingham)
+  - Discussion with [Dr. Faye Smith](http://www.drsoil.org/){target="_blank"} (Postdoctoral researcher, USDA)
 
 **Assignments:**  
 
@@ -202,6 +203,7 @@ knitr::include_graphics("./media/stupidpeople.gif")
   - Hal's [Story](https://functionalecologists.com/2020/06/30/hal-halvorson-living-openly/){target="_blank"}
   - Female perspectives in [STEM](http://www.fromthelabbench.com/from-the-lab-bench-science-blog/2016/3/8/being-woman){target="_blank"}
   - On "being black in nature" [part 1](https://www.earthisland.org/journal/index.php/articles/entry/being-black-while-in-nature/){target="_blank"} [part 2](https://orionmagazine.org/article/9-rules-for-the-black-birdwatcher/){target="_blank"} [part 3](https://baynature.org/2020/06/04/qa-with-bird-savant-john-robinson-on-black-birders-week/){target="_blank"}
+  - Neil DeGrasse Tyson on [being black in science](https://youtu.be/z7ihNLEDiuM){target="_blank"}
   - "STEMing while black" panel discussion [video](https://youtu.be/JoOTePPNK1w){target="_blank"}
 
 [Back to top of page](#top)
@@ -329,10 +331,8 @@ knitr::include_graphics("./media/Science-Experiment.gif")
   - Short primer on [designs](https://www.scribbr.com/methodology/experimental-design/){target="_blank"}
   - Much longer, but much more thorough, intro to [design](https://conjointly.com/kb/navigating-the-kb/){target="_blank"}
   - Inductive vs deductive [reasoning](https://www.livescience.com/21569-deduction-vs-induction.html){target="_blank"}
-  - [](){target="_blank"}
-  - [](){target="_blank"}
-  - [](){target="_blank"}
-
+  
+  
 [Back to top of page](#top)
 
 ___
@@ -348,15 +348,13 @@ knitr::include_graphics("./media/office_space.gif")
 **Topics:** 
 
   - Keeping a lab notebook
-	- Reproducibility
-	-	Adapting to inevitable failure
+  - Reproducibility
+  -	Adapting to inevitable failure
 	
 **Assignments:**  
 
   - Read this [short paper](https://jcs.biologists.org/content/121/11/1771){target="_blank"}
-  - 
-  - 
-  
+
 **Resources**
 
   - Lab notebook [rules](https://undergradinthelab.com/node/200){target="_blank"}
