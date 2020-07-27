@@ -130,8 +130,9 @@ knitr::include_graphics("./media/yoda.gif")
   
 **Resources**
 
-  - Advice from the NIH [link](https://www.niaid.nih.gov/grants-contracts/choose-mentor)
-  - Advice from the AHA [link](https://www.ahajournals.org/doi/full/10.1161/circulationaha.107.752683)
+  - Choosing a lab [document](https://gzahn.github.io/SSTEM/media/Choosing_a_Lab.pdf){target="_blank"}
+  - Advice from the NIH [link](https://www.niaid.nih.gov/grants-contracts/choose-mentor){target="_blank"}
+  - Advice from the AHA [link](https://www.ahajournals.org/doi/full/10.1161/circulationaha.107.752683){target="_blank"}
   - Advice from grad students [link](https://evbio.uchicago.edu/sites/default/files/client-wysiwyg-uploads/BSD%20Student%20Mentor%20Guide.pdf){target="_blank"}
   - Things your mentor wants you to know [link](https://undergradinthelab.com/node/126){target="_blank"}
   - The importance of [peer-mentoring](https://www.insidehighered.com/news/2019/10/11/study-says-when-it-comes-everyday-mentoring-and-training-sciences-postdocs-are-new){target="_blank"}

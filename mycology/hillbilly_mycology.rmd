@@ -171,6 +171,7 @@ ___
   - Visualizing spores [instructions](https://www.mushroomexpert.com/microscope.html){target="_blank"}
   - Stephanie Kivlin's spore trait database [download](https://gzahn.github.io/mycology/media/FungalTraits_2011_05_25.xlsx){target="_blank"} (2015 version)
   - Spore morphology [slideshow](https://gzahn.github.io/mycology/media/Spore_morphology_Presentation.pdf){target="_blank"} from Estelle Levetin, PhD
+  - How to collect aeiral spores on a slide: [method paper](https://www.mdpi.com/1999-4907/9/10/586){target="_blank"} and [video](https://twitter.com/i/status/1192858092020600833){target="_blank"} of slide dipping technique.
 
 
 </br></br>

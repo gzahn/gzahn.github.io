@@ -78,7 +78,7 @@ ___
 
 ## Quick links:
 
-#### [Course Syllabus](){target="_blank"}
+#### [Course Syllabus](https://gzahn.github.io/mycology/media/Syllabus_Fa_2020.pdf){target="_blank"}
 
 #### [Course Text Book](https://gzahn.github.io/mycology/media/WEBSTER_and_WEBER_3rd-ed.pdf){target="_blank"}
 
@@ -686,7 +686,7 @@ ___
 
 ## Final Exam 
 
-#### The final exam is project-based. You will design **and illustrate** a new fungal species, complete with a detailed life-cycle, physiology, ecology, etc.    ?????????????????????
+
 
 **For the Final Exam schedule,** [**click here**](https://www.uvu.edu/academicscheduling/exam_schedule/){target="_blank"}
 
