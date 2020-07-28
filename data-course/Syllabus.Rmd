@@ -65,7 +65,7 @@ _____________________________
 #### Points are based on:
 
 * 10 Weekly Assignments - 20 pts *each*
-* 4 Skills Tests - 100 pts *each*
+* 4 Exams - 100 pts *each*
 * 1 Final Project - 200 pts
 
 _____________________________
@@ -74,9 +74,9 @@ _____________________________
 
 These are available on our course website. They will generally consist of requiring you to complete a task using R and to upload your code as an R script to Canvas. Some may vary. Any data sets required for the assignment will be on the course GitHub repository as well. Due dates are on the course website. These assignments will not be accepted for credit after the due date.
 
-### **Skills Tests**
+### **Exams**
 
-These will take place at times indicated on the course website. They will be similar to the sorts of tasks on the precedent Weekly Assignments, and you will be "open book, open internet." You will have a fair amount of time to complete them, but don't get complacent.
+These will take place at times indicated on the course website. They will be similar to the sorts of tasks on the precedent Weekly Assignments, and you will be "open book, open internet." You will have a fair amount of time to complete them, but don't get complacent. They will be uploaded to [**this repository**](https://github.com/gzahn/BIOL3100_Exams.git){target="_blank"} when they become available.
 
 ### **Final Project**
 
