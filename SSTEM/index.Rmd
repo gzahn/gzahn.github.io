@@ -190,7 +190,6 @@ knitr::include_graphics("./media/stupidpeople.gif")
   - Finding and fixing our own biases
   - How to be part of the solution
   - Discussion with [Jazmine Benjamin](https://twitter.com/J_I_Benjamin){target="_blank"} (PhD student at U Alabama, Birmingham)
-  - Discussion with [Dr. Faye Smith](http://www.drsoil.org/){target="_blank"} (Postdoctoral researcher, USDA)
 
 **Assignments:**  
 
