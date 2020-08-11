@@ -190,14 +190,12 @@ knitr::include_graphics("./media/mycelium.jpg")
 
 **Resources**
 
-  - [Main study topics](https://gzahn.github.io/mycology/study_topics/week_1.txt){target="_blank"}
+  - [Main study topics](https://gzahn.github.io/mycology/study_topics/week_2.txt){target="_blank"}
   - Lesson [slides](https://gzahn.github.io/mycology/lectures/Week2.odp){target="_blank"}
   - Lesson [video]() (Recorded during class and posted after)
   - ZyGoLife [website](http://zygolife.org/home/){target="_blank} for current phylogenies, etc.
   - Phylum-level [classification of Zygomycetes](https://www.tandfonline.com/doi/full/10.3852/16-042){target="_blank}
   - Good [web page](https://www.forestfloornarrative.com/blog/2017/8/24/hyphal-aggregates){target="_blank} on hyphal aggregates
-  
-  
   
 **Videos**
 
@@ -284,8 +282,8 @@ knitr::include_graphics("./media/basidios.jpg")
 
 **Resources**
 
-  - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_3.txt){target="_blank"}
-  - Leson [slides](https://gzahn.github.io/mycology/lectures/Week_4.odp){target="_blank"}
+  - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_4.txt){target="_blank"}
+  - Leson [slides](https://gzahn.github.io/mycology/lectures/Week4.odp){target="_blank"}
   - Lesson [video](){target="_blank"} (Recorded during class and posted after)
   - Basidiomycete [life cycle](){target="_blank"}
   - Basidiomycete [phylogeny](){target="_blank"}
@@ -318,14 +316,23 @@ knitr::include_graphics("./media/dispersal.jpeg")
   
 **Readings and Assignments**
 
-  - Read [Hammad, et al., 1993](https://gzahn.github.io/mycology/media/Hammad_et_al_1993.pdf)
+  - Read [Kiss, *et al.*, 2019](https://www.nature.com/articles/s41467-019-12085-w)
   - **Exam 1** (Covers material from weeks 1-4)
-  - Fungal collections (5 types) and IDs (Turned in on Canvas next week)
+  - Fungal collections (5 types of macrofungi) and IDs (Turned in on Canvas next week)
+    + Photo of fungus in its habitat
+    + Photo of spore print and micrograph of spores
+    + Description of each fungus according to the mushroom characters cheat sheet (below)
+    + Tentative genus identification
+  
   
 **Resources**
 
-  - [Major Topics]
-  - How to collect fungi [notes and videos](https://mycoflora.org/index.php?option=com_sppagebuilder&view=page&id=18){target="_blank"}
+  - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_5.txt){target="_blank"}
+  - Leson [slides](https://gzahn.github.io/mycology/lectures/Week5.odp){target="_blank"}
+  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Resources for how to collect and ID fungi found in my hillbilly mycology [protocols section](https://gzahn.github.io/mycology/hillbilly_mycology.html#protocols){target="_blank"}
+  - Mushroom characters [cheat sheet](https://gzahn.github.io//mycology/media/Mushroom_Descriptions_ID_copy.jpg){target="_blank"}
+  
   
 **Videos**
 
@@ -355,7 +362,11 @@ knitr::include_graphics("./media/medical_mycology.jpeg")
   
 **Resources**
 
-  - [Major Topics]
+  - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_6.txt){target="_blank"}
+  - Leson [slides](https://gzahn.github.io/mycology/lectures/Week6.odp){target="_blank"}
+  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - CDC [Website](https://www.cdc.gov/fungal/index.html){target="_blank"} for fungal diseases
+  - Fungal toxins [review paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC164220/){target="_blank"}
   
 **Videos**
 
@@ -387,14 +398,11 @@ knitr::include_graphics("./media/rust.jpg")
   -
   -
   
-  
 **Resources**
 
-  - [Major Topics]
-  -
-  -
-  -
-  -
+  - [Major Topics](){target="_blank"}
+  - Leson [slides](){target="_blank"}
+  - Lesson [video](){target="_blank"} (Recorded during class and posted after)  
   
 **Videos**
 
@@ -425,7 +433,9 @@ knitr::include_graphics("./media/dist_chytrid.jpg")
   
 **Resources**
 
-  - [Major Topics]
+  - [Major Topics](){target="_blank"}
+  - Leson [slides](){target="_blank"}
+  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
   
 **Videos**
 
@@ -461,7 +471,9 @@ knitr::include_graphics("./media/symbiosis.jpeg")
   
 **Resources**
 
-  - [Major Topics]
+  - [Major Topics](){target="_blank"}
+  - Leson [slides](){target="_blank"}
+  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
   
 **Videos**
 
@@ -494,7 +506,9 @@ knitr::include_graphics("./media/ectomycorrhizae.jpg")
   
 **Resources**
 
-  - [Major Topics]
+  - [Major Topics](){target="_blank"}
+  - Leson [slides](){target="_blank"}
+  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
   
 **Videos**
 
@@ -525,7 +539,9 @@ knitr::include_graphics("./media/lichen.jpg")
   
 **Resources**
 
-  - [Major Topics]
+  - [Major Topics](){target="_blank"}
+  - Leson [slides](){target="_blank"}
+  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
   
 **Videos**
 
@@ -556,7 +572,9 @@ knitr::include_graphics("./media/rot.jpg")
   
 **Resources**
 
-  - [Major Topics]
+  - [Major Topics](){target="_blank"}
+  - Leson [slides](){target="_blank"}
+  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
   
 **Videos**
 
@@ -590,7 +608,9 @@ knitr::include_graphics("./media/ethnomycology.jpeg")
   
 **Resources**
 
-  - [Major Topics]
+  - [Major Topics](){target="_blank"}
+  - Leson [slides](){target="_blank"}
+  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
   
 **Videos**
 
@@ -636,7 +656,9 @@ knitr::include_graphics("./media/Primer_map_2015_March.png")
   
 **Resources**
 
-  - [Major Topics]
+  - [Major Topics](){target="_blank"}
+  - Leson [slides](){target="_blank"}
+  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
   - How to use BLAST [tutorial](https://digitalworldbiology.com/blast){target="_blank"}
   - [Terminology](https://www.ncbi.nlm.nih.gov/BLAST/tutorial/Altschul-1.html){target="_blank"} of sequence similarity 
   
@@ -667,16 +689,7 @@ knitr::include_graphics("../media/week16.jpg")
 
   - Start on Final Exam
   
-**Resources**
 
-  - [Main Topics] 
-  
-**Videos**
-
-  - 
-  -
-  -
-  
   
 [Back to top of page](#top)
 

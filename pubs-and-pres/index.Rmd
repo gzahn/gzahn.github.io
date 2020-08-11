@@ -26,7 +26,7 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 ___
 
-**Darcy J L, Swift S, Cobian G M, Zahn G, Perry B A, Amend A.. 2020. Fungal communities living within leaves of native Hawaiian dicots are structured by landscape-scale variables as well as by host plants. Molecular Ecolgy (In Press)**
+**Darcy J L, Swift S, Cobian G M, Zahn G, Perry B A, Amend A.. 2020. Fungal communities living within leaves of native Hawaiian dicots are structured by landscape-scale variables as well as by host plants. Molecular Ecolgy. https://doi.org/10.1111/mec.15544**
 
 Landscape-scale variation in plant phylogeny, NDVI, elevation, evapotranspiration, etc., show how the interaction of factors at large and small spatial and phylogenetic scales shape fungal symbiont communities.
 
