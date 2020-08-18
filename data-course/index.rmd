@@ -35,7 +35,7 @@ Utah Valley University - BIOL3100
 
 ## Handy links:
 
-#### [Course Syllabus](https://gzahn.github.io/data-course/syllabus.html){target="_blank"}
+#### [Course Syllabus](https://gzahn.github.io/data-course/Syllabus.html){target="_blank"}
 #### Course [file repository](https://github.com/gzahn/Data_Course){target="_blank"}
 #### [Shared Course Notes](https://docs.google.com/document/d/1Nnjv1RkdegUR3pOp8Jb81ryE-_C59T4dLWYyJqVSz9Y/edit?usp=sharing){target="_blank"}
 (Anyone with link can edit)
