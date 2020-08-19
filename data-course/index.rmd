@@ -727,7 +727,7 @@ knitr::include_graphics("../media/final.png")
 **Assignments**
 
   - Work on Final Project
-  - [Assignment 10](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_10/Assignment_10.html){target="_blank"}) (working with DNA data in R) 
+  - [Assignment 10](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_10/Assignment_10.html){target="_blank"} (working with DNA data in R) 
 
 
 [Back to top of page](#top)
