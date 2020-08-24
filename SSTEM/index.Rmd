@@ -95,7 +95,7 @@ knitr::include_graphics("./media/larry.gif")
 
   - Watch all mentor introduction videos (Links in the mentor choice form, below)
   - Group discussion and Q/A session online
-  - **Turn in your ranked** [**mentor choice form**](https://gzahn.github.io/SSTEM/media/Research_Mentor_Ranking_Sheet.xlsx){target="_blank"}
+  - **Turn in your ranked** [**mentor choice form**](https://gzahn.github.io/SSTEM/media/Research_Mentor_Ranking_Sheet.xlsx){target="_blank"} on Canvas
   - Read this short [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5417415/){target="_blank"} for discussion
   
 **Resources**
