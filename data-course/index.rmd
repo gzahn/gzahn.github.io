@@ -99,12 +99,13 @@ knitr::include_graphics("../media/git_2x.png")
 
 **Resources**
 
-  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Recorded lesson [video](https://youtu.be/EvW_LofsjJw){target="_blank"}
   - Video: Meet the [command line](https://youtu.be/cg115YYQYgc){target="_blank"} of your computer
   - [Download Git](https://git-scm.com/downloads){target="_blank"}
   - [Download R](https://cran.cnr.berkeley.edu/){target="_blank"}
   - [Download R-Studio](https://rstudio.com/products/rstudio/download/#download){target="_blank"}
   - [Navigating with the command line](https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855){target="_blank"} (great video!)
+  - GitHub steps for Assignment 1 [video](https://youtu.be/M9430_eGttI){target="_blank"}
   - [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet){target="_blank"} (handy reference)
   - [Git tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners){target="_blank"} for beginners (another walkthrough, if you need it)
   - Best [Git Cheat Sheet Ever!](https://remembertheapi.com/products/git-cheat-sheet-black-mug-11oz){target="_blank"} (Excellent gift idea for a teacher...joking!)
