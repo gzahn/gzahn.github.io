@@ -99,7 +99,8 @@ knitr::include_graphics("../media/git_2x.png")
 
 **Resources**
 
-  - Recorded lesson [video](https://youtu.be/EvW_LofsjJw){target="_blank"}
+  - Recorded lesson [video](https://youtu.be/EvW_LofsjJw){target="_blank"} Part 1
+  - Recorded lesson [video](https://youtu.be/7jcAuJupUk8){target="_blank"} Part 2
   - Video: Meet the [command line](https://youtu.be/cg115YYQYgc){target="_blank"} of your computer
   - [Download Git](https://git-scm.com/downloads){target="_blank"}
   - [Download R](https://cran.cnr.berkeley.edu/){target="_blank"}
@@ -537,6 +538,7 @@ ___
   - [Linear Regression](http://r-statistics.co/Linear-Regression.html){target="_blank"}
   - [More Linear Regression](https://www.dataquest.io/blog/statistical-learning-for-predictive-modeling-r/){target="_blank"}
   - [Common Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html){target="_blank"}
+  - Most stats test are really [just linear regression models!](https://lindeloev.github.io/tests-as-linear/){target="_blank"}
   - [Mixed-effect Models](https://peerj.com/articles/4794/){target="_blank"}
   - [Everything is a Regression](https://towardsdatascience.com/everything-is-just-a-regression-5a3bf22c459c){target="_blank"}
   - [Introduction to mixed effects models](https://peerj.com/articles/4794/){target="_blank"} This is a VERY good paper!
