@@ -50,6 +50,8 @@ Utah Valley University - BIOL3100
 #### Amy Willis' Intro to R [course](https://github.com/adw96/biost509){target="_blank"} 
 (for related alternative exercises/lessons)
 
+#### Big Book of R [collection of free R books](https://www.bigbookofr.com/){target="_blank"} ...Whoa!
+
 
 
 ___
