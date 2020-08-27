@@ -153,7 +153,8 @@ knitr::include_graphics("./media/Fungal_Evol_Hist.png")
 
   - [Main study topics](https://gzahn.github.io/mycology/study_topics/week_1.txt){target="_blank"}
   - Lesson [slides](https://gzahn.github.io/mycology/lectures/Week1.odp){target="_blank"}
-  - Lesson [video](https://youtu.be/F5SASVef1YY)
+  - Lesson [video](https://youtu.be/F5SASVef1YY){target="_blank"} Part 1
+  - Lesson [video](https://youtu.be/DTVme2O8Y3g){target="_blank"} Part 2
   - How to isolate Zygomycetes with soil and bread...for assignment [video](https://youtu.be/JzVBlk0Rqj8){target="_blank"}
   - Fungi are probably at least [800 million years old!](https://advances.sciencemag.org/content/6/4/eaax7599){target="_blank"}
   - [Fossil fungi](http://www-news.uchicago.edu/releases/07/070423.fungus.shtmla){target="_blank}
