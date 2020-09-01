@@ -26,7 +26,7 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 **Wainwright, B. J., Zahn, G. L., Afiq-Rosli, L., Tanzil, J. T. I., & Huang, D. (2020). Host age is not a consistent predictor of microbial diversity in the coral Porites lutea. Scientific Reports, 10(1), 14376. https://doi.org/10.1038/s41598-020-71117-4**
 
-Spending a longer time on earth doesn't necessarily mean greater microbiome diversity is accumulated for this coral species. Environmental conditions were more important.
+When corals are aged with more-accurate methods it appears that increased age doesn't necessarily mean greater microbiome diversity, at least for this coral species. Environmental conditions were more important. This contrasts with previous work that used coral age estimations, rather than direct measurements of age using skeletal banding.
 
 ___
 
