@@ -150,6 +150,7 @@ knitr::include_graphics("../media/file_tree.png")
 **Resources**
   
   - Recorded lesson [video](https://youtu.be/blDPSEYEpD8){target="_blank"} (Part 1)
+  - Recorded lesson [video](https://youtu.be/MIPFLx7VgyI){target="_blank"} (Part 2)
   - [Remedial Unix Shell](https://github.com/gzahn/Data_Course/blob/master/Readings/Further_Reading_for_Shell_Tricks.pdf){target="_blank"}
   - [Basic Unix Commands](https://www.unixtutorial.org/basic-unix-commands?print=pdf){target="_blank"}
   - [Very Useful Tutorial](https://www.learnenough.com/command-line-tutorial/basics#sec-introduction){target="_blank"}
