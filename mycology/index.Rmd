@@ -194,6 +194,7 @@ knitr::include_graphics("./media/mycelium.jpg")
   - [Main study topics](https://gzahn.github.io/mycology/study_topics/week_2.txt){target="_blank"}
   - Lesson [slides](https://gzahn.github.io/mycology/lectures/Week2.odp){target="_blank"}
   - Lesson [video](https://youtu.be/hMdPcBkovl0){target="_blank"} (Part 1)
+  - Lesson [video](https://youtu.be/ccrK54W3JrQ){target="_blank"} (Part 2)
   - ZyGoLife [website](http://zygolife.org/home/){target="_blank} for current phylogenies, etc.
   - Phylum-level [classification of Zygomycetes](https://www.tandfonline.com/doi/full/10.3852/16-042){target="_blank}
   - Good [web page](https://www.forestfloornarrative.com/blog/2017/8/24/hyphal-aggregates){target="_blank} on hyphal aggregates
