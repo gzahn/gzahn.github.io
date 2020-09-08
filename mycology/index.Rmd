@@ -240,7 +240,7 @@ knitr::include_graphics("./media/asco_life_cycle.jpg")
 
   - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_3.txt){target="_blank"}
   - Leson [slides](https://gzahn.github.io/mycology/lectures/Week3_mini.odp){target="_blank"}
-  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Lesson [video](https://youtu.be/u3DyHgNfaGQ){target="_blank"} (Part 1)
   - Species concept in fungi [paper](http://140.232.1.129/faculty/dhibbett/Reprints%20PDFs/Taylor%20et%20al%202000%20FGB.pdf){target="_blank"}
   - Ascus formation [web page](http://website.nbm-mnb.ca/mycologywebpages/NaturalHistoryOfFungi/Asci.html){target="_blank"}
   - Anamorphs and Teliomorphs [paper](https://gzahn.github.io/mycology/media/Kirschner_2019.pdf){target="_blank"}
