@@ -223,7 +223,7 @@ knitr::include_graphics("../media/Rvariablesdata.jpg")
 
 **Resources**
 
-  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Recorded lesson [video](https://youtu.be/GUXF1lwxRTU){target="_blank"}
   - Intro to what RStudio is [video](https://youtu.be/cnQ-v1UUWyE){target="_blank"}
   - [Data Types in R](https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/){target="_blank"}
   - [For-Loops](https://www.datamentor.io/r-programming/for-loop/){target="_blank"}
