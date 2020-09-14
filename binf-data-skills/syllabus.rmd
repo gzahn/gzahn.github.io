@@ -1,0 +1,578 @@
+---
+  output:
+  html_document: default
+---
+  
+# **Bioinformatics Data Skills**
+## Course Syllabus - Spring 2021
+  
+  _____________________________
+
+### Instructor: Dr. Geoff Zahn
+### Office: SB243c  -- Hours by appointment
+### Email: zahn.geoff@gmail.com
+### Course Website: https://gzahn.github.io/binf-data-skills/
+_____________________________
+
+## **Course Description**
+
+This course is designed to develop data skills for bioinformatics students with a focus on command-line usage and genetic sequencing data. The focus of this course is on time-tested skills for working with complex, large bioinformatics datasets that won't expire as new software or algorithms become available. This is a companion course to BIOL 3100, which focuses on data cleaning, analysis and visualization in R. Requires previous exposure to (not expertise with) Unix systems, Python, or R.
+
+Topics include:  
+
+  - the Unix philosophy and why it's useful for large biological datasets
+  - in-depth use of the Unix command line environment
+  - installing software and setting up an analysis environment
+  - regular expressions
+  - project organization and management
+  - version control with Git
+  - working with remote machines using ftp and ssh
+  - accessing biological data from public sources
+  - working with text-based (sequencing) data
+  - case studies using current analysis tools to solve real problems
+
+### Pre-requisites: University Advanced Standing
+
+### Suggested Co-requisite: BIOL 3100
+
+**Learning goals**
+  Students completing this course should be able to:
+  
+  1.  Understand the basic principles of Unix computing
+  2.  Install and figure out how to use new bioinformatics tools
+  3.  Reproducibly access and download large sequencing datasets
+  4.  Manipulate DNA sequence data
+  5.  Build a properly organized and reproducible piepline
+  6.  Develop a new bioinformatics tool
+  
+_____________________________
+
+
+
+## **Course textbook:**
+  
+#### Buffalo, V. (2015). Bioinformatics data skills (First edition). O’Reilly.  [LINK](https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/){target="_blank"}
+
+#### Textbook supplmentary [repository](https://github.com/vsbuffalo/bds-files/){target="_blank"}
+
+
+______________________________
+
+
+
+**COVID-19 Considerations:**
+  
+  **The course is meeting entirely online. All lectures will be live-streamed and recorded.**
+  **Use the course web page as a map of the semester, but also be sure to stay active on Canvas and our Slack channel!**
+  
+  **You should make *every* effort to be present for the live class sessions. There's really no substitute for being able to follow along and ask questions.  This class tends to have a high cognitive burden, at least at first. You're going to want to ask questions.**	
+  
+  
+  _____________________________
+
+## **Grading**
+
+| Points | Letter Grade |
+  |-------:|:------------:|
+  | 700-800 | A |
+  | 640-699 | B |
+  | 560-639 | C |
+  | 480-559 | D |
+  | <480 | F |
+  
+
+#### Points are based on:
+  
+  * 10 Weekly Assignments - 20 pts *each*
+  * 4 Case Studies - 150 pts *each*
+  
+_____________________________
+
+### **Weekly Assignments**
+
+These are available on our course website. They will generally consist of requiring you to complete a series of tasks as you work through a chapter of the textbook. Typically, you will push your completed task to your GitHub repository and there will be a place on Canvas for you to indicate that your repository is ready to grade.
+
+
+### **Case Studies**
+
+These will be short projects where we utilize the skills we've learned so far to complete a real bioinformatics task. The tasks will gradually become more complex as we gain a larger arsenal of tools. These will require critical sythesis of the skills we have learned, along with some self-directed learning. For instance, you may be required to read through program documentation and troubleshoot the specifics of how to use new software tools. See weekly schedule below for more details.
+
+
+________________________________
+
+________________________________  
+
+# **Weekly Schedule**
+
+#### We will work through this textbook together in a slightly different chapter order than the way it is organized:
+
+___
+
+### **Week 1:** Ideology of 'Robust and Reproducible' Bioinformatics
+
+**Topics:**
+
+  - 
+  - 
+  - 
+
+**Assignments:**
+
+  - Work through **BDS Chapter 1**
+  - **Assignment 1 -** Reflection piece on why you want to learn command line skills and best practices
+  - Set up your computer environment
+
+___
+
+### **Week 2:** Proper Project Organization
+
+**Topics:**
+
+  - 
+  -
+  -
+  
+**Assignments:**
+
+  - Work through **BDS Chapter 2**
+  - **Assignment 2 -** Create oganized project template using code
+  - 
+  
+___
+
+### **Week 3:** Remedial Unix Shell
+
+**Topics:**
+
+  -
+  -
+  -
+
+**Assignments:**
+
+  - Work through **BDS Chapter 3**
+  - **Assignment 3 -** Use pipes and redirects
+  -
+
+___
+
+### **Week 4:** Working with Sequence Data
+
+**Topics** 
+
+  -
+  -
+  -
+
+**Assignments:**
+
+  - Work through **BDS Chapter 10**
+  - **Assignment 4 -** Trim reads, Count nucleotides, convert from fastq to fasta
+  -
+
+___
+
+### **Week 5:** Combining Unix Skills and Command-Line Software
+
+**Topics:**
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - **Case study 1 -** Run ITSxpress on fungal data
+    + keep complex results
+    + customize output for question at hand
+    + make it reproducible
+    + do it on a hundred files
+    + store all log data into one file - for how many sequences TOTAL were no ITS stop or start sites identified?
+    + push "workflow.txt" (not data)
+    + uses chapters: 2,3,10 (for+loop, grep, redirect 2>, flags)
+
+___
+
+### **Week 6:** Unix Data Tools
+
+**Topics:**
+
+  - Regular expressions [... handy tool](https://regex101.com/){target="_blank"}
+  - sed, grep
+  - 
+
+**Assignments:**
+
+  - Work through **BDS Chapter 7**
+  -
+  -
+
+___
+
+### **Week 7:** Unix Data Tools, Continued
+
+**Topics:**
+
+  - 
+  -
+  -
+  
+**Assignments:**  
+
+  - Continue working through **BDS Chapter 7**
+  - **Assignment 5 -** build tabular file from fasta database
+  -
+
+___
+
+### **Week 8:** Finding and Retrieving Data
+
+**Topics:**
+  
+  -
+  -
+  -
+  
+**Assignments:**
+  
+  - Work through **BDS Chapter 6**
+  - **Assignment 6 -** download stuff with ftp, curl, Edirect, sra-toolkit
+  - **Case Study 2 -** Reproducibly downloading stuff (BDS p. 120)
+  
+    + Full documentation
+    + Checksums
+    + Markdown README
+
+___
+
+
+### **Week 9:** Working with Remote Machines
+
+**Topics:**
+
+  -
+  -
+  -
+
+**Assignments:**
+
+  - Work through **BDS Chapter 4**
+  - **Assignment 7 -** build 3 separate SLURM scripts to run fasta analyses
+  -
+
+___
+
+
+### **Week 10:** Working with Remote Machines, Continued
+
+**Topics:**
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - **Case study 3 -** Push a large compute job to a remote machine and retrieve the results
+  
+    + Main script and data will be provided
+    + We need onboarding training for U of U cluster
+    + Each student needs their own account
+    + uses chapters: 1,2,3,4
+
+
+
+___
+
+### **Week 11:** Git for Scientists
+
+**Topics:**
+  
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - Work through **BDS Chapter 5**
+  - **Assignment 8 -** Git collaboration and merge
+  -
+
+
+
+___
+
+### **Week 12:** Bioinformatics Shell Scripting
+
+**Topics:**
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - Work through **BDS Chapter 12**
+  - **Assignment 9 -** Git collaboration and merge-
+  -
+
+___
+
+### **Week 13:** Writing Pipelines
+
+**Topics:**
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - Continue working through **BDS Chapter 12**
+  -
+  -
+
+___
+
+
+### **Week 14:** Running a Pipeline on a Remote Machine
+
+**Topics:** 
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - **Case Study 3** - Assemble a metagenome on the remote cluster
+
+    + metaSPADEs
+    + classify reads with DIAMOND?
+
+___
+
+
+### **Week 15:** Creating a Custom Bioinformatics Tool
+
+**Topics:**
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - **Case Study 4** - Download NCBI marker genes and use Unix tools to build a custom QIIME-compatible reference database
+
+    + Reingineer https://github.com/gzahn/Format_NCBI_QIIME
+    + Edirect (command-line version of NCBI search tool)
+    + ftp, BLAST, NCBI, data cleaning and reformatting
+    + Turn into a completely reproducible and portable script
+    + requires entrez_qiime.py installation and use
+    + push tool to GitHub
+    + uses chapters: 2,3,6,7,10,12,5
+
+___
+
+### **Week 16:** Where to go from here?
+
+**Topics:**
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - **Assignment 10 -** Reflection piece on what you've learned and what next steps you'll take
+  -
+  -
+
+
+___
+
+___
+
+
+**Americans with Disabilities Act:**
+Students with disabilities that may negatively impact their ability to successfully complete this course
+should let the instructor know as soon as possible, with documentation from the ASD.
+"Students who need accommodations because of a disability should contact the UVU Accessibility
+Services Department (ASD), located on the Orem Campus, in LC 312. To schedule an appointment, or
+speak with a counselor, call the ASD office at 801-863-8747, or for Deaf/Hard of Hearing individuals,
+use the video phone number, 886-760-1819."
+
+_____________________________
+
+**Biology Department Policy**
+Students in this class are expected to understand and use proper English grammar, sentence structure,
+and spelling. Use of dictionaries during quizzes and exams is NOT allowed. Students are also expected
+to have basic calculating skills that include fractions, decimals, exponents (e.g., squares & square roots,
+powers of ten) and the ability to solve simple algebraic expressions. In addition, they must be able to
+add, subtract, multiply, and divide small numbers without a calculator. Understanding of logarithms
+(logs) will be helpful. Course rigor level should be such that the average grade is about a C.
+
+**Student Responsibility**
+It is up to you to see that the requirements for this course are completed. This syllabus is your guide to
+those requirements. Make certain that you understand what is expected of you. It is up to you to attend
+class and arrange for time to complete the readings, assignments, and exams. This course is designed
+for biology majors. If you are not reading at a college level, you WILL have difficulty with this course.
+There is only one type of “excused” absence, and that is an absence for an official University activity,
+such as participation in athletics, not just watching but doing, field trip for another course, etc.
+Make-up exams will NOT be given except for a situation beyond your control for which you provide
+verifiable (I will verify), written documentation. Family vacations, Illness, family crises, vehicle
+problems, legal problems, weddings, not studying, or forgetting to take an exam are NOT valid excuses
+or excused absences, even if you tell me beforehand; emergencies are. If such difficulties require asignificant number of absences during the semester, you are advised to drop the course and take it at
+another time. You do not need to call me if you will not be in class, I don’t take roll. Class attendance
+and obtaining the information for the tests is your responsibility.
+
+### Academic Honesty and Integrity
+Utah Valley University expects all students to maintain integrity and high standards of individual
+honesty in academic work, to obey the law, and to show respect for others. Students of this class are
+expected to support an environment of academic integrity, have the right to such an environment, and
+should avoid all aspects of academic dishonesty. Examples of academic dishonesty include
+plagiarizing, faking of data, sharing information during an exam, discussing an exam with another
+student who has not taken the exam, consulting reference material during an exam, submitting a written
+assignment which was authored by someone other than you, and/or cheating in any form.
+In keeping with UVU policy, evidence of academic dishonesty may result in a failing grade in the
+course and disciplinary review by the college. Any student caught cheating will receive, at minimum,
+zero points on that particular assignment for the first offense. A second offense can result in failing the
+course and will entail being reported to Student Advising. Academic dishonesty includes, in part, using
+materials obtained from another student, published literature, and the Internet without proper
+acknowledgment of the source. Additional information on this topic is published in the student
+handbook and is available on the UVU website.
+Situation of academic dishonesty will be reported to the Student Conduct and Conflict Resolution
+office as, at a minimum, an informational item and potentially as an item for investigation, resolution,
+or other.
+
+### Student Code of Conduct
+All UVU students are expected to conduct themselves in an appropriate manner acceptable at an
+institution of higher learning. All students are expected to obey the law, to perform contracted
+obligations, to maintain absolute integrity and high standards of individual honesty in academic work,
+and to observe a high standard of conduct for the academic environment.
+The Student Rights and Responsibilities Code, or Code of Conduct, outlines for students what they can
+expect from the University and what the University expects of them. It can be found at
+http://www.uvu.edu/studentconduct/students/
+
+### Student Timelines
+You are responsible for being aware of and abiding by the dates and deadlines on the student timelines
+for this term found at UVU Schedule (http://www.uvu.edu/schedule/)
+
+### Understand When You May Drop This Course
+It is the student’s responsibility to understand when they need to consider dropping from a course.
+Dates and deadlines for dropping a course can be found in the student timetables located at
+http://www.uvu.edu/schedule/. After the period specified, a serious and compelling reason is required to
+drop from the course and would need approval from not just the faculty but also the department chair as
+well as the Dean's Office.
+
+### Incomplete Policy
+**An Incomplete (I) Grade is only given due to an extenuating circumstance.** The final decision to issue
+an Incomplete grade is up to the instructor. Review the following criteria taken from Policy 523 at for
+information on when an incomplete grade can be given:
+The student was unable to complete the course due to extenuating circumstances:
+
+* Incapacitating Illness
+* Death in the immediate family
+* Change in the student's work schedule by the employer
+* Other deemed acceptable by the instructor
+The student must have completed a minimum of 70% of the required work
+An Incomplete Grade form indicating work completed and work to be completed must be signed by the
+department chairperson, and turned into the Registrar’s Office at the end of the semester. Incomplete
+Grade forms can be obtained from the Registrar's Office.
+
+### Unofficial Withdrawals
+UW will be given only when a student stops attending and completing work before the regularly
+scheduled date to officially withdraw as found in the Student Timetable but did not actually officially
+withdraw. Rationale: The assumption here is that the student did not realize the necessity to physically
+withdraw or made an error in this process, but all intentions of the student were to withdraw from the
+class prior to the withdrawal deadline
+See also Academic Policies and Standards in the UVU Catalog which notes, "If a student stops
+attending (but does not officially withdraw) before the last day to withdraw, he/she should receive a
+UW.”
+
+### Late Work
+Late work will not be accepted without a doctors or lawyers note unless previously discussed with and
+approved by your instructor. Computer problems, work schedule, lack of internet access, traffic, travel,
+or similar do not constitute rationale for late homework. Your instructor has the right to modify their
+handling of late work.
+
+### Individual versus Group Work
+All work is to be done individually unless it is clearly identified as group work. By default all
+assignments are not group work. This means that you cannot work on assignments with others, even if
+your spouse, friends or family, and turn them in as your own. A "group" in this context means more
+persons than yourself. You also cannot have others complete the work for you or in part on your
+behalf.
+
+### Inclusivity Statement
+We understand that our members represent a rich variety of backgrounds and perspectives. The
+Technology Management department is committed to providing an atmosphere for learning that
+respects diversity. While working together to build this community we ask all members to:
+
+* share their unique experiences, values and beliefs
+* be open to the views of others
+* honor the uniqueness of their colleagues
+* appreciate the opportunity that we have to learn from each other in this community
+* value each other’s opinions and communicate in a respectful manner
+
+### Academic Freedom
+For the purposes of this class, academic freedom is generally defined as follow: For faculty and
+students alike, you have the freedom to disagree with the views and statements of others, but academic
+freedom should entail tolerance and respect for others, professionalism, and, to the degree possible,
+fact-based information. Intellectual vigor is best sustained when the free exchange of ideas is carried
+on within an environment supportive of human dignity and self-esteem. For full guidelines see
+http://www.uvu.edu/tm/pages/department/acad-freedom.html
+
+### Discrimination / Harassment / Sexual Misconduct
+It’s On Us to prevent discrimination/harassment against members of protected classes. If you see
+something, step up and say something. If you encounter discrimination, harassment, or gender-based
+discrimination (including discrimination or harassment based on pregnancy, pregnancy related
+conditions, sexual orientation or gender identity) or sexual violence (dating violence, domestic
+violence, stalking including unwanted electronic contact), please contact the Office for Equal
+Opportunity/Affirmative Action and Title IX. Additional information regarding options and services
+can be found at: http://www.uvu.edu/equalopportunity/ and
+http://www.uvu.edu/studentconduct/docs/title9optionsbrochure.pdf
+Consistent with State and Federal Law such as Title VI of the Civil Rights Act of 1964 and Title IX of
+the Education Amendments of 1972, Utah Valley University is committed to maintaining a respectful
+and safe environment for its students, faculty, staff, and visitors. UVU policies 162 and 165 define and
+prohibit all forms of unlawful discrimination, harassment, sexual misconduct and retaliation in its
+programs services and activities. Utah Valley University policy 165 prohibits any form of:
+• (a) Discrimination based on one or more protected classes, (Race, color, religion, national
+origin, sex, sexual harassment, sexual orientation, gender identity, age (40 and over), disability,
+veteran status, pregnancy, childbirth, or pregnancy-related conditions, genetic information, or
+other bases protected by applicable federal, state, or local law)
+• (b) Harassment based on one or more protected classes, including sexual harassment (policy
+162), or• (c) Retaliation(a negative action or discouraging someone from reporting
+discrimination/harassment or participating in a University internal investigation).
+If you need accommodations, please see the appropriate contact below:
+• ADA: Students who need accommodations because of a disability may contact the UVU
+Accessibility Services Department (ASD), located on the Orem Campus in LC 312. To schedule
+an appointment or to speak with a counselor, call the ASD office at 801-863-8747. Deaf/Hard of
+Hearing individuals, email nicole.hemmingsen@uvu.edu or text 385-208-2677.
+• Pregnancy: Accessibility Services or Office for Equal Opportunity & Affirmative Action
+(EOAA) - http://www.uvu.edu/equalopportunity/, ext. 5704, BA 203.
+• Religious: You may begin by asking your professor. If you have questions or concerns, contact
+the EOAA.
+• Veterans (Military Leave, Course Withdraw, or Other Assistance): Veteran Services -
+http://www.uvu.edu/veterans/, ext. 8212, WB100.
+• As the result of unwanted sexual harassment, contact, stalking, dating or domestic violence:
+• EOAA or Student Ombuds - ext. 7237, SC 107
+• Student Health Services, if Anonymity is desired- ext. 8876, SC 221
+• UVUPD, if you wish to press criminal charges - ext. 5555, GT 331
+### Information about gender neutral facilities or gender personal pronouns: 
+You may ask your professor/supervisor to use your personal name and pronouns. If you are unclear about pronouns or
+identifiers, you may request clarification. If you have questions or concerns contact LGBT Student
+Services - https://www.uvu.edu/multicultural/lgbt/ LA 126, ext. 8885 or the EOAA.
+
+### Disability Services
+Students who need accommodations because of a disability may contact the UVU Accessibility
+Services Department (ASD), located on the Orem Campus in LC 312. To schedule an appointment or
+to speak with a counselor, call the ASD office at 801-863-8747. Deaf/Hard of Hearing individuals,
+email nicole.hemmingsen@uvu.edu or text 385-208-2677.
+Veteran’s Services
+UVU is committed to providing a working and learning atmosphere for student veterans and their
+families. If you are a student veteran or a family member of a student veteran, you are eligible for
+support services from the Veterans Success Center and may be eligible for Post-9/11 GI Bill benefits.
+For help receiving your benefits, please contact the Veterans Success Center in the Woodbury Business
+Building, room 100, via email at veterans@uvu.edu or by calling 801-863-8212. Learn
+more: http://www.uvu.edu/veterans/

@@ -1,0 +1,708 @@
+---
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: BIOL3100
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/)
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/binf_data_skills_sticker.png")
+```
+</div>
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+
+# **Bioinformatics Data Skills**{#top}
+Utah Valley University - BIOL490R (Special Topics)
+
+
+
+## Handy links:
+
+#### [Course Syllabus](https:\\gzahn.github.io/binf-data-skills/syllabus.html){target="_blank"}
+#### Course [file repository](){target="_blank"}
+#### [Shared Course Notes](){target="_blank"}
+(Anyone with link can edit)
+
+
+___
+
+#### Table of Contents
+
+[Week 1](#Week-1)    |    [Week 5](#Week-5)    |    [Week 9](#Week-9) | [Week 13](#Week-13)
+
+[Week 2](#Week-2)    |    [Week 6](#Week-6)    |    [Week 10](#Week-10) | [Week 14](#Week-14)
+
+[Week 3](#Week-3)    |    [Week 7](#Week-7)    |    [Week 11](#Week-11) | [Week 15](#Week-15)
+
+[Week 4](#Week-4)    |    [Week 8](#Week-8)    |    [Week 12](#Week-12) | [Week 16](#Week-16)
+
+
+
+
+</div>
+
+___
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+## Command Line Projects and the Unix Philosophy
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+### **Week 1**{#Week-1} 
+#### Ideology of 'Robust and Reproducible' Bioinformatics
+
+**Topics:**
+
+  - 
+
+**Assignments:**
+
+  - Work through **BDS Chapter 1**
+  - [**Assignment 1 -**](){target="_blank"} Reflection piece on why you want to learn command line skills and best practices
+  - Set up your computer environment
+
+**Resources**
+
+  - Video: Meet the [command line](https://youtu.be/cg115YYQYgc){target="_blank"} of your computer
+  - [Download Git](https://git-scm.com/downloads){target="_blank"}
+
+**Practice**
+
+  - 
+
+  
+[Back to top of page](#top)
+
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+### **Week 2**{#Week-2}
+#### Proper Project Organization
+
+**Topics:**
+
+  - 
+
+**Assignments:**
+
+  - Work through **BDS Chapter 2**
+  - [**Assignment 2 -**](){target="_blank"} Create oganized project template using code
+  - 
+
+**Resources**
+  
+  -
+  
+**Practice**
+
+  - 
+  
+  
+[Back to top of page](#top)
+
+
+
+</div>
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+## Unix refresher and sequence data types
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+
+### **Week 3**{#Week-3}
+#### Remedial Unix Shell
+
+**Topics:**
+
+  -
+  -
+  -
+
+**Assignments:**
+
+  - Work through **BDS Chapter 3**
+  - **Assignment 3 -** Use pipes and redirects
+  -
+
+**Resources**
+
+  - 
+  
+**Practice**
+
+  - 
+  
+[Back to top of page](#top)
+
+___
+
+  
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+  
+  
+### **Week 4**{#Week-4}
+#### Working with Sequence Data
+
+**Topics** 
+
+  -
+  -
+  -
+
+**Assignments:**
+
+  - Work through **BDS Chapter 10**
+  - **Assignment 4 -** Trim reads, Count nucleotides, convert from fastq to fasta
+  -
+
+**Resources**
+
+  - 
+
+**Practice**
+
+  - 
+  
+  
+[Back to top of page](#top)
+
+
+</div>
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+## Using Existing Tools in the Command Line
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+### **Week 5**{#Week-5}
+#### Combining Unix Skills and Command-Line Software
+
+**Topics:**
+
+  - 
+  
+**Assignments:**
+
+  - **Case study 1 -** Run ITSxpress on fungal data
+    + keep complex results
+    + customize output for question at hand
+    + make it reproducible
+    + do it on a hundred files
+    + store all log data into one file - for how many sequences TOTAL were no ITS stop or start sites identified?
+    + push "workflow.txt" (not data)
+    + uses chapters: 2,3,10 (for+loop, grep, redirect 2>, flags)
+
+**Resources**
+
+  - 
+  
+**Practice**
+
+  - 
+  
+  
+[Back to top of page](#top)
+
+
+
+</div>
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+## More Powerful Unix Tools
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+### **Week 6**{#Week-6}
+#### Unix Data Tools
+
+**Topics:**
+
+  - Regular expressions [... handy tool](https://regex101.com/){target="_blank"}
+  - sed, grep
+  - 
+
+**Assignments:**
+
+  - Work through **BDS Chapter 7**
+  -
+  -
+
+**Resources**
+
+  - 
+  
+**Practice**
+
+  - 
+  
+  
+[Back to top of page](#top)
+
+
+___
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+### **Week 7**{#Week-7}
+#### Unix Data Tools, Continued
+
+**Topics:**
+
+  - 
+  -
+  -
+  
+**Assignments:**  
+
+  - Continue working through **BDS Chapter 7**
+  - **Assignment 5 -** build tabular file from fasta database
+  -
+
+**Resources**
+
+  - 
+  
+**Practice**
+
+  -
+  
+  
+[Back to top of page](#top)
+
+
+
+</div>
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+## Finding and Retrieving Data
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+
+### **Week 8**{#Week-8}
+#### Online Repositories and Approaches to Downloading 
+
+**Topics:**
+  
+  -
+  -
+  -
+  
+**Assignments:**
+  
+  - Work through **BDS Chapter 6**
+  - **Assignment 6 -** download stuff with ftp, curl, Edirect, sra-toolkit
+  - **Case Study 2 -** Reproducibly downloading stuff (BDS p. 120)
+  
+    + Full documentation
+    + Checksums
+    + Markdown README
+
+**Resources**
+
+  - 
+  
+**Practice**
+
+  - 
+  
+  
+[Back to top of page](#top)
+
+
+</div>
+
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+## Working with Supercomputers
+
+### **Week 9**{#Week-9}
+#### Interfacing with Remote Machines
+
+**Topics:**
+
+  -
+  -
+  -
+
+**Assignments:**
+
+  - Work through **BDS Chapter 4**
+  - **Assignment 7 -** build 3 separate SLURM scripts to run fasta analyses
+  -
+
+**Resources**
+
+  - 
+  
+**Practice**
+
+  - 
+  
+  
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+[Back to top of page](#top)  
+
+
+___
+
+### **Week 10**{#Week-10}
+#### Interfacing with Remote Machines, Continued
+
+**Topics:**
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - **Case study 3 -** Push a large compute job to a remote machine and retrieve the results
+  
+    + Main script and data will be provided
+    + We need onboarding training for U of U cluster
+    + Each student needs their own account
+    + uses chapters: 1,2,3,4
+
+**Resources**
+
+  -
+ 
+**Practice**
+
+  - 
+  
+  
+[Back to top of page](#top)
+
+
+
+</div>
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+
+## Version Control and Collaborations
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+### **Week 11**{#Week-11}
+#### Git for Scientists
+
+**Topics:**
+  
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - Work through **BDS Chapter 5**
+  - **Assignment 8 -** Git collaboration and merge
+  -
+
+**Resources**
+
+  -
+  
+**Practice**
+
+  - 
+  
+  
+[Back to top of page](#top)
+
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+### **Week 12**{#Week-12}
+#### Bioinformatics Shell Scripting
+
+**Topics:**
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - Work through **BDS Chapter 12**
+  - **Assignment 9 -** Git collaboration and merge-
+  -
+
+**Resources**
+
+  - 
+  
+**Practice**
+
+  - 
+  
+  
+  
+[Back to top of page](#top)
+
+
+
+</div>
+
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+## Putting it all together
+
+### **Week 13**{#Week-13}
+#### Composing Full Pipelines
+
+**Topics:**
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - Continue working through **BDS Chapter 12**
+  -
+  -
+
+**Resources**
+
+  -
+  
+**Practice**
+
+  - 
+  
+  
+
+[Back to top of page](#top)
+
+___
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+### **Week 14**{#Week-14}
+#### Running a Pipeline on a Remote Machine
+
+**Topics:** 
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - **Case Study 3** - Assemble a metagenome on the remote cluster
+
+    + metaSPADEs
+    + classify reads with DIAMOND?
+
+**Resources**
+
+  - 
+  
+**Practice**
+
+  -
+  
+  
+[Back to top of page](#top)
+
+___
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/placeholder.png")
+```
+</div>
+
+### **Week 15**{#Week-15}
+#### Creating a Custom Bioinformatics Tool
+
+**Topics:**
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - **Case Study 4** - Download NCBI marker genes and use Unix tools to build a custom QIIME-compatible reference database
+
+    + Reingineer https://github.com/gzahn/Format_NCBI_QIIME
+    + Edirect (command-line version of NCBI search tool)
+    + ftp, BLAST, NCBI, data cleaning and reformatting
+    + Turn into a completely reproducible and portable script
+    + requires entrez_qiime.py installation and use
+    + push tool to GitHub
+    + uses chapters: 2,3,6,7,10,12,5
+
+
+**Topics**
+
+  - Intro to genetic data in R
+
+**Assignments**
+
+  - Work on Final Project
+  - [Assignment 10](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_10/Assignment_10.html){target="_blank"} (working with DNA data in R) 
+
+
+[Back to top of page](#top)
+
+
+</div>
+
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+___
+
+### **Week 16**{#Week-16}
+#### Where to go from here?
+
+**Topics:**
+
+  -
+  -
+  -
+  
+**Assignments:**
+
+  - **Assignment 10 -** Reflection piece on what you've learned and what next steps you'll take
+  -
+  -
+
+[Back to top of page](#top)
+
+
+___
+
+<br/>
+
+
+</div>
+
