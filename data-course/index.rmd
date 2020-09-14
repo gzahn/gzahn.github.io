@@ -272,7 +272,7 @@ knitr::include_graphics("../media/operators.png")
 
 **Resources**
 
-  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Recorded lesson [video](https://youtu.be/QFgO9L-w8sQ){target="_blank"} Part 1
   - [Subsetting](http://adv-r.had.co.nz/Subsetting.html){target="_blank"}
   - [More Subsetting](https://www.r-bloggers.com/5-ways-to-subset-a-data-frame-in-r/){target="_blank"} (It's important!)
   - [Operators](https://www.statmethods.net/management/operators.html){target="_blank"}
