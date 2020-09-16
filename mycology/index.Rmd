@@ -323,10 +323,10 @@ knitr::include_graphics("./media/dispersal.jpeg")
   - **Exam 1** (Covers material from weeks 1-4)
   - Fungal collections (5 types of macrofungi) and IDs (Turned in on Canvas next week)
     + Photo of fungus in its habitat
-    + Photo of spore print and micrograph of spores
+    + Photo of spore print and/or micrograph of spores
     + Description of each fungus according to the mushroom characters cheat sheet (below)
-    + Tentative genus identification
-  
+    + Tentative genus identification if you are feeling bold
+  - [LINK](https://gzahn.github.io/mycology/media/mushroom_collection_notes.pdf){target="_blank"} to an example for one collection.
   
 **Resources**
 
