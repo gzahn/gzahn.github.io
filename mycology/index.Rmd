@@ -287,7 +287,7 @@ knitr::include_graphics("./media/basidios.jpg")
 
   - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_4.txt){target="_blank"}
   - Leson [slides](https://gzahn.github.io/mycology/lectures/Week4.odp){target="_blank"}
-  - Lesson [video](https://youtu.be/8ffugxt8pDg){target="_blank"} Part 1
+  - Lesson [video](https://youtu.be/nunoVMGLfyY){target="_blank"} Part 1
   - Basidiomycete [life cycle](){target="_blank"} #see slides for now
   - Basidiomycete [phylogeny](){target="_blank"} #see slides for now
   - [Pleurotus](){target="_blank"} #see slides for now
