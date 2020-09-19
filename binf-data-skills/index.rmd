@@ -411,7 +411,7 @@ knitr::include_graphics("./Media/placeholder.png")
 
 **Assignments:**
 
-  - Work through **BDS Chapter 4**
+  - Work through **BDS Chapter 4** before class this week
   - **Assignment 7 -** build 3 separate SLURM scripts to run fasta analyses
   -
 
@@ -446,12 +446,7 @@ ___
   
 **Assignments:**
 
-  - **Case study 3 -** Push a large compute job to a remote machine and retrieve the results
-  
-    + Main script and data will be provided
-    + We need onboarding training for U of U cluster
-    + Each student needs their own account
-    + uses chapters: 1,2,3,4
+  - 
 
 **Resources**
 
@@ -488,19 +483,23 @@ knitr::include_graphics("./Media/placeholder.png")
 
 **Topics:**
   
-  -
-  -
-  -
+  - Git workflow
+  - GitHub
+  - Collaborating with Git
   
 **Assignments:**
 
   - Work through **BDS Chapter 5**
   - **Assignment 8 -** Git collaboration and merge
-  -
+  - Group effort: Everyone (in turn) make changes to [this repository](https://github.com/gzahn/git_collaboration_practice){target="_blank"}
 
 **Resources**
 
-  -
+  - 
+  - Pull request [walkthrough](https://guides.github.com/activities/hello-world/){target="_blank"}
+  - Practice [merge conflict resolution](https://dev.to/cookrdan/conflict-resolution-git-merge-practice-3iab){target="_blank"}
+  - Look through Git repo with [filed issues](https://github.com/bryandmartin/corncob/issues/84){target="_blank"} and a [pull request history](https://github.com/bryandmartin/corncob/pull/88/commits/0d4d9a10cf28f0d63d98e82e592cfc29826ff5ad){target="_blank"} 
+  - 
   
 **Practice**
 
@@ -538,7 +537,7 @@ knitr::include_graphics("./Media/placeholder.png")
   
 **Practice**
 
-  - 
+  - In-class collaborative name list
   
   
   
@@ -641,31 +640,25 @@ knitr::include_graphics("./Media/placeholder.png")
 
 **Topics:**
 
-  -
-  -
-  -
+  - 
+  - 
+  - Testing with toy examples
   
 **Assignments:**
 
-  - **Case Study 4** - Download NCBI marker genes and use Unix tools to build a custom QIIME-compatible reference database
+  - **Case Study 4** - Download NCBI marker genes and use Unix tools to build a custom RDP-Classifier-compatible reference database
 
     + Reingineer https://github.com/gzahn/Format_NCBI_QIIME
     + Edirect (command-line version of NCBI search tool)
     + ftp, BLAST, NCBI, data cleaning and reformatting
     + Turn into a completely reproducible and portable script
     + requires entrez_qiime.py installation and use
+    + has to be well-documented
     + push tool to GitHub
     + uses chapters: 2,3,6,7,10,12,5
+    + script should automate download and building with helpful messages along the way
 
 
-**Topics**
-
-  - Intro to genetic data in R
-
-**Assignments**
-
-  - Work on Final Project
-  - [Assignment 10](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_10/Assignment_10.html){target="_blank"} (working with DNA data in R) 
 
 
 [Back to top of page](#top)

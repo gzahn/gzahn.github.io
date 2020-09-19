@@ -58,17 +58,21 @@ _____________________________
 
 ______________________________
 
+## **Free Advice:**
+**You need to spend a lot of time with each chapter _before_ we go through it in class. Some chapters are long and dense and will take a few hours to carefully read and follow along with the examples. Trying to get away with skimming carries its own inherent punishment: You will spend the entire class period just trying to keep up, rather than solidifying and practicing knowledge. This feels like drowning.**
 
 
-**COVID-19 Considerations:**
+______________________________
+
+**_COVID-19 Considerations:_**
   
-  **The course is meeting entirely online. All lectures will be live-streamed and recorded.**
-  **Use the course web page as a map of the semester, but also be sure to stay active on Canvas and our Slack channel!**
+  The course is meeting entirely online. All lectures will be live-streamed and recorded.
+  Use the course web page as a map of the semester, but also be sure to stay active on Canvas and our Slack channel!
   
-  **You should make *every* effort to be present for the live class sessions. There's really no substitute for being able to follow along and ask questions.  This class tends to have a high cognitive burden, at least at first. You're going to want to ask questions.**	
+  You should make *every* effort to be present for the live class sessions. There's really no substitute for being able to follow along and ask questions.  This class tends to have a high cognitive burden, at least at first. You're going to want to ask questions.	
   
   
-  _____________________________
+_____________________________
 
 ## **Grading**
 
@@ -81,7 +85,7 @@ ______________________________
   | <480 | F |
   
 
-#### Points are based on:
+#### **Points are based on:**
   
   * 10 Weekly Assignments - 20 pts *each*
   * 4 Case Studies - 150 pts *each*
@@ -90,8 +94,7 @@ _____________________________
 
 ### **Weekly Assignments**
 
-These are available on our course website. They will generally consist of requiring you to complete a series of tasks as you work through a chapter of the textbook. Typically, you will push your completed task to your GitHub repository and there will be a place on Canvas for you to indicate that your repository is ready to grade.
-
+These are available on our course website. They will generally consist of requiring you to complete a series of tasks as you work through a chapter of the textbook. Typically, you will push your completed task to your GitHub repository and there will be a place on Canvas for you to indicate that your repository is ready to grade. The first and last assignments are freeform writing pieces that will be turned in on Canvas.
 
 ### **Case Studies**
 
@@ -385,7 +388,7 @@ ___
   
 **Assignments:**
 
-  - **Assignment 10 -** Reflection piece on what you've learned and what next steps you'll take
+  - **Assignment 10 -** Reflection piece on what you've learned, why it's important, and what next steps you'll take
   -
   -
 
