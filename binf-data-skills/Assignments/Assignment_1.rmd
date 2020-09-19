@@ -1,0 +1,24 @@
+---
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: Assignment_1
+---
+
+# **Bioinformatics Data Skills**
+
+## Assignment 1 
+
+**1. Read through the Preface and Chapter 1 in the textbook.  Read it again.  Pay attention to:**
+  
+  - What are "data skills?"
+  - What does "reproducible" mean in bioinformatics?
+  - How the author addresses "the importance of caution"
+  - What are the reccomended "best practices" of data skills and reproducibility given in Chapter 1?
+  
+  
+**2. Write a 1-2 page essay describing your motivation for learning bioinformatics, your goals, and your plan of attack for learning this semester. Please also describe your understanding of why we use documented code to do bioinformatics research tasks.**
+
+**3. Upload the essay in .docx format to Canvas.**
+  
+

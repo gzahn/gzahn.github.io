@@ -2,7 +2,7 @@
 output: 
 html_document:
   number_sections=TRUE
-pagetitle: BIOL3100
+pagetitle: Bioinformatics_Data_Skills
 ---
 
 <style type="text/css">
@@ -78,22 +78,25 @@ knitr::include_graphics("./Media/placeholder.png")
 
 **Topics:**
 
-  - 
+  - What are "data skills?" | Reproducibility and open science | How to learn bioinformatics | Documentation | The importance of caution
 
 **Assignments:**
 
-  - Work through **BDS Chapter 1**
-  - [**Assignment 1 -**](){target="_blank"} Reflection piece on why you want to learn command line skills and best practices
-  - Set up your computer environment
+  - Read through **BDS Chapter 1**... twice, and carefully
+  - Find and explore the supplemental materials for the chapter on GitHub
+  - [**Assignment 1 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_1.html){target="_blank"} Reflection piece on why you want to learn command line skills and best practices
+  - Set up your computer environment (Command-line, Git)
 
 **Resources**
 
   - Video: Meet the [command line](https://youtu.be/cg115YYQYgc){target="_blank"} of your computer
   - [Download Git](https://git-scm.com/downloads){target="_blank"}
+  - Supplemental files for all textbook chapters -  [REPOSITORY](https://github.com/vsbuffalo/bds-files){target="_blank"}
 
-**Practice**
+**For your consideration:**
 
-  - 
+  - *"Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."* --Brian Kernighan
+  - *"Since the computer is a sharp enough tool to be really useful, you can cut yourself on it."* -- John Tukey
 
   
 [Back to top of page](#top)
@@ -111,21 +114,26 @@ knitr::include_graphics("./Media/placeholder.png")
 
 **Topics:**
 
-  - 
+  - One directory per project | data as 'read-only' | rules for naming things | project structure | documentation
 
 **Assignments:**
 
-  - Work through **BDS Chapter 2**
-  - [**Assignment 2 -**](){target="_blank"} Create oganized project template using code
+  - Read through **BDS Chapter 2** at least once
+  - Work through **BDS Chapter 2**, following along in your own terminal (data used is in online repository)
+  - [**Assignment 2 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_2.html){target="_blank"} Create oganized project template using code
   - 
 
 **Resources**
   
-  -
+  - Guide to reproducible code... [read this!](https://gzahn.github.io/binf-data-skills/Media/guide-to-reproducible-code.pdf){target="_blank"}
+  - File paths [explained](https://desktop.arcgis.com/en/arcmap/10.3/tools/supplement/pathnames-explained-absolute-relative-unc-and-url.htm){target="_blank"}
+  - [Example project structure](https://github.com/gzahn/Data_Course/tree/master/Code_Examples/Example_Project){target="_blank"}
   
 **Practice**
 
-  - 
+  - Re-create your project directory template by copy-pasting each line of code from your assignment to make sure it gives the same result
+  - Spend time making sure that you intuitively understand relative filepaths and get comfy with the terminal
+  - Spend 2-3 hours mucking about in your terminal reworking the lines from Chapter 2 over and over until it feels normal
   
   
 [Back to top of page](#top)
