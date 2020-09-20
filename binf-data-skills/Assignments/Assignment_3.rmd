@@ -1,0 +1,68 @@
+---
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: Assignment_3
+---
+    
+# **Bioinformatics Data Skills**
+    
+## Assignment 3
+
+___
+
+  **1. Read through Chapter 3 at least once**
+    
+  **2. Work through Chapter 3, typing all the code examples from the text into your own terminal. (Pay attention and don't run any hypothetical code shown that tells you what NOT to do)**
+    
+**3. In Assignment_2, you wrote the basis of a script that creates a project template structure. Use that code to create another new project template.**
+
+**4. Download the following sequence data files into an appropriate place within your project directory:**
+
+  - [File 1](https://gzahn.github.io/binf-data-skills/Data/Assignment_3_File_1.fasta){target="_blank"}
+  - [File 2](https://gzahn.github.io/binf-data-skills/Data/Assignment_3_File_2.fasta){target="_blank"}
+  - [File 3](https://gzahn.github.io/binf-data-skills/Data/Assignment_3_File_3.fasta){target="_blank"}
+
+**5. Write a command that combines all 3 of these files into a single file called "Assignment_3_Combined_Files.fasta"**
+
+**6. Download the following simple Unix program and save it to an appropriate place in your project directory:**
+
+  - [Program File](https://gzahn.github.io/binf-data-skills/Data/Assignment_3_Program_File.sh){target="_blank"}
+  - .sh denotes a bash script (usually) and can be run in your command line as follows:
+    
+        bash Assignment_3_Program_File.sh
+
+**7. Run that program. It will search for the 3 .fasta files you downloaded (above) and give some random information about them. It takes a couple minutes to completely run because I built a lot of unnecessary pauses into it.**
+
+**8. Now, run it again, but redirect the stdout to a file called "Assignment_3_Program_Output.txt"**
+
+**9. Run it again (redirecting, again as in previous task), but this time, run it as a background process. Check on it while it's running as follows:**
+
+        cat Assignment_3_Program_Output.txt
+    
+Re-run the "cat" command every 5-10 seconds to get a feel for what's going into that file. (hint: the "up-arrow" key cycles through previously entered commands)
+
+**10. Bring that job back to the foreground and kill it.**
+
+If you kill the process early, there's an extra file in your directory that hasn't been cleaned up by the program. Take note of it's name and take a look inside to see the contents.
+
+**11. Repeat steps 7-10 until you're comfortable with redirection and inspecting background processes.**
+
+**12. The following lines of code are out of order. Rearrange them and use pipes to link them together into one line of code that displays the total number of DNA sequences in all 3 files (should be 151).**
+
+        wc -l
+        cat Assignment_3_*fasta
+        grep -v "^>"
+        
+___
+  
+### **What to turn in:**
+
+  - In a plaintext file, document the exact commands you ran to accomplish tasks 5-10. 
+  - Then, document the exact commands you ran to identify *and* inspect the "extra file" that wasn't cleaned up when you killed the process early.
+  - Then, copy the contents of that "extra file" into your plaintext document.
+  - Finally, document the piped single-line command you used to count the total number of sequences in all 3 files for task 12.
+
+**Make sure everything is easy for me to follow when inspecting your document. That means you added comments explaining what is going on and what I'm looking at for each line.**
+
+Upload that document to Canvas. You'll be graded on completeness, documentation, and readability.

@@ -31,7 +31,11 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 # **Bioinformatics Data Skills**{#top}
 Utah Valley University - BIOL490R (Special Topics)
 
+#### Note: We will be using Unix systems (Mac and Linux). If you have Windows, there are a few workarounds, but they tend to be fragile. So, we've set up a Linux system you can log into on the UVU Network using a VPN.
 
+Instructions for setting up VPN access can be found [here](https://www.uvu.edu/oit/security/vpn/index.html){target="_blank"}
+
+If you're going to be doing bioinformatics you really should consider using a Mac (expensive) or Linux (free) computer.
 
 ## Handy links:
 
@@ -119,9 +123,8 @@ knitr::include_graphics("./Media/placeholder.png")
 **Assignments:**
 
   - Read through **BDS Chapter 2** at least once
-  - Work through **BDS Chapter 2**, following along in your own terminal (data used is in online repository)
+  - Work through **BDS Chapter 2**, following along in your own terminal 
   - [**Assignment 2 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_2.html){target="_blank"} Create oganized project template using code
-  - 
 
 **Resources**
   
@@ -134,6 +137,10 @@ knitr::include_graphics("./Media/placeholder.png")
   - Re-create your project directory template by copy-pasting each line of code from your assignment to make sure it gives the same result
   - Spend time making sure that you intuitively understand relative filepaths and get comfy with the terminal
   - Spend 2-3 hours mucking about in your terminal reworking the lines from Chapter 2 over and over until it feels normal
+  
+**For your consideration:**
+
+  - *If you are learning to play the piano, and you settle for a couple hours a week of instruction without practicing on your own, you're gonna be a really crappy piano player, like me.* --Geoff Zahn
   
   
 [Back to top of page](#top)
@@ -161,23 +168,56 @@ knitr::include_graphics("./Media/placeholder.png")
 
 **Topics:**
 
-  -
-  -
-  -
+  - The Unix philosophy | text streams | pipes and redirection | process control | process substitution
+
 
 **Assignments:**
 
-  - Work through **BDS Chapter 3**
-  - **Assignment 3 -** Use pipes and redirects
-  -
+  - Read through **BDS Chapter 3**
+  - Work through **BDS Chapter 3**, following along in your own terminal
+  - [**Assignment 3 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_2.html){target="_blank"} Running shell scripts, redirecting, pipes, background processes
+  - Using the resources below, the example aliases to your local terminal environment
 
 **Resources**
 
-  - 
+  - [Basic Unix Commands](https://www.unixtutorial.org/basic-unix-commands?print=pdf){target="_blank"}
+  - [Very Useful Tutorial](https://www.learnenough.com/command-line-tutorial/basics#sec-introduction){target="_blank"}
+  - On the [Value of](https://medium.com/@eytanadar/on-the-value-of-command-line-bullshittery-94dc19ec8c61#.4qt0dd22r){target="_blank"} Command-Line Bullshittery
+  - On the [Annoyance of](https://gzahn.github.io/archived_websites/command_line_bullshittery.html){target="_blank"} Command-Line Bullshittery
+  - So is this stuff even useful for bioinformatics?  [YES!](https://github.com/stephenturner/oneliners){target="_blank"}
+  - Video walkthroughs of some command line stuff:
+    + [Part 1 - first commands](https://youtu.be/t5ovp3Iibl0){target="_blank"}
+    + [Part 2 - pipes and wildcards](https://youtu.be/9YRwN2Tu1AM){target="_blank"}
+    + [Part 3 - relative filepaths](https://youtu.be/2UsV3xva_Lk){target="_blank"}
+    + Command line program [flags/parameters](https://youtu.be/sLayockzACQ){target="_blank"}
+    + How to avoid two potentially dangerous [command line errors](https://youtu.be/_31MXNlHU_E){target="_blank"}
+    + For-loops [video](https://youtu.be/aMmG4iXTBYk){target="_blank"} walkthrough in BASH
+  - Bonus tips: 
+    + BASH aliases [video](https://youtu.be/21LpBiQVDhM){target="_blank"}
+    + BASH alias [examples](https://gzahn.github.io/data-course/Repository/Code_Examples/handy_bash_aliases.txt){target="_blank"}
   
 **Practice**
 
-  - 
+  - Can you understand what the following code does and why it works?
+      
+            echo "There are $(ls -1 *.txt | wc -l) files in this directory."
+  
+  - What about this?
+  
+            echo "There are $(history | grep -c "bash") instances where 'bash' turns up in terminal history."
+  
+  - And this?
+  
+            ls -1 | head -2 > first_2_files.txt && cat first_2_files.txt && rm first_2_files.txt
+            
+  - And, finally, this?
+  
+            cat file_that_does_not_exist.txt 2> err.txt | wc -l && cat err.txt
+            
+
+**For your consideration:**
+
+  - *"This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface."* --Doug McIlroy
   
 [Back to top of page](#top)
 
@@ -196,23 +236,34 @@ knitr::include_graphics("./Media/placeholder.png")
 
 **Topics** 
 
-  -
-  -
-  -
+  - fasta and fastq file formats | using existing tools to work with sequence data
 
 **Assignments:**
 
-  - Work through **BDS Chapter 10**
-  - **Assignment 4 -** Trim reads, Count nucleotides, convert from fastq to fasta
-  -
+  - Read through **BDS Chapter 10** at least once
+  - Don't work through the examples yet (we can return to them once we have more skills)
+  - [**Assignment 4 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_4.html){target="_blank"} converting between formats, inspecting and trimming reads, using pre-made command-line tools
 
 **Resources**
 
-  - 
-
+  - [fasx-toolkit](http://hannonlab.cshl.edu/fastx_toolkit/){target="_blank"}
+  - [seqtk](https://github.com/lh3/seqtk){target="_blank"}
+  - fasta and fastq [formats](https://compgenomr.github.io/book/fasta-and-fastq-formats.html){target="_blank"}
+  - [phred scores](https://www.drive5.com/usearch/manual/quality_score.html){target="_blank"}
+  - fasta format for [peptide sequences](https://zhanglab.ccmb.med.umich.edu/FASTA/){target="_blank"}
+  
 **Practice**
 
-  - 
+  - How many total sequences are stored (in total) in the fastq files associated with Assignment_4?
+  - How many sequences *end* with the seqeunce "AT" in each fastq file?
+  - Which fastq file associated with Assignment_4 contains the following sequence:
+  
+          CCTTCATGCTGTCCTGCAATTACGATAGCATTTCTTTGACGACGAC
+  
+**For your consideration:**
+
+  - *"Treat data as read-only."* --Vince Buffalo
+  - Never directly edit any fasta or fastq file! If you have to make edits, redirect them to a new version of the raw file.
   
   
 [Back to top of page](#top)

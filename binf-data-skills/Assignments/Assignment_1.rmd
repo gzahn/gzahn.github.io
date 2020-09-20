@@ -9,6 +9,8 @@ pagetitle: Assignment_1
 
 ## Assignment 1 
 
+___
+
 **1. Read through the Preface and Chapter 1 in the textbook.  Read it again.  Pay attention to:**
   
   - What are "data skills?"
