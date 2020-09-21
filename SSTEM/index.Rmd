@@ -235,7 +235,8 @@ knitr::include_graphics("./media/money.gif")
   - BOTS [award](https://www.uvu.edu/undergrad-research/student-research/apply-for-funding/bots.html){target="_blank"}
   - CRFS [award](https://www.uvu.edu/crfs/programs/grants.html){target="_blank"}
   - Rough grant deadline [spreadsheet](https://github.com/gzahn/Protocols/raw/master/UVU_Student_Grants_Timeline.ods){target="_blank"}
-  - Funded SAC [example](https://gzahn.github.io/SSTEM/media/SAC_Example.pdf)
+  - Funded SAC [example](https://gzahn.github.io/SSTEM/media/SAC_Example.pdf){target="_blank"}
+  - Funded URSCA [Example](https://gzahn.github.io/SSTEM/media/URSCA_Example.pdf){target="_blank"}
 
 [Back to top of page](#top)
 

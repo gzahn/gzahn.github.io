@@ -1,0 +1,70 @@
+---
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: OS_Notes
+---
+
+#### **Note about computer operating sysems:**
+
+Serious bioinformatics tools are generally designed for Unix (Linux and Mac) systems. Some of you will obviously be on Windows computers, and some on Mac, and maybe even a few of you will be using Linux. The thing is, we really all need to be in a similar computing environment. If you're a Mac or Linux user, you could work through this whole class without issue (the book is written by a Mac user). If you're using Windows, there is a lot of bioinformatics that will be practically impossible to accomplish.
+
+So, rather than force everyone to convert to a Unix system, **we will be using a Virtual Machine**. This allows everyone to work in a Linux system, which puts us all on the same page, and as a bonus, gives everyone valuable experience in a Unix environment.
+
+1. Download VirtualBox [here](https://www.virtualbox.org/wiki/Downloads){target="_blank"}
+2. Download [this file](https://sourceforge.net/projects/osboxes/files/v/vb/55-U-u/20.04/Ubnt-20.04-VB-64bit.7z/download){target="_blank"} - This is the operating system (Ubuntu 20.04) you will install in VirtualBox.
+3. [Instructions](https://brb.nci.nih.gov/seqtools/installUbuntu.html){target="_blank"} for setting up an Ubuntu Virtual Machine
+  - The instructions are for Ubuntu 14.04, but otherwise work the same even though we are installing Ubuntu 20.04
+  - Yous should set the virtual hard disk space to be at least 50 Gb (More is better, but this will reduce your regular computer space proportionally)
+  - You may or may not have multiple processors on your computer, but if you do, increase this optional value accordingly (like in the instructions).
+
+If you currently have a Mac (OSX+) or Linux operating system, you do not **_have_** to go through the above steps, but you'll have to be comfortable with examples sometimes looking slightly different, needing to do a bit of extra googling to find installation instructions for programs, etc.  **If you are using Windows, the Ubuntu virtual machine, run through VirtualBox, is definitely a requirement.**
+
+___
+
+**Current Windows users: No need to rush out and buy a new computer for this class**, but if scientific computing is going to be a part of your future education/career, my own opinion is that you will want to consider switching a Mac (expensive) or Linux (free) computer for your next laptop. The benefits of Linux include:
+
+  - It's free, and most Windows computers can switch to Linux pretty easily
+  - It does not slow down after a while and limit your productivity (no bloatware)
+  - Does not need extra antivirus protection besides regular updates
+  - Has tens of thousands of programs available for free
+  - Has a vigorous community willing to help you solve any problems you might have
+
+___
+
+#### **Note about computer hardware requirements:**
+
+Pretty much any laptop will do the job for this course. Having more RAM and more cores will greatly speed things up for you once the data sets get larger. Once you learn how to efficiently push jobs onto remote computing clusters, you can even get the job done with a cell phone app (as long as you have infinite patience and love suffering).
+
+If you have 4 Gb of RAM and a working WiFi card and keyboard, you'll be just fine in this class.
+
+
+
+My personal computer setup:
+
+  - Dell Inspiron 15, purchased in 2013 (old but still kicking)
+  - Upgraded to 16 Gb RAM
+  - 1 Tb solid-state hard drive
+  - Intel i7 processor
+  - Running Ubuntu 18.04 (Linux)
+
+Pros:
+
+  - Total cost ~ $800 (less than 1/2 the cost of an equivalent Mac)
+  - Can stream cartoons and do bioinformatics at the same time
+  - Lots of ports that don't need special adaptors
+  - All software is free
+  - Upgradable 
+  
+Cons:
+
+  - Does not have the Mac logo that people crave
+  - Battery life is pathetic
+
+  
+For everyday professional bioinformatics use, this computer has proven very capable. For big heavy tasks, I either leave it to run overnight or push the job to a remote cluster.
+  
+
+
+<br/><br/><br/>
+    

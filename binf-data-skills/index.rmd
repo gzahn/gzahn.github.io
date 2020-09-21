@@ -31,11 +31,9 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 # **Bioinformatics Data Skills**{#top}
 Utah Valley University - BIOL490R (Special Topics)
 
-#### Note: We will be using Unix systems (Mac and Linux). If you have Windows, there are a few workarounds, but they tend to be fragile. So, we've set up a Linux system you can log into on the UVU Network using a VPN.
+___
 
-Instructions for setting up VPN access can be found [here](https://www.uvu.edu/oit/security/vpn/index.html){target="_blank"}
-
-If you're going to be doing bioinformatics you really should consider using a Mac (expensive) or Linux (free) computer.
+#### Computer requirements for this class: [CLICK HERE](https:\\gzahn.github.io/binf-data-skills/OS.html){target="_blank"}
 
 ## Handy links:
 
@@ -88,12 +86,13 @@ knitr::include_graphics("./Media/placeholder.png")
 
   - Read through **BDS Chapter 1**... twice, and carefully
   - Find and explore the supplemental materials for the chapter on GitHub
+  - Go through the resources below (Do this every week before class!)
   - [**Assignment 1 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_1.html){target="_blank"} Reflection piece on why you want to learn command line skills and best practices
   - Set up your computer environment (Command-line, Git)
 
 **Resources**
 
-  - Video: Meet the [command line](https://youtu.be/cg115YYQYgc){target="_blank"} of your computer
+  - Intro to Linux [Video](https://youtu.be/0EYrzOKtuBg){target="_blank"}
   - [Download Git](https://git-scm.com/downloads){target="_blank"}
   - Supplemental files for all textbook chapters -  [REPOSITORY](https://github.com/vsbuffalo/bds-files){target="_blank"}
 
@@ -476,7 +475,19 @@ knitr::include_graphics("./Media/placeholder.png")
 
 **Resources**
 
-  - 
+  - Video series on the CHPC
+  
+    + [Intro to the CHPC](https://youtu.be/m3LeEP45uMw){target="_blank"}
+    + [Connecting to the CHPC](https://youtu.be/hP2GDWCTKg4){target="_blank"}
+    + [Tmux and persistent connections](https://youtu.be/SVqoEZxMzkw){target="_blank"}
+    + [SLURM basics](https://youtu.be/49DzPT9HFJM){target="_blank"}
+    + [Submitting SLURM jobs](https://youtu.be/LRJMQO7Ercw){target="_blank"}
+    + [Modules and defining an environment](https://youtu.be/Cu6C5lNLDAY){target="_blank"}
+    + [Installing R Packages](https://youtu.be/_CT_jAV4ULw){target="_blank"}
+    + [Using MiniConda](https://youtu.be/t_7XCW4jhKA){target="_blank"}
+    
+  - SLURM commands [cheat sheet](https://gzahn.github.io/binf-data-skills/Media/SlurmCheatsheet-Summer2019.pdf){target="_blank"}
+  - SLURM [Presentation from CHPC](https://gzahn.github.io/binf-data-skills/Media/slurmfall2020.pdf){target="_blank"}
   
 **Practice**
 

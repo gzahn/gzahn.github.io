@@ -1,0 +1,30 @@
+BINF Video links
+
+Tmux:
+https://youtu.be/SVqoEZxMzkw
+
+SLURM basics:
+https://youtu.be/49DzPT9HFJM
+
+Submitting SLURM jobs:
+https://youtu.be/LRJMQO7Ercw
+
+Modules:
+https://youtu.be/Cu6C5lNLDAY
+
+Intro to Linux:
+https://youtu.be/0EYrzOKtuBg
+
+Into to UofU HPC:
+https://youtu.be/m3LeEP45uMw
+
+Connecting to UofU HPC:
+https://youtu.be/hP2GDWCTKg4
+
+Installing R packages:
+https://youtu.be/_CT_jAV4ULw
+
+Using MiniConda:
+https://youtu.be/t_7XCW4jhKA
+
+
