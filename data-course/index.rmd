@@ -318,6 +318,7 @@ knitr::include_graphics("../media/ggplot_example.png")
 **Resources**
 
   - Recorded lesson [video](https://youtu.be/aa7Rr87FsV0){target="_blank"} Part 1
+  - Recorded lesson [video](https://youtu.be/jdrJjMiw4HM){target="_blank"} Part 2
   - [More ggplot](https://ggplot2.tidyverse.org/){target="_blank"}
   - [ggforce](https://ggforce.data-imaginist.com/){target="_blank"}
   - [patchwork](https://github.com/thomasp85/patchwork){target="_blank"}

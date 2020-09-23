@@ -288,7 +288,7 @@ knitr::include_graphics("./media/basidios.jpg")
   - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_4.txt){target="_blank"}
   - Leson [slides](https://gzahn.github.io/mycology/lectures/Week4.odp){target="_blank"}
   - Lesson [video](https://youtu.be/nunoVMGLfyY){target="_blank"} Part 1
-  - Lesson [video](https://youtu.be/MAAhQAZco6I){target="_blank"} Part 1
+  - Lesson [video](https://youtu.be/MAAhQAZco6I){target="_blank"} Part 2
   - Basidiomycete [life cycle](){target="_blank"} #see slides for now
   - Basidiomycete [phylogeny](){target="_blank"} #see slides for now
   - [Pleurotus](){target="_blank"} #see slides for now
@@ -333,7 +333,7 @@ knitr::include_graphics("./media/dispersal.jpeg")
 
   - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_5.txt){target="_blank"}
   - Leson [slides](https://gzahn.github.io/mycology/lectures/Week5.odp){target="_blank"}
-  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Lesson [video](https://youtu.be/u87U92kY9JY){target="_blank"} Part 1
   - Resources for how to collect and ID fungi found in my hillbilly mycology [protocols section](https://gzahn.github.io/mycology/hillbilly_mycology.html#protocols){target="_blank"}
   - Mushroom characters [cheat sheet](https://gzahn.github.io//mycology/media/Mushroom_Descriptions_ID_copy.jpg){target="_blank"}
   
