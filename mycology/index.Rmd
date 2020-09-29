@@ -371,6 +371,7 @@ knitr::include_graphics("./media/medical_mycology.jpeg")
   - Lesson [video](){target="_blank"} (Recorded during class and posted after)
   - CDC [Website](https://www.cdc.gov/fungal/index.html){target="_blank"} for fungal diseases
   - Fungal toxins [review paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC164220/){target="_blank"}
+  - Global warming is driving thermotolerance and evolving more human pathogenic fungi [paper](https://gzahn.github.io/mycology/media/Robert_et_al_2015.pdf){target="_blank"}
   
 **Videos**
 
