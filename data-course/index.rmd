@@ -365,6 +365,7 @@ knitr::include_graphics("../media/sepalwidth.jpg")
 **Resources**
 
   - Recorded lesson [video](https://youtu.be/XRv0el4z7j0){target="_blank"} Part 1
+  - Recorded lesson [video](https://youtu.be/Qkv7V2ZYX4Y){target="_blank"} Part 2
   - [Tidy Data Chapter](https://r4ds.had.co.nz/tidy-data.html#tidy-data-1){target="_blank"}
   - [Transforming Data Frames](https://r4ds.had.co.nz/transform.html){target="_blank"}
   - [dplyr Verbs](https://dplyr.tidyverse.org/){target="_blank"}
