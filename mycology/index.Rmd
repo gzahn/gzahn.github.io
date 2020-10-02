@@ -400,8 +400,8 @@ knitr::include_graphics("./media/rust.jpg")
   
 **Resources**
 
-  - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_6.txt){target="_blank"}
-  - Leson [slides]((https://gzahn.github.io/mycology/lectures/Week7.odp){target="_blank"}
+  - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_7.txt){target="_blank"}
+  - Leson [slides](https://gzahn.github.io/mycology/lectures/Week7.odp){target="_blank"}
   - Lesson [video](){target="_blank"} (Recorded during class and posted after)  
   - Introduction to Plant Pathology [Textbook](https://gzahn.github.io/mycology/media/Intro_to_PlantPath_2003.pdf){target="_blank"}
   
@@ -429,19 +429,20 @@ knitr::include_graphics("./media/dist_chytrid.jpg")
 **Readings and Assignments**
 
   - Read [Bacigalupe, et al., 2017](https://gzahn.github.io/mycology/media/Bacigalupe_et_al_2017.pdf)
-  - Read Money: Chapters 1-2
+  - 
   
 **Resources**
 
-  - [Major Topics](){target="_blank"}
-  - Leson [slides](){target="_blank"}
+  - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_8.txt){target="_blank"}
+  - Leson [slides](https://gzahn.github.io/mycology/lectures/Week8.odp){target="_blank"}
   - Lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - AMF aerial dispersal [paper](https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.16667){target="_blank"}
+  - Climate drives fungal distributions [paper](https://www.nature.com/articles/s41467-019-13164-8){target="_blank"}
   
 **Videos**
 
-  - 
-  -
-  -
+  - Spore rain [video](https://youtu.be/Mrphn1zOWaE){target="_blank"}
+  - Intercontinental spore travel [research talk](https://vimeo.com/440787285){target="_blank"}
   
 [Back to top of page](#top)
 
