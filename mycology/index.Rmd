@@ -374,12 +374,7 @@ knitr::include_graphics("./media/medical_mycology.jpeg")
   - Fungal toxins [review paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC164220/){target="_blank"}
   - Global warming is driving thermotolerance and evolving more human pathogenic fungi [paper](https://gzahn.github.io/mycology/media/Robert_et_al_2015.pdf){target="_blank"}
   
-**Videos**
 
-  - 
-  -
-  -
-  
 [Back to top of page](#top)
 
 
@@ -400,21 +395,20 @@ knitr::include_graphics("./media/rust.jpg")
 **Readings and Assignments**
 
   - Read [Roy, 1993](https://gzahn.github.io/mycology/media/Roy_1993.pdf)
-  - Read Webster & Weber: **22**
-  -
-  -
+  - Canvas quiz
+  - Keep working on lab assignments!
   
 **Resources**
 
-  - [Major Topics](){target="_blank"}
-  - Leson [slides](){target="_blank"}
+  - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_6.txt){target="_blank"}
+  - Leson [slides]((https://gzahn.github.io/mycology/lectures/Week7.odp){target="_blank"}
   - Lesson [video](){target="_blank"} (Recorded during class and posted after)  
+  - Introduction to Plant Pathology [Textbook](https://gzahn.github.io/mycology/media/Intro_to_PlantPath_2003.pdf){target="_blank"}
   
 **Videos**
 
-  - 
-  -
-  -  
+  - Life cycle of wheat stem rust [video](https://youtu.be/AeuP5IYP5HA){target="_blank"}
+  - Plant-Pathogen interactions [video](https://youtu.be/dxTQxJL38c8){target="_blank"}
 
 [Back to top of page](#top)
 
