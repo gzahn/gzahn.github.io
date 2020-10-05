@@ -1,0 +1,84 @@
+---
+output: html_document
+pagetitle: BIOL3100 - Ugly ggplot contest - Fall,2020
+---
+
+# The Fall 2020 Ugly ggplot Contestants...
+
+Presented in alphabetical order
+
+___
+
+## Baldwin
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("./Baldwin.jpg")
+```
+</div>
+
+___
+
+## Hall
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("./Hall.png")
+```
+</div>
+
+___
+
+## Jones
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("./Jones.png")
+```
+</div>
+
+___
+
+
+## Millar
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("./Millar.png")
+```
+</div>
+
+___
+
+
+## Naylor
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("./Naylor.png")
+```
+</div>
+
+___
+
+## Nuñez
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("./Nunez.png")
+```
+</div>
+
+___
+
+
+## Vilela
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("./Vilela.png")
+```
+</div>
+
+___
+

@@ -314,6 +314,7 @@ knitr::include_graphics("../media/ggplot_example.png")
   - [Assignment 6](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_6/Assignment_6.html){target="_blank"}
   - [Ugly plot contest!](https://gzahn.github.io/data-course/uglyplotcontest.html){target="_blank"}
   - Prevent embarrassment... see how [NOT to make a chart](https://gzahn.github.io/data-course/embarrassment.html){target="_blank"}, except for the Ugly Plot Contest, of course, where you should try to upend good sense.
+  - Ugly plot contest [entries](https://gzahn.github.io/data-course/media/Ugly_Plots/Fa_2020/Fa_2020.html){target="_blank"}
 
 **Resources**
 
@@ -400,7 +401,7 @@ knitr::include_graphics("../media/real_world_data.jpg")
   - Read [This Handout](https://gzahn.github.io/data-course/Readings/Excel_Advice_Handout.pdf)
   - Read [This Paper](https://gzahn.github.io/data-course/Readings/Broman_and_Woo_2017_Data_organization_in_spreadsheets.pdf)
   - Create a validated Excel Spreadsheet for data collection for the experiment we design in class
-  - Exam 2
+  - Exam 2 is open...
 
 **Resources**
 
