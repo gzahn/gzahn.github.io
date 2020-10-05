@@ -405,7 +405,7 @@ knitr::include_graphics("../media/real_world_data.jpg")
 
 **Resources**
 
-  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Recorded lesson [video](https://youtu.be/Fu8ewe-d-34){target="_blank"} Part 1 (dplyr verbs)
   - [Data Wrangling Chapter](https://r4ds.had.co.nz/wrangle-intro.html){target="_blank"}
   - [Wrangling Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf){target="_blank"}
   - [Visual Explanations of Joins](https://github.com/gadenbuie/tidyexplain){target="_blank"}
