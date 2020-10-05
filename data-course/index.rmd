@@ -397,8 +397,8 @@ knitr::include_graphics("../media/real_world_data.jpg")
 
 **Assignments**
 
-  - Read [This Handout](https://gzahn.github.io/data-course/Repository/Readings/Excel_Advice_Handout.pdf)
-  - Read [This Paper](https://gzahn.github.io/data-course/Repository/Readings/Broman_and_Woo_2017_Data_organization_in_spreadsheets.pdf)
+  - Read [This Handout](https://gzahn.github.io/data-course/Readings/Excel_Advice_Handout.pdf)
+  - Read [This Paper](https://gzahn.github.io/data-course/Readings/Broman_and_Woo_2017_Data_organization_in_spreadsheets.pdf)
   - Create a validated Excel Spreadsheet for data collection for the experiment we design in class
   - Exam 2
 

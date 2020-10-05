@@ -442,7 +442,7 @@ knitr::include_graphics("./media/dist_chytrid.jpg")
 **Videos**
 
   - Spore rain [video](https://youtu.be/Mrphn1zOWaE){target="_blank"}
-  - Intercontinental spore travel [research talk](https://vimeo.com/440787285){target="_blank"}
+  - Intercontinental spore travel [research talk](https://vimeo.com/440787285){target="_blank"} (~ 9 min)
   
 [Back to top of page](#top)
 
@@ -464,7 +464,6 @@ knitr::include_graphics("./media/symbiosis.jpeg")
 **Readings and Assignments**
 
   - Read [Christian, et al., 2017](https://gzahn.github.io/mycology/media/Christian_et_al_2017.pdf)
-  - Read Money: Chapter 3
   - **Exam 2** (Covers material from weeks 5-8)
     + Development
     + Pathology
@@ -502,7 +501,7 @@ knitr::include_graphics("./media/ectomycorrhizae.jpg")
 **Readings and Assignments**
 
   - 
-  - Read Money: Chapter 4
+  - 
   - 
   
 **Resources**
@@ -536,7 +535,7 @@ knitr::include_graphics("./media/lichen.jpg")
 **Readings and Assignments**
 
   - Read [Spribille, et al., 2016](https://gzahn.github.io/mycology/media/Spribille_et_al_2016.pdf)
-  - Read Money: Chapter 5-6
+  - 
   
 **Resources**
 
@@ -567,8 +566,8 @@ knitr::include_graphics("./media/rot.jpg")
   
 **Readings and Assignments**
 
-  - Read [Hoppe, et al., 2016](https://gzahn.github.io/mycology/media/Hoppe_et_al_2016.pdf)
-  - Read Money: Chapter 7
+  - Read [Halvorson, et al., 2019](https://gzahn.github.io/mycology/media/Halvorson_et_al_2019.pdf){target="_blank"}
+  - Listen to Halvorson, et al. [podcast](https://functionalecologists.com/2020/02/27/breaking-down-leaves-is-basically-hard-work-so-if-the-fungi-have-the-option-of-an-easier-life-they-take-it-ken-thompson-interviews-hal-halvorson-in-our-new-podcast/){target="_blank"} (~ 15 min)
   - 
   
 **Resources**
