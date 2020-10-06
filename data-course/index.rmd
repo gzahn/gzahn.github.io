@@ -412,6 +412,7 @@ knitr::include_graphics("../media/real_world_data.jpg")
   - Janitor package on [CRAN](https://cran.r-project.org/web/packages/janitor/index.html){target="_blank"}
   - Rstats [illustrations](https://github.com/allisonhorst/stats-illustrations){target="_blank"}
   - Working with [strings and regular expressions](https://craig.rbind.io/post/2020-06-28-asgr-2-3-string-manipulation/){target="_blank"} using the *stringr* package
+  - How Excel actually *killed* people [news article](https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england){target="_blank"}
   
 
 
