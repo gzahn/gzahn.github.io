@@ -402,7 +402,7 @@ knitr::include_graphics("./media/rust.jpg")
 
   - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_7.txt){target="_blank"}
   - Leson [slides](https://gzahn.github.io/mycology/lectures/Week7.odp){target="_blank"}
-  - Lesson [video](){target="_blank"} (Recorded during class and posted after)  
+  - Lesson [video](https://youtu.be/BeTEzfWI0VU){target="_blank"} Part 1
   - Introduction to Plant Pathology [Textbook](https://gzahn.github.io/mycology/media/Intro_to_PlantPath_2003.pdf){target="_blank"}
   
 **Videos**
