@@ -456,7 +456,7 @@ knitr::include_graphics("../media/function.png")
   
 **Resources**
 
-  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Recorded lesson [video](https://youtu.be/Q-VaIuUs5IM){target="_blank"} Part 1 (Designing an experiment)
   - [Functions](https://r4ds.had.co.nz/functions.html){target="_blank"}
   - [Conditional Execution](https://r4ds.had.co.nz/functions.html#conditional-execution){target="_blank"}
   - Functionals and the *purrr* package [chapter](https://adv-r.hadley.nz/functionals.html){target="_blank"}
