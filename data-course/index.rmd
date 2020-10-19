@@ -457,6 +457,7 @@ knitr::include_graphics("../media/function.png")
 **Resources**
 
   - Recorded lesson [video](https://youtu.be/Q-VaIuUs5IM){target="_blank"} Part 1 (Designing an experiment)
+  - Recorded lesson [video](https://youtu.be/zb3jl4oaP70){target="_blank"} Part 2 (Analysis of experiment data - live coding)
   - [Functions](https://r4ds.had.co.nz/functions.html){target="_blank"}
   - [Conditional Execution](https://r4ds.had.co.nz/functions.html#conditional-execution){target="_blank"}
   - Functionals and the *purrr* package [chapter](https://adv-r.hadley.nz/functionals.html){target="_blank"}
@@ -507,7 +508,7 @@ knitr::include_graphics("../media/model1.png")
 
 **Resources**
 
-  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Recorded lesson [video](https://youtu.be/tjJZVUwLxOs){target="_blank"} (Part 1 - Intro to linear models)
   - What is a [statistical model?](https://help.xlstat.com/s/article/what-is-statistical-modeling?language=en_US){target="_blank"}
   - [Modeling Intro](https://r4ds.had.co.nz/model-intro.html){target="_blank"}
   - [Model Basics](https://r4ds.had.co.nz/model-basics.html){target="_blank"}
