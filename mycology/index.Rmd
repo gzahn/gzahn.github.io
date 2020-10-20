@@ -436,7 +436,7 @@ knitr::include_graphics("./media/dist_chytrid.jpg")
 
   - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_8.txt){target="_blank"}
   - Leson [slides](https://gzahn.github.io/mycology/lectures/Week8.odp){target="_blank"}
-  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Lesson [video](https://youtu.be/4IeNy2VaT48){target="_blank"} (Fungal Distributions)
   - AMF aerial dispersal [paper](https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.16667){target="_blank"}
   - Climate drives fungal distributions [paper](https://www.nature.com/articles/s41467-019-13164-8){target="_blank"}
   
@@ -474,7 +474,7 @@ knitr::include_graphics("./media/symbiosis.jpeg")
 
   - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_9.txt){target="_blank"}
   - Leson [slides](https://gzahn.github.io/mycology/lectures/Week8.odp){target="_blank"}
-  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Lesson [video](https://youtu.be/FCRfD7ivYJY){target="_blank"} (Part 1 - Discuss Bacigalupe paper; Endophyte lesson)
   
 **Videos**
 
