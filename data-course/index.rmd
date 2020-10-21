@@ -560,7 +560,7 @@ ___
  
 **Practice**
 
-  - Go through the R script "/Exercises/more_models.R"
+  - Go through the R script [more_models.R](https://gzahn.github.io/data-course/Repository/Exercises/more_models.R){target="_blank"}
     + Follow along with my analyses of the first two data sets
     + Complete an analysis of the third data set
 
