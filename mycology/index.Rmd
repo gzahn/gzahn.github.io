@@ -475,6 +475,8 @@ knitr::include_graphics("./media/symbiosis.jpeg")
   - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_9.txt){target="_blank"}
   - Leson [slides](https://gzahn.github.io/mycology/lectures/Week8.odp){target="_blank"}
   - Lesson [video](https://youtu.be/FCRfD7ivYJY){target="_blank"} (Part 1 - Discuss Bacigalupe paper; Endophyte lesson)
+  - Lesson [video](https://youtu.be/WZb4ppfSYSI){target="_blank"} (Part 2 - Discuss Christian et al, 2017 paper)
+  
   
 **Videos**
 
