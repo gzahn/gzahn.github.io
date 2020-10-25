@@ -1,0 +1,66 @@
+10-06 10:00 root         INFO     Verifying the input sequences.
+10-06 10:00 root         INFO     Sequences are assumed to be single-end.
+10-06 10:00 root         INFO     Temporary directory is: /tmp/itsxpress_bj3h0roz
+10-06 10:00 root         INFO     Unique sequences are being written to a temporary FASTA file with Vsearch.
+10-06 10:00 root         INFO     vsearch v2.7.1_linux_x86_64, 15.6GB RAM, 4 cores
+https://github.com/torognes/vsearch
+
+Reading file ./seqs/fastqs/DNA.GM.PFB4.ITS_S197_L001_R1_001.fastq.gz 100%
+27586 nt in 100 seqs, min 159, max 301, avg 276
+Dereplicating 100%
+Sorting 100%
+73 unique sequences, avg cluster 1.4, median 1, max 10
+Writing output file 100%
+Writing uc file, first part 100%
+Writing uc file, second part 100%
+
+10-06 10:00 root         INFO     Searching for ITS start and stop sites using HMMSearch. This step takes a while.
+10-06 10:00 root         INFO     Parsing HMM results.
+10-06 10:00 root         INFO     Writing out sequences
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:10762:1822, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:14608:1926, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:22426:2082, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:11293:2090, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:14856:2119, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:19746:2302, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:19757:2319, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:9183:2591, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:21009:2772, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:16350:2912, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:14754:3069, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:20923:3181, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:13232:3187, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:23206:3345, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:22572:3489, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:14570:3536, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:18871:3609, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:21009:2772, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:13337:3898, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:23973:3956, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:21009:2772, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:16195:4153, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:8956:4246, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:15567:4286, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:9100:4353, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:13936:4382, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:18799:4388, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:23201:4413, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:11927:4451, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:4848:4494, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:13237:4518, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:6014:4564, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:25463:4803, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:4465:4877, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:25242:4933, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:7306:5133, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:21165:5198, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:26876:5571, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:19570:5723, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:4217:5745, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:15790:5767, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:21009:2772, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:10548:5811, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:13284:5858, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:16852:5978, skipping.
+10-06 10:00 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:21270:6223, skipping.
+10-06 10:00 root         INFO     ITSxpress ran in 00:00:00

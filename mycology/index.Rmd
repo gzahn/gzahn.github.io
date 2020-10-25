@@ -473,17 +473,11 @@ knitr::include_graphics("./media/symbiosis.jpeg")
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_9.txt){target="_blank"}
-  - Leson [slides](https://gzahn.github.io/mycology/lectures/Week8.odp){target="_blank"}
+  - Leson [slides](https://gzahn.github.io/mycology/lectures/Week9.odp){target="_blank"}
   - Lesson [video](https://youtu.be/FCRfD7ivYJY){target="_blank"} (Part 1 - Discuss Bacigalupe paper; Endophyte lesson)
   - Lesson [video](https://youtu.be/WZb4ppfSYSI){target="_blank"} (Part 2 - Discuss Christian et al, 2017 paper)
   
-  
-**Videos**
 
-  - 
-  -
-  -
-  
 ___
 
 <div style= "float:right;position: relative;top:10px">
@@ -501,24 +495,14 @@ knitr::include_graphics("./media/ectomycorrhizae.jpg")
 
   - Symbioses: Mycorrhizae
   
-**Readings and Assignments**
-
-  - 
-  - 
-  - 
-  
 **Resources**
 
-  - [Major Topics](){target="_blank"}
-  - Leson [slides](){target="_blank"}
+  - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_10.txt){target="_blank"}
+  - Leson [slides](https://gzahn.github.io/mycology/lectures/Week10.odp){target="_blank"}
   - Lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Best [overview paper](https://www.nature.com/articles/nrmicro.2016.149){target="_blank"} of ECM fungi ever!
   
-**Videos**
 
-  - 
-  -
-  -  
-  
 [Back to top of page](#top)
 
 ___

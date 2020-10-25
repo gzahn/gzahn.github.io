@@ -71,7 +71,7 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/StarWars.png")
 ```
 </div>
 
@@ -108,7 +108,7 @@ ___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/filetree.png")
 ```
 </div>
 
@@ -130,6 +130,8 @@ knitr::include_graphics("./Media/placeholder.png")
   - Guide to reproducible code... [read this!](https://gzahn.github.io/binf-data-skills/Media/guide-to-reproducible-code.pdf){target="_blank"}
   - File paths [explained](https://desktop.arcgis.com/en/arcmap/10.3/tools/supplement/pathnames-explained-absolute-relative-unc-and-url.htm){target="_blank"}
   - [Example project structure](https://github.com/gzahn/Data_Course/tree/master/Code_Examples/Example_Project){target="_blank"}
+  - Beginners' guide to the Bash terminal [video](https://youtu.be/oxuRxtrO2Ag?list=PLzNKOozWiEuyNu-kHpVZk59uf04wkQyY2){target="_blank"} (need to watch if you haven't used a terminal before)
+  - Common Unix [commands](https://www.unixtutorial.org/basic-unix-commands){target="_blank"}
   
 **Practice**
 
@@ -157,13 +159,13 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/pipeflow.png")
 ```
 </div>
 
 
 ### **Week 3**{#Week-3}
-#### Remedial Unix Shell
+#### The Unix Shell
 
 **Topics:**
 
@@ -174,7 +176,7 @@ knitr::include_graphics("./Media/placeholder.png")
 
   - Read through **BDS Chapter 3**
   - Work through **BDS Chapter 3**, following along in your own terminal
-  - [**Assignment 3 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_2.html){target="_blank"} Running shell scripts, redirecting, pipes, background processes
+  - [**Assignment 3 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_3.html){target="_blank"} Running shell scripts, redirecting, pipes, background processes
   - Using the resources below, the example aliases to your local terminal environment
 
 **Resources**
@@ -197,7 +199,7 @@ knitr::include_graphics("./Media/placeholder.png")
   
 **Practice**
 
-  - Can you understand what the following code does and why it works?
+  - Can you understand what the following code does and why it works (or doesn't)?
       
             echo "There are $(ls -1 *.txt | wc -l) files in this directory."
   
@@ -225,7 +227,7 @@ ___
   
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/fastq_fig.jpg")
 ```
 </div>
   
@@ -279,7 +281,7 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/magic.jpg")
 ```
 </div>
 
@@ -288,27 +290,20 @@ knitr::include_graphics("./Media/placeholder.png")
 
 **Topics:**
 
-  - 
+  - Interfacing with command-line tools | redirecting stdout and stderr | customizing parameters
   
 **Assignments:**
 
-  - **Case study 1 -** Run ITSxpress on fungal data
-    + keep complex results
-    + customize output for question at hand
-    + make it reproducible
-    + do it on a hundred files
-    + store all log data into one file - for how many sequences TOTAL were no ITS stop or start sites identified?
-    + push "workflow.txt" (not data)
-    + uses chapters: 2,3,10 (for+loop, grep, redirect 2>, flags)
+  - [**Case study 1 - Using command-line skills to run existing software on many files**](https://gzahn.github.io/binf-data-skills/Case_Studies/01_extract_ITS1_region/Case_Study_1.html)
+    + uses chapters: 2,3,10 (for-loop, grep, redirection, flags)
+
 
 **Resources**
 
+  - Eukaryotic 18S regions and priming sites [image](https://gzahn.github.io/binf-data-skills/Media/ITS.png){target="_blank"}
+  - ITSxpress [repository](https://github.com/usda-ars-gbru/itsxpress){target="_blank"}
+  - Installing [miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)  
   - 
-  
-**Practice**
-
-  - 
-  
   
 [Back to top of page](#top)
 
@@ -325,7 +320,7 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/linuxfu.jpg")
 ```
 </div>
 
@@ -334,7 +329,7 @@ knitr::include_graphics("./Media/placeholder.png")
 
 **Topics:**
 
-  - Regular expressions [... handy tool](https://regex101.com/){target="_blank"}
+  - Regular expression tester [... handy tool](https://regex101.com/){target="_blank"}
   - sed, grep
   - 
 
@@ -346,6 +341,8 @@ knitr::include_graphics("./Media/placeholder.png")
 
 **Resources**
 
+  - Introduction to regular expressions [video](https://youtu.be/vcRPNhLbhoc?list=PLzNKOozWiEuyNu-kHpVZk59uf04wkQyY2){target="_blank"}
+  - sed video [playlist](https://www.youtube.com/playlist?list=PLcUid3OP_4OW-rwv_mBHzx9MmE5TxvvcQ){target="_blank"} Definitely worth your time!
   - 
   
 **Practice**
@@ -361,7 +358,7 @@ ___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/tuxninja.png")
 ```
 </div>
 
@@ -370,15 +367,14 @@ knitr::include_graphics("./Media/placeholder.png")
 
 **Topics:**
 
-  - 
-  -
-  -
+  - More handy shell programs: cut, paste, sort, uniq, tr, rename, tee, xargs, awk
+  - Manipulating text data from one format to another
   
 **Assignments:**  
 
   - Continue working through **BDS Chapter 7**
-  - **Assignment 5 -** build tabular file from fasta database
-  -
+  - **Assignment 5 -** convert between tabular and fasta formatted data
+  - 
 
 **Resources**
 
@@ -404,7 +400,7 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/ncbi.gif")
 ```
 </div>
 
@@ -452,7 +448,7 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/ssh.jpeg")
 ```
 </div>
 
@@ -493,17 +489,19 @@ knitr::include_graphics("./Media/placeholder.png")
 
   - 
   
-  
-<div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
-```
-</div>
+
 
 [Back to top of page](#top)  
 
 
 ___
+
+  
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/kingspeak.png")
+```
+</div>
 
 ### **Week 10**{#Week-10}
 #### Interfacing with Remote Machines, Continued
@@ -544,7 +542,7 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/gitflow.png")
 ```
 </div>
 
@@ -582,7 +580,7 @@ ___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/sh_script.png")
 ```
 </div>
 
@@ -627,7 +625,7 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/pipeline.png")
 ```
 </div>
 
@@ -665,7 +663,7 @@ ___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/galaxybrain.jpeg")
 ```
 </div>
 
@@ -701,7 +699,7 @@ ___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./Media/placeholder.png")
+knitr::include_graphics("./Media/galaxybody.jpg")
 ```
 </div>
 
@@ -743,6 +741,12 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 <div class = "blue">
 
 ___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("./Media/imagod.jpg")
+```
+</div>
 
 ### **Week 16**{#Week-16}
 #### Where to go from here?

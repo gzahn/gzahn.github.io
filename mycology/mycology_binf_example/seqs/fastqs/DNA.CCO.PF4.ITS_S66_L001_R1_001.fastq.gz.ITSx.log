@@ -1,0 +1,25 @@
+10-06 09:59 root         INFO     Verifying the input sequences.
+10-06 09:59 root         INFO     Sequences are assumed to be single-end.
+10-06 09:59 root         INFO     Temporary directory is: /tmp/itsxpress_tsgmz598
+10-06 09:59 root         INFO     Unique sequences are being written to a temporary FASTA file with Vsearch.
+10-06 09:59 root         INFO     vsearch v2.7.1_linux_x86_64, 15.6GB RAM, 4 cores
+https://github.com/torognes/vsearch
+
+Reading file ./seqs/fastqs/DNA.CCO.PF4.ITS_S66_L001_R1_001.fastq.gz 100%
+27522 nt in 100 seqs, min 82, max 299, avg 275
+Dereplicating 100%
+Sorting 100%
+50 unique sequences, avg cluster 2.0, median 1, max 26
+Writing output file 100%
+Writing uc file, first part 100%
+Writing uc file, second part 100%
+
+10-06 09:59 root         INFO     Searching for ITS start and stop sites using HMMSearch. This step takes a while.
+10-06 09:59 root         INFO     Parsing HMM results.
+10-06 09:59 root         INFO     Writing out sequences
+10-06 09:59 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:20219:1938, skipping.
+10-06 09:59 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:17458:2298, skipping.
+10-06 09:59 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:7247:2794, skipping.
+10-06 09:59 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:22390:2895, skipping.
+10-06 09:59 root         DEBUG    No ITS stop or start sites were identified for sequence M05836:9:000000000-BRTMF:1:1101:11435:3128, skipping.
+10-06 09:59 root         INFO     ITSxpress ran in 00:00:00

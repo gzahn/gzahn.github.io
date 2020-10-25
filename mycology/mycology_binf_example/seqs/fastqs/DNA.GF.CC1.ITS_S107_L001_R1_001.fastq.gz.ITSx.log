@@ -1,0 +1,21 @@
+10-06 09:59 root         INFO     Verifying the input sequences.
+10-06 09:59 root         INFO     Sequences are assumed to be single-end.
+10-06 09:59 root         INFO     Temporary directory is: /tmp/itsxpress_r7iiivnl
+10-06 09:59 root         INFO     Unique sequences are being written to a temporary FASTA file with Vsearch.
+10-06 09:59 root         INFO     vsearch v2.7.1_linux_x86_64, 15.6GB RAM, 4 cores
+https://github.com/torognes/vsearch
+
+Reading file ./seqs/fastqs/DNA.GF.CC1.ITS_S107_L001_R1_001.fastq.gz 100%
+27600 nt in 99 seqs, min 278, max 279, avg 279
+minseqlength 32: 1 sequence discarded.
+Dereplicating 100%
+Sorting 100%
+54 unique sequences, avg cluster 1.8, median 1, max 22
+Writing output file 100%
+Writing uc file, first part 100%
+Writing uc file, second part 100%
+
+10-06 09:59 root         INFO     Searching for ITS start and stop sites using HMMSearch. This step takes a while.
+10-06 09:59 root         INFO     Parsing HMM results.
+10-06 09:59 root         INFO     Writing out sequences
+10-06 09:59 root         INFO     ITSxpress ran in 00:00:00

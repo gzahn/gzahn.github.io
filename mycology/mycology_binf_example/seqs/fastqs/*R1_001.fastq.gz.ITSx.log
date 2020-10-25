@@ -1,0 +1,4 @@
+10-06 09:57 root         INFO     Verifying the input sequences.
+10-06 09:57 root         ERROR    The input file ./seqs/fastqs/*R1_001.fastq.gz could not be found.
+10-06 09:57 root         ERROR    ITSxpress terminated with errors. See the log file for details.
+10-06 09:57 root         ERROR    [Errno 2] No such file or directory: './seqs/fastqs/*R1_001.fastq.gz'
