@@ -31,7 +31,7 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 # **Intro to Data Analysis**{#top}
 Utah Valley University - BIOL3100
 
-
+blah blah blah
 
 ## Handy links:
 
@@ -596,7 +596,7 @@ knitr::include_graphics("../media/rmd.png")
 
 **Resources**
 
-  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Recorded lesson [video](https://youtu.be/rmt3Obdzg1s){target="_blank"} (Recorded during class and posted after)
   - [Intro to R Markdown](https://github.com/cbwall/Intro-to-Rmarkdown){target="_blank"}
   - [Markdown Live Preview Generator](https://dillinger.io/){target="_blank"}
   - Expert-Level [Markdown Project](https://github.com/cbwall/Coral-isotopes-across-space-and-time){target="_blank"}

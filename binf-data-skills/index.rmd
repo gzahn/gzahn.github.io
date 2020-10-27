@@ -97,6 +97,22 @@ knitr::include_graphics("./Media/StarWars.png")
   - Supplemental files for all textbook chapters -  [REPOSITORY](https://github.com/vsbuffalo/bds-files){target="_blank"}
   - Navigating your computer with a terminal [video](https://youtu.be/fdkbQ0MduBY){target="_blank"}
 
+**Practice**
+
+  - Make sure you've watched the videos above and can navigate in your command line terminal.
+  - Do you know what the following commands do?
+  
+      
+          pwd
+      
+          cd ~
+      
+          cd ..
+      
+          ls -a
+      
+          ls -l
+  
 **For your consideration:**
 
   - *"Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it."* --Brian Kernighan
@@ -178,7 +194,7 @@ knitr::include_graphics("./Media/pipeflow.png")
   - Read through **BDS Chapter 3**
   - Work through **BDS Chapter 3**, following along in your own terminal
   - [**Assignment 3 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_3.html){target="_blank"} Running shell scripts, redirecting, pipes, background processes
-  - Using the resources below, the example aliases to your local terminal environment
+  - Read/watch **_ALL_** of the resouces below. Be able to write a for-loop. 
 
 **Resources**
 
@@ -200,21 +216,7 @@ knitr::include_graphics("./Media/pipeflow.png")
   
 **Practice**
 
-  - Can you understand what the following code does and why it works (or doesn't)?
-      
-            echo "There are $(ls -1 *.txt | wc -l) files in this directory."
-  
-  - What about this?
-  
-            echo "There are $(history | grep -c "bash") instances where 'bash' turns up in terminal history."
-  
-  - And this?
-  
-            ls -1 | head -2 > first_2_files.txt && cat first_2_files.txt && rm first_2_files.txt
-            
-  - And, finally, this?
-  
-            cat file_that_does_not_exist.txt 2> err.txt | wc -l && cat err.txt
+  - [Practice tasks](https://gzahngithub.io/binf-data-skills/Practice/Chapter_3_Practice.html){target="_blank"}
             
 
 **For your consideration:**
@@ -348,7 +350,7 @@ knitr::include_graphics("./Media/linuxfu.jpg")
   
 **Practice**
 
-  - 
+  - [Practice tasks](https://gzahngithub.io/binf-data-skills/Practice/Chapter_7_Practice.html){target="_blank"}
   
   
 [Back to top of page](#top)

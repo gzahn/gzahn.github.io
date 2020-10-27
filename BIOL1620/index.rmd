@@ -2,7 +2,7 @@
 output: 
 html_document:
   number_sections=TRUE
-pagetitle: BIOL1620
+pagetitle: BIOL1620 - Spring_2021
 ---
 
 <style type="text/css">
@@ -39,7 +39,7 @@ Utah Valley University - BIOL1620
 
 ## Quick links:
 
-#### [Course Syllabus](http://gzahn.github.io/media/BIOL_1620_Syllabus_FA_2020.pdf){target="_blank"}
+#### [Course Syllabus](http://gzahn.github.io/media/BIOL_1620_Syllabus_SP_2021.pdf){target="_blank"}
 #### [Shared Course Notes](https://docs.google.com/document/d/1ZUwrp3pccob99FptLDjIShcp2Y5PNIiJ1FJ95mUNYMk/edit?usp=sharing){target="_blank"}
 (Anyone with link can edit)
 
@@ -87,7 +87,7 @@ knitr::include_graphics("../media/week1.jpg")
 **Readings and Assignments**  
 
   - Campbell Chs 25-26
-  - Canvas quiz 1 due 2pm Friday of the first week
+  - **Canvas quiz 1 due 10pm Friday of the first week**
   - Pick a book to read for Your-Choice Points ASAP
   - Good time to get some Your-Choice points for [this podcast](https://gzahn.github.io/media/Making_Sense_166_McCarthy_Sam_Harris.mp3){target="_blank"}
 
@@ -129,7 +129,7 @@ knitr::include_graphics("../media/week2.jpg")
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp2.txt){target="_blank"}
-  - Survey of Metabolic Groups [Slides](https://github.com/gzahn/BIOL_1620/raw/master/04_TOL_Survey_Metabolism.pdf){target="_blank"}
+  - Survey of Metabolic Groups [Slides](){target="_blank"}
   - [Primary Nutritional Groups](https://en.wikipedia.org/wiki/Primary_nutritional_groups){target="_blank"}
   - What is Life [Online Resource](https://www.khanacademy.org/science/high-school-biology/hs-biology-foundations/hs-biology-and-the-scientific-method/a/what-is-life){target="_blank"}
   - [The True Meaning of Life](https://www.youtube.com/watch?v=aboZctrHfK8){target="_blank"}
@@ -161,12 +161,12 @@ knitr::include_graphics("../media/week3.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 22-23
-  - Canvas quiz 2 due _Wednesday_ before 2pm
+  - **Canvas quiz 2 due Monday before 11am**
 
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp3.txt){target="_blank"}
-  - Mechanisms of Evolution [Slides](https://github.com/gzahn/BIOL_1620/raw/master/03_Nature_of_Science-Mech_of_Evolution.pdf)
+  - Mechanisms of Evolution [Slides]()
   - Mechanisms of Evolution [Website](https://evolution.berkeley.edu/evolibrary/article/evo_14){target="_blank"}
   - Artificial Selection [Simulation](http://ccl.northwestern.edu/netlogo/models/BirdBreeder){target="_blank"}
   - Artificial vs Natural Selection [Program](https://learn.genetics.utah.edu/content/evolution/artificialnatural/){target="_blank"}
@@ -197,14 +197,14 @@ knitr::include_graphics("../media/week4.png")
 **Readings and Assignments**
 
   - Campbell Ch 27
-  - Canvas quiz 3 due Monday before 2pm
-  - Exam 1 on Friday
-  - 1/4th of the semester as passed, and you need to turn in Your-Choice Points
+  - **Canvas quiz 3 due Monday before 11am**
+  - **Exam 1 on Friday**
+  - 1/4th of the semester as passed, and you need to turn in Your-Choice Points on Canvas!
 
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp4.txt){target="_blank"}
-  - Bacteria and Archaea [Slides](https://github.com/gzahn/BIOL_1620/raw/master/07_Prokaryotes.pdf)
+  - Bacteria and Archaea [Slides]()
   - Lateral Gene Transfer [Between Humans and Microbes](https://www.the-scientist.com/features/bacteria-and-humans-have-been-swapping-dna-for-millennia-32779){target="_blank"}
   - Endosymbiosis [Evidence](https://www.biology.iupui.edu/biocourses/N100/2k2endosymb.html){target="_blank"} 
   - Primary vs Secondary [Endosymbiosis](https://endosymbiotichypothesis.wordpress.com/primary-versus-secondary-endosymbiosis/){target="_blank"}
@@ -235,12 +235,12 @@ knitr::include_graphics("../media/week5.png")
 **Readings and Assignments**
 
   - Campbell Ch 28
-  - Canvas quiz 4 due Monday before 2pm
+  - **Canvas quiz 4 due Monday before 11am**
 
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp5.txt){target="_blank"}
-  - Protist [Slides](https://github.com/gzahn/BIOL_1620/raw/master/08_Protist_Intro.pdf)
+  - Protist [Slides]()
   - Revised [Classification of Eukaryotes](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1550-7408.2012.00644.x){target="_blank"}
   - Why the World Needs [Protists](https://bioone.org/journals/The-Journal-of-Eukaryotic-Microbiology/volume-51/issue-1/j.1550-7408.2004.tb00156.x/Why-the-World-Needs-Protistsa-classinternal-link-hrefn1--sup1/10.1111/j.1550-7408.2004.tb00156.x.pdf?casa_token=byYM1ThozLMAAAAA:RK4pMnynfHEP6fTlNWdFKk0CkWfMqbQEbc_Y25MJcsLvCcL-rcb0cg8X0rSrOmY6CbaYgUw){target="_blank"}
 
@@ -269,12 +269,14 @@ knitr::include_graphics("../media/week6.png")
 **Readings and Assignments**
 
   - Campbell Ch 32
-  - Canvas quiz 5 due Monday before 2pm
+  - **Canvas quiz 5 due _Wednesday_ before 11am**
+  - Note: No Class Monday – Washington and Lincoln Day
+
 
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp6.txt){target="_blank"}
-  - Metazoa [Slides](https://github.com/gzahn/BIOL_1620/raw/master/10_Metazoa_Intro.pdf)
+  - Metazoa [Slides]()
   - Metazoa [Brain Teasers](https://github.com/gzahn/BIOL_1620/raw/master/11_Metazoa_First_land_animals_brain_teasers.pdf)
   - Animal Evolution [Timeline](https://sci.waikato.ac.nz/evolution/AnimalEvolution.shtml){target="_blank"}
   - Molecular Clocks and [Early Animal Evolution](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4650124/){target="_blank"}
@@ -309,16 +311,15 @@ knitr::include_graphics("../media/week7.png")
 **Readings and Assignments**
 
   - Campbell Chs 33-34
-  - Canvas quiz 6 due Monday before 2pm
-  - Note: No Class Monday – Washington and Lincoln Day
+  - **Canvas quiz 6 due Monday before 11am**
   - Optional Your-Choice Points: Cave of Forgotten Dreams [Video](https://drive.google.com/open?id=1els5LTLnstqsqKFZ-9gm34M8sJtQ3SVZ){target="_blank"} goes well with these lessons
 
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp7.txt){target="_blank"}
-  - Invertebrate [Slides](https://github.com/gzahn/BIOL_1620/raw/master/12_Invertebrates.pdf)
-  - Vertebrate [Slides](https://github.com/gzahn/BIOL_1620/raw/master/13_Vertebrates.pdf)
-  - Mammals, Primates, Hominins [Slides](https://github.com/gzahn/BIOL_1620/raw/master/14_Mammals_Primates_Hominins.pdf)
+  - Invertebrate [Slides]()
+  - Vertebrate [Slides]()
+  - Mammals, Primates, Hominins [Slides]()
   - Human Evolution [Timeline](http://humanorigins.si.edu/evidence/human-evolution-timeline-interactive){target="_blank"}
   - Animal [Phyla](http://www.fossilmuseum.net/Tree_of_Life/Kingdom_animalia/animalphyla.htm){target="_blank"}
   
@@ -347,14 +348,14 @@ knitr::include_graphics("../media/week8.jpg")
 **Readings and Assignments**
 
   - Campbell Ch 31
-  - Canvas quiz 7 due Monday before 2pm
-  - Exam 2 on Friday
+  - **Canvas quiz 7 due Monday before 11am**
+  - **Exam 2 on Friday**
   - 50 Your-Choice Points Due Friday **Before** Exam 2
 
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp8.txt){target="_blank"}
-  - Fungus [Slides](https://github.com/gzahn/BIOL_1620/raw/master/15_Fungi_Intro.pdf)
+  - Fungus [Slides]()
   - Common Ancestor of Animals and [Fungi](https://gzahn@github.io/media/2881059.pdf){target="_blank"}
   - Fungal [Phyla](https://courses.lumenlearning.com/wmopen-biology2/chapter/classifications-of-fungi/){target="_blank"}
   - Fungal Endophytes and [Your Favorite Professor](https://www.sciencenews.org/article/plant-microbes-crops-food-endangered-species){target="_blank"} (Free, but need to enter an email address to subscribe in order to read the article)
@@ -369,6 +370,28 @@ knitr::include_graphics("../media/week8.jpg")
 
 ___
 
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/Week11.jpg")
+```
+</div>
+
+### **Week 9**{#Week-9}
+##### SPRING BREAK!
+
+I mean, honestly, you probably haven't finished the Your-Choice Points yet.
+
+You should probably be pretty worried about that or you'll be scrambling like an idiot at the end of the semester right when all your other classes have things due. And then you'll give me a crappy book review and you'll get a bad grade on it with no chance for a re-do, and you will be very sad and I will not care about your sadness. Your sadness will feed me and make me grow more powerful. So think about that during Spring Break.
+</br></br>
+
+[Back to top of page](#top)
+
+</br></br>
+
+___
+
+
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
 knitr::include_graphics("../media/fertilizer.jpeg")
@@ -377,7 +400,7 @@ knitr::include_graphics("../media/fertilizer.jpeg")
 
 
 
-### **Week 9**{#Week-9}
+### **Week 10**{#Week-10}
 **Topics**
 
   - Plant Nutrition | Soil | GMOs
@@ -389,8 +412,8 @@ knitr::include_graphics("../media/fertilizer.jpeg")
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp9.txt){target="_blank"}
-  - Plant Nutrition [Slides](https://github.com/gzahn/BIOL_1620/raw/master/17_Plant_Nutrition.pdf)
-  - GMO [Slides](https://github.com/gzahn/BIOL_1620/raw/master/19_GMOs.pdf)
+  - Plant Nutrition [Slides]()
+  - GMO [Slides]()
   - GMO Corn [Experiment](https://biofortified.org/experiment/){target="_blank"}
   - Fake "Science" Version of [Same Experiment](https://non-gmoreport.com/articles/june2013/farmer-experiment-squirrels-prefer-organic-corn.php){target="_blank"}
   - Glyphosate [MDS](https://www.lakerestoration.com/pdf/glyphosatemsds.pdf){target="_blank"}
@@ -415,7 +438,7 @@ knitr::include_graphics("../media/week10.jpg")
 [Back to top of page](#top)  
 
 
-### **Week 10**{#Week-10}
+### **Week 11**{#Week-11}
 **Topics**
 
   - Plant Evolution and Life Cycles
@@ -423,12 +446,12 @@ knitr::include_graphics("../media/week10.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 29-30
-  - Canvas quiz 8 due Monday before 2pm
+  - **Canvas quiz 8 due Monday before 11am**
 
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp10.txt){target="_blank"}
-  - Plant Evolution [Slides](https://github.com/gzahn/BIOL_1620/raw/master/20_Plant_Evolution.pdf)
+  - Plant Evolution [Slides]()
   - Land Plant Evolution [Timeline](https://www.pnas.org/content/115/10/E2274){target="_blank"}
   - Adaptations for [Land](https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/25%3A_Seedless_Plants/25.1%3A_Early_Plant_Life/25.1C%3A_Plant_Adaptations_to_Life_on_Land){target="_blank"}
   - Alternation of Generations [Video](https://study.com/academy/lesson/alternation-of-generations-the-gametophyte-and-sporophyte.html){target="_blank"}
@@ -449,7 +472,7 @@ knitr::include_graphics("../media/week12.png")
 ```
 </div>
 
-### **Week 11**{#Week-11}
+### **Week 12**{#Week-12}
 
 **Topics**
 
@@ -459,6 +482,8 @@ knitr::include_graphics("../media/week12.png")
 
   - Campbell Chs 35, 37 (optional)
   - No quiz over these chapters
+  - **Exam 3 Friday**
+
 
 **Resources**
 
@@ -484,21 +509,20 @@ knitr::include_graphics("../media/week13.png")
 ```
 </div>
 
-### **Week 12**{#Week-12}
+### **Week 13**{#Week-13}
 **Topics**
 
   - Animal Behavior
 
 **Assignments**
 
-  - Exam 3 Friday
   - Campbell Chs 39, 51 (Optional)
   - No quiz over these chapters
 
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp12.txt){target="_blank"}
-  - Animal Behavior [Slides](https://github.com/gzahn/BIOL_1620/raw/master/23_Animal_Behavior.pdf)
+  - Animal Behavior [Slides]()
   - [Superstitious Pigeons](https://www.all-about-psychology.com/support-files/superstition-in-the-pigeon.pdf){target="_blank"}
   - Evolutionary Selection for [Superstition](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2615824/){target="_blank"}
   - Classical vs Operant [Conditioning](https://www.khanacademy.org/test-prep/mcat/behavior/learning-slug/a/classical-and-operant-conditioning-article){target="_blank"}
@@ -521,7 +545,7 @@ knitr::include_graphics("../media/week14.jpg")
 </div>
 
 
-### **Week 13**{#Week-13}
+### **Week 14**{#Week-14}
 **Topics**
 
   - Population Ecology
@@ -529,13 +553,13 @@ knitr::include_graphics("../media/week14.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 52, 53
-  - Canvas quiz 9 due Monday before 2pm
+  - **Canvas quiz 9 due Monday before 11am**
   - Your-Choice Points are **nearly due**
 
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp13.txt){target="_blank"}
-  - Population Ecology [Slides](https://github.com/gzahn/BIOL_1620/raw/master/24_Ecology_Intro_and_PopEcol.pdf)
+  - Population Ecology [Slides]()
   - Logistic Growth [Model](https://forio.com/simulate/jdarkow/logistic-growth-darkow-v2/simulation/){target="_blank"}
   - Population [Genomics](https://www.nature.com/scitable/knowledge/library/population-genomics-15812442/){target="_blank"}
   - Population Genetics and [Neanderthals](https://www.genomeweb.com/sequencing/neanderthal-population-dynamics-clarified-new-sequence-data){target="_blank"}
@@ -548,28 +572,8 @@ knitr::include_graphics("../media/week14.jpg")
 
   - [Ecology Intro 1](https://www.youtube.com/watch?v=YZmmx_fWQfo) - Levels of scale
   - [Ecology Intro 2](https://www.youtube.com/watch?v=oU7xCrTfs2s) - Climate modeling
-  - [Ecology Intro 3]() - Intro to population ecology
 
 [Back to top of page](#top)
-
-___
-
-
-<div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("../media/turkey.jpeg")
-```
-</div>
-
-### **Week 14**{#Week-14}
-
-# Thanksgiving Break
-
-After your gluttonous meal, instead of watching TV, you should pick up that Your-Choice book you have been pretending to read and just read it like a champion. You're gonna want those points!
-
-Seriously, it's almost too late at this point. That book review is essentially overdue already, and you wouldn't be in this position if you had taken all the advice that told you to read that book and write that review months ago, but here you are. Maybe you have to rush it and you don't get full credit, but it's better than nothing, right?
-
-- **All Your-Choice Points Due Sunday (end of break) at 11:59pm**
 
 ___
 
@@ -588,12 +592,12 @@ knitr::include_graphics("../media/week15.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 54-55
-  - Canvas quiz 10 due Monday before 2pm
+  - **Canvas quiz 10 due Monday before 11am**
   
 **Resources**
 
   - [Major Topics](https://gzahn.github.io/BIOL1620/mp14.txt){target="_blank"}
-  - Community Ecology [Slides](https://github.com/gzahn/BIOL_1620/raw/master/25_Community_Ecology.pdf)
+  - Community Ecology [Slides]()
   - Analyze Metagenomes Yourself! With [This Website](https://www.mg-rast.org/mgmain.html?mgpage=analysis){target="_blank"}
   - Community Ecology [Free Online Course](https://alison.com/topic/learn/72407/patterns-of-population-distribution-learning-outcomes){target="_blank"} (you get what you pay for)
   - Decent Community Ecology [Video](https://ocw.mit.edu/high-school/biology/exam-prep/ecology/communities-ecosystems/community-ecology/#vid_index){target="_blank"}
@@ -604,10 +608,10 @@ knitr::include_graphics("../media/week15.jpg")
 **Videos**
 
   - 
-  -
-  -
+
 
 [Back to top of page](#top)
+
 
 ___
 
@@ -624,7 +628,7 @@ knitr::include_graphics("../media/week16.jpg")
 
 **Readings and Assignments**
 
-  - Post-Test Friday
+  - **Post-Test Friday**
   - If you haven't turned in Your-Choice Points yet, you've missed your chance
   - Also, if that's the case, you had your chance so no whining
 

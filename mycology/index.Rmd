@@ -499,7 +499,7 @@ knitr::include_graphics("./media/ectomycorrhizae.jpg")
 
   - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_10.txt){target="_blank"}
   - Leson [slides](https://gzahn.github.io/mycology/lectures/Week10.odp){target="_blank"}
-  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Lesson [video](https://youtu.be/YoNcsXOkyVE){target="_blank"} (Recorded during class and posted after)
   - Best [overview paper](https://www.nature.com/articles/nrmicro.2016.149){target="_blank"} of ECM fungi ever!
   
 

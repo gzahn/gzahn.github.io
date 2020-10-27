@@ -1,0 +1,79 @@
+---
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: Chapter_7_Practice
+---
+    
+# Chapter 3 Practice:
+    
+### process substitution, redirects, wc, grep, paste, cut, head, tail, etc...
+    
+___
+  
+  
+  Here's a zipped [directory](http://gzahn.github.io/binf-data-skills/Data/Chapter_3_Practice_Files.zip). It contains 4 files: A.txt, B.txt, story.txt, and words.txt
+
+
+Download and unzip it into a reasonable directory and use the files inside of it to accomplish the following tasks:
+
+___
+
+
+##### **1. Combine the contents of A.txt and B.txt into a new tab-separated file called C.txt (contents of C.txt shown below)**
+    
+    1       A
+    2	    B
+    3	    C
+    4	    D
+    5	    E
+    6	    F
+    7	    G
+    8	    H
+    9	    I
+    10	    J
+    
+    
+##### **2. Combine the words that begin with either B or E (case insensitive) from words.txt with the first 6 lines of the new C.txt file you just created.**
+
+    1	A	Eat
+    2	B	Earth
+    3	C	Eggplant
+    4	D	bonanza
+    5	E	balloon
+    6	F	Billow
+
+##### **3. Return the first 6 sentences from story.txt**
+
+    Then all at once the wind stopped its howling. The pace began to slow down. Sophie could feel the Giant's feet pounding once again over the earth. She poked her head up out of the blanket to have a look. They were in a country of thick forests and rushing rivers. The Giant had definitely slowed down and was now running more normally, although normal was a silly word to use to describe a galloping giant
+    
+    
+##### **4. Return the first 6 sentences from story.txt, one per line and combine that with A.txt**
+
+This requires a tricky for-loop and command substitution!
+
+    1	 Then all at once the wind stopped its howling
+    2	 The pace began to slow down
+    3	 Sophie could feel the Giant's feet pounding once again over the earth
+    4	 She poked her head up out of the blanket to have a look
+    5	 They were in a country of thick forests and rushing rivers
+    6	 The Giant had definitely slowed down and was now running more normally, although normal was a silly word to use to describe a galloping giant
+
+
+##### **5. See if you understand the following:**
+
+  - Can you understand what the following code does and why it works (or doesn't)?
+      
+            echo "There are $(ls -1 *.txt | wc -l) files in this directory."
+  
+  - What about this?
+  
+            for i in {1..5}; do echo "This is line $i.";done
+  
+  - And this?
+  
+            ls -1 | head -2 > first_2_files.txt && cat first_2_files.txt && rm first_2_files.txt
+            
+  - And, finally, this?
+  
+            cat file_that_does_not_exist.txt 2> err.txt | wc -l && cat err.txt

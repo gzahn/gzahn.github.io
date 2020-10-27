@@ -1,0 +1,51 @@
+week 1
+  - Early Earth [Slides](https://github.com/gzahn/BIOL_1620/raw/master/01_First_Day-Early_Earth_and_Syllabus.pdf){target="_blank"}
+  - Antibiotic Resistance [Slides](https://github.com/gzahn/BIOL_1620/raw/master/02_Antibiotic_Resistance.pdf){target="_blank"}
+
+week 2
+  - Survey of Metabolic Groups [Slides](https://github.com/gzahn/BIOL_1620/raw/master/04_TOL_Survey_Metabolism.pdf){target="_blank"}
+
+week 3
+  - Mechanisms of Evolution [Slides](https://github.com/gzahn/BIOL_1620/raw/master/03_Nature_of_Science-Mech_of_Evolution.pdf){target="_blank"}
+
+week 4
+  - Bacteria and Archaea [Slides](https://github.com/gzahn/BIOL_1620/raw/master/07_Prokaryotes.pdf){target="_blank"}
+
+week 5
+  - Protist [Slides](https://github.com/gzahn/BIOL_1620/raw/master/08_Protist_Intro.pdf){target="_blank"}
+
+week 6
+  - Metazoa [Slides](https://github.com/gzahn/BIOL_1620/raw/master/10_Metazoa_Intro.pdf){target="_blank"}
+
+week 7
+  - Invertebrate [Slides](https://github.com/gzahn/BIOL_1620/raw/master/12_Invertebrates.pdf){target="_blank"}
+  - Vertebrate [Slides](https://github.com/gzahn/BIOL_1620/raw/master/13_Vertebrates.pdf){target="_blank"}
+  - Mammals, Primates, Hominins [Slides](https://github.com/gzahn/BIOL_1620/raw/master/14_Mammals_Primates_Hominins.pdf){target="_blank"}
+
+week 8
+  - Fungus [Slides](https://github.com/gzahn/BIOL_1620/raw/master/15_Fungi_Intro.pdf)
+
+week 9 (spring break)
+
+week 10
+  - Plant Nutrition [Slides](https://github.com/gzahn/BIOL_1620/raw/master/17_Plant_Nutrition.pdf)
+  - GMO [Slides](https://github.com/gzahn/BIOL_1620/raw/master/19_GMOs.pdf)
+
+week 11
+  - Plant Evolution [Slides](https://github.com/gzahn/BIOL_1620/raw/master/20_Plant_Evolution.pdf)
+
+week 12
+  - Seed Plants [Slides](https://github.com/gzahn/BIOL_1620/raw/master/21_Seed_Plants.pdf) 
+  - Plant Anatomy [Slides](https://github.com/gzahn/BIOL_1620/raw/master/22_Plant_Anatomy.pdf)
+
+week 13
+  - Animal Behavior [Slides](https://github.com/gzahn/BIOL_1620/raw/master/23_Animal_Behavior.pdf)
+
+week 14
+  - Population Ecology [Slides](https://github.com/gzahn/BIOL_1620/raw/master/24_Ecology_Intro_and_PopEcol.pdf)
+
+week 15
+  - Community Ecology [Slides](https://github.com/gzahn/BIOL_1620/raw/master/25_Community_Ecology.pdf)
+
+week 16
+  - (none)
