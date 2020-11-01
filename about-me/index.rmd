@@ -20,6 +20,12 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 # **About me / [CV](https://github.com/gzahn/Profile/blob/master/CV_TT.pdf)**
 ### **Browse this site for information about our research or [follow this link](https://github.com/gzahn/Profile/blob/master/CV_TT.pdf) for my (fairly) current C.V.**
 
+___
+
+#### **I offer a wide range of microbial bioinformatics consultancy services. If you are interested please get in touch.**
+
+___
+
 ### I am an Assistant Professor of Mycology at Utah Valley University. My students and I are investigating extremophilic fungi, the effect of fire severity on forest soil microbial community recovery, and the microbes associated with coral ecosystems under climate change. I am broadly interested in microbial ecology and biogeochemistry, but am particularly drawn to applied questions and manipulative experimentation.
 
 
