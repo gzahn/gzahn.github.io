@@ -526,9 +526,9 @@ knitr::include_graphics("./media/lichen.jpg")
   
 **Resources**
 
-  - [Major Topics](){target="_blank"}
-  - Leson [slides](){target="_blank"}
-  - Lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - [Major Topics](https://gzahn.github.io/mycology/study_topics/week_11.txt){target="_blank"}
+  - Leson [slides](https://gzahn.github.io/mycology/lectures/Week11.odp){target="_blank"}
+  - Lesson [video](){target="_blank"} (Video recording failed!)
   
 **Videos**
 
