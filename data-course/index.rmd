@@ -630,7 +630,7 @@ knitr::include_graphics("../media/jennybryan.jpeg")
 
 **Resources**
 
-  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
+  - Recorded lesson [video](https://youtu.be/EpgfmrZp2-E){target="_blank"} (Part 1)
   - [Project-oriented Workflows](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/){target="_blank"}
   - [Reproducible, Portable, Self-Contained](https://ptds2018.netlify.com/tutorials/workflow/){target="_blank"}
   - [Proper Project Organization Example](https://github.com/gzahn/Data_Course/tree/master/Code_Examples/Example_Project){target="_blank"}
