@@ -556,6 +556,7 @@ ___
   - Comparing multiple models with [regression tables](https://evalsp20.classes.andrewheiss.com/reference/regtables/){target="_blank"}
   - Intro to Machine Learning [online text](https://lgatto.github.io/IntroMachineLearningWithR/an-introduction-to-machine-learning-with-r.html){target="_blank"}
   - Free case studies using [Machine Learning in R](https://supervised-ml-course.netlify.app/){target="_blank"}
+  - Awesome student-made [repository](https://github.com/austenapigo/GLAMM-Generalized-Linear-Additive-Mixed-Models){target="_blank"} featuring good explanations of different models
   
  
 **Practice**
