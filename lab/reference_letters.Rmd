@@ -34,6 +34,8 @@ ___
   + **Content:**
     - **Short statement of your career goals**
     - **Academic goals (what you are applying for)**
+    - **Format for letter; Link to submission portal or instructions for where and how to submit**
+    - **List of strong and weak points in your application; what do you need emphasized in the letter?**
   + **Attachments:**
     - **Your "statement of purpose" or cover letter from your application**
     - **Your current CV**
