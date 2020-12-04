@@ -1,0 +1,73 @@
+{"assemblies": [
+{
+  "files": [
+    {
+      "filePath": "cds.fna",
+      "fileType": "CDS_NUCLEOTIDE_FASTA"
+    },
+    {
+      "filePath": "genomic.fna",
+      "fileType": "GENOMIC_NUCLEOTIDE_FASTA"
+    },
+    {
+      "filePath": "protein.faa",
+      "fileType": "PROTEIN_FASTA"
+    },
+    {
+      "filePath": "protein.gpff",
+      "fileType": "GENPEPT_FLAT_FILE"
+    },
+    {
+      "filePath": "data_report.jsonl",
+      "fileType": "DATA_REPORT"
+    },
+    {
+      "filePath": "virus_dataset.md",
+      "fileType": "README"
+    },
+    {
+      "filePath": "pdb/6VYB.pdb",
+      "fileType": "PDB_FILE"
+    },
+    {
+      "filePath": "pdb/6VYO.pdb",
+      "fileType": "PDB_FILE"
+    },
+    {
+      "filePath": "pdb/6W37.pdb",
+      "fileType": "PDB_FILE"
+    },
+    {
+      "filePath": "pdb/6W4H.pdb",
+      "fileType": "PDB_FILE"
+    },
+    {
+      "filePath": "pdb/6W9C.pdb",
+      "fileType": "PDB_FILE"
+    },
+    {
+      "filePath": "pdb/6W9Q.pdb",
+      "fileType": "PDB_FILE"
+    },
+    {
+      "filePath": "pdb/6WEY.pdb",
+      "fileType": "PDB_FILE"
+    },
+    {
+      "filePath": "pdb/6WJI.pdb",
+      "fileType": "PDB_FILE"
+    },
+    {
+      "filePath": "pdb/6WLC.pdb",
+      "fileType": "PDB_FILE"
+    },
+    {
+      "filePath": "pdb/7BQY.pdb",
+      "fileType": "PDB_FILE"
+    },
+    {
+      "filePath": "pdb/7BV2.pdb",
+      "fileType": "PDB_FILE"
+    }
+  ]
+}]}

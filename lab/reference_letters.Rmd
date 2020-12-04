@@ -1,0 +1,45 @@
+---
+output: html_document
+pagetitle: Reference Letter Instructions
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/)
+
+<br/>
+
+___
+
+# Instructions for requesting a reference letter:
+
+### 1. Make sure you ask me a month in advance of the due date
+### 2. I only provide letters that you have waived the right to see
+### 3. With your request to me, please send an email with the following:
+
+  + **Subject line: "Reference Letter Request - YOUR NAME"**
+  + **Content:**
+    - **Short statement of your career goals**
+    - **Academic goals (what you are applying for)**
+  + **Attachments:**
+    - **Your "statement of purpose" or cover letter from your application**
+    - **Your current CV**
+    - **Unofficial transcript**
+
+___
+
+#### **These help me write the best letter possible. Having a standardized subject line also helps make sure requests don't get lost.**
+

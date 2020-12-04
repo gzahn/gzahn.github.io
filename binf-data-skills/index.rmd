@@ -350,7 +350,7 @@ knitr::include_graphics("./Media/linuxfu.jpg")
   
 **Practice**
 
-  - [Practice tasks](https://gzahngithub.io/binf-data-skills/Practice/Chapter_7_Practice.html){target="_blank"}
+  - [Practice tasks](https://gzahn.github.io/binf-data-skills/Practice/Chapter_7_Practice.html){target="_blank"}
   
   
 [Back to top of page](#top)
@@ -413,14 +413,17 @@ knitr::include_graphics("./Media/ncbi.gif")
 
 **Topics:**
   
-  -
-  -
-  -
+  - NCBI / SRA
+  - Searches, filters, metadata
+  - Database files and formats
+  - Documenting data acquisition
+  - Checksums
+  - File compression
   
 **Assignments:**
   
   - Work through **BDS Chapter 6**
-  - **Assignment 6 -** download stuff with ftp, curl, Edirect, sra-toolkit
+  - **Assignment 6 -** download stuff with ftp, wget, curl, Edirect, sra-toolkit
   - **Case Study 2 -** Reproducibly downloading stuff (BDS p. 120)
   
     + Full documentation
@@ -429,11 +432,14 @@ knitr::include_graphics("./Media/ncbi.gif")
 
 **Resources**
 
-  - 
+  - [FileZilla](https://filezilla-project.org/){target="_blank"} is a free FTP client that really comes in handy for moving files to and from remote servers
+  - **curl** vs **wget** [comparison](https://www.baeldung.com/linux/curl-wget){target="_blank"}
+  - SRA Toolkit [download page](https://github.com/ncbi/sra-tools/wiki/01.-Downloading-SRA-Toolkit){target="_blank"}
+  - fastq-dump [instructions](https://gzahn.github.io/binf-data-skills/Media/fastq-dump_instructions.html){target="_blank"} from the Edwards Lab
   
 **Practice**
 
-  - 
+  - [Practice task](https://gzahn.github.io/binf-data-skills/Practice/Chapter_6_Practice.html){target="_blank"}
   
   
 [Back to top of page](#top)

@@ -28,7 +28,7 @@ ___
   
   **6.  Now, starting from that new tabular file, use awk/sed/etc. to convert it back to standard fasta format. Record all your commands that got the job done.**
   
-  **7.  Okay, back to the orginal fasta file...two of the DNA reads have been assigned the exact same taxonomy. Write a short command to find the full taxonomic affiliation of the repeated taxonomic group. Your command can't make use of the taxonomic names in any way; Just because you can visually inspect this file doesn't mean it's always possible or feasible.**
+  **7.  Okay, back to the orginal fasta file...two of the DNA reads have been assigned the exact same taxonomy. Write a short command to find the full taxonomic affiliation of the repeated taxonomic group. Your command can't make use of the taxonomic names in any way; Just because you can visually inspect _this_ file doesn't mean it's always possible or feasible.**
   
   **8.  Now, extend that command to return _just_ the two DNA reads where the taxonomy is the same. Let me show you want I mean:**
   

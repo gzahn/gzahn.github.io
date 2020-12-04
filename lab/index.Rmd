@@ -41,6 +41,8 @@ knitr::include_graphics("../wp-content/uploads/Lab_Members-1024x675.jpg")
 ### Here's our [shared reading folder](https://www.zotero.org/groups/415455/microbe_ecology/items?).
 </div>
 
+### If you need a reference letter from me for graduate or professional school, please see [these instructions](https://gzahn.github.io/lab/reference_letters.html)
+
 <style>
 div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 </style>

@@ -17,32 +17,34 @@ Here's a gzipped fasta [file](http://gzahn.github.io/binf-data-skills/Data/Chapt
 
 Download and unzip it into a reasonable directory and see if you can get the following outputs from it using 'sed' and 'grep' (along with a few other tools like cut, sort, tr, etc.)
 
+The code for the first practice problem is shown. After that, I'm only showing the desired output.
+
 ___
 
 
 ##### **1. A sorted list of the genera found in "Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;"**
 
     # I'll show you the line of code for the first one:
-    cat Chapter_7_Practice_File_1.fa | grep ";Planococcaceae;" | sort -u
+    cat Chapter_7_Practice_File_1.fa | grep ";Planococcaceae;." | sort -u | cut -d ";" -f 6
+    
+    Bhargavaea
+    Caryophanon
+    Chryseomicrobium
+    Chungangia
+    Filibacter
+    Jeotgalibacillus
+    Kurthia
+    Lysinibacillus
+    Paenisporosarcina
+    Planococcus
+    Planomicrobium
+    Psychrobacillus
+    Rummeliibacillus
+    Solibacillus
+    Sporosarcina
+    Ureibacillus
+    Viridibacillus
 
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Bhargavaea;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Caryophanon;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Chryseomicrobium;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Chungangia;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Filibacter;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Jeotgalibacillus;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Kurthia;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Lysinibacillus;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Paenisporosarcina;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Planococcus;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Planomicrobium;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Psychrobacillus;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Rummeliibacillus;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Solibacillus;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Sporosarcina;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Ureibacillus;
-    Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Viridibacillus;
 
 
 ##### **2. A count of the number of times the *genus* "Aquincola" turns up in this data set**
@@ -92,9 +94,15 @@ ___
   
     GAACGCTGGCGGCGTGCTTAACACATGCAAGTCGAACGGAAAGGTCTCTTCGGAGATACTCGAGTGGCGAACGGGTGAGTAACACGTGGGTAATCT---CTGCACATCGGGATAA---TGGGAAACTGGGTCTAATACCGAATAGGACCTCGAGGCGCAT---TTGTGGTGGAAAGCTTTTGCGGTGTGGGATGG---CGCG---TATCAGCTTGTTGGTGGGGTGACG---TACCAAGGCGACGACGGGTA---G---TGAGAGGGTGTCCG---ACACTGGGACTGAGATACG---CAGACTCCTACGGGAGGCAGCAGTGGGGAATATTGCACAATGGGCGCAA---TGATGCAGCGAC---GCGTGGGGGATGACGGNCTTCGGGTTGTAAACCTCTTTCAGCAGGGACGAAGCGCAAGTGACGGTACCTGCAGAAGAAGCACCG---AACTACGT---AGCA---GCGGTAATACGTAGGGTGCGAGCGTTGTCCGGAATTACTGGGCGTAAAGAGCTCGTAGGTGGTTTGTCGCGTTGTTCGTGAAAACCGGGGGCTTAACCCTCGGCGTGCGGGCGATACGGGCAGACTGGAGTACTGCAGGGGAGACTGGAATTCCTGGTGTAGCGGTGGAATGCGCAGATATCAGGAGGAACACCGGTGGCGAAGGCGGGTCTCTGGGCAGTAACTGACGCTGAGGAGCGAAAGCGTGGGGAGCGAACAGGATTAGATACCCTGGTAGTCCAC---GTAAACGGTGGGTACTAGGTGTGGGTTTCCTTCCTTGGGATCCGT---GTAGCTAACGCATTAAGTACCCC---TGGGGAGTACG---GCAAGGCTAAAACTCAAAGGAATTGACGGGG---CGCACAAGCGGCGGAGCATGTGGATTAATTCGATGCAACGCGAAGAACCTTACCTGGGTTTGACATGCACAGGAC---GGCAGAGATGTCGGTTCCCTTGTG---TGTGTGCAGGTGGTGCATGGCTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTGTCTCATGTT---AGCGGGTAAT---GGGGACTCGTGAGAGACT---GGGGTCAACTCGGAGGAAGGTGGGGATGACGTCAAGTCATCAT---CCTTATGTCCAGGGCTTCACACATGCTACAATG---GGTACAAAGGGCTGCGAT---GCAAGGTTAAGCGAATCCTTTTAAA---GGTCTCAGTTCGGATCGGGGTCTGCAACTCGACCCCGTGAAGTCGGAGTCGCTAGTAATCGCAGATCAGCAACGCTGCGGTGAATACGTTCCCGG---TTGTACACACC---CGTCACGTCATGAAAGTCGGTAACACCCGAA---AGTG---TAACCTTTGGGAGGGAGCTGTCGAAGGTGGGATCGGCGATTGGGACGAAGTCGTGTTTGATCCTGGCTCAGATTGAACGCTGGCGGCAG---TAACACATGCAAGTCGAGCGGAAACGACACTAACAATCCTTCGGGTGCGTTAATGGGCGTCGAGCGGCGGACGGGTGAGTAAT---TAGGAAATT---TTGATGTGGGGGATAACCATTGGAAACGATGGCTAATACCGCATAAT---TACGG---AAAGAGGGGGACCTTCGG---TCTC...........
 
-##### **10. Here's another [file](http://gzahn.github.io/binf-data-skills/Data/Chapter_7_Practice_File_2.txt). Download it for this last practice task. Write some code that finds each of the taxa (and their DNA seuences) listed in this new file. Note that your code should use the file, you shouldn't be reading it and copy-pasting.
+##### **10. Here's another [file](http://gzahn.github.io/binf-data-skills/Data/Chapter_7_Practice_File_2.txt). Download it for this last practice task. Write some code that finds each of the taxa (and their DNA sequences) listed in this new file. To clarify, this new file is a list of taxa and I want you to use it to find all the corresponding DNA entries in the first file.
 
-Too big to print the whole thing, but here's a sample:
+To download this file, follow that link then right-click and "Save as" a txt file. OR...if you want a sneak peek at some of next week's material, run the following line of code in your terminal while in your working directory for this practice set:
+
+    wget http://gzahn.github.io/binf-data-skills/Data/Chapter_7_Practice_File_2.txt
+
+Note that your code should use the file, you shouldn't be reading it and copy-pasting.
+
+Too big to print the whole thing, but here's a sample of the output:
   
 
     >Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Corynebacteriaceae;Corynebacterium;

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>fastq-dump | EdwardsLab</title>
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://edwards.sdsu.edu/research/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://edwards.sdsu.edu/research/wp-content/themes/twentytwelve/js/html5.js?ver=3.7.0" type="text/javascript"></script>
+<![endif]-->
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//i0.wp.com' />
+<link rel='dns-prefetch' href='//i1.wp.com' />
+<link rel='dns-prefetch' href='//i2.wp.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="EdwardsLab &raquo; Feed" href="https://edwards.sdsu.edu/research/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.13.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+    (window.gaDevIds=window.gaDevIds||[]).push("dZGIzZG");
+	var mi_version         = '7.13.0';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-21545210-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+
+	if ( 'undefined' === typeof gaOptout ) {
+		function gaOptout() {
+			__gaTrackerOptout();
+		}
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-21545210-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('require', 'linkid', 'linkid.js');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/edwards.sdsu.edu\/research\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://edwards.sdsu.edu/research/wp-includes/css/dist/block-library/style.min.css?ver=5.5.2' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://edwards.sdsu.edu/research/wp-includes/css/dist/block-library/theme.min.css?ver=5.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='plyr-css-css'  href='https://edwards.sdsu.edu/research/wp-content/plugins/easy-video-player/lib/plyr.css?ver=5.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='monsterinsights-popular-posts-style-css'  href='https://edwards.sdsu.edu/research/wp-content/plugins/google-analytics-for-wordpress/assets/css/frontend.min.css?ver=7.13.0' type='text/css' media='all' />
+<link crossorigin="anonymous" rel='stylesheet' id='twentytwelve-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C700italic%2C400%2C700&#038;subset=latin%2Clatin-ext&#038;display=fallback' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='https://edwards.sdsu.edu/research/wp-content/themes/twentytwelve/style.css?ver=20190507' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-block-style-css'  href='https://edwards.sdsu.edu/research/wp-content/themes/twentytwelve/css/blocks.css?ver=20190406' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='https://edwards.sdsu.edu/research/wp-content/themes/twentytwelve/css/ie.css?ver=20150214' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='tablepress-default-css'  href='https://edwards.sdsu.edu/research/wp-content/plugins/tablepress/css/default.min.css?ver=1.12' type='text/css' media='all' />
+<link rel='stylesheet' id='video-js-css'  href='https://edwards.sdsu.edu/research/wp-content/plugins/video-embed-thumbnail-generator/video-js/video-js.css?ver=5.20.5' type='text/css' media='all' />
+<link rel='stylesheet' id='video-js-kg-skin-css'  href='https://edwards.sdsu.edu/research/wp-content/plugins/video-embed-thumbnail-generator/video-js/kg-video-js-skin.css?ver=4.6.25' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://edwards.sdsu.edu/research/wp-includes/css/dashicons.min.css?ver=5.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='kgvid_video_styles-css'  href='https://edwards.sdsu.edu/research/wp-content/plugins/video-embed-thumbnail-generator/css/kgvid_styles.css?ver=4.6.25' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://edwards.sdsu.edu/research/wp-content/plugins/jetpack/css/jetpack.css?ver=9.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://edwards.sdsu.edu/research/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' id='jetpack_related-posts-js-extra'>
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://edwards.sdsu.edu/research/wp-content/plugins/jetpack/_inc/build/related-posts/related-posts.min.js?ver=20191011' id='jetpack_related-posts-js'></script>
+<script type='text/javascript' id='monsterinsights-frontend-script-js-extra'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/edwards.sdsu.edu\/research","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://edwards.sdsu.edu/research/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.13.0' id='monsterinsights-frontend-script-js'></script>
+<script type='text/javascript' src='https://edwards.sdsu.edu/research/wp-content/plugins/easy-video-player/lib/plyr.min.js?ver=5.5.2' id='plyr-js-js'></script>
+<link rel="https://api.w.org/" href="https://edwards.sdsu.edu/research/wp-json/" /><link rel="alternate" type="application/json" href="https://edwards.sdsu.edu/research/wp-json/wp/v2/posts/1625" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://edwards.sdsu.edu/research/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://edwards.sdsu.edu/research/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='fastq-dump options' href='https://edwards.sdsu.edu/research/fastq-dump-options/' />
+<link rel='next' title='Italicizing scientific names' href='https://edwards.sdsu.edu/research/italicizing-scientific-names/' />
+<meta name="generator" content="WordPress 5.5.2" />
+<link rel="canonical" href="https://edwards.sdsu.edu/research/fastq-dump/" />
+<link rel='shortlink' href='https://wp.me/p4NY0g-qd' />
+<link rel="alternate" type="application/json+oembed" href="https://edwards.sdsu.edu/research/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fedwards.sdsu.edu%2Fresearch%2Ffastq-dump%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://edwards.sdsu.edu/research/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fedwards.sdsu.edu%2Fresearch%2Ffastq-dump%2F&#038;format=xml" />
+<link rel='stylesheet' href='https://edwards.sdsu.edu/research/wp-content/plugins/secure-html5-video-player/video-js/video-js.css' type='text/css' />
+<link rel='stylesheet' href='https://edwards.sdsu.edu/research/wp-content/plugins/secure-html5-video-player/video-js/skins/tube.css' type='text/css' />
+<script src='https://edwards.sdsu.edu/research/wp-content/plugins/secure-html5-video-player/video-js/video.js' type='text/javascript' ></script>
+<script type='text/javascript' > VideoJS.setupAllWhenReady(); </script>
+			<style type="text/css">
+				/* If html does not have either class, do not show lazy loaded images. */
+				html:not( .jetpack-lazy-images-js-enabled ):not( .js ) .jetpack-lazy-image {
+					display: none;
+				}
+			</style>
+			<script>
+				document.documentElement.classList.add(
+					'jetpack-lazy-images-js-enabled'
+				);
+			</script>
+		<link rel="amphtml" href="https://edwards.sdsu.edu/research/fastq-dump/amp/">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="fastq-dump" />
+<meta property="og:url" content="https://edwards.sdsu.edu/research/fastq-dump/" />
+<meta property="og:description" content="NCBI&#8217;s fastq-dump has to be one of the worst-documented programs available online. The default parameters for fastq-dump are also ridiculous and certainly not what you want to use. They also …" />
+<meta property="article:published_time" content="2015-12-30T03:51:05+00:00" />
+<meta property="article:modified_time" content="2017-10-08T11:18:59+00:00" />
+<meta property="og:site_name" content="EdwardsLab" />
+<meta property="og:image" content="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2016/08/cropped-EdwardsLabSiteIcon.png?fit=512%2C512&amp;ssl=1" />
+<meta property="og:image:width" content="512" />
+<meta property="og:image:height" content="512" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:text:title" content="fastq-dump" />
+<meta name="twitter:image" content="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2016/08/cropped-EdwardsLabSiteIcon.png?fit=240%2C240&amp;ssl=1" />
+<meta name="twitter:card" content="summary" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2016/08/cropped-EdwardsLabSiteIcon.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2016/08/cropped-EdwardsLabSiteIcon.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2016/08/cropped-EdwardsLabSiteIcon.png?fit=180%2C180&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2016/08/cropped-EdwardsLabSiteIcon.png?fit=270%2C270&#038;ssl=1" />
+			<style type="text/css" id="wp-custom-css">
+				/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/			</style>
+		</head>
+
+<body class="post-template-default single single-post postid-1625 single-format-standard wp-embed-responsive custom-font-enabled">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="https://edwards.sdsu.edu/research/" title="EdwardsLab" rel="home">EdwardsLab</a></h1>
+			<h2 class="site-description">Delivering the best in bioinformatics&#8230;</h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle">Menu</button>
+			<a class="assistive-text" href="#content" title="Skip to content">Skip to content</a>
+			<div class="menu-mainmenu-container"><ul id="menu-mainmenu" class="nav-menu"><li id="menu-item-523" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-523"><a href="https://edwards.sdsu.edu/research/">Home</a></li>
+<li id="menu-item-1357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1357"><a href="https://edwards.sdsu.edu/research/members/">Members</a></li>
+<li id="menu-item-524" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-524"><a href="https://edwards.sdsu.edu/research/category/research/">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-1462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1462"><a href="https://edwards.sdsu.edu/research/press/">Press</a></li>
+</ul>
+</li>
+<li id="menu-item-525" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-525"><a href="https://edwards.sdsu.edu/research/category/software/">Software</a>
+<ul class="sub-menu">
+	<li id="menu-item-1820" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1820"><a href="https://edwards.sdsu.edu/research/lab-github-pages/">Lab GitHub pages</a></li>
+	<li id="menu-item-535" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-535"><a href="http://edwards-sdsu.cvs.sourceforge.net/edwards-sdsu/">Lab Sourceforge Site</a></li>
+</ul>
+</li>
+<li id="menu-item-527" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-527"><a href="https://edwards.sdsu.edu/research/category/lab-blog/">Lab blog</a>
+<ul class="sub-menu">
+	<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2132"><a href="https://edwards.sdsu.edu/research/lab-blog/sra/">SRA</a></li>
+</ul>
+</li>
+<li id="menu-item-1147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1147"><a href="https://edwards.sdsu.edu/research/publications/">Publications</a>
+<ul class="sub-menu">
+	<li id="menu-item-1148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1148"><a href="https://edwards.sdsu.edu/research/publications/">Publications</a></li>
+	<li id="menu-item-538" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-538"><a href="https://edwards.sdsu.edu/research/category/tap/">Talks</a></li>
+	<li id="menu-item-536" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-536"><a href="https://edwards.sdsu.edu/research/category/white-papers/">White papers</a></li>
+	<li id="menu-item-1233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1233"><a href="https://edwards.sdsu.edu/research/theses/">Theses</a></li>
+	<li id="menu-item-1426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426"><a href="https://edwards.sdsu.edu/research/poster-lab/">Poster</a></li>
+</ul>
+</li>
+<li id="menu-item-1364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1364"><a href="https://edwards.sdsu.edu/research/international/">International</a></li>
+<li id="menu-item-530" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-530"><a href="https://edwards.sdsu.edu/research/category/join-our-lab/">Join</a></li>
+<li id="menu-item-1182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1182"><a href="https://edwards.sdsu.edu/research/contact-us/">Contact Us</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+			
+				
+	<article id="post-1625" class="post-1625 post type-post status-publish format-standard has-post-thumbnail hentry category-lab-blog category-sra">
+				<header class="entry-header">
+			<img width="272" height="30" src="https://i0.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2016/07/sra.png?fit=272%2C30&amp;ssl=1" class="attachment-post-thumbnail size-post-thumbnail wp-post-image jetpack-lazy-image" alt="" loading="lazy" data-attachment-id="1915" data-permalink="https://edwards.sdsu.edu/research/describing-metagenomes-in-the-sra/sra/" data-orig-file="https://i0.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2016/07/sra.png?fit=272%2C30&amp;ssl=1" data-orig-size="272,30" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="sra" data-image-description="" data-medium-file="https://i0.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2016/07/sra.png?fit=272%2C30&amp;ssl=1" data-large-file="https://i0.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2016/07/sra.png?fit=272%2C30&amp;ssl=1" data-lazy-src="https://i0.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2016/07/sra.png?fit=272%2C30&amp;ssl=1&amp;is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+						<h1 class="entry-title">fastq-dump</h1>
+								</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>NCBI&#8217;s fastq-dump has to be one of the worst-documented programs available online. The default parameters for fastq-dump are also ridiculous and certainly not what you want to use. They also have absolutely required parameters mixed in with totally optional parameters, and so you have no idea what is required and what is optional. Here, we take a look at some of the options and hopefully help you decide which parameters to run.</p>
+<p><span id="more-1625"></span></p>
+<p>If you are working with <a href="https://edwards.sdsu.edu/research/sra-metadata/" target="_blank" rel="noopener noreferrer">SRA files</a> you will need, at some point, to use fastq-dump. Unfortunately, it is not very well explained. In fact, the official NCBI <a href="http://www.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&amp;f=fastq-dump" target="_blank" rel="noopener noreferrer">documentation</a> doesn&#8217;t even <a href="https://edwards.sdsu.edu/research/fastq-dump-options/">include all the options available to fastq-dump</a>!. This is what we have learned from using it, and also what we use to extract sequences.</p>
+<p><strong>We usually use this command</strong> (changing SRR_ID to whatever the ID is).</p>
+<pre>fastq-dump --outdir fastq --gzip --skip-technical  --readids --read-filter pass --dumpbase --split-3 --clip SRR_ID</pre>
+<p>After that, and depending on your downstream analyses, you may need to reorganize the fastq files so that the sequences in each file match and that you get file(s) of singletons. I suggest that you try <a href="https://edwards.sdsu.edu/research/sorting-and-paring-fastq-files/">fastq_pair</a> to do that. <strong>Update:</strong> if you use &#8211;split-3 you will get three files, a left file, a right file, and a singletons file. Then you <em>may </em>not need to reorder your fastq files.</p>
+<p>The official documentation has pretty minimal descriptions of what the outputs are and how you should use them. Here is a more detailed description, along with noting some options that you absolutely must use when you extract sequences from SRA (noted <em>[required]</em>)</p>
+<p>Skipping the general options (help and version), you get to the &#8220;Data formatting&#8221; options:</p>
+<h1>Data formatting</h1>
+<h2><strong>Splitting reads <em>[required]</em></strong></h2>
+<p>We start with two related parameters (these are the definitions from the NCBI website)</p>
+<pre><em>--split-spot</em> Split spots into individual reads.</pre>
+<pre><em> --split-files </em> Dump each read into separate file. Files will receive suffix corresponding to read number.</pre>
+<pre>--split-3 Legacy 3-file splitting for mate-pairs: First biological reads satisfying dumping conditions are placed in files *_1.fastq and *_2.fastq If only one biological read is present it is placed in *.fastq Biological reads and above are ignored.</pre>
+<p><em><strong>Rationale</strong>: </em>Some of the reads in SRA are paired-end reads where they sequenced (e.g.) from the left and right end of the sequence and have an estimated gap size between the ends (i.e. the average length of the fragments they are sequencing). It is important that you know if the sequences are paired-end for your downstream analysis, and most programs take the pairs into consideration.</p>
+<p>&#8211;split-spot separates the read into left and right ends, and puts the reads in the <strong>same</strong> file. This creates a single file.</p>
+<p>&#8211;split-files separates the read into left and right ends, and puts the forward and reverse reads in two <strong>separate</strong> files. This creates two files.</p>
+<p>&#8211;split-3 separates the read into left and right ends, but if there is a left end <em>without a matching</em> right end, or a right end <em>without a matching </em>left end, they will be put in a single file.</p>
+<p>You need to pass one of these two parameters to your dump-fastq command (but that is not all, you need &#8211;readids, see below). If you don&#8217;t, the paired end reads are concatenated together. This makes absolutely no sense and is a stupid default to have reads put out concatenated.</p>
+<h2>Fasta output</h2>
+<p>A simple one:</p>
+<pre>-fasta &lt;[line width]&gt; FASTA only, no qualities. Optional line wrap width (set 
+to zero for no wrapping).</pre>
+<p><em><strong>Rationale:</strong></em> This outputs the sequences in fasta format with the specified line width. e.g. -fasta 80 will use 80 characters per line.</p>
+<p>As the help says, if you use -fasta 0 you don&#8217;t get any wrapping.</p>
+<p>A lot of downstream software requires fasta sequences only, and this is a good way to get those sequences. However, there are <a href="https://edwards.sdsu.edu/research/fastq-to-fasta/">quick ways to convert fastq to fasta</a>, and so if you think the fastq format may be useful (e.g. if you are going to do assembly), use that for the initial extraction.</p>
+<h2>Readids <em>[required]</em></h2>
+<pre>-I | --readids Append read id after spot id as 'accession.spot.readid' on 
+defline.</pre>
+<p><em><strong>Rationale: </strong></em>This is another one in the &#8220;what do you mean this is not default?&#8221; set of options. If you split your sequences into one (using &#8211;split-spot) or two (using &#8211;split-files) files, by default the sequences get the same ID. Huh? That makes no sense and will break your downstream processes because you have duplicate sequence IDs in the same file.</p>
+<p>If you add the -I / &#8211;readids flag, one sequence gets appended the ID .1 and the other .2. This is pretty much what <em>every</em> program that accepts paired-end reads expects for input, so if you use &#8211;split-spot or &#8211;split-files you should use &#8211;readids. You should.</p>
+<p><strong>However</strong>, it was pointed out to me (thanks, Dave!) that the  &#8211;readids option breaks BWA in downstream applications. You may need to omit this if you are using BWA. Using <a href="https://edwards.sdsu.edu/research/sorting-and-paring-fastq-files/">fastq-pair</a> may solve this issue (but I haven&#8217;t tested it yet).</p>
+<p>&nbsp;</p>
+<h2>Original format</h2>
+<pre>-F | --origfmt Defline contains only original sequence name.</pre>
+<p><strong><em>Rationale:</em> </strong>The SRA archive has rewritten the definition line in the sequence so that it contains the SRA ID and the length of the sequence. Therefore, a header that starts out:</p>
+<pre>@GFOWKFF06HMZ8O</pre>
+<p>becomes</p>
+<pre>@DRR000979.1 GFOWKFF06HMZ8O length=104</pre>
+<p>(this sequence is in SRA entry DRR000979).</p>
+<p>This is a matter of personal preference, but I use the modified IDs so that all the sequences have the ID of the SRA entry that they come from so you can back-track them if needed.</p>
+<h2>SOLiD data</h2>
+<pre>-C | --dumpcs &lt;[cskey]&gt; Formats sequence using color space (default for SOLiD). "cskey" may be specified for translation.</pre>
+<p><em><strong>Rationale: </strong></em>If your data comes from a <a href="http://www.appliedbiosystems.com/absite/us/en/home/applications-technologies/solid-next-generation-sequencing.html">SOLiD machine</a>, you may want to enable this option so you can use color space.</p>
+<h2>Sequence data</h2>
+<pre>-B | --dumpbase Formats sequence using base space (default for other than 
+SOLiD).</pre>
+<p><em><strong>Rationale: </strong></em>This will ensure that your output has A, T, G, and C instead of being put into color space.  We include this by default because we don&#8217;t want colorspace, even by accident.</p>
+<h2>Quality Scores</h2>
+<p>-Q | &#8211;offset &lt;integer&gt; Offset to use for ASCII quality scores. The default is 33 (&#8220;!&#8221;).</p>
+<p><em><strong>Rationale: </strong></em>In the old days, Illumina used <a href="https://en.wikipedia.org/wiki/FASTQ_format#Quality">slightly different ways to calculate the quality scores and a slightly different offset for the quality scores</a>. You should leave this as the default value for almost all applications.</p>
+<h1>Filtering</h1>
+<h2>Spot IDs</h2>
+<pre>-N | --minSpotId &lt;rowid&gt; Minimum spot id to be dumped. Use with "X" to dump a 
+range.
+-X | --maxSpotId &lt;rowid&gt; Maximum spot id to be dumped. Use with "N" to dump a 
+range.</pre>
+<p><em><strong>Rationale: </strong></em>If you want to output one or a few spots from the SRA file, you can use -N and -X. Note that if you use this, you should probably <em>not</em> start at position 0, but start a few thousand reads into the file. For reasons that we are not sure about (but we have some conspiracy theories about), many fastq files have &#8220;unusual&#8221; sequences at the start of the file. We usually use -N 10000 -X 110000 to get 100,000 reads.</p>
+<h2> Read length</h2>
+<pre>-M | --minReadLen &lt;len&gt; Filter by sequence length &gt;= &lt;len&gt;</pre>
+<p><em><strong>Rationale:</strong></em> Read length is a <a href="https://scholar.google.com/citations?view_op=view_citation&amp;citation_for_view=e7fvl1kAAAAJ:HDshCWvjkbEC">good proxy for sequence quality</a>, and so you may want to filter reads below a certain length so they are ignored. Again, we post-filter the sequences, so we don&#8217;t use this one.</p>
+<h2>Technical sequences <em>[required]</em></h2>
+<pre> --skip-technical Dump only biological reads.</pre>
+<p><em><strong>Rationale: </strong></em>If the sequencing was done with the &#8220;Illumina multiplex library construction protocol&#8221; the SRA entry ends up with application reads and technical reads like this:</p>
+<pre>Application Read Forward -&gt; Technical Read Forward &lt;- Application Read Reverse - Technical Read Reverse.</pre>
+<p>The spots look like this:</p>
+<p><a href="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?ssl=1" rel="attachment wp-att-1637"><img data-attachment-id="1637" data-permalink="https://edwards.sdsu.edu/research/fastq-dump/illumina_technical_reads/" data-orig-file="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?fit=361%2C70&amp;ssl=1" data-orig-size="361,70" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="illumina_technical_reads" data-image-description data-medium-file="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?fit=300%2C58&amp;ssl=1" data-large-file="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?fit=361%2C70&amp;ssl=1" loading="lazy" class="alignnone size-medium wp-image-1637 jetpack-lazy-image" src="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?resize=300%2C58&#038;ssl=1" alt="illumina_technical_reads" width="300" height="58" data-recalc-dims="1" data-lazy-srcset="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?resize=300%2C58&amp;ssl=1 300w, https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?w=361&amp;ssl=1 361w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?resize=300%2C58&amp;is-pending-load=1#038;ssl=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img data-attachment-id="1637" data-permalink="https://edwards.sdsu.edu/research/fastq-dump/illumina_technical_reads/" data-orig-file="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?fit=361%2C70&amp;ssl=1" data-orig-size="361,70" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="illumina_technical_reads" data-image-description="" data-medium-file="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?fit=300%2C58&amp;ssl=1" data-large-file="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?fit=361%2C70&amp;ssl=1" loading="lazy" class="alignnone size-medium wp-image-1637" src="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?resize=300%2C58&#038;ssl=1" alt="illumina_technical_reads" width="300" height="58" srcset="https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?resize=300%2C58&amp;ssl=1 300w, https://i2.wp.com/edwards.sdsu.edu/research/wp-content/uploads/2015/12/illumina_technical_reads.png?w=361&amp;ssl=1 361w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></noscript></a></p>
+<p>You don&#8217;t want the technical reads &#8211; you only want the biological reads &#8211; so include &#8211;skip-technical to remove those technical parts. If you omit this option and include the &#8211;split-files you actually end up with three or four files per SRA archive!</p>
+<h2>Clipping<em> [required]</em></h2>
+<p>-W|&#8211;clip Apply left and right clips</p>
+<p><em><strong>Rationale: </strong></em>Some of the sequences in the SRA contain tags that are used e.g. for whole genome amplification and <a href="https://scholar.google.com/citations?view_op=view_citation&amp;citation_for_view=e7fvl1kAAAAJ:TQgYirikUcIC">need to be removed</a>. This will remove those sequences for you. You should enable this flag as it will trim off those sequences for you.</p>
+<h2>Aligned and unaligned sequences</h2>
+<pre>--aligned Dump only aligned sequences. Aligned datasets only; see sra-stat.
+--unaligned Dump only unaligned sequences. Will dump all for unaligned datasets</pre>
+<p><em><strong>Rationale: </strong></em>If you are looking for reads that map to the human genome, for example, you may want only the aligned or unaligned part. This is optional and up to you.</p>
+<h2>Read filtering <em>[required]</em></h2>
+<pre>--read-filter pass</pre>
+<p><em><strong>Rationale: </strong></em>You want to filter out reads that are all N&#8217;s or otherwise completely useless. This filter can be set to pass|reject|criteria|redacted but you want only those reads that pass filtering. Otherwise you just get a bunch of Ns.</p>
+<h1>Workflow and piping</h1>
+<p>These options control the output of fastq-dump and are straightforward but worth noting.</p>
+<h2>Output to a specific directory</h2>
+<pre>-O | --outdir &lt;path&gt; Output directory, default is current working directory
+ ('.').</pre>
+<p><em><strong>Rationale:</strong></em> The default directory to write to is your current working directory. This will output the fastq file to an alternate directory.</p>
+<h2>Output to standard out.</h2>
+<pre>-Z | --stdout Output to stdout, all split data become joined into single stream</pre>
+<p><em><strong>Rationale:</strong></em> By default the output is written to one or more files. This will output the data to standard out, so you can (for example) pipe it into another command. You probably don&#8217;t want to do this.</p>
+<h2>Compression</h2>
+<pre>--gzip Compress output using gzip.
+--bzip2 Compress output using bzip2.</pre>
+<p>You can compress the sequences files using one of two standard compression algorithms, <a href="https://en.wikipedia.org/wiki/Gzip">gzip</a> or <a href="https://en.wikipedia.org/wiki/Bzip2">bzip2</a>. Gzip is probably more widely supported (but only just) and several common downstream programs like <a href="http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml">bowtie2</a> can use both gzip and bzip2 directly.</p>
+<h1>Extracting sequences</h1>
+<p>The command that we use to extract sequences from SRA archives is:</p>
+<pre>fastq-dump --gzip --skip-technical  --readids --dumpbase --split-files --clip 
+sra_filename</pre>
+<p>&nbsp;</p>
+<h1>Other options</h1>
+<p>There are <a href="https://edwards.sdsu.edu/research/fastq-dump-options/">other options</a> available in fastq-dump, but you <em>probably</em> can leave those as defaults (<em>caveat emptor</em>!) You can get <a href="https://edwards.sdsu.edu/research/fastq-dump-options/">this list of options</a> by running</p>
+<pre>fastq-dump -h
+</pre>
+<h1>Thanks</h1>
+<p>Most of this was figured out by trial and error, although we thank the anonymous reviewers of our partie paper that pointed out a couple of options we didn&#8217;t regularly include but should have!</p>
+<p>&nbsp;</p>
+
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Related</em></h3>
+</div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			This entry was posted in <a href="https://edwards.sdsu.edu/research/category/lab-blog/" rel="category tag">Lab blog</a>, <a href="https://edwards.sdsu.edu/research/category/lab-blog/sra/" rel="category tag">SRA</a> on <a href="https://edwards.sdsu.edu/research/fastq-dump/" title="8:51 pm" rel="bookmark"><time class="entry-date" datetime="2015-12-29T20:51:05-07:00">December 29, 2015</time></a><span class="by-author"> by <span class="author vcard"><a class="url fn n" href="https://edwards.sdsu.edu/research/author/redwards/" title="View all posts by Rob Edwards" rel="author">Rob Edwards</a></span></span>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+
+				<nav class="nav-single">
+					<h3 class="assistive-text">Post navigation</h3>
+					<span class="nav-previous"><a href="https://edwards.sdsu.edu/research/fastq-dump-options/" rel="prev"><span class="meta-nav">&larr;</span> fastq-dump options</a></span>
+					<span class="nav-next"><a href="https://edwards.sdsu.edu/research/italicizing-scientific-names/" rel="next">Italicizing scientific names <span class="meta-nav">&rarr;</span></a></span>
+				</nav><!-- .nav-single -->
+
+				
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="text-2" class="widget widget_text"><h3 class="widget-title">Contact Information for Rob Edwards</h3>			<div class="textwidget"><p>Office: PS 123<br />
+Lab: PS 106<br />
+Phone: +1 619 594-1672<br />
+Fax: +1 619 594 6746<br />
+Email: redwards@sdsu.edu</p>
+</div>
+		</aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="https://edwards.sdsu.edu/research/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></aside><aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Log In &#038; RSS</h3>
+		<ul>
+						<li><a href="https://edwards.sdsu.edu/research/wp-login.php">Log in</a></li>
+			<li><a href="https://edwards.sdsu.edu/research/feed/">Entries feed</a></li>
+			<li><a href="https://edwards.sdsu.edu/research/comments/feed/">Comments feed</a></li>
+
+			<li><a href="https://wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</aside>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+									<a href="https://wordpress.org/" class="imprint" title="Semantic Personal Publishing Platform">
+				Proudly powered by WordPress			</a>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type='text/javascript' src='https://edwards.sdsu.edu/research/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20191001' id='jetpack-photon-js'></script>
+<script type='text/javascript' src='https://edwards.sdsu.edu/research/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205' id='twentytwelve-navigation-js'></script>
+<script type='text/javascript' src='https://edwards.sdsu.edu/research/wp-content/plugins/jetpack/vendor/automattic/jetpack-lazy-images/src/js/lazy-images.min.js?ver=1.0.0' id='jetpack-lazy-images-js'></script>
+<script type='text/javascript' src='https://edwards.sdsu.edu/research/wp-includes/js/wp-embed.min.js?ver=5.5.2' id='wp-embed-js'></script>
+<script type='text/javascript' id='jetpack-carousel-js-extra'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/edwards.sdsu.edu\/research\/wp-admin\/admin-ajax.php","nonce":"28647bc555","display_exif":"1","display_comments":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/edwards.sdsu.edu\/research\/wp-login.php?redirect_to=https%3A%2F%2Fedwards.sdsu.edu%2Fresearch%2Ffastq-dump%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://edwards.sdsu.edu/research/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=9.1' id='jetpack-carousel-js'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-202048.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:9.1',blog:'71014072',post:'1625',tz:'-7',srv:'edwards.sdsu.edu'} ]);
+	_stq.push([ 'clickTrackerInit', '71014072', '1625' ]);
+</script>
+</body>
+</html>

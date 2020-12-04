@@ -1,0 +1,51 @@
+---
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: Chapter_6_Practice
+---
+
+# Chapter 6 Practice:
+
+### Downloading sequence data from the Sequence Read Archive
+
+___
+
+
+The [SRA](https://www.ncbi.nlm.nih.gov/sra/){target="_blank"} is the largest publicly available repository of high throughput sequencing data. The archive accepts data from all branches of life as well as metagenomic and environmental surveys. SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis. 
+
+The online servers can be browsed with a web browser like any normal web page, but the function of this site is to archive massive amounts of sequence data and to actually access that data you need to use special [command-line tools](https://www.ncbi.nlm.nih.gov/home/tools/){target="_blank"} like E-utilities and SRA Toolkit. 
+
+We will look through the SRA site in class and learn how to refine searches and find accession numbers, but for this practice set, I've retrieved a metadata file for a subset of samples from a study that looked at how Parkinsons disease interacts with the human gut microbiome. The full SRA BioProject is [PRJNA601994](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA601994){target="_blank"} and the file showing info about the subset of samples you will be downloading is [here](https://gzahn.github.io/binf-data-skills/Practice/Chapter_6_SraRunTable.txt).  
+
+You can use **wget** to download it directly if you are in your terminal and are in the directory where you want it to be downloaded:
+
+    wget https://gzahn.github.io/binf-data-skills/Practice/Chapter_6_SraRunTable.txt
+
+___
+
+This file is the sample metadata from the SRA Run Selector. The first field is the "Run accession number." Those accession numbers can be fed into the **prefetch** and **fastq-dump** programs from the SRA Toolkit to actually download the associated DNA data with each of these samples.
+
+___
+
+### Your tasks:
+
+1. Download all sequence data associated with each "Run" accession in the metadata file. 
+
+2. Confirm that they were downloaded without any errors.
+
+3. Convert them to fastq format.
+
+4. Create a README.txt file that fully documents the commands used to download and convert those accessions in to fastq format. Include a list of checksums for each SRA file in this README.txt document.
+
+___
+
+### Hints:
+
+Don't worry about the rest of the metadata fields at this point. Just isolate the "Run" accessions
+
+How to use **prefetch** can be found [here](https://www.ncbi.nlm.nih.gov/sra/docs/sradownload/){target="_blank"}
+
+However, that site might not be enough to get you nice fastq format...see the course resources for this week.
+
+Once you've downloaded the SRA files, use **vdb-validate** to make sure there were no errors while downloading

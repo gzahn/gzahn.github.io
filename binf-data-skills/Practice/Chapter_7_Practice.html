@@ -372,30 +372,30 @@ summary {
 <hr />
 <p>Here’s a gzipped fasta <a href="http://gzahn.github.io/binf-data-skills/Data/Chapter_7_Practice_File_1.fa.gz">file</a>.</p>
 <p>Download and unzip it into a reasonable directory and see if you can get the following outputs from it using ‘sed’ and ‘grep’ (along with a few other tools like cut, sort, tr, etc.)</p>
+<p>The code for the first practice problem is shown. After that, I’m only showing the desired output.</p>
 <hr />
 <div id="a-sorted-list-of-the-genera-found-in-bacteriafirmicutesbacillibacillalesplanococcaceae" class="section level5">
 <h5><strong>1. A sorted list of the genera found in “Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;”</strong></h5>
 <pre><code># I&#39;ll show you the line of code for the first one:
-cat Chapter_7_Practice_File_1.fa | grep &quot;;Planococcaceae;&quot; | sort -u
+cat Chapter_7_Practice_File_1.fa | grep &quot;;Planococcaceae;.&quot; | sort -u | cut -d &quot;;&quot; -f 6
 
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Bhargavaea;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Caryophanon;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Chryseomicrobium;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Chungangia;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Filibacter;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Jeotgalibacillus;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Kurthia;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Lysinibacillus;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Paenisporosarcina;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Planococcus;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Planomicrobium;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Psychrobacillus;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Rummeliibacillus;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Solibacillus;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Sporosarcina;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Ureibacillus;
-Bacteria;Firmicutes;Bacilli;Bacillales;Planococcaceae;Viridibacillus;</code></pre>
+Bhargavaea
+Caryophanon
+Chryseomicrobium
+Chungangia
+Filibacter
+Jeotgalibacillus
+Kurthia
+Lysinibacillus
+Paenisporosarcina
+Planococcus
+Planomicrobium
+Psychrobacillus
+Rummeliibacillus
+Solibacillus
+Sporosarcina
+Ureibacillus
+Viridibacillus</code></pre>
 </div>
 <div id="a-count-of-the-number-of-times-the-genus-aquincola-turns-up-in-this-data-set" class="section level5">
 <h5><strong>2. A count of the number of times the <em>genus</em> “Aquincola” turns up in this data set</strong></h5>
@@ -443,9 +443,12 @@ Bacteria;Cyanobacteria/Chloroplast;Cyanobacteria;Family_I;GpI;</code></pre>
 <p>Too big to print the whole thing, but here’s a sample:</p>
 <pre><code>GAACGCTGGCGGCGTGCTTAACACATGCAAGTCGAACGGAAAGGTCTCTTCGGAGATACTCGAGTGGCGAACGGGTGAGTAACACGTGGGTAATCT---CTGCACATCGGGATAA---TGGGAAACTGGGTCTAATACCGAATAGGACCTCGAGGCGCAT---TTGTGGTGGAAAGCTTTTGCGGTGTGGGATGG---CGCG---TATCAGCTTGTTGGTGGGGTGACG---TACCAAGGCGACGACGGGTA---G---TGAGAGGGTGTCCG---ACACTGGGACTGAGATACG---CAGACTCCTACGGGAGGCAGCAGTGGGGAATATTGCACAATGGGCGCAA---TGATGCAGCGAC---GCGTGGGGGATGACGGNCTTCGGGTTGTAAACCTCTTTCAGCAGGGACGAAGCGCAAGTGACGGTACCTGCAGAAGAAGCACCG---AACTACGT---AGCA---GCGGTAATACGTAGGGTGCGAGCGTTGTCCGGAATTACTGGGCGTAAAGAGCTCGTAGGTGGTTTGTCGCGTTGTTCGTGAAAACCGGGGGCTTAACCCTCGGCGTGCGGGCGATACGGGCAGACTGGAGTACTGCAGGGGAGACTGGAATTCCTGGTGTAGCGGTGGAATGCGCAGATATCAGGAGGAACACCGGTGGCGAAGGCGGGTCTCTGGGCAGTAACTGACGCTGAGGAGCGAAAGCGTGGGGAGCGAACAGGATTAGATACCCTGGTAGTCCAC---GTAAACGGTGGGTACTAGGTGTGGGTTTCCTTCCTTGGGATCCGT---GTAGCTAACGCATTAAGTACCCC---TGGGGAGTACG---GCAAGGCTAAAACTCAAAGGAATTGACGGGG---CGCACAAGCGGCGGAGCATGTGGATTAATTCGATGCAACGCGAAGAACCTTACCTGGGTTTGACATGCACAGGAC---GGCAGAGATGTCGGTTCCCTTGTG---TGTGTGCAGGTGGTGCATGGCTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTGTCTCATGTT---AGCGGGTAAT---GGGGACTCGTGAGAGACT---GGGGTCAACTCGGAGGAAGGTGGGGATGACGTCAAGTCATCAT---CCTTATGTCCAGGGCTTCACACATGCTACAATG---GGTACAAAGGGCTGCGAT---GCAAGGTTAAGCGAATCCTTTTAAA---GGTCTCAGTTCGGATCGGGGTCTGCAACTCGACCCCGTGAAGTCGGAGTCGCTAGTAATCGCAGATCAGCAACGCTGCGGTGAATACGTTCCCGG---TTGTACACACC---CGTCACGTCATGAAAGTCGGTAACACCCGAA---AGTG---TAACCTTTGGGAGGGAGCTGTCGAAGGTGGGATCGGCGATTGGGACGAAGTCGTGTTTGATCCTGGCTCAGATTGAACGCTGGCGGCAG---TAACACATGCAAGTCGAGCGGAAACGACACTAACAATCCTTCGGGTGCGTTAATGGGCGTCGAGCGGCGGACGGGTGAGTAAT---TAGGAAATT---TTGATGTGGGGGATAACCATTGGAAACGATGGCTAATACCGCATAAT---TACGG---AAAGAGGGGGACCTTCGG---TCTC...........</code></pre>
 </div>
-<div id="heres-another-file.-download-it-for-this-last-practice-task.-write-some-code-that-finds-each-of-the-taxa-and-their-dna-seuences-listed-in-this-new-file.-note-that-your-code-should-use-the-file-you-shouldnt-be-reading-it-and-copy-pasting." class="section level5">
-<h5>**10. Here’s another <a href="http://gzahn.github.io/binf-data-skills/Data/Chapter_7_Practice_File_2.txt">file</a>. Download it for this last practice task. Write some code that finds each of the taxa (and their DNA seuences) listed in this new file. Note that your code should use the file, you shouldn’t be reading it and copy-pasting.</h5>
-<p>Too big to print the whole thing, but here’s a sample:</p>
+<div id="heres-another-file.-download-it-for-this-last-practice-task.-write-some-code-that-finds-each-of-the-taxa-and-their-dna-sequences-listed-in-this-new-file.-to-clarify-this-new-file-is-a-list-of-taxa-and-i-want-you-to-use-it-to-find-all-the-corresponding-dna-entries-in-the-first-file." class="section level5">
+<h5>**10. Here’s another <a href="http://gzahn.github.io/binf-data-skills/Data/Chapter_7_Practice_File_2.txt">file</a>. Download it for this last practice task. Write some code that finds each of the taxa (and their DNA sequences) listed in this new file. To clarify, this new file is a list of taxa and I want you to use it to find all the corresponding DNA entries in the first file.</h5>
+<p>To download this file, follow that link then right-click and “Save as” a txt file. OR…if you want a sneak peek at some of next week’s material, run the following line of code in your terminal while in your working directory for this practice set:</p>
+<pre><code>wget http://gzahn.github.io/binf-data-skills/Data/Chapter_7_Practice_File_2.txt</code></pre>
+<p>Note that your code should use the file, you shouldn’t be reading it and copy-pasting.</p>
+<p>Too big to print the whole thing, but here’s a sample of the output:</p>
 <pre><code>&gt;Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Corynebacteriaceae;Corynebacterium;
 TCAGGACGAACGCTGGCGGCGTGCTTAACACATGCAAGTCGAACGGAAAGGCCTCAGCTTTTGTTGGGGTGCTCGAGTGGCGAACGGGTGAGTAACACGTGGGTGATCTGCCTCGTACTTCGGGATAAGCTTGGGAAACTGGGTCTAATACCGGATAGGACCATCATTTAGTGTTGGTGGTGGAAAGTTTTTTCGGTACGAGATGAGCCCGCGGCCTATCAGCTTGTTGGTGGGGTAATGGCCTACCAAGGCGTCGACGGGTAGCCGGCCTGAGAGGGTGGACGGCCACATTGGGACTGAGATACGGCCCAGACTCCTACGGGAGGCAGCAGTGGGGAATATTGCACAATGGGCGCAAGCCTGATGCAGCGACGCCGCGTGGGGGATGACGGCCTTCGGGTTGTAAACCTCTTTCGACAGGGACGAAGCTTTTGTGACGGTACCTGTATAAGAAGCACCGGCTAACTACGTGCCAGCAGCCGCGGTAATACGTAGGGTGCAAGCGTTGTCCGGAATTACTGGGCGTAAAGAGCTCGTAGGTGGTTTGTCGCGTCGTCTGTGAAATACCGGGGCTTAACTCCGGAGCTGCAGGCGATACGGGCATAACTTGAGTGCTGTAGGGGAGACTGGAATTCCTGGTGTAGCGGTGGAATGCGCAGATATCAGGAGGAACACCGATGGCGAAGGCAGGTCTCTGGGCAGTAACTGACGCTGAGGAGCGAAAGCATGGGGAGCGAACAGGATTAGATACCCTGGTAGTCCATGCCGTAAACGGTGGGCGCTAGGTGTAGGGGTCTTCCACGACTTCTGTGCCGTAGCTAACGCATTAAGCGCCCCGCCTGGGGNGTACGGCCGCAAGGCTAAAACTCAAAGGAATTGACGGGGGCCCGCACAAGCGGCGGAGCATGTGGATTAATTCGATGCAACGCGAAGAACCTTACCTGGGCTTGACATATACAGGACGGCTGCAGAGATGTAGTTTCCCTTGTGGTCTGTATACAGGTGGTGCATGGTTGTCGTCAGCTCGTGTCGTGAGATGTTGGGTTAAGTCCCGCAACGAGCGCAACCCTTGTCTTATGTTGCCAGCACGTTATGGTGGGGACTCATGAGAGACTGCCGGGGTTAACTCGGAGGAAGGTGGGGATGACGTCAAATCATCATGCCCCTTATGTCCAGGGCTTCACACATGCTACAATGGTCGGTACAACGCGTTGCCAGCCCGTGAGGGTGAGCGAATCGCTGAAAGCCGGCCTCAGTTCGGATTGGGGTCTGCAACTCGACCCCATGAAGTCGGAGTCGCTAGTAATCGCAGATCAGCAACGCTGCGGTGAATACGTTCCCGGGCCTTGTACACACCGCCCGTCACGTCATGAAAGTTGGTAACACCCGAAGCCAGTGGCCTAACCTTTTTTGGG
 --

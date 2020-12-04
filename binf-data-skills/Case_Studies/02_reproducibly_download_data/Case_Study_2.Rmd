@@ -1,0 +1,95 @@
+---
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: Case_Study_2
+---
+    
+# **Bioinformatics Data Skills**
+    
+## Case Study 2: Fully document the downloading of a data set
+
+Assume that a fellow biology student believes that the COVID-19 pandemic is essentially a hoax. Trust me, that person definitely exists in real life and does not believe that the virus has ever been isolated or that we have full genome sequences for it. I know... you think I'm being silly, but I'm not. 
+
+Now also assume that this student has simply been brainwashed about this bizarre idea but is still somewhat amenable to evidence (somehow). If they could see it for themself, they will abandon their weird belief. Good thing they are computer-savvy, because you can show them how to download the full genome sequence on their own!
+
+
+<br/><br/>
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../../Media/sars-cov-2.jpeg")
+```
+</div>
+
+___
+
+
+**Here, you will be using a couple command-line tools from NCBI to download sars-cov-2 genomic data**
+  
+**Everything you do must be documented so that it is completely reproducible. That includes version numbers of all software, etc..**
+
+You will be downloading the complete genome of the Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1. This is a fully annotated complete genome, and you will be downloading not only the DNA sequence, but associated metadata and protein info and documenting every step.
+  
+___
+  
+#### The tool you need is **datasets**, which can be found at [https://www.ncbi.nlm.nih.gov/datasets/docs/command-line-start/](https://www.ncbi.nlm.nih.gov/datasets/docs/command-line-start/){target="_blank"}
+
+This is a special NCBI tool for easy downloading of genes and genomes.
+
++  **Getting it installed and working properly is the first task:**
+    
+  + Download and install the version for your own computer.
+  + If on Linux or Mac, be sure to set the executable permission with: **$ chmod +x datasets**
+  + Find the "help" documentation in the program and then find the help documentation for the download command within the program
+  
+  
++  **Once you have it working, be sure to document the version number in a README.txt file associated with this project directory.**
+  
+ 
+  
+___
+
+#### Now, your tasks.
+
+1. **Search NCBI for: "sars-cov-2"**
+
+2. **Browse the info from NCBI and see what is available**
+
+3. **Find the accession number for the reference sars-cov-2 genome, known as the viral "RefSeq"**
+
+4. **Use the datasets program to download just the sars-cov-2 refseq, along with all other data available for that refseq.**
+  
+  + **Useful file info for NCBI genomes:**
+    
+      **fna:** FastA format file containing Nucleotide sequence (i.e. DNA).
+      
+      **gbff:** GenBank genome Feature File containing genome sequence and annotation.
+      
+      **gff:** General Feature Format containing genomic regions (i.e. genes, transcripts).
+      
+      **faa:** FastA format file containing Amino acid sequence (i.e. protein, peptide).
+      
+      **gpff:** GenBank Protein Feature File containing protein sequence and annotation.
+  
+      **cds:** A sequence of nucleotides that corresponds with the sequence of amino acids in a protein.
+      
+      **pdb:** Text-based description of 3-dimensional structures of molecules.
+
+5. **Find the _amino acid_ sequence for "nucleocapsid phosphoprotein" in sars-cov-2**
+
+    You'll need to browse through these files, and then use a combination of tools like fasta_formatter (from the FASTX-Toolkit) and grep to pull it out
+    
+
+### **What to turn in:**
+
+  - A cleaned-up plain-text file that documents the code you used to accomplish everything
+  - Include the output from task 5 in your file.
+  - Be sure to include comments explaining what is going on in your code
+  - Upload that plain-text file to Canvas. You'll be graded on completeness, documentation, and readability.
+
+
+
+___
+
+<br/>
