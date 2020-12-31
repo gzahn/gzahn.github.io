@@ -626,8 +626,13 @@ knitr::include_graphics("./media/Primer_map_2015_March.png")
 **Readings and Assignments**
 
   - Read [Raja, et al., 2017](https://gzahn.github.io/mycology/media/Raja_et_al_2017.pdf){target="_blank"}
+<<<<<<< HEAD
   - Teams discussion on readings (Wednesday 1pm)
   - Content will be on Final Exam
+=======
+  - Canvas quiz on readings (due before class Wednesday)
+  - Teams discussion on readings (Wednesday 1pm)
+>>>>>>> f2c4e2ecfc5f26e2d7d1db8f065c2ec998ae970a
 
   
 **Resources**
