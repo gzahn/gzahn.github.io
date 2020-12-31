@@ -1,7 +1,9 @@
 ---
 output: 
-html_document:
-  number_sections=TRUE
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: false
 pagetitle: MYCOLOGY
 ---
 
@@ -33,7 +35,7 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 # **MYCOLOGY**{#top}
 **Utah Valley University - BIOL1620**
 
-This course section is entirely online. All assignments, quizzes, and exams will be turned in and taken on Canvas. My preferred contact method is our group Slack channel.
+This course section is entirely online. All assignments, quizzes, and exams will be turned in and taken on Canvas. My preferred contact method is our group MSTeams channel.
 
 This webpage will host links to all resources and videos, and serves as a roadmap for the semester, listing readings, assignments, etc.
 
@@ -45,7 +47,6 @@ ___
   - **Required readings**
     + Textbook: Webster and Weber, *Introduction to Fungi - 3rd ed.* (specific sections)
     + Scientific papers: Usually weekly, linked below
-    + Fun book: *Mr. Bloomfield's Orchard*, by Nicholas Money
   - **Weekly quizzes on reading material** (on Canvas)
   - **Assorted "home mycology" lab, research, and field exercises** (on Canvas)
   - **Exams** (3 of these, on Canvas, open-note) 
@@ -76,9 +77,9 @@ ___
 
 ___
 
-## Quick links:
+## Quick links
 
-#### [Course Syllabus](https://gzahn.github.io/mycology/media/Syllabus_Fa_2020.pdf){target="_blank"}
+#### [Course Syllabus](https://gzahn.github.io/mycology/media/Syllabus_Sp_2021.pdf){target="_blank"}
 
 #### [Course Text Book](https://gzahn.github.io/mycology/media/WEBSTER_and_WEBER_3rd-ed.pdf){target="_blank"}
 
@@ -86,7 +87,7 @@ ___
 
 ____
 
-## Good web resources:
+## Good web resources
 
 [**21st Century Guidebook to Fungi**](http://www.davidmoore.org.uk/21st_Century_Guidebook_to_Fungi_PLATINUM/index.htm){target="_blank} (This is pretty useful for this class!) Full [download link](https://gzahn.github.io/mycology/media/21st_Century_Guide_to_Fungi_1st_ed.zip) for older edition (zipped).
 
@@ -100,33 +101,19 @@ Cornell's [**Virtual Fungal Library**](http://mycology.cornell.edu/){target="_bl
 
 Nice [**YouTube Channel**](https://www.youtube.com/channel/UCkzY4M9kg2VmqJ2nNcNM8hw){target="_blank} with videos featuring do-it-at-home mycology
 
-___
-
-## Table of Contents
-
-[Week 1](#Week-1)    |    [Week 5](#Week-5)    |    [Week 9](#Week-9) | [Week 13](#Week-13)
-
-[Week 2](#Week-2)    |    [Week 6](#Week-6)    |    [Week 10](#Week-10) | [Week 14](#Week-14)
-
-[Week 3](#Week-3)    |    [Week 7](#Week-7)    |    [Week 11](#Week-11) | [Week 15](#Week-15)
-
-[Week 4](#Week-4)    |    [Week 8](#Week-8)    |    [Week 12](#Week-12) | [Week 16](#Week-16)
 
 
 
-
-</div>
 
 ___
 
-<style>
-div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
-</style>
-<div class = "blue">
+## Weekly content:
+
+___
 
 
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+```{r "week1", out.width = "350px",echo=FALSE}
 knitr::include_graphics("./media/Fungal_Evol_Hist.png")
 ```
 </div>
@@ -143,11 +130,11 @@ knitr::include_graphics("./media/Fungal_Evol_Hist.png")
   - Study the lesson slides (link below)
   - Read [James, et al., 2006](https://gzahn.github.io/mycology/media/James_et_al_-_2006_Reconstructing_the_early_evolution_of_Fungi.pdf){target="_blank"}
   - Read Webster & Weber: **1.1** | **1.5** | **6.1** 
-  - Canvas quiz on readings (due before class Thursday)
+  - Canvas quiz on readings (due before class Wednesday)
   - Watch [this video](https://youtu.be/jLAHbP-LLFM){target="_blank"} on how fungi changed the world. Watch it before next week.
   - Find and grow zygomycete fungi (Canvas assignment; video walkthrough below)
   - Buy this cool pocket microscope [Amazon link](https://amzn.to/3grbsQG){target="_blank"} (this is in lieu of your textbook fee)
-  - Slack discussion on readings (Thursday 11:15am)
+  - Teams discussion on readings (Wednesday 1pm)
   
 **Resources**
 
@@ -171,7 +158,7 @@ knitr::include_graphics("./media/Fungal_Evol_Hist.png")
 ___
 
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+```{r "week2", out.width = "350px",echo=FALSE}
 knitr::include_graphics("./media/mycelium.jpg")
 ```
 </div>
@@ -183,10 +170,11 @@ knitr::include_graphics("./media/mycelium.jpg")
 
 **Readings and Assignments**
 
+  - **No class Monday (Washington and Lincoln Day) ... We will have class Friday instead!**
   - Read [Fisher, et al., 2018](https://gzahn.github.io/mycology/media/fisher2018.pdf) (Have a phylogeny of Zygomycetes at the ready while you read this)
   - Read Webster & Weber: **1.2** | **1.3** | **1.4** | **7.1** | **7.2** | **7.3.1** | **7.3.2**
-  - Canvas quiz on readings  (due before class Thursday)
-  - Slack discussion on readings (Thursday 11:15am)
+  - Canvas quiz on readings  (due before class Friday)
+  - Teams discussion on readings (Friday 1pm)
   - Turn in your Zygomycete microscopy photos (Canvas)
 
 **Resources**
@@ -217,7 +205,7 @@ knitr::include_graphics("./media/mycelium.jpg")
 ___
 
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+```{r "week3", out.width = "350px",echo=FALSE}
 knitr::include_graphics("./media/asco_life_cycle.jpg")
 ```
 </div>
@@ -232,8 +220,8 @@ knitr::include_graphics("./media/asco_life_cycle.jpg")
 **Readings and Assignments**
 
   - Read Webster & Weber: **8** | **10.2** | **12.1** | **12.2.1** | **17.2.6**
-  - Canvas quiz on readings (due before class Thursday)
-  - Slack discussion on readings (Thursday 11:15am)
+  - Canvas quiz on readings (due before class Wednesday)
+  - Teams discussion on readings (Wednesday 1pm)
   - How many Ascomycete species exist? (Canvas assignment)
 
 **Resources**
@@ -266,7 +254,7 @@ knitr::include_graphics("./media/asco_life_cycle.jpg")
 ___
 
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "250px",echo=FALSE}
+```{r "week4", out.width = "250px",echo=FALSE}
 knitr::include_graphics("./media/basidios.jpg")
 ```
 </div>
@@ -280,8 +268,8 @@ knitr::include_graphics("./media/basidios.jpg")
 **Readings and Assignments**
 
   - Read Webster & Weber: **18** | **19.1** | **19.4.5** | **20.1** | **20.3** | **21.1** | **21.5**
-  - Canvas quiz on readings (due before class Thursday)
-  - Slack discussion on readings (Thursday 11:15am)
+  - Canvas quiz on readings (due before class Wednesday)
+  - Teams discussion on readings (Wednesday 1pm)
 
 **Resources**
 
@@ -295,12 +283,7 @@ knitr::include_graphics("./media/basidios.jpg")
   - [Lycoperdon](){target="_blank"} #see slides for now
   - [Tremella](){target="_blank"} #see slides for now
 
-  
-**Videos**
 
-  - Basidium formation 
-  - Spore discharge
-  -
   
 [Back to top of page](#top)
 
@@ -308,7 +291,7 @@ ___
 
 
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+```{r "week5", out.width = "350px",echo=FALSE}
 knitr::include_graphics("./media/dispersal.jpeg")
 ```
 </div>
@@ -337,12 +320,7 @@ knitr::include_graphics("./media/dispersal.jpeg")
   - Resources for how to collect and ID fungi found in my hillbilly mycology [protocols section](https://gzahn.github.io/mycology/hillbilly_mycology.html#protocols){target="_blank"}
   - Mushroom characters [cheat sheet](https://gzahn.github.io//mycology/media/Mushroom_Descriptions_ID_copy.jpg){target="_blank"}
   
-  
-**Videos**
 
-  - 
-  -
-  -
   
 [Back to top of page](#top)
 
@@ -350,7 +328,7 @@ ___
 
 
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+```{r "week6", out.width = "350px",echo=FALSE}
 knitr::include_graphics("./media/medical_mycology.jpeg")
 ```
 </div>
@@ -362,7 +340,10 @@ knitr::include_graphics("./media/medical_mycology.jpeg")
   
 **Readings and Assignments**
 
+  - **No class Monday (Washington and Lincoln Day) ... We will have class Friday instead!**
   - Read [Huffnagle & Noverr, 2013](https://gzahn.github.io/mycology/media/Huffnagle_and_Noverr_2013.pdf)
+  - Canvas quiz on readings (due before class Friday)
+  - Teams discussion on readings (Friday 1pm)
   
 **Resources**
 
@@ -380,13 +361,14 @@ knitr::include_graphics("./media/medical_mycology.jpeg")
 
 ___
 
-### **Week 7**{#Week-7}
-
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+```{r "week7", out.width = "350px",echo=FALSE}
 knitr::include_graphics("./media/rust.jpg")
 ```
 </div>
+
+### **Week 7**{#Week-7}
+
 
 **Topics**
 
@@ -395,7 +377,8 @@ knitr::include_graphics("./media/rust.jpg")
 **Readings and Assignments**
 
   - Read [Roy, 1993](https://gzahn.github.io/mycology/media/Roy_1993.pdf)
-  - Canvas quiz
+  - Canvas quiz on readings (due before class Wednesday)
+  - Teams discussion on readings (Wednesday 1pm)
   - Keep working on lab assignments!
   
 **Resources**
@@ -416,7 +399,7 @@ knitr::include_graphics("./media/rust.jpg")
 ___
 
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+```{r "week8", out.width = "350px",echo=FALSE}
 knitr::include_graphics("./media/dist_chytrid.jpg")
 ```
 </div>
@@ -430,7 +413,8 @@ knitr::include_graphics("./media/dist_chytrid.jpg")
 **Readings and Assignments**
 
   - Read [Bacigalupe, et al., 2017](https://gzahn.github.io/mycology/media/Bacigalupe_et_al_2017.pdf)
-  - 
+  - Canvas quiz on readings (due before class Wednesday)
+  - Teams discussion on readings (Wednesday 1pm)
   
 **Resources**
 
@@ -450,14 +434,34 @@ knitr::include_graphics("./media/dist_chytrid.jpg")
 ___
 
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("./media/symbiosis.jpeg")
+```{r "week9", out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/Week11.jpg")
 ```
 </div>
 
 
 
 ### **Week 9**{#Week-9}
+
+**SPRING BREAK**
+
+Go find some mushrooms if you haven't already!
+
+<br/><br/><br/><br/><br/><br/>
+
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r "week10", out.width = "350px",echo=FALSE}
+knitr::include_graphics("./media/symbiosis.jpeg")
+```
+</div>
+
+[Back to top of page](#top)  
+
+
+### **Week 10**{#Week-10}
+
 **Topics**
 
   - Symbioses: Endophytes
@@ -478,22 +482,26 @@ knitr::include_graphics("./media/symbiosis.jpeg")
   - Lesson [video](https://youtu.be/WZb4ppfSYSI){target="_blank"} (Part 2 - Discuss Christian et al, 2017 paper)
   
 
+
+[Back to top of page](#top)
+
 ___
 
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+```{r "week11", out.width = "350px",echo=FALSE}
 knitr::include_graphics("./media/ectomycorrhizae.jpg")
 ```
 </div>
 
-[Back to top of page](#top)  
-
-
-### **Week 10**{#Week-10}
+### **Week 11**{#Week-11}
 
 **Topics**
 
   - Symbioses: Mycorrhizae
+
+
+**Readings and Assignments**
+
   
 **Resources**
 
@@ -503,17 +511,18 @@ knitr::include_graphics("./media/ectomycorrhizae.jpg")
   - Best [overview paper](https://www.nature.com/articles/nrmicro.2016.149){target="_blank"} of ECM fungi ever!
   
 
+
 [Back to top of page](#top)
 
 ___
 
-<div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+  <div style= "float:right;position: relative;top:10px">
+```{r "week12", out.width = "250px",echo=FALSE}
 knitr::include_graphics("./media/lichen.jpg")
 ```
 </div>
 
-### **Week 11**{#Week-11}
+### **Week 12**{#Week-12}
 
 **Topics**
 
@@ -522,7 +531,8 @@ knitr::include_graphics("./media/lichen.jpg")
 **Readings and Assignments**
 
   - Read [Spribille, et al., 2016](https://gzahn.github.io/mycology/media/Spribille_et_al_2016.pdf)
-  - 
+  - Canvas quiz on readings (due before class Wednesday)
+  - Teams discussion on readings (Wednesday 1pm)
   
 **Resources**
 
@@ -530,22 +540,20 @@ knitr::include_graphics("./media/lichen.jpg")
   - Leson [slides](https://gzahn.github.io/mycology/lectures/Week11.odp){target="_blank"}
   - Lesson [video](https://youtu.be/snEyT8goDKs){target="_blank"} (Discussion of paper)
   
-**Videos**
 
-  - 
   
-
 [Back to top of page](#top)
 
 ___
 
-  <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "250px",echo=FALSE}
+<div style= "float:right;position: relative;top:10px">
+```{r "week13", out.width = "350px",echo=FALSE}
 knitr::include_graphics("./media/rot.jpg")
 ```
 </div>
 
-### **Week 12**{#Week-12}
+
+### **Week 13**{#Week-13}
 
 **Topics**
 
@@ -555,30 +563,28 @@ knitr::include_graphics("./media/rot.jpg")
 
   - Read [Halvorson, et al., 2019](https://gzahn.github.io/mycology/media/Halvorson_et_al_2019.pdf){target="_blank"}
   - Listen to Halvorson, et al. [podcast](https://functionalecologists.com/2020/02/27/breaking-down-leaves-is-basically-hard-work-so-if-the-fungi-have-the-option-of-an-easier-life-they-take-it-ken-thompson-interviews-hal-halvorson-in-our-new-podcast/){target="_blank"} (~ 15 min)
-  - 
+  - Canvas quiz on readings (due before class Wednesday)
+  - Teams discussion on readings (Wednesday 1pm)
   
 **Resources**
 
   - [Major Topics](){target="_blank"}
   - Leson [slides](){target="_blank"}
   - Lesson [video](){target="_blank"} (Recorded during class and posted after)
-  
-**Videos**
 
-  - 
   
 [Back to top of page](#top)
 
 ___
 
+
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+```{r "week14", out.width = "350px",echo=FALSE}
 knitr::include_graphics("./media/ethnomycology.jpeg")
 ```
 </div>
 
-
-### **Week 13**{#Week-13}
+### **Week 14**{#Week-14}
 
 **Topics**
 
@@ -599,32 +605,13 @@ knitr::include_graphics("./media/ethnomycology.jpeg")
   - Leson [slides](){target="_blank"}
   - Lesson [video](){target="_blank"} (Recorded during class and posted after)
   
-**Videos**
 
-  - 
-  
-[Back to top of page](#top)
 
 ___
 
 
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("../media/turkey.jpeg")
-```
-</div>
-
-### **Week 14**{#Week-14}
-
-# Thanksgiving Break
-
-<br/><br/><br/><br/><br/><br/><br/><br/>
-
-___
-
-
-<div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+```{r "week15", out.width = "350px",echo=FALSE}
 knitr::include_graphics("./media/Primer_map_2015_March.png")
 ```
 </div>
@@ -638,7 +625,8 @@ knitr::include_graphics("./media/Primer_map_2015_March.png")
 **Readings and Assignments**
 
   - Read [Raja, et al., 2017](https://gzahn.github.io/mycology/media/Raja_et_al_2017.pdf){target="_blank"}
-  - Read Money: Chapter 9
+  - Canvas quiz on readings (due before class Wednesday)
+  - Teams discussion on readings (Wednesday 1pm)
 
   
 **Resources**
@@ -661,7 +649,7 @@ knitr::include_graphics("./media/Primer_map_2015_March.png")
 ___
 
 <div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
+```{r "week16", out.width = "350px",echo=FALSE}
 knitr::include_graphics("../media/week16.jpg")
 ```
 </div>
