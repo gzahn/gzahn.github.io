@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Zotero Report</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9Cg=="/>
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K"/>
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg=="/>
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_Y5CVAV8M" class="item book">
+			<h2>A planet of viruses</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Carl Zimmer</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>Second edition</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Chicago</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>The University of Chicago Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-226-29420-9</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2015</td>
+					</tr>
+					<tr>
+					<th>Call Number</th>
+						<td>QR360 .Z65 2015</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Library of Congress ISBN</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>For years, scientists have been warning us that a pandemic was all but inevitable. Now it&apos;s here, and the rest of us have a lot to learn. 
+
+Fortunately, science writer Carl Zimmer is here to guide us. In this compact volume, he tells the story of how the smallest living things known to science can bring an entire planet of people to a halt--and what we can learn from how we&apos;ve defeated them in the past.
+
+Planet of Viruses covers such threats as Ebola, MERS, and chikungunya virus; tells about recent scientific discoveries, such as a hundred-million-year-old virus that infected the common ancestor of armadillos, elephants, and humans; and shares new findings that show why climate change may lead to even deadlier outbreaks. Zimmer’s lucid explanations and fascinating stories demonstrate how deeply humans and viruses are intertwined. Viruses helped give rise to the first life-forms, are responsible for many of our most devastating diseases, and will continue to control our fate for centuries. Thoroughly readable, and, for all its honesty about the threats, as reassuring as it is frightening, A Planet of Viruses is a fascinating tour of a world we all need to better understand.</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>122</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>12/31/2020, 2:54:37 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>12/31/2020, 3:01:19 PM</td>
+					</tr>
+				</table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Viruses</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_INKP38BA">
+<div><p>Worth 30 YC Points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_PRARPCSF" class="item book">
+			<h2>A Sand County Almanac</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Aldo Leopold</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>Reprint edition</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Ballantine Books</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-345-34505-9</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>December 12, 1986</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Amazon</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>&quot;We can place this book on the shelf that holds the writings of Thoreau and John Muir.&quot; San Francisco ChronicleThese astonishing portraits of the natural world explore the breathtaking diversity of the unspoiled American landscape -- the mountains and the prairies, the deserts and the coastlines. A stunning tribute to our land and a bold challenge to protect the world we love.</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>5/31/2017, 7:47:07 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>5/31/2017, 7:47:07 PM</td>
+					</tr>
+				</table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_9SJLU2AY">
+<div><p>Worth <strong>30</strong> YC points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_8VHWHPHI" class="item book">
+			<h2>Bad Science: Quacks, Hacks, and Big Pharma Flacks</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ben Goldacre</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>Reprint edition</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Farrar, Straus and Giroux</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-86547-918-0</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>October 12, 2010</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Amazon</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Have you ever wondered how one day the media can assert that alcohol is bad for us and the next unashamedly run a story touting the benefits of daily alcohol consumption? Or how a drug that is pulled off the market for causing heart attacks ever got approved in the first place? How can average readers, who aren&apos;t medical doctors or Ph.D.s in biochemistry, tell what they should be paying attention to and what&apos;s, well, just more bullshit? Ben Goldacre has made a point of exposing quack doctors and nutritionists, bogus credentialing programs, and biased scientific studies. He has also taken the media to task for its willingness to throw facts and proof out the window. But he&apos;s not here just to tell you what&apos;s wrong. Goldacre is here to teach you how to evaluate placebo effects, double-blind studies, and sample sizes, so that you can recognize bad science when you see it. You&apos;re about to feel a whole lot better.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Bad Science</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>304</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>5/31/2017, 7:39:42 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>5/31/2017, 7:39:42 PM</td>
+					</tr>
+				</table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_J7TZLJRA">
+<div><p>Worth <strong>30</strong> YC points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_QQT25X7P" class="item book">
+			<h2>Entangled Life: How Fungi Make Our Worlds, Change Our Minds &amp; Shape Our Futures</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Merlin Sheldrake</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Random House</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-525-51031-4</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>May 12, 2020</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Amazon</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>A mind-bending journey into the hidden universe of fungi, “one of those rare books that can truly change the way you see the world around you” (Helen Macdonald, author of H Is for Hawk).“Dazzling, vibrant, vision-changing . . . a remarkable work by a remarkable writer, which succeeds in springing life into strangeness again.”—Robert Macfarlane, author of Underland When we think of fungi, we likely think of mushrooms. But mushrooms are only fruiting bodies, analogous to apples on a tree. Most fungi live out of sight, yet make up a massively diverse kingdom of organisms that supports and sustains nearly all living systems. Fungi provide a key to understanding the planet on which we live, and the ways we think, feel, and behave.In Entangled Life, the brilliant young biologist Merlin Sheldrake shows us the world from a fungal point of view, providing an exhilarating change of perspective. Sheldrake’s vivid exploration takes us from yeast to psychedelics, to the fungi that range for miles underground and are the largest organisms on the planet, to those that link plants together in complex networks known as the “Wood Wide Web,”  to those that infiltrate and manipulate insect bodies with devastating precision.Fungi throw our concepts of individuality and even intelligence into question. They are metabolic masters, earth makers, and key players in most of life’s processes. They can change our minds, heal our bodies, and even help us remediate environmental disaster. By examining fungi on their own terms, Sheldrake reveals how these extraordinary organisms—and our relationships with them—are changing our understanding of how life works.Praise for Entangled Life“Entangled Life is a gorgeous book of literary nature writing in the tradition of [Robert] Macfarlane and John Fowles, ripe with insight and erudition. . . . food for the soul.”—Eugenia Bone, Wall Street Journal“[An] ebullient and ambitious exploration . . . This book may not be a psychedelic—and unlike Sheldrake, I haven’t dared to consume my copy (yet)—but reading it left me not just moved but altered, eager to disseminate its message of what fungi can do.”—Jennifer Szalai, The New York Times</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Entangled Life</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>368</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>6/23/2020, 10:09:22 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>6/23/2020, 10:09:22 AM</td>
+					</tr>
+				</table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_6K8E22UT">
+<div><p>Worth <strong>50</strong> YC points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_UF7IE8UQ" class="item book">
+			<h2>Genome: The Autobiography of a Species in 23 Chapters</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Matt Ridley</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>1 Reprint edition</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Harper Perennial</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-06-089408-5</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>May 30, 2006</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Amazon</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The genome&apos;s been mapped.But what does it mean? Arguably the most significant scientific discovery of the new century, the mapping of the twenty-three pairs of chromosomes that make up the human genome raises almost as many questions as it answers. Questions that will profoundly impact the way we think about disease, about longevity, and about free will. Questions that will affect the rest of your life. Genome offers extraordinary insight into the ramifications of this incredible breakthrough. By picking one newly discovered gene from each pair of chromosomes and telling its story, Matt Ridley recounts the history of our species and its ancestors from the dawn of life to the brink of future medicine. From Huntington&amp;#39;s disease to cancer, from the applications of gene therapy to the horrors of eugenics, Matt Ridley probes the scientific, philosophical, and moral issues arising as a result of the mapping of the genome. It will help you understand what this scientific milestone means for you, for your children, and for humankind.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Genome</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>368</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>5/31/2017, 7:38:57 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>5/31/2017, 7:39:14 PM</td>
+					</tr>
+				</table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_77GCULM6">
+<div><p>Worth <strong>30</strong> YC points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_IALCJCN9" class="item book">
+			<h2>I Contain Multitudes: The Microbes Within Us and a Grander View of Life</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ed Yong</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>Reprint edition</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Ecco</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-06-236860-7</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>January 16, 2018</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Amazon</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Joining the ranks of popular science classics like The Botany of Desire and The Selfish Gene, a groundbreaking, wondrously informative, and vastly entertaining examination of the most significant revolution in biology since Darwin—a “microbe’s-eye view” of the world that reveals a marvelous, radically reconceived picture of life on earth.Every animal, whether human, squid, or wasp, is home to millions of bacteria and other microbes. Ed Yong, whose humor is as evident as his erudition, prompts us to look at ourselves and our animal companions in a new light—less as individuals and more as the interconnected, interdependent multitudes we assuredly are.The microbes in our bodies are part of our immune systems and protect us from disease. In the deep oceans, mysterious creatures without mouths or guts depend on microbes for all their energy. Bacteria provide squid with invisibility cloaks, help beetles to bring down forests, and allow worms to cause diseases that afflict millions of people.Many people think of microbes as germs to be eradicated, but those that live with us—the microbiome—build our bodies, protect our health, shape our identities, and grant us incredible abilities. In this astonishing book, Ed Yong takes us on a grand tour through our microbial partners, and introduces us to the scientists on the front lines of discovery. It will change both our view of nature and our sense of where we belong in it.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>I Contain Multitudes</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>368</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>6/23/2020, 10:10:35 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>6/23/2020, 10:10:35 AM</td>
+					</tr>
+				</table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_CSFSJEAH">
+<div><p>Worth <strong>50</strong> YC points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_CV76LFPZ" class="item book">
+			<h2>Last Chance to See</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Douglas Adams</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mark Carwardine</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>Reprint edition</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Ballantine Books</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-345-37198-0</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>October 13, 1992</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Amazon</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>New York Times bestselling author Douglas Adams and zoologist Mark Carwardine take off around the world in search of exotic, endangered creatures.Join them as they encounter the animal kingdom in its stunning beauty, astonishing variety, and imminent peril: the giant Komodo dragon of Indonesia, the helpless but loveable Kakapo of New Zealand, the blind river dolphins of China, the white rhinos of Zaire, the rare birds of Mauritius island in the Indian Ocean. Hilarious and poignant—as only Douglas Adams can be—Last Chance to See is an entertaining and arresting odyssey through the Earth’s magnificent wildlife galaxy.   Praise for Last Chance to See   “Lively, sharply satirical, brilliantly written . . . shows how human care can undo what human carelessness has wrought.”—The Atlantic“These authors don’t hesitate to present the alarming facts: More than 1,000 species of animals (and plants) become extinct every year. . . . Perhaps Adams and Carwardine, with their witty science, will help prevent such misadventures in the future.”—Boston Sunday Herald   “Very funny and moving . . . The glimpses of rare fauna seem to have enlarged [Adams’s] thinking, enlivened his world; and so might the animals do for us all, if we were to help them live.”—The Washington Post Book World   “[Adams] invites us to enter into a conspiracy of laughter and caring.”—Los Angeles Times   “Amusing . . . thought-provoking . . . Its details on the heroic efforts being made to save these animals are inspirational.”—The New York Times Book Review</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>240</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>6/25/2019, 10:57:34 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>6/25/2019, 10:57:34 AM</td>
+					</tr>
+				</table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_8EU7IQGD">
+<div><p>Worth <strong>30</strong> YC points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_5J45IESS" class="item book">
+			<h2>She Has Her Mother&apos;s Laugh: The Powers, Perversions, and Potential of Heredity</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Carl Zimmer</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>Reprint edition</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York, New York</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Dutton</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-101-98461-1</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>June 4, 2019</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Amazon</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>2019 PEN/E.O. Wilson Literary Science Writing Award Finalist&quot;Science book of the year&quot;—The GuardianOne of New York Times 100 Notable Books for 2018One of Publishers Weekly&apos;s Top Ten Books of 2018One of Kirkus&apos;s Best Books of 2018 One of Mental Floss&apos;s Best Books of 2018One of Science Friday&apos;s Best Science Books of 2018“Extraordinary”—New York Times Book Review   &quot;Magisterial&quot;—The Atlantic&quot;Engrossing&quot;—Wired&quot;Leading contender as the most outstanding nonfiction work of the year&quot;—Minneapolis Star-TribuneCelebrated New York Times columnist and science writer Carl Zimmer presents a profoundly original perspective on what we pass along from generation to generation. Charles Darwin played a crucial part in turning heredity into a scientific question, and yet he failed spectacularly to answer it. The birth of genetics in the early 1900s seemed to do precisely that. Gradually, people translated their old notions about heredity into a language of genes. As the technology for studying genes became cheaper, millions of people ordered genetic tests to link themselves to missing parents, to distant ancestors, to ethnic identities...But, Zimmer writes, “Each of us carries an amalgam of fragments of DNA, stitched together from some of our many ancestors. Each piece has its own ancestry, traveling a different path back through human history. A particular fragment may sometimes be cause for worry, but most of our DNA influences who we are—our appearance, our height, our penchants—in inconceivably subtle ways.” Heredity isn’t just about genes that pass from parent to child. Heredity continues within our own bodies, as a single cell gives rise to trillions of cells that make up our bodies. We say we inherit genes from our ancestors—using a word that once referred to kingdoms and estates—but we inherit other things that matter as much or more to our lives, from microbes to technologies we use to make life more comfortable. We need a new definition of what heredity is and, through Carl Zimmer’s lucid exposition and storytelling, this resounding tour de force delivers it. Weaving historical and current scientific research, his own experience with his two daughters, and the kind of original reporting expected of one of the world’s best science journalists, Zimmer ultimately unpacks urgent bioethical quandaries arising from new biomedical technologies, but also long-standing presumptions about who we really are and what we can pass on to future generations.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>She Has Her Mother&apos;s Laugh</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>672</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>6/25/2019, 10:59:01 AM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>6/25/2019, 10:59:01 AM</td>
+					</tr>
+				</table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_VPRNE36S">
+<div><p>Worth <strong>80</strong> YC points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_MMBTKZ4N" class="item book">
+			<h2>The Ancestor&apos;s Tale: A Pilgrimage to the Dawn of Evolution</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Richard Dawkins</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yan Wong</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>Rev Exp edition</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Boston</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Mariner Books</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-544-85993-7</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>September 6, 2016</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Amazon</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The renowned biologist and thinker Richard Dawkins presents his most expansive work yet: a comprehensive look at evolution, ranging from the latest developments in the field to his own provocative views. Loosely based on the form of Chaucer&apos;s Canterbury Tales, Dawkins&apos;s Tale takes us modern humans back through four billion years of life on our planet. As the pilgrimage progresses, we join with other organisms at the forty &quot;rendezvous points&quot; where we find a common ancestor. The band of pilgrims swells into a vast crowd as we join first with other primates, then with other mammals, and so on back to the first primordial organism. Dawkins&apos;s brilliant, inventive approach allows us to view the connections between ourselves and all other life in a bracingly novel way. It also lets him shed bright new light on the most compelling aspects of evolutionary history and theory: sexual selection, speciation, convergent evolution, extinction, genetics, plate tectonics, geographical dispersal, and more. The Ancestor&apos;s Tale is at once a far-reaching survey of the latest, best thinking on biology and a fascinating history of life on Earth. Here Dawkins shows us how remarkable we are, how astonishing our history, and how intimate our relationship with the rest of the living world.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>The Ancestor&apos;s Tale</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>800</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>5/31/2017, 7:46:27 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>5/31/2017, 7:46:27 PM</td>
+					</tr>
+				</table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_RGDPDXZS">
+<div><p>Worth <strong>80</strong> YC points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_9A2RCA7U" class="item book">
+			<h2>The Demon in the Freezer: A True Story</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Richard Preston</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York, N.Y.</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Fawcett</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-345-46663-1</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>August 26, 2003</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Amazon</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>“The bard of biological weapons capturesthe drama of the front lines.”-Richard Danzig, former secretary of the navyThe first major bioterror event in the United States-the anthrax attacks in October 2001-was a clarion call for scientists who work with “hot” agents to find ways of protecting civilian populations against biological weapons. In The Demon in the Freezer, his first nonfiction book since The Hot Zone, a #1 New York Times bestseller, Richard Preston takes us into the heart of Usamriid, the United States Army Medical Research Institute of Infectious Diseases at Fort Detrick, Maryland, once the headquarters of the U.S. biological weapons program and now the epicenter of national biodefense.Peter Jahrling, the top scientist at Usamriid, a wry virologist who cut his teeth on Ebola, one of the world’s most lethal emerging viruses, has ORCON security clearance that gives him access to top secret information on bioweapons. His most urgent priority is to develop a drug that will take on smallpox-and win. Eradicated from the planet in 1979 in one of the great triumphs of modern science, the smallpox virus now resides, officially, in only two high-security freezers-at the Centers for Disease Control in Atlanta and in Siberia, at a Russian virology institute called Vector. But the demon in the freezer has been set loose. It is almost certain that illegal stocks are in the possession of hostile states, including Iraq and North Korea. Jahrling is haunted by the thought that biologists in secret labs are using genetic engineering to create a new superpox virus, a smallpox resistant to all vaccines.Usamriid went into a state of Delta Alert on September 11 and activated its emergency response teams when the first anthrax letters were opened in New York and Washington, D.C. Preston reports, in unprecedented detail, on the government’s response to the attacks and takes us into the ongoing FBI investigation. His story is based on interviews with top-level FBI agents and with Dr. Steven Hatfill.Jahrling is leading a team of scientists doing controversial experiments with live smallpox virus at CDC. Preston takes us into the lab where Jahrling is reawakening smallpox and explains, with cool and devastating precision, what may be at stake if his last bold experiment fails.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>The Demon in the Freezer</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>5/31/2017, 7:40:22 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>5/31/2017, 7:40:22 PM</td>
+					</tr>
+				</table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_G2XKCUEH">
+<div><p>Worth <strong>30</strong> YC points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_D3DQNN58" class="item book">
+			<h2>The extended phenotype: the long reach of the gene</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Richard Dawkins</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Oxford, United Kingdom</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Oxford University Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-19-878891-1</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2016</td>
+					</tr>
+					<tr>
+					<th>Call Number</th>
+						<td>QH438.5 .D39 2016</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>OCLC: ocn959607786</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Library of Congress ISBN</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>In The Selfish Gene, Richard Dawkins crystallized the gene&apos;s eye view of evolution developed by W.D. Hamilton and others. The book provoked widespread and heated debate. Written in part as a response, The Extended Phenotype gave a deeper clarification of the central concept of the gene as the unit of selection; but it did much more besides. In it, Dawkins extended the gene&apos;s eye view to argue that the genes that sit within an organism have an influence that reaches out beyond the visible traits in that body - the phenotype - to the wider environment, which can include other individuals. So, for instance, the genes of the beaver drive it to gather twigs to produce the substantial physical structure of a dam; and the genes of the cuckoo chick produce effects that manipulate the behaviour of the host bird, making it nurture the intruder as one of its own. This notion of the extended phenotype has proved to be highly influential in the way we understand evolution and the natural world. It represents a key scientific contribution to evolutionary biology, and it continues to play an important role in research in the life sciences. The Extended Phenotype is a conceptually deep book that forms important reading for biologists and students. But Dawkins&apos; clear exposition is accessible to all who are prepared to put in a little effort. Oxford Landmark Science books are &apos;must-read&apos; classics of modern science writing which have crystallized big ideas, and shaped the way we think.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>The extended phenotype</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>468</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>12/31/2020, 2:43:07 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>12/31/2020, 3:02:25 PM</td>
+					</tr>
+				</table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Evolution (Biology)</li>
+					<li>Phenotype</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_TUDXCIIU">
+<div><p>Worth 50 YC Points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_YXFGVV9X" class="item book">
+			<h2>The fly trap</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Fredrik Sjöberg</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Thomas Teal</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>First United States edition</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Pantheon Books</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-101-87015-0 978-1-101-87228-4</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2015</td>
+					</tr>
+					<tr>
+					<th>Call Number</th>
+						<td>QL467 .S54513 2015</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Library of Congress ISBN</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>eng</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>For years, entomologist Fredrik Sjöberg has collected, cataloged, and obsessed over the hoverflies that populate the remote Swedish island he calls home. As confounded by his unusual vocation as anyone, here Sjöberg explores what drives the obsessive curiosity of collectors, along the way finding time to muse on everything from art to lost love, and drawing on sources as disparate as D. H. Lawrence and the fascinating and forgotten naturalist René Edmond Malaise. 
+
+A mesmerizing memoir, The Fly Trap is one remarkable individual’s meditation on the unexpected beauty of small things and an examination of the history of entomology itself. Weaving a fascinating web of associations, histories, and personal memories, Sjöberg revels in the wonders of the natural world and, through indelible images and stories, opens up into it a dazzling, irresistible pathway.</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>278</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>12/31/2020, 2:31:10 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>12/31/2020, 3:04:49 PM</td>
+					</tr>
+				</table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Entomologists</li>
+					<li>Entomology</li>
+					<li>History</li>
+					<li>Malaise, René Edmond</li>
+					<li>Scientific expeditions</li>
+					<li>Sjöberg, Fredrik</li>
+					<li>Sweden</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_5CQGPBTU">
+<div><p>Worth 30 YC Points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_R599D6GD" class="item book">
+			<h2>What is Life?: With Mind and Matter and Autobiographical Sketches</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Erwin Schrodinger</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Roger Penrose</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>Reprint edition</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Cambridge ; New York</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Cambridge University Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-107-60466-7</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>March 26, 2012</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Amazon</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Nobel laureate Erwin Schrödinger&apos;s What is Life? is one of the great science classics of the twentieth century. It was written for the layman, but proved to be one of the spurs to the birth of molecular biology and the subsequent discovery of DNA. What is Life? appears here together with Mind and Matter, his essay investigating a relationship which has eluded and puzzled philosophers since the earliest times. Brought together with these two classics are Schrödinger&apos;s autobiographical sketches, which offer a fascinating account of his life as a background to his scientific writings.</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>What is Life?</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>184</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>5/31/2017, 7:45:40 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>5/31/2017, 7:45:40 PM</td>
+					</tr>
+				</table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_LAUDG56M">
+<div><p>Only have to read the "What is Life?" portion for your report!</p></div>
+					</li>
+					<li id="item_NU9QMWV2">
+<div><p>Worth <strong>20</strong> YC points</p></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_8KTYFKKK" class="item book">
+			<h2>What we know about climate change</h2>
+				<table>
+					<tr>
+						<th>Type</th>
+						<td>Book</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Kerry A. Emanuel</td>
+					</tr>
+					<tr>
+					<th>Edition</th>
+						<td>Updated edition [2018 edition]</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Cambridge, MA</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>The MIT Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-262-53591-5</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Call Number</th>
+						<td>QC903 .E43 2018</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Library of Congress ISBN</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The vast majority of scientists agree that human activity has significantly increased greenhouse gases in the atmosphere—most dramatically since the 1970s. Yet global warming skeptics and ill-informed elected officials continue to dismiss this broad scientific consensus. 
+In this updated edition of his authoritative book, MIT atmospheric scientist Kerry Emanuel outlines the basic science of global warming and how the current consensus has emerged. Although it is impossible to predict exactly when the most dramatic effects of global warming will be felt, he argues, we can be confident that we face real dangers. Emanuel warns that global warming will contribute to an increase in the intensity and power of hurricanes and flooding and more rapidly advancing deserts. But just as our actions have created the looming crisis, so too might they avert it. Emanuel calls for urgent action to reduce greenhouse gases and criticizes the media for downplaying the dangers of global warming (and, in search of “balance,” quoting extremists who deny its existence). 
+
+This edition has been updated to include the latest climate data, a discussion of the earth&apos;s carbon cycle, the warming hiatus of the first decade of this century, the 2017 hurricanes, advanced energy options, the withdrawal from the Paris climate agreement, and more. It offers a new foreword by former U.S. Representative Bob Inglis (R-SC), who now works on climate action through his organization RepublicEN.</td>
+					</tr>
+					<tr>
+					<th># of Pages</th>
+						<td>69</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>12/31/2020, 2:51:39 PM</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>12/31/2020, 3:02:55 PM</td>
+					</tr>
+				</table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>Climatic changes</li>
+					<li>Global warming</li>
+					<li>Greenhouse effect, Atmospheric</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_JKHLBJ6X">
+<div><p>Worth 30 YC Points</p></div>
+					</li>
+				</ul>
+			</li>
+
+		</ul>
+	</body>
+</html>

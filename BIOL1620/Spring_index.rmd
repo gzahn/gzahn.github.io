@@ -1,7 +1,9 @@
 ---
 output: 
-html_document:
-  number_sections=TRUE
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: false
 pagetitle: BIOL1620
 ---
 
@@ -39,27 +41,13 @@ Utah Valley University - BIOL1620
 #### [Shared Course Notes](https://docs.google.com/document/d/1ZUwrp3pccob99FptLDjIShcp2Y5PNIiJ1FJ95mUNYMk/edit?usp=sharing){target="_blank"}
 (Anyone with link can edit)
 
-#### [Your-Choice Reading List](https://gzahn.github.io/media/Zotero_Report.html){target="_blank"}
+#### [Your-Choice Reading List](https://gzahn.github.io/media/YOUR-CHOICE_Book_List.html){target="_blank"}
 Audiobooks are only acceptable if they are **unabridged**.
 
 #### [Advice from Former Students](https://github.com/gzahn/Protocols/blob/master/BIOL_1620_Advice_from_Students.pdf){target="_blank"}
 
 ___
 
-#### Table of Contents
-
-[Week 1](#Week-1)    |    [Week 5](#Week-5)    |    [Week 9](#Week-9) | [Week 13](#Week-13)
-
-[Week 2](#Week-2)    |    [Week 6](#Week-6)    |    [Week 10](#Week-10) | [Week 14](#Week-14)
-
-[Week 3](#Week-3)    |    [Week 7](#Week-7)    |    [Week 11](#Week-11) | [Week 15](#Week-15)
-
-[Week 4](#Week-4)    |    [Week 8](#Week-8)    |    [Week 12](#Week-12) | [Week 16](#Week-16)
-
-
-
-
-</div>
 
 ___
 
@@ -68,6 +56,7 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
 
+## Weekly Content:
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
@@ -83,8 +72,10 @@ knitr::include_graphics("../media/week1.jpg")
 **Readings and Assignments**  
 
   - Campbell Chs 25-26
-  - Canvas quiz 1 due 11am Friday of the first week
+  - Canvas quiz 1 due 10pm Friday of the first week (all others due **before** the first class of that week!)
+  - Pre-Test due Friday 11:59pm
   - Pick a book to read for Your-Choice Points ASAP
+  - If you don't have Cambell Biology yet (for this first week only), here's a pdf to get you started: [Chapters 25-26](https://gzahn.github.io/media/Campbell_Chs_25-26.pdf){target="_blank"}
 
 **Resources**
 
@@ -231,6 +222,9 @@ knitr::include_graphics("../media/week6.png")
 </div>
 
 ### **Week 6**{#Week-6}
+
+**No class Monday / Quiz due Wednesday**
+
 **Topics**
 
   - Animals | Defining Traits | Evolution
@@ -238,7 +232,7 @@ knitr::include_graphics("../media/week6.png")
 **Readings and Assignments**
 
   - Campbell Ch 32
-  - Canvas quiz 5 due Monday before 11am
+  - Canvas quiz 5 due Wednesday before 11am
 
 **Resources**
 
@@ -325,13 +319,34 @@ ___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("../media/model1.png")
+knitr::include_graphics("../media/Week11.jpg")
 ```
 </div>
 
 
 
 ### **Week 9**{#Week-9}
+
+##### SPRING BREAK!
+
+I mean, honestly, you probably haven't finished the Your-Choice Points yet.
+
+You should probably be pretty worried about that or you'll be scrambling like an idiot at the end of the semester right when all your other classes have things due. And then you'll give me a crappy book review and you'll get a bad grade on it with no chance for a re-do, and you will be very sad and I will not care about your sadness. Your sadness will feed me and make me grow more powerful. So think about that during Spring Break.
+</br></br>
+  
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/fertilizer.jpeg")
+```
+</div>
+
+[Back to top of page](#top)  
+
+
+### **Week 10**{#Week-10}
+
 **Topics**
 
   - Plant Nutrition | Soil | GMOs
@@ -351,19 +366,22 @@ knitr::include_graphics("../media/model1.png")
   - Evolution of [Plant Carnivory](https://www.nature.com/news/how-plants-evolved-into-carnivores-1.21425){target="_blank"}
   - Wonderful [documentary](https://www.amazon.com/Plants-Behaving-Badly-Season-1/dp/B071HDHGJ2){target="_blank"} from PBS (Need Amazon Prime subscription). Episode 1 is about carnivorous plants. Episode 2 is about orchids.
   - [New study](https://www.cell.com/current-biology/fulltext/S0960-9822(20)30567-4){target="_blank"} shows **duplication of entire genomes!** of carnivorous plants. They're expressing root proteins in their leaves, WTF!?
+
+
   
+  
+[Back to top of page](#top)
+
 ___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("../media/fertilizer.jpeg")
+knitr::include_graphics("../media/week10.jpg")
 ```
 </div>
 
-[Back to top of page](#top)  
+### **Week 11**{#Week-11}
 
-
-### **Week 10**{#Week-10}
 **Topics**
 
   - Plant Evolution and Life Cycles
@@ -380,25 +398,7 @@ knitr::include_graphics("../media/fertilizer.jpeg")
   - Land Plant Evolution [Timeline](https://www.pnas.org/content/115/10/E2274){target="_blank"}
   - Adaptations for [Land](https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/25%3A_Seedless_Plants/25.1%3A_Early_Plant_Life/25.1C%3A_Plant_Adaptations_to_Life_on_Land){target="_blank"}
   - Alternation of Generations [Video](https://study.com/academy/lesson/alternation-of-generations-the-gametophyte-and-sporophyte.html){target="_blank"}
-  
-  
-[Back to top of page](#top)
 
-___
-
-<div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("../media/Week11.jpg")
-```
-</div>
-
-### **Week 11**{#Week-11}
-##### SPRING BREAK!
-
-I mean, honestly, you probably haven't finished the Your-Choice Points yet.
-
-You should probably be pretty worried about that or you'll be scrambling like an idiot at the end of the semester right when all your other classes have things due. And then you'll give me a crappy book review and you'll get a bad grade on it with no chance for a re-do, and you will be very sad and I will not care about your sadness. Your sadness will feed me and make me grow more powerful. So think about that during Spring Break.
-</br></br>
 
 [Back to top of page](#top)
 
@@ -565,7 +565,7 @@ knitr::include_graphics("../media/week16.jpg")
 
 **Readings and Assignments**
 
-  - Post-Test Friday
+  - Post-Test Wednesday
   - If you haven't turned in Your-Choice Points yet, you've missed your chance
   - Also, if that's the case, you had your chance so no whining
 
