@@ -32,4 +32,3 @@
 >Bacteria;Actinobacteria;Actinobacteria;Actinomycetales;Geodermatophilaceae;Blastococcus;
 >Bacteria;Proteobacteria;Gammaproteobacteria;Oceanospirillales;Halomonadaceae;Halomonas;
 >Bacteria;Firmicutes;Clostridia;Clostridiales;Heliobacteriaceae;Heliobacterium;
-

@@ -1,7 +1,9 @@
 ---
 output: 
-html_document:
-  number_sections=TRUE
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: false
 pagetitle: Bioinformatics_Data_Skills
 ---
 
@@ -22,10 +24,7 @@ knitr::include_graphics("./Media/binf_data_skills_sticker.png")
 ```
 </div>
 
-<style>
-div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
-</style>
-<div class = "gray">
+
 
 
 # **Bioinformatics Data Skills**{#top}
@@ -44,18 +43,6 @@ ___
 
 
 ___
-
-#### Table of Contents
-
-[Week 1](#Week-1)    |    [Week 5](#Week-5)    |    [Week 9](#Week-9) | [Week 13](#Week-13)
-
-[Week 2](#Week-2)    |    [Week 6](#Week-6)    |    [Week 10](#Week-10) | [Week 14](#Week-14)
-
-[Week 3](#Week-3)    |    [Week 7](#Week-7)    |    [Week 11](#Week-11) | [Week 15](#Week-15)
-
-[Week 4](#Week-4)    |    [Week 8](#Week-8)    |    [Week 12](#Week-12) | [Week 16](#Week-16)
-
-
 
 
 </div>
@@ -376,17 +363,23 @@ knitr::include_graphics("./Media/tuxninja.png")
 **Assignments:**  
 
   - Continue working through **BDS Chapter 7**
-  - **Assignment 5 -** convert between tabular and fasta formatted data
-  - 
+  - **Assignment 5 -** convert between tabular and fasta formatted data | process/command substitution
 
 **Resources**
 
+  - "Process substitution" vs "command substitution" [VIDEO](https://www.youtube.com/watch?v=rlsBXrPwqGk)
   - 
   
 **Practice**
 
-  -
+  - Here's an awful-looking one-line command that prints out the phylum from each line of Chapter_7_Practice_File_2.txt along with a number sequence next to it showing which line of the file it came from.
+  - It uses both process and command substitution, but essentially, it's just the paste command pasting together the phylum in the first field and the numbers 1-34 in the second field
+  - I want you to break it apart, looking at each component and understand why it works!
   
+  
+          paste <(cat Chapter_7_Practice_File_2.txt | cut -d ";" -f 2) <(seq $(wc -l Chapter_7_Practice_File_2.txt | cut -d " " -f 1))
+  
+  - If you wanted to use process substitution again to extend this whole command in order to add a header to the output, what would you do? (i.e., add a first row that is "PHYLUM         LINE_NUMBER")
   
 [Back to top of page](#top)
 
