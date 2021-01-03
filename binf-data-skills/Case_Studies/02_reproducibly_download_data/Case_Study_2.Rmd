@@ -76,7 +76,7 @@ ___
       
       **pdb:** Text-based description of 3-dimensional structures of molecules.
 
-5. **Find the _amino acid_ sequence for "nucleocapsid phosphoprotein" in sars-cov-2**
+5. **Find the _amino acid_ and _nucleotide_ sequences for "surface glycoprotein" in sars-cov-2**
 
     You'll need to browse through these files, and then use a combination of tools like fasta_formatter (from the FASTX-Toolkit) and grep to pull it out
     
