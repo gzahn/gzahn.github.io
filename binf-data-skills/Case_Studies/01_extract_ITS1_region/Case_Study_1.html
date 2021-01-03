@@ -385,24 +385,41 @@ summary {
 <h4>So, we’re going to be using an existing piece of software to extract just the ITS1 region from a series of DNA reads. The tool we will use is called <a href="https://github.com/usda-ars-gbru/itsxpress" target="_blank">itsxpress</a></h4>
 <ul>
 <li><p><strong>Getting it installed and working properly is the first task:</strong></p></li>
-<li>It depends on a lot of other software, including HMMER3, biopython, and others</li>
+<li>It depends on a lot of other software, including <a href="http://hmmer.org/" target="_blank">HMMER3</a>, <a href="https://biopython.org/wiki/Download" target="_blank">biopython</a>, and others</li>
 <li>You will need to install the <a href="https://docs.conda.io/en/latest/miniconda.html" target="_blank">conda</a> system in order to even install itsxpress</li>
 <li><p><a href="https://conda.io/projects/conda/en/latest/user-guide/install/index.html" target="_blank">miniconda installation instructions</a></p></li>
-<li><p><strong>Once you have installed itsxpress, make sure it’s in your $PATH so the program can be found, and then take a look at how to use it from the help page.</strong></p></li>
-<li><p><strong>We need to run itsxpress on all the fastq files in our <a href="https://gzahn.github.io/binf-data-skills/Case_Studies/01_extract_ITS1_region/data/ITS_Reads.zip">data set</a>, making sure to stash all the output information and diagnostics for eah file.</strong></p></li>
-<li><p><strong>In other words, our script should automatically perform the following for each file:</strong></p></li>
+<li><p><strong>Once you have installed itsxpress and its dependencies, make sure it’s in your $PATH so the program can be found, and then take a look at how to use it from the help page.</strong></p></li>
+<li><p><strong>We need to run itsxpress on all the fastq files in our <a href="https://gzahn.github.io/binf-data-skills/Case_Studies/01_extract_ITS1_region/data/ITS_Reads.zip">data set</a>, making sure to stash all the output information and diagnostics for each file.</strong></p></li>
+</ul>
+<p>That data set, once unzipped, contains 15 samples (each in its own file) of ITS amplicons. The sample names are:</p>
+<pre><code>    CC1,CC2,CC3,CC4,CC5,CR1,CR2,CR3,CR4,CR5,PF1,PF3,PF5,SW1,SW2</code></pre>
+<p>The problem is that the amplicons have overhanging regions outside of the ITS1 that we want, so wee need to extract <em>just</em> the regions of reads in each sample that corresponds to the ITS1 section and remove the partial 18S and 5.8S sections.</p>
+<ul>
+<li><strong>In other words, our script should automatically perform the following for each file:</strong></li>
 </ul>
 <pre><code>1. Extract the ITS1 regions from each sample (AKA, from each file)
-2. Use exact depreplication
-3. Store all diagnostic log information in a unique file for each pair of reads</code></pre>
+2. Non-default parameters for ITSx should be:
+  - suppress &#39;Graphical&#39; output
+  - preserve sequence headers
+  - save *only* the ITS1 region
+  - base name for output should be &quot;ITS1&quot;
+  - do *not* check the reverse compliment of the reads
+3. Store all diagnostic log information in a unique file for each sample</code></pre>
 <ul>
 <li><p><strong>Further, we want to get some summary information about how many reads in each file successfully had an ITS1 detection and extraction</strong></p></li>
 <li><p><strong>Use grep, sed, awk, cut, paste (or whatever tools you need) to extract summary info out of the log files about how well itsxpress performed</strong></p></li>
 </ul>
 <pre><code>1. How many input sequences were there?
 2. How many output sequences made it through?
-3. How long did it take?
-4. Save all this summary info into a new file called &quot;ITSxpress_summary_info.txt&quot;</code></pre>
+3. Save this selected summary info (for each sample) into a new file called &quot;ITSxpress_summary_info.txt&quot;
+  - This file should be organized well enough so that for each sample, it&#39;s easy to see the selected summary info associated with it... something like this:
+
+  CC2
+  Number of sequences in input file:        6791
+  Sequences detected as ITS by ITSx:    6520
+  PF1
+  Number of sequences in input file:        6141
+  Sequences detected as ITS by ITSx:    4845</code></pre>
 <hr />
 </div>
 <div id="what-to-turn-in" class="section level3">
