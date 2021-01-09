@@ -21,7 +21,7 @@ ________________
 
 #### **Install R**
 Use the following link to download R for your particular computer system:
-https://cran.cnr.berkeley.edu/
+https://cran.r-project.org/
 
 ---
 
