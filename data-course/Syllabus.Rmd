@@ -4,12 +4,12 @@ output:
 ---
 
 # **Introduction to Data Analysis in R**
-## Course Syllabus - Fall 2020
+## Course Syllabus - Spring 2021
 
 _____________________________
 
 ### Instructor: Dr. Geoff Zahn
-### Office: SB243c  -- Hours by appointment
+### Office: SB242q  -- Hours by appointment
 ### Email: zahn.geoff@gmail.com
 ### Course GitHub Repository: https://github.com/gzahn/Data_Course
 ### Course Website: https://gzahn.github.io/data-course/
@@ -45,7 +45,7 @@ _____________________________
 **COVID-19 Considerations:**
 
 **The course is meeting entirely online. All lectures will be live-streamed and recorded.**
-**Use the course web page as a map of the semester, but also be sure to stay active on Canvas and our Slack channel!**
+**Use the course web page as a map of the semester, but also be sure to stay active on Canvas and MS Teams!**
 	
 **You should make *every* effort to be present for the live class sessions. There's really no substitute for being able to follow along and ask questions.  This class tends to have a high cognitive burden, at least at first. You're going to want to ask questions.**	
 
@@ -60,11 +60,11 @@ _____________________________
 | 640-699 | B |
 | 560-639 | C |
 | 480-559 | D |
-| <480 | F |
+| <480 | E |
 
 #### Points are based on:
 
-* 10 Weekly Assignments - 20 pts *each*
+* 10 Assignments - 20 pts *each*
 * 4 Exams - 100 pts *each*
 * 1 Final Project - 200 pts
 
