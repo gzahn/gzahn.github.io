@@ -415,7 +415,7 @@ summary {
 <li><p>Can you understand what the following code does and why it works (or doesn’t)?</p>
 <pre><code>    echo &quot;There are $(ls -1 *.txt | wc -l) files in this directory.&quot;</code></pre></li>
 <li><p>What about this?</p>
-<pre><code>    echo &quot;There are $(history | grep -c &quot;bash&quot;) instances where &#39;bash&#39; turns up in terminal history.&quot;</code></pre></li>
+<pre><code>    for i in {1..5}; do echo &quot;This is line $i.&quot;;done</code></pre></li>
 <li><p>And this?</p>
 <pre><code>    ls -1 | head -2 &gt; first_2_files.txt &amp;&amp; cat first_2_files.txt &amp;&amp; rm first_2_files.txt</code></pre></li>
 <li><p>And, finally, this?</p>
