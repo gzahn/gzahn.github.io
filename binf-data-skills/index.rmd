@@ -83,6 +83,7 @@ knitr::include_graphics("./Media/StarWars.png")
   - [Download Git](https://git-scm.com/downloads){target="_blank"}
   - Supplemental files for all textbook chapters -  [REPOSITORY](https://github.com/vsbuffalo/bds-files){target="_blank"}
   - Navigating your computer with a terminal [video](https://youtu.be/fdkbQ0MduBY){target="_blank"}
+  - Recorded Lesson [Part 1](https://youtu.be/oXBkqoz-xf4){target="_blank"}
 
 **Practice**
 
