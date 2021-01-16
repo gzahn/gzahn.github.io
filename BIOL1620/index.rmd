@@ -90,7 +90,7 @@ knitr::include_graphics("../media/week1.jpg")
 **Lesson Videos**
   - [Part 1](https://youtu.be/tffOaRQHffU){target="_blank"}
   - [Part 2](https://youtu.be/gwiWAYFds7E){target="_blank"}
-  - [Part 3](){target="_blank"}
+  - [Part 3](https://youtu.be/YaRCRsnViUc){target="_blank"}
   
 [Back to top of page](#top)
 
