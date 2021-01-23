@@ -1,0 +1,207 @@
+
+<!doctype html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+    <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
+    <link type="text/css" rel="stylesheet" href="css/grid.css"  media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/global.css"  media="screen,projection" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet"> 
+    <title>UVU Genomics - Programs</title>
+</head>
+
+<body>
+    <div class="row" id="desktop_nav">
+		<div class="col-3-24" id="margin"></div>
+		<div class="col-3-24" id="nav_link_cell"><a class="nav_link" href="index.html">Home</a></div>
+		<div class="col-3-24" id="nav_link_cell"><a class="nav_link" href="syllabus.html">Syllabus</a></div>
+		<div class="col-3-24 dropdown" id="nav_link_cell">
+			<a href="lab01-1.html" class="nav_link">Lab Assignments</a>
+			<div class="dropdown_container desktop_drop">
+				<ul class="dropdown_list">
+					<!-- <li class="dropdown_list_item"><a href="#" id="dropdown_nav_link">Review</a></li> -->
+					<li class="dropdown_list_item"><a href="lab01-1.html" id="dropdown_nav_link">Lab 01</a></li>
+					<li class="dropdown_list_item"><a href="assembly.html" id="dropdown_nav_link">Lab 02</a></li>
+					<li class="dropdown_list_item"><a href="mapping.html" id="dropdown_nav_link">Lab 03</a></li>
+					<!-- <li class="dropdown_list_item"><a href="iterative-mapping.html" id="dropdown_nav_link">Iterative mapping</a></li> -->
+				</ul>
+			</div>
+		</div>
+		<div class="col-3-24" id="nav_link_cell"><a class="nav_link" href="terms.html">Terminology</a></div>
+		<div class="col-3-24" id="nav_link_cell_active"><a class="nav_link" id="active" href="#">Programs</a></div>
+		<div class="col-3-24" id="nav_link_cell"><a class="nav_link" href="links.html">Links</a></div>
+		<div class="col-3-24" id="margin"></div>
+	</div>
+
+	<div class="row" id="mobile_nav">
+		<div class="col-24-24 dropdown" id="nav_link_cell">
+			<a href="#" class="nav_link"><img id="mobile_logo_nav" src="img/nav.png"></a>
+			<div class="dropdown_container mobile_drop">
+				<ul class="dropdown_list">
+					<li class="dropdown_list_item"><a href="index.html" id="mobile_nav_link">Home</a></li>
+					<li class="dropdown_list_item"><a href="syllabus.html" id="mobile_nav_link">Syllabus</a></li>
+					<li class="dropdown_list_item"><a href="lab01-1.html" id="mobile_nav_link">Lab Assignments</a></li>
+					<li class="dropdown_list_item"><a href="terms.html" id="mobile_nav_link">Terminology</a></li>
+					<li class="dropdown_list_item"><a href="programs.html" id="mobile_nav_link">Programs</a></li>
+					<li class="dropdown_list_item"><a href="links.html" id="mobile_nav_link">Links</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+    <a class="internal-link" name="top"></a>
+    <div class="row" id="header">Genomics programs</div>
+
+    <div class="row" id="body-row">
+        <div class="col-3-24" id="side-nav-cont">
+            <div id="side-nav">
+                <span id="side-header">Page contents</span>
+                <ul>
+                    <li><a href="programs.html#top">Intro</a></li>
+                    <li><a href="programs.html#asm-table">Genome assembly programs</a></li>
+                    <li><a href="programs.html#map-table">Read mapping programs</a></li>
+                    <li><a href="programs.html#var-table">Single-nucleotide variant callers</a></li>
+                    <li><a href="programs.html#other-table">Other helpful programs</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-21-24" id="main-cont">
+            <div class="row" id="section-cont">
+                <div class="col-24-24" id="section-col">
+                    <div class="row" id="section-row">
+                        <div class="col-2-24" id="inner-margin"></div>
+                        <div class="col-20-24" id="section-content">
+
+                            <p>Here is a list of programs used in the genome assembly and variant calling process. Very basic information is provided about each program. 
+                                Check the paper and program documentation links for more extensive information. If you feel any information is inaccurate or out of date,
+                                or if you want to recommend a program to add to the lists, please contact <a href="https://gwct.github.io/" target="_blank">me</a>.
+                            </p>
+
+                            <p>Programs listed with a <span id="used-prog">GREEN BACKGROUND</span> are ones used in this class.</p>
+                    
+                        </div>
+                        <div class="col-2-24" id="inner-margin"></div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="internal-link" name="asm-table"></a>
+            <div class="row" id="section-header-cont">
+                <div class="col-24-24" id="section-header-row">
+                    <div id="section-header">Genome assembly programs</div>
+                </div>
+            </div>
+            <div class="row" id="section-cont">
+                <div class="col-24-24" id="section-col">
+                    <div class="row" id="section-row">
+                        <div class="col-2-24" id="inner-margin"></div>
+                        <div class="col-20-24" id="section-content">
+
+                            
+<div class="table-cont">
+    <table class="prog-table">
+        <thead><th>Program</th><th>Author</th><th>Year</th><th>Contig assembly method</th><th>Scaffolding method</th><th>Use cases</th><th>Link</th><th>Paper</th></thead><tr><td>ALLPATHS-LG</td><td>Gnerre</td><td>2011</td><td>de Bruijn graph and sequence graphs</td><td>Read pairs</td><td>Large genomes with both short and long reads</td><td><a href='http://software.broadinstitute.org/allpaths-lg/blog/?page_id=12' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1073/pnas.1017351108' target='_blank'>Paper</a></td></tr><tr><td>hifiasm</td><td>Cheng</td><td>2020</td><td>Error corrected overlap-layout to preserve haplotypes</td><td>NA</td><td>PacBio Hifi reads</td><td><a href='https://github.com/chhylp123/hifiasm' target='_blank'>Website</a></td><td><a href='https://arxiv.org/abs/2008.01237' target='_blank'>Paper</a></td></tr><tr id='used-prog'><td>Spades</td><td>Bankevich</td><td>2012</td><td>de Bruijn graph</td><td>Read pairs and small gap repeat resolution; can also use long reads or previously inferred contigs</td><td>Good for small genomes or targeted sequencing (e.g. exomes)</td><td><a href='https://github.com/ablab/spades' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1089/cmb.2012.0021' target='_blank'>Paper</a></td></tr><tr><td>Discovar de novo</td><td>Weisenfeld</td><td>2014</td><td>de Bruijn graph and lines</td><td>NA</td><td>Single 2x250bp library</td><td><a href='https://software.broadinstitute.org/software/discovar/blog/' target='_blank'>Website</a></td><td><a href='https://dx.doi.org/10.1038%2Fng.3121' target='_blank'>Paper</a></td></tr><tr><td>Supernova</td><td>Weisenfeld</td><td>2017</td><td>de Bruijn graph and lines</td><td>Read pairs and linked read barcodes</td><td>Large genomes with linked reads for phased genome assemblies</td><td><a href='https://github.com/10XGenomics/supernova' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1101/gr.235812.118' target='_blank'>Paper</a></td></tr><tr><td>Canu</td><td>Koren</td><td>2017</td><td>Overlap-layout-consensus</td><td>NA</td><td>Long reads</td><td><a href='https://github.com/marbl/canu' target='_blank'>Website</a></td><td><a href='https://dx.doi.org/10.1101/gr.215087.116' target='_blank'>Paper</a></td></tr><tr><td>HiCanu</td><td>Nurk</td><td>2020</td><td>Overlap-layout-consensus</td><td>NA</td><td>PacBio Hifi reads</td><td><a href='' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1101/gr.263566.120 ' target='_blank'>Paper</a></td></tr><tr id='used-prog'><td>Flye</td><td>Kolmogorov</td><td>2019</td><td>Repeat graph</td><td>NA</td><td>Long reads</td><td><a href='https://github.com/fenderglass/Flye/' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1038/s41587-019-0072-8' target='_blank'>Paper</a></td></tr><tr><td>platanus</td><td>Kajitani</td><td>2014</td><td>de Bruijn graph</td><td>Read pairs</td><td>Short reads for genomes with high heterozygosity</td><td><a href='https://dx.doi.org/10.1101%2Fgr.170720.113' target='_blank'>Website</a></td><td><a href='http://platanus.bio.titech.ac.jp/' target='_blank'>Paper</a></td></tr><tr><td>opera-lg</td><td>Gao</td><td>2016</td><td>NA</td><td>Paired reads and long reads</td><td>Scaffolding of repeat-rich genomes</td><td><a href='https://sourceforge.net/p/operasf/wiki/The%20OPERA%20wiki/' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1186/s13059-016-0951-y' target='_blank'>Paper</a></td></tr><tr><td>agouti</td><td>Zhang</td><td>2016</td><td>NA</td><td>RNA-seq reads</td><td>Scaffolding of large genomes</td><td><a href='https://github.com/svm-zhang/AGOUTI' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1186/s13742-016-0136-3' target='_blank'>Paper</a></td></tr><tr><td>Abyss</td><td>Jackman</td><td>2017</td><td>de Bruijn graph; all possible k-mers</td><td>Mate pairs, linked reads, or long reads</td><td>Short read libraries for genomes up to 100Mb; Transcriptomes with Trans-ABySS</td><td><a href='https://github.com/bcgsc/abyss' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1101/gr.214346.116 ' target='_blank'>Paper</a></td></tr><tr><td>Velvet</td><td>Zerbino and Birney</td><td>2008</td><td>de Bruijn graph</td><td>Read pairs</td><td>Short read assembly</td><td><a href='https://github.com/dzerbino/velvet' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1101/gr.074492.107' target='_blank'>Paper</a></td></tr><tr><td>SOAPdenovo2</td><td>Luo</td><td>2012</td><td>de Bruijn graph</td><td>Read pairs</td><td>Short read assembly</td><td><a href='https://github.com/aquaskyline/SOAPdenovo2' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1186/2047-217X-1-18' target='_blank'>Paper</a></td></tr><tr><td>MaSuRCA</td><td>Zimin</td><td>2013</td><td>Overlap-layout-consensus on unique super-reads</td><td>Mate pairs, linked reads, or long reads</td><td>Mixed short read libraries of large genomes</td><td><a href='https://github.com/alekseyzimin/masurca' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1093/bioinformatics/btt476' target='_blank'>Paper</a></td></tr><tr><td>CABOG</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td>NA</td><td><a href='http://wgs-assembler.sourceforge.net/wiki/index.php?title=Main_Page' target='_blank'>Website</a></td><td><a href='NA' target='_blank'>Paper</a></td></tr><tr><td>Falcon</td><td>Chin</td><td>2016</td><td>String graph</td><td>NA</td><td>PacBio long reads for diploid genome assembly</td><td><a href='https://github.com/PacificBiosciences/pb-assembly' target='_blank'>Website</a></td><td><a href='https://dx.doi.org/10.1038%2Fnmeth.4035' target='_blank'>Paper</a></td></tr><tr><td>Miniasm</td><td>Li</td><td>2016</td><td>Overlap-layout</td><td>NA</td><td>Long reads</td><td><a href='https://github.com/lh3/miniasm' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1093/bioinformatics/btw152' target='_blank'>Paper</a></td></tr><tr><td>HINGE</td><td>Kamath</td><td>2017</td><td>Overlap-layout-consensus with hinging</td><td>NA</td><td>Long reads</td><td><a href='https://hingeassembler.github.io/' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1101/gr.216465.116 ' target='_blank'>Paper</a></td></tr><tr><td>Abruijn</td><td>Lin</td><td>2016</td><td>A-Bruijn graph</td><td>NA</td><td>Long reads</td><td><a href='https://github.com/bioreps/ABruijn' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1073/pnas.1604560113' target='_blank'>Paper</a></td></tr><tr><td>MEGAHIT</td><td>Li</td><td>2015</td><td>de Bruijn graph</td><td></td><td>Short read assembly of metagenomes</td><td><a href='https://github.com/voutcn/megahit' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1093/bioinformatics/btv033' target='_blank'>Paper</a></td></tr><tr><td>Peregrine</td><td>Chin and Khalak</td><td>2020</td><td>Overlap-layout-consensus with shimmer indexing</td><td>NA</td><td>Fast long reads assembly</td><td><a href='https://github.com/cschin/Peregrine' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1101/705616 ' target='_blank'>Paper</a></td></tr>
+    </table>
+</div>
+
+                            <div id="sep_div"></div>
+
+                        </div>
+                        <div class="col-2-24" id="inner-margin"></div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="internal-link" name="map-table"></a>
+            <div class="row" id="section-header-cont">
+                <div class="col-24-24" id="section-header-row">
+                    <div id="section-header">Read mapping programs</div>
+                </div>
+            </div>
+            <div class="row" id="section-cont">
+                <div class="col-24-24" id="section-col">
+                    <div class="row" id="section-row">
+                        <div class="col-2-24" id="inner-margin"></div>
+                        <div class="col-20-24" id="section-content">
+
+                            
+<div class="table-cont">
+    <table class="prog-table">
+        <thead><th>Program</th><th>Author</th><th>Year</th><th>Use cases</th><th>Link</th><th>Paper</th></thead><tr id='used-prog'><td>BWA</td><td>Li and Durbin</td><td>2010</td><td>Short read alignment</td><td><a href='http://bio-bwa.sourceforge.net/' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1093/bioinformatics/btp324' target='_blank'>Paper</a></td></tr><tr><td>TopHat2</td><td>Kim</td><td>2013</td><td>Mapping RNA-seq reads</td><td><a href='https://ccb.jhu.edu/software/tophat/index.shtml' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1186/gb-2013-14-4-r36' target='_blank'>Paper</a></td></tr><tr id='used-prog'><td>Minimap2</td><td>Li</td><td>2018</td><td>Long read mapping and whole genome alignment</td><td><a href='https://github.com/lh3/minimap2' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1093/bioinformatics/bty191' target='_blank'>Paper</a></td></tr><tr><td>bbmap</td><td>Bushnell</td><td>2014</td><td>Short and long read mapper with many extras</td><td><a href='https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/bbmap-guide/' target='_blank'>Website</a></td><td><a href='https://www.osti.gov/biblio/1241166' target='_blank'>Paper</a></td></tr><tr><td>Bowtie2</td><td>Langmead and Salzberg</td><td>2012</td><td>Short read alignment</td><td><a href='http://bowtie-bio.sourceforge.net/bowtie2/index.shtml' target='_blank'>Website</a></td><td><a href='https://dx.doi.org/10.1038%2Fnmeth.1923' target='_blank'>Paper</a></td></tr><tr><td>SOAP2</td><td>Li</td><td>2009</td><td>Short read alignment</td><td><a href='https://sourceforge.net/projects/soapdenovo2/' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1093/bioinformatics/btp336' target='_blank'>Paper</a></td></tr>
+    </table>
+</div>
+
+                            <div id="sep_div"></div>
+
+                        </div>
+                        <div class="col-2-24" id="inner-margin"></div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="internal-link" name="var-table"></a>
+            <div class="row" id="section-header-cont">
+                <div class="col-24-24" id="section-header-row">
+                    <div id="section-header">Single-nucleotide variant calling programs</div>
+                </div>
+            </div>
+            <div class="row" id="section-cont">
+                <div class="col-24-24" id="section-col">
+                    <div class="row" id="section-row">
+                        <div class="col-2-24" id="inner-margin"></div>
+                        <div class="col-20-24" id="section-content">
+
+                            
+<div class="table-cont">
+    <table class="prog-table">
+        <thead><th>Program</th><th>Author</th><th>Year</th><th>Link</th><th>Paper</th></thead><tr id='used-prog'><td>GATK</td><td>McKenna</td><td>2010</td><td><a href='https://gatk.broadinstitute.org/hc/en-us' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1101/gr.107524.110' target='_blank'>Paper</a></td></tr><tr><td>FreeBayes</td><td>Garrison and Marth</td><td>2012</td><td><a href='https://github.com/wadeschulz/freebayes' target='_blank'>Website</a></td><td><a href='https://arxiv.org/abs/1207.3907v2' target='_blank'>Paper</a></td></tr><tr><td>Discovar</td><td>Weisenfeld</td><td>2014</td><td><a href='https://software.broadinstitute.org/software/discovar/blog/' target='_blank'>Website</a></td><td><a href='https://dx.doi.org/10.1038%2Fng.3121' target='_blank'>Paper</a></td></tr><tr><td>MAQ</td><td>Li</td><td>2008</td><td><a href='http://maq.sourceforge.net/' target='_blank'>Website</a></td><td><a href='https://dx.doi.org/10.1101%2Fgr.078212.108' target='_blank'>Paper</a></td></tr><tr><td>DeepVariant</td><td>Poplin</td><td>2018</td><td><a href='https://github.com/google/deepvariant' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1038/nbt.4235' target='_blank'>Paper</a></td></tr>
+    </table>
+</div>
+
+                            <div id="sep_div"></div>
+
+                        </div>
+                        <div class="col-2-24" id="inner-margin"></div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="internal-link" name="other-table"></a>
+            <div class="row" id="section-header-cont">
+                <div class="col-24-24" id="section-header-row">
+                    <div id="section-header">Other helpful programs</div>
+                </div>
+            </div>
+            <div class="row" id="section-cont">
+                <div class="col-24-24" id="section-col">
+                    <div class="row" id="section-row">
+                        <div class="col-2-24" id="inner-margin"></div>
+                        <div class="col-20-24" id="section-content">
+
+                            
+<div class="table-cont">
+    <table class="prog-table">
+        <thead><th>Program</th><th>Author</th><th>Year</th><th>Use cases</th><th>Link</th><th>Paper</th></thead><tr id='used-prog'><td>bedtools</td><td>Quinnlan and Hall</td><td>2010</td><td>Perform operations on sets of genomic coordinates.</td><td><a href='https://bedtools.readthedocs.io/en/latest/' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1093/bioinformatics/btq033' target='_blank'>Paper</a></td></tr><tr id='used-prog'><td>bcftools</td><td>NA</td><td>NA</td><td>Perform opterions on VCF and BCF formatted files.</td><td><a href='http://samtools.github.io/bcftools/' target='_blank'>Website</a></td><td><a href='NA' target='_blank'>Paper</a></td></tr><tr id='used-prog'><td>samtools</td><td>Li</td><td>2009</td><td>Perform operations on SAM/BAM/CRAM formatted files.</td><td><a href='http://www.htslib.org/download/' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1093/bioinformatics/btp352' target='_blank'>Paper</a></td></tr><tr id='used-prog'><td>Picard tools</td><td>Broad Institute</td><td>2019</td><td>Performs many operations on SAM/BAM/CRAM and VCF files.</td><td><a href='https://github.com/broadinstitute/picard' target='_blank'>Website</a></td><td><a href='http://broadinstitute.github.io/picard/' target='_blank'>Paper</a></td></tr><tr><td>mosdepth</td><td>Pedersen and Quinlan</td><td>2018</td><td>Calculates read depth from mapped reads.</td><td><a href='https://github.com/brentp/mosdepth' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1093/bioinformatics/btx699' target='_blank'>Paper</a></td></tr><tr id='used-prog'><td>pseudo-it</td><td>Sarver</td><td>2017</td><td>Iterative read mapping for pseudo-reference assembly.</td><td><a href='https://github.com/goodest-goodlab/pseudo-it' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1093/gbe/evx034' target='_blank'>Paper</a></td></tr><tr><td>Referee</td><td>Thomas and Hahn</td><td>2018</td><td>Assign per-base quality scores to genome assemblies.</td><td><a href='https://gwct.github.io/referee/' target='_blank'>Website</a></td><td><a href='https://doi.org/10.1093/gbe/evz088' target='_blank'>Paper</a></td></tr>
+    </table>
+</div>
+
+                            <div id="sep_div"></div>
+
+                        </div>
+                        <div class="col-2-24" id="inner-margin"></div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="row" id="footer">
+		<div class="col-1">
+			<div id="footer_text">
+				<center>Site designed and maintained by <a href="https://gwct.github.io" target="_blank">Gregg Thomas</a> | Page built: 01/21/2021 21:47:37 MST</center>
+			</div>
+		</div>
+	</div>
+</body>
