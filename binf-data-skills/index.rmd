@@ -204,7 +204,7 @@ knitr::include_graphics("./Media/pipeflow.png")
   
 **Practice**
 
-  - [Practice tasks](https://gzahngithub.io/binf-data-skills/Practice/Chapter_3_Practice.html){target="_blank"}
+  - [Practice tasks](https://gzahn.github.io/binf-data-skills/Practice/Chapter_3_Practice.html){target="_blank"}
             
 
 **For your consideration:**
