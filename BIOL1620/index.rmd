@@ -121,9 +121,9 @@ knitr::include_graphics("../media/week2.jpg")
   - Interesting, if Provocative,  [Hypothesis](https://www.scientificamerican.com/article/a-new-physics-theory-of-life/){target="_blank"}
   
 **Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
+  - Part 1 (MLK Jr. Day)
+  - [Part 2](https://youtu.be/rAK-vnCyCqY){target="_blank"}
+  - [Part 3](https://youtu.be/v2en1PdFFug){target="_blank"}
   
   
   

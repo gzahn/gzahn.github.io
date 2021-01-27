@@ -84,6 +84,7 @@ knitr::include_graphics("./Media/StarWars.png")
   - Supplemental files for all textbook chapters -  [REPOSITORY](https://github.com/vsbuffalo/bds-files){target="_blank"}
   - Navigating your computer with a terminal [video](https://youtu.be/fdkbQ0MduBY){target="_blank"}
   - Recorded Lesson [Part 1](https://youtu.be/oXBkqoz-xf4){target="_blank"}
+  - Recorded Lesson [Part 2](https://youtu.be/3W5tkJ5NDrQ){target="_blank"}
 
 **Practice**
 
@@ -137,6 +138,8 @@ knitr::include_graphics("./Media/filetree.png")
   - [Example project structure](https://github.com/gzahn/Data_Course/tree/master/Code_Examples/Example_Project){target="_blank"}
   - Beginners' guide to the Bash terminal [video](https://youtu.be/oxuRxtrO2Ag?list=PLzNKOozWiEuyNu-kHpVZk59uf04wkQyY2){target="_blank"} (need to watch if you haven't used a terminal before)
   - Common Unix [commands](https://www.unixtutorial.org/basic-unix-commands){target="_blank"}
+  - Recorded Lesson [Part 1](https://youtu.be/YaAEFORfND8){target="_blank"}
+  - Recorded Lesson [Part 2](https://youtu.be/7l8XXKivOK4){target="_blank"}
   
 **Practice**
 
@@ -201,6 +204,8 @@ knitr::include_graphics("./Media/pipeflow.png")
   - Bonus tips: 
     + BASH aliases [video](https://youtu.be/21LpBiQVDhM){target="_blank"}
     + BASH alias [examples](https://gzahn.github.io/data-course/Repository/Code_Examples/handy_bash_aliases.txt){target="_blank"}
+  - Recorded Lesson [Part 1](https://youtu.be/1nM-vXIg4vQ){target="_blank"}
+  - Recorded Lesson [Part 2](){target="_blank"}
   
 **Practice**
 
