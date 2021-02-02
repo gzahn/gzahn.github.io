@@ -28,8 +28,9 @@ Download Fastq [File 1](https://gzahn.github.io/binf-data-skills/Data/Assignment
   **6.  Repeat task 5, but for Assignment_4_File_2.fastq and redirect the output to "Fastq_vs_Fasta_2.txt"**
   
   **7.  Install the seqtk program (you'll need to explore it yourself --online and help files-- to see how it works):**
+  https://github.com/lh3/seqtk
   
-            sudo apt-get install seqtk # enter admin password when prompted
+        
             seqtk # returns list of available seqtk subcommands
 
 Use: seqtk SUBCOMMAND -OPTIONS FILENAME
