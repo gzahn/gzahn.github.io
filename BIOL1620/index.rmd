@@ -88,6 +88,7 @@ knitr::include_graphics("../media/week1.jpg")
   - [Mechanisms of Antibiotic Resistance](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4888801/){target="_blank"}
 
 **Lesson Videos**
+
   - [Part 1](https://youtu.be/tffOaRQHffU){target="_blank"}
   - [Part 2](https://youtu.be/gwiWAYFds7E){target="_blank"}
   - [Part 3](https://youtu.be/YaRCRsnViUc){target="_blank"}
@@ -121,6 +122,7 @@ knitr::include_graphics("../media/week2.jpg")
   - Interesting, if Provocative,  [Hypothesis](https://www.scientificamerican.com/article/a-new-physics-theory-of-life/){target="_blank"}
   
 **Lesson Videos**
+
   - Part 1 (MLK Jr. Day)
   - [Part 2](https://youtu.be/rAK-vnCyCqY){target="_blank"}
   - [Part 3](https://youtu.be/v2en1PdFFug){target="_blank"}
@@ -158,9 +160,10 @@ knitr::include_graphics("../media/week3.jpg")
   - Nature of Science [Presentation](https://www.vmnh.net/content/File/VSSI_1_2012/nospresentation72112.pdf){target="_blank"}
   
 **Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
+
+  - [Part 1](https://youtu.be/Z0RDf2aGBaE){target="_blank"}
+  - [Part 2](https://youtu.be/mo5f20E1YQs){target="_blank"}
+  - [Part 3](https://youtu.be/6VdI3-AE3yI){target="_blank"}
   
   
 [Back to top of page](#top)
@@ -196,9 +199,10 @@ knitr::include_graphics("../media/week4.png")
   - *Paulinella* [complicates things](https://www.sciencedirect.com/science/article/pii/S0960982212003077){target="_blank"}
 
 **Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
+
+  - [Part 1](https://youtu.be/YjBEd5c3rv0){target="_blank"}
+  - [Part 2](https://youtu.be/rWJJ1EJ8S_c){target="_blank"}
+
   
 [Back to top of page](#top)
 
