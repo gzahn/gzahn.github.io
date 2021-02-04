@@ -205,7 +205,7 @@ knitr::include_graphics("./Media/pipeflow.png")
     + BASH aliases [video](https://youtu.be/21LpBiQVDhM){target="_blank"}
     + BASH alias [examples](https://gzahn.github.io/data-course/Repository/Code_Examples/handy_bash_aliases.txt){target="_blank"}
   - Recorded Lesson [Part 1](https://youtu.be/1nM-vXIg4vQ){target="_blank"}
-  - Recorded Lesson [Part 2](){target="_blank"}
+  - Recorded Lesson [Part 2](https://youtu.be/tZKeo1o2bi0){target="_blank"} (mostly trying to get things to work on Windows)
   
 **Practice**
 
@@ -248,6 +248,9 @@ knitr::include_graphics("./Media/fastq_fig.jpg")
   - fasta and fastq [formats](https://compgenomr.github.io/book/fasta-and-fastq-formats.html){target="_blank"}
   - [phred scores](https://www.drive5.com/usearch/manual/quality_score.html){target="_blank"}
   - fasta format for [peptide sequences](https://zhanglab.ccmb.med.umich.edu/FASTA/){target="_blank"}
+  - Recorded Lesson [Part 1](https://youtu.be/A8Lpn5BOwnw){target="_blank"}
+  - Recorded Lesson [Part 2](https://youtu.be/gXvv1K9PAO4){target="_blank"}
+  - Recorded Lesson [Part 3](https://youtu.be/haQp5IYHNfU){target="_blank"} 
   
 **Practice**
 
@@ -332,8 +335,7 @@ knitr::include_graphics("./Media/linuxfu.jpg")
 **Assignments:**
 
   - Work through **BDS Chapter 7**
-  -
-  -
+  - [Assignment 6](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_6.html){target="_blank"}
 
 **Resources**
 
