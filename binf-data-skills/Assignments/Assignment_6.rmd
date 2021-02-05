@@ -15,13 +15,26 @@ ___
 
 You created a summary file during the ITSxpress Case Study called "ITSxpress_summary_info.txt" that contains filenames, the number of sequences in, the number of sequences out, and the elapsed time.
 
-I want you to figure out:
-  
-  1. The proportion of passing sequences for each file
-  2. The list of filenames that had fewer than 20% of their reads pass ITSxpress
-  3. The total number of sequences in those files from #2
+___
 
-The best command-line tool for this is 'awk' which you can read about in BDS Ch 7. Typically, I (and most other?) bioinformaticians, would switch to Python or R for this sort of analysis, but getting a basic grasp of simple awk commands is still very worthwhile. However, we're not going to dive deeply into it.
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../Media/ITSxpress_speed_stats.png")
+```
+
+Here's a graphical look at performance speed on my laptop vs the number of DNA reads that went into and came out of ITSxpress.
+
+
+**I want you to figure out:**
+  
+  **1. The proportion of passing sequences for each file**
+  
+  **2. The list of filenames that had fewer than 20% of their reads pass ITSxpress**
+  
+  **3. The total number of sequences in those files from #2**
+
+The best command-line tool for this is 'awk' which you can read about in BDS Ch 7. Typically, I (and most other?) bioinformaticians, would switch to Python or R for this sort of analysis (as seen in the figure above), but getting a basic grasp of simple awk commands is still very worthwhile. There's a benefit to being able to parse output as part of your bioinformatics pipeline, even writing if-else statements that are ready to deal with files that didn't perform well in a previous step, like in this case.
+
+For a real-life example, there could have been some files that had NO reads make it through ITSxpress. Those empty files could mess up downstream steps in your pipeline if they weren't removed. 'awk' can help deal with that sort of thing in this situation.
 
 At this point, it's maybe best to think of 'awk' being a companion to 'sed' in that while 'sed' works with lines, 'awk' works with columns. And it can do math!
 

@@ -125,7 +125,7 @@ knitr::include_graphics("../media/week2.jpg")
 
   - Part 1 (MLK Jr. Day)
   - [Part 2](https://youtu.be/rAK-vnCyCqY){target="_blank"}
-  - [Part 3](https://youtu.be/v2en1PdFFug){target="_blank"}
+  - [Part 3](https://youtu.be/zXa1dw3zxb8){target="_blank"}
   
   
   
