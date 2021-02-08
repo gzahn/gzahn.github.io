@@ -17,9 +17,9 @@ ___
     
   **3.  Here's a single confusing line of code that converts fastq to fasta format. It accepts STDIN as input and output is written to STDOUT. **
   
-            sed -n '\''1~4s/^@/>/p;2~4p'\''
+            sed -n '1~4s/^@/>/p;2~4p'
         
-Download Fastq [File 1](https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_1.fastq){target="_blank"} and [File 2](https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_1.fastq){target="_blank"} and run that line of code on each of them.
+Download Fastq [File 1](https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_1.fastq){target="_blank"} and [File 2](https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_2.fastq){target="_blank"} and run that line of code on each of them.
   
   **4.  Now, run that line of code on each file again, but this time, pipe the output to head to inspect the first 5 lines.**
   

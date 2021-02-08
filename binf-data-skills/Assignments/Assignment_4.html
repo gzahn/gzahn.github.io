@@ -373,9 +373,9 @@ summary {
 <p><strong>1. Read through Chapter 10 at least once</strong></p>
 <p><strong>2. You don’t yet have the chops to work through the Example (Inspecting and trimming low-quality bases), so read through it carefully, but don’t bother trying to follow along in your terminal yet. BUT, you should work through the “Indexed FASTA files” section!</strong></p>
 <p><strong>3. Here’s a single confusing line of code that converts fastq to fasta format. It accepts STDIN as input and output is written to STDOUT. </strong></p>
-<pre><code>        sed -n &#39;\&#39;&#39;1~4s/^@/&gt;/p;2~4p&#39;\&#39;&#39;
+<pre><code>        sed -n &#39;1~4s/^@/&gt;/p;2~4p&#39;
     </code></pre>
-<p>Download Fastq <a href="https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_1.fastq" target="_blank">File 1</a> and <a href="https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_1.fastq" target="_blank">File 2</a> and run that line of code on each of them.</p>
+<p>Download Fastq <a href="https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_1.fastq" target="_blank">File 1</a> and <a href="https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_2.fastq" target="_blank">File 2</a> and run that line of code on each of them.</p>
 <p><strong>4. Now, run that line of code on each file again, but this time, pipe the output to head to inspect the first 5 lines.</strong></p>
 <p><strong>5. Write a piped command with process substitution that combines the first 8 lines of Assignment_4_File_1.fastq and the first 4 lines of the same file converted fasta format and redirect the output to a file named “Fastq_vs_Fasta.txt”</strong></p>
 <p><strong>6. Repeat task 5, but for Assignment_4_File_2.fastq and redirect the output to “Fastq_vs_Fasta_2.txt”</strong></p>
