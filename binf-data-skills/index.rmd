@@ -335,7 +335,7 @@ knitr::include_graphics("./Media/linuxfu.jpg")
 **Assignments:**
 
   - Work through **BDS Chapter 7**
-  - [Assignment 6](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_6.html){target="_blank"}
+  - [**Assignment 5**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_5.html){target="_blank"}
 
 **Resources**
 
@@ -371,16 +371,16 @@ knitr::include_graphics("./Media/tuxninja.png")
 **Assignments:**  
 
   - Continue working through **BDS Chapter 7**
-  - **Assignment 5 -** convert between tabular and fasta formatted data | process/command substitution
+  - **[Assignment 6](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_6.html){target="_blank"} -** convert between tabular and fasta formatted data | process/command substitution | advanced paste
 
 **Resources**
 
-  - "Process substitution" vs "command substitution" [VIDEO](https://www.youtube.com/watch?v=rlsBXrPwqGk)
-  - 
+  - "Process substitution" vs "command substitution" [VIDEO](https://www.youtube.com/watch?v=rlsBXrPwqGk){target="_blank}
+  - Using paste to build fasta from tsv [video](https://youtu.be/2XAa3UauJto){target="_blank}
   
 **Practice**
 
-  - Here's an awful-looking one-line command that prints out the phylum from each line of Chapter_7_Practice_File_2.txt along with a number sequence next to it showing which line of the file it came from.
+  - Here's an awful-looking one-line command that prints out the phylum from each line of [Chapter_7_Practice_File_2.txt](gzahn.github.io/binf-data-skills/Data/Chapter_7_Practice_File_2.txt) along with a number sequence next to it showing which line of the file it came from.
   - It uses both process and command substitution, but essentially, it's just the paste command pasting together the phylum in the first field and the numbers 1-34 in the second field
   - I want you to break it apart, looking at each component and understand why it works!
   
@@ -494,6 +494,7 @@ knitr::include_graphics("./Media/ssh.jpeg")
     
   - SLURM commands [cheat sheet](https://gzahn.github.io/binf-data-skills/Media/SlurmCheatsheet-Summer2019.pdf){target="_blank"}
   - SLURM [Presentation from CHPC](https://gzahn.github.io/binf-data-skills/Media/slurmfall2020.pdf){target="_blank"}
+  - How [public key encryption](https://youtu.be/YEBfamv-_do){target="_blank"} actually works
   
 **Practice**
 

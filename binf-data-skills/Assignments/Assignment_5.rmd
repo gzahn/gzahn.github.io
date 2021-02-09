@@ -11,41 +11,61 @@ pagetitle: Assignment_5
 
 ___
 
-  **1. Read through Chapter 7 at least twice**
-    
-  **2. It's a big chapter which is why we've got 2 weeks with it, but pay attention to things like grep, sed, awk, etc... **
-    
-  **3. Here's a small [fasta file](https://gzahn.github.io/binf-data-skills/Data/Assignment_5_File_1.fasta) you should download into an appropriate place in your Assignment_5 project directory.**
-        
-  **4.  I need you to convert that file into tabular format using some combination of the tools you've learned. Tabular format looks like the following:**
+### Here, we're going to work with the output from our Case Study using some familiar tools along with 'awk'
+
+You created a summary file during the ITSxpress Case Study called "ITSxpress_summary_info.txt" that contains filenames, the number of sequences in, the number of sequences out, and the elapsed time.
+
+___
+
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../Media/ITSxpress_speed_stats.png")
+```
+
+Here's a graphical look at performance speed on my laptop vs the number of DNA reads that went into and came out of ITSxpress.
+
+
+**I want you to figure out:**
   
-    OTU8      TACGGAGGGTGCAAGC...
-    OTU11     TGGCAGACTAGAGTAT...
+  **1. The proportion of passing sequences for each file**
+  
+  **2. The list of filenames that had fewer than 20% of their reads pass ITSxpress**
+  
+  **3. The total number of sequences in those files from #2**
+
+The best command-line tool for this is 'awk' which you can read about in BDS Ch 7. Typically, I (and most other?) bioinformaticians, would switch to Python or R for this sort of analysis (as seen in the figure above), but getting a basic grasp of simple awk commands is still very worthwhile. There's a benefit to being able to parse output as part of your bioinformatics pipeline, even writing if-else statements that are ready to deal with files that didn't perform well in a previous step, like in this case.
+
+For a real-life example, there could have been some files that had NO reads make it through ITSxpress. Those empty files could mess up downstream steps in your pipeline if they weren't removed. 'awk' can help deal with that sort of thing in this situation.
+
+At this point, it's maybe best to think of 'awk' being a companion to 'sed' in that while 'sed' works with lines, 'awk' works with columns. And it can do math!
+
+___
+
+
+For the first task:
+  
+  + Copy the summary file from Case Study 1 to this Assignment_5 directory
+  + Use 'awk' to find the proportion of reads that passed ITSxpress for each file (out/in)
+  + Add those values as a new column and save that output as Passing_Proportions.tsv
+
+
+For the second task:
  
-  Note: I want all the descriptive taxonomic stuff removed. The first column is *just* the OTUID, the second column is *just* the sequence          
+  + Use awk to extract a list of filenames that had fewer than 20% passing reads
+  + Save that list as "Unsuccessful_ITSxpress_Files.txt"
   
-  **5.  Keep track of any steps you take to convert from fasta to that tabular (with two columns) format, and save the new version of the data file as "Assignment_5_File_1.tsv**
-  
-  **6.  Now, starting from that new tabular file, use awk/sed/etc. to convert it back to standard fasta format. Record all your commands that got the job done.**
-  
-  **7.  Okay, back to the orginal fasta file...two of the DNA reads have been assigned the exact same taxonomy. Write a short command to find the full taxonomic affiliation of the repeated taxonomic group. Your command can't make use of the taxonomic names in any way; Just because you can visually inspect _this_ file doesn't mean it's always possible or feasible.**
-  
-  **8.  Now, extend that command to return _just_ the two DNA reads where the taxonomy is the same. Let me show you want I mean:**
-  
-    >OTU15_Bacteria_Proteobacteria_Gammaproteobacteria_Pseudomonadales_Moraxellaceae_Psychrobacter
-    TACAGAGGGTGCAAGCGTTAATCGGAATTACTGGGCGTAAAGCGAGCGTAGGTGGCTTGATAAGTCAGATGTGAAATCCCCGGGCTTAACCTGGGAACTGCATCTGATACTGTCAGGCTAGAGTAGGTGAGAGGAAGGTAGAATTCCAGGTGTAGCGGTGAAATGCGTAGAGATCTGGAGGAATACCGATGGCGAAGGCAGCCTTCTGGCATCATACTGACACTGAGGCTCGAAAGCGTGGGTAGCAAACAGG
-    >OTU28_Bacteria_Proteobacteria_Gammaproteobacteria_Pseudomonadales_Moraxellaceae_Psychrobacter
-    TACAGAGGGTGCAAGCGTTAATCGGAATTACTGGGCGTAAAGCGAGCGTAGGTGGCTTAATAAGTCAGATGTGAAATCCCCGGGCTTAACCTGGGAACTGCATCTGATACTGTTGGGCTAGAGTAGGTGAGAGGGAGGTAGAATTTCAGGTGTAGCGGTGAAATGCGTAGAGATCTGAAGGAATACCGATGGCGAAGGCAGCCTCCTGGCATCATACTGACACTGAGGTTCGAAAGCGTGGGTAGCAAACAGG
+For the third task:
 
-So, in other words, your full command should search the file for matching taxonomy, and then use that match to just show the fasta records for those two matching reads. Note that this is in the "proper" fasta format, with each record taking up exactly 2 lines.
+  + Use any method to print the total number of sequences in those files (see BDS p. 160)
+  + No need to save this value to a file, just make sure your code prints it to the screen 
+ 
+ 
+**Be sure you are using good relative filepaths and have a useful directory structure for this project... if you copy the summary output file from Case Study 1 to this assignment directory, be sure to include that code as well, for example!** 
 
-  **9.  This whole process may look short and sweet, but it will require sed, grep, awk, paste, process substitution, and some other stuff, all rolled into one!**
-  
 ___
   
 ### **What to turn in:**
 
-  - Store a cleaned-up plain-text file that documents the code you used for tasks 4-8
+  - Documented code used to accomplish each task saved as plain-text file (either .txt or .sh)
   - Be sure to include comments explaining what is going on in your code
   
 Upload that plain-text file to Canvas. You'll be graded on completeness, documentation, and readability.
