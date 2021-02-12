@@ -125,6 +125,7 @@ Save your password someplace safe. Don't give it to anyone, including me.
 knitr::include_graphics("../../../media/newrepo.png")
 ```
   
+Enable [two-factor authentication]: (https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication){target="_blank"}
 
 3.  Back in your terminal, navigate to your Desktop with the command-line again
 
