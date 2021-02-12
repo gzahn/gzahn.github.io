@@ -302,7 +302,6 @@ knitr::include_graphics("../media/week7.png")
 
   - Campbell Chs 33-34
   - Canvas quiz 6 due Monday before 11am
-  - Note: No Class Monday – Washington and Lincoln Day
   - Optional Your-Choice Points: Cave of Forgotten Dreams [Video](https://drive.google.com/open?id=1els5LTLnstqsqKFZ-9gm34M8sJtQ3SVZ){target="_blank"} goes well with these lessons
 
 **Resources**
