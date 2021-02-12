@@ -127,6 +127,20 @@ knitr::include_graphics("../../../media/newrepo.png")
   
 Enable [two-factor authentication]: (https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication){target="_blank"}
 
+Use the LastPass App for your phone, give it your phone number as a backup, and save your account recovery codes somewhere very safe (gmail draft message?)
+
+**You will need to [create a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token){target="_blank"} to use GitHub from the command line**
+
+Copy your token and paste it into a text document. To set it as an "environment variable" enter the following in your command-line terminal, replacing TOKEN with the actual token you received (keep all quotes as-is):
+
+        echo 'export GITHUB="TOKEN"' >> ~/.bashrc
+
+You can now type the following to see/copy your command-line GitHub token:
+
+        echo $GITHUB
+        
+        
+
 3.  Back in your terminal, navigate to your Desktop with the command-line again
 
 4.  Now clone the github page you created (The one called Data_Course_YOURLASTNAME)
