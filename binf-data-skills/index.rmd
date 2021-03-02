@@ -424,8 +424,8 @@ knitr::include_graphics("./Media/ncbi.gif")
 **Assignments:**
   
   - Work through **BDS Chapter 6**
-  - **Assignment 6 -** download stuff with ftp, wget, curl, Edirect, sra-toolkit
-  - **Case Study 2 -** Reproducibly downloading stuff (BDS p. 120)
+  - **Assignment 6 -** (meh... I don't like this assignment. You've got a case study this week already)
+  - [**Case Study 2 -**](https://gzahn.github.io/binf-data-skills/Case_Studies/02_reproducibly_download_data/Case_Study_2.html){target="_blank"} Reproducibly downloading stuff (BDS p. 120)
   
     + Full documentation
     + Checksums
@@ -435,7 +435,6 @@ knitr::include_graphics("./Media/ncbi.gif")
 
   - [FileZilla](https://filezilla-project.org/){target="_blank"} is a free FTP client that really comes in handy for moving files to and from remote servers
   - **curl** vs **wget** [comparison](https://www.baeldung.com/linux/curl-wget){target="_blank"}
-  - SRA Toolkit [download page](https://github.com/ncbi/sra-tools/wiki/01.-Downloading-SRA-Toolkit){target="_blank"}
   - fastq-dump [instructions](https://gzahn.github.io/binf-data-skills/Media/fastq-dump_instructions.html){target="_blank"} from the Edwards Lab
   
 **Practice**
