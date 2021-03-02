@@ -424,7 +424,6 @@ knitr::include_graphics("./Media/ncbi.gif")
 **Assignments:**
   
   - Work through **BDS Chapter 6**
-  - **Assignment 6 -** (meh... I don't like this assignment. You've got a case study this week already)
   - [**Case Study 2 -**](https://gzahn.github.io/binf-data-skills/Case_Studies/02_reproducibly_download_data/Case_Study_2.html){target="_blank"} Reproducibly downloading stuff (BDS p. 120)
   
     + Full documentation
