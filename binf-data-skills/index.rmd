@@ -432,6 +432,7 @@ knitr::include_graphics("./Media/ncbi.gif")
 
 **Resources**
 
+  - tmux [tutorial](https://danielmiessler.com/study/tmux/){target="_blank"}
   - [FileZilla](https://filezilla-project.org/){target="_blank"} is a free FTP client that really comes in handy for moving files to and from remote servers
   - **curl** vs **wget** [comparison](https://www.baeldung.com/linux/curl-wget){target="_blank"}
   - fastq-dump [instructions](https://gzahn.github.io/binf-data-skills/Media/fastq-dump_instructions.html){target="_blank"} from the Edwards Lab
@@ -467,15 +468,16 @@ knitr::include_graphics("./Media/ssh.jpeg")
 
 **Topics:**
 
-  -
-  -
-  -
+  - tmux, ssh, public keys
+  - navigating the HPC
+  - good HPC citizenship
+  - SLURM scripts and commands
 
 **Assignments:**
 
   - Work through **BDS Chapter 4** before class this week
-  - **Assignment 7 -** build 3 separate SLURM scripts to run fasta analyses
-  -
+  - [**Assignment 7 -**]((https://gzahn.github.io/binf-data-skills/Assignments/Assignment_7.html){target="_blank"}) build and submit 3 separate jobs on the HPC
+
 
 **Resources**
 
