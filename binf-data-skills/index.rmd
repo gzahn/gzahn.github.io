@@ -433,10 +433,8 @@ knitr::include_graphics("./Media/ncbi.gif")
 **Resources**
 
   - tmux [tutorial](https://danielmiessler.com/study/tmux/){target="_blank"}
-  - [FileZilla](https://filezilla-project.org/){target="_blank"} is a free FTP client that really comes in handy for moving files to and from remote servers
   - **curl** vs **wget** [comparison](https://www.baeldung.com/linux/curl-wget){target="_blank"}
-  - fastq-dump [instructions](https://gzahn.github.io/binf-data-skills/Media/fastq-dump_instructions.html){target="_blank"} from the Edwards Lab
-  
+    
 **Practice**
 
   - [Practice task](https://gzahn.github.io/binf-data-skills/Practice/Chapter_6_Practice.html){target="_blank"}
@@ -476,7 +474,7 @@ knitr::include_graphics("./Media/ssh.jpeg")
 **Assignments:**
 
   - Work through **BDS Chapter 4** before class this week
-  - [**Assignment 7 -**]((https://gzahn.github.io/binf-data-skills/Assignments/Assignment_7.html){target="_blank"}) build and submit 3 separate jobs on the HPC
+  - [**Assignment 7 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_7.html){target="_blank"} build and submit 3 separate jobs on the HPC
 
 
 **Resources**
@@ -519,21 +517,28 @@ knitr::include_graphics("./Media/kingspeak.png")
 
 **Topics:**
 
-  -
-  -
-  -
+  - Installing other software not found in "modules"
+  - File transfers
+  - Customizing your remote workspace
   
 **Assignments:**
 
-  - 
+  - [**Assignment 8 - **](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_8.html){target="_blank"} Download and process SRA data on the CHPC
+ 
+**Resources:**
 
-**Resources**
+  - sra-toolkit is available as a module on the CHPC, but you'll need to [configure it](https://github.com/ncbi/sra-tools/blob/master/README-vdb-config){target="_blank"} before use using 
+        
+        vdb-config -i
+        
+  - prefetch [instructions](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=prefetch){target="_blank"}
+  - fastq-dump [instructions](https://gzahn.github.io/binf-data-skills/Media/fastq-dump_instructions.html){target="_blank"} from the Edwards Lab
+  - [FileZilla](https://filezilla-project.org/){target="_blank"} is a free FTP client that really comes in handy for moving files to and from remote servers
 
-  -
  
 **Practice**
 
-  - 
+  - See if you can get itsxpress to run
   
   
 [Back to top of page](#top)
