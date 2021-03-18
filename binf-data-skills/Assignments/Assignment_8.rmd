@@ -1,0 +1,76 @@
+---
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: Assignment_8
+---
+    
+# **Bioinformatics Data Skills**
+    
+## Assignment 8
+
+You will use the CHPC server to download and process seqeuences from the [Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra/) (SRA).
+
+The SRA is a bit different from the nuccore NCBI database. It's for raw data from high-throughput sequencing technologies. Most of the time metagenomes are reported in the literature, the raw data from the sequencer are deposited here, along with study metadata. Go to the SRA website and ...
+
+  1. search for "oral microbiome"
+  2. click on the top hit
+  3. explore that entry (find the abstract)
+  4. click on the link that starts with "PRJ..." (That's the accession for the entire study)
+  5. from there, you can click on the number to the right of "SRA Experiments" which refers to the number of sequence files associated with this study.
+  6. you can then click on "Send results to Run selector" where you can view and download the study metadata (or a list of accession numbers)
+  
+I've got one such list of accession numbers for you in [this file](http://gzahn.github.io/binf-data-skills/Data/Assignment_8_Acc_List.txt){target="_blank"}.
+
+These accessions are from a UVU student-led research project comparing soil microbes along a chronosequence of alpine wildfires with nearby unburned controls. The goal was to see how long it takes soil fungi to recover after a burn. To do this, we sequenced ITS1 amplicons. Each soil sample was returned as it's own file (accession).
+
+You need to download these data and run itsxpress on them all.
+
+___
+
+
+You'll be using the sra-toolkit module, available on the CHPC
+
+See the course website for resources about configuring sra-toolkit and how to use the prefetch and fastq-dump programs (which are part of sra-toolkit)
+
+___
+
+#### Your tasks:
+
+**1. Download and extract the fastq files from the accessions listed in that file above**
+
+**2. Run itsxpress on all of them to extract just the ITS1 region**
+
+**3. Make sure to request enough time and resources from the kingspeak-shared cluster to get the job done**
+
+  + Don't forget that this task can be parallelized!
+
+___
+
+### **What to turn in:**
+
+  - Your SLURM script(s) that you used to accomplish downloading the data set and running itsxpress
+  
+Upload the plain-text file(s) to Canvas. You'll be graded on completeness, documentation, and readability.
+
+___
+
+Note that itsxpress is NOT an available module. But it's dependencies are! So you load those dependencies, and then import itsxpress as a python library
+
+        module load python/3.7.3
+        module load hmmer3/3.1b2
+        module load vsearch
+        
+        # import itsxpress
+        python $HOME/programs/load_itsxpress.py
+
+...and the contents of load_itsxpress.py are just one line:
+
+import itsxpress
+
+
+
+
+___
+
+<br/>

@@ -1,0 +1,89 @@
+---
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: Assignment_7
+---
+    
+# **Bioinformatics Data Skills**
+    
+## Assignment 7
+
+You will be creating some SLURM scripts that will run on the UofU CHPC Cluster.
+
+
+
+___
+
+  **1. Read through Chapter 4 at least twice**
+    
+  **2. Watch the first 6 videos in the CHPC series in the course website resources**
+  
+  **3. Write and submit the following 3 jobs via SLURM scripts:**
+  
+Each of these three jobs should be self-contained SLURM scripts that you submit to the "kingspeak-shared" cluster
+
+___  
+  
+#### **Job 1: Testing this out**
+  
+  + Resources = 1 core, 1 minute of wall time, 10 Mb of memory
+  + Task:
+
+        cat cat <(ls -l1 ~) 
+
+___
+
+#### **Job 2: Downloading surface glycoprotein sequences**
+
+  + Resources = 1 core, 30 minutes of wall time, 6400 Mb of memory
+  + Tasks:
+  
+    1. Download and setup the NCBI datasets program we used before
+    2. Use datasets to download just the surface glycoproteins (gene code is "S") from sars-cov-2 genomes deposited since 03/01/2021
+      
+      + That command should look like...
+      
+            PATH/TO/datasets download virus protein S --released-since 03/01/2021 --exclude-pdb --exclude-gpff
+    3. Calculate the number of sequences you downloaded
+    4. Calculate the number unique nucleotide variants for that gene 
+
+___
+
+#### **Job 3: Clustering those sequences**
+
+  + Resources = 12 cores, 4 hours of wall time (to start with, at least...increase if necessary), 28000 Mb of memory
+  + Modules = vsearch/040218
+  + Tasks:
+  
+    1. Run the following program on the cds.fna file of surface glycoproteins
+    
+      
+                vsearch --cluster_fast test.fasta -id 0.97 --centroids centroids.fasta --consout consensus.fasta --msaout msa.fasta --profile cluster_profiles.txt
+                        
+                cat centroids.fasta | grep "^>" > centroid_ids.txt
+                        
+                grep -Fwf centroid_ids.txt cds.fna
+        
+This vsearch program is clustering the nucleotide sequences based on similarity. In other words, it's finding groups of nucleotide variants that are at least 97% similar to each other, and then profiling the makeup of these clusters at each nucleotide position. This is useful for several applications... Firstly, if you have 9999 identical sequences and 1 that has a single nucleotide change, that could be real, or it could be a sequencing error. Secondly, it's performing an alignment step that can be useful for downstream processes. Thirdly, these clusters represent sequence similarity and we can get a quick feel for diversity in this locus, including where the clusters are geographically.
+
+The second 2 lines of that script will return the full sequence names for the representative sequences of each identified cluster. Those full names have location information embedded in them!
+
+___
+
+### Each of these 3 jobs will produce an outfile containing STDOUT.
+
+
+___
+  
+### **What to turn in:**
+
+  - Your 3 SLURM scripts, concatenated into a single plantext file.
+  - Your 3 outfiles, concatenated into a single plantext file.
+  
+  
+Upload those plain-text files to Canvas. You'll be graded on completeness, documentation, and readability.
+
+___
+
+<br/>
