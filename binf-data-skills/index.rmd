@@ -553,7 +553,7 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 <div class = "blue">
 
 
-## Version Control and Collaborations
+## Shell scripts
 
 
 <div style= "float:right;position: relative;top:10px">
@@ -563,31 +563,24 @@ knitr::include_graphics("./Media/gitflow.png")
 </div>
 
 ### **Week 11**{#Week-11}
-#### Git for Scientists
+#### TBD
 
 **Topics:**
   
-  - Git workflow
-  - GitHub
-  - Collaborating with Git
+  - Let's use this time to explore the Kudzu GBS data
+  - We can also talk about bioinformatics collaborations and your role as a data expert
   
 **Assignments:**
 
-  - Work through **BDS Chapter 5**
-  - **Assignment 8 -** Git collaboration and merge
-  - Group effort: Everyone (in turn) make changes to [this repository](https://github.com/gzahn/git_collaboration_practice){target="_blank"}
-
+  - TBD
+  
 **Resources**
 
-  - 
-  - Pull request [walkthrough](https://guides.github.com/activities/hello-world/){target="_blank"}
-  - Practice [merge conflict resolution](https://dev.to/cookrdan/conflict-resolution-git-merge-practice-3iab){target="_blank"}
-  - Look through Git repo with [filed issues](https://github.com/bryandmartin/corncob/issues/84){target="_blank"} and a [pull request history](https://github.com/bryandmartin/corncob/pull/88/commits/0d4d9a10cf28f0d63d98e82e592cfc29826ff5ad){target="_blank"} 
-  - 
+  - [Effectively collaborating](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007531){target="_blank"} as a bioinformaticist
   
 **Practice**
 
-  - 
+  - TBD
   
   
 [Back to top of page](#top)
@@ -605,25 +598,31 @@ knitr::include_graphics("./Media/sh_script.png")
 
 **Topics:**
 
-  -
-  -
-  -
+  - Turning a workflow into a script
+  - Bash script parameters ($1 $2 $3 ...)
+  - if, then, else, fi
   
 **Assignments:**
 
   - Work through **BDS Chapter 12**
-  - **Assignment 9 -** Git collaboration and merge-
-  -
-
+  - Remember that "create a new project" script you wrote at the beginning of the semester?
+  
+    + Turn it into an interactive script where the user provides the name of the project
+    + It should then generate a full project directory structure based on that name
+  
 **Resources**
 
-  - 
+  - Using [positional bash arguments](https://bash.cyberciti.biz/guide/$1){target="_blank"} in a script
+  - [elif](https://linuxize.com/post/bash-if-else-statement/){target="_blank"} statements in bash scripts 
+  
   
 **Practice**
 
-  - In-class collaborative name list
+  - Build a bash script that can:
   
-  
+    + determine the file extension of fasta, fasta.gz, fastq, fastq.gz
+    + uses conditional statements to print the number of sequences in the file, regardless of format (as long as it's one of those 4)
+    + [this forum exchange](https://stackoverflow.com/questions/407184/how-to-check-the-extension-of-a-filename-in-a-bash-script){target="_blank"} might help
   
 [Back to top of page](#top)
 
@@ -652,24 +651,20 @@ knitr::include_graphics("./Media/pipeline.png")
 
 **Topics:**
 
-  -
-  -
-  -
+  - The duct tape of bioinformatics
+  - Good pipelines need:
   
+    + Documentation
+    + Version control
+    + Validation
+
 **Assignments:**
 
   - Continue working through **BDS Chapter 12**
-  -
-  -
 
 **Resources**
 
-  -
-  
-**Practice**
-
-  - 
-  
+  - [Best practices](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4078907/){target="_blank"} in pipeline building and sharing
   
 
 [Back to top of page](#top)
