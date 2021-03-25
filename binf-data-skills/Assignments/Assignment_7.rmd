@@ -30,7 +30,7 @@ ___
   + Resources = 1 core, 1 minute of wall time, 10 Mb of memory
   + Task:
 
-        cat cat <(ls -l1 ~) 
+        cat <(ls -l1 ~) 
 
 ___
 
