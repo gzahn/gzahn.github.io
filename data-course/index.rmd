@@ -589,6 +589,7 @@ knitr::include_graphics("../media/rmd.png")
   - [Intro to R Markdown](https://github.com/cbwall/Intro-to-Rmarkdown){target="_blank"}
   - [Markdown Live Preview Generator](https://dillinger.io/){target="_blank"}
   - Expert-Level [Markdown Project](https://github.com/cbwall/Coral-isotopes-across-space-and-time){target="_blank"}
+  - Example data analysis (easy version) [webpage](https://gzahn.github.io/example_project/){target="_blank"}
 
 **Practice**
 
