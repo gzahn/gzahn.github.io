@@ -268,7 +268,7 @@ knitr::include_graphics("./media/reading.gif")
 **Resources**
 
   - Your best friend for finding papers: [google scholar](https://scholar.google.com/){target="_blank"}
-  - An illegal way to get papers you don't have access to is [SciHub](https://sci-hub.tw/){target="_blank"} (I would never advocate this behavior though)
+  - An illegal way to get papers you don't have access to is [SciHub](https://www.google.com/search?channel=fs&client=ubuntu&q=sci-hub){target="_blank"} (I would never advocate this behavior though)
   - Types of scholarly [publications](https://undergraduatesciencelibrarian.org/a-very-brief-introduction-to-the-scientific-literature/types-of-scientific-literature/){target="_blank"}
   - Don't forget about [pre-prints](https://www.sciencemag.org/news/2017/09/are-preprints-future-biology-survival-guide-scientists){target="_blank"}
 
