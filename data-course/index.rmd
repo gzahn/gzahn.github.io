@@ -500,6 +500,8 @@ knitr::include_graphics("../media/model1.png")
   - [Modeling Intro](https://r4ds.had.co.nz/model-intro.html){target="_blank"}
   - [Model Basics](https://r4ds.had.co.nz/model-basics.html){target="_blank"}
   - [Model Fitting](https://r4ds.had.co.nz/model-building.html){target="_blank"}
+  - [Model Performance](https://easystats.github.io/performance/){target="_blank"}
+  - Interpreting models with [easystats](https://github.com/easystats/easystats){target="_blank"}
 
 **Practice**
 
