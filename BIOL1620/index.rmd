@@ -38,8 +38,6 @@ Utah Valley University - BIOL1620
 ## Quick links:
 
 #### [Course Syllabus](http://gzahn.github.io/media/BIOL_1620_Syllabus_SP_2021.pdf){target="_blank"}
-#### [Shared Course Notes](https://docs.google.com/document/d/1ZUwrp3pccob99FptLDjIShcp2Y5PNIiJ1FJ95mUNYMk/edit?usp=sharing){target="_blank"}
-(Anyone with link can edit)
 
 #### [Your-Choice Reading List](https://gzahn.github.io/media/YOUR-CHOICE_Book_List.html){target="_blank"}
 Audiobooks are only acceptable if they are **unabridged**.
@@ -47,6 +45,7 @@ Audiobooks are only acceptable if they are **unabridged**.
 #### [Advice from Former Students](https://github.com/gzahn/Protocols/blob/master/BIOL_1620_Advice_from_Students.pdf){target="_blank"}
 
 ___
+
 
 
 ___
@@ -65,6 +64,7 @@ knitr::include_graphics("../media/week1.jpg")
 </div>
 
 ### **Week 1**{#Week-1}
+
 **Topics:** 
 
   - Early Earth | Evolution | Phylogenies
@@ -75,7 +75,7 @@ knitr::include_graphics("../media/week1.jpg")
   - Canvas quiz 1 due 10pm Friday of the first week (all others due **before** the first class of that week!)
   - Pre-Test due Friday 11:59pm
   - Pick a book to read for Your-Choice Points ASAP
-  - If you don't have Cambell Biology yet (for this first week only), here's a pdf to get you started: [Chapters 25-26](https://gzahn.github.io/media/Campbell_Chs_25-26.pdf){target="_blank"}
+  - If you don't have Campbell Biology yet (for this first week only), here's a pdf to get you started: [Chapters 25-26](https://gzahn.github.io/media/Campbell_Chs_25-26.pdf){target="_blank"}
 
 **Resources**
 
@@ -87,12 +87,7 @@ knitr::include_graphics("../media/week1.jpg")
   - [How to Build Phylogenies](https://www.khanacademy.org/science/biology/her/tree-of-life/a/building-an-evolutionary-tree){target="_blank"}
   - [Mechanisms of Antibiotic Resistance](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4888801/){target="_blank"}
 
-**Lesson Videos**
 
-  - [Part 1](https://youtu.be/tffOaRQHffU){target="_blank"}
-  - [Part 2](https://youtu.be/gwiWAYFds7E){target="_blank"}
-  - [Part 3](https://youtu.be/YaRCRsnViUc){target="_blank"}
-  
 [Back to top of page](#top)
 
 ___
@@ -104,6 +99,7 @@ knitr::include_graphics("../media/week2.jpg")
 </div>
 
 ### **Week 2**{#Week-2}
+
 **Topics**
 
   - What is life? | Thermodynamics | Major Metabolic Groups | Nature of Science
@@ -121,12 +117,6 @@ knitr::include_graphics("../media/week2.jpg")
   - [The True Meaning of Life](https://www.youtube.com/watch?v=aboZctrHfK8){target="_blank"}
   - Interesting, if Provocative,  [Hypothesis](https://www.scientificamerican.com/article/a-new-physics-theory-of-life/){target="_blank"}
   
-**Lesson Videos**
-
-  - Part 1 (MLK Jr. Day)
-  - [Part 2](https://youtu.be/rAK-vnCyCqY){target="_blank"}
-  - [Part 3](https://youtu.be/zXa1dw3zxb8){target="_blank"}
-  
   
   
 [Back to top of page](#top)
@@ -141,6 +131,7 @@ knitr::include_graphics("../media/week3.jpg")
 
 
 ### **Week 3**{#Week-3}
+
 **Topics**
 
   - Mechanisms of Evolution | Nature of Science
@@ -148,7 +139,7 @@ knitr::include_graphics("../media/week3.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 22-23
-  - Canvas quiz 2 due Monday before 11am
+  - Canvas quiz 2 due Wednesday before 11am (No class Monday - Labor Day)
 
 **Resources**
 
@@ -159,12 +150,7 @@ knitr::include_graphics("../media/week3.jpg")
   - Artificial vs Natural Selection [Program](https://learn.genetics.utah.edu/content/evolution/artificialnatural/){target="_blank"}
   - Nature of Science [Presentation](https://www.vmnh.net/content/File/VSSI_1_2012/nospresentation72112.pdf){target="_blank"}
   
-**Lesson Videos**
 
-  - [Part 1](https://youtu.be/Z0RDf2aGBaE){target="_blank"}
-  - [Part 2](https://youtu.be/mo5f20E1YQs){target="_blank"}
-  - [Part 3](https://youtu.be/6VdI3-AE3yI){target="_blank"}
-  
   
 [Back to top of page](#top)
   
@@ -178,6 +164,7 @@ knitr::include_graphics("../media/week4.png")
   
   
 ### **Week 4**{#Week-4}
+
 **Topics**
 
   - Bacteria and Archaea | Lateral Gene Transfer | Endosymbiosis
@@ -186,7 +173,7 @@ knitr::include_graphics("../media/week4.png")
 
   - Campbell Ch 27
   - Canvas quiz 3 due Monday before 11am
-  - Exam 1 on Friday
+  - Exam 1 on Friday (closes at 11:59pm)
   - 1/4th of the semester as passed, and you need to turn in Your-Choice Points
 
 **Resources**
@@ -198,10 +185,6 @@ knitr::include_graphics("../media/week4.png")
   - Primary vs Secondary [Endosymbiosis](https://endosymbiotichypothesis.wordpress.com/primary-versus-secondary-endosymbiosis/){target="_blank"}
   - *Paulinella* [complicates things](https://www.sciencedirect.com/science/article/pii/S0960982212003077){target="_blank"}
 
-**Lesson Videos**
-
-  - [Part 1](https://youtu.be/YjBEd5c3rv0){target="_blank"}
-  - [Part 2](https://youtu.be/rWJJ1EJ8S_c){target="_blank"}
 
   
 [Back to top of page](#top)
@@ -216,6 +199,7 @@ knitr::include_graphics("../media/week5.png")
 </div>
 
 ### **Week 5**{#Week-5}
+
 **Topics**
 
   - Eukaryotic Supergroups | Overview of "Protists"
@@ -233,11 +217,6 @@ knitr::include_graphics("../media/week5.png")
   - Why the World Needs [Protists](https://bioone.org/journals/The-Journal-of-Eukaryotic-Microbiology/volume-51/issue-1/j.1550-7408.2004.tb00156.x/Why-the-World-Needs-Protistsa-classinternal-link-hrefn1--sup1/10.1111/j.1550-7408.2004.tb00156.x.pdf?casa_token=byYM1ThozLMAAAAA:RK4pMnynfHEP6fTlNWdFKk0CkWfMqbQEbc_Y25MJcsLvCcL-rcb0cg8X0rSrOmY6CbaYgUw){target="_blank"}
 
 
-**Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
-
 
 [Back to top of page](#top)
 
@@ -252,8 +231,6 @@ knitr::include_graphics("../media/week6.png")
 
 ### **Week 6**{#Week-6}
 
-**No class Monday / Quiz due Wednesday**
-
 **Topics**
 
   - Animals | Defining Traits | Evolution
@@ -261,7 +238,7 @@ knitr::include_graphics("../media/week6.png")
 **Readings and Assignments**
 
   - Campbell Ch 32
-  - Canvas quiz 5 due Wednesday before 11am
+  - Canvas quiz 5 due Monday before 11am
 
 **Resources**
 
@@ -276,11 +253,7 @@ knitr::include_graphics("../media/week6.png")
   - Good [Website](https://www.shapeoflife.org/) on animal groups (Click on "Resources" at the top of the page)
 
 
-**Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
-  
+
 [Back to top of page](#top)
 
 
@@ -313,11 +286,7 @@ knitr::include_graphics("../media/week7.png")
   - Human Evolution [Timeline](http://humanorigins.si.edu/evidence/human-evolution-timeline-interactive){target="_blank"}
   - Animal [Phyla](http://www.fossilmuseum.net/Tree_of_Life/Kingdom_animalia/animalphyla.htm){target="_blank"}
   
-**Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
-  
+
 
 [Back to top of page](#top)
 
@@ -339,8 +308,8 @@ knitr::include_graphics("../media/week8.jpg")
 
   - Campbell Ch 31
   - Canvas quiz 7 due Monday before 11am
-  - Exam 2 on Friday
-  - 50 Your-Choice Points Due Friday **Before** Exam 2
+  - Exam 2 due Friday (closes 11:59pm)  --  Exam 2 opens Wednesday because of Fall Break
+  - 50 Your-Choice Points Due Friday 11:59pm
 
 **Resources**
 
@@ -351,33 +320,11 @@ knitr::include_graphics("../media/week8.jpg")
   - Fungal Endophytes and [Your Favorite Professor](https://www.sciencenews.org/article/plant-microbes-crops-food-endangered-species){target="_blank"} (Free, but need to enter an email address to subscribe in order to read the article)
   
 
-**Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
-
 [Back to top of page](#top)
 
 ___
 
-<div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("../media/Week11.jpg")
-```
-</div>
 
-
-
-### **Week 9**{#Week-9}
-
-##### SPRING BREAK!
-
-I mean, honestly, you probably haven't finished the Your-Choice Points yet.
-
-You should probably be pretty worried about that or you'll be scrambling like an idiot at the end of the semester right when all your other classes have things due. And then you'll give me a crappy book review and you'll get a bad grade on it with no chance for a re-do, and you will be very sad and I will not care about your sadness. Your sadness will feed me and make me grow more powerful. So think about that during Spring Break.
-</br></br>
-  
-___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
@@ -388,7 +335,7 @@ knitr::include_graphics("../media/fertilizer.jpeg")
 [Back to top of page](#top)  
 
 
-### **Week 10**{#Week-10}
+### **Week 9**{#Week-9}
 
 **Topics**
 
@@ -396,7 +343,7 @@ knitr::include_graphics("../media/fertilizer.jpeg")
 
 **Readings and Assignments**
 
-  - Keep Working on Your-Choice Points Since There is No Reading or Quiz This Week
+  - Make progress on Your-Choice points since there is no reading assignment or quiz this week
 
 **Resources**
 
@@ -411,11 +358,7 @@ knitr::include_graphics("../media/fertilizer.jpeg")
   - [New study](https://www.cell.com/current-biology/fulltext/S0960-9822(20)30567-4){target="_blank"} shows **duplication of entire genomes!** of carnivorous plants. They're expressing root proteins in their leaves, WTF!?
 
 
-**Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
-  
+
   
 [Back to top of page](#top)
 
@@ -427,7 +370,7 @@ knitr::include_graphics("../media/week10.jpg")
 ```
 </div>
 
-### **Week 11**{#Week-11}
+### **Week 10**{#Week-10}
 
 **Topics**
 
@@ -446,11 +389,6 @@ knitr::include_graphics("../media/week10.jpg")
   - Adaptations for [Land](https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/25%3A_Seedless_Plants/25.1%3A_Early_Plant_Life/25.1C%3A_Plant_Adaptations_to_Life_on_Land){target="_blank"}
   - Alternation of Generations [Video](https://study.com/academy/lesson/alternation-of-generations-the-gametophyte-and-sporophyte.html){target="_blank"}
 
-**Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
-
 
 [Back to top of page](#top)
 
@@ -463,7 +401,7 @@ knitr::include_graphics("../media/week12.png")
 ```
 </div>
 
-### **Week 12**{#Week-12}
+### **Week 11**{#Week-11}
 **Topics**
 
   - Major Plant Groups | Plant Anatomy
@@ -479,18 +417,12 @@ knitr::include_graphics("../media/week12.png")
   - Seed Plants [Slides](https://github.com/gzahn/BIOL_1620/raw/master/21_Seed_Plants.pdf) 
   - Plant Anatomy [Slides](https://github.com/gzahn/BIOL_1620/raw/master/22_Plant_Anatomy.pdf)
 
-**Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
-
 
 **Supplemental videos**
 
   - [Seed plants 1](https://youtu.be/iKsntUnAFdw) (What good are seeds?)
   - [Seed plants 2](https://youtu.be/XBuOh7j0uLY) (Major gytmnosperm groups)
   - [Seed plants 3](https://youtu.be/yFp3D7eU_fs) (Angiosperms)
-  - [Seed plants 4](https://youtu.be/HlYZnKWeVLg) (Outtake)
   
   
 </br></br></br></br></br>
@@ -507,14 +439,14 @@ knitr::include_graphics("../media/week13.png")
 </div>
 
 
-### **Week 13**{#Week-13}
+### **Week 12**{#Week-12}
 **Topics**
 
   - Animal Behavior
 
 **Assignments**
 
-  - Exam 3 Friday
+  - Exam 3 Friday (closes at 11:59pm)
   - Your-Choice Points are **nearly due**
   - Campbell Chs 39, 51 (Optional)
   - No quiz over these chapters
@@ -528,11 +460,6 @@ knitr::include_graphics("../media/week13.png")
   - Classical vs Operant [Conditioning](https://www.khanacademy.org/test-prep/mcat/behavior/learning-slug/a/classical-and-operant-conditioning-article){target="_blank"}
   - Cuckoo Bird [Gentees](https://cpb-us-w2.wpmucdn.com/u.osu.edu/dist/3/39517/files/2015/09/35025058-14uu57d.pdf){target="_blank"}
   
-
-**Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
 
 **Supplemental videos**
 
@@ -551,7 +478,7 @@ knitr::include_graphics("../media/week14.jpg")
 ```
 </div>
 
-### **Week 14**{#Week-14}
+### **Week 13**{#Week-13}
 **Topics**
 
   - Population Ecology
@@ -573,16 +500,34 @@ knitr::include_graphics("../media/week14.jpg")
   - IPCC [AR5 Synthesis Report](https://www.ipcc.ch/site/assets/uploads/2018/02/SYR_AR5_FINAL_full.pdf){target="_blank"}
   - IPCC [Physical Sciences Basis](https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_all_final.pdf){target="_blank"} Report - Evidence for anthropogenic climate change
 
-**Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
-  
 **Supplemental videos**
 
   - [Ecology Intro 1](https://www.youtube.com/watch?v=YZmmx_fWQfo) - Levels of scale
   - [Ecology Intro 2](https://www.youtube.com/watch?v=oU7xCrTfs2s) - Climate modeling
-  - [Ecology Intro 3]() - Intro to population ecology
+
+[Back to top of page](#top)
+
+___
+
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/turkey.jpeg")
+```
+</div>
+
+### **Week 14**{#Week-14}
+
+**Thanksgiving Break**
+
+**Final Your-Choice Points Due Friday 11:59pm**
+
+You've had all semester and at the end of Thanksgiving Break, all those assignments are due. I'll start grading over the weekend, but it will take me a while since most of you will have waited until the last possible minute to turn them in.
+
+
+
+
+</br></br></br></br></br></br>
 
 [Back to top of page](#top)
 
@@ -603,8 +548,7 @@ knitr::include_graphics("../media/week15.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 54-55
-  - Canvas quiz 10 due Monday before 11am
-  - Final Your-Choice Points Due Friday 11:59pm
+  - Canvas quiz 10 due Monday before 11am (This quiz is open for all of Thanksgiving Break)
 
 **Resources**
 
@@ -617,10 +561,6 @@ knitr::include_graphics("../media/week15.jpg")
   - IPCC AR5 [Report](https://www.ipcc.ch/site/assets/uploads/2018/02/SYR_AR5_FINAL_full.pdf){target="_blank"} Read it and weep.
   - Modeling Trout [Extinction Risk](https://trout.shinyapps.io/lahontan/){target="_blank"}
 
-**Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
 
 [Back to top of page](#top)
 
@@ -639,7 +579,7 @@ knitr::include_graphics("../media/week16.jpg")
 
 **Readings and Assignments**
 
-  - Post-Test Wednesday
+  - Post-Test Wednesday (closes at 11:59pm)
   - If you haven't turned in Your-Choice Points yet, you've missed your chance
   - Also, if that's the case, you had your chance so no whining
 
@@ -648,11 +588,7 @@ knitr::include_graphics("../media/week16.jpg")
   - Daisyball [Simulation](http://www.gingerbooth.com/flash/daisyball/DaisyBall.html){target="_blank"}
   - [Gaia hypothesis](https://courses.seas.harvard.edu/climate/eli/Courses/EPS281r/Sources/Gaia/Gaia-hypothesis-wikipedia.pdf){target="_blank"}
   
-**Lesson Videos**
-  - [Part 1](){target="_blank"}
-  - [Part 2](){target="_blank"}
-  - [Part 3](){target="_blank"}
-  
+
   
 [Back to top of page](#top)
 
