@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+data/filtered/
+data/filtN/
+data/cutadapt/

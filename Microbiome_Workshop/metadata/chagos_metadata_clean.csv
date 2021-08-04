@@ -1,0 +1,47 @@
+SRA_SampleID,SRA_Accession,Sample_ID,Island,Site,Lat,Long,Host_ID,Colony_Color,FWD_Filename,REV_Filename
+CHPd62_BiPb62,SRR11142655,CHPd62,Peros Banhos,BiPb62,-5.42721,71.77779,P. acuta,healthy,SRR11142655_pass_1.fastq.gz,SRR11142655_pass_2.fastq.gz
+CHPd63_BiPb62,SRR11142654,CHPd63,Peros Banhos,BiPb62,-5.42721,71.77779,P. acuta,healthy,SRR11142654_pass_1.fastq.gz,SRR11142654_pass_2.fastq.gz
+CHPd64_BiPb62,SRR11142653,CHPd64,Peros Banhos,BiPb62,-5.42721,71.77779,P. acuta,healthy,SRR11142653_pass_1.fastq.gz,SRR11142653_pass_2.fastq.gz
+CHPd65_BiPb62,SRR11142652,CHPd65,Peros Banhos,BiPb62,-5.42721,71.77779,P. acuta,bleached,SRR11142652_pass_1.fastq.gz,SRR11142652_pass_2.fastq.gz
+CHPd66_BiPb62,SRR11142650,CHPd66,Peros Banhos,BiPb62,-5.42721,71.77779,P. acuta,healthy,SRR11142650_pass_1.fastq.gz,SRR11142650_pass_2.fastq.gz
+CHPd67_BiPb62,SRR11142649,CHPd67,Peros Banhos,BiPb62,-5.42721,71.77779,P. acuta,bleached,SRR11142649_pass_1.fastq.gz,SRR11142649_pass_2.fastq.gz
+CHPd71_BiPb63,SRR11142647,CHPd71,Peros Banhos,BiPb63,-5.41518,71.77499,P. acuta,healthy,SRR11142647_pass_1.fastq.gz,SRR11142647_pass_2.fastq.gz
+CHPd72_BiPb63,SRR11142646,CHPd72,Peros Banhos,BiPb63,-5.41518,71.77499,P. acuta,healthy,SRR11142646_pass_1.fastq.gz,SRR11142646_pass_2.fastq.gz
+CHPd73_BiPb63,SRR11142645,CHPd73,Peros Banhos,BiPb63,-5.41518,71.77499,P. acuta,healthy,SRR11142645_pass_1.fastq.gz,SRR11142645_pass_2.fastq.gz
+CHPd75_BiPb65,SRR11142644,CHPd75,Peros Banhos,BiPb65,-5.41077,71.80349,P. acuta,healthy,SRR11142644_pass_1.fastq.gz,SRR11142644_pass_2.fastq.gz
+CHPd76_BiPb65,SRR11142643,CHPd76,Peros Banhos,BiPb65,-5.41077,71.80349,P. acuta,bleached,SRR11142643_pass_1.fastq.gz,SRR11142643_pass_2.fastq.gz
+CHPd77_BiPb65,SRR11142642,CHPd77,Peros Banhos,BiPb65,-5.41077,71.80349,P. acuta,healthy,SRR11142642_pass_1.fastq.gz,SRR11142642_pass_2.fastq.gz
+CHPd78_BiPb65,SRR11142641,CHPd78,Peros Banhos,BiPb65,-5.41077,71.80349,P. acuta,healthy,SRR11142641_pass_1.fastq.gz,SRR11142641_pass_2.fastq.gz
+CHPd79_BiPb65,SRR11142639,CHPd79,Peros Banhos,BiPb65,-5.41077,71.80349,P. acuta,bleached,SRR11142639_pass_1.fastq.gz,SRR11142639_pass_2.fastq.gz
+CHPd81_BiPb68,SRR11142637,CHPd81,Peros Banhos,BiPb68,-5.2563,71.76861,P. acuta,healthy,SRR11142637_pass_1.fastq.gz,SRR11142637_pass_2.fastq.gz
+CHPd88_BiPb68,SRR11142630,CHPd88,Peros Banhos,BiPb68,-5.2563,71.76861,P. acuta,bleached,SRR11142630_pass_1.fastq.gz,SRR11142630_pass_2.fastq.gz
+CHPd89_BiPb68,SRR11142628,CHPd89,Peros Banhos,BiPb68,-5.2563,71.76861,P. acuta,bleached,SRR11142628_pass_1.fastq.gz,SRR11142628_pass_2.fastq.gz
+CHPd99_BiPb70,SRR11142617,CHPd99,Peros Banhos,BiPb70,-5.32515,71.85739,P. acuta,bleached,SRR11142617_pass_1.fastq.gz,SRR11142617_pass_2.fastq.gz
+CHPd100_BiPb70,SRR11142616,CHPd100,Peros Banhos,BiPb70,-5.32515,71.85739,P. acuta,bleached,SRR11142616_pass_1.fastq.gz,SRR11142616_pass_2.fastq.gz
+CHPd109_BiSa88,SRR11142609,CHPd109,Salomon,BiSa88,-5.33932,72.23605,P. acuta,healthy,SRR11142609_pass_1.fastq.gz,SRR11142609_pass_2.fastq.gz
+CHPd112_BiSa88,SRR11142605,CHPd112,Salomon,BiSa88,-5.33932,72.23605,P. acuta,bleached,SRR11142605_pass_1.fastq.gz,SRR11142605_pass_2.fastq.gz
+CHPd116_BiSa91,SRR11142601,CHPd116,Salomon,BiSa91,-5.33965,72.26332,P. acuta,healthy,SRR11142601_pass_1.fastq.gz,SRR11142601_pass_2.fastq.gz
+CHPd118_BiSa91,SRR11142600,CHPd118,Salomon,BiSa91,-5.33965,72.26332,P. acuta,healthy,SRR11142600_pass_1.fastq.gz,SRR11142600_pass_2.fastq.gz
+CHPd119_BiSa91,SRR11142599,CHPd119,Salomon,BiSa91,-5.33965,72.26332,P. acuta,healthy,SRR11142599_pass_1.fastq.gz,SRR11142599_pass_2.fastq.gz
+CHPd120_BiSa91,SRR11142598,CHPd120,Salomon,BiSa91,-5.33965,72.26332,P. acuta,healthy,SRR11142598_pass_1.fastq.gz,SRR11142598_pass_2.fastq.gz
+CHPd121_BiSa91,SRR11142597,CHPd121,Salomon,BiSa91,-5.33965,72.26332,P. acuta,healthy,SRR11142597_pass_1.fastq.gz,SRR11142597_pass_2.fastq.gz
+CHPd123_BiSa91,SRR11142594,CHPd123,Salomon,BiSa91,-5.33965,72.26332,P. acuta,bleached,SRR11142594_pass_1.fastq.gz,SRR11142594_pass_2.fastq.gz
+CHPd124_BiSa91,SRR11142593,CHPd124,Salomon,BiSa91,-5.33965,72.26332,P. acuta,bleached,SRR11142593_pass_1.fastq.gz,SRR11142593_pass_2.fastq.gz
+CHPd125_BiSa91,SRR11142592,CHPd125,Salomon,BiSa91,-5.33965,72.26332,P. acuta,bleached,SRR11142592_pass_1.fastq.gz,SRR11142592_pass_2.fastq.gz
+CHPd126_BiSa91,SRR11142591,CHPd126,Salomon,BiSa91,-5.33965,72.26332,P. acuta,bleached,SRR11142591_pass_1.fastq.gz,SRR11142591_pass_2.fastq.gz
+CHPd127_BiSa91,SRR11142590,CHPd127,Salomon,BiSa91,-5.33965,72.26332,P. acuta,bleached,SRR11142590_pass_1.fastq.gz,SRR11142590_pass_2.fastq.gz
+CHPd128_BiSa94,SRR11142589,CHPd128,Salomon,BiSa94,-5.35038,72.22001,P. acuta,healthy,SRR11142589_pass_1.fastq.gz,SRR11142589_pass_2.fastq.gz
+CHPd130_BiSa94,SRR11142588,CHPd130,Salomon,BiSa94,-5.35038,72.22001,P. acuta,healthy,SRR11142588_pass_1.fastq.gz,SRR11142588_pass_2.fastq.gz
+CHPd131_BiSa94,SRR11142587,CHPd131,Salomon,BiSa94,-5.35038,72.22001,P. acuta,healthy,SRR11142587_pass_1.fastq.gz,SRR11142587_pass_2.fastq.gz
+CHPd132_BiSa94,SRR11142586,CHPd132,Salomon,BiSa94,-5.35038,72.22001,P. acuta,healthy,SRR11142586_pass_1.fastq.gz,SRR11142586_pass_2.fastq.gz
+CHPd133_BiSa94,SRR11142681,CHPd133,Salomon,BiSa94,-5.35038,72.22001,P. acuta,bleached,SRR11142681_pass_1.fastq.gz,SRR11142681_pass_2.fastq.gz
+CHPd137_BiSa97,SRR11142568,CHPd137,Salomon,BiSa97,-5.31676,72.23729,P. acuta,healthy,SRR11142568_pass_1.fastq.gz,SRR11142568_pass_2.fastq.gz
+CHPd138_BiSa97,SRR11142566,CHPd138,Salomon,BiSa97,-5.31676,72.23729,P. acuta,bleached,SRR11142566_pass_1.fastq.gz,SRR11142566_pass_2.fastq.gz
+CHPd139_BiSa97,SRR11142565,CHPd139,Salomon,BiSa97,-5.31676,72.23729,P. acuta,bleached,SRR11142565_pass_1.fastq.gz,SRR11142565_pass_2.fastq.gz
+CHPd146_BiSa105,SRR11142562,CHPd146,Salomon,BiSa105,-5.33426,72.24311,P. acuta,bleached,SRR11142562_pass_1.fastq.gz,SRR11142562_pass_2.fastq.gz
+CHPd148_BiSa105,SRR11142560,CHPd148,Salomon,BiSa105,-5.33426,72.24311,P. acuta,healthy,SRR11142560_pass_1.fastq.gz,SRR11142560_pass_2.fastq.gz
+CHPd149_BiSa105,SRR11142559,CHPd149,Salomon,BiSa105,-5.33426,72.24311,P. acuta,bleached,SRR11142559_pass_1.fastq.gz,SRR11142559_pass_2.fastq.gz
+CHPd165_BiPb69c,SRR11142558,CHPd165,Peros Banhos,BiPb69c,-5.29669,71.76605,P. acuta,bleached,SRR11142558_pass_1.fastq.gz,SRR11142558_pass_2.fastq.gz
+Blank_1_Blank,SRR11142557,Blank_1,Blank,Blank,Blank,Blank,Blank,Blank,SRR11142557_pass_1.fastq.gz,SRR11142557_pass_2.fastq.gz
+Blank_2_Blank,SRR11142555,Blank_2,Blank,Blank,Blank,Blank,Blank,Blank,SRR11142555_pass_1.fastq.gz,SRR11142555_pass_2.fastq.gz
+Blank_3_Blank,SRR11142554,Blank_3,Blank,Blank,Blank,Blank,Blank,Blank,SRR11142554_pass_1.fastq.gz,SRR11142554_pass_2.fastq.gz
