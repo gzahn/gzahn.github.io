@@ -2,7 +2,7 @@
 output: 
 html_document:
   number_sections=TRUE
-pagetitle: Assignment_1
+pagetitle: Preparing for the workshop
 ---
 
 # **Before the workshop: Getting your computer ready**
@@ -51,7 +51,7 @@ https://git-scm.com/download/linux
 #### **Copy the workshop github repository to your own computer**
 
 Once you have Git installed, open it up (in Windows this will be a shortcut called "Git Bash", 
-in Mac or Linux, just open your terminal -that scary command prompt- and it will be working in the background)
+in Mac or Linux, just open your terminal -that scary command prompt- and Git will be working in the background)
 You will see a simple command line interface that looks something like this:
 
 ```{r, out.width = "600px",echo=FALSE}
@@ -79,7 +79,7 @@ ls #this lists files in my current directory
 pwd #this tells me what my current directory is
 ```
 
-The "cd" command requires a bit more. You have to tell it what directory to change to...
+The "cd" command (change directory) requires a bit more. You have to tell it what directory to change to...
 
 Mac and Linux users can probably just type "cd ~/Desktop" and they will instantly be on their Desktop folder.
 
