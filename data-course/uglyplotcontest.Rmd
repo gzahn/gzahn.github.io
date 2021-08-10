@@ -1,5 +1,8 @@
 ---
 output: html_document
+html_document:
+  number_sections=TRUE
+pagetitle: Assignment_5 - Ugly Plot Contest
 ---
 
 # The Ugly Plot Contest
@@ -23,6 +26,10 @@ ___
 <br/><br/>
 
 ##### Making a truly bad graph can be automatic, but it takes a lot of skill to really tweak ggplot to get it to do what you want.  That's the point of this exercise; you will get practice at manipulating all aspects of how your plot is printed.
+
+___
+
+### We will turn these in in-class. You will run your code live to generate your ugly plot.
 
 ___
 

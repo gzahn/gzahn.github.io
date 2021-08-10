@@ -127,7 +127,7 @@ knitr::include_graphics("../media/file_tree.png")
 ### **Week 2**{#Week-2}
 **Topics**
 
-  - File paths | Pipes | Redirection | Wildcards | Essential Unix Commands | Parameters
+  - File paths | Wildcards and pattern matching | Objects | For-Loops
 
 **Assignments**
 
@@ -135,14 +135,11 @@ knitr::include_graphics("../media/file_tree.png")
 
 **Resources**
   
-  - Recorded lesson [video](https://youtu.be/blDPSEYEpD8){target="_blank"} (Part 1)
-  - Recorded lesson [video](https://youtu.be/MIPFLx7VgyI){target="_blank"} (Part 2)
   - [Remedial Unix Shell](https://github.com/gzahn/Data_Course/blob/master/Readings/Further_Reading_for_Shell_Tricks.pdf){target="_blank"}
   - [Basic Unix Commands](https://www.unixtutorial.org/basic-unix-commands?print=pdf){target="_blank"}
   - [Very Useful Tutorial](https://www.learnenough.com/command-line-tutorial/basics#sec-introduction){target="_blank"}
   - On the [Value of](https://medium.com/@eytanadar/on-the-value-of-command-line-bullshittery-94dc19ec8c61#.4qt0dd22r){target="_blank"} Command-Line Bullshittery
   - On the [Annoyance of](https://gzahn.github.io/archived_websites/command_line_bullshittery.html){target="_blank"} Command-Line Bullshittery
-  - So is this stuff even useful for bioinformatics?  [YES!](https://github.com/stephenturner/oneliners){target="_blank"}
   - Video walkthroughs of some command line stuff:
     + [Part 1 - first commands](https://youtu.be/t5ovp3Iibl0){target="_blank"}
     + [Part 2 - pipes and wildcards](https://youtu.be/9YRwN2Tu1AM){target="_blank"}
@@ -156,23 +153,10 @@ knitr::include_graphics("../media/file_tree.png")
 
 **Practice**
 
-  - [Exercise 1](https://gzahn.github.io/data-course/Repository/Exercises/shell_detective.txt)
-  - [Exercise 2](https://gzahn.github.io/data-course/Repository/Exercises/out-of-order_unicorn_code.txt)
-  - Shell *find* [exercise](https://gzahn.github.io/data-course/Repository/Exercises/shell_find_example.txt)
-  - Pick some random files in our Data/ directory and practice (a bunch of times) using the following commands (with various flags and linking them with pipes):
-    + head
-    + tail
-    + wc
-    + ls
-    + sort
-    + uniq
-  - Practice using wildcards (*) to show the contents of random files
-    + Write a command using wildcard(s) that lists *only* the files "ethane.pbd" and "methane.pbd" in the Data/data-shell/molecules/ directory
-    + Pick a few random files in a directory and try to write a wildcard expression that shows ONLY those files (wash, rinse, repeat)
-  - find out what the following shell commands do and how to use them (then practice using them):
-    + touch
-    + cp
-    + mv
+  - In the directory Data_Course/Data/data-shell/names/ there are a number of subdirectories and csv files. Find all of those csv files and store their full filepaths as a character vector.
+  - Read in and print just the first 2 lines from each of those files
+  - Find all the .txt files on your entire computer
+  - Find all files on your computer that contain the character string "es" in the filename
   
 [Back to top of page](#top)
 
@@ -201,18 +185,18 @@ knitr::include_graphics("../media/Rvariablesdata.jpg")
 
 **Assignments**
 
-  - Watch [this video](https://youtu.be/MokZ4OQVuu4){target="_blank"} on how to set up your personal Git Directory and R-Projects for completing assignments
   - Read [this chapter](https://www.datacamp.com/community/tutorials/r-packages-guide){target="_blank"} on what a "package" is in R
   - Read [this chapter](https://r4ds.had.co.nz/workflow-projects.html){target="_blank"} on R-Projects (We will **ALWAYS** work from within R-Projects from now on)
-  - Do [Assignment 3](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_3/Assignment_3.html){target="_blank"} (We will start this one together during live class)
-  - Do [Assignment 4](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_4/Assignment_4.html){target="_blank"}
+  - Do [Assignment 3](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_3/Assignment_3.html){target="_blank"} (We will start this one together during class)
+  
 
 **Resources**
 
-  - Recorded lesson [video](https://youtu.be/GUXF1lwxRTU){target="_blank"} (Part 1)
-  - Recorded lesson [video](){target="_blank"} (Part 2)
   - Intro to what RStudio is [video](https://youtu.be/cnQ-v1UUWyE){target="_blank"}
   - [Data Types in R](https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/){target="_blank"}
+  - [Operators](https://www.statmethods.net/management/operators.html){target="_blank"}
+  - [Subsetting](http://adv-r.had.co.nz/Subsetting.html){target="_blank"}
+  - [More Subsetting](https://www.r-bloggers.com/5-ways-to-subset-a-data-frame-in-r/){target="_blank"} (It's important!)
   - [For-Loops](https://www.datamentor.io/r-programming/for-loop/){target="_blank"}
   - [Reading data into R](https://www.datacamp.com/community/tutorials/r-data-import-tutorial){target="_blank"}
   - Using 'pipes' in R [chapter](https://r4ds.had.co.nz/pipes.html#introduction-11){target="_blank"}
@@ -227,7 +211,10 @@ knitr::include_graphics("../media/Rvariablesdata.jpg")
   - [Indexing](https://github.com/gzahn/Data_Course/blob/master/Exercises/03_Indexing.pdf)
   - [Missing Values](https://github.com/gzahn/Data_Course/blob/master/Exercises/05_Missing_Values.pdf)
   - [Loops in R](https://github.com/gzahn/Data_Course/blob/master/Exercises/08_Loops.pdf)
-  
+  - [Logical Operations](https://github.com/gzahn/Data_Course/blob/master/Exercises/06_Logical_Operations.pdf){target="_blank"}
+  - Find a **new** built-in data set in R. Use several methods to subset it over and over until you are an expert!
+  - [Out-of-order Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/data_frame_subsets_out-of-order.R)
+
 [Back to top of page](#top)
 
 ___
@@ -235,47 +222,11 @@ ___
   
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("../media/operators.png")
+knitr::include_graphics("../media/ggplot_example.png")
 ```
 </div>
   
   
-### **Week 4**{#Week-4}
-**Topics**
-
-  - Logical Operations | Subsetting | "Grammar of Graphics" ggplot Intro
-
-**Assignments**
-
-  - Read through the materials in the Resources section below
-  - Make sure you have the following packages installed if you don't already:
-    + *tidyverse*
-    + *carData*
-    + *RColorBrewer*
-    + [*colorblindr*](https://github.com/clauswilke/colorblindr/blob/master/README.md){target="_blank"} This one is "special" and not found on CRAN so click the link for install instructions.
-
-  - [Assignment 5](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_5/Assignment_5.html){target="_blank"}
-  - #### **Exam 1** (Link at top of page)
-
-**Resources**
-
-  - Recorded lesson [video](https://youtu.be/QFgO9L-w8sQ){target="_blank"} Part 1
-  - Recorded lesson [video](https://youtu.be/cVKBDPMj3Ow){target="_blank"} Part 2
-  - [Subsetting](http://adv-r.had.co.nz/Subsetting.html){target="_blank"}
-  - [More Subsetting](https://www.r-bloggers.com/5-ways-to-subset-a-data-frame-in-r/){target="_blank"} (It's important!)
-  - [Operators](https://www.statmethods.net/management/operators.html){target="_blank"}
-  - [ggplot Introduction](https://r4ds.had.co.nz/data-visualisation.html){target="_blank"}
-
-
-**Practice**
-
-  - [Logical Operations](https://github.com/gzahn/Data_Course/blob/master/Exercises/06_Logical_Operations.pdf){target="_blank"}
-  - Find a **new** built-in data set in R. Use several methods to subset it over and over until you are an expert!
-  - [Out-of-order Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/data_frame_subsets_out-of-order.R)
-  
-[Back to top of page](#top)
-
-
 </div>
 
 <style>
@@ -285,41 +236,79 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 
 ## Visualizing a Data Set
 
+### **Week 4**{#Week-4}
+**Topics**
+
+  - "Grammar of Graphics" ggplot | dplyr verbs
+
+**Assignments**
+
+  - Read through the materials in the Resources section below
+  - Make sure you have the following packages installed if you don't already:
+    + *tidyverse*
+  - Do [Assignment 4](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_4/Assignment_4.html){target="_blank"}
+  - #### **Exam 1** (Link at top of page)
+
+**Resources**
+
+  - [ggplot Introduction](https://r4ds.had.co.nz/data-visualisation.html){target="_blank"}
+  - [dplyr Verbs](https://dplyr.tidyverse.org/){target="_blank"}
+  - [tidyverse Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf){target="_blank"}
+  - [More ggplot](https://ggplot2.tidyverse.org/){target="_blank"}
+  - [Extensive ggplot2 Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html){target="_blank"}
+  - How to plot anything in ggplot [part 1](https://t.co/LxwwSsESQM?amp=1){target="_blank"} | [part 2](https://t.co/uZda0KRAgp?amp=1){target="_blank"} (This is a **GOOD** thing to watch!)
+  - Evolution of a ggplot [tutorial](https://cedricscherer.netlify.app/2019/05/17/the-evolution-of-a-ggplot-ep.-1/){target="_blank"}
+  - Catalog of [visualization types](https://flowingdata.com/chart-types) (Awesome source of inspiration for your plots...but memberhip fee required to see code. Booooo)
+
+
+**Practice**
+
+  - [Out-of-order Plotting Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_CO2_plot.R){target="_blank"}
+  - ggplot [Shiny App](https://huygens.science.uva.nl/ggPlotteR/){target="_blank"} Lets you use GUI to see ggplot code.
+  - Convert the following code expressions into "pipe format" to make them more readable:
+  
+```{r,eval=FALSE}
+unique(stringr::str_to_title(iris$Species))
+max(round(iris$Sepal.Length),0)
+mean(abs(rnorm(100,0,5)))
+median(round(seq(1,100,0.01),1))
+```
+[Back to top of page](#top)
+
+
+
+
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("../media/ggplot_example.png")
+knitr::include_graphics("./media/gganimate.gif")
+
 ```
 </div>
 
 ### **Week 5**{#Week-5}
 **Topics**
 
-  - ggplot | patchwork | ggforce
+  - More ggplot | ggplot extensions
 
 **Assignments**
 
-  - [Assignment 6](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_6/Assignment_6.html){target="_blank"}
-  - [Ugly plot contest!](https://gzahn.github.io/data-course/uglyplotcontest.html){target="_blank"}
+
+  - Assignment 5 - [Ugly plot contest!](https://gzahn.github.io/data-course/uglyplotcontest.html){target="_blank"}
   - Prevent embarrassment... see how [NOT to make a chart](https://gzahn.github.io/data-course/embarrassment.html){target="_blank"}, except for the Ugly Plot Contest, of course, where you should try to upend good sense.
-  - Ugly plot contest [entries](https://gzahn.github.io/data-course/media/Ugly_Plots/Fa_2020/Fa_2020.html){target="_blank"}
+  
 
 **Resources**
 
-  - Recorded lesson [video](https://youtu.be/aa7Rr87FsV0){target="_blank"} Part 1
-  - Recorded lesson [video](https://youtu.be/jdrJjMiw4HM){target="_blank"} Part 2
-  - [More ggplot](https://ggplot2.tidyverse.org/){target="_blank"}
-  - [ggforce](https://ggforce.data-imaginist.com/){target="_blank"}
-  - [patchwork](https://github.com/thomasp85/patchwork){target="_blank"}
-  - [Extensive ggplot2 Tutorial](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html){target="_blank"}
-  - How to plot anything in ggplot [part 1](https://t.co/LxwwSsESQM?amp=1){target="_blank"} | [part 2](https://t.co/uZda0KRAgp?amp=1){target="_blank"} (This is a **GOOD** thing to watch!)
-  - Evolution of a ggplot [tutorial](https://cedricscherer.netlify.app/2019/05/17/the-evolution-of-a-ggplot-ep.-1/){target="_blank"}
-  - Catalog of [visualization types](https://flowingdata.com/chart-types) (Awesome source of inspiration for your plots...but memberhip fee required to see code. Booooo)
-
+  - ggimage [package](https://mran.microsoft.com/snapshot/2018-05-23/web/packages/ggimage/vignettes/ggimage.html){target="_blank"}
+  - ggforce [package](https://ggforce.data-imaginist.com/){target="_blank"}
+  - patchwork [package](https://patchwork.data-imaginist.com/){target="_blank"}
+  - ggpubr [package](https://rpkgs.datanovia.com/ggpubr/){target="_blank"}
+  - gganimate [package](https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/#comments){target="_blank"}
+  
 **Practice**
 
-  - [Out-of-order Plotting Code](https://github.com/gzahn/Data_Course/blob/master/Exercises/out-of-order_CO2_plot.R){target="_blank"}
   - [ggplot Examples](https://github.com/gzahn/Data_Course/blob/master/Code_Examples/ggplot_intro.R){target="_blank"}
-  - ggplot [Shiny App](https://huygens.science.uva.nl/ggPlotteR/){target="_blank"} Lets you use GUI to see ggplot code.
+
   
 [Back to top of page](#top)
 
@@ -348,21 +337,17 @@ knitr::include_graphics("../media/sepalwidth.jpg")
 **Assignments**
 
   - Read this paper: [Tidy Data](https://github.com/gzahn/Data_Course/blob/master/Readings/tidy-data_Wickham.pdf){target="_blank"}
-  - [Assignment 7](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_7/Assignment_7.html){target="_blank"}
-
+  - [Assignment 6](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_6/Assignment_6.html){target="_blank"}
+  
+  
 **Resources**
 
-  - Recorded lesson [video](https://youtu.be/XRv0el4z7j0){target="_blank"} Part 1
-  - Recorded lesson [video](https://youtu.be/Qkv7V2ZYX4Y){target="_blank"} Part 2
   - [Tidy Data Chapter](https://r4ds.had.co.nz/tidy-data.html#tidy-data-1){target="_blank"}
   - [Transforming Data Frames](https://r4ds.had.co.nz/transform.html){target="_blank"}
-  - [dplyr Verbs](https://dplyr.tidyverse.org/){target="_blank"}
   - [tidyr Verbs](https://tidyr.tidyverse.org/){target="_blank"}
-  - [tidyverse Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf){target="_blank"}
 
 **Practice**
 
-  - [BioLog Challenge](https://gzahn.github.io/data-course/Repository/Exercises/BioLog_Challenge.R){target="_blank"}
   - [Out-of-order Code](https://gzahn.github.io/data-course/Repository/Exercises/out-of-order_CO2_plot.R){target="_blank"}
   - [Out-of-order Code2](https://gzahn.github.io/data-course/Repository/Exercises/out-of-order_grading_code.R){target="_blank"}
 
@@ -387,13 +372,12 @@ knitr::include_graphics("../media/real_world_data.jpg")
 
   - Read [This Handout](https://gzahn.github.io/data-course/Readings/Excel_Advice_Handout.pdf)
   - Read [This Paper](https://gzahn.github.io/data-course/Readings/Broman_and_Woo_2017_Data_organization_in_spreadsheets.pdf)
-  - Create a validated Excel Spreadsheet for data collection for the experiment we design in class
-  - Exam 2 is open...
-
+  - [Assignment 7](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_7/Assignment_7.html){target="_blank"}
+  - Be prepared to discuss your data set for your final project  
+  
+  
 **Resources**
 
-  - Recorded lesson [video](https://youtu.be/Fu8ewe-d-34){target="_blank"} Part 1 (dplyr verbs)
-  - Recorded lesson [video](https://youtu.be/HrtwYstQFoM){target="_blank"} Part 2 (dplyr verbs in action)
   - [Data Wrangling Chapter](https://r4ds.had.co.nz/wrangle-intro.html){target="_blank"}
   - [Wrangling Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf){target="_blank"}
   - [Visual Explanations of Joins](https://github.com/gadenbuie/tidyexplain){target="_blank"}
@@ -443,8 +427,6 @@ knitr::include_graphics("../media/function.png")
   
 **Resources**
 
-  - Recorded lesson [video](https://youtu.be/Q-VaIuUs5IM){target="_blank"} Part 1 (Designing an experiment)
-  - Recorded lesson [video](https://youtu.be/zb3jl4oaP70){target="_blank"} Part 2 (Analysis of experiment data - live coding)
   - [Functions](https://r4ds.had.co.nz/functions.html){target="_blank"}
   - [Conditional Execution](https://r4ds.had.co.nz/functions.html#conditional-execution){target="_blank"}
   - Functionals and the *purrr* package [chapter](https://adv-r.hadley.nz/functionals.html){target="_blank"}
@@ -460,8 +442,7 @@ knitr::include_graphics("../media/function.png")
   - In a new empty R script, call your functions with source() and test them out
   - There's a stupid function I wrote in "/Code_Examples/thlayli.R"
     + It takes a data.frame as an input and does *WHAT* to it?
-  - What's the difference between '|' and '||' or '&' and '&&' ? Why should you always use the double-form in a conditional expression?
-  
+
 
 [Back to top of page](#top)
 
