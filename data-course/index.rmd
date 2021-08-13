@@ -37,17 +37,15 @@ Utah Valley University - BIOL3100
 ## Handy links:
 
 #### [Course Syllabus](https://gzahn.github.io/data-course/Syllabus.html){target="_blank"}
+
 #### Course [file repository](https://github.com/gzahn/Data_Course){target="_blank"}
-#### [Shared Course Notes](https://docs.google.com/document/d/1Nnjv1RkdegUR3pOp8Jb81ryE-_C59T4dLWYyJqVSz9Y/edit?usp=sharing){target="_blank"}
-(Anyone with link can edit)
 
 #### [Exams GitHub Repository](https://github.com/gzahn/BIOL3100_Exams.git){target="_blank"} (Exams will be uploaded at the appropriate times)
+
 #### [The philosophy of this course](http://gzahn.github.io/media/spocklogic.jpg)
 
 #### R for Data Science [Website](https://r4ds.had.co.nz/){target="_blank"}
   
-#### Collection of beginner R [resources](https://www.learnr4free.com/beginner.html){target="_blank"}
-
 #### Amy Willis' Intro to R [course](https://github.com/adw96/biost509){target="_blank"} 
 (for related alternative exercises/lessons)
 
@@ -87,13 +85,12 @@ knitr::include_graphics("../media/git_2x.png")
 
 **Resources**
 
-  - Recorded lesson [video](https://youtu.be/EvW_LofsjJw){target="_blank"} Part 1
-  - Recorded lesson [video](https://youtu.be/7jcAuJupUk8){target="_blank"} Part 2
   - Video: Meet the [command line](https://youtu.be/cg115YYQYgc){target="_blank"} of your computer
   - [Download Git](https://git-scm.com/downloads){target="_blank"}
   - [Download R](https://cran.cnr.berkeley.edu/){target="_blank"}
   - [Download R-Studio](https://rstudio.com/products/rstudio/download/#download){target="_blank"}
   - [Navigating with the command line](https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855){target="_blank"} (great video!)
+  - [Setting up 2FA for GitHub](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa){target="_blank"}
   - GitHub steps for Assignment 1 [video](https://youtu.be/M9430_eGttI){target="_blank"}
   - [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet){target="_blank"} (handy reference)
   - [Git tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners){target="_blank"} for beginners (another walkthrough, if you need it)
@@ -135,6 +132,11 @@ knitr::include_graphics("../media/file_tree.png")
 
 **Resources**
   
+  - Intro to what RStudio is [video](https://youtu.be/cnQ-v1UUWyE){target="_blank"}
+  - [Paths and files in R](https://gzahn.github.io/data-course/Repository/Code_Examples/navigating_files.html){target="_blank"}
+  
+**If you want to know more about the command-line**
+
   - [Remedial Unix Shell](https://github.com/gzahn/Data_Course/blob/master/Readings/Further_Reading_for_Shell_Tricks.pdf){target="_blank"}
   - [Basic Unix Commands](https://www.unixtutorial.org/basic-unix-commands?print=pdf){target="_blank"}
   - [Very Useful Tutorial](https://www.learnenough.com/command-line-tutorial/basics#sec-introduction){target="_blank"}
@@ -153,7 +155,7 @@ knitr::include_graphics("../media/file_tree.png")
 
 **Practice**
 
-  - In the directory Data_Course/Data/data-shell/names/ there are a number of subdirectories and csv files. Find all of those csv files and store their full filepaths as a character vector.
+  - In the directory Data_Course/Data/data-shell/names/ there are a number of subdirectories and csv files. Find all of those csv files and store their **full** absolute filepaths as a character vector in R.
   - Read in and print just the first 2 lines from each of those files
   - Find all the .txt files on your entire computer
   - Find all files on your computer that contain the character string "es" in the filename
@@ -192,7 +194,6 @@ knitr::include_graphics("../media/Rvariablesdata.jpg")
 
 **Resources**
 
-  - Intro to what RStudio is [video](https://youtu.be/cnQ-v1UUWyE){target="_blank"}
   - [Data Types in R](https://swcarpentry.github.io/r-novice-inflammation/13-supp-data-structures/){target="_blank"}
   - [Operators](https://www.statmethods.net/management/operators.html){target="_blank"}
   - [Subsetting](http://adv-r.had.co.nz/Subsetting.html){target="_blank"}
@@ -244,8 +245,6 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 **Assignments**
 
   - Read through the materials in the Resources section below
-  - Make sure you have the following packages installed if you don't already:
-    + *tidyverse*
   - Do [Assignment 4](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_4/Assignment_4.html){target="_blank"}
   - #### **Exam 1** (Link at top of page)
 
@@ -514,19 +513,18 @@ ___
 
 **Resources**
 
-  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Linear Regression](http://r-statistics.co/Linear-Regression.html){target="_blank"}
   - [More Linear Regression](https://www.dataquest.io/blog/statistical-learning-for-predictive-modeling-r/){target="_blank"}
   - [Common Statistical Tests](http://r-statistics.co/Statistical-Tests-in-R.html){target="_blank"}
   - Most stats test are really [just linear regression models!](https://lindeloev.github.io/tests-as-linear/){target="_blank"}
-  - [Mixed-effect Models](https://peerj.com/articles/4794/){target="_blank"}
   - [Everything is a Regression](https://towardsdatascience.com/everything-is-just-a-regression-5a3bf22c459c){target="_blank"}
+  - [Mixed-effect Models](https://peerj.com/articles/4794/){target="_blank"}
   - [Introduction to mixed effects models](https://peerj.com/articles/4794/){target="_blank"} This is a VERY good paper!
   - How to use [lmer](https://rstudio-pubs-static.s3.amazonaws.com/63556_e35cc7e2dfb54a5bb551f3fa4b3ec4ae.html){target="_blank"}
   - Comparing multiple models with [regression tables](https://evalsp20.classes.andrewheiss.com/reference/regtables/){target="_blank"}
   - Intro to Machine Learning [online text](https://lgatto.github.io/IntroMachineLearningWithR/an-introduction-to-machine-learning-with-r.html){target="_blank"}
   - Free case studies using [Machine Learning in R](https://supervised-ml-course.netlify.app/){target="_blank"}
-  - Awesome student-made [repository](https://github.com/austenapigo/GLAMM-Generalized-Linear-Additive-Mixed-Models){target="_blank"} featuring good explanations of different models
+  - Awesome student-made [repository](https://github.com/austenapigo/GLAMM-Generalized-Linear-Additive-Mixed-Models){target="_blank"} featuring good explanations of different GLAMM models
   
  
 **Practice**
@@ -567,12 +565,10 @@ knitr::include_graphics("../media/rmd.png")
 
 **Resources**
 
-  - Recorded lesson [video](https://youtu.be/rmt3Obdzg1s){target="_blank"} (Part 1)
-  - Recorded lesson [video](https://youtu.be/reKuO7dCHX4){target="_blank"} (Part 2)
   - [Intro to R Markdown](https://github.com/cbwall/Intro-to-Rmarkdown){target="_blank"}
   - [Markdown Live Preview Generator](https://dillinger.io/){target="_blank"}
   - Expert-Level [Markdown Project](https://github.com/cbwall/Coral-isotopes-across-space-and-time){target="_blank"}
-  - Example data analysis (easy version) [webpage](https://gzahn.github.io/example_project/){target="_blank"}
+  - Example data analysis [webpage](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_9/example.html){target="_blank"}
 
 **Practice**
 
@@ -593,7 +589,7 @@ knitr::include_graphics("../media/jennybryan.jpeg")
 ### **Week 12**{#Week-12}
 **Topics**
 
-  - Proper Project Organization | Collaboration 
+  - Proper Project Organization | "There's an R-Package for everything"
 
 **Assignments**
 
@@ -645,15 +641,12 @@ knitr::include_graphics("../media/aliens.jpg")
 **Assignments**
 
   - We will work together in class to do a complete analysis in real-time
+  - The rest of the semester will focus on live-coding as we work on your final projects
 
 **Resources**
 
-  - Recorded lesson [video](){target="_blank"} (Recorded during class and posted after)
   - [Benefits of Live Coding](https://gzahn.github.io/Readings/LiveCoding.pdf){target="_blank"}
 
-**Practice**
-
-  - Analyze the "esoph" data set and generate a markdown report
 
 
 [Back to top of page](#top)

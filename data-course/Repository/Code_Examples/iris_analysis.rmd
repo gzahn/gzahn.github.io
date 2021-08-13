@@ -32,9 +32,31 @@ ggplot(iris, aes(x=Sepal.Width,y=Petal.Width,color=Species)) +
 ```
 
 Just a few lines of code and we've already got a MUCH better plot that even accounts for how the relationship changes between the 3 different Iris species.
-Now, if you want to run a statistical test to see if Petal Width **really** is affected by Sepal Width and Iris Species, it's pretty simple once you know a few functions:
+Now, if you want to run a statistical test to see if Petal Width **really** correlates with Sepal Width and Iris Species, it's pretty simple once you know a few functions:
 
 ```{r}
 mod <- aov(data=iris, Petal.Width ~ Sepal.Width + Species)
 summary(mod) # This is an ANOVA model
 ```
+
+
+If you want a text-based summary of what that statistical table is telling you, that's just another short bit of reproducible code:
+
+```{r message=FALSE}
+report::report(mod)
+```
+
+Come to class, do your assignments, do your practice time every day and this will be second-nature to you. Your lab reports for other classes are going to be painfully impressive, and you are going to be able to get a pay bump in whatever job you have.
+
+___
+
+
+Go a bit further, taking advantage of the resources on the course web page and things are going to be even cooler, like interactive HTML plots or animations:
+
+```{r message=FALSE}
+p <- ggplot(iris, aes(x=Sepal.Width,y=Petal.Width,color=Species)) +
+  geom_point() + theme_minimal()
+
+plotly::ggplotly(p)
+```
+

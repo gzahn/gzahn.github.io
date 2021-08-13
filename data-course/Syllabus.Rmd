@@ -4,55 +4,62 @@ output:
 ---
 
 # **Introduction to Data Analysis in R**
-## Course Syllabus - Spring 2021
+## Course Syllabus - Fall 2021
 
 _____________________________
 
 ### Instructor: Dr. Geoff Zahn
-### Office: SB242q  -- Hours by appointment
+### Office: SB242t
 ### Email: zahn.geoff@gmail.com
 ### Course GitHub Repository: https://github.com/gzahn/Data_Course
 ### Course Website: https://gzahn.github.io/data-course/
+
+You need to bring your own laptop to class every day. That way you have installation priveleges and you will be set up for the future as you continue to analyze data.
+
 _____________________________
+
 
 ## **Course Description**
 
 This course provides an introduction to analyzing data in the R software environment, assuming no previous R experience. 
+
 We cover:
 
-*  the justification of using code to explore and analyze data
-*  best practices for dealing with data
-*  experimental design, modeling, and hypothesis testing
-*  how to create publication-quality figures that show interesting relationships in our data sets
-*  how to deal with common genetic sequence data types
-*  command-line computing skills and proper reporting
++ the justification of using code to explore and analyze data
++ best practices for dealing with data
++ experimental design, modeling, and hypothesis testing
++ how to create publication-quality figures that show interesting relationships in our data sets
++ project organization and proper reporting
 
-### Pre-requisites: BIOL1620
+### Pre-requisites: Advanced standing or instructor permission
 
-**Learning goals**
+**Learning outcomes**
 Students completing this course should be able to:
 
-1.  Understand the basic principles of exploratory data analyses within R
-2.  Import and clean up a variety of data types
-3.  Select and apply appropriate hypothesis tests and statistical models
-4.  Create high-quality visualizations 
-5.  Generate reports that knit code and output for reproducible research
-6.  Have basic command-line skills used for processing biological data
+1.  Demonstrate proficiency in proper data entry, management, and storage with an emphasis on reproducibility.
+2.  Convert untidy data to “tidy data” for analyses. 
+3.  Explain the basic principles of exploratory data analyses within a computational software environment.
+4.  Evaluate the rationale behind using code to analyze data and present results.
+5.  Develop computational skills for processing common biological data formats, such as DNA sequences.
+6.  Create appropriate and meaningful data visualizations using the R software environment.
+7.  Integrate principles of experimental design, statistical modeling, hypothesis testing, and data visualization 
 
+  
+                                          
 _____________________________
 
+## **Advice**
+This course requires significant outside work... meaning that if you aren't practicing at least 6 hours a week *outside of class*, then you are going to have a really rough time of it. Like, you'll fall behind and will be frustrated and scared and sad. Don't let this happen. Practice! Come to my office! Ask questions!  And spend time **every day** using R.  Seriously. Every day.
 
-**COVID-19 Considerations:**
+The course website has external resources and practice tasks for every week. Use these to make the most of this opportunity. **Data fluency is currently one of the most desirable job skills**, including in biology. Most undergrad science students do not learn these skills, putting you at a major competitive advantage if you make the effort to learn this.
 
-**The course is meeting entirely online. All lectures will be live-streamed and recorded.**
-**Use the course web page as a map of the semester, but also be sure to stay active on Canvas and MS Teams!**
-	
-**You should make *every* effort to be present for the live class sessions. There's really no substitute for being able to follow along and ask questions.  This class tends to have a high cognitive burden, at least at first. You're going to want to ask questions.**	
+Computers are not a passing fad. Don't get left behind.
 
-
-_____________________________
+ _____________________________
 
 ## **Grading**
+
+We will use a point system. The points you have accumulated by the end of the course determine your grade as follows:
 
 | Points | Letter Grade |
 |-------:|:------------:|
@@ -63,24 +70,20 @@ _____________________________
 | <480 | E |
 
 #### Points are based on:
-
-* 10 Assignments - 20 pts *each*
-* 4 Exams - 100 pts *each*
+* 10 Assignments - 20 pts each
+* 4 Skills Tests - 100 pts each
 * 1 Final Project - 200 pts
 
 _____________________________
 
-### **Weekly Assignments**
+### **Assignments**
+These are shown on the [course website](https://gzahn.github.io/data-course/). They (along with all necessary data and files) are also avalable in their respective directories on the [GitHub repository](https://github.com/gzahn/Data_Course). They will generally consist of requiring you to complete a task using R and to upload your code as an R script to Canvas and/or GitHub. Some may vary. These assignments will not be accepted for credit after the due date.
 
-These are available on our course website. They will generally consist of requiring you to complete a task using R and to upload your code as an R script to Canvas. Some may vary. Any data sets required for the assignment will be on the course GitHub repository as well. Due dates are on the course website. These assignments will not be accepted for credit after the due date.
-
-### **Exams**
-
-These will take place at times indicated on the course website. They will be similar to the sorts of tasks on the precedent Weekly Assignments, and you will be "open book, open internet." You will have a fair amount of time to complete them, but don't get complacent. They will be uploaded to [**this repository**](https://github.com/gzahn/BIOL3100_Exams.git){target="_blank"} when they become available.
+### **Skills Tests**
+These will be similar to the sorts of tasks on the precedent assignments, and they will be open-source (you can use notes, internet, etc.). They focus on completing some data analysis tasks.
 
 ### **Final Project**
-
-Beginning early in the semester, we will decide on individual projects based on personal interest. Working with instructor feedback, you will come up with a question that interests you and will identify a data set that can address that question. You will then apply the data exploration and visualization skills you learn in class to prepare a well-formatted report that contains all the code and results of your analyses. **Most importantly this project will require you to teach yourself new R skills using the resources we learn about (or any others). You will be required to learn analyses explicitly not covered in this course (Check the course schedule to see what we are covering), and to apply them correctly to your analysis and report.**
+Beginning early in the semester, we will decide on individual projects based on personal interest. Working with instructor feedback, you will come up with a question that interests you and will identify a data set that can address that question. You will then apply the data exploration and visualization skills you learn in class to prepare a well-formatted report that contains all the code and results of your analyses. You are encouraged to use your own data if you have any. **Most importantly this project will require you to teach yourself new R skills using the resources we learn about (or any others). You will be required to learn analyses explicitly not covered in this course (Check the course website to see what we are covering), and to apply them correctly to your analysis and report.**
 
 Examples of unique topics could include, but are not limited to:
 
@@ -89,6 +92,7 @@ Examples of unique topics could include, but are not limited to:
 * New statistical testing methods
 * Metagenomic assembly
 * Learning a new R package
+* Unique visualization methods
 * Etc.
 
 
@@ -96,11 +100,14 @@ Examples of unique topics could include, but are not limited to:
 
 **Soon after, you will work with the instructor to identify a suitable publicly-available data set (or use your own)**
 
-**An initial draft of your exploratory code is due before Skills Test 3**
-
 **Then you will work with the instructor to identify a new skill to be applied for your project**
 
+**Your project will culminate in a reproducible report that integrates your background research, code, results, figures, and discussion into a single reproducible document on a personal website that you will create**
+
+
 ______________________________
+
+## Important legal stuff, etc.:
 
 
 **Americans with Disabilities Act:**
@@ -110,30 +117,6 @@ should let the instructor know as soon as possible, with documentation from the 
 Services Department (ASD), located on the Orem Campus, in LC 312. To schedule an appointment, or
 speak with a counselor, call the ASD office at 801-863-8747, or for Deaf/Hard of Hearing individuals,
 use the video phone number, 886-760-1819."
-
-_____________________________
-
-**Biology Department Policy**
-Students in this class are expected to understand and use proper English grammar, sentence structure,
-and spelling. Use of dictionaries during quizzes and exams is NOT allowed. Students are also expected
-to have basic calculating skills that include fractions, decimals, exponents (e.g., squares & square roots,
-powers of ten) and the ability to solve simple algebraic expressions. In addition, they must be able to
-add, subtract, multiply, and divide small numbers without a calculator. Understanding of logarithms
-(logs) will be helpful. Course rigor level should be such that the average grade is about a C.
-
-**Student Responsibility**
-It is up to you to see that the requirements for this course are completed. This syllabus is your guide to
-those requirements. Make certain that you understand what is expected of you. It is up to you to attend
-class and arrange for time to complete the readings, assignments, and exams. This course is designed
-for biology majors. If you are not reading at a college level, you WILL have difficulty with this course.
-There is only one type of “excused” absence, and that is an absence for an official University activity,
-such as participation in athletics, not just watching but doing, field trip for another course, etc.
-Make-up exams will NOT be given except for a situation beyond your control for which you provide
-verifiable (I will verify), written documentation. Family vacations, Illness, family crises, vehicle
-problems, legal problems, weddings, not studying, or forgetting to take an exam are NOT valid excuses
-or excused absences, even if you tell me beforehand; emergencies are. If such difficulties require asignificant number of absences during the semester, you are advised to drop the course and take it at
-another time. You do not need to call me if you will not be in class, I don’t take roll. Class attendance
-and obtaining the information for the tests is your responsibility.
 
 ### Academic Honesty and Integrity
 Utah Valley University expects all students to maintain integrity and high standards of individual
@@ -267,6 +250,7 @@ http://www.uvu.edu/veterans/, ext. 8212, WB100.
 • EOAA or Student Ombuds - ext. 7237, SC 107
 • Student Health Services, if Anonymity is desired- ext. 8876, SC 221
 • UVUPD, if you wish to press criminal charges - ext. 5555, GT 331
+
 ### Information about gender neutral facilities or gender personal pronouns: 
 You may ask your professor/supervisor to use your personal name and pronouns. If you are unclear about pronouns or
 identifiers, you may request clarification. If you have questions or concerns contact LGBT Student
@@ -284,3 +268,25 @@ support services from the Veterans Success Center and may be eligible for Post-9
 For help receiving your benefits, please contact the Veterans Success Center in the Woodbury Business
 Building, room 100, via email at veterans@uvu.edu or by calling 801-863-8212. Learn
 more: http://www.uvu.edu/veterans/
+
+**Biology Department Policy**
+Students in this class are expected to understand and use proper English grammar, sentence structure,
+and spelling. Use of dictionaries during quizzes and exams is NOT allowed. Students are also expected
+to have basic calculating skills that include fractions, decimals, exponents (e.g., squares & square roots,
+powers of ten) and the ability to solve simple algebraic expressions. In addition, they must be able to
+add, subtract, multiply, and divide small numbers without a calculator. Understanding of logarithms
+(logs) will be helpful. Course rigor level should be such that the average grade is about a C.
+
+**Student Responsibility**
+It is up to you to see that the requirements for this course are completed. This syllabus is your guide to
+those requirements. Make certain that you understand what is expected of you. It is up to you to attend
+class and arrange for time to complete the readings, assignments, and exams. This course is designed
+for biology majors. If you are not reading at a college level, you WILL have difficulty with this course.
+There is only one type of “excused” absence, and that is an absence for an official University activity,
+such as participation in athletics, not just watching but doing, field trip for another course, etc.
+Make-up exams will NOT be given except for a situation beyond your control for which you provide
+verifiable (I will verify), written documentation. Family vacations, Illness, family crises, vehicle
+problems, legal problems, weddings, not studying, or forgetting to take an exam are NOT valid excuses
+or excused absences, even if you tell me beforehand; emergencies are. If such difficulties require asignificant number of absences during the semester, you are advised to drop the course and take it at
+another time. You do not need to call me if you will not be in class, I don’t take roll. Class attendance
+and obtaining the information for the tests is your responsibility.

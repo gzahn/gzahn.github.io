@@ -15,10 +15,20 @@ knitr::opts_chunk$set(echo = TRUE)
 It's time for me to take a look at your progress on your final project. You should already have a nice README file, your data, and (at the very least) some draft exploratory code.
 
 
+I want you to create a markdown report (HTML) posted to your website. In your report, you should describe your final project. That is, describe the question you are addressing and then give a rundown of your data set.
+
+I want to see exploratory summary figures showing your data distributions, number of observations, etc. Describe your data through charts and statistics.
+
+If it isn't cleaned and tidy yet, explain in plain language how you will tidy it...but I still want figures showing your data regardless.
+
+Finally, explain how your data will address your ultimate question.
+
+
+
 ## **For credit...**
 
-1.  Push your draft final project code to GitHub
-2.  Let me know it's ready for review by typing "Ready for review" into the text box for the assignment on Canvas.
+1.  Push your draft final project code to GitHub (your website)
+2.  Upload a web link to your data summary to Canvas so I can take a look at it.
 
 ____________
 
