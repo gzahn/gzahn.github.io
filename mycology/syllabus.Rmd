@@ -1,0 +1,298 @@
+---
+output: 
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: false
+pagetitle: MYCOLOGY_SYLLABUS
+---
+
+```{r setup, echo=FALSE,message=FALSE,warning=FALSE}
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+lg <- read_xlsx("./media/myc_sheets.xlsx",sheet=1)
+pts <- read_xlsx("./media/myc_sheets.xlsx",sheet=2)
+```
+
+# **Mycology Syllabus - Fall 2021**
+
+## **Instructor info:**
+
+**Instructor: Dr. Geoff Zahn**
+
+**Office: SB242t**
+
+**Email: zahn.geoff@gmail.com**
+
+**Course Website: https://gzahn.github.io/mycology/**
+
+_____________________________
+
+## **Course Description:**
+
+Mycology provides an introduction to the fungal kingdom, focusing on understanding evolutionary relationships and adaptations, and in gaining an appreciation for the environmental, industrial, and medical functions that fungi play. Lectures are integrated with lab inquiries that will expose students to fungal culturing techniques, microscopy, and DNA-based identification of fungi.
+
+______________________________
+
+### **Text Book (optional):**
+
+Webster, J and Weber, R. Introduction to Fungi, 3rd Ed.. 2007. Cambridge Univ. Press
+
+ISBN: 9780511809026
+
+(pdf copies for loan available from instructor)
+
+### **Pre-requisites:**   
+
+ + Advanced university standing or permission from instructor.            
+ + (Suggested) MICR3450 – General Microbiology
+
+
+______________________________
+
+
+### **Learning Objectives:**
+
+**Upon successful completion, students should be able to:**
+  
+  1. Create a culture collection of fungi from the environment
+  2. Categorize major fungal groups morphologically
+  3. Interpret fungal phylogenies
+  4. Summarize environmental, medical, and industrial applications of mycology
+  5. Analyze fungal genomic data using existing bioinformatics tools
+  
+**Upon successful completion, students should have the following attitude(s)/traits:**
+
+  1. Appreciation of the complex and important functions that fungi provide for various systems
+  2. Confidence in applying the scientific method for investigating natural phenomena
+  3. Confidence in accessing, interpreting, and evaluating primary scientific literature
+  
+*Note that none of the learning objectives include field identification of edible mushrooms!
+
+_____________________________
+
+
+## **Course structure**
+
+Here's what to expect:
+
+  + Regular literature readings and quizzes
+  + A couple of exams
+  + Semester-long research projects
+  + Research presentation
+
+
+
+**Grading:**
+
+There are 800 points possible in this course (detailed below). The following grading scale applies with no exceptions (These are the minimum point values for the listed grades):
+
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+lg %>% 
+  kbl() %>% 
+  # kable_paper(full_width = FALSE,) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = FALSE,
+                position = "float_left")
+
+pts %>% 
+  kbl() %>% 
+  # kable_paper(full_width = FALSE,) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = FALSE,
+                position = "center")
+```
+
+____________________
+
+
+### **Readings, Quizzes, and Discussions:**
+
+This course will heavily feature readings from primary research and review articles. Students will take turns being responsible for leading class discussions about assigned articles. There will also be in-class quizzes over the readings to encourage full participation. Research articles can be difficult to comprehend. Do NOT expect to be able to quickly read an article once and do well on quiz or discussion points. You will most likely need to read each article several times as you gain experience with primary literature. Points will be awarded for quizzes and for participation in discussions, including leading assigned group discussions. We will read and discuss at least 10 journal articles. Any additional readings/discussions can serve as make-up points, but these are not guaranteed. A tentative list of the journal articles we will be reading is found at the end of this syllabus.
+
+
+### **Exams:**
+
+We will have two exams, including the final.  These will be worth 100 points each. Exams will be announced in class and on Canvas with plenty of time to prepare (at least one week notice) and a review session will be provided prior to each exam.  Exams will assess knowledge of fungal biology/ecology, laboratory skills, and methodology used in mycology.  This means that questions may come from the journal articles we read and some exam points will require lab work.
+
+
+### **Lab Assignments:**
+
+Much of the course will involve laboratory work. The graded assignments will be announced in class and detailed instructions will be uploaded to Canvas. The bulk of these points will come from participation in culturing, DNA, and identification work in-class. Examples of these assignments include: 
+	-	Obtaining pure fungal isolates for deposition into a “living culture collection”
+	-	Extracting, amplifying, and purifying fungal DNA from cultured isolates
+	-	Using DNA sequences to confirm morphological identification of fungal cultures
+	-	Growing mushrooms from spores on diverse substrates
+	-	Microscope work, including genetic screens and culture crossings
+	-	Technical drawings of fungal structures
+	-	“Agar art” gallery
+	-	Field collections of substrates and fruiting bodies
+
+These assignments will have variable point values.
+
+
+### **Semester Projects:**
+
+Semester projects will be conducted in groups. Topics and group formation will happen early in the semester before you have learned much about mycology. These projects will be worked all all semester and will serve as an actual case-study to apply the topics we cover to a real-life situation. You will be required to do background reading from the primary scientific literature, build an annotated bibliography (literature review), and use the insight gained from this to design an experiment related to mycology. The instructor has topic ideas you are encouraged to use. This experimental plan, including expected outcomes and broader impacts of conducting the research will be written up and submitted as an URSCA or SAC grant proposal, due early in the semester. Points will not be awarded for getting a grant, only for submission quality and timeliness. As you perform your experiment(s), collect data, and analyze your results, you will begin to prepare a scientific poster. This will be presented publicly at the end of the semester, most likely in the Science Building Atrium. 
+
+The use of human or other vertebrate subjects will not be allowed (too much paperwork and time involved).
+
+**Research project options:**
+
+  + Fungal endophyte diversity along an elevation gradient
+  + Fungal heat-shock protein function for secondary stresses
+  + Aquatic fungal survey (lakes and rivers)
+  + Fungal antibiotic bioprospecting for MRSA antagonism
+  + Experimental evolution of alcohol tolerance in yeast
+
+
+**The three main components of this project are:**
+
+  1. Grant proposal
+  
+Students will develop and submit a funding proposal for their research projects. This will be a lot of work and will occupy the first several weeks of the course. Getting funding is wonderful, but your grade does not depend on it...only on a timely, complete, and competent submission.
+
+  2. Research project
+  
+Actually carrying out the research project will take the bulk of the semester. You will collect and analyze data and if you are lucky, you will get some results.
+  
+  3. Poster presentation
+  
+Students will also put together a poster presentation describing the project and results. We will display these in the Science Building Atrium towards the end of the semester. These will be graded on design elements as well as content. You will have to be present at the poster session to receive credit for it.
+
+
+____________________
+
+
+<br><br>
+
+
+_____________________
+
+
+## Tentative reading list:
+
+Boyce, G., Gluck-Thaler, E., Slot, J. C., Stajich, J. E., Davis, W. J., James, T. Y., … Kasson, M. T. (2018). Discovery of psychoactive plant and mushroom alkaloids in behavior-modifying fungal cicada pathogens. BioRxiv, 375105. https://doi.org/10.1101/375105
+
+Bruns, T. D., Peay, K. G., Boynton, P. J., Grubisha, L. C., Hynson, N. A., Nguyen, N. H., & Rosenstock, N. P. (n.d.). Inoculum potential of Rhizopogon spores increases with time over the first 4 yr of a 99-yr spore burial experiment. New Phytologist, 181(2), 463–470. https://doi.org/10.1111/j.1469-8137.2008.02652.x
+
+Busby, P. E., Ridout, M., & Newcombe, G. (2015). Fungal endophytes: modifiers of plant disease. Plant Molecular Biology, 90(6), 645–655. https://doi.org/10.1007/s11103-015-0412-0
+
+Dadachova, E., Bryan, R. A., Huang, X., Moadel, T., Schweitzer, A. D., Aisen, P., … Casadevall, A. (2007). Ionizing Radiation Changes the Electronic Properties of Melanin and Enhances the Growth of Melanized Fungi. PLOS ONE, 2(5), e457. https://doi.org/10.1371/journal.pone.0000457
+
+Glassman, S. I., Wang, I. J., & Bruns, T. D. (2017). Environmental filtering by pH and soil nutrients drives community assembly in fungi at fine spatial scales. Molecular Ecology.
+
+Henske, J. K., Wilken, S. E., Solomon, K. V., Smallwood, C. R., Shutthanandan, V., Evans, J. E., … O’Malley, M. A. (2018). Metabolic characterization of anaerobic fungi provides a path forward for bioprocessing of crude lignocellulose. Biotechnology and Bioengineering, 115(4), 874–884. https://doi.org/10.1002/bit.26515
+
+Hibbett, D., Abarenkov, K., Kõljalg, U., Öpik, M., Chai, B., Cole, J., … Geiser, D. M. (2016). Sequence-based classification and identification of Fungi. Mycologia, 108(6), 1049–1068. https://doi.org/10.3852/16-130
+
+James, T. Y., Kauff, F., Schoch, C. L., Matheny, P. B., Hofstetter, V., Cox, C. J., … Vilgalys, R. (2006). Reconstructing the early evolution of Fungi using a six-gene phylogeny. Nature, 443(7113), 818–822. https://doi.org/10.1038/nature05110
+
+Raja, H. A., Miller, A. N., Pearce, C. J., & Oberlies, N. H. (2017). Fungal Identification Using Molecular Tools: A Primer for the Natural Products Research Community. Journal of Natural Products, 80(3), 756–770. https://doi.org/10.1021/acs.jnatprod.6b01085
+
+Suhr, M. J., & Hallen-Adams, H. E. (2015). The human gut mycobiome: pitfalls and potentials—a mycologist’s perspective. Mycologia, 107(6), 1057–1073. https://doi.org/10.3852/15-147
+
+Zimmerman, N. B., & Vitousek, P. M. (2012). Fungal endophyte communities reflect environmental structuring across a Hawaiian landscape. Proceedings of the National Academy of Sciences, 109(32), 13022–13027. https://doi.org/10.1073/pnas.1209872109
+
+Bacigalupe, L. D., Soto‐Azat, C., García‐Vera, C., Barría‐Oyarzo, I., & Rezende, E. L. (n.d.). Effects of amphibian phylogeny, climate and human impact on the occurrence of the amphibian-killing chytrid fungus. Global Change Biology, 23(9), 3543–3553. https://doi.org/10.1111/gcb.13610
+Benedict, K., Richardson, M., Vallabhaneni, S., Jackson, B. R., & Chiller, T. (2017). Emerging issues, challenges, and changing epidemiology of fungal disease outbreaks. The Lancet Infectious Diseases, 17(12), e403–e411. https://doi.org/10.1016/S1473-3099(17)30443-7
+
+de Bekker, C., Ohm, R. A., Loreto, R. G., Sebastian, A., Albert, I., Merrow, M., … Hughes, D. P. (2015). Gene expression during zombie ant biting behavior reflects the complexity underlying fungal parasitic behavioral manipulation. BMC Genomics, 16(1), 620. https://doi.org/10.1186/s12864-015-1812-x
+
+
+
+______________________
+
+<br>
+
+______________________
+
+
+
+## Legalese:
+
+
+Americans with Disabilities Act: 
+Students with disabilities that may negatively impact their ability to successfully complete this course should let the instructor know as soon as possible, with documentation from the ASD.
+
+"Students who need accommodations because of a disability should contact the UVU Accessibility Services Department (ASD), located on the Orem Campus, in LC 312. To schedule an appointment, or speak with a counselor, call the ASD office at 801-863-8747, or for Deaf/Hard of Hearing individuals, use the video phone number, 886-760-1819."
+
+
+Biology Department Policy 
+Students in this class are expected to understand and use proper English grammar, sentence structure, and spelling.  Use of dictionaries during quizzes and exams is NOT allowed. Students are also expected to have basic calculating skills that include fractions, decimals, exponents (e.g., squares & square roots, powers of ten) and the ability to solve simple algebraic expressions.  In addition, they must be able to add, subtract, multiply, and divide small numbers without a calculator.  Understanding of logarithms (logs) will be helpful.  Course rigor level should be such that the average grade is about a C.
+
+Student Responsibility
+It is up to you to see that the requirements for this course are completed.  This syllabus is your guide to those requirements.  Make certain that you understand what is expected of you.  It is up to you to attend class and arrange for time to complete the readings, assignments, and exams.  This course is designed for biology majors. If you are not reading at a college level, you WILL have difficulty with this course.  There is only one type of “excused” absence, and that is an absence for an official University activity, such as participation in athletics, not just watching but doing, field trip for another course, etc.
+Make-up exams will NOT be given except for a situation beyond your control for which you provide verifiable (I will verify), written documentation.  Family vacations, Illness, family crises, vehicle problems, legal problems, weddings, not studying, or forgetting to take an exam are NOT valid excuses or excused absences, even if you tell me beforehand; emergencies are.  If such difficulties require a significant number of absences during the semester, you are advised to drop the course and take it at another time. You do not need to call me if you will not be in class, I don’t take roll.  Class attendance and obtaining the information for the tests is your responsibility.    
+
+
+Academic Honesty and Integrity
+Utah Valley University expects all students to maintain integrity and high standards of individual honesty in academic work, to obey the law, and to show respect for others. Students of this class are expected to support an environment of academic integrity, have the right to such an environment, and should avoid all aspects of academic dishonesty. Examples of academic dishonesty include plagiarizing, faking of data, sharing information during an exam, discussing an exam with another student who has not taken the exam, consulting reference material during an exam, submitting a written assignment which was authored by someone other than you, and/or cheating in any form. 
+In keeping with UVU policy, evidence of academic dishonesty may result in a failing grade in the course and disciplinary review by the college.  Any student caught cheating will receive, at minimum, zero points on that particular assignment for the first offense.  A second offense can result in failing the course and will entail being reported to Student Advising.  Academic dishonesty includes, in part, using materials obtained from another student, published literature, and the Internet without proper acknowledgment of the source.   Additional information on this topic is published in the student handbook and is available on the UVU website. 
+Situation of academic dishonesty will be reported to the Student Conduct and Conflict Resolution office as, at a minimum, an informational item and potentially as an item for investigation, resolution, or other.  
+
+Student Code of Conduct
+All UVU students are expected to conduct themselves in an appropriate manner acceptable at an institution of higher learning. All students are expected to obey the law, to perform contracted obligations, to maintain absolute integrity and high standards of individual honesty in academic work, and to observe a high standard of conduct for the academic environment. 
+The Student Rights and Responsibilities Code, or Code of Conduct, outlines for students what they can expect from the University and what the University expects of them.  It can be found at http://www.uvu.edu/studentconduct/students/
+
+Student Timelines
+
+You are responsible for being aware of and abiding by the dates and deadlines on the student timelines for this term found at UVU Schedule (http://www.uvu.edu/schedule/)  
+Understand When You May Drop This Course
+It is the student’s responsibility to understand when they need to consider dropping from a course. Dates and deadlines for dropping a course can be found in the student timetables located at http://www.uvu.edu/schedule/. After the period specified, a serious and compelling reason is required to drop from the course and would need approval from not just the faculty but also the department chair as well as the Dean's Office.  
+
+Incomplete Policy
+
+An Incomplete (I) Grade is only given due to an extenuating circumstance. The final decision to issue an Incomplete grade is up to the instructor. Review the following criteria taken from Policy 523 at for information on when an incomplete grade can be given:  
+The student was unable to complete the course due to extenuating circumstances:
+    • Incapacitating Illness 
+    • Death in the immediate family 
+    • Change in the student's work schedule by the employer 
+    • Other deemed acceptable by the instructor 
+    • The student must have completed a minimum of 70% of the required work 
+An Incomplete Grade form indicating work completed and work to be completed must be signed by the department chairperson, and turned into the Registrar’s Office at the end of the semester. Incomplete Grade forms can be obtained from the Registrar's Office. 
+Unofficial Withdrawals
+UW will be given only when a student stops attending and completing work before the regularly scheduled date to officially withdraw as found in the Student Timetable but did not actually officially withdraw. Rationale: The assumption here is that the student did not realize the necessity to physically withdraw or made an error in this process, but all intentions of the student were to withdraw from the class prior to the withdrawal deadline 
+See also Academic Policies and Standards in the UVU Catalog which notes, "If a student stops attending (but does not officially withdraw) before the last day to withdraw, he/she should receive a UW.” 
+
+Late Work
+
+Late work will not be accepted without a doctors or lawyers note unless previously discussed with and approved by your instructor.  Computer problems, work schedule, lack of internet access, traffic, travel, or similar do not constitute rationale for late homework.  Your instructor has the right to modify their handling of late work.  
+Inclusivity Statement
+We understand that our members represent a rich variety of backgrounds and perspectives. The Technology Management department is committed to providing an atmosphere for learning that respects diversity. While working together to build this community we ask all members to: 
+    • share their unique experiences, values and beliefs 
+    • be open to the views of others 
+    • honor the uniqueness of their colleagues 
+    • appreciate the opportunity that we have to learn from each other in this community 
+    • value each other’s opinions and communicate in a respectful manner 
+
+Academic Freedom
+
+For the purposes of this class, academic freedom is generally defined as follow: For faculty and students alike, you have the freedom to disagree with the views and statements of others, but academic freedom should entail tolerance and respect for others, professionalism, and, to the degree possible, fact-based information.   Intellectual vigor is best sustained when the free exchange of ideas is carried on within an environment supportive of human dignity and self-esteem. For full guidelines see http://www.uvu.edu/tm/pages/department/acad-freedom.html
+
+Discrimination / Harassment / Sexual Misconduct
+
+It’s On Us to prevent discrimination/harassment against members of protected classes. If you see something, step up and say something.  If you encounter discrimination, harassment, or gender-based discrimination (including discrimination or harassment based on pregnancy, pregnancy related conditions, sexual orientation or gender identity) or sexual violence (dating violence, domestic violence, stalking including unwanted electronic contact), please contact the Office for Equal Opportunity/Affirmative Action and Title IX. Additional information regarding options and services can be found at: http://www.uvu.edu/equalopportunity/  and http://www.uvu.edu/studentconduct/docs/title9optionsbrochure.pdf
+Consistent with State and Federal Law such as Title VI of the Civil Rights Act of 1964 and Title IX of the Education Amendments of 1972, Utah Valley University is committed to maintaining a respectful and safe environment for its students, faculty, staff, and visitors. UVU policies 162 and 165 define and prohibit all forms of unlawful discrimination, harassment, sexual misconduct and retaliation in its programs services and activities.  Utah Valley University policy 165 prohibits any form of:   
+    • (a) Discrimination based on one or more protected classes, (Race, color, religion, national origin, sex, sexual harassment, sexual orientation, gender identity, age (40 and over), disability, veteran status, pregnancy, childbirth, or pregnancy-related conditions, genetic information, or other bases protected by applicable federal, state, or local law) 
+    • (b) Harassment based on one or more protected classes, including sexual harassment (policy 162), or 
+    • (c) Retaliation(a negative action or discouraging someone from reporting discrimination/harassment or participating in a University internal investigation). 
+If you need accommodations, please see the appropriate contact below:
+    • ADA: Students who need accommodations because of a disability may contact the UVU Accessibility Services Department (ASD), located on the Orem Campus in LC 312. To schedule an appointment or to speak with a counselor, call the ASD office at 801-863-8747. Deaf/Hard of Hearing individuals, email nicole.hemmingsen@uvu.edu or text 385-208-2677. 
+    • Pregnancy: Accessibility Services or Office for Equal Opportunity & Affirmative Action (EOAA) - http://www.uvu.edu/equalopportunity/, ext. 5704, BA 203. 
+    • Religious: You may begin by asking your professor. If you have questions or concerns, contact the EOAA. 
+    • Veterans (Military Leave, Course Withdraw, or Other Assistance): Veteran Services - http://www.uvu.edu/veterans/, ext. 8212, WB100. 
+    • As the result of unwanted sexual harassment, contact, stalking, dating or domestic violence: 
+    • EOAA or Student Ombuds - ext. 7237, SC 107 
+    • Student Health Services, if Anonymity is desired- ext. 8876, SC 221 
+    • UVUPD, if you wish to press criminal charges - ext. 5555, GT 331 
+Information about gender neutral facilities or gender personal pronouns: You may ask professor/supervisor to use your personal name and pronouns. If you are unclear about pronouns or identifiers, you may request clarification. If you have questions or concerns contact LGBT Student Services - https://www.uvu.edu/multicultural/lgbt/ LA 126, ext. 8885 or the EOAA. 
+
+Disability Services
+
+Students who need accommodations because of a disability may contact the UVU Accessibility Services Department (ASD), located on the Orem Campus in LC 312. To schedule an appointment or to speak with a counselor, call the ASD office at 801-863-8747. Deaf/Hard of Hearing individuals, email nicole.hemmingsen@uvu.edu or text 385-208-2677.
+
+Veteran’s Services
+UVU is committed to providing a working and learning atmosphere for student veterans and their families. If you are a student veteran or a family member of a student veteran, you are eligible for support services from the Veterans Success Center and may be eligible for Post-9/11 GI Bill benefits. For help receiving your benefits, please contact the Veterans Success Center in the Woodbury Business Building, room 100, via email at veterans@uvu.edu or by calling 801-863-8212. Learn more: http://www.uvu.edu/veterans/' 
+

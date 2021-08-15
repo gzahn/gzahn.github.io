@@ -22,13 +22,13 @@ library(broom); packageVersion("broom")
 library(purrr); packageVersion("purrr")
 library(ade4); packageVersion("ade4")
 library(vegan); packageVersion("vegan")
-# BiocManager::install("microbiome")
+library(corncob)
 library(microbiome); packageVersion("microbiome")
 
 
 #functions
 source("./R/palettes.R")
-
+source("./R/bbdml_helper.R")
 
 # IMPORT DATA ####
 ps <- readRDS("./output/clean_phyloseq_object.RDS")
@@ -62,3 +62,34 @@ w <- betadiver(otu_table(ps_ra),"w")
 w.disper <- betadisper(w,group = meta(ps_ra)$Sponge_Species)
 
 plot(w.disper)
+
+ps_class <- tax_glom(ps,"Class")
+
+####  Corncob differential abundance ####
+sample_data(ps) %>% head
+set.seed(123)
+da_analysis <- differentialTest(formula = ~ Sampling_Site, #abundance
+                                phi.formula = ~ Sampling_Site, #dispersion
+                                formula_null = ~ 1, #mean
+                                phi.formula_null = ~ 1,
+                                test = "Wald", boot = FALSE,
+                                data = ps_class,
+                                fdr_cutoff = 0.1)
+
+da_analysis$significant_taxa
+otu_to_taxonomy(da_analysis$significant_taxa,data = ps_class)
+
+bbdml(data = ps_class, 
+      formula = "CAAGTGACCCCGGTCTAACCACCGGGATGTTCATAACCCTTTGTTGTCCGACTCTGTTGCCTCCGGGGCGACCCTGCCTTCGGGCGGGGGCTCCGGGTGGACACTTCAAACTCTTGCGTAACTTTGCAGTCTGAGTAAACTTAATTAATAAATTA" ~ Sampling_Site,
+      phi.formula = "CAAGTGACCCCGGTCTAACCACCGGGATGTTCATAACCCTTTGTTGTCCGACTCTGTTGCCTCCGGGGCGACCCTGCCTTCGGGCGGGGGCTCCGGGTGGACACTTCAAACTCTTGCGTAACTTTGCAGTCTGAGTAAACTTAATTAATAAATTA" ~ 1)
+
+site_bbdml <- multi_bbdml(da_analysis,
+                          ps_object = ps_class,
+                          mu_predictor = "Acidified",
+                          phi_predictor = "Acidified",
+                          taxlevels = 2:7)
+length(site_bbdml)
+
+plot_multi_bbdml(site_bbdml,color = "Acidified")
+bbdml_plot_1
+  

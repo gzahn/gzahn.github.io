@@ -35,7 +35,9 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 # **MYCOLOGY**{#top}
 **Utah Valley University - BIOL1620**
 
-This course section is entirely online. All assignments, quizzes, and exams will be turned in and taken on Canvas. My preferred contact method is our group MSTeams channel.
+Since we are back in a face-to-face setting, we will be running this course as a research experience. This web page is still a very good resource for learning about fungi, but consider it "enrichment material" rather than a map of the course. It was built with a remote learning model in mind for when we were unable to do lab work in-person.
+
+
 
 This webpage will host links to all resources and videos, and serves as a roadmap for the semester, listing readings, assignments, etc.
 
@@ -79,7 +81,7 @@ ___
 
 ## Quick links
 
-#### [Course Syllabus](https://gzahn.github.io/mycology/media/Syllabus_Sp_2021.pdf){target="_blank"}
+#### [Course Syllabus](https://gzahn.github.io/mycology/syllabus.html){target="_blank"}
 
 #### [Course Text Book](https://gzahn.github.io/mycology/media/WEBSTER_and_WEBER_3rd-ed.pdf){target="_blank"}
 

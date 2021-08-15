@@ -19,7 +19,7 @@
                                             # un-comment the following 2 lines if running this analysis from scratch!
 # itsxpress <- "for i in ./seqs/fastqs/*R1_001.fastq.gz; do /home/gzahn/.local/bin/itsxpress --fastq $i  --outfile $i.FungalITS1.fastq.gz --region ITS1 --taxa Fungi -s --threads 4 --log $i.ITSx.log; done"
 # system(command = itsxpress)
-getwd()
+
 
 # BiocManager::install("phyloseq",update = FALSE) # use this code to install phyloseq if problems arise
 
