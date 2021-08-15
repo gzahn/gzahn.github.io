@@ -39,7 +39,7 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
 
-## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [BLOG](http://gzahn.github.io/blog-archive/) | [TEACHING](http://gzahn.github.io/coursemap/)
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/)
 
 
 # **Zahn Lab - Utah Valley University**
@@ -65,10 +65,11 @@ ___
 ### 800 W University Parkway - SB243c<br>
 ### Orem, UT 84058<br>
 ### zahn.geoff@gmail.com
+##### Twitter: [GeoffZahn](https://twitter.com/GeoffZahn){target="_blank"}
 <br><br><br>
 
 </div>
 
 
-<a class="twitter-timeline" data-width="300" data-height="500" data-theme="dark" href="https://twitter.com/GeoffZahn?ref_src=twsrc%5Etfw">Tweets by GeoffZahn</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 

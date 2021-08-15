@@ -3,10 +3,14 @@
 .RData
 .Ruserdata
 media/Bibliography.html
-/mycology/media/Amend_tenure_talk.pptx
+mycology/media/Amend_tenure_talk.pptx
 mycology/lectures/Week3.odp
 *.~lock*
 mycology/lectures/Week3.odp
 archived_websites/
 mycology/lectures/Week3.pdf
 mycology/Exams_and_Quizzes/
+binf-data-skills/Case_Studies/01_extract_ITS1_region/key/*
+binf-data-skills/Case_Studies/02_reproducibly_download_data/key/*
+BIOL1620/Lesson_Slides/*
+Seminar_WE/*
