@@ -37,7 +37,7 @@ Utah Valley University - BIOL1620
 
 ## Quick links:
 
-#### [Course Syllabus](http://gzahn.github.io/media/BIOL_1620_Syllabus_SP_2021.pdf){target="_blank"}
+#### [Course Syllabus](http://gzahn.github.io/BIOL1620/syllabus.html){target="_blank"}
 
 #### [Your-Choice Reading List](https://gzahn.github.io/media/YOUR-CHOICE_Book_List.html){target="_blank"}
 Audiobooks are only acceptable if they are **unabridged**.
@@ -46,9 +46,7 @@ Audiobooks are only acceptable if they are **unabridged**.
 
 ___
 
-
-
-___
+<br>
 
 <style>
 div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}

@@ -1,0 +1,301 @@
+---
+output: 
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: false
+pagetitle: BIOL1620_SYLLABUS
+---
+
+```{r setup, echo=FALSE,message=FALSE,warning=FALSE}
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+lg <- read_xlsx("./1620_sheets.xlsx",sheet=2)
+pts <- read_xlsx("./1620_sheets.xlsx",sheet=1)
+```
+
+# **Biology 1620 Syllabus - Fall 2021**
+
+## **Instructor info**
+
+**Instructor: Dr. Geoff Zahn**
+
+**Office: SB242t**
+
+**Email: zahn.geoff@gmail.com**
+
+**Course Website: https://gzahn.github.io/mycology/**
+
+_____________________________
+
+## **Course Description**
+
+BIOL 1620 provides the second semester material in the two semester introductory course designed for biology majors. We cover the origin and early evolution of life, plant structure and function, plant diversity, animal structure and function, animal diversity, and animal behavior.
+
+______________________________
+
+### **Text Book (Required)**
+
+Campbell, Neil A. and Reece, Jane B. Biology. Benjamin Cummings. San Francisco.Any edition 8th or newer is fine with me.Here's a cheap option:  https://amzn.to/2Z0g2P4
+
+
+### **Pre-requisites**   
+
+  + BIOL 1610
+ 
+### **Co-requisites** 
+
+  + LABORATORY (BIOL 1625): Concurrent enrollment in the laboratory section is required. 
+
+
+______________________________
+
+
+### **Learning Objectives**
+
+**Upon successful completion, students should be able to:**
+  
+  1. Describe how the chemical and physical conditions present on Earth about 4 billion years ago could lead to the origin of living organism, theevidence that supports current theories on origin of life, origin of metabolic diversity, and the mechanisms of evolution of eukaryotic organisms from prokaryotic ancestors
+  
+  2. Describe the growth, metabolism, and anatomy of vascular plants, their growth and its control, transport of nutrients into and throughout the plant
+  
+  3. Describe the diversity of prokaryotes, algae, fungi, and plants and their reproductive life cycles
+  
+  4. Describe how the principles of bioenergetics and homeostasis with emphasis on temperature regulation and water balance
+  
+  5. Describe diversity of protozans, invertebrate and vertebrate animals andthe processes of gametogenesis, fertilization, and embryo development in animals
+  
+  6. Describe the scientific interpretation of animal behavior
+  
+  7. Describe the principles of population dynamics, species interactions, ecosystem structures, and biome characteristics
+  
+  8. Describe the major nutrient cycles and interaction of biotic and abiotic factors
+  
+  
+___
+
+
+**Upon successful completion, students should have the following attitude(s)/traits:**
+
+  1. Confidence in understanding that scientific principles and processes of evolution are sufficient to describe how living organisms originated anddiversified
+  
+  2. Appreciation of the diversity of living organisms, their structure and function
+  
+  3. Appreciation of the dynamics of interactions and interdependencies of biotic and abiotic components of the biosphere, the impact of humans on the biosphere
+  
+  
+_____________________________
+
+
+## **Course structure**
+
+We will meet virtually in MS Teams. All meetings will be recorded and available on the Teams channel, but you are expected to show up for class live. Having your camera on increases your participation and makes me happier. You will have a better time if I am happy, and so will I.
+
+**The best way to contact me is through MS Teams.** I'm happy to chat with you on there (text or video call). We can also use the "General" Teams channel for crowdsourcing questions, and I will be sure to check it often and chime in if I can help.
+
+I really like participation, questions, and interruptions. If something isn't making sense to you, please ask in the chat bar or (better yet) just turn on your microphone and ask me, even if I'm talking! This is your education, and hardly the time to be shy.
+
+Here's what to expect:
+
+  + Regular reading assignments with quizzes due **before** the lesson covering that material
+  + A pre- and post-test
+  + 4 exams (including the final)
+  + Buffet-style assignments
+
+
+
+**Grading:**
+
+There are 700 points possible in this course (detailed below). The following grading scale applies with no exceptions (These are the minimum point values for the listed letter grades):
+
+```{r echo=FALSE,warning=FALSE,message=FALSE}
+lg %>% 
+  kbl() %>% 
+  # kable_paper(full_width = FALSE,) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = FALSE,
+                position = "float_left")
+
+pts %>% 
+  kbl() %>% 
+  # kable_paper(full_width = FALSE,) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = FALSE,
+                position = "center")
+```
+
+____________________
+
+<br><br><br>
+
+## **Info about ways to earn points**
+
+Chapters from the text are assigned every week and the material in those chapters will form the basis of the reading quizzes. The assigned chapters can be found on the weekly schedule below. I've been careful not to assign more than 2 chapters for any given week, and some weeks have no assigned readings (use this extra time to work on the your-choice assignments). **Be sure to read the chapters before class** so you are prepared for the quizzes and lectures.
+
+
+### **Exams**
+
+The 4 exams will strive to test your critical thinking skills and general knowledge of biological principles. They will not focus on memorizing and regurgitating "bold words," though it should be noted that you will need to understand the key terms and concepts from the readings and lectures. All exams are comprehensive in nature. They will focus mostly on the material covered since the previous exam, but some questions will require you to remain familiar with topics covered earlier in the course.
+
+**You can use notes/internet to take exams, but your work must be your own.**
+
+They are timed, so if you don't know the material and have some good notes that you're familiar with, you won't be able to "google your way through them."
+
+### **Pre- and Post-tests**
+
+These smaller tests are worth 50 points each.  Everyone who turns in a pre-test gets the full 50 points. The post-test will be graded and will cover the same material as the pre-test. You will not be allowed to use notes for the 50-point post-test.  This is my way of comparing your knowledge before and after the course. See the course schedule for when these will be given.  They cannot be made up.
+
+
+### **Reading quizzes** 
+
+These short 10-point quizzes will be given on Canvas and are due before noon on the Monday of the corresponding lecture week. No notes or books can be used. Questions will come from the assigned readings.  The format will be multiple choice.Check the course schedule below to see when quizzes are due and which textbook chapters they will cover. You will take these on Canvas and will have 7 minutes to complete 5 questions worth 2 points each. Quizzes are available the Friday before each week that they are assigned and must be completed on Canvas before the first class of the week. No exceptions. 
+
+That's right, you're being quizzed on reading *before* we meet to cover that material as a class.
+
+
+
+### **Your-Choice Assignments**
+
+Half of these (50 points) are due at midterm. If you earn more than 50 points by midterm, those extra points will roll over into the second half of the course. If you earn fewer than 50 points by midterm, you will lose a proportional amount of potential extra credit points. So, if you earn 40 points of Your-Choice by midterm, your extra credit opportunity drops from 50 to 40 points possible.
+
+**See the “Assignments” tab in Canvas for full descriptions of how to earn these points.**
+
+
+### **Book reviews**
+
+Short (~1000 words) reviews of the books [listed here](https://gzahn.github.io/media/YOUR-CHOICE_Book_List.html){target="_blank"} are worth varying amounts of points, based on the length/difficulty of the book. Point values are listed as "notes" under each book at that link.
+
+To earn credit, you will have to: 
+
+  1. Convince me you actually read the book, and 
+  
+  2. Have something intelligent to say about it. 
+  
+Outside readings like these are the best way to enrich your education, build real knowledge, and uncover fascinating questions. These books are easily found in the library, used book stores, or Amazon. Where available, I have included the Orem Campus Library call numbers.
+
+Note that audiobooks are fine **AS LONG AS THEY ARE UNABRIDGED**. Not all the books on our list have unabridged audio versions available.
+
+Plagiarism earns an automatic ZERO and gets you reported to the student conduct office.
+
+
+### **Extra Credit**
+
+Any "Your-Choice" assignments that you turn in whose cumulative possible point value exceeds 100 points will be counted as extra credit, up to 50 points. Extra credit is not a last-minute thing. Any assignments turned in past the final deadline will not be graded.
+
+____________________
+
+
+## **Advice**
+
+**Read the textbook chapters *before* class.** Look up concepts on-line from reputable sources to supplement the book and lectures. Quizzes over the book material before each week account for a full letter grade worth of points. Do the reading, and come to class. It will seriously help you to understand what is going on in lectures and discussions...and you'll get those points.
+
+**Use the [course website](https://gzahn.github.io/BIOL1620/){target="_blank"} to stay on track.** There are lots of links to supplementary resources that will help you master the concepts.
+
+**Do the Your-Choice assignments early** and throughout the semester whenever you find the time. No need to cram them all into the first month, but make sure that at the end of the semester you have them and any extra credit turned in.
+
+**Come to class and ask questions.** Over the past three semesters, students who came to class (rather than tuning out and watching the videos later) got an average of a letter grade higher. No student who asked more than 10 questions during class over the course of the semester got lower than an A. I don't know the direction of causality, but there's definitely a correlation there.
+
+**A picture can be worth a thousand words**. . . sometimes key concepts are better represented visually than written down. A few solid drawings can be worth more than a whole page of definitions for your note taking.
+
+**Don't plagiarize.** You will get caught, you will be reported, and I won’t feel bad for you.
+
+<br>
+<br>
+
+______________________
+
+
+
+## Legalese
+
+Academic dishonesty:
+
+You are responsible for knowing the university policies and definitions regarding academic dishonesty. Any academic dishonesty, intentional or not, will earn you a zero on that assignment or test and will be reported. 
+
+https://www.uvu.edu/studentconduct/students.html
+
+
+Americans with Disabilities Act: 
+Students with disabilities that may negatively impact their ability to successfully complete this course should let the instructor know as soon as possible, with documentation from the ASD.
+
+"Students who need accommodations because of a disability should contact the UVU Accessibility Services Department (ASD), located on the Orem Campus, in LC 312. To schedule an appointment, or speak with a counselor, call the ASD office at 801-863-8747, or for Deaf/Hard of Hearing individuals, use the video phone number, 886-760-1819."
+
+
+Biology Department Policy 
+Students in this class are expected to understand and use proper English grammar, sentence structure, and spelling.  Use of dictionaries during quizzes and exams is NOT allowed. Students are also expected to have basic calculating skills that include fractions, decimals, exponents (e.g., squares & square roots, powers of ten) and the ability to solve simple algebraic expressions.  In addition, they must be able to add, subtract, multiply, and divide small numbers without a calculator.  Understanding of logarithms (logs) will be helpful.  Course rigor level should be such that the average grade is about a C.
+
+Student Responsibility
+It is up to you to see that the requirements for this course are completed.  This syllabus is your guide to those requirements.  Make certain that you understand what is expected of you.  It is up to you to attend class and arrange for time to complete the readings, assignments, and exams.  This course is designed for biology majors. If you are not reading at a college level, you WILL have difficulty with this course.  There is only one type of “excused” absence, and that is an absence for an official University activity, such as participation in athletics, not just watching but doing, field trip for another course, etc.
+Make-up exams will NOT be given except for a situation beyond your control for which you provide verifiable (I will verify), written documentation.  Family vacations, Illness, family crises, vehicle problems, legal problems, weddings, not studying, or forgetting to take an exam are NOT valid excuses or excused absences, even if you tell me beforehand; emergencies are.  If such difficulties require a significant number of absences during the semester, you are advised to drop the course and take it at another time. You do not need to call me if you will not be in class, I don’t take roll.  Class attendance and obtaining the information for the tests is your responsibility.    
+
+
+Academic Honesty and Integrity
+Utah Valley University expects all students to maintain integrity and high standards of individual honesty in academic work, to obey the law, and to show respect for others. Students of this class are expected to support an environment of academic integrity, have the right to such an environment, and should avoid all aspects of academic dishonesty. Examples of academic dishonesty include plagiarizing, faking of data, sharing information during an exam, discussing an exam with another student who has not taken the exam, consulting reference material during an exam, submitting a written assignment which was authored by someone other than you, and/or cheating in any form. 
+In keeping with UVU policy, evidence of academic dishonesty may result in a failing grade in the course and disciplinary review by the college.  Any student caught cheating will receive, at minimum, zero points on that particular assignment for the first offense.  A second offense can result in failing the course and will entail being reported to Student Advising.  Academic dishonesty includes, in part, using materials obtained from another student, published literature, and the Internet without proper acknowledgment of the source.   Additional information on this topic is published in the student handbook and is available on the UVU website. 
+Situation of academic dishonesty will be reported to the Student Conduct and Conflict Resolution office as, at a minimum, an informational item and potentially as an item for investigation, resolution, or other.  
+
+Student Code of Conduct
+All UVU students are expected to conduct themselves in an appropriate manner acceptable at an institution of higher learning. All students are expected to obey the law, to perform contracted obligations, to maintain absolute integrity and high standards of individual honesty in academic work, and to observe a high standard of conduct for the academic environment. 
+The Student Rights and Responsibilities Code, or Code of Conduct, outlines for students what they can expect from the University and what the University expects of them.  It can be found at http://www.uvu.edu/studentconduct/students/
+
+Student Timelines
+
+You are responsible for being aware of and abiding by the dates and deadlines on the student timelines for this term found at UVU Schedule (http://www.uvu.edu/schedule/)  
+Understand When You May Drop This Course
+It is the student’s responsibility to understand when they need to consider dropping from a course. Dates and deadlines for dropping a course can be found in the student timetables located at http://www.uvu.edu/schedule/. After the period specified, a serious and compelling reason is required to drop from the course and would need approval from not just the faculty but also the department chair as well as the Dean's Office.  
+
+Incomplete Policy
+
+An Incomplete (I) Grade is only given due to an extenuating circumstance. The final decision to issue an Incomplete grade is up to the instructor. Review the following criteria taken from Policy 523 at for information on when an incomplete grade can be given:  
+The student was unable to complete the course due to extenuating circumstances:
+    • Incapacitating Illness 
+    • Death in the immediate family 
+    • Change in the student's work schedule by the employer 
+    • Other deemed acceptable by the instructor 
+    • The student must have completed a minimum of 70% of the required work 
+An Incomplete Grade form indicating work completed and work to be completed must be signed by the department chairperson, and turned into the Registrar’s Office at the end of the semester. Incomplete Grade forms can be obtained from the Registrar's Office. 
+Unofficial Withdrawals
+UW will be given only when a student stops attending and completing work before the regularly scheduled date to officially withdraw as found in the Student Timetable but did not actually officially withdraw. Rationale: The assumption here is that the student did not realize the necessity to physically withdraw or made an error in this process, but all intentions of the student were to withdraw from the class prior to the withdrawal deadline 
+See also Academic Policies and Standards in the UVU Catalog which notes, "If a student stops attending (but does not officially withdraw) before the last day to withdraw, he/she should receive a UW.” 
+
+Late Work
+
+Late work will not be accepted without a doctors or lawyers note unless previously discussed with and approved by your instructor.  Computer problems, work schedule, lack of internet access, traffic, travel, or similar do not constitute rationale for late homework.  Your instructor has the right to modify their handling of late work.  
+Inclusivity Statement
+We understand that our members represent a rich variety of backgrounds and perspectives. The Technology Management department is committed to providing an atmosphere for learning that respects diversity. While working together to build this community we ask all members to: 
+    • share their unique experiences, values and beliefs 
+    • be open to the views of others 
+    • honor the uniqueness of their colleagues 
+    • appreciate the opportunity that we have to learn from each other in this community 
+    • value each other’s opinions and communicate in a respectful manner 
+
+Academic Freedom
+
+For the purposes of this class, academic freedom is generally defined as follow: For faculty and students alike, you have the freedom to disagree with the views and statements of others, but academic freedom should entail tolerance and respect for others, professionalism, and, to the degree possible, fact-based information.   Intellectual vigor is best sustained when the free exchange of ideas is carried on within an environment supportive of human dignity and self-esteem. For full guidelines see http://www.uvu.edu/tm/pages/department/acad-freedom.html
+
+Discrimination / Harassment / Sexual Misconduct
+
+It’s On Us to prevent discrimination/harassment against members of protected classes. If you see something, step up and say something.  If you encounter discrimination, harassment, or gender-based discrimination (including discrimination or harassment based on pregnancy, pregnancy related conditions, sexual orientation or gender identity) or sexual violence (dating violence, domestic violence, stalking including unwanted electronic contact), please contact the Office for Equal Opportunity/Affirmative Action and Title IX. Additional information regarding options and services can be found at: http://www.uvu.edu/equalopportunity/  and http://www.uvu.edu/studentconduct/docs/title9optionsbrochure.pdf
+Consistent with State and Federal Law such as Title VI of the Civil Rights Act of 1964 and Title IX of the Education Amendments of 1972, Utah Valley University is committed to maintaining a respectful and safe environment for its students, faculty, staff, and visitors. UVU policies 162 and 165 define and prohibit all forms of unlawful discrimination, harassment, sexual misconduct and retaliation in its programs services and activities.  Utah Valley University policy 165 prohibits any form of:   
+    • (a) Discrimination based on one or more protected classes, (Race, color, religion, national origin, sex, sexual harassment, sexual orientation, gender identity, age (40 and over), disability, veteran status, pregnancy, childbirth, or pregnancy-related conditions, genetic information, or other bases protected by applicable federal, state, or local law) 
+    • (b) Harassment based on one or more protected classes, including sexual harassment (policy 162), or 
+    • (c) Retaliation(a negative action or discouraging someone from reporting discrimination/harassment or participating in a University internal investigation). 
+If you need accommodations, please see the appropriate contact below:
+    • ADA: Students who need accommodations because of a disability may contact the UVU Accessibility Services Department (ASD), located on the Orem Campus in LC 312. To schedule an appointment or to speak with a counselor, call the ASD office at 801-863-8747. Deaf/Hard of Hearing individuals, email nicole.hemmingsen@uvu.edu or text 385-208-2677. 
+    • Pregnancy: Accessibility Services or Office for Equal Opportunity & Affirmative Action (EOAA) - http://www.uvu.edu/equalopportunity/, ext. 5704, BA 203. 
+    • Religious: You may begin by asking your professor. If you have questions or concerns, contact the EOAA. 
+    • Veterans (Military Leave, Course Withdraw, or Other Assistance): Veteran Services - http://www.uvu.edu/veterans/, ext. 8212, WB100. 
+    • As the result of unwanted sexual harassment, contact, stalking, dating or domestic violence: 
+    • EOAA or Student Ombuds - ext. 7237, SC 107 
+    • Student Health Services, if Anonymity is desired- ext. 8876, SC 221 
+    • UVUPD, if you wish to press criminal charges - ext. 5555, GT 331 
+Information about gender neutral facilities or gender personal pronouns: You may ask professor/supervisor to use your personal name and pronouns. If you are unclear about pronouns or identifiers, you may request clarification. If you have questions or concerns contact LGBT Student Services - https://www.uvu.edu/multicultural/lgbt/ LA 126, ext. 8885 or the EOAA. 
+
+Disability Services
+
+Students who need accommodations because of a disability may contact the UVU Accessibility Services Department (ASD), located on the Orem Campus in LC 312. To schedule an appointment or to speak with a counselor, call the ASD office at 801-863-8747. Deaf/Hard of Hearing individuals, email nicole.hemmingsen@uvu.edu or text 385-208-2677.
+
+Veteran’s Services
+UVU is committed to providing a working and learning atmosphere for student veterans and their families. If you are a student veteran or a family member of a student veteran, you are eligible for support services from the Veterans Success Center and may be eligible for Post-9/11 GI Bill benefits. For help receiving your benefits, please contact the Veterans Success Center in the Woodbury Business Building, room 100, via email at veterans@uvu.edu or by calling 801-863-8212. Learn more: http://www.uvu.edu/veterans/' 
+
