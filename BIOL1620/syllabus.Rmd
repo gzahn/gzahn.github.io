@@ -17,6 +17,10 @@ pts <- read_xlsx("./1620_sheets.xlsx",sheet=1)
 
 # **Biology 1620 Syllabus - Fall 2021**
 
+**Meeting time: Mon/Wed/Fri 11am-11:50am**
+
+**Meeting place: MS Teams (livestream)**
+
 ## **Instructor info**
 
 **Instructor: Dr. Geoff Zahn**
