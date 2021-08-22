@@ -1,9 +1,13 @@
 
 
 
-# Highlight everything in this script (CTL-A) and then run it (CTL-ENTER)
 
 # PREPARE YOUR SYSTEM TO INSTALL STUFF ####
+
+# Highlight everything in this script (CTL-A) and then run it (CTL-ENTER)
+
+
+
 # install devtools package which allows you access to other tools
 install.packages("devtools")
 
