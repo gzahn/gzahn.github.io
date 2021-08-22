@@ -104,7 +104,7 @@ knitr::include_graphics("../media/week2.jpg")
 
 **Readings and Assignments**
 
-  - Good (optional points) Your-Choice book for this would be [What is Life?](https://gzahn.github.io/media/What-is-Life.pdf)
+  - Good (optional points) Your-Choice book for this would be _Life’s Edge: The Search for What It Means to Be Alive_
 
 **Resources**
 
