@@ -577,6 +577,7 @@ knitr::include_graphics("./Media/gitflow.png")
 **Resources**
 
   - [Effectively collaborating](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007531){target="_blank"} as a bioinformaticist
+  - Very cool (website)[https://sandbox.bio/]{target="_blank"} that let's you play with BINF tools interactively
   
 **Practice**
 
