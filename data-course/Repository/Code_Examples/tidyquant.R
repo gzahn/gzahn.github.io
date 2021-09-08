@@ -3,9 +3,10 @@ library(lubridate)
 library(tidyquant)
 library(patchwork)
 library(easystats)
+library(prophet)
 theme_set(theme_minimal())
 
-df <- tidyquant::tq_get("TSLA")
+df <- tidyquant::tq_get("MRNA")
 
 df <- df %>% 
   mutate(daily_gain=open-close) %>% 
@@ -48,7 +49,6 @@ step <- MASS::stepAIC(mod)$formula
 mod2 <- glm(data=df,
             formula = step)
 
-aov(mod)
 summary(mod2)
 
 modelr::add_predictions(df,mod2) %>% 
@@ -57,6 +57,15 @@ modelr::add_predictions(df,mod2) %>%
   geom_point(aes(y=pred),color="Black")
 
 performance(mod2)
-performance::performance_accuracy(mod2)
-plot(mod2)
 
+
+# forecast with prophet (?)
+dat <- data.frame(ds=df$date,
+                  y=df$adjusted)
+
+m <- prophet(dat)
+future <- make_future_dataframe(m, periods = 365)
+forecast <- predict(m, future)
+
+plot(m, forecast)
+prophet_plot_components(m, forecast)
