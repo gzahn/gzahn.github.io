@@ -76,7 +76,7 @@ knitr::include_graphics("../media/git_2x.png")
 
 **Assignments**  
 
-  - Read: [What is Git all about?](https://github.com/gzahn/gzahn.github.io/blob/master/Readings/Bryan_2017_Excuse_me%2C_do_you_have_a_moment_to_talk_about_vers.pdf)
+  - Read: [What is Git all about?](https://peerj.com/preprints/3159/)
   - Install Git, R, and R-Studio on your laptop (part of Assignment 1)
   - Be ready to explain what Git, R, and R-Studio are.
   - Do [Assignment 1](https://gzahn.github.io/data-course/Repository/Assignments/Assignment_1/Assignment_1.html){target="_blank"} and upload a link to your new GitHub account to Canvas.

@@ -17,8 +17,8 @@ pagetitle: ABOUT ME
 div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "gray">
-# **About me / [CV](https://github.com/gzahn/Profile/blob/master/CV_TT.pdf)**
-### **Browse this site for information about our research or [follow this link](https://github.com/gzahn/Profile/blob/master/CV_TT.pdf) for my (fairly) current C.V.**
+# **About me / [CV](https://gzahn.github.io/about-me/CV.pdf)**
+### **Browse this site for information about our research or [follow this link](https://gzahn.github.io/about-me/CV.pdf) for my (fairly) current C.V.**
 
 ___
 
