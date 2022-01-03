@@ -37,9 +37,7 @@ Utah Valley University - BIOL1620
 
 ## Quick links:
 
-#### [Course Syllabus](http://gzahn.github.io/media/BIOL_1620_Syllabus_FA_2020.pdf){target="_blank"}
-#### [Shared Course Notes](https://docs.google.com/document/d/1ZUwrp3pccob99FptLDjIShcp2Y5PNIiJ1FJ95mUNYMk/edit?usp=sharing){target="_blank"}
-(Anyone with link can edit)
+#### [Course Syllabus](http://gzahn.github.io/BIOL1620/syllabus.html){target="_blank"}
 
 #### [Your-Choice Reading List](https://gzahn.github.io/media/YOUR-CHOICE_Book_List.html){target="_blank"}
 Audiobooks are only acceptable if they are **unabridged**.
@@ -72,10 +70,10 @@ knitr::include_graphics("../media/week1.jpg")
 **Readings and Assignments**  
 
   - Campbell Chs 25-26
-  - Canvas quiz 1 due 10pm Friday of the first week (all others due **before** the first class of that week!)
-  - Pre-Test due Friday 11:59pm
+  - Canvas quiz 1 due 11:59pm Friday of the first week (all others due **before** the first class of that week!)
+  - Pre-Test due Friday 11:59pm (Canvas)
   - Pick a book to read for Your-Choice Points ASAP
-  - If you don't have Cambell Biology yet (for this first week only), here's a pdf to get you started: [Chapters 25-26](https://gzahn.github.io/media/Campbell_Chs_25-26.pdf){target="_blank"}
+  - If you don't have Campbell Biology yet (for this first week only), here's a pdf to get you started: [Chapters 25-26](https://gzahn.github.io/media/Campbell_Chs_25-26.pdf){target="_blank"}
 
 **Resources**
 
@@ -98,13 +96,15 @@ knitr::include_graphics("../media/week2.jpg")
 </div>
 
 ### **Week 2**{#Week-2}
+
 **Topics**
 
   - What is life? | Thermodynamics | Major Metabolic Groups | Nature of Science
 
 **Readings and Assignments**
 
-  - Good (optional points) Your-Choice book for this would be [What is Life?](https://gzahn.github.io/media/What-is-Life.pdf)
+  - Good (optional points) Your-Choice book for this would be _Life’s Edge: The Search for What It Means to Be Alive_
+  - No class Monday - MLK Jr. Day
 
 **Resources**
 
@@ -130,6 +130,7 @@ knitr::include_graphics("../media/week3.jpg")
 
 
 ### **Week 3**{#Week-3}
+
 **Topics**
 
   - Mechanisms of Evolution | Nature of Science
@@ -137,7 +138,7 @@ knitr::include_graphics("../media/week3.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 22-23
-  - Canvas quiz 2 due Wednesday before 11am
+  - Canvas quiz 2 due Monday before 2:30pm
 
 **Resources**
 
@@ -162,6 +163,7 @@ knitr::include_graphics("../media/week4.png")
   
   
 ### **Week 4**{#Week-4}
+
 **Topics**
 
   - Bacteria and Archaea | Lateral Gene Transfer | Endosymbiosis
@@ -169,8 +171,8 @@ knitr::include_graphics("../media/week4.png")
 **Readings and Assignments**
 
   - Campbell Ch 27
-  - Canvas quiz 3 due Monday before 11am
-  - Exam 1 on Friday
+  - Canvas quiz 3 due Monday before 2:30pm
+  - Exam 1 on Friday (closes at 11:59pm)
   - 1/4th of the semester as passed, and you need to turn in Your-Choice Points
 
 **Resources**
@@ -181,6 +183,8 @@ knitr::include_graphics("../media/week4.png")
   - Endosymbiosis [Evidence](https://www.biology.iupui.edu/biocourses/N100/2k2endosymb.html){target="_blank"} 
   - Primary vs Secondary [Endosymbiosis](https://endosymbiotichypothesis.wordpress.com/primary-versus-secondary-endosymbiosis/){target="_blank"}
   - *Paulinella* [complicates things](https://www.sciencedirect.com/science/article/pii/S0960982212003077){target="_blank"}
+  
+  
   
 [Back to top of page](#top)
 
@@ -194,6 +198,7 @@ knitr::include_graphics("../media/week5.png")
 </div>
 
 ### **Week 5**{#Week-5}
+
 **Topics**
 
   - Eukaryotic Supergroups | Overview of "Protists"
@@ -223,8 +228,6 @@ knitr::include_graphics("../media/week6.png")
 
 ### **Week 6**{#Week-6}
 
-**No class Monday / Quiz due Wednesday**
-
 **Topics**
 
   - Animals | Defining Traits | Evolution
@@ -232,7 +235,7 @@ knitr::include_graphics("../media/week6.png")
 **Readings and Assignments**
 
   - Campbell Ch 32
-  - Canvas quiz 5 due Wednesday before 11am
+  - Canvas quiz 5 due Monday before 2:30pm
 
 **Resources**
 
@@ -245,6 +248,7 @@ knitr::include_graphics("../media/week6.png")
   - Cambrian [Fossils](http://www.fossilmuseum.net/Paleobiology/CambrianFossils.htm){target="_blank"}
   - [Burgess Shale](https://burgess-shale.rom.on.ca/en/science/burgess-shale/03-fossils.php){target="_blank"}
   - Good [Website](https://www.shapeoflife.org/) on animal groups (Click on "Resources" at the top of the page)
+  
   
 [Back to top of page](#top)
 
@@ -266,7 +270,7 @@ knitr::include_graphics("../media/week7.png")
 **Readings and Assignments**
 
   - Campbell Chs 33-34
-  - Canvas quiz 6 due Monday before 11am
+  - Canvas quiz 6 due Wednesday before 2:30pm
   - Note: No Class Monday – Washington and Lincoln Day
   - Optional Your-Choice Points: Cave of Forgotten Dreams [Video](https://drive.google.com/open?id=1els5LTLnstqsqKFZ-9gm34M8sJtQ3SVZ){target="_blank"} goes well with these lessons
 
@@ -293,6 +297,7 @@ knitr::include_graphics("../media/week8.jpg")
 
 
 ### **Week 8**{#Week-8}
+
 **Topics**
 
   - Fungi
@@ -300,8 +305,8 @@ knitr::include_graphics("../media/week8.jpg")
 **Readings and Assignments**
 
   - Campbell Ch 31
-  - Canvas quiz 7 due Monday before 11am
-  - Exam 2 on Friday
+  - Canvas quiz 7 due Monday before 2:30pm
+  - Exam 2 on Friday (closes 11:59pm)
   - 50 Your-Choice Points Due Friday **Before** Exam 2
 
 **Resources**
@@ -353,7 +358,7 @@ knitr::include_graphics("../media/fertilizer.jpeg")
 
 **Readings and Assignments**
 
-  - Keep Working on Your-Choice Points Since There is No Reading or Quiz This Week
+  - Make progress on Your-Choice points since there is no reading assignment or quiz this week
 
 **Resources**
 
@@ -389,7 +394,7 @@ knitr::include_graphics("../media/week10.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 29-30
-  - Canvas quiz 8 due Monday before 11am
+  - Canvas quiz 8 due Monday before 2:30pm
 
 **Resources**
 
@@ -432,8 +437,7 @@ knitr::include_graphics("../media/week12.png")
   - [Seed plants 1](https://youtu.be/iKsntUnAFdw) (What good are seeds?)
   - [Seed plants 2](https://youtu.be/XBuOh7j0uLY) (Major gytmnosperm groups)
   - [Seed plants 3](https://youtu.be/yFp3D7eU_fs) (Angiosperms)
-  - [Seed plants 4](https://youtu.be/HlYZnKWeVLg) (Outtake)
-  
+
   
 </br></br></br></br></br>
 
@@ -450,13 +454,14 @@ knitr::include_graphics("../media/week13.png")
 
 
 ### **Week 13**{#Week-13}
+
 **Topics**
 
   - Animal Behavior
 
 **Assignments**
 
-  - Exam 3 Friday
+  - Exam 3 Friday (closes at 11:59pm)
   - Your-Choice Points are **nearly due**
   - Campbell Chs 39, 51 (Optional)
   - No quiz over these chapters
@@ -527,6 +532,7 @@ knitr::include_graphics("../media/week15.jpg")
 </div>
 
 ### **Week 15**{#Week-15}
+
 **Topics**
 
   - Community Ecology | BioGeoChemistry
@@ -534,8 +540,8 @@ knitr::include_graphics("../media/week15.jpg")
 **Readings and Assignments**
 
   - Campbell Chs 54-55
-  - Canvas quiz 10 due Monday before 11am
-  - Final Your-Choice Points Due Friday 11:59pm
+  - Canvas quiz 10 due Monday before 2:30pm
+  - Final Your-Choice Points Due Friday 11:59pm (Anything turned in this late won't have the option of feedback and resubmission)
 
 **Resources**
 
@@ -559,19 +565,19 @@ knitr::include_graphics("../media/week16.jpg")
 </div>
 
 ### **Week 16**{#Week-16}
+
 **Topics**
 
   - Wrap-up | Gaia Hypothesis | What is Life?
 
 **Readings and Assignments**
 
-  - Post-Test Wednesday
+  - Post-Test Wednesday (closes at 11:59pm)
   - If you haven't turned in Your-Choice Points yet, you've missed your chance
   - Also, if that's the case, you had your chance so no whining
 
 **Resources**
 
-  - Daisyball [Simulation](http://www.gingerbooth.com/flash/daisyball/DaisyBall.html){target="_blank"}
   - [Gaia hypothesis](https://courses.seas.harvard.edu/climate/eli/Courses/EPS281r/Sources/Gaia/Gaia-hypothesis-wikipedia.pdf){target="_blank"}
   
   
