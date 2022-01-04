@@ -15,11 +15,11 @@ lg <- read_xlsx("./1620_sheets.xlsx",sheet=2)
 pts <- read_xlsx("./1620_sheets.xlsx",sheet=1)
 ```
 
-# **Biology 1620 Syllabus - Fall 2021**
+# **Biology 1620 Syllabus - Spring 2022**
 
-**Meeting time: Mon/Wed/Fri 11am-11:50am**
+**Meeting time: Mon/Wed 2:30pm - 3:45pm**
 
-**Meeting place: MS Teams (livestream)**
+**Meeting place: SB 260**
 
 ## **Instructor info**
 
@@ -29,19 +29,21 @@ pts <- read_xlsx("./1620_sheets.xlsx",sheet=1)
 
 **Email: zahn.geoff@gmail.com**
 
-**Course Website: https://gzahn.github.io/mycology/**
+**Course Website: [https://gzahn.github.io/BIOL1620/](https://gzahn.github.io/BIOL1620/)**
 
 _____________________________
 
 ## **Course Description**
 
-BIOL 1620 provides the second semester material in the two semester introductory course designed for biology majors. We cover the origin and early evolution of life, plant structure and function, plant diversity, animal structure and function, animal diversity, and animal behavior.
+BIOL 1620 Provides the second semester material in the two semester introductory course designed for biology majors. Covers the evolution of life, the relationships between major taxa, anatomy and physiology of these major taxa, and interactions between living organisms and their environments. Discusses major current issues in the biological field.
 
 ______________________________
 
 ### **Text Book (Required)**
 
-Campbell, Neil A. and Reece, Jane B. Biology. Benjamin Cummings. San Francisco.Any edition 8th or newer is fine with me.Here's a cheap option:  https://amzn.to/2Z0g2P4
+Campbell, Neil A. and Reece, Jane B. Biology. Benjamin Cummings. San Francisco.Any edition 8th or newer is fine with me.
+
+Here's a cheap option:  https://amzn.to/2Z0g2P4
 
 
 ### **Pre-requisites**   
@@ -60,21 +62,13 @@ ______________________________
 
 **Upon successful completion, students should be able to:**
   
-  1. Describe how the chemical and physical conditions present on Earth about 4 billion years ago could lead to the origin of living organism, theevidence that supports current theories on origin of life, origin of metabolic diversity, and the mechanisms of evolution of eukaryotic organisms from prokaryotic ancestors
-  
-  2. Describe the growth, metabolism, and anatomy of vascular plants, their growth and its control, transport of nutrients into and throughout the plant
-  
-  3. Describe the diversity of prokaryotes, algae, fungi, and plants and their reproductive life cycles
-  
-  4. Describe how the principles of bioenergetics and homeostasis with emphasis on temperature regulation and water balance
-  
-  5. Describe diversity of protozans, invertebrate and vertebrate animals andthe processes of gametogenesis, fertilization, and embryo development in animals
-  
-  6. Describe the scientific interpretation of animal behavior
-  
-  7. Describe the principles of population dynamics, species interactions, ecosystem structures, and biome characteristics
-  
-  8. Describe the major nutrient cycles and interaction of biotic and abiotic factors
+  1. Analyze phylogenetic trees and the morphological and molecular data that are used to construct them
+  2. Explain how fossil and phylogenetic evidence work together to illustrate how life is related and has evolved on Earth
+  3. Summarize the major hypotheses and theories that explain the evolution of life on Earth from unicellular to complex multicellular life forms as well as the evidence that supports these hypotheses and theories
+  4. Compare the anatomy and physiology of the major taxa of living organisms
+  5. Describe the scientific interpretation of animal behavior
+  6. Investigate how we study ecological systems at the organismal, population, community, ecosystem, and biosphere levels
+  7. Evaluate ways humans impact and modify organisms and what tools we can use to avoid, mitigate, and repair negative impacts
   
   
 ___
@@ -94,11 +88,11 @@ _____________________________
 
 ## **Course structure**
 
-We will meet virtually in MS Teams. All meetings will be recorded and available on the Teams channel, but you are expected to show up for class live. Having your camera on increases your participation and makes me happier. You will have a better time if I am happy, and so will I.
+We will meet in person. All meetings will be recorded and available on the Teams channel via Canvas (Course Media), but you are expected to show up for class to participate.
 
 **The best way to contact me is through MS Teams.** I'm happy to chat with you on there (text or video call). We can also use the "General" Teams channel for crowdsourcing questions, and I will be sure to check it often and chime in if I can help.
 
-I really like participation, questions, and interruptions. If something isn't making sense to you, please ask in the chat bar or (better yet) just turn on your microphone and ask me, even if I'm talking! This is your education, and hardly the time to be shy.
+I really like participation, questions, and interruptions. If something isn't making sense to you, please ask, even if I'm talking! This is your education, and hardly the time to be shy.
 
 Here's what to expect:
 
@@ -135,12 +129,14 @@ ____________________
 
 ## **Info about ways to earn points**
 
-Chapters from the text are assigned every week and the material in those chapters will form the basis of the reading quizzes. The assigned chapters can be found on the weekly schedule below. I've been careful not to assign more than 2 chapters for any given week, and some weeks have no assigned readings (use this extra time to work on the your-choice assignments). **Be sure to read the chapters before class** so you are prepared for the quizzes and lectures.
+Chapters from the text are assigned most weeks and the material in those chapters will form the basis of the reading quizzes. The assigned chapters can be found on the weekly schedule on our website. I've been careful not to assign more than 2 chapters for any given week, and some weeks have no assigned readings (use this extra time to work on the your-choice assignments). **Be sure to read the chapters before class each week** so you are prepared for the quizzes and discussions.
 
 
 ### **Exams**
 
-The 4 exams will strive to test your critical thinking skills and general knowledge of biological principles. They will not focus on memorizing and regurgitating "bold words," though it should be noted that you will need to understand the key terms and concepts from the readings and lectures. All exams are comprehensive in nature. They will focus mostly on the material covered since the previous exam, but some questions will require you to remain familiar with topics covered earlier in the course.
+The 4 exams will strive to test your critical thinking skills and general knowledge of biological principles. They will not focus on memorizing and regurgitating "bold words," though it should be noted that you will need to understand the key terms and concepts from the readings and lectures. All exams are comprehensive in nature; They will focus mostly on the material covered since the previous exam, but some questions will require you to remain familiar with topics covered earlier in the course.
+
+Exams take place on Canvas.
 
 **You can use notes/internet to take exams, but your work must be your own.**
 
@@ -148,23 +144,24 @@ They are timed, so if you don't know the material and have some good notes that 
 
 ### **Pre- and Post-tests**
 
-These smaller tests are worth 50 points each.  Everyone who turns in a pre-test gets the full 50 points. The post-test will be graded and will cover the same material as the pre-test. You will not be allowed to use notes for the 50-point post-test.  This is my way of comparing your knowledge before and after the course. See the course schedule for when these will be given.  They cannot be made up.
+These smaller tests are worth 50 points each.  Everyone who turns in a pre-test in time gets the full 50 points. The post-test will be graded and will cover the same material as the pre-test. You will not be allowed to use notes for the 50-point post-test.  This is my way of comparing your knowledge before and after the course. See the course schedule for when these will be given.  They cannot be made up.
 
 
 ### **Reading quizzes** 
 
-These short 10-point quizzes will be given on Canvas and are due before noon on the Monday of the corresponding lecture week. No notes or books can be used. Questions will come from the assigned readings.  The format will be multiple choice.Check the course schedule below to see when quizzes are due and which textbook chapters they will cover. You will take these on Canvas and will have 7 minutes to complete 5 questions worth 2 points each. Quizzes are available the Friday before each week that they are assigned and must be completed on Canvas before the first class of the week. No exceptions. 
+These short 10-point quizzes will be given on Canvas and are due before the first class of the corresponding lecture week. Questions will come from the assigned readings.  The format will be multiple choice. Check the course website to see when quizzes are due and which textbook chapters they will cover. You will take these on Canvas and will have 7 minutes to complete 5 questions worth 2 points each. Quizzes are available the Friday before each week that they are assigned and must be completed on Canvas before the first class of the week. No exceptions or late work allowed. 
 
-That's right, you're being quizzed on reading *before* we meet to cover that material as a class.
+That's right, you're being quizzed on reading *before* we meet to cover that material as a class. This is because our lessons in class assume you've read the background information already so you can participate and ask questions.
 
 
 
 ### **Your-Choice Assignments**
 
-Half of these (50 points) are due at midterm. If you earn more than 50 points by midterm, those extra points will roll over into the second half of the course. If you earn fewer than 50 points by midterm, you will lose a proportional amount of potential extra credit points. So, if you earn 40 points of Your-Choice by midterm, your extra credit opportunity drops from 50 to 40 points possible.
+Half of these (50 points) are due at midterm. If you earn more than 50 points by midterm, those extra points will roll over into the second half of the course. If you earn fewer than 50 points by midterm, you will lose a proportional amount of potential extra credit points (see below). So, if you earn 40 points of Your-Choice by midterm, your extra credit opportunity drops from 50 to 40 points possible.
 
 **See the “Assignments” tab in Canvas for full descriptions of how to earn these points.**
 
+Note that due to variable point values, the point calculation in Canvas does not count these toward your final grade until the end of the semester.
 
 ### **Book reviews**
 

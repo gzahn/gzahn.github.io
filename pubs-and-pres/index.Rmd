@@ -24,6 +24,33 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=CkjjlnwAAAAJ&hl=en&oi=ao)
 
+**Tedersoo, L., Mikryukov, V., Anslan, S., Bahram, M., Khalid, A. N., Corrales, A., Agan, A., Vasco-Palacios, A.-M., Saitta, A., Antonelli, A., Rinaldi, A. C., Verbeken, A., Sulistyo, B. P., Tamgnoue, B., Furneaux, B., Ritter, C. D., Nyamukondiwa, C., Sharp, C., Marín, C., … Zahn, G., … Abarenkov, K. (2021). The Global Soil Mycobiome consortium dataset for boosting fungal diversity research. Fungal Diversity. https://doi.org/10.1007/s13225-021-00493-7**
+
+An 11-year global soil fungi sampling effort published as a publicly open dataset. The dataset comprises 722,682 fungal operational taxonomic units (OTUs) derived from PacBio sequencing of full-length ITS and 18S-V9 variable regions from 3200 plots in 108 countries on all continents.
+
+___
+
+**Sur, G. L., Zahn, G., & Stacy, E. A. (2021). Examination of host-taxon, environment, and distance effects on leaf fungal endophytes in the dominant woody genus, Metrosideros, on Oʻahu. Fungal Ecology, 53, 101093. https://doi.org/10.1016/j.funeco.2021.101093**
+
+We examined the relative importance of Metrosideros taxon and environment (elevation) on fungal endophyte (FE) communities on Oʻahu. Variation in FE diversity was significantly explained by host taxon and site with considerable overlap in FE communities among taxa. A significant pattern of isolation by distance in FE composition was detected both among and within sites, consistent with restricted dispersal of FEs across the island.
+___
+
+
+**Quek, Z. B. R., Zahn, G., Lee, N. L. Y., Ooi, J. L. S., Lee, J. N., Huang, D., & Wainwright, B. J. (2021). Biogeographic structure of fungal communities in seagrass Halophilia ovalis across the Malay Peninsula. Environmental Microbiology Reports. https://doi.org/10.1111/1758-2229.13003**
+
+Seagrass meadows globally are under severe duress due to both climate change and anthropogenic activities. We looked to see where seagrasses are acquiring their mycobiomes and conclude that transplantation/restoration efforts need to consider the geographic location of donor populations with regard to beneficial mycobiomes.
+
+___
+
+
+**Egan, C. P., Koko, J. H., Muir, C. D., Zahn, G., Swift, S. O. I., Amend, A. S., & Hynson, N. A. (2021). Restoration of the mycobiome of the endangered Hawaiian mint Phyllostegia kaalaensis increases its resistance to a common powdery mildew. Fungal Ecology, 52, 101070. https://doi.org/10.1016/j.funeco.2021.101070**
+
+Restoring a beneficial foliar mycobiome turns out to be more effective than restoring rhizosphere mycobiome for protecting an endangered plant from powdery mildew. This is an effective and easy treatment for plant conservation efforts.
+
+
+___
+
+
 **Tipton, L., Zahn, G. L., Darcy, J. L., Amend, A. S., & Hynson, N. A. (2021). Hawaiian Fungal Amplicon Sequence Variants Reveal Otherwise Hidden Biogeography. Microbial Ecology. https://doi.org/10.1007/s00248-021-01730-x**
 
 Using exact sequence variants instead of clustered OTUs improves reproducibility, eases meta-analyses, and can reveal otherwise hidden biogeographic patterns in environmental DNA studies of fungal distributions.
@@ -135,13 +162,6 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
 
-# COMING SOON ...
-**Fungi in the atmosphere: A decade of air samples from Mauna Loa Observatory<br>
-Extremophile fungi in The Great Salt Lake<br>
-Fungal community recovery after forest fires<br>
-Human oral mycobiome determinants<br>
-More coral microbiomes!<br>
-Including outgroups in fungal meta-barcoding studies<br>**
 
 
 </div>

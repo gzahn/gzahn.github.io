@@ -37,9 +37,7 @@ Utah Valley University - BIOL1620
 
 ## Quick links:
 
-#### [Course Syllabus](http://gzahn.github.io/media/BIOL_1620_Syllabus_SP_2021.pdf){target="_blank"}
-#### [Shared Course Notes](https://docs.google.com/document/d/1ZUwrp3pccob99FptLDjIShcp2Y5PNIiJ1FJ95mUNYMk/edit?usp=sharing){target="_blank"}
-(Anyone with link can edit)
+#### [Course Syllabus](http://gzahn.github.io/BIOL1620/syllabus.html){target="_blank"}
 
 #### [Your-Choice Reading List](https://gzahn.github.io/media/YOUR-CHOICE_Book_List.html){target="_blank"}
 Audiobooks are only acceptable if they are **unabridged**.
@@ -48,8 +46,7 @@ Audiobooks are only acceptable if they are **unabridged**.
 
 ___
 
-
-___
+<br>
 
 <style>
 div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
@@ -107,7 +104,7 @@ knitr::include_graphics("../media/week2.jpg")
 
 **Readings and Assignments**
 
-  - Good (optional points) Your-Choice book for this would be [What is Life?](https://gzahn.github.io/media/What-is-Life.pdf)
+  - Good (optional points) Your-Choice book for this would be _Life’s Edge: The Search for What It Means to Be Alive_
 
 **Resources**
 
@@ -526,7 +523,9 @@ knitr::include_graphics("../media/turkey.jpeg")
 You've had all semester and at the end of Thanksgiving Break, all those assignments are due. I'll start grading over the weekend, but it will take me a while since most of you will have waited until the last possible minute to turn them in.
 
 
-</div></div></div></div></div></div></div></div></div></div></div></div>
+
+
+</br></br></br></br></br></br>
 
 [Back to top of page](#top)
 
