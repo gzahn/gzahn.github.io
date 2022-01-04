@@ -37,9 +37,7 @@ ___
 ## Handy links:
 
 #### [Course Syllabus](https:\\gzahn.github.io/binf-data-skills/syllabus.html){target="_blank"}
-#### Course [file repository](){target="_blank"}
-#### [Shared Course Notes](){target="_blank"}
-(Anyone with link can edit)
+#### Course [file repository](https://github.com/gzahn/gzahn.github.io/tree/master/binf-data-skills){target="_blank"}
 
 
 ___
@@ -129,13 +127,13 @@ knitr::include_graphics("./Media/filetree.png")
 
   - Read through **BDS Chapter 2** at least once
   - Work through **BDS Chapter 2**, following along in your own terminal 
-  - [**Assignment 2 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_2.html){target="_blank"} Create oganized project template using code
+  - [**Assignment 2 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_2.html){target="_blank"} Create organized project template using code
 
 **Resources**
   
   - Guide to reproducible code... [read this!](https://gzahn.github.io/binf-data-skills/Media/guide-to-reproducible-code.pdf){target="_blank"}
-  - File paths [explained](https://desktop.arcgis.com/en/arcmap/10.3/tools/supplement/pathnames-explained-absolute-relative-unc-and-url.htm){target="_blank"}
-  - [Example project structure](https://github.com/gzahn/Data_Course/tree/master/Code_Examples/Example_Project){target="_blank"}
+  - File paths [explained](https://www.geeksforgeeks.org/absolute-relative-pathnames-unix/){target="_blank"}
+  - [Example project structure](https://github.com/gzahn/Juniper_Microbes){target="_blank"}
   - Beginners' guide to the Bash terminal [video](https://youtu.be/oxuRxtrO2Ag?list=PLzNKOozWiEuyNu-kHpVZk59uf04wkQyY2){target="_blank"} (need to watch if you haven't used a terminal before)
   - Common Unix [commands](https://www.unixtutorial.org/basic-unix-commands){target="_blank"}
   - Recorded Lesson [Part 1](https://youtu.be/YaAEFORfND8){target="_blank"}
@@ -254,7 +252,7 @@ knitr::include_graphics("./Media/fastq_fig.jpg")
   
 **Practice**
 
-  - How many total sequences are stored (in total) in the fastq files associated with Assignment_4?
+  - How many sequences are stored (in total) in the fastq files associated with Assignment_4?
   - How many sequences *end* with the seqeunce "AT" in each fastq file?
   - Which fastq file associated with Assignment_4 contains the following sequence:
   

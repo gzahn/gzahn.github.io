@@ -4,19 +4,21 @@
 ---
   
 # **Bioinformatics Data Skills**
-## Course Syllabus - Spring 2021
+## Course Syllabus - Spring 2022
   
   _____________________________
 
 ### Instructor: Dr. Geoff Zahn
-### Office: SB243c  -- Hours by appointment
+### Office: SB242t  -- Hours by appointment
 ### Email: zahn.geoff@gmail.com
 ### Course Website: https://gzahn.github.io/binf-data-skills/
+### Best way to contact me: MS Teams Channel
 _____________________________
 
 ## **Course Description**
 
-This course is designed to develop data skills for bioinformatics students with a focus on command-line usage and genetic sequencing data. The focus of this course is on time-tested skills for working with complex, large bioinformatics datasets that won't expire as new software or algorithms become available. This is a companion course to BIOL 3100, which focuses on data cleaning, analysis and visualization in R. Requires previous exposure to (not expertise with) Unix systems, Python, or R.
+This course (soon to be BIOL 3150) introduces basic data skills for bioinformatics students with a focus on genetic sequence data, command-line usage, and pipeline development. Develops competence in interacting with a remote high-performance computing environment and installing, parsing, and linking novel bioinformatics tools. Applies the principles of project organization and reproducibility to create an analysis pipeline.
+
 
 Topics include:  
 
@@ -25,7 +27,6 @@ Topics include:
   - installing software and setting up an analysis environment
   - regular expressions
   - project organization and management
-  - version control with Git
   - working with remote machines using ftp and ssh
   - accessing biological data from public sources
   - working with text-based (sequencing) data
@@ -33,17 +34,15 @@ Topics include:
 
 ### Pre-requisites: University Advanced Standing
 
-### Suggested Co-requisite: BIOL 3100
-
 **Learning goals**
   Students completing this course should be able to:
   
-  1.  Understand the basic principles of Unix computing
-  2.  Install and figure out how to use new bioinformatics tools
-  3.  Reproducibly access and download large sequencing datasets
-  4.  Manipulate DNA sequence data
-  5.  Build a properly organized and reproducible piepline
-  6.  Develop a new bioinformatics tool
+  1. 	Apply the basic tools of command-line computing
+  2. 	Decipher how to use novel bioinformatics tools
+  3. 	Utilize public genomic data in a reproducible fashion
+  4. 	Manipulate DNA sequence data
+  5. 	Build an organized and reproducible bioinformatics pipeline
+  6. 	Use a remote high-performance computing environment
   
 _____________________________
 
@@ -59,19 +58,9 @@ _____________________________
 ______________________________
 
 ## **Free Advice:**
+
 **You need to spend a lot of time with each chapter _before_ we go through it in class. Some chapters are long and dense and will take a few hours to carefully read and follow along with the examples. Trying to get away with skimming carries its own inherent punishment: You will spend the entire class period just trying to keep up, rather than solidifying and practicing knowledge. This feels like drowning.**
 
-
-______________________________
-
-**_COVID-19 Considerations:_**
-  
-  The course is meeting entirely online. All lectures will be live-streamed and recorded.
-  Use the course web page as a map of the semester, but also be sure to stay active on Canvas and our Slack channel!
-  
-  You should make *every* effort to be present for the live class sessions. There's really no substitute for being able to follow along and ask questions.  This class tends to have a high cognitive burden, at least at first. You're going to want to ask questions.	
-  
-  
 _____________________________
 
 ## **Grading**
@@ -82,318 +71,29 @@ _____________________________
   | 640-699 | B |
   | 560-639 | C |
   | 480-559 | D |
-  | <480 | F |
+  | <480 | E |
   
 
 #### **Points are based on:**
   
-  * 10 Weekly Assignments - 20 pts *each*
+  * 10 Assignments - 20 pts *each*
   * 4 Case Studies - 150 pts *each*
   
 _____________________________
 
 ### **Weekly Assignments**
 
-These are available on our course website. They will generally consist of requiring you to complete a series of tasks as you work through a chapter of the textbook. Typically, you will push your completed task to your GitHub repository and there will be a place on Canvas for you to indicate that your repository is ready to grade. The first and last assignments are freeform writing pieces that will be turned in on Canvas.
+These are available on our course website. They will generally consist of requiring you to complete a series of tasks as you work through a chapter of the textbook, or put together a script to accomplish a goal. The first and last assignments are free-form writing pieces.
 
 ### **Case Studies**
 
-These will be short projects where we utilize the skills we've learned so far to complete a real bioinformatics task. The tasks will gradually become more complex as we gain a larger arsenal of tools. These will require critical sythesis of the skills we have learned, along with some self-directed learning. For instance, you may be required to read through program documentation and troubleshoot the specifics of how to use new software tools. See weekly schedule below for more details.
+These will be short projects where we utilize the skills we've learned so far to complete a real bioinformatics task. The tasks will gradually become more complex as we gain a larger arsenal of tools. These will require critical synthesis of the skills we have learned, along with some self-directed learning. For instance, you may be required to read through program documentation and troubleshoot the specifics of how to use new software tools. See weekly schedule on our course website for more details.
 
+### **No exams**
+
+This material isn't 'exam-friendly,' and it's better that you can demonstrate that you can get a task done, than for me to quiz you over the material. 
 
 ________________________________
-
-________________________________  
-
-# **Weekly Schedule**
-
-#### We will work through this textbook together in a slightly different chapter order than the way it is organized:
-
-___
-
-### **Week 1:** Ideology of 'Robust and Reproducible' Bioinformatics
-
-**Topics:**
-
-  - 
-  - 
-  - 
-
-**Assignments:**
-
-  - Work through **BDS Chapter 1**
-  - **Assignment 1 -** Reflection piece on why you want to learn command line skills and best practices
-  - Set up your computer environment
-
-___
-
-### **Week 2:** Proper Project Organization
-
-**Topics:**
-
-  - 
-  -
-  -
-  
-**Assignments:**
-
-  - Work through **BDS Chapter 2**
-  - **Assignment 2 -** Create oganized project template using code
-  - 
-  
-___
-
-### **Week 3:** Remedial Unix Shell
-
-**Topics:**
-
-  -
-  -
-  -
-
-**Assignments:**
-
-  - Work through **BDS Chapter 3**
-  - **Assignment 3 -** Use pipes and redirects
-  -
-
-___
-
-### **Week 4:** Working with Sequence Data
-
-**Topics** 
-
-  -
-  -
-  -
-
-**Assignments:**
-
-  - Work through **BDS Chapter 10**
-  - **Assignment 4 -** Trim reads, Count nucleotides, convert from fastq to fasta
-  -
-
-___
-
-### **Week 5:** Combining Unix Skills and Command-Line Software
-
-**Topics:**
-
-  -
-  -
-  -
-  
-**Assignments:**
-
-  - **Case study 1 -** Run ITSxpress on fungal data
-    + keep complex results
-    + customize output for question at hand
-    + make it reproducible
-    + do it on a hundred files
-    + store all log data into one file - for how many sequences TOTAL were no ITS stop or start sites identified?
-    + push "workflow.txt" (not data)
-    + uses chapters: 2,3,10 (for+loop, grep, redirect 2>, flags)
-
-___
-
-### **Week 6:** Unix Data Tools
-
-**Topics:**
-
-  - Regular expressions [... handy tool](https://regex101.com/){target="_blank"}
-  - sed, grep
-  - 
-
-**Assignments:**
-
-  - Work through **BDS Chapter 7**
-  -
-  -
-
-___
-
-### **Week 7:** Unix Data Tools, Continued
-
-**Topics:**
-
-  - 
-  -
-  -
-  
-**Assignments:**  
-
-  - Continue working through **BDS Chapter 7**
-  - **Assignment 5 -** build tabular file from fasta database
-  -
-
-___
-
-### **Week 8:** Finding and Retrieving Data
-
-**Topics:**
-  
-  -
-  -
-  -
-  
-**Assignments:**
-  
-  - Work through **BDS Chapter 6**
-  - **Assignment 6 -** download stuff with ftp, curl, Edirect, sra-toolkit
-  - **Case Study 2 -** Reproducibly downloading stuff (BDS p. 120)
-  
-    + Full documentation
-    + Checksums
-    + Markdown README
-
-___
-
-
-### **Week 9:** Working with Remote Machines
-
-**Topics:**
-
-  -
-  -
-  -
-
-**Assignments:**
-
-  - Work through **BDS Chapter 4**
-  - **Assignment 7 -** build 3 separate SLURM scripts to run fasta analyses
-  -
-
-___
-
-
-### **Week 10:** Working with Remote Machines, Continued
-
-**Topics:**
-
-  -
-  -
-  -
-  
-**Assignments:**
-
-  - **Case study 3 -** Push a large compute job to a remote machine and retrieve the results
-  
-    + Main script and data will be provided
-    + We need onboarding training for U of U cluster
-    + Each student needs their own account
-    + uses chapters: 1,2,3,4
-
-
-
-___
-
-### **Week 11:** Git for Scientists
-
-**Topics:**
-  
-  -
-  -
-  -
-  
-**Assignments:**
-
-  - Work through **BDS Chapter 5**
-  - **Assignment 8 -** Git collaboration and merge
-  -
-
-
-
-___
-
-### **Week 12:** Bioinformatics Shell Scripting
-
-**Topics:**
-
-  -
-  -
-  -
-  
-**Assignments:**
-
-  - Work through **BDS Chapter 12**
-  - **Assignment 9 -** Git collaboration and merge-
-  -
-
-___
-
-### **Week 13:** Writing Pipelines
-
-**Topics:**
-
-  -
-  -
-  -
-  
-**Assignments:**
-
-  - Continue working through **BDS Chapter 12**
-  -
-  -
-
-___
-
-
-### **Week 14:** Running a Pipeline on a Remote Machine
-
-**Topics:** 
-
-  -
-  -
-  -
-  
-**Assignments:**
-
-  - **Case Study 3** - Assemble a metagenome on the remote cluster
-
-    + metaSPADEs
-    + classify reads with DIAMOND?
-
-___
-
-
-### **Week 15:** Creating a Custom Bioinformatics Tool
-
-**Topics:**
-
-  -
-  -
-  -
-  
-**Assignments:**
-
-  - **Case Study 4** - Download NCBI marker genes and use Unix tools to build a custom QIIME-compatible reference database
-
-    + Reingineer https://github.com/gzahn/Format_NCBI_QIIME
-    + Edirect (command-line version of NCBI search tool)
-    + ftp, BLAST, NCBI, data cleaning and reformatting
-    + Turn into a completely reproducible and portable script
-    + requires entrez_qiime.py installation and use
-    + push tool to GitHub
-    + uses chapters: 2,3,6,7,10,12,5
-
-___
-
-### **Week 16:** Where to go from here?
-
-**Topics:**
-
-  -
-  -
-  -
-  
-**Assignments:**
-
-  - **Assignment 10 -** Reflection piece on what you've learned, why it's important, and what next steps you'll take
-  -
-  -
-
-
-___
 
 ___
 
