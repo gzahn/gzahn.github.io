@@ -254,6 +254,15 @@ div.tocify {
 </div>
 
 
+<div id="a-few-words-of-wisdom" class="section level3">
+<h3>A few words of wisdom:</h3>
+<ul>
+<li>File extensions don’t actually mean anything. A .csv file doesn’t <em>have</em> to be comma-separated values. A .txt file could actually be a gzipped fasta.</li>
+<li>Use relative file paths whenever possible. Each project has its own directory and file paths start from there.</li>
+<li>There are usually 50 ways to accomplish the same task. There is no ‘right way’ as long as it works, is consistent, and is reproducible.</li>
+<li></li>
+</ul>
+</div>
 <div id="bash-programs" class="section level3">
 <h3>Bash programs:</h3>
 <table class=" lightable-classic lightable-hover table table-striped table-hover table-condensed table-responsive" style="font-family: &quot;Arial Narrow&quot;, &quot;Source Sans Pro&quot;, sans-serif; margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
@@ -419,11 +428,11 @@ pull a file from a URL and save it as a file locally
 <p><strong>&lt;stdout&gt;</strong> The output from a program. Typical default is to send it to the terminal screen. AKA: <strong>1&gt;</strong></p>
 <p><strong>&lt;stderr&gt;</strong> The error info (if it exists). AKA: <strong>2&gt;</strong></p>
 <p><strong>Streams can be redirected in various ways to make them more useful.</strong></p>
-<p><strong>&gt;</strong> This redirects the <stdout> to a file (overwrites any existing file). Equivalent to <strong>1&gt;</strong></p>
-<p><strong>&gt;&gt;</strong> This redirects the <stdout> to a file (appends to bottom of any existing file). Equivalent to <strong>1&gt;&gt;</strong></p>
-<p><strong>|</strong> This redirects the <stdout> to a program. You can chain together many programs to process subsequent outputs in turn… a pipeline.</p>
-<p><strong>2&gt;</strong> This redirects the <stderr> to a file (overwrites)</p>
-<p><strong>2|</strong> This redirects the <stderr> to a new program as its input (if for some reason you need to do this)</p>
+<p><strong>&gt;</strong> This redirects the &lt;stdout&gt; to a file (overwrites any existing file). Equivalent to <strong>1&gt;</strong></p>
+<p><strong>&gt;&gt;</strong> This redirects the &lt;stdout&gt; to a file (appends to bottom of any existing file). Equivalent to <strong>1&gt;&gt;</strong></p>
+<p><strong>|</strong> This redirects the &lt;stdout&gt; to a program. You can chain together many programs to process subsequent outputs in turn… a pipeline.</p>
+<p><strong>2&gt;</strong> This redirects the &lt;stderr&gt; to a file (overwrites)</p>
+<p><strong>2|</strong> This redirects the &lt;stderr&gt; to a new program as its input (if for some reason you need to do this)</p>
 <hr />
 </div>
 <div id="wildcards-and-pattern-matching" class="section level3">

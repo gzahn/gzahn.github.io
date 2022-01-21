@@ -15,6 +15,16 @@ library(tidyverse)
 library(kableExtra)
 ```
 
+### A few words of wisdom:
+
+  - File extensions don't actually mean anything. A .csv file doesn't *have* to be comma-separated values. A .txt file could actually be a gzipped fasta.
+  - Use relative file paths whenever possible. Each project has its own directory and file paths start from there.
+  - There are usually 50 ways to accomplish the same task. There is no 'right way' as long as it works, is consistent, and is reproducible.
+  - 
+
+
+
+
 ### Bash programs:
 
 ```{r programs, include=FALSE,message=FALSE,warning=FALSE}
@@ -54,15 +64,15 @@ ___
 
 **Streams can be redirected in various ways to make them more useful.**
 
-**\>**     This redirects the <stdout> to a file (overwrites any existing file). Equivalent to **1>**
+**\>**     This redirects the \<stdout\> to a file (overwrites any existing file). Equivalent to **1>**
 
-**\>\>**    This redirects the <stdout> to a file (appends to bottom of any existing file). Equivalent to **1>>**
+**\>\>**    This redirects the \<stdout\> to a file (appends to bottom of any existing file). Equivalent to **1>>**
 
-**|**   This redirects the <stdout> to a program. You can chain together many programs to process subsequent outputs in turn... a pipeline.
+**|**   This redirects the \<stdout\> to a program. You can chain together many programs to process subsequent outputs in turn... a pipeline.
 
-**2>**    This redirects the <stderr> to a file (overwrites)
+**2>**    This redirects the \<stderr\> to a file (overwrites)
 
-**2|**    This redirects the <stderr> to a new program as its input (if for some reason you need to do this)
+**2|**    This redirects the \<stderr\> to a new program as its input (if for some reason you need to do this)
 
 ___
 
