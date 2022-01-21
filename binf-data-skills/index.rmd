@@ -38,7 +38,7 @@ ___
 
 #### [Course Syllabus](https:\\gzahn.github.io/binf-data-skills/syllabus.html){target="_blank"}
 #### Course [file repository](https://github.com/gzahn/gzahn.github.io/tree/master/binf-data-skills){target="_blank"}
-
+#### [Study Guide](https://gzahn.github.io/binf-data-skills/Practice/topic_notes.html){target="_blank"}
 
 ___
 

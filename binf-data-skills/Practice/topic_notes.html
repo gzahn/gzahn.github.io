@@ -548,6 +548,13 @@ grep -c &quot;^&gt;&quot; file.fasta
 # Count seqs in a fastq file
 sed -n &#39;2~4p&#39; file.fastq | wc -l # pull every 4th line starting at line 2 and then count</code></pre>
 </div>
+<div id="programs-weve-installed" class="section level3">
+<h3>Programs we’ve installed</h3>
+<p><a href="https://github.com/lh3/seqtk"><strong>seqtk</strong></a> – This “sequence toolkit” contains a crapload of useful stuff for working with fasta and fastq files</p>
+<pre class="bash"><code># examples: seqtk &lt;subcommand&gt; &lt;options&gt; file (accepts &lt;stdin&gt;) (accepts .gz compression)
+seqtk seq -r file.fasta # reverse compliment a fasta file
+seqtk comp file.fasta.gz # nucleotide composition of each read in file</code></pre>
+</div>
 
 
 
