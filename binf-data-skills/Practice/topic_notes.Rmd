@@ -72,7 +72,6 @@ ___
 
 **2>**    This redirects the \<stderr\> to a file (overwrites)
 
-**2|**    This redirects the \<stderr\> to a new program as its input (if for some reason you need to do this)
 
 ___
 
