@@ -48,7 +48,7 @@ If you kill the process early, there's an extra file in your directory that hasn
 
 **11. Repeat steps 7-10 until you're comfortable with redirection and inspecting background processes.**
 
-**12. The following lines of code are out of order. Rearrange them and use pipes to link them together into one line of code that displays the total number of DNA sequences in all 3 files (should be 151).**
+**12. The following lines of code are out of order. Rearrange them and use pipes to link them together into one line of code that displays the total number of DNA sequences in all 3 files (should be 148).**
 
         wc -l
         cat Assignment_3_*fasta
