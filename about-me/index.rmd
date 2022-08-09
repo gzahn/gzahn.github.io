@@ -22,7 +22,7 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 ___
 
-#### **I offer a wide range of microbial bioinformatics consultancy services. If you are interested please get in touch.**
+#### **I offer a wide range of data analytics and microbial bioinformatics consultancy services. If you are interested please get in touch.**
 
 ___
 
