@@ -46,7 +46,7 @@ ___
 
 ## Quick links:
 
-#### [Course Syllabus](https://gzahn.github.io/SSTEM/media/S-STEM_Course_Syllabus_2020.pdf){target="_blank"}
+#### [Course Syllabus](https://gzahn.github.io/SSTEM/media/syllabus.html){target="_blank"}
 
 
 ____
