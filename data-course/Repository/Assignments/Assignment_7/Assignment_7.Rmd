@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 In this assignment, you will use R (within R-Studio) to:
 
 + Take a real life data set and wrangle it into shape
-+ Use a data dictionary to clean and merge two related data sets
++ Make some exploratory analyses on that cleaned data
 
 **All file paths should be relative, starting from *your* Assignment_7 directory!!**
 
@@ -33,16 +33,17 @@ ____________
 
 # Your tasks:
 
-  + Import the 4 related datasets found in the Data_Course/Data/flights/ directory. There should be: 
-    - airlines.csv
-    - airports.csv
-    - jan_flights.csv
-    - Jan_snowfall.csv
-  + Combine the data sets appropriately to investigate whether departure delay was correlated with snowfall amount
-  + You will need to think carefully about column names
-  + Plot average departure delays by state over time
-  + Plot average departure delays by airline over time
-  + Plot effect of snowfall on departure *and* arrival delays
+  + Import the `Assignment_7/Utah_Religions_by_County.csv` data set
+  + Clean it up into "tidy" shape
+  + Explore the cleaned data set with a series of figures (I want to see you exploring the data set)
+  + Address the questions: 
+    
+    1. "Does population of a county correlate with the proportion of any specific religious group in that county?"
+    2. "Does proportion of any specific religion in a given county correlate with the proportion of non-religious people?"
+    
+  + Just stick to figures and maybe correlation indices...no need for statistical tests yet
+  
+  + Add comment lines that show your thought processes
 _____________
 
 
