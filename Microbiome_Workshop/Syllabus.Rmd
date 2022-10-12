@@ -52,39 +52,50 @@ knitr::include_graphics("./media/alpha_diversity_boxplot.png")
 
 ## Preparation before the workshop:
 
-You will need to prepare your computer prior to the workshop by [following the directions HERE](https://gzahn.github.io/Microbiome_Workshop/Before_the_Workshop.html){target="_blank"}. That web page will guide you through installing all the software that we will be using.
+You will need to prepare your computer prior to the workshop by following the directions in `Before_the_Workshop.html`. That page will guide you through installing all the software that we will be using.
 
 You will need adminstrator access on your computer in order to install software. If it's your own laptop, that's not an issue.
 
 
+
+
 ## Schedule:
 
-**Morning session (10am)**
+### Day 1 - Coral bacteria
+
+**Morning session**
 
   - Discussion about the data and workflow
   - Process raw data into a usable form using DADA2
   - Learn how to modify the code for your own data
   
-**Lunch (12pm)**
+**Lunch break**
 
-**Afternoon session (1-3pm)**
+**Afternoon session**
 
   - Explore data set
   - Hypothesis testing and visualizations using Phyloseq
   - Discussions and next steps
 
+### Day 2 - Real data TBD
+
+  - Practice our new skills on a real data set
+  - Live coding and troubleshooting
+  - How to find answers online
+  - Data management and deposition
 
 ## Surveys:
 
 You will take a brief survey before and after the workshop. This will be anonymous and is designed to help us improve our teaching of the lesson materials.
 
+[Pre-workshop survey](https://forms.gle/tB516zpCPgTdd4bx7){target="_blank"}
+
+[Post-workshop survey](https://forms.gle/XssQJfEFh64aKW7H9){target="_blank"}
 
 ## The workshop team:
 
 Dr. Geoffrey Zahn 
 
-Trevor Millar
-
-Lacee Bowen
-
 Magnolia Morelli
+
+Kate Hickman

@@ -144,6 +144,12 @@ ord2 <- plot_ordination(ps_ra,nmds,color = "Colony_Color",shape="Island") +
 
 
 # also try with unifrac distance, which takes phylogeny into account
+
+# pull out components
+asv <- otu_table(ps_ra) %>% as("matrix") %>% as.data.frame()
+meta <- sample_data(ps_ra) %>% as.data.frame()
+
+
 unifrac.dist <- UniFrac(ps_ra)
 betadisper(unifrac.dist,group = meta$Colony_Color) %>% plot() # plot beta-dispersion
 
@@ -162,10 +168,6 @@ ord1 / ord2 / ord3
 ggsave("./output/figs/ordinations.png",dpi=300,width = 6,height = 8)
 
 # permanova ####
-?ordinate
-# pull out components
-asv <- otu_table(ps_ra) %>% as("matrix") %>% as.data.frame()
-meta <- sample_data(ps_ra) %>% as.data.frame()
 
 # run permanova model with colony_color and Island as predictors (with interaction term included)
 permanova.bray <- vegan::adonis(asv ~ meta$Colony_Color * meta$Island,method = "bray")
