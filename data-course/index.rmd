@@ -303,6 +303,7 @@ knitr::include_graphics("./media/gganimate.gif")
   - patchwork [package](https://patchwork.data-imaginist.com/){target="_blank"}
   - ggpubr [package](https://rpkgs.datanovia.com/ggpubr/){target="_blank"}
   - gganimate [package](https://www.datanovia.com/en/blog/gganimate-how-to-create-plots-with-beautiful-animation-in-r/#comments){target="_blank"}
+  - Awesome curated [list of ggplot extensions](https://github.com/erikgahner/awesome-ggplot2){target="_blank"} (an overwhelming amount of resources, but if you need something it is probably in here)
   
 **Practice**
 
@@ -482,6 +483,7 @@ knitr::include_graphics("../media/model1.png")
   - [Model Fitting](https://r4ds.had.co.nz/model-building.html){target="_blank"}
   - [Model Performance](https://easystats.github.io/performance/){target="_blank"}
   - Interpreting models with [easystats](https://github.com/easystats/easystats){target="_blank"}
+  - [Machine learning models explained](https://mlu-explain.github.io/){target="_blank"}
 
 **Practice**
 
@@ -523,6 +525,9 @@ ___
   - How to use [lmer](https://rstudio-pubs-static.s3.amazonaws.com/63556_e35cc7e2dfb54a5bb551f3fa4b3ec4ae.html){target="_blank"}
   - Comparing multiple models with [regression tables](https://evalsp20.classes.andrewheiss.com/reference/regtables/){target="_blank"}
   - Intro to Machine Learning [online text](https://lgatto.github.io/IntroMachineLearningWithR/an-introduction-to-machine-learning-with-r.html){target="_blank"}
+  - The best way to get into machine learning with R is with the [tidymodels](https://www.tidymodels.org/){target="_blank"} package ecosystem
+  - Free book on [tidy modeling with R](https://www.tmwr.org/){target="_blank"}
+  - See also the [tidyclust](https://github.com/EmilHvitfeldt/tidyclust){target="_blank"} package for clustering algorithms
   - Free case studies using [Machine Learning in R](https://supervised-ml-course.netlify.app/){target="_blank"}
   - Awesome student-made [repository](https://github.com/austenapigo/GLAMM-Generalized-Linear-Additive-Mixed-Models){target="_blank"} featuring good explanations of different GLAMM models
   
