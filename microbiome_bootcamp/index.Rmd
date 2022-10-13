@@ -140,6 +140,17 @@ ___
 
 We will use R (and some Bash) along with Git/GitHub to conduct all of our work
 
+Beyond the nitty gritty of coding, we will also be learning a lot about community ecology.
+
+Some potential packages we will learn:
+
+- [*DADA2*](https://benjjneb.github.io/dada2/){target="_blank"}
+- [*phyloseq*](https://joey711.github.io/phyloseq/){target="_blank"}
+- [*corncob*](https://cran.r-project.org/web/packages/corncob/vignettes/corncob-intro.pdf){target="_blank"}
+- [*igraph*](https://igraph.org/r/){target="_blank"}
+- [*phangorn*](https://cran.r-project.org/web/packages/phangorn/vignettes/Trees.html){target="_blank"}
+- [*vegan*](https://github.com/vegandevs/vegan){target="_blank"}
+
 Here's an example code archive for this type of work: [Workshop Repository](https://github.com/gzahn/Microbiome_Workshop){target="_blank"}.
 
 Here's a BioProtocols paper walking through the workshop code: [16S Recipe](https://bio-protocol.org/e4395){target="_blank"} <sup>--You'll need to create a free account to download it</sup>
