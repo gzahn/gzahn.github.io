@@ -70,7 +70,7 @@ ___
 knitr::include_graphics("./media/Map_of_Sunda_and_Sahul_2.png")
 ```
 
->"In 1858 Wallace proposed a boundary line that splits Indonesia in half, running from the Pacific ocean between the islands of Borneo and Sulawesi and entering the Indian ocean via the Lombok Strait between the Islands of Bali and Lombok. This line closely follows the margin of the Sunda Shelf and would later become known as Wallace’s line when Thomas Huxley coined the term in 1868. Wallace described the fauna west of this line as typically Asian in origin and east of this line Australasian in origin. Several different taxa follow this pattern is especially apparent in birds."
+>"In 1858 Wallace proposed a boundary line that splits Indonesia in half, running from the Pacific ocean between the islands of Borneo and Sulawesi and entering the Indian ocean via the Lombok Strait between the Islands of Bali and Lombok. This line closely follows the margin of the Sunda Shelf and would later become known as Wallace’s line when Thomas Huxley coined the term in 1868. Wallace described the fauna west of this line as typically Asian in origin and east of this line Australasian in origin. Several different taxa follow this pattern and it is especially apparent in birds."
 
 `r tufte::quote_footer('--- Wainwright, et al. (2018)')`        
 
@@ -88,7 +88,8 @@ Here's an overview of the different sites where seagrass (*Syringodium isoetifol
 
 ```{r echo=FALSE,warning=FALSE,message=FALSE}
 library(tidyverse)
-dat <- readxl::read_xlsx("./media/SI_Indo_Metadata.xlsx")
+library(ggtext)
+dat <- readxl::read_xlsx("./media/SI_Indo_Metadata_CorrectGPS.xlsx")
 dat <- dat %>% filter(GPS != "N/A")
 dat <- dat %>% 
   mutate(COLOR = case_when(`East or West of Wallace Line` == "East" ~ "Red",
@@ -99,23 +100,53 @@ lat <- dat$GPS %>% str_split(" ") %>% map_chr(1) %>% as.numeric()
 lon <- dat$GPS %>% str_split(" ") %>% map_chr(2) %>% as.numeric()
 leaflet::leaflet() %>% 
   leaflet::addTiles() %>%
-  leaflet::addCircleMarkers(lng=lon,lat = lat,radius =5,color = dat$COLOR)
+  leaflet::addCircleMarkers(lng=lon,lat = lat,radius =5,color = dat$COLOR,opacity = 1,label = dat$Location) 
+
 ```
 
+## Brief methods
 
+### Study sites
 
 ```{r echo=FALSE}
-dat %>% unique.data.frame() %>% 
+dat %>% 
+  bind_cols(lat=round(lat,3),lon=round(lon,3)) %>% 
+  select(Location,lat,lon) %>% 
+  unique.data.frame() %>% 
   kableExtra::kable() %>% 
   kableExtra::kable_classic()
 
 ```
 
+<br><br>
 
-
-```{r fig.width=3,fig.height=3,fig.align="center",echo=FALSE,fig.cap="Syringodium isoetifolium (seagrass) meadow -- Image from Wiki commons"}
+```{r fig.width=3,fig.height=3,fig.align="center",echo=FALSE,fig.cap="*Syringodium isoetifolium* (seagrass) meadow -- Image from Wiki commons"}
 knitr::include_graphics("./media/Syringodium_isoetifolium_ployant_sous_la_houle.jpg")
 ```
 
+### Sample processing
+
+16 samples of seagrass were taken from each of 12 locations. The V3 region of the 16S rDNA from each sample was amplified (N=`r 12*16`). These amplicons were sequenced on an Illumina MiSeq machine with V3 (2x300) chemistry along with 8 sample blanks (Total study N=`r (12*16) + 8`).
+
+### Data analysis
+
+Here's where we come in. We've got raw 16S sequence data from this study and need to process it, explore and visualize it, and test hypotheses. Our final codebase will be deposited as part of the publication, along with any figures and statistical results we develop.
+
 ___
 
+<br>
+
+## Logistics
+
+We will use R (and some Bash) along with Git/GitHub to conduct all of our work
+
+Here's an example code archive for this type of work: [Workshop Repository](https://github.com/gzahn/Microbiome_Workshop){target="_blank"}.
+
+Here's a BioProtocols paper walking through the workshop code: [16S Recipe](https://bio-protocol.org/e4395){target="_blank"} <sup>--You'll need to create a free account to download it</sup>
+
+
+
+
+
+
+<br><br>
