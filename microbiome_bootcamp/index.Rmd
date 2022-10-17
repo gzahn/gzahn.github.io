@@ -156,8 +156,33 @@ Here's an example code archive for this type of work: [Workshop Repository](http
 Here's a BioProtocols paper walking through the workshop code: [16S Recipe](https://bio-protocol.org/e4395){target="_blank"} <sup>--You'll need to create a free account to download it</sup>
 
 
+<br>
 
+___
 
+<br>
+
+## Expectations and evaluation
+
+**Grades will be based on assignments and code contributions**
+
+**Assignments**
+
+During the semester, several assignments will be given related to the course material. Examples include:
+
+  - Looking up and reporting on alternative parameters for certain functions
+  - Finding and presenting papers about relevant topics
+  - Coding assignments such as novel figure generation
+  - Annotated bibliographies on background and discussion topics
+  - In-class participation in discussion and hypothesis generation
+  
+**Code contributions**
+
+Each student is expected to contribute to our final codebase. Comment lines denoting code authorship will be included in the final paper.
+
+**Writing**
+
+Each student is expected to contribute to writing, background reading/research/references, and editing. Students with low participation will not earn authorship on our paper, but grades will not be based on writing.
 
 
 <br><br>
