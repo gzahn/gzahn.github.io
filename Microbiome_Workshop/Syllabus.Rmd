@@ -31,7 +31,7 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 ## About the workshop:
 
-This workshop will take place over the course 5 hours (including a lunch break). It is designed to give you the tools needed to analyse high-throughput amplicon DNA data sets. This type of data is common in microbiome research, particularly when one is interested in knowing the relative abundance of bacterial or fungal taxa in a set of samples. The data set we will use is simulated data from coral reefs in the Chagos Archipelago. We have 43 coral samples from which bacterial 16S amplicons have been sequenced, along with 3 PCR negative controls. We will be looking for how bacterial communities change when associated with corals in various stages of bleaching.
+This workshop is designed to give you the tools needed to analyse high-throughput amplicon DNA data sets. This type of data is common in microbiome research, particularly when one is interested in knowing the relative abundance of bacterial or fungal taxa in a set of samples. The data set we will use is simulated data from coral reefs in the Chagos Archipelago. We have 43 coral samples from which bacterial 16S amplicons have been sequenced, along with 3 PCR negative controls. We will be looking for how bacterial communities change when associated with corals in various stages of bleaching.
 
 We assume no prior coding experience, and we expect that by the end of the day you will be comfortable running R scripts to process and investigate large meta-amplicon data sets. Most of the code that we use in the workshop can be easily reused with minimal customization to match your own data. 
 
