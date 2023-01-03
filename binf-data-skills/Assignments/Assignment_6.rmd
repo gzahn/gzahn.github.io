@@ -28,9 +28,8 @@ ___
   
   **6.  Now, starting from that new tabular file, use paste/awk/sed/etc. to convert it back to standard fasta format. Record all your commands that got the job done.**
   
-  **7.  Okay, now download this other [fasta file](https://gzahn.github.io/binf-data-skills/Data/Assignment_6_File_2.fasta.gz) (Assignment_6_File_2.fasta.gz) ... get it uncompressed. This file is essentially the same as the first filw, but the fasta headers contain taxonomic assignments for each sequence in the format: Kingdom;Phylum;Class;Order;Family;Genus**
+  **7.  Okay, now download this other [fasta file](https://gzahn.github.io/binf-data-skills/Data/Assignment_6_File_2.fasta.gz) (Assignment_6_File_2.fasta.gz) ... get it uncompressed. This file is essentially the same as the first file, but the fasta headers contain taxonomic assignments for each sequence in the format: Kingdom;Phylum;Class;Order;Family;Genus**
     
-  
   **8.  Write a short pipeline to extract an alphabetical list of the unique genera that were identified in the Enterobacteriaceae family**
   
   **9.  Create a tab-separated list consisting of 2 columns:**

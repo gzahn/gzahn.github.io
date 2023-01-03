@@ -1,3 +1,0 @@
-Ambystoma mexicanum[porgn] AND mitochondrion[filter]
-Bacillus thuringiensis[porgn] AND mitochondrion[filter]
-Amphiprion ocellaris[porgn] AND mitochondrion[filter]

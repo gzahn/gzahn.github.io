@@ -10,7 +10,7 @@ pagetitle: BINF_Notes
 ---
 
 ```{r setup, include=FALSE,message=FALSE,warning=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(kableExtra)
 ```
@@ -28,12 +28,12 @@ library(kableExtra)
 ### Bash programs:
 
 ```{r programs, include=FALSE,message=FALSE,warning=FALSE}
-bash_programs <- c('pwd','ls',"cd",'cat','touch','nano','cp','mv','rm','cut','grep','wget')
+bash_programs <- c('pwd','ls',"cd",'cat','touch','nano','cp','mv','rm','cut','grep','wget','sed')
 purpose <- c('where am I?','what stuff is here?','change directory <path>',
               'stick stuff together and print to screen','reset timestamp / make empty file','bash text editor','copy <from> <to>','move <from> <to>',
-              'remove FOREVER','pick fields (columns) -f field #s -d delimiter','find lines in a file that match a pattern','pull a file from a URL and save it as a file locally')
+              'remove FOREVER','pick fields (columns) -f field #s -d delimiter','find lines in a file that match a pattern','pull a file from a URL and save it as a file locally','streaming editor')
 info <- c("https://ss64.com/bash/pwd.html","https://ss64.com/bash/ls.html",
-             "https://ss64.com/bash/cd.html","https://ss64.com/bash/cat.html","https://ss64.com/bash/touch.html","https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/","https://ss64.com/bash/cp.html","https://ss64.com/bash/mv.html","https://ss64.com/bash/rm.html","https://ss64.com/bash/cut.html","https://ss64.com/bash/grep.html","https://linuxize.com/post/wget-command-examples/")
+             "https://ss64.com/bash/cd.html","https://ss64.com/bash/cat.html","https://ss64.com/bash/touch.html","https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/","https://ss64.com/bash/cp.html","https://ss64.com/bash/mv.html","https://ss64.com/bash/rm.html","https://ss64.com/bash/cut.html","https://ss64.com/bash/grep.html","https://linuxize.com/post/wget-command-examples/","https://www.tutorialspoint.com/sed/sed_quick_guide.htm")
 ```
 
 ```{r,echo=FALSE}
@@ -56,6 +56,8 @@ ___
   - \<stdout\>
   - \<stderr\>
   
+(You can have other streams, but only need them in special scenarios)
+
 **\<stdin\>**   The input text. Can come from keyboard entry, a file, or another program. This is what is typically fed into a program.  AKA: **0>**
 
 **\<stdout\>**    The output from a program. Typical default is to send it to the terminal screen. AKA: **1>**
@@ -72,6 +74,7 @@ ___
 
 **2>**    This redirects the \<stderr\> to a file (overwrites)
 
+**3>**    This redirects the \<a-third-secret-stream\> to a file (overwrites)
 
 ___
 
@@ -168,3 +171,8 @@ seqtk seq -r file.fasta # reverse compliment a fasta file
 seqtk comp file.fasta.gz # nucleotide composition of each read in file
 ```
 
+
+
+### Nifty things
+
+```import newimage.png``` (Gives a screenshot tool)

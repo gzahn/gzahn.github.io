@@ -1,0 +1,54 @@
+#!/bin/bash
+set -euo pipefail
+
+# 3.
+# download files
+wget https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_1.fastq
+wget https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_2.fastq
+
+
+# 4.
+# convert to fasta and inspect first 5 lines
+sed -n '1~4s/^@/>/p;2~4p' Assignment_4_File_1.fastq | head -5
+sed -n '1~4s/^@/>/p;2~4p' Assignment_4_File_2.fastq | head -5
+
+# 5.
+# compare fastq vs fasta into one file (1st 8 lines of fastq & 1st 4 lines of fasta
+cat <(head -8 Assignment_4_File_1.fastq) <(sed -n '1~4s/^@/>/p;2~4p' Assignment_4_File_1.fastq | head -4) > Fastq_vs_Fasta.txt
+cat Fastq_vs_Fasta.txt
+
+# 6.
+cat <(head -8 Assignment_4_File_2.fastq) <(sed -n '1~4s/^@/>/p;2~4p' Assignment_4_File_2.fastq | head -4) > Fastq_vs_Fasta2.txt
+echo "Fastq vs Fasta:"
+cat Fastq_vs_Fasta2.txt
+
+
+# 7.
+# seqtk functions
+# install: sudo apt-get install seqtk
+
+# 8.
+seqtk trimfq -b 50 Assignment_4_File_1.fastq > Assignment_4_File_1_trimmed.fastq
+
+# 9.
+echo "sequence name with greatest number of A nucleotides: "
+seqtk comp Assignment_4_File_1.fastq | sort -n -k 3 | tail -1 | cut -f 1
+
+# 10.
+seqtk seq -r -A Assignment_4_File_1_trimmed.fastq > Assignment_4_File_1_trimmed_RC.fasta
+
+# 11.
+seqtk gc -w -l 20 -f .75 Assignment_4_File_1.fastq
+
+# 12.
+seqtk rename Assignment_4_File_1.fastq "Seq_"
+
+# 14.
+# get third file
+# seqs are spread over multiple lines
+wget https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_3.fasta
+seqtk seq Assignment_4_File_3.fasta
+
+
+
+

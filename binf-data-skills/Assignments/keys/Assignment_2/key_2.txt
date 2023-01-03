@@ -1,0 +1,4 @@
+mkdir data
+mkdir scripts
+mkdir output
+echo "New project" > README.txt

@@ -40,13 +40,17 @@ ___
   + Tasks:
   
     1. Download and setup the NCBI datasets program we used before
-    2. Use datasets to download just the surface glycoproteins (gene code is "S") from sars-cov-2 genomes deposited since 03/01/2021
+    2. Use datasets to download just the sars-cov-2 genomes deposited since 01/01/2023, extracting the CDS (CoDing Sequences)
       
       + That command should look like...
       
-            PATH/TO/datasets download virus protein S --released-since 03/01/2021 --exclude-pdb --exclude-gpff
-    3. Calculate the number of sequences you downloaded
-    4. Calculate the number unique nucleotide variants for that gene 
+            PATH/TO/datasets download virus genome taxon sars-cov2 --include cds --filename sars-cov2.zip --released-after 01/01/2023 --annotated --complete-only
+
+            
+  3. Extract and format the nucleotide sequences for just the "surface glycoprotein" CDS
+  4. Calculate the number of sequences you downloaded
+  5. Calculate the number of unique nucleotide variants for that gene 
+
 
 ___
 
@@ -56,10 +60,10 @@ ___
   + Modules = vsearch/040218
   + Tasks:
   
-    1. Run the following program on the cds.fna file of surface glycoproteins
+    1. Run the following program on the cds.fna file of surface glycoproteins (tweak file names/paths if necessary)
     
       
-                vsearch --cluster_fast test.fasta -id 0.97 --centroids centroids.fasta --consout consensus.fasta --msaout msa.fasta --profile cluster_profiles.txt
+                vsearch --cluster_fast surface_glycoproteins.fasta -id 0.97 --centroids centroids.fasta --consout consensus.fasta --msaout msa.fasta --profile cluster_profiles.txt
                         
                 cat centroids.fasta | grep "^>" > centroid_ids.txt
                         

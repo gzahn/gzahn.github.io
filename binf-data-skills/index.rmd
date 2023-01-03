@@ -36,7 +36,7 @@ ___
 
 ## Handy links:
 
-#### [Course Syllabus](https:\\gzahn.github.io/binf-data-skills/syllabus.html){target="_blank"}
+#### [Course Syllabus](https://gzahn.github.io/binf-data-skills/syllabus.html){target="_blank"}
 #### Course [file repository](https://github.com/gzahn/gzahn.github.io/tree/master/binf-data-skills){target="_blank"}
 #### [Study Guide](https://gzahn.github.io/binf-data-skills/Practice/topic_notes.html){target="_blank"}
 
@@ -333,13 +333,22 @@ knitr::include_graphics("./Media/linuxfu.jpg")
 **Assignments:**
 
   - Work through **BDS Chapter 7**
-  - [**Assignment 5**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_5.html){target="_blank"}
+  - Spend 3 hours practicing everything we've done so far
+  - Try putting things together in original ways to get new insights on sequnce data
+  - Ask silly questions like: "What are the counts of Cytosine bases in all seqs that contain the pattern 'GGCCG'?"
+  
+  After playing around a bit, I came up with the following for that silly question:
+  
+```cat Assignment_3_Combined_Files.fasta | grep -B 1 "GGCCG"| seqtk comp | cut -f3```
 
+  - Playing around like this in freeform is *the best way* to build your skills between projects.
+  - Your practice tasks (below) will get you started
+  
 **Resources**
 
   - Introduction to regular expressions [video](https://youtu.be/vcRPNhLbhoc?list=PLzNKOozWiEuyNu-kHpVZk59uf04wkQyY2){target="_blank"}
   - sed video [playlist](https://www.youtube.com/playlist?list=PLcUid3OP_4OW-rwv_mBHzx9MmE5TxvvcQ){target="_blank"} Definitely worth your time!
-  - 
+
   
 **Practice**
 
@@ -369,7 +378,8 @@ knitr::include_graphics("./Media/tuxninja.png")
 **Assignments:**  
 
   - Continue working through **BDS Chapter 7**
-  - **[Assignment 6](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_6.html){target="_blank"} -** convert between tabular and fasta formatted data | process/command substitution | advanced paste
+  - [**Assignment 5**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_5.html){target="_blank"} - using 'awk' & 'process substitution' to interrogate a table
+  - [**Assignment 6**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_6.html){target="_blank"} - convert between tabular and fasta formatted data | process/command substitution | advanced paste  
 
 **Resources**
 
@@ -565,7 +575,7 @@ knitr::include_graphics("./Media/gitflow.png")
 
 **Topics:**
   
-  - Let's use this time to explore the Kudzu GBS data
+  - Let's use this time to explore topics of interest
   - We can also talk about bioinformatics collaborations and your role as a data expert
   
 **Assignments:**
