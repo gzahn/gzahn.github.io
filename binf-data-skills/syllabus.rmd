@@ -4,7 +4,7 @@
 ---
   
 # **Bioinformatics Data Skills**
-## Course Syllabus - Spring 2022
+## Course Syllabus - Spring 2023
   
   _____________________________
 
@@ -76,14 +76,14 @@ _____________________________
 
 #### **Points are based on:**
   
-  * 10 Assignments - 20 pts *each*
-  * 4 Case Studies - 150 pts *each*
+  * 10 Assignments - 20 pts *each*  (8 Regular assignments and 2 TBD assignments)
+  * 4 Case Studies - 150 pts *each* (2 Regular case studies and 2 TBD)
   
 _____________________________
 
-### **Weekly Assignments**
+### **Regular Assignments**
 
-These are available on our course website. They will generally consist of requiring you to complete a series of tasks as you work through a chapter of the textbook, or put together a script to accomplish a goal. The first and last assignments are free-form writing pieces.
+These are available on our course website. They will generally consist of requiring you to complete a series of tasks as you work through a chapter of the textbook, or put together a script to accomplish a goal. The first assignment is a free-form writing piece.
 
 ### **Case Studies**
 
@@ -92,6 +92,11 @@ These will be short projects where we utilize the skills we've learned so far to
 ### **No exams**
 
 This material isn't 'exam-friendly,' and it's better that you can demonstrate that you can get a task done, than for me to quiz you over the material. 
+
+### **Class Project**
+
+We will work with other biology faculty to identify a bioinformatics project that we can do to help them with their research. They will give us data and a task and we will work as a class to do something useful. We may be building a new tool, pasting together a pipeline from existing software, or completing some tricky data processing. It all depends on what they need.  The final 2 case studies will be tied up in this project and will be graded.
+
 
 ________________________________
 
