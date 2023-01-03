@@ -24,6 +24,37 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=CkjjlnwAAAAJ&hl=en&oi=ao)
 
+^†^ Denotes student mentee
+
+**McGee, S.^†^, Tidwell, A.^†^, Riggs, E., Veltkamp, H.^†^, & Zahn, G. (2022). Long-term soil fungal community recovery after fire is impacted by climate change. Western North American Naturalist, 82(3). https://scholarsarchive.byu.edu/wnan/vol82/iss3/3**
+
+Soil fungi take a really really long time to bounce back after a forest fire, but warmer soil speeds up the process.
+
+___
+
+**Rawson, C.^†^, & Zahn, G. (2022). Inclusion of database outgroups improves accuracy of fungal meta-amplicon taxonomic assignments (p. 2022.11.21.517387). bioRxiv. https://doi.org/10.1101/2022.11.21.517387**
+
+Preprint: Assigning taxonomy to fungal amplicons against a fungal-only database WILL lead to false inflation of fungal diversity. Use the UNITE_All database.
+
+___
+
+**Tedersoo, L., Mikryukov, V., Zizka, A., Bahram, M., Hagh-Doust, N., Anslan, S., Prylutskyi, O., Delgado-Baquerizo, M., Maestre, F. T., Pärn, J., Öpik, M., Moora, M., Zobel, M., Espenberg, M., Mander, Ü., Khalid, A. N., Corrales, A., Agan, A., Vasco-Palacios, A.-M., … Abarenkov, K. (2022). Global patterns in endemicity and vulnerability of soil fungi. Global Change Biology, n/a(n/a). https://doi.org/10.1111/gcb.16398**
+
+___
+
+
+**Wainwright, B. J., Millar, T.^†^, Bowen, L.^†^, Hickman, K.^†^, Lee, J. N., Yeo, Z. Y., Huang, D., & Zahn, G. (2022). The Mangrove Microbiome of the Malay Peninsula (p. 2022.11.21.517418). bioRxiv. https://doi.org/10.1101/2022.11.21.517418**
+
+Pre-print: Mangrove bacterial communities are a subset of nearby sediment bacteria, but different community structure in different parts of the plant.
+
+___
+
+**Zahn, G. (2022). Marker Genes (16S and ITS) Protocol for Plant Microbiome Analyses. BIO-PROTOCOL, 12(8). https://doi.org/10.21769/BioProtoc.4395**
+
+A recipe, with code and instructions on how to turn raw meta-amplicon reads into insights without leaving R.
+
+___
+
 **Tedersoo, L., Mikryukov, V., Anslan, S., Bahram, M., Khalid, A. N., Corrales, A., Agan, A., Vasco-Palacios, A.-M., Saitta, A., Antonelli, A., Rinaldi, A. C., Verbeken, A., Sulistyo, B. P., Tamgnoue, B., Furneaux, B., Ritter, C. D., Nyamukondiwa, C., Sharp, C., Marín, C., … Zahn, G., … Abarenkov, K. (2021). The Global Soil Mycobiome consortium dataset for boosting fungal diversity research. Fungal Diversity. https://doi.org/10.1007/s13225-021-00493-7**
 
 An 11-year global soil fungi sampling effort published as a publicly open dataset. The dataset comprises 722,682 fungal operational taxonomic units (OTUs) derived from PacBio sequencing of full-length ITS and 18S-V9 variable regions from 3200 plots in 108 countries on all continents.
@@ -55,11 +86,6 @@ ___
 
 Using exact sequence variants instead of clustered OTUs improves reproducibility, eases meta-analyses, and can reveal otherwise hidden biogeographic patterns in environmental DNA studies of fungal distributions.
 
-___
-
-**McGee, S., Tidwell, A., Riggs, E., Veltkamp, H., & Zahn, G. L. (2020). Long-term soil fungal community recovery after fire is impacted by climate change. BioRxiv, 2020.10.09.333443. https://doi.org/10.1101/2020.10.09.333443**
-
-Inreasing temperatures are driving stronger wildfire regimes, but warmer soils appear to recover faster in terms of fungal diversity and community structure.
 
 ___
 
@@ -75,7 +101,7 @@ Landscape-scale variation in plant phylogeny, NDVI, elevation, evapotranspiratio
  
 ___
 
-**Tipton\*, L., Zahn\*, G., Datlof, E., Kivlin, S. N., Sheridan, P., Amend, A. S., & Hynson, N. A.. 2019. Fungal aerobiota are not affected by time nor environment over a 13-y time series at the Mauna Loa Observatory. Proceedings of the National Academy of Sciences. https://doi.org/10.1073/pnas.1907414116**
+**Tipton\*, L., Zahn\*, G., Datlof, E.^†^, Kivlin, S. N., Sheridan, P., Amend, A. S., & Hynson, N. A.. 2019. Fungal aerobiota are not affected by time nor environment over a 13-y time series at the Mauna Loa Observatory. Proceedings of the National Academy of Sciences. https://doi.org/10.1073/pnas.1907414116**
 
 Upper-atmosphere fungal assemblages are stochastic over a decadal scale. Seriously *nothing* seems to affect them deterministically.
 
@@ -83,7 +109,7 @@ Upper-atmosphere fungal assemblages are stochastic over a decadal scale. Serious
 
 ___
 
-**Benjamin J. Wainwright, Geoffrey L. Zahn, Joshua Zushi, Nicole Li Ying Lee, Jillian Lean Sim Ooi, Jen Nie Lee, Danwei Huang. 2019. Seagrass-associated fungal communities show distance decay of similarity that has implications for seagrass management and restoration. Ecology and Evolution. https://doi.org/10.1002/ece3.5631**
+**Benjamin J. Wainwright, Geoffrey L. Zahn, Joshua Zushi^†^, Nicole Li Ying Lee, Jillian Lean Sim Ooi, Jen Nie Lee, Danwei Huang. 2019. Seagrass-associated fungal communities show distance decay of similarity that has implications for seagrass management and restoration. Ecology and Evolution. https://doi.org/10.1002/ece3.5631**
 
 Even with few presumed barriers to dispersal, seagrass-associated fungal communities appear to be structured by location.
 
