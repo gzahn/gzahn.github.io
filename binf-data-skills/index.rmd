@@ -24,33 +24,34 @@ knitr::include_graphics("./Media/binf_data_skills_sticker.png")
 ```
 </div>
 
-
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
 
 
 # **Bioinformatics Data Skills**{#top}
-Utah Valley University - BIOL490R (Special Topics)
+Utah Valley University - BIOL 3150 
 
-___
-
-#### Computer requirements for this class: [CLICK HERE](https://gzahn.github.io/binf-data-skills/OS.html){target="_blank"}
 
 ## Handy links:
 
 #### [Course Syllabus](https://gzahn.github.io/binf-data-skills/syllabus.html){target="_blank"}
-#### Course [file repository](https://github.com/gzahn/gzahn.github.io/tree/master/binf-data-skills){target="_blank"}
+
+#### [Course file repository](https://github.com/gzahn/gzahn.github.io/tree/master/binf-data-skills){target="_blank"}
+
 #### [Study Guide](https://gzahn.github.io/binf-data-skills/Practice/topic_notes.html){target="_blank"}
 
-___
-
-
-</div>
+#### Computer requirements for this class: [CLICK HERE](https://gzahn.github.io/binf-data-skills/OS.html){target="_blank"}
 
 ___
+
 
 <style>
 div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
+
 
 ## Command Line Projects and the Unix Philosophy
 
