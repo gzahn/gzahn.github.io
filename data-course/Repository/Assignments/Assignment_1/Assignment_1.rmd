@@ -134,6 +134,8 @@ Use the LastPass App for your phone, give it your phone number as a backup, and 
 
 **You will need to [create a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token){target="_blank"} to use GitHub from the command line**
 
+**SET YOUR PAT TO NEVER EXPIRE**
+
 Copy your token and paste it into a text document. To set it as an "environment variable" enter the following in your command-line terminal, replacing TOKEN with the actual token you received online and YOUR_GITHUB_USERNAME with your username (keep all quotes as-is):
 
         echo 'export GIT_PASSWORD="TOKEN"' >> ~/.bashrc
