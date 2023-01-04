@@ -1,0 +1,54 @@
+# make project structure
+mkdir data
+mkdir scripts
+mkdir output
+
+# enter data/
+cd data
+
+# download all 3 files
+wget https://gzahn.github.io/binf-data-skills/Data/Assignment_3_File_1.fasta
+wget https://gzahn.github.io/binf-data-skills/Data/Assignment_3_File_2.fasta
+wget https://gzahn.github.io/binf-data-skills/Data/Assignment_3_File_3.fasta
+
+# combine them
+cat *.fasta > Assignment_3_Combined_Files.fasta
+
+# enter scripts/
+cd ../scripts
+
+# download program file
+wget https://gzahn.github.io/binf-data-skills/Data/Assignment_3_Program_File.sh
+
+# run it from within scripts/
+bash Assignment_3_Program_File.sh
+
+# run again with redirect to output/
+bash Assignment_3_Program_File.sh > ../output/Assignment_3_Program_Output.txt
+
+# run again as bg process
+bash Assignment_3_Program_File.sh > ../output/Assignment_3_Program_Output.txt &
+
+# check on it manually a few times as it runs in background
+cat ../output/Assignment_3_Program_Output.txt
+sleep 5
+cat ../output/Assignment_3_Program_Output.txt
+sleep 15
+cat ../output/Assignment_3_Program_Output.txt
+
+# bring to foreground
+fg
+
+# kill job
+# CTL-C
+
+# inspect remaining file not 'cleaned up' from running the program partway
+ls
+cat tmp
+
+# return to main directory
+cd ../
+
+# build piped (correct order) command to count seqs
+
+cat ../data/Assignment_3_*fasta | grep -v "^>" | wc -l

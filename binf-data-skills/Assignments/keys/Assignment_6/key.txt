@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#Assignment 6 key
+
+#3.
+wget https://gzahn.github.io/binf-data-skills/Data/Assignment_6_File_1.fasta.gz
+gunzip Assignment_6_File_1.fasta.gz
+
+#4. & 5.
+paste <(cat Assignment_6_File_1.fasta | grep "^>" | sed 's/>//') <(cat Assignment_6_File_1.fasta | grep -v "^>") > Assignment_6_File_1.tsv
+
+#6.
+cat Assignment_6_File_1.tsv | cut -f 1 | sed 's/^OTU/>OTU/' > otulist
+cat Assignment_6_File_1.tsv | cut -f 2 > seqlist
+paste -d \\n otulist seqlist
+
+
+#7.
+wget https://gzahn.github.io/binf-data-skills/Data/Assignment_6_File_2.fasta.gz
+gunzip Assignment_6_File_2.fasta.gz
+
+#8.
+cat Assignment_6_File_2.fasta | grep "Enterobacteriaceae" | sort -u | cut -d ";" -f 6
+
+#9. & 10.
+cat Assignment_6_File_2.fasta | grep "Enterobacteriaceae" | sort -u > taxonomy
+while read line; do grep -c $line Assignment_6_File_2.fasta ; done < taxonomy > taxonomy_counts
+paste taxonomy taxonomy_counts > Enterobacteriaceae_Genus_Counts.tsv
+
+
+
+
+

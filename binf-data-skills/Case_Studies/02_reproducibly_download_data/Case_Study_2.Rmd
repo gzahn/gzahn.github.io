@@ -91,13 +91,13 @@ ___
 
 5. **Find the _amino acid_ and _nucleotide_ sequences for "surface glycoprotein" in sars-cov-2**
 
-    You'll need to browse through these files, and then use a combination of tools like fasta_formatter (from the FASTX-Toolkit) and grep to pull it out
+    You'll need to browse through these files, and then use a combination of tools like seqtk and grep to pull it out
     
-6. **Now, that was the type collection. Let's also download some more recent strains so we can compare the nucleotide and amino acid sequences for the "surface glycoprotein" between the two strains.** 
+6. **Now, that was the type collection. Let's also download some more recent strains so we can compare the nucleotide and amino acid sequences for the "surface glycoprotein" between the variant strains.** 
 
     We want to look for an A-to-G nucleotide mutation at position 23,403 in the Wuhan reference strain. That's a job better suited for a different language like R, Python or Perl, so we just want to get the data we need into files.
     
-    Let's use the Datasets tool again, but this time, instead of using the --refseq flag, let's use some of the other built-in flags to select strains that were released since 01/08/2021. Be sure to save these as a new zip file name so you don't overwrite your reference genome. Maybe do this in a subfolder (any commands to make that subfolder should be documented as well!)
+    Let's use the Datasets tool again, but this time, instead of using the --refseq flag, let's use some of the other built-in flags to select strains that were released after 01/01/2023. Be sure to save these as a new zip file name so you don't overwrite your reference genome. Maybe do this in a subfolder (any commands to make that subfolder should be documented as well!)
 
 7. **Again, find the _amino acid_ and _nucleotide_ sequences for "surface glycoprotein" in these new strains you've downloaded.**
 
@@ -113,7 +113,7 @@ ___
     
         refseq.fna  #nucleotide seqs of surface glycoprotein from reference genome
         
-9. **Bundle those 4 files, along with documentation.txt, into an archive called "sars_cov2_Surface_Glycoprotein_Sequences.zip"**
+9. **Bundle those 4 files, along with documentation.txt, into an archive called "sars_cov2_Surface_Glycoprotein_Sequences.zip"** (documentation.txt should include the datasets software version number, along with ALL the code you used to generate these 4 files and the zip archive .. and the two bonus tasks below)
 
 ___
 
@@ -123,7 +123,7 @@ Include the code to add the following to "documentation.txt" before you bundle i
 
 10. **Report the number of strains you downloaded from NCBI (not including the reference strain)**
 
-11. **Report the number of unique Surface Glycoprotein DNA variants you found among these new strains (Since Jan 8, 2021)**
+11. **Report the number of unique Surface Glycoprotein DNA variants you found among these new strains (Since Jan 1, 2023)**
 
 ___
 

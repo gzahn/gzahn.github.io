@@ -78,7 +78,7 @@ knitr::include_graphics("./media/Map_of_Sunda_and_Sahul_2.png")
 
 Previous work showed, surprisingly, that fungal endophytes of seagrass seem to follow Wallace's Line. We're not sure why, but we need to know if bacterial endophytes show the same patterns. As we start to accrue evidence of this phenomenon, we can contribute to the larger discussion of microbial biogeography. In reality, it's weird to see microbes with the same distributional limitations as birds, especially aquatic microbes. So what is going on? Can we see this play out with bacteria too!?
 
-**Start by reading the [previous paper](https://gzahn.github.io/microbiome_bootcamp/Wainwright_2018.pdf){target="_blank} to get background on this topic. Read it several times... after all, you're going to be doing a lot of the same things for this project (but this time looking at the bacteria instead of fungi).**
+**Start by reading the [previous paper](https://gzahn.github.io/microbiome_bootcamp/media/Wainwright_2018.pdf){target="_blank} to get background on this topic. Read it several times... after all, you're going to be doing a lot of the same things for this project (but this time looking at the bacteria instead of fungi).**
 
 
 ___
@@ -186,3 +186,25 @@ Each student is expected to contribute to writing, background reading/research/r
 
 
 <br><br>
+
+___
+
+## Working topics (subject to revision):
+
+  - What is meta-amplicon technology?
+  - The [Earth Microbiome Project](https://earthmicrobiome.org/)
+  - Basics of community ecology
+    + Who is there?
+    + What are they doing?
+    + How do they interact with each other?
+    + How does the environment shape community structure?
+    + Community assembly
+    + Distributional ecology
+  - Analytical methods in community ecology
+    + Normalization / rarefaction
+    + Alpha, beta, gamma diversity
+    + Mantel / MRM / PermANOVA / Ordination / Networks
+    + Differential tests
+  - Technological methods and limitations
+  
+

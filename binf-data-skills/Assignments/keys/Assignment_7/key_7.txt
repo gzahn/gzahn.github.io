@@ -1,0 +1,35 @@
+#!/bin/bash
+
+## JOB 2 ##
+
+# 1. download NCBI datasets
+wget https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/datasets
+chmod +x datasets
+
+# 2. use datasets program to download 2023 SARS-COV2 virus seqs
+./datasets download virus genome taxon sars-cov2 --include cds --filename sars-cov2.zip --released-after 01/01/2023 --annotated --complete-only
+
+# unzip
+unzip sars-cov2.zip
+
+
+# 3. extract surface glycoprotein seqs
+cat ncbi_dataset/data/cds.fna | seqtk seq | grep -A1 "surface glycoprotein" | grep -v "^--$" > surface_glycoproteins.fasta
+
+# 4. count number of 'surface glycoprotein' seqs downloaded
+cat surface_glycoproteins.fasta | grep -c "^>"
+
+# 5. count number of UNIQUE protein seqs
+cat surface_glycoproteins.fasta | grep -v "^>" | sort -u | wc -l
+
+
+## JOB 3 ##
+
+# 1. Run vsearch to cluster
+vsearch --cluster_fast surface_glycoproteins.fasta -id 0.97 --centroids centroids.fasta --consout consensus.fasta --msaout msa.fasta --profile cluster_profiles.txt
+
+# save cluster centroid data
+cat centroids.fasta | grep "^>" > centroid_ids.txt
+
+# compare info to original protein data
+grep -Fwf centroid_ids.txt surface_glycoproteins.fasta

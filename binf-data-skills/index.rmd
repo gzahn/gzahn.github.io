@@ -24,33 +24,34 @@ knitr::include_graphics("./Media/binf_data_skills_sticker.png")
 ```
 </div>
 
-
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
 
 
 # **Bioinformatics Data Skills**{#top}
-Utah Valley University - BIOL490R (Special Topics)
+Utah Valley University - BIOL 3150 
 
-___
-
-#### Computer requirements for this class: [CLICK HERE](https:\\gzahn.github.io/binf-data-skills/OS.html){target="_blank"}
 
 ## Handy links:
 
-#### [Course Syllabus](https:\\gzahn.github.io/binf-data-skills/syllabus.html){target="_blank"}
-#### Course [file repository](https://github.com/gzahn/gzahn.github.io/tree/master/binf-data-skills){target="_blank"}
+#### [Course Syllabus](https://gzahn.github.io/binf-data-skills/syllabus.html){target="_blank"}
+
+#### [Course file repository](https://github.com/gzahn/gzahn.github.io/tree/master/binf-data-skills){target="_blank"}
+
 #### [Study Guide](https://gzahn.github.io/binf-data-skills/Practice/topic_notes.html){target="_blank"}
 
-___
-
-
-</div>
+#### Computer requirements for this class: [CLICK HERE](https://gzahn.github.io/binf-data-skills/OS.html){target="_blank"}
 
 ___
+
 
 <style>
 div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
+
 
 ## Command Line Projects and the Unix Philosophy
 
@@ -241,7 +242,6 @@ knitr::include_graphics("./Media/fastq_fig.jpg")
 
 **Resources**
 
-  - [fasx-toolkit](http://hannonlab.cshl.edu/fastx_toolkit/){target="_blank"}
   - [seqtk](https://github.com/lh3/seqtk){target="_blank"}
   - fasta and fastq [formats](https://compgenomr.github.io/book/fasta-and-fastq-formats.html){target="_blank"}
   - [phred scores](https://www.drive5.com/usearch/manual/quality_score.html){target="_blank"}
@@ -299,7 +299,7 @@ knitr::include_graphics("./Media/magic.jpg")
 
   - Eukaryotic 18S regions and priming sites [image](https://gzahn.github.io/binf-data-skills/Media/ITS.png){target="_blank"}
   - ITSxpress [repository](https://github.com/usda-ars-gbru/itsxpress){target="_blank"}
-  - Installing [miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)  
+  - Installing [miniconda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html){target="_blank"} 
   - 
   
 [Back to top of page](#top)
@@ -326,20 +326,31 @@ knitr::include_graphics("./Media/linuxfu.jpg")
 
 **Topics:**
 
-  - Regular expression tester [... handy tool](https://regex101.com/){target="_blank"}
+  - Regular expressions (regex)
   - sed, grep
-  - 
+  - Chaining together links in a 'pipeline'
+  - Intro to process substitution (if we have time)
 
 **Assignments:**
 
   - Work through **BDS Chapter 7**
-  - [**Assignment 5**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_5.html){target="_blank"}
+  - Spend 3 hours practicing everything we've done so far
+  - Try putting things together in original ways to get new insights on sequnce data
+  - Ask silly questions like: "What are the counts of Cytosine bases in all seqs that contain the pattern 'GGCCG'?"
+  
+  After playing around a bit, I came up with the following for that silly question:
+  
+```cat Assignment_3_Combined_Files.fasta | grep -B 1 "GGCCG"| seqtk comp | cut -f3```
 
+  - Playing around like this in freeform is *the best way* to build your skills between projects.
+  - Your practice tasks (below) will get you started
+  
 **Resources**
 
   - Introduction to regular expressions [video](https://youtu.be/vcRPNhLbhoc?list=PLzNKOozWiEuyNu-kHpVZk59uf04wkQyY2){target="_blank"}
+  - Regular expression tester [... handy tool](https://regex101.com/){target="_blank"}
   - sed video [playlist](https://www.youtube.com/playlist?list=PLcUid3OP_4OW-rwv_mBHzx9MmE5TxvvcQ){target="_blank"} Definitely worth your time!
-  - 
+
   
 **Practice**
 
@@ -369,7 +380,8 @@ knitr::include_graphics("./Media/tuxninja.png")
 **Assignments:**  
 
   - Continue working through **BDS Chapter 7**
-  - **[Assignment 6](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_6.html){target="_blank"} -** convert between tabular and fasta formatted data | process/command substitution | advanced paste
+  - [**Assignment 5**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_5.html){target="_blank"} - using 'awk' & 'process substitution' to interrogate a table
+  - [**Assignment 6**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_6.html){target="_blank"} - convert between tabular and fasta formatted data | process/command substitution | advanced paste  
 
 **Resources**
 
@@ -378,7 +390,7 @@ knitr::include_graphics("./Media/tuxninja.png")
   
 **Practice**
 
-  - Here's an awful-looking one-line command that prints out the phylum from each line of [Chapter_7_Practice_File_2.txt](gzahn.github.io/binf-data-skills/Data/Chapter_7_Practice_File_2.txt) along with a number sequence next to it showing which line of the file it came from.
+  - Here's an awful-looking one-line command that prints out the phylum from each line of [Chapter_7_Practice_File_2.txt](https://gzahn.github.io/binf-data-skills/Data/Chapter_7_Practice_File_2.txt){target="_blank"} along with a number sequence next to it showing which line of the file it came from.
   - It uses both process and command substitution, but essentially, it's just the paste command pasting together the phylum in the first field and the numbers 1-34 in the second field
   - I want you to break it apart, looking at each component and understand why it works!
   
@@ -531,6 +543,10 @@ knitr::include_graphics("./Media/kingspeak.png")
         
   - prefetch [instructions](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc&f=prefetch){target="_blank"}
   - fastq-dump [instructions](https://gzahn.github.io/binf-data-skills/Media/fastq-dump_instructions.html){target="_blank"} from the Edwards Lab
+  - fasterq-dump has basically replaced the previous, but if you want to use the old school method:
+  
+  ```fastq-dump --outdir fastq --gzip --skip-technical --readids --read-filter pass --dumpbase --split-3 --clip SRR_ID```
+  
   - [FileZilla](https://filezilla-project.org/){target="_blank"} is a free FTP client that really comes in handy for moving files to and from remote servers
 
  
@@ -565,7 +581,7 @@ knitr::include_graphics("./Media/gitflow.png")
 
 **Topics:**
   
-  - Let's use this time to explore the Kudzu GBS data
+  - Let's use this time to explore topics of interest
   - We can also talk about bioinformatics collaborations and your role as a data expert
   
 **Assignments:**
@@ -575,7 +591,7 @@ knitr::include_graphics("./Media/gitflow.png")
 **Resources**
 
   - [Effectively collaborating](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007531){target="_blank"} as a bioinformaticist
-  - Very cool (website)[https://sandbox.bio/]{target="_blank"} that let's you play with BINF tools interactively
+  - Very cool [website](https://sandbox.bio/){target="_blank"} that let's you play with BINF tools interactively
   
 **Practice**
 
@@ -609,6 +625,9 @@ knitr::include_graphics("./Media/sh_script.png")
     + Turn it into an interactive script where the user provides the name of the project
     + It should then generate a full project directory structure based on that name
   
+  - [Assignment 9](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_9.html)
+  
+  
 **Resources**
 
   - Using [positional bash arguments](https://bash.cyberciti.biz/guide/$1){target="_blank"} in a script
@@ -620,7 +639,7 @@ knitr::include_graphics("./Media/sh_script.png")
   - Build a bash script that can:
   
     + determine the file extension of fasta, fasta.gz, fastq, fastq.gz
-    + uses conditional statements to print the number of sequences in the file, regardless of format (as long as it's one of those 4)
+    + uses conditional statements to print the number of sequences in the file, *regardless of format* (as long as it's one of those 4)
     + [this forum exchange](https://stackoverflow.com/questions/407184/how-to-check-the-extension-of-a-filename-in-a-bash-script){target="_blank"} might help
   
 [Back to top of page](#top)
@@ -682,16 +701,11 @@ knitr::include_graphics("./Media/galaxybrain.jpeg")
 
 **Topics:** 
 
-  -
-  -
-  -
-  
+  - TBD - Depends on class project
+
 **Assignments:**
 
-  - **Case Study 3** - Assemble a metagenome on the remote cluster
-
-    + metaSPADEs
-    + classify reads with DIAMOND?
+  - **Case Study 3** - TBD - Depends on class project
 
 **Resources**
 
@@ -714,28 +728,15 @@ knitr::include_graphics("./Media/galaxybody.jpg")
 </div>
 
 ### **Week 15**{#Week-15}
-#### Creating a Custom Bioinformatics Tool
+#### TBD - Depends on class project
 
 **Topics:**
 
-  - 
-  - 
-  - Testing with toy examples
+  - TBD - Depends on class project
   
 **Assignments:**
 
-  - **Case Study 4** - Download NCBI marker genes and use Unix tools to build a custom RDP-Classifier-compatible reference database
-
-    + Reingineer https://github.com/gzahn/Format_NCBI_QIIME
-    + Edirect (command-line version of NCBI search tool)
-    + ftp, BLAST, NCBI, data cleaning and reformatting
-    + Turn into a completely reproducible and portable script
-    + requires entrez_qiime.py installation and use
-    + has to be well-documented
-    + push tool to GitHub
-    + uses chapters: 2,3,6,7,10,12,5
-    + script should automate download and building with helpful messages along the way
-
+  - **Case Study 4** - TBD - Depends on class project
 
 
 
@@ -763,16 +764,12 @@ knitr::include_graphics("./Media/imagod.jpg")
 
 **Topics:**
 
-  -
-  -
-  -
-  
+  - Class discussion
+
 **Assignments:**
 
   - **Assignment 10 -** Reflection piece on what you've learned and what next steps you'll take
-  -
-  -
-
+  
 [Back to top of page](#top)
 
 

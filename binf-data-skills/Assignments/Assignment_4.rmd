@@ -50,12 +50,10 @@ Use: seqtk SUBCOMMAND -OPTIONS FILENAME
   - min AT fraction of .75
 
   **12. For the** seqtk rename **program, what command would rename each sequence header to have the prefix "Seq_"**  
-  
-  **13. Download and install the fasx-toolkit program from [this website](http://hannonlab.cshl.edu/fastx_toolkit/index.html){target="_blank"}**
-  
+
   - Be sure to keep track of any commands used in your terminal to install the program
   
-  **14. This third file [download](https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_3.fasta){target="_blank"} contains a Fasta-formatted list of sequences, but it's in an odd format.  What is the difference from other 'standard' Fastas? What command found in the** fastx-toolkit **program would convert it to that 'standard' format?**
+  **13. This third file [download](https://gzahn.github.io/binf-data-skills/Data/Assignment_4_File_3.fasta){target="_blank"} contains a Fasta-formatted list of sequences, but it's in an odd format.  What is the difference from other 'standard' Fastas? What command found in the** seqtk **program would convert it to that 'standard' format?**
   
 ___
   
@@ -63,7 +61,7 @@ ___
 
   - Store a cleaned-up plain-text file that documents the code you used for tasks 4-13
   - Be sure to include comments explaining what is going on in your code
-  - At the bottom of the file, give your answer to the question in task 14, including:
+  - At the bottom of the file, give your answer to the question in task 13, including:
     + an example of the first 2 lines of Assignment_4_File_3.fasta
     + a brief description about what's different about this fasta file
     + the fastx-toolkit command you used to transform it to 'standard' format

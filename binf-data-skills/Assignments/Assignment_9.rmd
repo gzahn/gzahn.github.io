@@ -1,0 +1,35 @@
+---
+output: 
+html_document:
+  number_sections=TRUE
+pagetitle: Assignment_9
+---
+    
+# **Bioinformatics Data Skills**
+    
+## Assignment 9
+
+Remember that "create a new project" script you wrote at the beginning of the semester?
+
+  + Turn it into an interactive script where the user provides the name of the project
+  + It should then generate a full project directory structure based on that name
+  + It can be either be interactive or require user parameters
+  + I should be able to give your program a name (like "cow_microbiome") and it should instantly build me a blank project with that name and a useful directory structure, including a README file.
+
+___
+
+#### Your tasks:
+
+**1. Write that shell script**
+
+___
+
+### **What to turn in:**
+
+  - A plaintext file (on Canvas) containing the **complete** contents of your create_empty_project.sh script
+  
+Upload the plain-text file(s) to Canvas. You'll be graded on completeness, documentation, and readability.
+
+___
+
+<br/>
