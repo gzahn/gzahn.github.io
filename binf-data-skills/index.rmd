@@ -70,20 +70,21 @@ knitr::include_graphics("./Media/StarWars.png")
 
 **Assignments:**
 
-  - Read through **BDS Chapter 1**... twice, and carefully
+  - Purchase the [textbook](https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/){target="_blank"}
+  - Read through [**Chapter 1**](https://gzahn.github.io/binf-data-skills/Media/bds_Ch1.pdf){target="_blank"} of the textbook ... twice, and carefully
   - Find and explore the supplemental materials for the chapter on GitHub
-  - Go through the resources below (Do this every week before class!)
+  - Go through the *resources* below (Do this every week before class!)
   - [**Assignment 1 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_1.html){target="_blank"} Reflection piece on why you want to learn command line skills and best practices
   - Set up your computer environment (Command-line, Git)
 
 **Resources**
 
   - Intro to Linux [Video](https://youtu.be/0EYrzOKtuBg){target="_blank"}
-  - [Download Git](https://git-scm.com/downloads){target="_blank"}
-  - Supplemental files for all textbook chapters -  [REPOSITORY](https://github.com/vsbuffalo/bds-files){target="_blank"}
+  - [Download Git](https://git-scm.com/downloads){target="_blank"} 
+  - Supplemental files for all textbook chapters - [REPOSITORY](https://github.com/vsbuffalo/bds-files){target="_blank"}
   - Navigating your computer with a terminal [video](https://youtu.be/fdkbQ0MduBY){target="_blank"}
-  - Recorded Lesson [Part 1](https://youtu.be/oXBkqoz-xf4){target="_blank"}
-  - Recorded Lesson [Part 2](https://youtu.be/3W5tkJ5NDrQ){target="_blank"}
+  - Recorded Lesson (old) [Part 1](https://youtu.be/oXBkqoz-xf4){target="_blank"}
+  - Recorded Lesson (old) [Part 2](https://youtu.be/3W5tkJ5NDrQ){target="_blank"}
 
 **Practice**
 
@@ -134,11 +135,11 @@ knitr::include_graphics("./Media/filetree.png")
   
   - Guide to reproducible code... [read this!](https://gzahn.github.io/binf-data-skills/Media/guide-to-reproducible-code.pdf){target="_blank"}
   - File paths [explained](https://www.geeksforgeeks.org/absolute-relative-pathnames-unix/){target="_blank"}
-  - [Example project structure](https://github.com/gzahn/Juniper_Microbes){target="_blank"}
+  - [Example project structure](https://github.com/gzahn/Plant_Virus_ONT){target="_blank"}
   - Beginners' guide to the Bash terminal [video](https://youtu.be/oxuRxtrO2Ag?list=PLzNKOozWiEuyNu-kHpVZk59uf04wkQyY2){target="_blank"} (need to watch if you haven't used a terminal before)
   - Common Unix [commands](https://www.unixtutorial.org/basic-unix-commands){target="_blank"}
-  - Recorded Lesson [Part 1](https://youtu.be/YaAEFORfND8){target="_blank"}
-  - Recorded Lesson [Part 2](https://youtu.be/7l8XXKivOK4){target="_blank"}
+  - Recorded Lesson (old) [Part 1](https://youtu.be/YaAEFORfND8){target="_blank"}
+  - Recorded Lesson (old) [Part 2](https://youtu.be/7l8XXKivOK4){target="_blank"}
   
 **Practice**
 
@@ -181,10 +182,12 @@ knitr::include_graphics("./Media/pipeflow.png")
 
 **Assignments:**
 
+  - If you're using a Mac, you should go ahead and install [**homebrew**](https://brew.sh/) 
+  - Next (Mac users only), paste the commands from [this script](https://gzahn.github.io/binf-data-skills/Media/Mac_GNU_Tools.txt){target="_blank"} into your terminal. That will use 'homebrew' to give you the added functionality of '[GNU](https://en.wikipedia.org/wiki/GNU){target="_blank"}' commands along with some other stuff you'll need.
   - Read through **BDS Chapter 3**
   - Work through **BDS Chapter 3**, following along in your own terminal
   - [**Assignment 3 -**](https://gzahn.github.io/binf-data-skills/Assignments/Assignment_3.html){target="_blank"} Running shell scripts, redirecting, pipes, background processes
-  - Read/watch **_ALL_** of the resouces below. Be able to write a for-loop. 
+  - Read/watch **_ALL_** of the resources below. Be able to write a for-loop. 
 
 **Resources**
 
@@ -203,8 +206,8 @@ knitr::include_graphics("./Media/pipeflow.png")
   - Bonus tips: 
     + BASH aliases [video](https://youtu.be/21LpBiQVDhM){target="_blank"}
     + BASH alias [examples](https://gzahn.github.io/data-course/Repository/Code_Examples/handy_bash_aliases.txt){target="_blank"}
-  - Recorded Lesson [Part 1](https://youtu.be/1nM-vXIg4vQ){target="_blank"}
-  - Recorded Lesson [Part 2](https://youtu.be/tZKeo1o2bi0){target="_blank"} (mostly trying to get things to work on Windows)
+  - Recorded Lesson (old) [Part 1](https://youtu.be/1nM-vXIg4vQ){target="_blank"}
+  - Recorded Lesson (old) [Part 2](https://youtu.be/tZKeo1o2bi0){target="_blank"} (mostly trying to get things to work on Windows)
   
 **Practice**
 
@@ -244,11 +247,12 @@ knitr::include_graphics("./Media/fastq_fig.jpg")
 
   - [seqtk](https://github.com/lh3/seqtk){target="_blank"}
   - fasta and fastq [formats](https://compgenomr.github.io/book/fasta-and-fastq-formats.html){target="_blank"}
+  - [VIDEO](https://youtu.be/kpbh-6KCVkc){target="_blank"} on fasta, fastq, and gzip compression
   - [phred scores](https://www.drive5.com/usearch/manual/quality_score.html){target="_blank"}
   - fasta format for [peptide sequences](https://zhanglab.ccmb.med.umich.edu/FASTA/){target="_blank"}
-  - Recorded Lesson [Part 1](https://youtu.be/A8Lpn5BOwnw){target="_blank"}
-  - Recorded Lesson [Part 2](https://youtu.be/gXvv1K9PAO4){target="_blank"}
-  - Recorded Lesson [Part 3](https://youtu.be/haQp5IYHNfU){target="_blank"} 
+  - Recorded Lesson (old) [Part 1](https://youtu.be/A8Lpn5BOwnw){target="_blank"}
+  - Recorded Lesson (old) [Part 2](https://youtu.be/gXvv1K9PAO4){target="_blank"}
+  - Recorded Lesson (old) [Part 3](https://youtu.be/haQp5IYHNfU){target="_blank"} 
   
 **Practice**
 
