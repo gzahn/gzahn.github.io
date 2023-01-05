@@ -206,5 +206,51 @@ ___
     + Mantel / MRM / PermANOVA / Ordination / Networks
     + Differential tests
   - Technological methods and limitations
-  
 
+<br>
+
+___
+
+<br> 
+
+# Weekly tasks and assignments
+
+### [Assignment 1](https://gzahn.github.io/microbiome_bootcamp/assignments/assignment_1.html){target="_blank"}
+
+  - Read a paper several times and compile questions
+  
+### [Assignment 2](https://gzahn.github.io/microbiome_bootcamp/assignments/assignment_2.html){target="_blank"}
+
+  - Literature/resource search and annotation
+  
+### [Assignment 3](https://gzahn.github.io/microbiome_bootcamp/assignments/assignment_3.html){target="_blank"}
+
+  - TBD
+
+### [Assignment 4](https://gzahn.github.io/microbiome_bootcamp/assignments/assignment_4.html){target="_blank"}
+
+  - TBD
+
+### [Assignment 5](https://gzahn.github.io/microbiome_bootcamp/assignments/assignment_5.html){target="_blank"}
+
+  - TBD
+
+### [Assignment 6](https://gzahn.github.io/microbiome_bootcamp/assignments/assignment_6.html){target="_blank"}
+
+  - TBD
+
+### [Assignment 7](https://gzahn.github.io/microbiome_bootcamp/assignments/assignment_7.html){target="_blank"}
+
+  - TBD
+
+### [Assignment 8](https://gzahn.github.io/microbiome_bootcamp/assignments/assignment_8.html){target="_blank"}
+
+  - TBD
+
+### [Assignment 9](https://gzahn.github.io/microbiome_bootcamp/assignments/assignment_9.html){target="_blank"}
+
+  - TBD
+
+### [Assignment 10](https://gzahn.github.io/microbiome_bootcamp/assignments/assignment_10.html){target="_blank"}
+
+  - TBD
