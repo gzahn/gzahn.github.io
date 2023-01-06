@@ -32,7 +32,11 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 # **Microbiome Boot Camp**{#top}
 Utah Valley University - BIOL490R
 
+## [**Syllabus**](https://gzahn.github.io/microbiome_bootcamp/syllabus.html)
+
 ___
+
+
 
 
 # Course goals
