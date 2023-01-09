@@ -13,9 +13,14 @@ library(readxl)
 library(kableExtra)
 lg <- read_xlsx("./media/myc_sheets.xlsx",sheet=1)
 pts <- read_xlsx("./media/myc_sheets.xlsx",sheet=2)
+pts[4,2] <- 300
+pts <- 
+pts %>% 
+  filter(Item != "Exams (including final)")
+pts$Item
 ```
 
-# **Mycology Syllabus - Fall 2022**
+# **Mycology Syllabus - Spring 2023**
 
 ## **Instructor info:**
 
@@ -78,11 +83,8 @@ _____________________________
 Here's what to expect:
 
   + Regular literature readings and quizzes
-  + A couple of exams
   + Semester-long research projects
   + Research presentation
-
-
 
 **Grading:**
 
@@ -112,11 +114,6 @@ ____________________
 This course will heavily feature readings from primary research and review articles. Students will take turns being responsible for leading class discussions about assigned articles. There will also be in-class quizzes over the readings to encourage full participation. Research articles can be difficult to comprehend. Do NOT expect to be able to quickly read an article once and do well on quiz or discussion points. You will most likely need to read each article several times as you gain experience with primary literature. Points will be awarded for quizzes and for participation in discussions, including leading assigned group discussions. We will read and discuss at least 10 journal articles. Any additional readings/discussions can serve as make-up points, but these are not guaranteed. A tentative list of the journal articles we will be reading is found at the end of this syllabus.
 
 
-### **Exams:**
-
-We will have two exams, including the final.  These will be worth 100 points each. Exams will be announced in class and on Canvas with plenty of time to prepare (at least one week notice) and a review session will be provided prior to each exam.  Exams will assess knowledge of fungal biology/ecology, laboratory skills, and methodology used in mycology.  This means that questions may come from the journal articles we read and some exam points will require lab work.
-
-
 ### **Lab Assignments:**
 
 Most of the course will involve laboratory work. The graded assignments will be announced in class and detailed instructions will be uploaded to Canvas. The bulk of these points will come from participation in culturing, DNA, and identification work in-class. Examples of these assignments include: 
@@ -129,7 +126,7 @@ Most of the course will involve laboratory work. The graded assignments will be 
 	-	“Agar art” gallery
 	-	Field collections of substrates and fruiting bodies
 
-These assignments will have variable point values.
+These assignments will have variable point values. Participation counts toward these points as well. If you aren't coming to class, haven't read the assigned papers, etc., you will lose out on points here.
 
 
 ### **Semester Projects:**
@@ -149,6 +146,10 @@ The use of human or other vertebrate subjects will not be allowed (too much pape
   
 Students will develop and submit a funding proposal for their research projects. This will be a lot of work and will occupy the first several weeks of the course. Getting funding is wonderful, but your grade does not depend on it...only on a timely, complete, and competent submission.
 
+[Example SAC Proposal 1](https://gzahn.github.io/mycology/media/Funded_SAC_1.pdf)
+
+[Example SAC Proposal 2](https://gzahn.github.io/mycology/media/Funded_SAC_02.pdf)
+
   2. Research project
   
 Actually carrying out the research project will take the bulk of the semester. You will collect and analyze data and if you are lucky, you will get some results.
@@ -157,6 +158,11 @@ Actually carrying out the research project will take the bulk of the semester. Y
   
 Students will also put together a poster presentation describing the project and results. We will display these in the Science Building Atrium towards the end of the semester. These will be graded on design elements as well as content. You will have to be present at the poster session to receive credit for it.
 
+  4. SAC Report to College of Science
+  
+You must give a report on your project to the College of Science. This is a docx file with a brief report from each member of the team along with a minimum of one photo of the research process. You will turn these into me. I will not release your grade until I have your report.
+
+[Example SAC Report](https://gzahn.github.io/mycology/media/SAC_report_SHS007.pdf)
 
 ____________________
 
