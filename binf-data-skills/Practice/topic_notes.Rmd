@@ -15,25 +15,28 @@ library(tidyverse)
 library(kableExtra)
 ```
 
-### A few words of wisdom:
+### A few words of wisdom
 
   - File extensions don't actually mean anything. A .csv file doesn't *have* to be comma-separated values. A .txt file could actually be a gzipped fasta.
   - Use relative file paths whenever possible. Each project has its own directory and file paths start from there.
   - There are usually 50 ways to accomplish the same task. There is no 'right way' as long as it works, is consistent, and is reproducible.
-  - 
+  - File/Dir names **NEVER** have spaces in them. File names should be useful to both you and the code you write. You should use a naming system that can be *programmatically* accessed.
+    + ```sample_01_R1.fasta``` is a good name
+    + ```Sample1R1.fasta``` is a bad name
+    + ```sample 1 forwardreads.fasta``` is unacceptable and will get you kicked out of class
 
 
 
 
-### Bash programs:
+### Bash programs
 
 ```{r programs, include=FALSE,message=FALSE,warning=FALSE}
-bash_programs <- c('pwd','ls',"cd",'cat','touch','nano','cp','mv','rm','cut','grep','wget','sed')
+bash_programs <- c('pwd','ls',"cd",'cat','touch','nano','cp','mv','rm','cut','grep','wget','sed','mkdir')
 purpose <- c('where am I?','what stuff is here?','change directory <path>',
               'stick stuff together and print to screen','reset timestamp / make empty file','bash text editor','copy <from> <to>','move <from> <to>',
-              'remove FOREVER','pick fields (columns) -f field #s -d delimiter','find lines in a file that match a pattern','pull a file from a URL and save it as a file locally','streaming editor')
+              'remove FOREVER','pick fields (columns) -f field #s -d delimiter','find lines in a file that match a pattern','pull a file from a URL and save it as a file locally','streaming editor','make new directory')
 info <- c("https://ss64.com/bash/pwd.html","https://ss64.com/bash/ls.html",
-             "https://ss64.com/bash/cd.html","https://ss64.com/bash/cat.html","https://ss64.com/bash/touch.html","https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/","https://ss64.com/bash/cp.html","https://ss64.com/bash/mv.html","https://ss64.com/bash/rm.html","https://ss64.com/bash/cut.html","https://ss64.com/bash/grep.html","https://linuxize.com/post/wget-command-examples/","https://www.tutorialspoint.com/sed/sed_quick_guide.htm")
+             "https://ss64.com/bash/cd.html","https://ss64.com/bash/cat.html","https://ss64.com/bash/touch.html","https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/","https://ss64.com/bash/cp.html","https://ss64.com/bash/mv.html","https://ss64.com/bash/rm.html","https://ss64.com/bash/cut.html","https://ss64.com/bash/grep.html","https://linuxize.com/post/wget-command-examples/","https://www.tutorialspoint.com/sed/sed_quick_guide.htm",'https://man7.org/linux/man-pages/man1/mkdir.1.html')
 ```
 
 ```{r,echo=FALSE}
@@ -47,6 +50,18 @@ data.frame(bash_programs,purpose,info) %>%
 
 ___
 
+### Project structure
+
+Every project you work on should strive to be self-contained. It should also document itself.
+
+  - README file to explain project motivation, data sources, hypotheses, *etc.*
+  - Workflow file that documents EVERYTHING that you've done, from acquiring raw data through all processing/analysis steps
+  - Data should live inside the project (if not using cloud solutions)
+  - File names should be intuitive and programmatic
+
+![](../Media/dir_structure.png)
+
+___
 
 ### Manipulating 'streams'
 
