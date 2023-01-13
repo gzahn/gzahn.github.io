@@ -19,17 +19,7 @@ In this assignment, you will use R language to:
 
 ___
 
-## First things first, if you haven't done this already...
-
-You need to clone another GitHub repository to your computer. This repository contains all the files (except exams) that we will use for the course. It has several subdirectories, lots of data files, exercises, etc. Most of these can be found on the course website as well, but I want you to have a local copy of everything on your own computer so you can get practice using the command line. 
-
-So, open your command-line terminal and navigate to your Desktop. Then copy/paste the following line to clone our "Data_Course" repository.
-
-```{bash,include=TRUE,eval=FALSE}
-git clone https://github.com/gzahn/Data_Course.git
-```
-
-This assignment will be completed using RStudio working within an "RProject" in this new "Data_Course" directory.
+This assignment will be completed using RStudio working within an "RProject" in your "Data_Course_LASTNAME" directory.
 
 **All file paths should be relative, starting from the main Data_Course directory**
 
@@ -46,17 +36,17 @@ ____________
 
 ## Complete the following tasks:
 
-1.  Open RStudio and then open the RProject associated with the Data_Course repository you just cloned.
+1.  Open RStudio and then make a new RProject associated with the Data_Course_LASTNAME repository you created.
 
-File > Open Project > Navigate to the new "Data_Course" directory > Double-click "Data_Course.Rproj"
+File > New Project > Existing Directory > Navigate to the new "Data_Course_LASTNAME" directory > Click "Open"
 
-You will now be working in an RProject, meaning that all file paths will be self-contained (we will talk about this)
+You will now be working in an RProject, meaning that all file paths will be relative and self-contained (we will talk about this)
 
 ```{r, out.width = "600px",echo=FALSE}
 knitr::include_graphics("./rstudio_img1.png")
 ```
 
-2.  In RStudio, look at the lower right window and click on the "Files" tab.  You should be looking at all the files associated with this RProject. You can navigate through them just like any file explorer. Look in the "Data" directory to see a bunch of data files.
+2.  In RStudio, look at the lower right window and click on the "Files" tab.  You should be looking at all the files associated with this RProject. You can navigate through them just like any file explorer. Look in the "Data" directory to see a bunch of data files (You copied these over from my repository).
 
 3.  Open a new Rscript (will appear in the top left window) || File > New File > R script
 
