@@ -63,6 +63,19 @@ Every project you work on should strive to be self-contained. It should also doc
 
 ___
 
+### Special characters in Bash
+
+**See [this link](https://mywiki.wooledge.org/BashGuide/SpecialCharacters){target="_blank"} for a list of special characters.**
+
+If any file name or pattern you're trying to match contains one of these characters and you want it to be interpreted literally, you need to include a back-slash right in front of the character.
+
+For example, the file `Sample 1.fasta` has a space. That's a special character! So to point to this file in a script, you would have to specify `Sample\ 1.fasta` which interprets the space as literally just a space character instead of its special meaning.
+
+If your search string includes a back-slash for some insane but likely reason, you'd have to escape it as well: `File\1.fasta` can only be addressed as `File\\1.fasta`
+
+
+___
+
 ### Manipulating 'streams'
 
 **All terminal information is text-based and flows through 3 main 'streams.' These streams have names and numbers:**
@@ -96,9 +109,11 @@ ___
 
 ### Wildcards and pattern matching
 
+These wildcards and special patterns ARE DIFFERENT FROM standard Bash special characters and they are used in **Regular Expressions** for pattern matching...
+
 ```{r,echo=FALSE}
 data.frame(symbol=c("\\*","\\? or . depending on regex flavor","[1,2,3]","x{4}","^","[^a]","$","\\\\"),
-           meaning=c("matches 0 to infinite of ANYTHING", "matches up to one instance of any character", "matches exactly one instance of 1, 2, OR 3","the preceding character will be matched exactly 4 times","pattern after ^ must be at the BEGINNING of a line","matches any character EXCEPT 'a'","pattern preceding $ must be at the END of a line","'escape character' any special character will be interpreted literally instead of its special meaning")) %>% 
+           meaning=c("matches 0 to infinite of ANYTHING", "matches up to one instance of any character", "matches exactly one instance of 1, 2, OR 3","the preceding character will be matched exactly 4 times","matches BEGINNING OF LINE","matches any character EXCEPT 'a'","matches END OF LINE","'escape character' any special character will be interpreted literally instead of its special meaning")) %>% 
   kable() %>% 
   kable_classic(lightable_options = 'hover') %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>% 
