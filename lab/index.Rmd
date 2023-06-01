@@ -21,88 +21,225 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "gray">
 
-# Lab!
 
 ## Our lab investigates the causes and consequences of microbial community formation, including the roles of fungi in symbioses, how microbes respond to and influence a changing environment, and how to harness microbes to improve conservation of macroorganisms.
 
 <div style= "float:right;position: relative;">
 ```{r, out.width = "400px",echo=FALSE}
-knitr::include_graphics("../wp-content/uploads/Lab_Members-1024x675.jpg")
+knitr::include_graphics("../media/Lab_Cookout.jpg")
 ```
 </div>
 
 
-## Here’s the [online lab handbook](https://github.com/gzahn/Lab_Manual/blob/master/README.md) with expectations and information for lab members.
+### Here’s the [online lab handbook](https://github.com/gzahn/Lab_Manual/blob/master/README.md) with expectations and information for lab members.
 
-## Students interested in joining the lab should [fill out this application](https://github.com/gzahn/Profile/raw/master/Student_Research_Application.docx) and bring a hard copy to my office.
+### Students interested in joining the lab should [fill out this application](https://github.com/gzahn/Profile/raw/master/Student_Research_Application.docx) and bring a hard copy to my office.
 
-## Space is limited, and applications are accepted on a rolling basis. Please feel free come by my office to chat with me if you have a specific project in mind. Priority is given to students with at least 2 years left until graduation.
+### Space is limited, and applications are accepted on a rolling basis. Please feel free come by my office to chat with me if you have a specific project in mind. Priority is given to students with at least 2 years left until graduation.
 
 ### Here's our [shared reading folder](https://www.zotero.org/groups/415455/microbe_ecology/items?).
-</div>
 
 ### If you need a reference letter from me for graduate or professional school, please see [these instructions](https://gzahn.github.io/lab/reference_letters.html)
+
+</div>
+
 
 <style>
 div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
 
-# **We work with a number of systems, focused on microbial community structure and function:**
-<br><br>
+<center>
+# **People**
+<br>
 
-<div style= "float:right;position: relative;">
-```{r, out.width = "400px",echo=FALSE}
-knitr::include_graphics("../wp-content/uploads/coral.jpeg")
+___
+
+<br>
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/geoff_pic.jpeg")
 ```
-</div>
 
-## **Urbanized coral reefs and seagrass meadows**
-### We're collaborating with the National University of Singapore to explore the microbes associating with corals, and are especially interested in tracking community structure during bleaching events. By comparing coral microbiomes at a range of spatial scales, across a diversity of human imapcts, coral ages, and even localized ocean currents, we are piecing together the core coral microbiome and uncovering factors that shape microbial community formation on these endangered ecosystems.
-<br><br><br><br><br><br><br>
+### **Geoff Zahn, PI**
+<br>
 
-<div style= "float:left;position: relative;left: -5px">
-```{r, out.width = "400px",echo=FALSE,fig.}
-knitr::include_graphics("../wp-content/uploads/firesoil.jpg")
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/josh_leon_pic.jpeg")
 ```
-</div>
 
-## **Alpine forest fires**
-### We're using microcosms and the natural laboratory of Utah alpine forests to study microbial succession in soils after fires. Our sampling includes fire sites from ~20 years ago to recently burned areas. We also use simulated forest fires in a series of mesocosms to track microbial recovery at a very fine temporal scale. Preliminary data agrees with the hypothesis that full recovery can take decades, but we are seeing that temperature and precipitation increases can speed up this recovery time.
-<br><br><br><br><br><br><br><br>
+### **[Josh Leon](https://jleon123.github.io/)**
 
-<div style= "float:right;position: relative;">
-```{r, out.width = "400px",echo=FALSE}
-knitr::include_graphics("../wp-content/uploads/dictyped.png")
+Plant microbiomes
+
+<br>
+
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/magnolia_morelli_pic.png")
 ```
-</div>
 
-<br><br>
+### **[Magnolia Morelli](https://magnoliamorelli.github.io/)**
 
-## **Soil microcosms**
-### We are using manipulated soil microcosms and high-throughput DNA sequencing to tease apart the roles that amoeboid predators have in shaping bacterial communities and how this role is influenced by a changing climate. By experimentally manipulating soil communities, we can study predations role in nutrient cycling under changing climate conditions. Our key player in this system is *Dictyostelium discoideum*, the cellular slime mold. Our previous work has shown that soil structure and temperature interact to change the influence of predation on carbon cycling. We are extending that work to uncover how this effect is mediated by looking at how predation "preferences" change under warming conditions.
-<br><br><br><br><br><br><br><br><br>
+Fungal genomics
+
+<br>
 
 
-<div style= "float:left;position: relative;left: -5px;top: 15">
-```{r, out.width = "400px",echo=FALSE}
-knitr::include_graphics("../wp-content/uploads/gsl.jpg")
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/Stick_Figure.png")
 ```
-</div>
 
-## **The Great Salt Lake**
-### We are curious about the fungi that inhabit the hypersaline environment of the Great Salt Lake, and are sampling water and sediment along a salinity gradient from a freshwater input source up through the extremely hypersaline northern half of the lake. Our initial aim is to collect baseline data on the microbial food web in this important habitat and explore the environmental limits of extremophilic fungi. We are also building a culture library of the unique fungi we find, for future bioprospecting and phylogenetic work.
-<br><br><br><br><br>
+### **Jacob Mora**
+
+Freshwater plant microbiomes
+
+<br>
 
 
-<div style= "float:right;position: relative;">
-```{r, out.width = "400px",echo=FALSE}
-knitr::include_graphics("../wp-content/uploads/cactus.jpg")
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/austen_miller_pic.png")
 ```
-</div>
 
-## **Critically-endangered cacti**
-### Working with Capitol Reef National Park, we developed non-detrimental methods to explore the microbial endophytes of critically-endangered cacti. We are using this system to explore the role of fungal symbionts in alleviating pathogen damage and herbivory for these rare plants.  This is a difficult study system, but has tangible and rewarding impacts on the survival of these cacti in nature.
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
- 
-</div>
+### **[Austen Miller](https://amaceituna.github.io/)**
+
+Spatial endophyte assembly
+
+___
+
+## **Alumni**
+
+(and last known whereabouts)
+<br>
+
+<br>
+
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/jo_hickman_pic.png")
+```
+
+### **[Jo Hickman](https://kjehickman.github.io)**
+
+PhD - MIT/WHOI
+
+<br>
+
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/clayton_rawson_pic.jpg")
+```
+
+### **Clayton Rawson**
+
+DO/PhD - Noorda/BYU
+
+<br>
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/matthew_nielsen_pic.jpeg")
+```
+
+### **Matthew Nielsen**
+
+DDS - Univ. of Utah
+
+<br>
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/alyssa_tidwell_pic.jpg")
+```
+
+### **Alyssa Tidwell**
+
+PhD - ORNL/UT Knoxville
+
+<br>
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/reagan_dodge_pic.jpeg")
+```
+
+### **Reagan Dodge**
+
+BioFire Defense, Inc.
+
+<br>
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/josh_zushi_pic.jpg")
+```
+
+### **Josh Zushi**
+
+Instructure, Inc.
+
+<br>
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/joseph_jimenez_pic.jpg")
+```
+
+### **Joseph Jimenez**
+
+DDS - Univ. of Texas
+
+<br>
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/sam_smalley_pic.jpeg")
+```
+
+### **Sam Smalley**
+
+PhD - PNNL/Washington State Univ.
+
+
+<br>
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/bryce_brunetti_pic.jpg")
+```
+
+### **Bryce Brunetti**
+
+BioFire Defense, Inc.
+
+<br>
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/spencer_mcgee_pic.jpg")
+```
+
+### **Spencer McGee**
+
+Intermountain Healthcare
+
+<br>
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/nicholas_long_pic.jpg")
+```
+
+### **Nicholas Long**
+
+DDS - Univ. of Iowa
+
+<br>
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
+knitr::include_graphics("../media/harrison_haws_pic.png")
+```
+
+### **Harrison Haws**
+
+DDS - Univ. of the Pacific
+
+
+
+
+
+
+
+</center>
