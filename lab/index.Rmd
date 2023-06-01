@@ -65,46 +65,27 @@ knitr::include_graphics("../media/geoff_pic.jpeg")
 <br>
 
 
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/josh_leon_pic.jpeg")
+```{r, out.width = "200px",echo=FALSE,out.height='200px'}
+knitr::include_graphics(c("../media/josh_leon_pic.jpeg","../media/magnolia_morelli_pic.png"))
 ```
 
-### **[Josh Leon](https://jleon123.github.io/)**
+### **&nbsp;&nbsp;&nbsp;[Josh Leon](https://jleon123.github.io/)** &emsp; &nbsp;&nbsp; **[Magnolia Morelli](https://magnoliamorelli.github.io/)**
 
-Plant microbiomes
+Plant microbiomes &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fungal genomics &emsp;&emsp;
 
 <br>
 
 
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/magnolia_morelli_pic.png")
+```{r, out.width = "200px",echo=FALSE,fig.pos='right',out.height='200px'}
+knitr::include_graphics(c("../media/Stick_Figure.png","../media/austen_miller_pic.png"))
 ```
 
-### **[Magnolia Morelli](https://magnoliamorelli.github.io/)**
+### **Jacob Mora** &emsp; &nbsp;&nbsp; **[Austen Miller](https://amaceituna.github.io/)**
 
-Fungal genomics
+Aquatic plant microbiomes &emsp;&emsp;&emsp; Spatial endophyte assembly &emsp;
 
 <br>
 
-
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/Stick_Figure.png")
-```
-
-### **Jacob Mora**
-
-Freshwater plant microbiomes
-
-<br>
-
-
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/austen_miller_pic.png")
-```
-
-### **[Austen Miller](https://amaceituna.github.io/)**
-
-Spatial endophyte assembly
 
 ___
 
@@ -116,127 +97,65 @@ ___
 <br>
 
 
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/jo_hickman_pic.png")
+```{r, out.width = "200px",echo=FALSE,fig.pos='right',out.height=200}
+knitr::include_graphics(c("../media/jo_hickman_pic.jpeg","../media/clayton_rawson_pic.jpg"))
 ```
 
-### **[Jo Hickman](https://kjehickman.github.io)**
+### **[Jo Hickman](https://kjehickman.github.io)** &emsp;&nbsp;  **Clayton Rawson**
 
-PhD - MIT/WHOI
+PhD - MIT/WHOI &emsp;&emsp;&emsp;&emsp;&emsp; DO/PhD - Noorda/BYU
 
 <br>
 
-
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/clayton_rawson_pic.jpg")
+```{r, out.width = "200px",echo=FALSE,fig.pos='right',out.height="200px"}
+knitr::include_graphics(c("../media/matthew_nielsen_pic.jpeg","../media/alyssa_tidwell_pic.jpg"))
 ```
 
-### **Clayton Rawson**
+### **Matthew Nielsen** &emsp;&nbsp; **Alyssa Tidwell**
 
-DO/PhD - Noorda/BYU
+DDS - Univ. of Utah &emsp;&emsp;&emsp;&emsp;&emsp; PhD - ORNL/UT Knoxville
 
 <br>
 
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/matthew_nielsen_pic.jpeg")
+```{r, out.width = "200px",echo=FALSE,fig.pos='right',out.height='200px'}
+knitr::include_graphics(c("../media/reagan_dodge_pic.jpeg","../media/josh_zushi_pic.jpg"))
 ```
 
-### **Matthew Nielsen**
+### **Reagan Dodge**  &emsp;&nbsp;&nbsp;&nbsp; **Josh Zushi**
 
-DDS - Univ. of Utah
+BioFire Defense, Inc. &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; Instructure, Inc.
 
 <br>
 
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/alyssa_tidwell_pic.jpg")
+```{r, out.width = "200px",echo=FALSE,fig.pos='right',out.height='200px'}
+knitr::include_graphics(c("../media/joseph_jimenez_pic.jpg","../media/sam_smalley_pic.jpeg"))
 ```
 
-### **Alyssa Tidwell**
+### **Joseph Jimenez** &emsp;&nbsp;&nbsp;&nbsp; **Sam Smalley**
 
-PhD - ORNL/UT Knoxville
+DDS - Univ. of Texas &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; PhD - PNNL/WSU
 
 <br>
 
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/reagan_dodge_pic.jpeg")
+```{r, out.width = "200px",echo=FALSE,fig.pos='right',out.height='200px'}
+knitr::include_graphics(c("../media/bryce_brunetti_pic.jpg","../media/spencer_mcgee_pic.jpg"))
 ```
 
-### **Reagan Dodge**
+### **Bryce Brunetti** &emsp;&nbsp;&nbsp;&nbsp; **Spencer McGee**
 
-BioFire Defense, Inc.
+BioFire Defense, Inc. &emsp;&nbsp;&nbsp;&nbsp; Intermountain Healthcare
 
 <br>
 
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/josh_zushi_pic.jpg")
+```{r, out.width = "200px",echo=FALSE,fig.pos='right',out.height='200px'}
+knitr::include_graphics(c("../media/nicholas_long_pic.jpg","../media/harrison_haws_pic.png"))
 ```
 
-### **Josh Zushi**
+### **Nicholas Long** &emsp;&nbsp;&nbsp;&nbsp; **Harrison Haws**
 
-Instructure, Inc.
+DDS - Univ. of Iowa &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; DDS - Univ. of the Pacific
 
 <br>
-
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/joseph_jimenez_pic.jpg")
-```
-
-### **Joseph Jimenez**
-
-DDS - Univ. of Texas
-
-<br>
-
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/sam_smalley_pic.jpeg")
-```
-
-### **Sam Smalley**
-
-PhD - PNNL/Washington State Univ.
-
-
-<br>
-
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/bryce_brunetti_pic.jpg")
-```
-
-### **Bryce Brunetti**
-
-BioFire Defense, Inc.
-
-<br>
-
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/spencer_mcgee_pic.jpg")
-```
-
-### **Spencer McGee**
-
-Intermountain Healthcare
-
-<br>
-
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/nicholas_long_pic.jpg")
-```
-
-### **Nicholas Long**
-
-DDS - Univ. of Iowa
-
-<br>
-
-```{r, out.width = "200px",echo=FALSE,fig.pos='right'}
-knitr::include_graphics("../media/harrison_haws_pic.png")
-```
-
-### **Harrison Haws**
-
-DDS - Univ. of the Pacific
-
-
 
 
 
