@@ -77,10 +77,10 @@ Plant microbiomes &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fungal genomics &emsp;&em
 
 
 ```{r, out.width = "200px",echo=FALSE,fig.pos='right',out.height='200px'}
-knitr::include_graphics(c("../media/Stick_Figure.png","../media/austen_miller_pic.png"))
+knitr::include_graphics(c("../media/jacob_mora_pic.jpeg","../media/austen_miller_pic.png"))
 ```
 
-### **Jacob Mora** &emsp; &nbsp;&nbsp; **[Austen Miller](https://amaceituna.github.io/)**
+### **[Jacob Mora](https://jakemora.github.io)** &emsp; &nbsp;&nbsp; **[Austen Miller](https://amaceituna.github.io/)**
 
 Aquatic plant microbiomes &emsp;&emsp;&emsp; Spatial endophyte assembly &emsp;
 
