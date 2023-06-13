@@ -26,17 +26,25 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 ^†^ Denotes student mentee
 
+**Wainwright, B. J., Millar, T.^†^, Bowen, L.^†^, Semon, L.^†^, Hickman, K. J. E.^†^, Lee, J. N., Yeo, Z. Y., & Zahn, G. (2023). The core mangrove microbiome reveals shared taxa potentially involved in nutrient cycling and promoting host survival. Environmental Microbiome, 18(1), 47. https://doi.org/10.1186/s40793-023-00499-5**
+
+Environmental filtering is occurring in mangrove microbiomes, with hosts selecting for a microbial consortia most suitable for survival in their immediate environment
+
+___
+
+
+**Rawson, C.^†^, & Zahn, G. (2023). Inclusion of database outgroups reduces false positives in fungal metabarcoding taxonomic assignments. Mycologia. https://doi.org/10.1080/00275514.2023.2206931**
+
+Assigning taxonomy to fungal amplicons against a fungal-only database WILL lead to false inflation of fungal diversity. Use a database with eukaryotic outgroups like the UNITE_All database.
+
+___
+
 **McGee, S.^†^, Tidwell, A.^†^, Riggs, E., Veltkamp, H.^†^, & Zahn, G. (2022). Long-term soil fungal community recovery after fire is impacted by climate change. Western North American Naturalist, 82(3). https://scholarsarchive.byu.edu/wnan/vol82/iss3/3**
 
 Soil fungi take a really really long time to bounce back after a forest fire, but warmer soil speeds up the process.
 
 ___
 
-**Rawson, C.^†^, & Zahn, G. (2022). Inclusion of database outgroups improves accuracy of fungal meta-amplicon taxonomic assignments (p. 2022.11.21.517387). bioRxiv. https://doi.org/10.1101/2022.11.21.517387**
-
-Preprint: Assigning taxonomy to fungal amplicons against a fungal-only database WILL lead to false inflation of fungal diversity. Use the UNITE_All database.
-
-___
 
 **Tedersoo, L., Mikryukov, V., Zizka, A., Bahram, M., Hagh-Doust, N., Anslan, S., Prylutskyi, O., Delgado-Baquerizo, M., Maestre, F. T., Pärn, J., Öpik, M., Moora, M., Zobel, M., Espenberg, M., Mander, Ü., Khalid, A. N., Corrales, A., Agan, A., Vasco-Palacios, A.-M., … Abarenkov, K. (2022). Global patterns in endemicity and vulnerability of soil fungi. Global Change Biology, n/a(n/a). https://doi.org/10.1111/gcb.16398**
 
