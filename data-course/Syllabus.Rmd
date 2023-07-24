@@ -4,7 +4,7 @@ output:
 ---
 
 # **Introduction to Data Analysis in R**
-## Course Syllabus - Spring 2023
+## Course Syllabus - Fall 2023
 
 _____________________________
 
