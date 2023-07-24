@@ -17,10 +17,10 @@ pts[4,2] <- 300
 pts <- 
 pts %>% 
   filter(Item != "Exams (including final)")
-pts$Item
+
 ```
 
-# **Mycology Syllabus - Spring 2023**
+# **Mycology Syllabus - Fall 2023**
 
 ## **Instructor info:**
 
