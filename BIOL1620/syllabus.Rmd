@@ -15,13 +15,16 @@ lg <- read_xlsx("./1620_sheets.xlsx",sheet=2)
 pts <- read_xlsx("./1620_sheets.xlsx",sheet=1)
 ```
 
-# **Biology 1620 Syllabus - Spring 2022**
+# **Biology 1620 Syllabus - Fall 2023**
 
-**Meeting time: Mon/Wed 2:30pm - 3:45pm**
+**Meeting days: Tue/Thu**
 
 
 
-**Meeting place: SB 260**
+**Meeting place: See my.uvu.edu for details**
+
+**Course will be taught in-person, but lessons will be recorded if you have to miss class**
+
 
 ## **Instructor info**
 
@@ -43,9 +46,9 @@ ______________________________
 
 ### **Text Book (Required)**
 
-Campbell, Neil A. and Reece, Jane B. Biology. Benjamin Cummings. San Francisco.Any edition 8th or newer is fine with me.
+Campbell, Neil A. and Reece, Jane B. Biology. Benjamin Cummings. San Francisco. Any edition 8th or newer is fine with me.
 
-Here's a cheap option:  https://amzn.to/2Z0g2P4
+**See our Teams Channel "Files" tab for more info about the textbook, _before you purchase a new copy._**
 
 
 ### **Pre-requisites**   
@@ -151,7 +154,7 @@ These smaller tests are worth 50 points each.  Everyone who turns in a pre-test 
 
 ### **Reading quizzes** 
 
-These short 10-point quizzes will be given on Canvas and are due before the first class of the corresponding lecture week. Questions will come from the assigned readings.  The format will be multiple choice. Check the course website to see when quizzes are due and which textbook chapters they will cover. You will take these on Canvas and will have 7 minutes to complete 5 questions worth 2 points each. Quizzes are available the Friday before each week that they are assigned and must be completed on Canvas before the first class of the week. No exceptions or late work allowed. 
+These short 10-point quizzes will be given on Canvas and are due before the first class of the corresponding lecture week. Questions will come from the assigned readings.  The format will be multiple choice. Check the course website to see when quizzes are due and which textbook chapters they will cover. You will take these on Canvas and will have 7 minutes to complete 5 questions worth 2 points each. This time limit is 1.5X the standard time allowed. In other words, I'm giving everyone the standard "Student Accessibility Bonus" to keep things simpler. If you have documented accessibility needs that reference "1.5X time allotment" that has *already been applied* in the case of quizzes (but I will add allotted time to exams separately as required by the accessibility office). Quizzes are available by Friday before each week that they are assigned and must be completed on Canvas before the first class of the week. No exceptions or late work allowed. 
 
 That's right, you're being quizzed on reading *before* we meet to cover that material as a class. This is because our lessons in class assume you've read the background information already so you can participate and ask questions.
 
