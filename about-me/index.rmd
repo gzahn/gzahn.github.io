@@ -37,8 +37,7 @@ knitr::include_graphics("../wp-content/uploads/geoff.jpg")
 
 ### I received my PhD in Biology at the University of Arkansas, where my research focused on the distributional and functional ecology of slime molds.  I received my B.S. in Biology at Missouri State University where I became interested in conservation.  
 
-### When I am not playing with my microbes I enjoy hiking, brewing, kayaking for days at  a time, and cooking. Also, I have the best dog ever, Dr. Indiana Jones.
-
+### When I am not playing with my microbes I enjoy hiking, brewing, kayaking for days at  a time, and cooking.
 
 </div>
 
@@ -46,6 +45,8 @@ knitr::include_graphics("../wp-content/uploads/geoff.jpg")
 ```{r, out.width = "300px",echo=FALSE}
 knitr::include_graphics("../wp-content/uploads/P4280105-300x225.jpg")
 ```
+
+
 </div>
 
 
@@ -58,6 +59,13 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 <br><br><br><br><br><br><br><br><br>
 <br><br><br>
 
+Since my students keep finding these photos of me on the dark web, I'm putting them here to get it out of the way and steal their sense of victory.
+
+```{r, echo=FALSE}
+knitr::include_graphics(c("../media/me.jpg","../media/geoff1.jpg"))
+```
+
+
 ___
 
 ## Contact Info:
@@ -67,6 +75,11 @@ Biology Department - Utah Valley University<br>
 800 W University Parkway - SB243c<br>
 Orem, UT 84058<br>
 zahn.geoff (at) gmail dot com
+
+___
+
+
+
 
 
 </div>
