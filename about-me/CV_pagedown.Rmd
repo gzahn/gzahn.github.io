@@ -300,71 +300,15 @@ N/A
 
 N/A
 
+### Developed online lab for non-major's biology
+
+University of Arkansas - asynchronous pedagogy practices
+
+N/A
+
+N/A
 
 <br>
-
-
-Synergistic activities {data-icon=chess}
---------------------------------------------------------------------------------
-
-### `r icons::fontawesome(style = 'solid',name = 'people-carry')` Mentorship
-
-N/A
-
-N/A
-
-N/A
-
-  - Graduate committee member (4 MS, 3 PhD)
-  - Undergrad research mentor (38 students)
-  - [Lab alumni](https://gzahn.github.io/lab)
-
-
-### `r icons::fontawesome(style='solid',name='apple-alt')` Societies & Service
-
-N/A
-
-N/A
-
-N/A
-
-  - Editor of *Mycologia*
-  - Education Committee - Mycological Society of America
-  - IUCN Species Survival Group - Slime Moulds Specialist
-  - NSF GK-12 Teaching Fellow (2011-2012)
-  
-### `r icons::fontawesome(style='solid',name='handshake')` Collaborations
-
-N/A
-
-N/A
-
-N/A
-
-  - National Univ. of Singapore
-  - Univ. of Hawaii at Manoa
-  - Stazione Anton Dorhn
-  - Washington State Univ.
-  - SUNY Syracuse
-  - PNNL
-  - SoftCell, Inc.
-  - Young Living, Inc.
-  - Oxford Univ.
-  - Univ. of Arkansas
-
-### `r icons::fontawesome(style='solid',name='check-double')` Peer review
-
-N/A
-
-N/A
-
-N/A
-
-  - NSF panel reviewer
-  - NSF GRFP
-  - BARD US-Israel Agr. Dev. Fund
-  - Journals:
-	-	Soil Biol. and Biochem. (Distinguished), PeerJ, Pedobiologia (Distinguished),	Oikos, ISME Journal, Fungal Ecology (Distinguished), Molecular ecology, Ecology and Evolution, American Fern Journal, New, Phytologist, Phytobiomes
 
 
 
@@ -579,5 +523,239 @@ N/A
 2011
 
 
+<br>
 
+Selected Invited Presentations {data-icon=microphone}
+--------------------------------------------------------------------------------
+
+
+### Translating mentored undergraduate research into student retention and success
+
+National Science Foundation S-STEM Symposium
+
+Washington, D.C.
+
+2023
+
+### Less content, more context: Research as pedagogy in undergraduate mycology courses
+
+Mycological Society of America
+
+FL, USA
+
+2022
+
+### Who’s there and who cares: the how and why of fungal community structure
+
+Brigham Young University 
+
+UT, USA
+
+2021
+
+### The causes and consequences of fungal community structure
+	
+University of Arkansas/Missouri State University
+	
+AR/MO, USA
+	
+2018
+
+
+### Picky Eaters: Prey choice by soil protists is altered by temperature and soil structure
+
+Cornell University, 
+
+NY, USA
+
+2016
+
+### Effects of belowground trophic complexity on carbon cycling under changing climatic and edaphic conditions
+
+Joint Genome Institute
+
+CA, USA
+
+2015
+
+### The functional and distributional ecology of mycetozoans under changing edaphic and climatic dynamics 
+Climate Impact Research Center
+
+Abisko, Sweden
+
+2015
+
+### Picky eaters: climate alters amoeba prey choice and the microbial loop 
+
+NIAES
+
+Tsukuba, Japan
+
+2014
+
+### The Tropical Mycetozoans 
+
+Organization for Tropical Studies
+
+Las Cruces, Costa Rica 
+
+2012
+
+<br>
+
+Selected Contributed Presentations {data-icon=chart-line}
+--------------------------------------------------------------------------------
+
+### Aquatic Plant-Associated Fungi Along an Urbanization Gradient
+
+Mycological Society of America
+
+AZ, USA
+
+2023
+
+### Metagenomic Tools for Mycobiome Analyses in Model vs. Non-Model Systems
+
+Mycological Society of America
+
+AZ, USA
+
+2023
+
+### Improving the Accuracy of Meta-Amplicon Taxonomic Assignments Through the Inclusion of Outgroups in Fungal Databases
+
+Mycological Society of America
+
+AZ, USA
+
+2023
+
+### Inspecting the microbiome and metabolomic compartments of Mediterranean sponge holobionts through an integrated ‘omics approach
+	
+International Sponge Symposium
+
+Leiden, Netherlands
+
+2022
+
+### Fungal endophytes and pathogens in endangered hawaiian endemics:  Plant conservation from a microbial perspective
+
+Mycological Society of America, 
+
+CA, USA
+
+2016
+
+### The interactive effects of protozoan predation pressure and environmental factors on carbon and nitrogen cycling in soils under warming conditions 
+
+International Society for Microbial Ecology
+
+Seoul, South Korea
+
+2014
+
+### Using metagenomics and metatranscriptomics to uncover mechanisms of soil communities’ effects on carbon cycling under warming conditions 
+
+DOE Joint Genome Institute
+
+CA, USA
+
+2014
+
+### The Role of Soil Amoebae in Nutrient Cycling on a Warming Planet 
+
+Graduate University for Advanced Studies
+
+Sokendai, Japan
+
+2013
+
+### The Protosteloid Amoebae of New Zealand
+
+Mycological Society of America
+
+AK, USA
+
+2011
+
+<br>
+
+Synergistic activities {data-icon=chess}
+--------------------------------------------------------------------------------
+
+### `r icons::fontawesome(style = 'solid',name = 'people-carry')` Mentorship
+
+N/A
+
+N/A
+
+N/A
+
+  - Graduate committee member (4 MS, 3 PhD)
+  - Undergrad research mentor (38 students)
+  - [Lab alumni](https://gzahn.github.io/lab)
+
+
+### `r icons::fontawesome(style='solid',name='apple-alt')` Societies & Service
+
+N/A
+
+N/A
+
+N/A
+
+  - Editor of *Mycologia*
+  - Education Committee - Mycological Society of America
+  - IUCN Species Survival Group - Slime Moulds Specialist
+  - Member: ISME, MSA, Intnl. Soc. for Fungal Conserv., Japan SPS Alumni Assoc.
+  - NSF GK-12 Teaching Fellow (2011-2012)
+  - Faculty senator - UVU (2017-2020)
+  - Devel
+  
+### `r icons::fontawesome(style='solid',name='handshake')` Collaborations
+
+N/A
+
+N/A
+
+N/A
+
+  - National Univ. of Singapore
+  - Univ. of Hawaii at Manoa
+  - Stazione Anton Dorhn
+  - Washington State Univ.
+  - SUNY Syracuse
+  - PNNL
+  - SoftCell, Inc.
+  - Young Living, Inc.
+  - Oxford Univ.
+  - Univ. of Arkansas
+  
+### `r icons::fontawesome(style='solid',name='handshake')` Outreach
+
+N/A
+
+N/A
+
+N/A
+
+  - Stockman Grass Farmer Magazine [Article](https://bit.ly/2KsYlBB)
+  - ScienceNews [Article](https://www.sciencenews.org/article/plant-microbes-crops-food-endangered-species?tgt=nr) featuring work
+  - [Article](https://www.hawaiinewsnow.com/story/35862634/researchers-find-scores-of-potentially-new-species-of-fungi-in-deep-waters-off-maui/) on my marine mycology discoveries
+  - Annual science fair judge
+  - 6th-grade teacher and inquiry-based lesson planning (2011-2012)
+  
+### `r icons::fontawesome(style='solid',name='check-double')` Peer review
+
+N/A
+
+N/A
+
+N/A
+
+  - NSF panel reviewer
+  - NSF GRFP
+  - BARD US-Israel Agr. Dev. Fund
+  - Journals:
+	-	Soil Biol. and Biochem. (Distinguished), PeerJ, Pedobiologia (Distinguished),	Oikos, ISME Journal, Fungal Ecology (Distinguished), Molecular ecology, Ecology and Evolution, American Fern Journal, New, Phytologist, Phytobiomes
 
