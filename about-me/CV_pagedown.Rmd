@@ -680,6 +680,51 @@ AK, USA
 
 <br>
 
+Code Contributions {data-icon=code}
+--------------------------------------------------------------------------------
+
+### Microbiome protocol for ITS/16S exploration
+
+https://github.com/gzahn/Microbiome_Workshop
+
+N/A
+
+N/A
+
+### R for exploratory data analysis course
+
+https://gzahn.github.io/data-course/
+
+N/A
+
+N/A
+
+### Collection of custom bioinformatics tools
+		
+https://github.com/gzahn/tools
+
+N/A
+
+N/A
+
+### Tool for creating QIIME-compatible taxonomic databases from any subset of NCBI data.
+		
+https://doi.org/10.5281/zenodo.3688556
+
+N/A
+
+N/A
+
+### Bioinformatics Data Skills course
+		
+https://gzahn.github.io/binf-data-skills/
+
+N/A
+
+N/A
+
+<br>
+
 Synergistic activities {data-icon=chess}
 --------------------------------------------------------------------------------
 
