@@ -6,7 +6,7 @@ bibliography: PUBS.bib
 csl: custom.csl
 output:
   pagedown::html_resume:
-    css: ['resume','custom.css']
+    css: ['custom_resume.css','custom.css']
     self_contained: true
 knit: pagedown::chrome_print
 ---
@@ -84,7 +84,7 @@ Orem, UT
 
 ### Private Consulting
 
-Forensic Bioinformatics
+Forensic Bioinformatics / Data Science + App development
 
 Various
 
@@ -236,7 +236,6 @@ NSF (OISE-1308856) / JSPS (SP01363)
 N/A
 
 Current - 2017
-
 
 <br>
 
@@ -803,4 +802,9 @@ N/A
   - BARD US-Israel Agr. Dev. Fund
   - Journals:
 	-	Soil Biol. and Biochem. (Distinguished), PeerJ, Pedobiologia (Distinguished),	Oikos, ISME Journal, Fungal Ecology (Distinguished), Molecular ecology, Ecology and Evolution, American Fern Journal, New, Phytologist, Phytobiomes
+
+
+<br>
+
+
 
