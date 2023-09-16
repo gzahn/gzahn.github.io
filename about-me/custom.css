@@ -1,0 +1,170 @@
+/* When in PDF export mode make sure superscripts are nice and small and italic */
+sup {
+  font-size: 0.45rem;
+  font-style: italic;
+}
+
+
+* {
+  /* Override default right margin for sidebar*/
+  --pagedjs-margin-right: 0.2in;
+  --pagedjs-margin-left: 0.2in;
+}
+
+/* Customize some of the sizing variables */
+:root {
+  --sidebar-width: 12rem; /* Shrink sidebar width  */
+  --sidebar-background-color: #8e9c8e; /* Make sidebar green */
+  --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
+  --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
+  --decorator-border: 2px solid #496149; /* Make timeline a green as well*/
+  --margin-right: 0.25in; /*reduce right margin*/
+  
+}
+
+.details .place {
+  margin-top: 0.25rem;
+}
+
+.main-block:not(.concise) .details div {
+  padding-top: 0.005rem;
+}
+
+/* Laptop icon isn't centered by default which is lame */
+.fa-laptop {
+  margin-left: -3px;
+}
+
+/* When we have links at bottom in a list make sure they actually are numbered */
+#links li {
+  list-style-type: decimal;
+}
+
+/* Dont put the little fake list point in front of links */
+.aside li::before {
+  display: none;
+}
+
+/* Move closer to start and up towards header */
+.aside ul {
+  padding-left: 1rem;
+}
+
+.aside li::before {
+  position: relative;
+  margin-left: -4.25pt;
+  content: "• ";
+}
+
+/* Make sure elements in aside are centered and have a nice small text */
+.aside {
+  width: calc(var(--sidebar-width) + 9px);
+  line-height: 1.2;
+  font-size: 0.75rem;
+}
+
+/* Make little circle outline be a light green */
+.decorator::after {
+  background-color: #496149;
+}
+
+/* Remove the fake bullets from lists */
+.aside li::before {
+  content: auto;
+}
+
+
+
+
+/* Without adding padding the content is all up on the title */
+.section.no-timeline h2 {
+  padding-bottom: 1rem;
+}
+
+/* Add styles for little cards  */
+.info-card {::: aside
+<br><br><br>
+
+### Synergistic activities
+
+
+- #### `r icons::fontawesome(style = 'solid',name = 'people-carry')` Mentorship
+
+  - Graduate committee member (4 MS, 3 PhD)
+  - Undergrad research mentor (38 students)
+  - [Lab alumni](https://gzahn.github.io/lab)
+
+
+- #### `r icons::fontawesome(style='solid',name='apple-alt')` Societies & Service
+
+  - Editor of *Mycologia*
+  - Education Committee - Mycological Society of America
+  - IUCN Species Survival Group - Slime Moulds Specialist
+  - NSF GK-12 Teaching Fellow (2011-2012)
+  
+- #### `r icons::fontawesome(style='solid',name='handshake')` Collaborations
+  
+  - National Univ. of Singapore
+  - Univ. of Hawaii at Manoa
+  - Stazione Anton Dorhn
+  - Washington State Univ.
+  - SUNY Syracuse
+  - PNNL
+  - SoftCell, Inc.
+  - Young Living, Inc.
+  - Oxford Univ.
+  - Univ. of Arkansas
+
+- #### `r icons::fontawesome(style='solid',name='check-double')` Peer review
+
+  - NSF panel reviewer
+  - NSF GRFP
+  - BARD US-Israel Agr. Dev. Fund
+  - Journals:
+	-	Soil Biol. and Biochem. (Distinguished)
+	-	PeerJ
+	-	Pedobiologia (Distinguished)
+	-	Oikos
+	-	ISME Journal
+	-	Fungal Ecology (Distinguished)
+	-	Molecular ecology
+	-	Ecology and Evolution
+	-	American Fern Journal
+	-	New Phytologist
+	-	Phytobiomes
+:::
+
+  width: 220px;
+  float: left;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  box-shadow: 1px 1px 4px black;
+}
+
+/* Make the network viz go up near the top */
+png {
+  margin-top: -2.5in;
+}
+
+
+
+
+/* improve logo position on first page sidebar */
+.aside{
+  margin-top: -1.25in;
+}
+
+/* sidebar for page2 */
+
+.extra-sidebar {
+  top: 0;
+  padding-top: 0;
+}
+
+.extra-sidebar h1 {
+  display: none;
+}
+
+.extra-sidebar .level2:first-of-type {
+  margin-top: 0;
+}
