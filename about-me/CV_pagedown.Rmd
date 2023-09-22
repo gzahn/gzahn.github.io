@@ -61,12 +61,14 @@ Main
 Geoff Zahn, PhD {#title}
 --------------------------------------------------------------------------------
 
+Associate Professor of Biology | Assoc. Dept. Chair - UVU Biology
+
 **Translational microbial ecology | Microbiomes and symbiosis**
 
 Professional Appointments {data-icon=home}
 --------------------------------------------------------------------------------
 
-### Associate Professor
+### Associate Professor & Assoc. Dept. Chair
 
 Utah Valley University
 
@@ -134,12 +136,17 @@ Springfield, MO
 <br>
 
 
-
-
 Selected Funding and Awards {data-icon=coins}
 --------------------------------------------------------------------------------
 
 **Total funding: $1,193,494**
+
+***Pending funding***
+
+**Collaborative Research: Burning questions in microbial ecology: Ecological mechanisms that control microbiome transplant outcomes** Co-PI | NSF DEB
+
+**S-STEM: Faculty-Mentored Experiences for Improving Undergraduate Biology Student Outcomes** PI | NSF DUE (submitted for 6-year extension)
+
 
 ### PI: Faculty-Mentored Experiences for Improving Undergraduate Biology Student Outcomes
 
@@ -306,9 +313,17 @@ N/A
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
+### Wallace’s line is a barrier to the dispersal of some marine bacteria
+
+Wainwright B, Leon J, Hickman KJE, Vilela E, Caldwell J, Aimone B, Bischoff P, Ohran M, Morelli M, Arlyza I, Marwayana O, & **Zahn G**. ***In Review***
+
+N/A
+
+2023
+
 ###  The core mangrove microbiome reveals shared taxa potentially involved in nutrient cycling and promoting host survival. 
 
-Wainwright BJ, Millar T, Bowen L, Semon L, Hickman KJE, Lee JN, Yeo ZY, & Zahn G. *Environmental Microbiome* 10.1186/s40793-023-00499-5. 
+Wainwright BJ, Millar T, Bowen L, Semon L, Hickman KJE, Lee JN, Yeo ZY, & **Zahn G**. ***Environmental Microbiome*** 10.1186/s40793-023-00499-5. 
 
 N/A
 
@@ -316,7 +331,7 @@ N/A
 
 ### Inclusion of database outgroups reduces false positives in fungal metabarcoding taxonomic assignments.  
 
-Rawson C, & Zahn G. *Mycologia* 10.1080/00275514.2023.2206931 
+Rawson C, & **Zahn G**. ***Mycologia*** 10.1080/00275514.2023.2206931 
 
 N/A
 
@@ -324,14 +339,14 @@ N/A
 
 ### Long-term soil fungal community recovery after fire is impacted by climate change.  
 
-McGee S, Tidwell A, Riggs E, Veltkamp H, & Zahn G. *Western North American Naturalist*  
+McGee S, Tidwell A, Riggs E, Veltkamp H, & **Zahn G**. ***Western North American Naturalist***  
 
 N/A
 
 2022
 
 ### Marker Genes (16S and ITS) Protocol for Plant Microbiome Analyses.  
-Zahn G. *BIO-PROTOCOL* 10.21769/BioProtoc.4395 
+**Zahn G**. ***BIO-PROTOCOL*** 10.21769/BioProtoc.4395 
 
 N/A
 
@@ -339,7 +354,7 @@ N/A
 
 ### Global patterns in endemicity and vulnerability of soil fungi.  
 
-Tedersoo L, Mikryukov V, Zizka A, Bahram M, Hagh-Doust N, Anslan S, Prylutskyi O, Delgado-Baquerizo M, Maestre FT, … Abarenkov K. *Global Change Biology* 10.1111/gcb.16398 
+Tedersoo L, Mikryukov V, Zizka A, Bahram M, Hagh-Doust N, Anslan S, Prylutskyi O, Delgado-Baquerizo M, Maestre FT, **Zahn G**, … Abarenkov K. ***Global Change Biology*** 10.1111/gcb.16398 
 
 N/A
 
@@ -347,7 +362,7 @@ N/A
 
 ### The Global Soil Mycobiome consortium dataset for boosting fungal diversity research.  
 
-Tedersoo L, Mikryukov V, Anslan S, Bahram M, Khalid AN, Corrales A, Agan A, Vasco-Palacios A-M, Saitta A, … Abarenkov K. *Fungal Diversity* 10.1007/s13225-021-00493-7 
+Tedersoo L, Mikryukov V, Anslan S, Bahram M, Khalid AN, Corrales A, Agan A, Vasco-Palacios A-M, Saitta A, **Zahn G**, … Abarenkov K. ***Fungal Diversity*** 10.1007/s13225-021-00493-7 
 
 N/A
 
@@ -355,7 +370,7 @@ N/A
 
 ### Examination of host-taxon, environment, and distance effects on leaf fungal endophytes in the dominant woody genus, Metrosideros, on O’ahu.  
 
-Sur GL, Zahn G, & Stacy EA. *Fungal Ecology* 10.1016/j.funeco.2021.101093 
+Sur GL, **Zahn G**, & Stacy EA. ***Fungal Ecology*** 10.1016/j.funeco.2021.101093 
 
 N/A
 
@@ -363,7 +378,7 @@ N/A
 
 ### Biogeographic structure of fungal communities in seagrass Halophilia ovalis across the Malay Peninsula.  
 
-Quek ZBR, Zahn G, Lee NLY, Ooi JLS, Lee JN, Huang D, & Wainwright BJ. *Environmental Microbiology Reports* 10.1111/1758-2229.13003 
+Quek ZBR, **Zahn G**, Lee NLY, Ooi JLS, Lee JN, Huang D, & Wainwright BJ. ***Environmental Microbiology Reports*** 10.1111/1758-2229.13003 
 
 N/A
 
@@ -371,7 +386,7 @@ N/A
 
 ### Restoration of the mycobiome of the endangered Hawaiian mint Phyllostegia kaalaensis increases its resistance to a common powdery mildew.  
 
-Egan CP, Koko JH, Muir CD, Zahn G, Swift SOI, Amend AS, & Hynson NA. *Fungal Ecology* 10.1016/j.funeco.2021.101070 
+Egan CP, Koko JH, Muir CD, **Zahn G**, Swift SOI, Amend AS, & Hynson NA. ***Fungal Ecology*** 10.1016/j.funeco.2021.101070 
 
 N/A
 
@@ -379,7 +394,7 @@ N/A
 
 ### Hawaiian Fungal Amplicon Sequence Variants Reveal Otherwise Hidden Biogeography.  
 
-Tipton L, Zahn GL, Darcy JL, Amend AS, & Hynson NA. *Microbial Ecology* 10.1007/s00248-021-01730-x 
+Tipton L, **Zahn G**, Darcy JL, Amend AS, & Hynson NA. ***Microbial Ecology*** 10.1007/s00248-021-01730-x 
 
 N/A
 
@@ -387,7 +402,7 @@ N/A
 
 ### Essential oil, insect, and microbe relationships in Juniperus osteosperma (Cupressaceae) trees killed by wildfire.  
 
-Wilson T, Poulson A, Packer C, Carlson R, Davis R, Dey M, Owen N, Smalley S, Dodge R, … Stevens M. *Phytologia*  
+Wilson T, Poulson A, Packer C, Carlson R, Davis R, Dey M, Owen N, Smalley S, Dodge R, **Zahn G** … Stevens M. ***Phytologia***  
 
 N/A
 
@@ -395,7 +410,7 @@ N/A
 
 ### Host age is not a consistent predictor of microbial diversity in the coral Porites lutea.  
 
-Wainwright BJ, Zahn GL, Afiq-Rosli L, Tanzil JTI, & Huang D. *Scientific Reports* 10.1038/s41598-020-71117-4 
+Wainwright BJ, **Zahn GL**, Afiq-Rosli L, Tanzil JTI, & Huang D. ***Scientific Reports*** 10.1038/s41598-020-71117-4 
 
 N/A
 
@@ -403,7 +418,7 @@ N/A
 
 ### Fungal communities living within leaves of native Hawaiian dicots are structured by landscape-scale variables as well as by host plants.  
 
-Darcy JL, Swift SOI, Cobian GM, Zahn GL, Perry BA, & Amend AS. *Molecular Ecology* 10.1111/mec.15544 
+Darcy JL, Swift SOI, Cobian GM, **Zahn GL**, Perry BA, & Amend AS. ***Molecular Ecology*** 10.1111/mec.15544 
 
 N/A
 
@@ -411,7 +426,7 @@ N/A
 
 ### Fungal aerobiota are not affected by time nor environment over a 13-y time series at the Mauna Loa Observatory.  
 
-Zahn G, Tipton L, Datlof E, Kivlin SN, Sheridan P, Amend AS, & Hynson NA. *Proceedings of the National Academy of Sciences* 10.1073/pnas.1907414116 
+**Zahn G**, Tipton L, Datlof E, Kivlin SN, Sheridan P, Amend AS, & Hynson NA. ***Proceedings of the National Academy of Sciences*** 10.1073/pnas.1907414116 
 
 N/A
 
@@ -419,7 +434,7 @@ N/A
 
 ### Foliar fungi alter reproductive timing and allocation in Arabidopsis under normal and water-stressed conditions.  
 
-Zahn G, & Amend AS. *Fungal Ecology* 10.1016/j.funeco.2019.04.002 
+**Zahn G**, & Amend AS. ***Fungal Ecology*** 10.1016/j.funeco.2019.04.002 
 
 N/A
 
@@ -427,7 +442,7 @@ N/A
 
 ### Characterization of fungal biodiversity and communities associated with the reef macroalga Sargassum ilicifolium reveals fungal community differentiation according to geographic locality and algal structure.  
 
-Wainwright BJ, Bauman AG, Zahn GL, Todd PA, & Huang D. *Marine Biodiversity* 10.1007/s12526-019-00992-6 
+Wainwright BJ, Bauman AG, **Zahn GL**, Todd PA, & Huang D. ***Marine Biodiversity*** 10.1007/s12526-019-00992-6 
 
 N/A
 
@@ -435,7 +450,7 @@ N/A
 
 ### Characterisation of coral-associated bacterial communities in an urbanised marine environment shows strong divergence over small geographic scales.  
 
-Wainwright BJ, Afiq-Rosli L, Zahn GL, & Huang D. *Coral Reefs* 10.1007/s00338-019-01837-1 
+Wainwright BJ, Afiq-Rosli L, **Zahn GL**, & Huang D. ***Coral Reefs*** 10.1007/s00338-019-01837-1 
 
 N/A
 
@@ -443,7 +458,7 @@ N/A
 
 ### Seagrass-associated fungal communities show distance decay of similarity that has implications for seagrass management and restoration.  
 
-Wainwright BJ, Zahn GL, Zushi J, Lee NLY, Ooi JLS, Lee JN, & Huang D. *Ecology and Evolution* 10.1002/ece3.5631 
+Wainwright BJ, **Zahn GL**, Zushi J, Lee NLY, Ooi JLS, Lee JN, & Huang D. ***Ecology and Evolution*** 10.1002/ece3.5631 
 
 N/A
 
@@ -451,7 +466,7 @@ N/A
 
 ### Seagrass-associated fungal communities follow Wallace’s line, but host genotype does not structure fungal community.  
 
-Wainwright BJ, Zahn GL, Arlyza IS, & Amend AS. *Journal of Biogeography* 10.1111/jbi.13168 
+Wainwright BJ, **Zahn GL**, Arlyza IS, & Amend AS. ***Journal of Biogeography*** 10.1111/jbi.13168 
 
 N/A
 
@@ -459,7 +474,7 @@ N/A
 
 ### Foliar microbiome transplants confer disease resistance in a critically-endangered plant.  
 
-Zahn G, & Amend AS. *PeerJ* 10.7717/peerj.4020 
+**Zahn G**, & Amend AS. ***PeerJ*** 10.7717/peerj.4020 
 
 N/A
 
@@ -467,7 +482,7 @@ N/A
 
 ### Uncovering unseen fungal diversity from plant DNA banks.  
 
-Datlof EM, Amend AS, Earl K, Hayward J, Morden CW, Wade R, Zahn G, & Hynson NA. *PeerJ* 10.7717/peerj.3730 
+Datlof EM, Amend AS, Earl K, Hayward J, Morden CW, Wade R, **Zahn G**, & Hynson NA. ***PeerJ*** 10.7717/peerj.3730 
 
 N/A
 
@@ -475,7 +490,7 @@ N/A
 
 ### Fungi associated with mesophotic macroalgae from the ’Au’au Channel, west Maui are differentiated by host and overlap terrestrial communities.  
 
-Wainwright BJ, Zahn GL, Spalding HL, Sherwood AR, Smith CM, & Amend AS. *PeerJ* 10.7717/peerj.3532 
+Wainwright BJ, **Zahn GL**, Spalding HL, Sherwood AR, Smith CM, & Amend AS. ***PeerJ*** 10.7717/peerj.3532 
 
 N/A
 
@@ -483,7 +498,7 @@ N/A
 
 ### The effects of amoebal bacterivory on carbon and nitrogen dynamics depend on temperature and soil structure interactions.  
 
-Zahn G, Wagai R, & Yonemura S. *Soil Biology and Biochemistry*
+**Zahn G**, Wagai R, & Yonemura S. ***Soil Biology and Biochemistry***
 
 N/A
 
@@ -491,7 +506,7 @@ N/A
 
 ### Ecological distribution of protosteloid amoebae in New Zealand.  
 
-Zahn G, Stephenson SL, & Spiegel FW. *PeerJ*  
+**Zahn G**, Stephenson SL, & Spiegel FW. ***PeerJ***  
 
 N/A
 
@@ -499,7 +514,7 @@ N/A
 
 ### First records of Protosteloid Amoebae (Eumycetozoa) from the Democratic Republic of the Congo.  
 
-De Haan M, Cocquyt C, Tice A, Zahn G, & Spiegel FW. *Plant Ecology and Evolution*  
+De Haan M, Cocquyt C, Tice A, **Zahn G**, & Spiegel FW. ***Plant Ecology and Evolution***
 
 N/A
 
@@ -507,7 +522,7 @@ N/A
 
 ### Pil1, an eisosome organizer, plays an important role in the recruitment of synaptojanins and amphiphysins to facilitate receptor-mediated endocytosis in yeast.  
 
-Murphy ER, Boxberger J, Colvin R, Lee SJ, Zahn G, Loor F, & Kim K. *European Journal of Cell Biology*  
+Murphy ER, Boxberger J, Colvin R, Lee SJ, **Zahn G**, Loor F, & Kim K. ***European Journal of Cell Biology***  
 
 N/A
 
@@ -730,6 +745,7 @@ N/A
   - Graduate committee member (4 MS, 3 PhD)
   - Undergrad research mentor (38 students)
   - [Lab alumni](https://gzahn.github.io/lab)
+  - Junior faculty mentor (2023)
 
 
 ### `r icons::fontawesome(style='solid',name='apple-alt')` Societies & Service
@@ -807,6 +823,3 @@ N/A
 
 
 <br>
-
-
-
