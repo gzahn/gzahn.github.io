@@ -313,7 +313,7 @@ N/A
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
-### Wallace’s line is a barrier to the dispersal of some marine bacteria
+### Wallace’s line is a barrier to the dispersal of seagrass-associated marine bacteria
 
 Wainwright B, Leon J, Hickman KJE, Vilela E, Caldwell J, Aimone B, Bischoff P, Ohran M, Morelli M, Arlyza I, Marwayana O, & **Zahn G**. ***In Review***
 
