@@ -24,6 +24,13 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=CkjjlnwAAAAJ&hl=en&oi=ao)
 
+
+```{r echo=FALSE,message=FALSE,warning=FALSE, fig.height=.2,fig.width=.2,fig.align='center'}
+knitr::include_graphics("../media/wordcloud_research.png")
+```
+
+
+
 ^†^ Denotes student mentee
 
 **Wainwright, B. J., Millar, T.^†^, Bowen, L.^†^, Semon, L.^†^, Hickman, K. J. E.^†^, Lee, J. N., Yeo, Z. Y., & Zahn, G. (2023). The core mangrove microbiome reveals shared taxa potentially involved in nutrient cycling and promoting host survival. Environmental Microbiome, 18(1), 47. https://doi.org/10.1186/s40793-023-00499-5**
