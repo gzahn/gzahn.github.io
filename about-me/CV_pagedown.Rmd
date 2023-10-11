@@ -22,6 +22,7 @@ Contact Info {#contact}
 - <i class="fa fa-envelope"></i> gzahn@uvu.edu
 - <i class="fa fa-github"></i> [github.com/gzahn](https://github.com/gzahn)
 - <i class="fa fa-home"></i> https://gzahn.github.io
+- `r icons::fontawesome$brands$orcid` [ORCiD](https://orcid.org/0000-0002-8691-692X)
 
 Skills {#skills}
 --------------------------------------------------------------------------------
@@ -102,7 +103,7 @@ Athens, GA
 
 ### Postdoctoral Associate
 
-University of Hawai`i at Manoa
+University of Hawaiʻi at Mānoa
 
 Honolulu, HI
 
@@ -775,22 +776,22 @@ N/A
 
 N/A
 
-  - National Univ. of Singapore
-  - Universiti Malaysia Terengganu
-  - Universiti Malaya, Kuala Lumpur
-  - Univ. of Hawaii at Manoa
-  - Oxford Univ.
-  - Univ. of Arkansas
-  - Univ. of Nevada, Las Vegas
-  - Okanagan College
-  - University of Colorado, Anschutz
-  - Stazione Anton Dorhn
-  - Washington State Univ.
-  - SUNY Syracuse
-  - Univ. of Colorado, Denver
-  - Pacific NW National Lab
-  - SoftCell, Inc.
-  - Young Living, Inc.
+  - **National Univ. of Singapore**
+  - **Universiti Malaysia Terengganu**
+  - **Universiti Malaya, Kuala Lumpur**
+  - **Univ. of Hawaiʻi at Mānoa**
+  - **Oxford Univ.**
+  - **Univ. of Arkansas**
+  - **Univ. of Nevada, Las Vegas**
+  - **Okanagan College**
+  - **University of Colorado, Anschutz**
+  - **Stazione Anton Dorhn**
+  - **Washington State Univ.**
+  - **SUNY Syracuse**
+  - **Univ. of Colorado, Denver**
+  - **Pacific NW National Lab**
+  - **SoftCell, Inc.**
+  - **Young Living, Inc.**
 
   
 ### `r icons::fontawesome(style='solid',name='handshake')` Outreach
@@ -801,11 +802,11 @@ N/A
 
 N/A
 
-  - Stockman Grass Farmer Magazine [Article](https://bit.ly/2KsYlBB)
-  - ScienceNews [Article](https://www.sciencenews.org/article/plant-microbes-crops-food-endangered-species?tgt=nr) featuring work
-  - [Article](https://www.hawaiinewsnow.com/story/35862634/researchers-find-scores-of-potentially-new-species-of-fungi-in-deep-waters-off-maui/) on my marine mycology discoveries
-  - Annual science fair judge
-  - 6th-grade teacher and inquiry-based lesson planning (2011-2012)
+  - **Stockman Grass Farmer Magazine [Article](https://bit.ly/2KsYlBB)**
+  - **ScienceNews [Article](https://www.sciencenews.org/article/plant-microbes-crops-food-endangered-species?tgt=nr) featuring work**
+  - **[Article](https://www.hawaiinewsnow.com/story/35862634/researchers-find-scores-of-potentially-new-species-of-fungi-in-deep-waters-off-maui/) on my marine mycology discoveries**
+  - **Annual science fair judge**
+  - **6th-grade teacher and inquiry-based lesson planning (2011-2012)**
   
 ### `r icons::fontawesome(style='solid',name='check-double')` Peer review
 
@@ -815,11 +816,11 @@ N/A
 
 N/A
 
-  - NSF panel reviewer & *ad hoc* reviewer
-  - NSF GRFP
-  - BARD US-Israel Agr. Dev. Fund
-  - Journals:
-	-	Soil Biol. and Biochem. (Distinguished), PeerJ, Pedobiologia (Distinguished),	Oikos, ISME Journal, Fungal Ecology (Distinguished), Molecular ecology, Ecology and Evolution, American Fern Journal, New, Phytologist, Phytobiomes
+  - **NSF panel reviewer & *ad hoc* reviewer**
+  - **NSF GRFP**
+  - **BARD US-Israel Agr. Dev. Fund**
+  - **Journals:**
+	-	***Soil Biol. and Biochem. (Distinguished), PeerJ, Pedobiologia (Distinguished),	Oikos, ISME Journal, Fungal Ecology (Distinguished), Molecular ecology, Ecology and Evolution, American Fern Journal, New, Phytologist, Phytobiomes, Microbiology Spectrum***
 
 
 <br>

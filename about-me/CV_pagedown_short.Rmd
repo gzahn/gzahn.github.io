@@ -1,0 +1,288 @@
+---
+title: "Geoff Zahn's CV"
+author: Geoffrey Zahn
+date: "`r Sys.Date()`"
+bibliography: PUBS.bib
+csl: custom.csl
+output:
+  pagedown::html_resume:
+    css: ['custom_resume.css','custom.css']
+    self_contained: true
+knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+![](logo.png)
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> gzahn@uvu.edu
+- <i class="fa fa-github"></i> [github.com/gzahn](https://github.com/gzahn)
+- <i class="fa fa-home"></i> https://gzahn.github.io
+- `r icons::fontawesome$brands$orcid` [ORCiD](https://orcid.org/0000-0002-8691-692X)
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- #### `r icons::fontawesome$solid$laptop` Computational:
+
+  - **R**
+  - **Bash**
+  - **SQL**
+  - **Python**
+  - **Unix admin**
+  - **High-performance computing**
+  - **Metagenomics / Metabarcoding**
+
+- #### `r icons::fontawesome$solid$flask` Wet-lab:
+
+  - **DNA** (extraction/prep/seq/*etc.*)
+  - **Culturing** (Fungi and 'Protists')
+  - **Microscopy** (BF/DIC/Fluor/SEM)
+  - **Soil analysis**
+  - **Microcosms**
+
+- #### `r icons::fontawesome$solid$book` Academic:
+
+  - **Course and program design**
+  - **Active learning**
+  - **Course-based undergraduate research**
+  - **Mentoring**
+  - **Lab management**
+  - **Grants management**
+
+
+
+Main
+================================================================================
+
+Geoff Zahn, PhD {#title}
+--------------------------------------------------------------------------------
+
+Associate Professor of Biology | Assoc. Dept. Chair - UVU Biology
+
+**Translational microbial ecology | Microbiomes and symbiosis**
+
+Professional Appointments {data-icon=home}
+--------------------------------------------------------------------------------
+
+### Associate Professor & Assoc. Dept. Chair
+
+Utah Valley University
+
+Orem, UT
+
+Current - 2023
+
+### Assistant Professor
+
+Utah Valley University
+
+Orem, UT
+
+2023 - 2017
+
+### Postdoctoral Associate
+
+University of Hawai`i at Manoa
+
+Honolulu, HI
+
+2017 - 2015
+
+
+<br>
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### University of Arkansas
+
+Ph.D. in Biology
+
+Fayetteville, AR
+
+2015
+
+### Missouri State University
+
+B.S. in Ecology, Evolution, and Systematics
+
+Springfield, MO
+
+2010
+
+
+
+<br>
+
+
+Selected Funding and Awards {data-icon=coins}
+--------------------------------------------------------------------------------
+
+**Total funding: $1,193,494**
+
+***Pending funding***
+
+**Collaborative Research: Burning questions in microbial ecology: Ecological mechanisms that control microbiome transplant outcomes** Co-PI | NSF DEB
+
+**S-STEM: Faculty-Mentored Experiences for Improving Undergraduate Biology Student Outcomes** PI | NSF DUE (submitted for 6-year extension)
+
+
+### PI: Faculty-Mentored Experiences for Improving Undergraduate Biology Student Outcomes
+
+$972,287
+
+NSF (DUE – 1833880)
+
+2023 - 2018
+
+
+<br>
+
+
+
+
+Publications (most recent 3) {data-icon=book}
+--------------------------------------------------------------------------------
+
+[Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=CkjjlnwAAAAJ&view_op=list_works&sortby=pubdate)
+
+### Wallace’s line is a barrier to the dispersal of seagrass-associated marine bacteria
+
+Wainwright B, Leon J, Hickman KJE, Vilela E, Caldwell J, Aimone B, Bischoff P, Ohran M, Morelli M, Arlyza I, Marwayana O, & **Zahn G**. ***In Review***
+
+N/A
+
+2023
+
+###  The core mangrove microbiome reveals shared taxa potentially involved in nutrient cycling and promoting host survival. 
+
+Wainwright BJ, Millar T, Bowen L, Semon L, Hickman KJE, Lee JN, Yeo ZY, & **Zahn G**. ***Environmental Microbiome*** 10.1186/s40793-023-00499-5. 
+
+N/A
+
+2023
+
+### Inclusion of database outgroups reduces false positives in fungal metabarcoding taxonomic assignments.  
+
+Rawson C, & **Zahn G**. ***Mycologia*** 10.1080/00275514.2023.2206931 
+
+N/A
+
+2023
+
+Teaching and Mentoring {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### Designed a new [Bioinformatics Degree Program](https://www.uvu.edu/catalog/current/departments/biology/bioinformatics-bs/)
+
+Experienced with univ. curriculum processes and accreditation
+
+N/A
+
+N/A
+
+### See teaching [website](https://gzahn.github.io/coursemap/) for courses
+
+N/A
+
+N/A
+
+N/A
+
+
+<br>
+
+Selected Invited Presentations (most recent 3) {data-icon=microphone}
+--------------------------------------------------------------------------------
+
+
+### Translating mentored undergraduate research into student retention and success
+
+National Science Foundation S-STEM Symposium
+
+Washington, D.C.
+
+2023
+
+### Less content, more context: Research as pedagogy in undergraduate mycology courses
+
+Mycological Society of America
+
+FL, USA
+
+2022
+
+
+### The causes and consequences of fungal community structure
+	
+University of Arkansas/Missouri State University
+	
+AR/MO, USA
+	
+2018
+		
+<br>
+
+
+```{css, echo=FALSE}
+.extra-sidebar {
+  top: 0;
+  padding-top: 0;
+}
+
+.extra-sidebar h1 {
+  display: none;
+}
+
+.extra-sidebar .level2:first-of-type {
+  margin-top: 0;
+}
+```
+
+Second page sidebar {.aside .extra-sidebar}
+================================================================================
+
+Synergy {#synergy}
+--------------------------------------------------------------------------------
+
+- #### `r icons::fontawesome(style='solid',name='apple-alt')` Societies & Service:
+
+  - Editor of *Mycologia*
+  - Education Committee - Mycological Society of America
+  - IUCN Species Survival Group - Slime Moulds Specialist
+  - Member: ISME, MSA, Intnl. Soc. for Fungal Conserv., Japan SPS Alumni Assoc.
+  - NSF GK-12 Teaching Fellow (2011-2012)
+  - Faculty senator - UVU (2017-2020)
+  - Program and course development (Univ. of Arkansas, Utah Valley Univ.)
+  - Faculty search committees (Chair 1x, Member 6x)
+  - Council for Undergraduate Research (member)
+
+- #### `r icons::fontawesome$solid$chess` Mentorship:
+
+  - Graduate committee member (4 MS, 3 PhD)
+  - Undergrad research mentor (38 students)
+  - [Lab alumni](https://gzahn.github.io/lab)
+  - Junior faculty mentor (2023)
+
+- #### `r icons::fontawesome$solid$handshake` Outreach:
+
+  - Stockman Grass Farmer Magazine [Article](https://bit.ly/2KsYlBB)
+  - ScienceNews [Article](https://www.sciencenews.org/article/plant-microbes-crops-food-endangered-species?tgt=nr) featuring work
+  - [Article](https://www.hawaiinewsnow.com/story/35862634/researchers-find-scores-of-potentially-new-species-of-fungi-in-deep-waters-off-maui/) on my marine mycology discoveries
+  - Annual science fair judge
+  - 6th-grade teacher and inquiry-based lesson planning (2011-2012)
+
+- #### `r icons::fontawesome$solid$code` Code examples:
+
+  - [Microbiome protocol for ITS/16S exploration](https://github.com/gzahn/Microbiome_Workshop)
+  - [R for Biologists Course](https://gzahn.github.io/data-course/)
+  - [Custom Unix tools](https://github.com/gzahn/tools)
+  - [QIIME Database generator](https://doi.org/10.5281/zenodo.3688556)	
+  - [Bioinfo Data Skills Course](https://gzahn.github.io/binf-data-skills/)
+

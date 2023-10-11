@@ -36,7 +36,7 @@ knitr::include_graphics("../wp-content/uploads/geoff.jpg")
 ```
 </div>
 
-### I received my PhD in Biology at the University of Arkansas, where my research focused on the distributional and functional ecology of slime molds.  I received my B.S. in Biology at Missouri State University where I became interested in conservation.  
+### I did my postdoctoral work at the University of Hawaiʻi at Mānoa where I investigated fungal ecology and used microbes to advance plant conservation efforts. I received my PhD in Biology at the University of Arkansas, where my research focused on the distributional and functional ecology of slime molds.  I received my B.S. in Biology at Missouri State University where I became interested in conservation.  
 
 ### When I am not playing with my microbes I enjoy hiking, brewing, kayaking for days at  a time, and cooking.
 
