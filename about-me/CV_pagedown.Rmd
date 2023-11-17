@@ -21,7 +21,7 @@ Contact Info {#contact}
 
 - <i class="fa fa-envelope"></i> gzahn@uvu.edu
 - <i class="fa fa-github"></i> [github.com/gzahn](https://github.com/gzahn)
-- <i class="fa fa-home"></i> https://gzahn.github.io
+- <i class="fa fa-home"></i> [gzahn.github.io](https://gzahn.github.io)
 - `r icons::fontawesome$brands$orcid` [ORCiD](https://orcid.org/0000-0002-8691-692X)
 
 Skills {#skills}
@@ -759,7 +759,7 @@ N/A
 
   - Editor of *Mycologia*
   - Education Committee - Mycological Society of America
-  - National Microbiome Data Collaborative (Ambassador)
+  - National Microbiome Data Collaborative Champion
   - IUCN Species Survival Group - Slime Moulds Specialist
   - Member: ISME, MSA, Intnl. Soc. for Fungal Conserv., Japan SPS Alumni Assoc.
   - NSF GK-12 Teaching Fellow (2011-2012)
