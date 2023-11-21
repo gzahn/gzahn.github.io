@@ -1,0 +1,33 @@
+---
+date: "`r Sys.Date()`"
+output: html_document
+pagetitle: Current research project timeline
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,warning = FALSE,message = FALSE)
+```
+
+```{r}
+source("./track_projects.R")
+current_gantt <- readRDS("./output/current_gantt.RDS")
+current_tasks <- readRDS("./output/current_projects.RDS")
+num.projects <- nrow(current_tasks)
+
+```
+
+## Current research project stages
+
+```{r}
+current_tasks %>% 
+  kableExtra::kable() %>% 
+  kableExtra::row_spec(0,bold=TRUE) %>% 
+  kableExtra::kable_classic(lightable_options = 'striped') 
+```
+
+## Current research project timelines
+```{r, fig.height=(num.projects*2)}
+
+current_gantt
+```
+
