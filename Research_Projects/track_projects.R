@@ -42,6 +42,8 @@ dat$project <- factor(dat$project,levels = dat %>%
 full_gantt <- plot_gantt(dat)
 current_gantt <- plot_gantt(dat %>% dplyr::filter(current_stage != "Completed" & !is.na(current_stage)))
 
+current_gantt$data
+
 # export objects
 saveRDS(full_gantt,"./output/full_gantt.RDS")
 saveRDS(current_gantt,"./output/current_gantt.RDS")
@@ -53,5 +55,8 @@ dat %>%
   dplyr::filter(current_stage != "Completed") %>% 
   dplyr::select(project,current_stage,lead_author,to_do) %>% 
   unique.data.frame()
-saveRDS(current_projects,"./output/current_projects.RDS")
+row.names(current_projects) <- current_projects$project
+
+current_projects[levels(forcats::fct_drop(current_projects$project)),] %>% 
+  saveRDS("./output/current_projects.RDS")
 
