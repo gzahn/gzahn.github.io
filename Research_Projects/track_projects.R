@@ -1,7 +1,3 @@
-# The project worksheet is found at:
-# https://docs.google.com/spreadsheets/d/1frhQ45IkULpZx53zteiF5irzO8bJvLxcWeyNtNwc1mE/edit#gid=0
-# and can be edited manually there (user: geoff.gone@gmail.com)
-
 # SETUP ####
 library(googledrive)
 library(googlesheets4)
