@@ -51,7 +51,7 @@ saveRDS(current_gantt,"./output/current_gantt.RDS")
 current_projects <- 
 dat %>% 
   dplyr::filter(current_stage != "Completed") %>% 
-  dplyr::select(project,current_stage,lead_author) %>% 
+  dplyr::select(project,current_stage,lead_author,to_do) %>% 
   unique.data.frame()
 saveRDS(current_projects,"./output/current_projects.RDS")
 
