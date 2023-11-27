@@ -4,6 +4,8 @@ library(googlesheets4)
 library(tidyverse)
 library(ggtext)
 
+# googledrive::drive_auth()
+
 theme_set(theme_bw() +
             theme(axis.text.y = element_text(face='bold',size=10),
                   legend.position = 'none',
