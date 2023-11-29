@@ -1,6 +1,7 @@
 ---
 date: "`r Sys.Date()`"
-output: html_document
+output: 
+  rmdformats::readthedown
 pagetitle: Current research project timeline
 ---
 
@@ -14,6 +15,9 @@ current_gantt <- readRDS("./output/current_gantt.RDS")
 current_tasks <- readRDS("./output/current_projects.RDS")
 num.projects <- nrow(current_tasks)
 
+grant_gantt <- readRDS("./output/grants_gantt_chart.RDS")
+grant_tasks <- readRDS("./output/current_grants.RDS")
+
 ```
 
 ## Current research project stages
@@ -22,12 +26,32 @@ num.projects <- nrow(current_tasks)
 current_tasks %>% 
   kableExtra::kable() %>% 
   kableExtra::row_spec(0,bold=TRUE) %>% 
-  kableExtra::kable_classic(lightable_options = 'striped') 
+  kableExtra::kable_classic(lightable_options = 'hover') 
 ```
 
 ## Current research project timelines
 ```{r, fig.height=(num.projects*2)}
 
 current_gantt
+```
+
+___
+
+## Current grant proposal stages
+
+```{r}
+grant_tasks %>% 
+  kableExtra::kable() %>% 
+  kableExtra::row_spec(0,bold=TRUE) %>% 
+  kableExtra::kable_classic(lightable_options = 'hover') 
+```
+
+
+## Current grant proposal timelines
+
+Only showing those with clear deadlines
+
+```{r}
+grant_gantt
 ```
 

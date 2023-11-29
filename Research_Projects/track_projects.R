@@ -25,6 +25,18 @@ plot_gantt <- function(x){
     scale_color_manual(values=c("gray30","green4"))
 }
 
+plot_gantt_grants <- function(x){
+  x %>% 
+    ggplot(aes(x=start_date,xend=end_date,
+               y=task,yend=task,color=highlight)) +
+    geom_segment(linewidth=5) +
+    geom_vline(xintercept = Sys.Date(), linetype=2,color='gray10') +
+    geom_vline(aes(xintercept = submission_deadline), linewidth=1,color="red3") +
+    facet_wrap(~grant,ncol = 1) +
+    scale_y_discrete(position = 'right') +
+    scale_color_manual(values=c("gray30","green4"))
+}
+
 # LOAD DATA FROM GOOGLE DRIVE ####
 dat <- googledrive::drive_get("ResearchProjects") %>% 
   googlesheets4::read_sheet() %>% 
@@ -62,3 +74,39 @@ row.names(current_projects) <- current_projects$project
 current_projects[levels(forcats::fct_drop(current_projects$project)),] %>% 
   saveRDS("./output/current_projects.RDS")
 
+###########################################
+
+# GRANT TIMELINE ####
+
+dat2 <- googledrive::drive_get("GrantTimelines") %>% 
+  googlesheets4::read_sheet() %>% 
+  mutate(start_date = as.Date(start_date),
+         end_date = as.Date(end_date),
+         submission_deadline = as.Date(submission_deadline),
+         task = factor(task, levels=rev(c("Planning",
+                                          "Prelim Data",
+                                          "Writing",
+                                          "Revising",
+                                          "Submission",
+                                          "Completed",
+                                          "Decision"))),
+         highlight = case_when(current_stage == task ~ TRUE, TRUE ~ FALSE))
+
+
+# TO-DO TASKS ####
+current_grants <- 
+  dat2 %>% 
+  # dplyr::filter(current_stage != "Completed") %>% 
+  dplyr::select(grant,current_stage,to_do,submission_deadline) %>% 
+  unique.data.frame()
+row.names(current_grants) <- current_grants$grant
+
+current_grants %>% 
+  saveRDS("./output/current_grants.RDS")
+
+
+# GANTT CHARTS ####
+grant_gantt <- plot_gantt_grants(dat2[complete.cases(dat2),])
+
+grant_gantt %>% 
+  saveRDS("./output/grants_gantt_chart.RDS")
