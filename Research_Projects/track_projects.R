@@ -90,7 +90,8 @@ dat2 <- googledrive::drive_get("GrantTimelines") %>%
                                           "Submission",
                                           "Completed",
                                           "Decision"))),
-         highlight = case_when(current_stage == task ~ TRUE, TRUE ~ FALSE))
+         highlight = case_when(current_stage == task ~ TRUE, TRUE ~ FALSE),
+         grant = str_wrap(grant,width=70))
 
 
 # TO-DO TASKS ####
