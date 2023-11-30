@@ -33,6 +33,12 @@ knitr::include_graphics("../media/wordcloud_research.png")
 
 ^†^ Denotes student mentee
 
+**Mikryukov, V., Dulya, O., Zizka, A., Bahram, M., Hagh-Doust, N., Anslan, S., Prylutskyi, O., Delgado-Baquerizo, M., Maestre, F. T., Nilsson, H., Pärn, J., Öpik, M., Moora, M., Zobel, M., Espenberg, M., Mander, Ü., Khalid, A. N., Corrales, A., Agan, A., … Zahn, G., … Tedersoo, L. (2023). Connecting the multiple dimensions of global soil fungal diversity. Science Advances, 9(48), eadj8016. https://doi.org/10.1126/sciadv.adj8016**
+
+Precipitation and temperature drive fungal compositional turnover (beta diversity) and phylogenetic diversity, linking them with regional species richness (gamma diversity).
+
+___
+
 **Wainwright, B. J., Millar, T.^†^, Bowen, L.^†^, Semon, L.^†^, Hickman, K. J. E.^†^, Lee, J. N., Yeo, Z. Y., & Zahn, G. (2023). The core mangrove microbiome reveals shared taxa potentially involved in nutrient cycling and promoting host survival. Environmental Microbiome, 18(1), 47. https://doi.org/10.1186/s40793-023-00499-5**
 
 Environmental filtering is occurring in mangrove microbiomes, with hosts selecting for a microbial consortia most suitable for survival in their immediate environment
