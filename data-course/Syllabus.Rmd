@@ -1,10 +1,9 @@
 ---
-output:
-  html_document: default
+output: rmdformats::downcute
 ---
 
 # **Introduction to Data Analysis in R**
-## Course Syllabus - Fall 2023
+## Course Syllabus - Spring 2024
 
 _____________________________
 
@@ -14,7 +13,7 @@ _____________________________
 ### Course GitHub Repository: https://github.com/gzahn/Data_Course
 ### Course Website: https://gzahn.github.io/data-course/
 
-You need to bring your own laptop to class every day. That way you have installation priveleges and you will be set up for the future as you continue to analyze data.
+You need to bring your own laptop to class every day. That way you have installation privileges and you will be set up for the future as you continue to analyze data.
 
 _____________________________
 

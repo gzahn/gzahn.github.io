@@ -117,6 +117,7 @@ Save your password someplace safe. Don't give it to anyone, including me.
 
 2.  Create a new repository on your GitHub page called "Data_Course_YOURLASTNAME" 
 (Not literally "YOURLASTNAME," but your actual last name, in all-caps, no spaces)
+  
   + Look for the "+" in the very top-right of the web page
   + Enter the name "Data_Course_YOURLASTNAME" where prompted (last name in all-caps, no spaces)
   + Leave the "Public" option checked
@@ -130,7 +131,7 @@ See [these instructions](https://usethis.r-lib.org/articles/articles/git-credent
   
 Enable [two-factor authentication](https://docs.github.com/en/github/authenticating-to-github/configuring-two-factor-authentication){target="_blank"}
 
-Use the LastPass App for your phone, give it your phone number as a backup, and save your account recovery codes somewhere very safe (gmail draft message?)
+Use the LastPass or other 2FA App for your phone, give it your phone number as a backup, and save your account recovery codes somewhere very safe (gmail draft message?)
 
 **You will need to [create a personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token){target="_blank"} to use GitHub from the command line**
 
@@ -149,10 +150,25 @@ You can now type the following to see/copy your command-line GitHub token:
 
         echo $GIT_PASSWORD
 
-To get these to be automatically entered when you use git from the command-line or Rstudio, check out [this website](https://alanedwardes.com/blog/posts/git-username-password-environment-variables/){target="_blank"}
+**Now, make a new file called git_credential_helper.sh**
 
+**In that plain-text file, paste the following (just 3 lines):**
 
-You will have to add the file that you create with those instructions to the git config for each new repository.
+```
+#!/bin/bash
+echo username=$GIT_USERNAME
+echo password=$GIT_PASSWORD
+```
+
+**Save it in your $HOME directory**
+
+**Final step... In your terminal, run the following line, which will tell git that whenever you are on this computer, to use that file to figure out your username and password:**
+
+```
+git config --global credential.helper "/bin/bash ~/git_credential_helper.sh"
+```
+
+___
 
 3.  In your terminal, navigate to your Desktop with the command-line again
 
@@ -160,7 +176,7 @@ You will have to add the file that you create with those instructions to the git
   + Hint: use the same "git clone" command as above, but modify the web address to your new GitHub repository 
     (Copy and paste from the web browser)
 	This will import the website repository onto your personal computer (as a git repository)
-  + You now have two new folders on your desktop. One called "test" and one called "Data_Course_YOURLASTNAME"
+  + You now have two new folders on your desktop. One called "Data_Course" and one called "Data_Course_YOURLASTNAME"
 8.  Navigate into this new repository (The one called Data_Course_YOURLASTNAME) and type the following commands in order:
 
     (actually, copy-paste is better than typing. Coders use CTRL-C / CTRL-V more than anything else!)
@@ -191,7 +207,14 @@ I'll click on that and see whether your README.md file is correct.
 **Warning: I will be cloning all of your repositories onto my own computer to keep track of your course work**
 **So don't write hate mail about me in files in that directory.**
 
-11. To get *FULL* credit, I want you to make 10 separate changes to this README file and commit and push each one in turn. You can use a basic text editor to make additional changes if you like. Add whatever you want to it 10 times, saving and committing and pushing between each change.
+11. To get *FULL* credit, I want you to make 10 separate changes to this README file and commit and push each one in turn. You can use a basic text editor to make additional changes if you like. Add whatever you want to it 10 times, saving and committing and pushing between each change. **One of the changes you should make is that I want you to copy some course materials from "Data_Course" into your "Data_Course_LASTNAME" repository. You can click and drag them over there if you want. Whatever. But just take the following directories and copy them into your repository (then add/commit/push the new files to your online repo):**
+
+  - Assignments/
+  - Code_Examples/
+  - Data/
+  - Exercises/
+  - Readings/
+
 The point of this is that this workflow (save, add, commit, push) needs to be muscle memory for you as we progress in the course. Doing it 40 times is much better than 10 times, but 10 is all I am *requiring* at this point.
 
 #### We will discuss what is actually going on with all of this in class, but this is to test whether you can follow precise instructions and troubleshoot.
