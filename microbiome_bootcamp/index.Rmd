@@ -1,9 +1,5 @@
 ---
-output: 
-  html_document:
-    toc: yes
-    toc_float:
-      collapsed: false
+output: rmdformats::downcute
 pagetitle: Microbiome Boot Camp
 ---
 
@@ -114,9 +110,11 @@ Some questions we can ask:
 
 **We will use a [shared Zotero library](https://www.zotero.org/groups/5331232/pando_fungi) to keep track of all our papers**
 
-**Start by finding and reading: **
+**Start by finding and reading these 2 papers: **
 
 Darcy, J. L., Swift, S. O. I., Cobian, G. M., Zahn, G. L., Perry, B. A., & Amend, A. S. (2020). Fungal communities living within leaves of native Hawaiian dicots are structured by landscape-scale variables as well as by host plants. Molecular Ecology, 29(16), 3102–3115. https://doi.org/10.1111/mec.15544
+
+Zahn, G. (2022). Marker Genes (16S and ITS) Protocol for Plant Microbiome Analyses. BIO-PROTOCOL, 12(8). https://doi.org/10.21769/BioProtoc.4395
 
 
 
@@ -125,10 +123,7 @@ ___
 
 Here's an overview of the different sites where we sampled 
 
-############ read in csv of locations #############
-############ display metadata in scroll box #######
-############ include leaflet map of sites #########
-
+(Waiting for metadata spreadsheet from Austen)
 
 ```{r echo=FALSE,warning=FALSE,message=FALSE}
 # library(tidyverse)
@@ -152,29 +147,11 @@ Here's an overview of the different sites where we sampled
 
 ### Study sites
 
-```{r echo=FALSE}
-# dat %>% 
-#   bind_cols(lat=round(lat,3),lon=round(lon,3)) %>% 
-#   select(Location,lat,lon) %>% 
-#   unique.data.frame() %>% 
-#   kableExtra::kable() %>% 
-#   kableExtra::kable_classic()
-
-```
-
-<br><br>
-
-```{r fig.width=3,fig.height=3,fig.align="center",echo=FALSE,fig.cap="*Syringodium isoetifolium* (seagrass) meadow -- Image from Wiki commons"}
-knitr::include_graphics("./media/Syringodium_isoetifolium_ployant_sous_la_houle.jpg")
-```
-
 ### Sample processing
-
-16 samples of seagrass were taken from each of 12 locations. The V3 region of the 16S rDNA from each sample was amplified (N=`r 12*16`). These amplicons were sequenced on an Illumina MiSeq machine with V3 (2x300) chemistry along with 8 sample blanks (Total study N=`r (12*16) + 8`).
 
 ### Data analysis
 
-Here's where we come in. We've got raw 16S sequence data from this study and need to process it, explore and visualize it, and test hypotheses. Our final codebase will be deposited as part of the publication, along with any figures and statistical results we develop.
+Here's where we come in. We've got raw ITS sequence data from this study and need to process it, explore and visualize it, and test hypotheses. Our final codebase will be deposited as part of the publication, along with any figures and statistical results we develop.
 
 ___
 
@@ -194,6 +171,8 @@ Some potential packages we will learn:
 - [*igraph*](https://igraph.org/r/){target="_blank"}
 - [*phangorn*](https://cran.r-project.org/web/packages/phangorn/vignettes/Trees.html){target="_blank"}
 - [*vegan*](https://github.com/vegandevs/vegan){target="_blank"}
+- [*ranger*](https://cran.r-project.org/web/packages/ranger/index.html){target="_blank"}
+- [*mycobank*](https://github.com/gzahn/mycobank){target="_blank"}
 
 Here's an example code archive for this type of work: [Workshop Repository](https://github.com/gzahn/Microbiome_Workshop){target="_blank"}.
 
