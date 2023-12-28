@@ -1,5 +1,5 @@
 ---
-title: "Geoff Zahn's CV"
+title: "Zahn abbreviated CV"
 author: Geoffrey Zahn
 date: "`r Sys.Date()`"
 bibliography: PUBS.bib
@@ -21,39 +21,39 @@ Contact Info {#contact}
 
 - <i class="fa fa-envelope"></i> gzahn@uvu.edu
 - <i class="fa fa-github"></i> [github.com/gzahn](https://github.com/gzahn)
-- <i class="fa fa-home"></i> [gzahn.github.io](https://gzahn.github.io)
+- <i class="fa fa-home"></i> [Lab website](https://gzahn.github.io)
 - `r icons::fontawesome$brands$orcid` [ORCiD](https://orcid.org/0000-0002-8691-692X)
+- `r icons::fontawesome$brands$google` [Scholar profile](https://scholar.google.com/citations?user=CkjjlnwAAAAJ&hl=en&oi=ao)
+
+
 
 Skills {#skills}
 --------------------------------------------------------------------------------
 
 - #### `r icons::fontawesome$solid$laptop` Computational:
 
-  - **R**
-  - **Bash**
-  - **SQL**
-  - **Python**
+  - **R / Bash / SQL / Python**
   - **Unix admin**
   - **High-performance computing**
-  - **Metagenomics / Metabarcoding**
+  - **Metagenomics / Metatranscriptomics**
 
 - #### `r icons::fontawesome$solid$flask` Wet-lab:
 
-  - **DNA** (extraction/prep/seq/*etc.*)
+  - **DNA / RNA**
   - **Culturing** (Fungi and 'Protists')
   - **Microscopy** (BF/DIC/Fluor/SEM)
-  - **Soil analysis**
+  - **Greenhouse**
   - **Microcosms**
 
 - #### `r icons::fontawesome$solid$book` Academic:
 
   - **Course and program design**
-  - **Active learning**
-  - **Course-based undergraduate research**
-  - **Mentoring**
   - **Lab management**
   - **Grants management**
-
+  - **Active learning**
+  - **CUREs**
+  - **Mentoring**
+  
 
 
 Main
@@ -62,14 +62,17 @@ Main
 Geoff Zahn, PhD {#title}
 --------------------------------------------------------------------------------
 
-Associate Professor of Biology | Assoc. Dept. Chair - UVU Biology
+<b>**Translational mycology | Plant-Microbe symbiosis**</b>
 
-**Translational microbial ecology | Microbiomes and symbiosis**
+<b>**Current responsibilities:**</b>
+
+<b>**PI of Zahn microbial ecology lab (6 current students) | Associate editor of <i>Mycologia</i> | Mycology & Bioinformatics Teacher (12 credits/semester) | Bioinformatics consultant | PhD committee member (3 students) | Associate Department Chair (Biology) | Director of Bioinformatics Degree | R package developer**</b>
+
 
 Professional Appointments {data-icon=home}
 --------------------------------------------------------------------------------
 
-### Associate Professor & Assoc. Dept. Chair
+### Associate Professor
 
 Utah Valley University
 
@@ -100,17 +103,17 @@ Honolulu, HI
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-### University of Arkansas
+### Ph.D. in Biology
 
-Ph.D. in Biology
+University of Arkansas
 
 Fayetteville, AR
 
 2015
 
-### Missouri State University
+### B.S. in Ecology, Evolution, and Systematics
 
-B.S. in Ecology, Evolution, and Systematics
+Missouri State University
 
 Springfield, MO
 
@@ -124,16 +127,27 @@ Springfield, MO
 Selected Funding and Awards {data-icon=coins}
 --------------------------------------------------------------------------------
 
-**Total funding: $1,193,494**
+<center><b>**Total funding: $1,373,494**</b></center>
 
-***Pending funding***
+<b>***Pending funding***</b>
 
-**Collaborative Research: Burning questions in microbial ecology: Ecological mechanisms that control microbiome transplant outcomes** Co-PI | NSF DEB
+<b>**Collaborative Research: Burning questions in microbial ecology: Ecological mechanisms that control microbiome transplant outcomes**</b> Co-PI | NSF DEB | $1,448,000
 
-**S-STEM: Faculty-Mentored Experiences for Improving Undergraduate Biology Student Outcomes** PI | NSF DUE (submitted for 6-year extension)
+<b>**S-STEM: Faculty-Mentored Experiences for Improving Undergraduate Biology Student Outcomes**</b> PI | NSF DUE | $1,495,000
 
+<b>**Myco-Ed: Mycological Curriculum for Education and Discovery**</b> Senior Personnel | JGI
 
-### PI: Faculty-Mentored Experiences for Improving Undergraduate Biology Student Outcomes
+<b>***Current funding:***</b>
+
+### Molecular predictors of mangrove holobiont assembly (Co-PI)
+
+$180,000
+
+Singapore MOE (IG20-SI003)
+
+2025 - 2023
+
+### Faculty-Mentored Experiences for Improving Undergraduate Biology Student Outcomes (PI)
 
 $972,287
 
@@ -147,34 +161,70 @@ NSF (DUE – 1833880)
 
 
 
-Publications (most recent 3) {data-icon=book}
+Selected Relevant Publications  {data-icon=book}
 --------------------------------------------------------------------------------
 
-[Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=CkjjlnwAAAAJ&view_op=list_works&sortby=pubdate)
-
-### Wallace’s line is a barrier to the dispersal of seagrass-associated marine bacteria
-
-Wainwright B, Leon J, Hickman KJE, Vilela E, Caldwell J, Aimone B, Bischoff P, Ohran M, Morelli M, Arlyza I, Marwayana O, & **Zahn G**. ***In Review***
-
-N/A
-
-2023
+[Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=CkjjlnwAAAAJ&view_op=list_works&sortby=pubdate) | 28 Publications | H-index: 14
 
 ###  The core mangrove microbiome reveals shared taxa potentially involved in nutrient cycling and promoting host survival. 
 
-Wainwright BJ, Millar T, Bowen L, Semon L, Hickman KJE, Lee JN, Yeo ZY, & **Zahn G**. ***Environmental Microbiome*** 10.1186/s40793-023-00499-5. 
+Wainwright BJ, Millar T, Bowen L, Semon L, Hickman KJE, Lee JN, Yeo ZY, & **Zahn G**. ***[Environmental Microbiome](https://doi.org/10.1186/s40793-023-00499-5)***  
 
 N/A
 
 2023
 
-### Inclusion of database outgroups reduces false positives in fungal metabarcoding taxonomic assignments.  
+### Connecting the multiple dimensions of global soil fungal diversity
+
+Mikryukov, V., Dulya, O., Zizka, A., … **Zahn, G.** … Tedersoo, L. ***[Science Advances](https://doi.org/10.1126/sciadv.adj8016)*** 
+
+N/A
+
+2023
+
+
+### Inclusion of database outgroups reduces false positives in fungal metabarcoding taxonomic assignments. 
 
 Rawson C, & **Zahn G**. ***Mycologia*** 10.1080/00275514.2023.2206931 
 
 N/A
 
 2023
+
+
+### Restoration of the mycobiome of the endangered Hawaiian mint Phyllostegia kaalaensis increases its resistance to a common powdery mildew.  
+
+Egan CP, Koko JH, Muir CD, **Zahn G**, Swift SOI, Amend AS, & Hynson NA. ***[Fungal Ecology](https://doi.org/10.1016/j.funeco.2021.101070)*** 
+
+N/A
+
+2021
+
+
+### Foliar fungi alter reproductive timing and allocation in Arabidopsis under normal and water-stressed conditions.  
+
+**Zahn G**, & Amend AS. ***[Fungal Ecology](https://doi.org/10.1016/j.funeco.2019.04.002)***  
+
+N/A
+
+2019
+
+### Fungal aerobiota are not affected by time nor environment over a 13-y time series at the Mauna Loa Observatory.  
+
+**Zahn G**, Tipton L, Datlof E, Kivlin SN, Sheridan P, Amend AS, & Hynson NA. ***[PNAS](https://doi.org/10.1073/pnas.1907414116)***
+
+N/A
+
+2019
+
+### Foliar microbiome transplants confer disease resistance in a critically-endangered plant.  
+
+**Zahn G**, & Amend AS. ***PeerJ*** 10.7717/peerj.4020 
+
+N/A
+
+2017
+
 
 Teaching and Mentoring {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
@@ -189,7 +239,15 @@ N/A
 
 ### See teaching [website](https://gzahn.github.io/coursemap/) for courses
 
+Mycology | RStats/Data Analysis | Bioinformatics | Microbiomes
+
 N/A
+
+N/A
+
+### Research mentor
+
+3 PhD, 2 MS, 38 Undergrad students
 
 N/A
 
@@ -198,7 +256,7 @@ N/A
 
 <br>
 
-Selected Invited Presentations (most recent 3) {data-icon=microphone}
+Recent Invited Presentations {data-icon=microphone}
 --------------------------------------------------------------------------------
 
 
@@ -278,11 +336,12 @@ Synergy {#synergy}
   - Annual science fair judge
   - 6th-grade teacher and inquiry-based lesson planning (2011-2012)
 
-- #### `r icons::fontawesome$solid$code` Code examples:
+- #### `r icons::fontawesome$solid$code` Code contributions:
 
-  - [Microbiome protocol for ITS/16S exploration](https://github.com/gzahn/Microbiome_Workshop)
-  - [R for Biologists Course](https://gzahn.github.io/data-course/)
+  - [CommunityAssemblR](https://github.com/gzahn/CommunityAssemblR)
+  - [Microbiome Workshop](https://github.com/gzahn/Microbiome_Workshop)
+  - [R for Biologists](https://gzahn.github.io/data-course/)
   - [Custom Unix tools](https://github.com/gzahn/tools)
-  - [QIIME Database generator](https://doi.org/10.5281/zenodo.3688556)	
+  - [QIIME Database builder](https://doi.org/10.5281/zenodo.3688556)	
   - [Bioinfo Data Skills Course](https://gzahn.github.io/binf-data-skills/)
 

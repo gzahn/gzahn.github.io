@@ -18,7 +18,7 @@ pagetitle: Microbiome Boot Camp
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "300px",echo=FALSE}
-knitr::include_graphics("../media/hex.png")
+knitr::include_graphics("../media/bootcamp_hex.png")
 ```
 </div>
 
@@ -32,7 +32,11 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 # **Microbiome Boot Camp**{#top}
 Utah Valley University - BIOL490R
 
-## [**Syllabus**](https://gzahn.github.io/microbiome_bootcamp/syllabus.html)
+### [**Syllabus**](https://gzahn.github.io/microbiome_bootcamp/syllabus.html)
+
+### [**Code repository**](https://github.com/gzahn/Pando_Fungi)
+
+### [**Zotero library**](https://www.zotero.org/groups/5331232/pando_fungi)
 
 ___
 
@@ -64,47 +68,83 @@ ___
 # Course setup
 
 - We have a real data set and some question to address:
-  + Do bacterial endophytes of seagrass follow Wallace's Line?
-  + What is the core bacterial microbiome of seagrass and does is change with location?
-  + Are any individual taxa differentially abundant on either side of Wallace's Line?
+  + Pando foliar fungi
+  + Are trees selecting fungal endophyte or epiphyte community?
+  + Do foliar fungi follow stochastic assembly?
+  + What spatial structure is there?
+  + Hypotheses:
+    - 
 - We will use this data set to learn how to process and analyze microbiome data
 - We will then write a paper as a class to present our findings for peer-review
 
 ```{r echo=FALSE,fig.align='left',fig.height=4,fig.width=4, fig.cap="Image from Wiki commons"}
-knitr::include_graphics("./media/Map_of_Sunda_and_Sahul_2.png")
+knitr::include_graphics("./media/fseprd571202.jpg")
 ```
 
->"In 1858 Wallace proposed a boundary line that splits Indonesia in half, running from the Pacific ocean between the islands of Borneo and Sulawesi and entering the Indian ocean via the Lombok Strait between the Islands of Bali and Lombok. This line closely follows the margin of the Sunda Shelf and would later become known as Wallace’s line when Thomas Huxley coined the term in 1868. Wallace described the fauna west of this line as typically Asian in origin and east of this line Australasian in origin. Several different taxa follow this pattern and it is especially apparent in birds."
+>"Pando is believed to be the largest, most dense organism ever found at nearly 13 million pounds. The clone spreads over 106 acres, consisting of over 40,000 individual trees. The exact age of the clone and its root system is difficult to calculate, but it is estimated to have started at the end of the last ice age. Some of the trees are over 130 years old. It was first recognized by researchers in the 1970s and more recently proven by geneticists. Its massive size, weight, and prehistoric age have caused worldwide fame."
 
-`r tufte::quote_footer('--- Wainwright, et al. (2018)')`        
+`r tufte::quote_footer('--- US Forest Service')`        
 
 <br>
 
-Previous work showed, surprisingly, that fungal endophytes of seagrass seem to follow Wallace's Line. We're not sure why, but we need to know if bacterial endophytes show the same patterns. As we start to accrue evidence of this phenomenon, we can contribute to the larger discussion of microbial biogeography. In reality, it's weird to see microbes with the same distributional limitations as birds, especially aquatic microbes. So what is going on? Can we see this play out with bacteria too!?
+We are using Pando as a natural laboratory to study the biogeography and assembly of fungi associated with the leaves of plants. These fungi, known as endophytes (inside the leaves) and epiphytes (on surface of leaves) are important components of the plant microbiome. They modify plant disease severity, alter plant phenotype, and can even help plants resist common stressors such as drought. One important question regards where plants get their foliar fungi. In grasses, they are passed along inside seeds (vertical transmission), but in dicot plants like Pando, they are assembled from the environment.
 
-**Start by reading the [previous paper](https://gzahn.github.io/microbiome_bootcamp/media/Wainwright_2018.pdf){target="_blank} to get background on this topic. Read it several times... after all, you're going to be doing a lot of the same things for this project (but this time looking at the bacteria instead of fungi).**
+They blow in on the wind, or are carried by animals, or by raindrops. But it is interesting that not all fungi can have a healthy stable relationship with all plants. There is likely some *environmental filtering* going on... the abiotic environmental variables or the plant itself are possibly doing some selecting of which fungi make it into plant leaves.
+
+Most studies of this nature have to contend with the fact that when you go out into the field, each plant you sample has a different genotype, even if you sample the same plant species. We don't have that problem in this study since every tree that's part of Pando is just a piece of the same genetic clone individual.
+
+What this means is that we can sample leaves from Pando and can study the spatial structure of the fungal communities without worrying about plant genotype.
+
+```{r echo=FALSE, fig.align='center',fig.height=4,fig.width=4, fig.cap="Geoff Zahn, Josh Leon, Austen Miller inside Pando clone"}
+knitr::include_graphics("../media/PXL_20230909_205730304.jpg",dpi = 800)
+
+```
+
+
+In September 2023, we collected leaf samples from all over the Pando clone and extracted DNA from both the leaf surfaces and interiors. Those samples were sequenced on an Illumina MiSeq system (2x300bp). It's there that we start our work. **We will use bioinformatics tools to turn the raw DNA reads into fungal community data that we can work with and explore.  We will test hypotheses about environmental filtering of foliar fungi.**
+
+Some questions we can ask:
+  
+  - Are foliar fungi reflective of their immediate environment? *i.e.*, Do samples that are physically close to each other share more similar fungal communities than can be expected by chance?
+  - Are there any "edge effects" in our communities? Are samples from the edge of the clone more similar to each other than those deeper inside the forest patch?
+  - Epiphytes might 'just be there' but endophytes are living inside the plant tissue. So do we see contrasting patterns between the two categories of fungi? If so, this could be evidence for environmental filtering of endophytes. And if there's no geographic structure in endophytes, it could suggest that the plants themselves are doing the filtering.
+  
+
+#### You will have lots of readings in this course.
+
+**We will use a [shared Zotero library](https://www.zotero.org/groups/5331232/pando_fungi) to keep track of all our papers**
+
+**Start by finding and reading: **
+
+Darcy, J. L., Swift, S. O. I., Cobian, G. M., Zahn, G. L., Perry, B. A., & Amend, A. S. (2020). Fungal communities living within leaves of native Hawaiian dicots are structured by landscape-scale variables as well as by host plants. Molecular Ecology, 29(16), 3102–3115. https://doi.org/10.1111/mec.15544
+
 
 
 ___
 
 
-Here's an overview of the different sites where seagrass (*Syringodium isoetifolium*) samples were collected
+Here's an overview of the different sites where we sampled 
+
+############ read in csv of locations #############
+############ display metadata in scroll box #######
+############ include leaflet map of sites #########
+
 
 ```{r echo=FALSE,warning=FALSE,message=FALSE}
-library(tidyverse)
-library(ggtext)
-dat <- readxl::read_xlsx("./media/SI_Indo_Metadata_CorrectGPS.xlsx")
-dat <- dat %>% filter(GPS != "N/A")
-dat <- dat %>% 
-  mutate(COLOR = case_when(`East or West of Wallace Line` == "East" ~ "Red",
-                           TRUE ~ "Blue")) %>% 
-  select(GPS,`East or West of Wallace Line`,COLOR,Location) %>% 
-  unique.data.frame()
-lat <- dat$GPS %>% str_split(" ") %>% map_chr(1) %>% as.numeric()
-lon <- dat$GPS %>% str_split(" ") %>% map_chr(2) %>% as.numeric()
-leaflet::leaflet() %>% 
-  leaflet::addTiles() %>%
-  leaflet::addCircleMarkers(lng=lon,lat = lat,radius =5,color = dat$COLOR,opacity = 1,label = dat$Location) 
+# library(tidyverse)
+# library(ggtext)
+# dat <- read_csv("../../Pando_Fungi/Data/pando_sample_metadata.csv")
+# dat <- dat %>% filter(GPS != "N/A")
+# dat <- dat %>% 
+#   mutate(COLOR = case_when(`East or West of Wallace Line` == "East" ~ "Red",
+#                            TRUE ~ "Blue")) %>% 
+#   select(GPS,`East or West of Wallace Line`,COLOR,Location) %>% 
+#   unique.data.frame()
+# lat <- dat$GPS %>% str_split(" ") %>% map_chr(1) %>% as.numeric()
+# lon <- dat$GPS %>% str_split(" ") %>% map_chr(2) %>% as.numeric()
+# leaflet::leaflet() %>% 
+#   leaflet::addTiles() %>%
+#   leaflet::addCircleMarkers(lng=lon,lat = lat,radius =5,color = dat$COLOR,opacity = 1,label = dat$Location) 
 
 ```
 
@@ -113,12 +153,12 @@ leaflet::leaflet() %>%
 ### Study sites
 
 ```{r echo=FALSE}
-dat %>% 
-  bind_cols(lat=round(lat,3),lon=round(lon,3)) %>% 
-  select(Location,lat,lon) %>% 
-  unique.data.frame() %>% 
-  kableExtra::kable() %>% 
-  kableExtra::kable_classic()
+# dat %>% 
+#   bind_cols(lat=round(lat,3),lon=round(lon,3)) %>% 
+#   select(Location,lat,lon) %>% 
+#   unique.data.frame() %>% 
+#   kableExtra::kable() %>% 
+#   kableExtra::kable_classic()
 
 ```
 
