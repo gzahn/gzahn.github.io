@@ -1,9 +1,5 @@
 ---
-output: 
-  html_document:
-    toc: yes
-    toc_float:
-      collapsed: false
+output: rmdformats::downcute
 pagetitle: Bioinformatics_Data_Skills
 ---
 

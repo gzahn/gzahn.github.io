@@ -1,10 +1,9 @@
 ---
-  output:
-  html_document: default
+  output: rmdformats::downcute
 ---
   
 # **Bioinformatics Data Skills**
-## Course Syllabus - Spring 2023
+## Course Syllabus - Spring 2024
   
   _____________________________
 
@@ -17,7 +16,7 @@ _____________________________
 
 ## **Course Description**
 
-This course (soon to be BIOL 3150) introduces basic data skills for bioinformatics students with a focus on genetic sequence data, command-line usage, and pipeline development. Develops competence in interacting with a remote high-performance computing environment and installing, parsing, and linking novel bioinformatics tools. Applies the principles of project organization and reproducibility to create an analysis pipeline.
+This course introduces basic data skills for bioinformatics students with a focus on genetic sequence data, command-line usage, and pipeline development. Develops competence in interacting with a remote high-performance computing environment and installing, parsing, and linking novel bioinformatics tools. Applies the principles of project organization and reproducibility to create an analysis pipeline.
 
 
 Topics include:  
