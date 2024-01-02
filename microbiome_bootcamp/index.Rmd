@@ -28,11 +28,11 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 # **Microbiome Boot Camp**{#top}
 Utah Valley University - BIOL490R
 
-### [**Syllabus**](https://gzahn.github.io/microbiome_bootcamp/syllabus.html)
+## [**Syllabus**](https://gzahn.github.io/microbiome_bootcamp/syllabus.html)
 
-### [**Code repository**](https://github.com/gzahn/Pando_Fungi)
+## [**Code repository**](https://github.com/gzahn/Pando_Fungi)
 
-### [**Zotero library**](https://www.zotero.org/groups/5331232/pando_fungi)
+## [**Zotero library**](https://www.zotero.org/groups/5331232/pando_fungi)
 
 ___
 

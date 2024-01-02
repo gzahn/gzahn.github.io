@@ -9,9 +9,9 @@ output: html_document
 knitr::opts_chunk$set(echo = FALSE,warning = FALSE,message = FALSE)
 ```
 
-## Task 1: Read the companion paper [Wainwright, *et. al*, 2018](https://www.zotero.org/groups/4902243/seagrass_microbiome/items/RGBN7UVQ/item-details){target="_blank"}
+## Task 1: Read this paper [Darcy, *et. al*, 2020](https://www.zotero.org/groups/5331232/pando_fungi/items/QPYYQG2I/attachment/BBUD9KYG/reader){target="_blank"}
 
-This paper looked at how seagrass-associated fungi differed across Wallace's Line. The biology topics that are under investigation in the paper include:
+This paper looked how foliar endophytic fungi are structured in plants at a landscape-scale (all figures are at the end of the document). It deals in some way with the following ecological ideas:
 
   - Microbial ecology
   - Community ecology
@@ -20,7 +20,12 @@ This paper looked at how seagrass-associated fungi differed across Wallace's Lin
   - Dispersal and distribution
   - Conservation and restoration
   
-We are literally using the same samples from that paper, but this time, we're going to see if bacterial communities follow a similar pattern as fungi. That's the starting point...so you need to be very familiar with this paper. Probably read it 3 times.
+You need to read this paper a few times to make any sense of it probably, and there will still be concepts that are totally new to you. That's good. You're here to learn new things after all. But I definitely want you to read this paper until you have a good high-level intuition for WHY the research was done and WHAT was important about it. 
+
+We're going to be doing something similar.
+
+___
+
 
 ## Task 2: Write down a list of things you don't understand.
 
@@ -29,8 +34,17 @@ No way will you be completely at ease with all of the topics brought up in the p
   - distance decay
   - what does 'scale' have to with with biogeography?
   - RSV
-  - community composition
-  - *etc.*
+  - community dissimilarity
+  - partial community distance
+  - UniFrac 
   
 Bring your list to class so we can pool all of our questions and start making a plan to answer them.
+
+**In class, be prepared to have a conversation about the paper and to present your list of things you didn't understand**
+
+<br>
+
+<br>
+<br>
+<br>
   

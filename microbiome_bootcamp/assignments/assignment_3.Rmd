@@ -5,37 +5,38 @@ date: "`r Sys.Date()`"
 output: html_document
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE,warning = FALSE,message = FALSE)
 ```
 
-## Task 1: Find some external metadata
+## Task 1: Read this protocol paper: [Zahn, 2022](https://www.zotero.org/groups/5331232/pando_fungi/items/HBEBCYFK/attachment/4MGA6Q7N/reader){target="_blank"}
 
-We don't have much metadata about our samples to work with. Really, we just have GPS coordinates. But, GPS coordinates allow us a lot of opportunities to derive secondary metadata. For example, we can pull mean annual temperature for each location. We could also see seafloor depth, and maybe even find biodiversity metrics for these locations.
+Remember what you did for assignment 1? Well, you're gonna do the same here. This paper is a different sort of thing though. It's a "protocol paper," meaning that it's essentially a basic recipe for analyzing meta-amplicon data sets. Pay close attention to this because you're gonna do all of these steps on our data set.
 
-**Find external sources to derive secondary metadata.** Maybe you have to go to scientific papers. Maybe the data you want isn't there in a clean format, but you could pull together a couple sources to create it. Be creative! Maybe you want to look at plastic pollution levels. Well good luck finding that data set... but there are data about country-level plastic-to-ocean pollution at [https://ourworldindata.org/plastic-pollution](https://ourworldindata.org/plastic-pollution) and combining that in a clever way with ocean current data (link below), could give you a fun proxy for how much plastic pollution you'd expect at a given location. Just an example of how you might need to break apart a question into multiple data sources and combine them.
+So, bring to class a list of things that you don't understand from the paper.
 
-Just a few starting suggestions.
+___
 
-  - [NOAA](https://www.noaa.gov/)
-  - [NASA](https://data.nasa.gov/)
-  - [NCEI](https://www.ncei.noaa.gov/products/world-ocean-database)
-  - [Seagrass data](https://data.noaa.gov/dataset/dataset/seagrasses)
-  - [Ocean currents](https://www.ncei.noaa.gov/products/global-ocean-currents-database)
+## Task 2: Install all the software packages mentioned in the paper and try to run through the code.
+
+The paper includes a full code repository [HERE](https://github.com/Bio-protocol/metaamplicon-recipe){target="_blank"} which has the example data and all the scripts, etc.
+
+Clone this repository and open the RProject. Then work through the scripts on your own computer. Any errors you get are probably due to not having the right software packages installed correctly. I'll help you set up the tricky ones in class, but it's  up to you to install the R packages.
+
+If you do get errors you cannot work through, I want you to *fully* document them in a text file.
+
+Include:
+
+  - The result of `getwd()`
+  - The full line of code that gave you the error
+  - The exact error message
   
 ___
 
-## Task 2: Pull the data into tidy format and merge with our metadata
-
-  - Best to do this with a local copy of the metadata until you get it looking really tidy.
-  - But whatever you do to wrangle that data, do it with code and document all downloading instructions, versions, and steps.
-  - Keep track of citation info as well, and add appropriate citations to our library with a note in them
-  
-___
-
-## Task 3: Share what you did with the class
+The data set used in this recipe is artificially small. It should run very quickly on any laptop. When we get to our real data, that will change, so it's important that you work out any bugs now while it's easy and fast!
 
 <br>
 <br>
-
-
+<br>
+<br>

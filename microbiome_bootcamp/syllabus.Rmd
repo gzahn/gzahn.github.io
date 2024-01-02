@@ -19,7 +19,7 @@ library(tidyverse)
 
 **Course website:** [https://gzahn.github.io/microbiome_bootcamp/](https://gzahn.github.io/microbiome_bootcamp/){target="_blank"}
 
-## Learning objectives
+# Learning objectives
 
   1. Understand the role of code in reproducible research
   2. Process meta-amplicon data files into a useful data set
@@ -28,7 +28,7 @@ library(tidyverse)
   5. Generate intuitive figures that illustrate findings
   6. Prepare a manuscript for peer-review
 
-## About the class
+# About the class
 
 This course is designed to give you the tools needed to analyse high-throughput amplicon DNA data sets. This type of data is common in microbiome research, particularly when one is interested in knowing the relative abundance of bacterial or fungal taxa in a set of samples. We will use a real data set that has not been explored before. In the course of learning the code workflow, we will encounter and explore the principles of many topics in community ecology such as:
 
@@ -41,13 +41,15 @@ This course is designed to give you the tools needed to analyse high-throughput 
   
 We will assume you have a strong familiarity with the R programming language. We will encounter new R packages and object types, but we won't spend any time *learning or reviewing* basic R. This course will require significant external work in order for you to be successful. Our ultimate goal is to produce a manuscript for peer-review and eventual publication.
 
+This course will also be an intensive introduction to scientific writing. You will become adept at using citation management tools, background research, collaborative writing, and editing. We will explore and use writing theory to learn how to tell an interesting and useful story from a data set.
+
 _____
 
-## Expectations and evaluation
+# Expectations and evaluation
 
-Grades will be based on assignments and code contributions
+Grades will be based on assignments and code/paper contributions
 
-### Assignments
+## Assignments
 
 During the semester, several assignments will be given related to the course material. These assignments can be found on the [course website](https://gzahn.github.io/microbiome_bootcamp/#Weekly_tasks_and_assignments){target="_blank"}.
 
@@ -61,17 +63,32 @@ Examples include:
 
 Assignment due dates will be conveyed in class. Late work will receive a zero. We're on a tight schedule if we want to complete a manuscript, so we all need to manage our time well and stay on task.
 
-### Code contributions
+## Paper contributions
+
+Since we are writing a scientific publication together, we have to all know what we're talking about with regard to foliar endophytic fungi (FEF). That means that all of us are going to be thinking about the bigger pictures of: 
+
+  - how FEF move around
+  - whether plants actively select FEF from the environment
+  - habitat connectivity, patchiness, meta-communities
+  - *etc.*
+  
+Part of thinking about a scientific topic, is persistently looking up papers that might be useful to help you understand it. So, with all that in mind...you are taking on a debt.
+
+**You owe me a minimum of two papers per week, deposited into our Zotero Group Library (with a note).** These papers don't have to be immediately about FEF, though there will be plenty of those. They may be about the broader ecological theories we're dealing with, or a more detailed paper about a mathematical method we might be able to use. When we start writing, we will need to have all these papers kicking around in our brains to draw from. You don't need to spend an hour on each paper, but you do need to at least skim them to get a feel for whether they will be useful (and how), and how they will help our manuscript fit into the bigger scientific conversation.
+
+Starting to write without first swimming deeply in the background material will lead to failure. Do NOT slack on this! All of us will be reading *many* papers all semester (at least at a cursory level). I'll help show you how to quickly mine a paper for usefulness.
+
+## Code contributions
 
 Each student is expected to contribute to our final codebase. Comment lines denoting code authorship will be included in the final manuscript GitHub repository. Code contributions will receive points just like regular assignments.
 
-### Writing
+## Writing
 
 Each student is expected to contribute to writing, background reading/research/references, and editing. Students with low participation will not earn authorship on our paper, but grades will not be based on writing. **To be clear, if you fail to complete assigned writing tasks or do a poor job on them, it won't affect your grade... but you won't earn co-authorship on our publication.**
 
 
 
-### Grading strategy and scale
+## Grading strategy and scale
 
 Every assignment and code contribution will be graded on a 0-100 scale. At the end of the semester, I will drop your three lowest scores and take the mean of all other scores. This will be your final grade percentage.
 
@@ -98,7 +115,7 @@ ___
 <br><br><br><br><br>
 
 
-## Legal stuff
+# Legal stuff
 
 **Americans with Disabilities Act:**
 Students with disabilities that may negatively impact their ability to successfully complete this course
