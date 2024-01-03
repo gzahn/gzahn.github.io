@@ -9,16 +9,9 @@ pagetitle: OS_Notes
 
 Serious bioinformatics tools are generally designed for Unix (Linux and Mac) systems. Some of you will obviously be on Windows computers, and some on Mac, and maybe even a few of you will be using Linux. The thing is, we really all need to be in a similar computing environment. If you're a Mac or Linux user, you could work through this whole class without issue (the book is written by a Mac user). If you're using Windows, there is a lot of bioinformatics that will be practically impossible to accomplish.
 
-So, rather than force everyone to convert to a Unix system, **we will be using a Virtual Machine**. This allows everyone to work in a Linux system, which puts us all on the same page, and as a bonus, gives everyone valuable experience in a Unix environment.
+So, rather than force everyone to convert to a Unix system, **we will be quickly getting you set up to remotely use a Unix supercomputer**. This allows everyone to work in a Linux system, which puts us all on the same page. 
 
-1. Download VirtualBox [here](https://www.virtualbox.org/wiki/Downloads){target="_blank"}
-2. Download [this file](https://sourceforge.net/projects/osboxes/files/v/vb/55-U-u/20.04/Ubnt-20.04-VB-64bit.7z/download){target="_blank"} - This is the operating system (Ubuntu 20.04) you will install in VirtualBox.
-3. [Instructions](https://brb.nci.nih.gov/seqtools/installUbuntu.html){target="_blank"} for setting up an Ubuntu Virtual Machine
-  - The instructions are for Ubuntu 14.04, but otherwise work the same even though we are installing Ubuntu 20.04
-  - Yous should set the virtual hard disk space to be at least 50 Gb (More is better, but this will reduce your regular computer space proportionally)
-  - You may or may not have multiple processors on your computer, but if you do, increase this optional value accordingly (like in the instructions).
-
-If you currently have a Mac (OSX+) or Linux operating system, you do not **_have_** to go through the above steps, but you'll have to be comfortable with examples sometimes looking slightly different, needing to do a bit of extra googling to find installation instructions for programs, etc.  **If you are using Windows, the Ubuntu virtual machine, run through VirtualBox, is definitely a requirement.**
+As we start out (and through the whole semester) we will be using our "Terminal" a **lot**. Mac users have this built in already. Windows users will want to install a program called GitBash which emulates a Unix terminal. We will walk you through that on day one of class.
 
 ___
 
@@ -42,15 +35,15 @@ If you have 4 Gb of RAM and a working WiFi card and keyboard, you'll be just fin
 
 My personal computer setup:
 
-  - Dell Inspiron 15, purchased in 2013 (old but still kicking)
-  - Upgraded to 16 Gb RAM
+  - System76 Pangolin
+  - 32 Gb RAM
   - 1 Tb solid-state hard drive
-  - Intel i7 processor
-  - Running Ubuntu 18.04 (Linux)
+  - AMD Ryzen™ 7 7735U - 16 Threads
+  - Running Ubuntu 22.04 (Linux)
 
 Pros:
 
-  - Total cost ~ $800 (less than 1/2 the cost of an equivalent Mac)
+  - Total cost ~ $1200 (less than 1/2 the cost of an equivalent Mac)
   - Can stream cartoons and do bioinformatics at the same time
   - Lots of ports that don't need special adaptors
   - All software is free
@@ -59,7 +52,7 @@ Pros:
 Cons:
 
   - Does not have the Mac logo that people crave
-  - Battery life is pathetic
+  - Battery life is not wonderful
 
   
 For everyday professional bioinformatics use, this computer has proven very capable. For big heavy tasks, I either leave it to run overnight or push the job to a remote cluster.
