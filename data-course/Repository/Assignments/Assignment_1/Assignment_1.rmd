@@ -168,6 +168,11 @@ echo password=$GIT_PASSWORD
 git config --global credential.helper "/bin/bash ~/git_credential_helper.sh"
 ```
 
+**If you are using Windows, their recent update means that instead, you should use the following:**
+
+```
+git config --global credential.helper manager
+```
 ___
 
 3.  In your terminal, navigate to your Desktop with the command-line again

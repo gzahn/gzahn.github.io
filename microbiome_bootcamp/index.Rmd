@@ -123,7 +123,10 @@ ___
 
 Here's an overview of the different sites where we sampled 
 
-(Waiting for metadata spreadsheet from Austen)
+```{r echo=FALSE, fig.width=3,fig.height=3}
+knitr::include_graphics("./media/site_map.png")
+```
+
 
 ```{r echo=FALSE,warning=FALSE,message=FALSE}
 # library(tidyverse)

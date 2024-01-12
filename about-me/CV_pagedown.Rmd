@@ -706,6 +706,30 @@ AK, USA
 Code Contributions {data-icon=code}
 --------------------------------------------------------------------------------
 
+### CommunityAssemblR (R package)
+
+https://github.com/gzahn/CommunityAssemblR
+
+N/A
+
+N/A
+
+### hubfindr (R package)
+
+https://github.com/gzahn/hubfindr
+
+N/A
+
+N/A
+
+### mycobank (R API package)
+
+https://github.com/gzahn/mycobank
+
+N/A
+
+N/A
+
 ### Microbiome protocol for ITS/16S exploration
 
 https://github.com/gzahn/Microbiome_Workshop
@@ -760,7 +784,7 @@ N/A
 N/A
 
   - Graduate committee member (4 MS, 3 PhD)
-  - Undergrad research mentor (38 students)
+  - Undergrad research mentor (39 students)
   - [Lab alumni](https://gzahn.github.io/lab)
   - Junior faculty mentor (2023)
 
@@ -773,16 +797,16 @@ N/A
 
 N/A
 
-  - Editor of *Mycologia*
-  - Education Committee - Mycological Society of America
-  - National Microbiome Data Collaborative Champion
-  - IUCN Species Survival Group - Slime Moulds Specialist
-  - Member: ISME, MSA, Intnl. Soc. for Fungal Conserv., Japan SPS Alumni Assoc.
-  - NSF GK-12 Teaching Fellow (2011-2012)
-  - Faculty senator - UVU (2017-2020)
-  - Program and course development (Univ. of Arkansas, Utah Valley Univ.)
-  - Faculty search committees (Chair 1x, Member 6x)
-  - Council for Undergraduate Research (member)
+  - **Editor of *Mycologia***
+  - **Education Committee - Mycological Society of America**
+  - **National Microbiome Data Collaborative Champion**
+  - **IUCN Species Survival Group - Slime Moulds Specialist**
+  - **Member: ISME, MSA, Intnl. Soc. for Fungal Conserv., Japan SPS Alumni Assoc.**
+  - **NSF GK-12 Teaching Fellow (2011-2012)**
+  - **Faculty senator - UVU (2017-2020)**
+  - **Program and course development (Univ. of Arkansas, Utah Valley Univ.)**
+  - **Faculty search committees (Chair 1x, Member 6x)**
+  - **Council for Undergraduate Research (member)**
   
   
 ### `r icons::fontawesome(style='solid',name='handshake')` Collaborations (current and past)
@@ -824,6 +848,7 @@ N/A
   - **[Article](https://www.hawaiinewsnow.com/story/35862634/researchers-find-scores-of-potentially-new-species-of-fungi-in-deep-waters-off-maui/) on my marine mycology discoveries**
   - **Annual science fair judge**
   - **6th-grade teacher and inquiry-based lesson planning (2011-2012)**
+  - **Utah Fungus Fest speaker**
   
 ### `r icons::fontawesome(style='solid',name='check-double')` Peer review
 
