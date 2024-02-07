@@ -85,12 +85,12 @@ Aquatic plant microbiomes &emsp;&emsp;&emsp; Spatial endophyte assembly &emsp;
 <br>
 
 ```{r, out.width = "200px",echo=FALSE,fig.pos='right',out.height='200px'}
-knitr::include_graphics(c("../media/david_parker_pic.png"))
+knitr::include_graphics(c("../media/david_parker_pic.png","../media/Tayler_Fearn.png"))
 ```
 
-### **[David Parker](https://www.uvu.edu/news/wolverine-stories/2023/02/2023_02_08_wolverine_stories_david_parker.html)**
+### **[David Parker](https://www.uvu.edu/news/wolverine-stories/2023/02/2023_02_08_wolverine_stories_david_parker.html)** &emsp; &nbsp;&nbsp; **[Tayler Fearn](https://tcfearn1999.github.io/)**
 
-Truncating cancer metastasis
+Truncating cancer metastasis &emsp;&emsp;&emsp; Neural net community modeling
 
 <br>
 
