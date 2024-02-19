@@ -25,7 +25,7 @@ grant_tasks <- readRDS("./output/current_grants.RDS")
 ```{r}
 current_tasks %>% 
   kableExtra::kable() %>% 
- <- <- <- <- <- <- <- <- <- <- <- %>% <- %>%   kableExtra::kable_classic(lightable_options = 'hover') 
+  kableExtra::kable_classic(lightable_options = 'hover') 
 ```
 
 ## Current research project timelines
