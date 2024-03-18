@@ -12,7 +12,7 @@ pagetitle: Zahn Lab - Publications
 </style>
 
 
-## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/) | [CV](http://gzahn.github.io/about-me/CV_pagedown.pdf)
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/) | [CV](https://gzahn.github.io/about-me/CV.pdf)
 
 
 <style>
@@ -32,6 +32,12 @@ knitr::include_graphics("../media/wordcloud_research.png")
 
 
 ^†^ Denotes student mentee
+
+**Hickman, K. J. E.^†^, & Zahn, G. (2024) Ten simple rules for leading a successful undergraduate-intensive research lab. PLOS Computational Biology. https://doi.org/10.1371/journal.pcbi.1011994**
+
+A student and a PI share some wisdom about how to run a killer undergrad-focused research lab.
+
+___
 
 **Mikryukov, V., Dulya, O., Zizka, A., Bahram, M., Hagh-Doust, N., Anslan, S., Prylutskyi, O., Delgado-Baquerizo, M., Maestre, F. T., Nilsson, H., Pärn, J., Öpik, M., Moora, M., Zobel, M., Espenberg, M., Mander, Ü., Khalid, A. N., Corrales, A., Agan, A., … Zahn, G., … Tedersoo, L. (2023). Connecting the multiple dimensions of global soil fungal diversity. Science Advances, 9(48), eadj8016. https://doi.org/10.1126/sciadv.adj8016**
 
