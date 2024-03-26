@@ -199,6 +199,38 @@ The double meaningless legends take this to a new level of greatness. Bonus poin
 
 ___
 
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/three_bitchin_plots.png")
+```
+</div>
+
+
+___
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/ugly_plot 1.png")
+```
+</div>
+
+___
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/ugly plot.png")
+```
+</div>
+
+___
+
+<div style= "float:center;position: relative;top:10px">
+```{r, out.width = "500px",echo=FALSE}
+knitr::include_graphics("../media/carzoom.gif")
+```
+</div>
+
+___
 
 ## Think you can beat these?!
 

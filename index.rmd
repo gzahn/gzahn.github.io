@@ -44,6 +44,8 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 
 # **Zahn Lab - Utah Valley University**
 
+## The Zahn lab is currently housed in the Department of Environmental Studies at Dartmouth College
+
 <div style= "float:right;position: relative;top:20px">
 ```{r, out.width = "600px",echo=FALSE}
 knitr::include_graphics("./wp-content/uploads/geoff_nap.jpg")
