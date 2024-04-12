@@ -11,7 +11,7 @@ pagetitle: ABOUT ME
 </style>
 
 
-## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/) | [CV](http://gzahn.github.io/about-me/CV_pagedown.pdf)
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/) | [CV](https://gzahn.github.io/about-me/CV.pdf)
 
 <style>
 div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
@@ -19,7 +19,7 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 <div class = "gray">
 # **About me**
 
-# **[CV](https://gzahn.github.io/about-me/CV_pagedown.pdf)**
+# **[CV](https://gzahn.github.io/about-me/CV.pdf)**
 
 ___
 
