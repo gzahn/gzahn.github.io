@@ -39,6 +39,12 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 </style>
 <div class = "blue">
 
+<div style= "float:right;position: relative;top:20px;right:20px">
+```{r, out.width = "300px",echo=FALSE,fig.align='right'}
+knitr::include_graphics("./media/lab_logo_transparent.png")
+```
+</div>
+
 ## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/) | [CV](https://gzahn.github.io/about-me/CV.pdf)
 
 
@@ -46,29 +52,30 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 
 ## The Zahn lab is currently housed in the Department of Environmental Studies at Dartmouth College
 
-<div style= "float:right;position: relative;top:20px">
-```{r, out.width = "600px",echo=FALSE}
-knitr::include_graphics("./wp-content/uploads/geoff_nap.jpg")
+
+```{r, out.width = "500px",out.height="375px",echo=FALSE}
+knitr::include_graphics(c("./media/moss_mushrooms.jpg","./media/geoff_w_statue.jpg"))
 ```
 
-<br><br><br><br><br><br><br><br><br>
-<br><br><br>
+<br>
 
-</div>
+
 
 ___
 
 <br>
 
-## **Contact Info:**
+### **Contact Info:**
 
-### Geoffrey Zahn<br>
-### Biology Department - Utah Valley University<br>
-### 800 W University Parkway - SB243c<br>
-### Orem, UT 84058<br>
-### zahn.geoff@gmail.com
-##### Twitter: [GeoffZahn](https://twitter.com/GeoffZahn){target="_blank"}
-<br><br><br>
+**Geoffrey Zahn**
+
+**Biology Department - Utah Valley University**
+
+**Environmental Studies Department - Dartmouth College**
+
+**zahn.geoff@gmail.com**
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 </div>
 

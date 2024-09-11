@@ -27,12 +27,12 @@ ___
 
 ___
 
-### I am an Associate Professor of Bioinformatics/Mycology at Utah Valley University. My students and I investigate how microbiome communities influence host organisms' fitness and recovery from disturbance. We also study the factors that shape microbiome community formation. I am broadly interested in microbial ecology and biogeochemistry, but am particularly drawn to applied questions and manipulative experimentation.
+### I am an Associate Professor of Bioinformatics/Mycology at Utah Valley University and Visiting Professor of Environmental Studies at Dartmouth College. My students and I investigate how microbiome communities influence host organisms' fitness and recovery from disturbance. We also study the factors that shape microbiome community formation. I am broadly interested in microbial ecology and biogeochemistry, but am particularly drawn to applied questions and manipulative experimentation.
 
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "400px",echo=FALSE}
-knitr::include_graphics("../wp-content/uploads/geoff.jpg")
+knitr::include_graphics("../media/trametes_slug.jpg")
 ```
 </div>
 
@@ -44,7 +44,7 @@ knitr::include_graphics("../wp-content/uploads/geoff.jpg")
 
 <div style= "float:left;position: relative;top:10px;left:20px">
 ```{r, out.width = "300px",echo=FALSE}
-knitr::include_graphics("../wp-content/uploads/P4280105-300x225.jpg")
+knitr::include_graphics(c("../wp-content/uploads/P4280105-300x225.jpg","../media/singapore_mangrove.jpg","../media/geoff_mangrove.jpg"))
 ```
 
 
@@ -60,22 +60,11 @@ div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
 <br><br><br><br><br><br><br><br><br>
 <br><br><br>
 
-Since my students keep finding these photos of me on the dark web, I'm putting them here to get it out of the way and steal their sense of victory.
 
-```{r, echo=FALSE}
-knitr::include_graphics(c("../media/me.jpg","../media/geoff1.jpg"))
+```{r, echo=FALSE,out.width = "300px"}
+knitr::include_graphics(c("../media/thlayli.jpg","../media/PXL_20230909_205730304.jpg","../media/mushrooms1.jpg"))
 ```
 
-
-___
-
-## Contact Info:
-
-Geoffrey Zahn<br>
-Biology Department - Utah Valley University<br>
-800 W University Parkway - SB243c<br>
-Orem, UT 84058<br>
-zahn.geoff (at) gmail dot com
 
 ___
 

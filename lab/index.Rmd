@@ -24,11 +24,32 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 ## Our lab investigates the causes and consequences of microbial community formation, including the roles of fungi in symbioses, how microbes respond to and influence a changing environment, and how to harness microbes to improve conservation of macroorganisms.
 
+### We use field surveys, experimental microcosms, molecular tools, ML/AI modeling, and bioinformatics to address important questions about how microbiomes assemble and how they interact to shape host phenotype.
+
+### We also have *in silica* projects that leverage public metagenomic data to uncover global-scale fungal diversity and distribution.
+
+___
+
+
 <div style= "float:right;position: relative;">
 ```{r, out.width = "400px",echo=FALSE}
 knitr::include_graphics("../media/Lab_Cookout.jpg")
 ```
 </div>
+
+
+### Links (lab-only):
+
+[**Projects & Data**](https://drive.google.com/drive/folders/11KhuVoiEB_GrGtuzr512420ltvLh8GDs?usp=sharing)
+
+[**Lab meetings**](https://drive.google.com/drive/folders/1g6QNcbcsU8nlakyWu1I0U-gg1d2fk_TI?usp=sharing)
+
+[**Working manuscripts**](https://drive.google.com/drive/folders/1_0dXBg5c0TCqa-6bO30AmA_rKGcnDoOX?usp=sharing)
+
+[**Resources & media**](https://drive.google.com/drive/folders/1Q86Nk7MciILU1UZ1ZSohhql4SPe-jIuo?usp=sharing)
+
+
+___
 
 
 ### Here’s the [online lab handbook](https://gzahn.github.io/lab/lab_handbook.html) with expectations and information for lab members.
@@ -63,34 +84,14 @@ knitr::include_graphics("../media/geoff_pic.jpeg")
 <br>
 
 
-```{r, out.width = "200px",echo=FALSE,out.height='200px'}
-knitr::include_graphics(c("../media/josh_leon_pic.jpeg","../media/magnolia_morelli_pic.png"))
-```
-
-### **&nbsp;&nbsp;&nbsp;[Josh Leon](https://jleon123.github.io/)** &emsp; &nbsp;&nbsp; **[Magnolia Morelli](https://magnoliamorelli.github.io/)**
-
-Plant microbiomes &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fungal genomics &emsp;&emsp;
-
-<br>
-
 
 ```{r, out.width = "200px",echo=FALSE,fig.pos='right',out.height='200px'}
-knitr::include_graphics(c("../media/jacob_mora_pic.jpeg","../media/austen_miller_pic.png"))
+knitr::include_graphics(c("../media/Tayler_Fearn.png","../media/austen_miller_pic.png"))
 ```
 
-### **[Jacob Mora](https://jakemora.github.io)** &emsp; &nbsp;&nbsp; **[Austen Miller](https://amaceituna.github.io/)**
+###  **[Tayler Fearn](https://tcfearn1999.github.io/)** &emsp; &nbsp;&nbsp; **[Austen Miller](https://amaceituna.github.io/)**
 
-Aquatic plant microbiomes &emsp;&emsp;&emsp; Spatial endophyte assembly &emsp;
-
-<br>
-
-```{r, out.width = "200px",echo=FALSE,fig.pos='right',out.height='200px'}
-knitr::include_graphics(c("../media/david_parker_pic.png","../media/Tayler_Fearn.png"))
-```
-
-### **[David Parker](https://www.uvu.edu/news/wolverine-stories/2023/02/2023_02_08_wolverine_stories_david_parker.html)** &emsp; &nbsp;&nbsp; **[Tayler Fearn](https://tcfearn1999.github.io/)**
-
-Truncating cancer metastasis &emsp;&emsp;&emsp; Neural net community modeling
+Neural net community modeling &emsp;&emsp;&emsp; Spatial endophyte assembly &emsp;
 
 <br>
 
@@ -100,6 +101,28 @@ ___
 
 (and last known whereabouts)
 <br>
+
+<br>
+
+
+```{r, out.width = "200px",echo=FALSE,fig.pos='right',out.height='200px'}
+knitr::include_graphics(c("../media/david_parker_pic.png","../media/jacob_mora_pic.jpeg"))
+```
+
+### **[David Parker](https://www.uvu.edu/news/wolverine-stories/2023/02/2023_02_08_wolverine_stories_david_parker.html)** &emsp; &nbsp;&nbsp; **[Jacob Mora](https://jakemora.github.io)**
+
+Truncating cancer metastasis &emsp;&emsp;&emsp; Aquatic plant microbiomes
+
+<br>
+
+
+```{r, out.width = "200px",echo=FALSE,out.height='200px'}
+knitr::include_graphics(c("../media/josh_leon_pic.jpeg","../media/magnolia_morelli_pic.png"))
+```
+
+### **&nbsp;&nbsp;&nbsp;[Josh Leon](https://jleon123.github.io/)** &emsp; &nbsp;&nbsp; **[Magnolia Morelli](https://magnoliamorelli.github.io/)**
+
+PhD - UNC Chapel Hill &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Fungal genomics &emsp;&emsp;
 
 <br>
 

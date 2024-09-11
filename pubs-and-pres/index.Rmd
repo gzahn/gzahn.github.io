@@ -33,6 +33,13 @@ knitr::include_graphics("../media/wordcloud_research.png")
 
 ^†^ Denotes student mentee
 
+**Wainwright, B. J., Leon, J.^†^, Vilela, E.^†^, Hickman, K. J. E.^†^, Caldwell, J.^†^, Aimone, B.^†^, Bischoff, P.^†^, Ohran, M.^†^, Morelli, M. W.^†^, Arlyza, I. S., Marwayana, O. N., & Zahn, G. (2024). Wallace’s line structures seagrass microbiota and is a potential barrier to the dispersal of marine bacteria. Environmental Microbiome. https://doi.org/10.1186/s40793-024-00568-3**
+
+Cryptic dispersal barriers can affect bacterial assemblages in seagrasses. Wallace's Line, separates distinct bacterial community structures in the Indonesian Archipelago. Since cryptic dispersal barriers exist for bacteria in this region, this may have implications for the biogeography of macroorganisms that depend on these microbes.
+
+___
+
+
 **Hickman, K. J. E.^†^, & Zahn, G. (2024) Ten simple rules for leading a successful undergraduate-intensive research lab. PLOS Computational Biology. https://doi.org/10.1371/journal.pcbi.1011994**
 
 A student and a PI share some wisdom about how to run a killer undergrad-focused research lab.
@@ -58,6 +65,13 @@ Assigning taxonomy to fungal amplicons against a fungal-only database WILL lead 
 
 ___
 
+**Watmough, S., Gilbert-Parkes, S., Basiliko, N., Lamit, L. J., Lilleskov, E. A., Andersen, R., … Zahn, G. (2022). Variation in carbon and nitrogen concentrations among peatland categories at the global scale. PLOS ONE, 17(11), e0275149. https://doi.org/10.1371/journal.pone.0275149**
+
+Global-scale survey of peatland C and N reveals that broadly classified peatland categories have predictable C and OM concentrations. This adds needed resolution to climate models using land cover assessment for global C and N stocks.
+
+
+___
+
 **McGee, S.^†^, Tidwell, A.^†^, Riggs, E., Veltkamp, H.^†^, & Zahn, G. (2022). Long-term soil fungal community recovery after fire is impacted by climate change. Western North American Naturalist, 82(3). https://scholarsarchive.byu.edu/wnan/vol82/iss3/3**
 
 Soil fungi take a really really long time to bounce back after a forest fire, but warmer soil speeds up the process.
@@ -67,12 +81,6 @@ ___
 
 **Tedersoo, L., Mikryukov, V., Zizka, A., Bahram, M., Hagh-Doust, N., Anslan, S., Prylutskyi, O., Delgado-Baquerizo, M., Maestre, F. T., Pärn, J., Öpik, M., Moora, M., Zobel, M., Espenberg, M., Mander, Ü., Khalid, A. N., Corrales, A., Agan, A., Vasco-Palacios, A.-M., … Abarenkov, K. (2022). Global patterns in endemicity and vulnerability of soil fungi. Global Change Biology, n/a(n/a). https://doi.org/10.1111/gcb.16398**
 
-___
-
-
-**Wainwright, B. J., Millar, T.^†^, Bowen, L.^†^, Hickman, K.^†^, Lee, J. N., Yeo, Z. Y., Huang, D., & Zahn, G. (2022). The Mangrove Microbiome of the Malay Peninsula (p. 2022.11.21.517418). bioRxiv. https://doi.org/10.1101/2022.11.21.517418**
-
-Pre-print: Mangrove bacterial communities are a subset of nearby sediment bacteria, but different community structure in different parts of the plant.
 
 ___
 
