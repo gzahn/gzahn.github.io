@@ -12,7 +12,7 @@ pagetitle: Zahn Lab - Publications
 </style>
 
 
-## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/) | [CV](https://gzahn.github.io/about-me/CV.pdf)
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/) | [CV](https://docs.google.com/document/d/1f1DEO7XyHATpOhZWt7Rl-ELzte-SAOTww5uZnUXNTwM/edit?usp=sharing)
 
 
 <style>
@@ -32,6 +32,12 @@ knitr::include_graphics("../media/wordcloud_research.png")
 
 
 ^†^ Denotes student mentee
+
+**Miller, I. P., Laney, A. G., Zahn, G., Sheehan, B. J., Whitley, K. V., & Kuddus, R. H. (2024). Isolation and preliminary characterization of a novel bacteriophage vB_KquU_φKuK6 that infects the multidrug-resistant pathogen Klebsiella quasipneumoniae. Frontiers in Microbiology, 15. https://doi.org/10.3389/fmicb.2024.1472729**
+
+I don't know much about phages, but I can assemble and annotate genomes like a champ...so I did. This particular phage has theraputic potential against *Klebsiella quasipneumoniae*, which is cool!
+
+___
 
 **Wainwright, B. J., Leon, J.^†^, Vilela, E.^†^, Hickman, K. J. E.^†^, Caldwell, J.^†^, Aimone, B.^†^, Bischoff, P.^†^, Ohran, M.^†^, Morelli, M. W.^†^, Arlyza, I. S., Marwayana, O. N., & Zahn, G. (2024). Wallace’s line structures seagrass microbiota and is a potential barrier to the dispersal of marine bacteria. Environmental Microbiome. https://doi.org/10.1186/s40793-024-00568-3**
 

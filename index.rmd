@@ -45,7 +45,7 @@ knitr::include_graphics("./media/lab_logo_transparent.png")
 ```
 </div>
 
-## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/) | [CV](https://gzahn.github.io/about-me/CV.pdf)
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/) | [CV](https://docs.google.com/document/d/1f1DEO7XyHATpOhZWt7Rl-ELzte-SAOTww5uZnUXNTwM/edit?usp=sharing)
 
 
 # **Zahn Lab - Utah Valley University**
