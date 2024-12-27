@@ -324,33 +324,13 @@ ___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("../media/Week11.jpg")
+knitr::include_graphics("../media/fertilizer.jpeg")
 ```
 </div>
 
 
 
 ### **Week 9**{#Week-9}
-
-##### SPRING BREAK!
-
-I mean, honestly, you probably haven't finished the Your-Choice Points yet.
-
-You should probably be pretty worried about that or you'll be scrambling like an idiot at the end of the semester right when all your other classes have things due. And then you'll give me a crappy book review and you'll get a bad grade on it with no chance for a re-do, and you will be very sad and I will not care about your sadness. Your sadness will feed me and make me grow more powerful. So think about that during Spring Break.
-</br></br>
-  
-___
-
-<div style= "float:right;position: relative;top:10px">
-```{r, out.width = "350px",echo=FALSE}
-knitr::include_graphics("../media/fertilizer.jpeg")
-```
-</div>
-
-[Back to top of page](#top)  
-
-
-### **Week 10**{#Week-10}
 
 **Topics**
 
@@ -381,8 +361,31 @@ ___
 
 <div style= "float:right;position: relative;top:10px">
 ```{r, out.width = "350px",echo=FALSE}
+knitr::include_graphics("../media/Week11.jpg")
+```
+
+
+### **Week 10**{#Week-10}
+
+##### SPRING BREAK!
+
+I mean, honestly, you probably haven't finished the Your-Choice Points yet.
+
+You should probably be pretty worried about that or you'll be scrambling like an idiot at the end of the semester right when all your other classes have things due. And then you'll give me a crappy book review and you'll get a bad grade on it with no chance for a re-do, and you will be very sad and I will not care about your sadness. Your sadness will feed me and make me grow more powerful. So think about that during Spring Break.
+</br></br>
+  
+___
+
+<div style= "float:right;position: relative;top:10px">
+```{r, out.width = "350px",echo=FALSE}
 knitr::include_graphics("../media/week10.jpg")
 ```
+</div>
+
+[Back to top of page](#top)  
+
+
+
 </div>
 
 ### **Week 11**{#Week-11}

@@ -15,15 +15,12 @@ lg <- read_xlsx("./1620_sheets.xlsx",sheet=2)
 pts <- read_xlsx("./1620_sheets.xlsx",sheet=1)
 ```
 
-# **Biology 1620 Syllabus - Fall 2023**
+# **Biology 1620 Syllabus - Spring 2025**
 
 **Meeting days: Tue/Thu**
 
 
-
 **Meeting place: See my.uvu.edu for details**
-
-**Course will be taught in-person, but lessons will be recorded if you have to miss class**
 
 
 ## **Instructor info**
