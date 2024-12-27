@@ -3,7 +3,7 @@ output: rmdformats::downcute
 ---
 
 # **Introduction to Data Analysis in R**
-## Course Syllabus - Spring 2024
+## Course Syllabus - Spring 2025
 
 _____________________________
 
