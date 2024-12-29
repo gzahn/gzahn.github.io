@@ -3,7 +3,7 @@
 ---
   
 # **Bioinformatics Data Skills**
-## Course Syllabus - Spring 2024
+## Course Syllabus - Spring 2025
   
   _____________________________
 
@@ -51,7 +51,7 @@ _____________________________
   
 #### Buffalo, V. (2015). Bioinformatics data skills (First edition). O’Reilly.  [LINK](https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/){target="_blank"}
 
-#### Textbook supplmentary [repository](https://github.com/vsbuffalo/bds-files/){target="_blank"}
+#### Textbook supplementary [repository](https://github.com/vsbuffalo/bds-files/){target="_blank"}
 
 
 ______________________________
