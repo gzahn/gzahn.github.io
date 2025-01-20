@@ -1,5 +1,5 @@
 ---
-date: "`r Sys.Date()`"
+title: Genomic Data Science
 output: 
   rmdformats::downcute
 pagetitle: Genomic Data Science - Syllabus
@@ -55,39 +55,54 @@ The course combines **lectures**, **readings & discussions**, and **computationa
 
 ## **Lecture topics:**
 
-    1. Introduction to Genomics and Big Data
-        - Scope and challenges of genomic data science
-        - Overview of omics technologies (genomics, transcriptomics, proteomics, epigenomics)
-        - Data generation, acquisition, and integration
-    2. High-Throughput Sequencing Technologies
-        - Principles and workflows of DNA, RNA, and single-cell sequencing
-        - Platforms (Illumina, PacBio, Nanopore)
-        - Quality assessment, read mapping, and preprocessing
-    3. Genome Assembly and Annotation
-        - De novo assembly and reference-guided assembly
-        - Tools and pipelines (SPAdes, Canu, Prokka)
-        - Structural annotation and functional annotation (e.g., GO terms, KEGG pathways)
-    4. Transcriptomics
-        - RNA-Seq analysis: differential expression, isoform analysis
-        - Tools and pipelines (e.g., STAR, DESeq2, edgeR)
-        - Single-cell transcriptomics and spatial transcriptomics
-    5. Variant Calling and Genomic Diversity
-        - SNP and indel detection
-        - Population genomics and genome-wide association studies (GWAS)
-        - Structural variants and their implications
-    6. Metagenomics and Microbiome Analysis
-        - Taxonomic profiling and functional analysis of microbial communities
-        - Comparative metagenomics and metatranscriptomics
-        - Tools and pipelines(MetaPhlAn, Kraken, HUMAnN)
-    7. Epigenomics
-        - DNA methylation, histone modifications, and chromatin accessibility
-        - Experimental techniques (ChIP-seq, ATAC-seq, bisulfite sequencing)
-        - Data analysis and interpretation
-    8. Machine Learning and AI in Genomics
-        - Supervised and unsupervised learning for genomic data
-        - Deep learning applications (e.g., predicting regulatory regions, variant effects)
-        - Tools and frameworks (e.g., TensorFlow, scikit-learn, PyTorch)
-        
+  **1. Introduction to Genomics and Big Data**
+  
+  - Scope and challenges of genomic data science
+  - Overview of omics technologies (genomics, transcriptomics, proteomics, epigenomics)
+  - Data generation, acquisition, and integration
+    
+  **2. High-Throughput Sequencing Technologies**
+  
+  - Principles and workflows of DNA, RNA, and single-cell sequencing
+  - Platforms (Illumina, PacBio, Nanopore)
+  - Quality assessment, read mapping, and preprocessing
+
+  **3. Genome Assembly and Annotation**
+
+  - De novo assembly and reference-guided assembly
+  - Tools and pipelines (SPAdes, Canu, Prokka)
+  - Structural annotation and functional annotation (e.g., GO terms, KEGG pathways)
+
+  **4. Transcriptomics**
+
+  - RNA-Seq analysis: differential expression, isoform analysis
+  - Tools and pipelines (e.g., STAR, DESeq2, edgeR)
+  - Single-cell transcriptomics and spatial transcriptomics
+
+  **5. Variant Calling and Genomic Diversity**
+
+  - SNP and indel detection
+  - Population genomics and genome-wide association studies (GWAS)
+  - Structural variants and their implications
+
+  **6. Metagenomics and Microbiome Analysis**
+
+  - Taxonomic profiling and functional analysis of microbial communities
+  - Comparative metagenomics and metatranscriptomics
+  - Tools and pipelines(MetaPhlAn, Kraken, HUMAnN)
+
+  **7. Epigenomics**
+
+  - DNA methylation, histone modifications, and chromatin accessibility
+  - Experimental techniques (ChIP-seq, ATAC-seq, bisulfite sequencing)
+  - Data analysis and interpretation
+
+  **8. Machine Learning and AI in Genomics**
+
+  - Supervised and unsupervised learning for genomic data
+  - Deep learning applications (e.g., predicting regulatory regions, variant effects)
+  - Tools and frameworks (e.g., TensorFlow, scikit-learn, PyTorch)
+      
 ___
 
 ## **Lab challenges:**
@@ -105,26 +120,35 @@ Seminar-style discussions of literature will be incorporated that address cross-
 
 **Tentative discussion themes:**
 
-    1. Data Management and Integration
-        - FAIR principles (Findable, Accessible, Interoperable, Reusable)
-        - Cloud computing and data storage (e.g., AWS, Google Cloud, HPC clusters)
-        - Workflow management systems (e.g., Nextflow, Snakemake)
-    2. Statistical Methods for Genomics
-        - Bayesian inference and advanced regression models
-        - Hypothesis testing in high-dimensional data
-        - Statistical challenges in multi-omics studies
-    3. Ethics and Policy in Genomics
-        - Privacy and security of genomic data
-        - Equity in access to genomic technologies
-        - Implications of genomic studies for public policy
-    4. Emerging Technologies
-        - Advances in long-read sequencing
-        - Quantum computing in genomics
-        - Real-time sequencing applications
-    5. Applications of Genomics to Current Issues
-        - Precision medicine and pharmacogenomics
-        - Genomics in agriculture and climate adaptation
-        - Pathogen surveillance and pandemic preparedness
+  **1. Data Management and Integration**
+  
+  - FAIR principles (Findable, Accessible, Interoperable, Reusable)
+  - Cloud computing and data storage (e.g., AWS, Google Cloud, HPC clusters)
+  - Workflow management systems (e.g., Nextflow, Snakemake)
+
+  **2. Statistical Methods for Genomics**
+
+  - Bayesian inference and advanced regression models
+  - Hypothesis testing in high-dimensional data
+  - Statistical challenges in multi-omics studies
+
+  **3. Ethics and Policy in Genomics**
+
+  - Privacy and security of genomic data
+  - Equity in access to genomic technologies
+  - Implications of genomic studies for public policy
+
+  **4. Emerging Technologies**
+
+  - Advances in long-read sequencing
+  - Quantum computing in genomics
+  - Real-time sequencing applications
+
+  **5. Applications of Genomics to Current Issues**
+
+  - Precision medicine and pharmacogenomics
+  - Genomics in agriculture and climate adaptation
+  - Pathogen surveillance and pandemic preparedness
 
 ## **Cumulative projects:**
 
@@ -146,33 +170,33 @@ Your “perspective” manuscripts will undergo peer review throughout the semes
 
   - **Challenge:** High-throughput sequencing technologies generate vast quantities of genomic data. Managing, storing, and processing these datasets in an efficient, scalable, and cost-effective way is a critical issue.
   - **Needs:**
-      - Development of better compression algorithms and storage solutions.
-      - Enhanced computational tools for analyzing multi-petabyte-scale datasets.
-      - Streamlined pipelines for integrating and harmonizing heterogeneous data types (e.g., genomics, transcriptomics, epigenomics).
+    - Development of better compression algorithms and storage solutions.
+    - Enhanced computational tools for analyzing multi-petabyte-scale datasets.
+    - Streamlined pipelines for integrating and harmonizing heterogeneous data types (e.g., genomics, transcriptomics, epigenomics).
 
   **2. Interpreting Noncoding and Complex Genomic Regions**
 
   - **Challenge:** A significant portion of the genome remains poorly understood, including noncoding regions that regulate gene expression and structural variations with potential functional impacts.
   - **Needs:**
-      - Improved annotation of noncoding regions and understanding their role in gene regulation and disease.
-      - Enhanced computational methods for analyzing structural variants and repetitive elements.
-      - Insights into the 3D structure of the genome and its role in cellular function.
+    - Improved annotation of noncoding regions and understanding their role in gene regulation and disease.
+    - Enhanced computational methods for analyzing structural variants and repetitive elements.
+    - Insights into the 3D structure of the genome and its role in cellular function.
 
   **3. Precision Medicine and Individualized Genomics**
 
   - **Challenge:** Translating genomic discoveries into actionable insights for individualized healthcare remains difficult due to the complexity of genotype-phenotype relationships.
   - **Needs:**
-      - More accurate tools for predicting the functional impact of genetic variants.
-      - Integration of genomic data with other health data (e.g., electronic health records, proteomics, metabolomics).
-      - Broad population-level studies to ensure equitable representation in genomic medicine.
+    - More accurate tools for predicting the functional impact of genetic variants.
+    - Integration of genomic data with other health data (e.g., electronic health records, proteomics, metabolomics).
+    - Broad population-level studies to ensure equitable representation in genomic medicine.
 
   **4. Real-Time Genomics for Global Health**
 
   - **Challenge:** Genomics is increasingly used for pathogen surveillance and outbreak response (e.g., COVID-19), but real-time genomics is not yet universally feasible.
   - **Needs:**
-      - Scalable pipelines for near real-time pathogen sequencing and variant tracking.
-      - Global infrastructure for sharing genomic data quickly and securely.
-      - Better predictive models for anticipating the evolution of pathogens.
+    - Scalable pipelines for near real-time pathogen sequencing and variant tracking.
+    - Global infrastructure for sharing genomic data quickly and securely.
+    - Better predictive models for anticipating the evolution of pathogens.
 
   **5. Ethical and Societal Challenges**
 
@@ -226,116 +250,116 @@ Your “perspective” manuscripts will undergo peer review throughout the semes
   
   - **Challenge:** Genomic data is critical for synthetic biology and genome editing, but predictive tools and ethical frameworks are lacking.
   - **Needs:**
-      - Improved models for designing synthetic genes and pathways.
-      - High-throughput tools for validating synthetic constructs.
-      - Ethical frameworks to govern the use of genome editing technologies like CRISPR.
+    - Improved models for designing synthetic genes and pathways.
+    - High-throughput tools for validating synthetic constructs.
+    - Ethical frameworks to govern the use of genome editing technologies like CRISPR.
 
   **12. Climate Change and Environmental Genomics**
   
   - **Challenge:** Understanding how genomes adapt to changing environments is essential for conservation and agriculture in the face of climate change.
   - **Needs:**
-      - Genomic studies on stress resilience in plants, animals, and microbes.
-      - Application of genomic tools for conservation biology and habitat restoration.
-      - Predictive models for evolutionary adaptation under climate change scenarios.
+    - Genomic studies on stress resilience in plants, animals, and microbes.
+    - Application of genomic tools for conservation biology and habitat restoration.
+    - Predictive models for evolutionary adaptation under climate change scenarios.
 
 ___
 
 # **Course Schedule**
 
-Week 1: Introduction to Genomic Data Science
+**Week 1: Introduction to Genomic Data Science**
 
-    • Overview of genomics and bioinformatics
-    • Relevance of genomics to contemporary issues (e.g., precision medicine, agriculture, global health)
-    • Computational tools for genomic data
+ - Overview of genomics and bioinformatics
+ - Relevance of genomics to contemporary issues (e.g., precision medicine, agriculture, global health)
+ - Computational tools for genomic data
 
-Week 2: Biological Foundations for Genomic Data Science
+**Week 2: Biological Foundations for Genomic Data Science**
 
-    • DNA, RNA, proteins, and the central dogma
-    • Genome structure and variation
-    • Case study: Genomics in vaccine development (e.g., mRNA technology)
+ - DNA, RNA, proteins, and the central dogma
+ - Genome structure and variation
+ - Case study: Genomics in vaccine development (e.g., mRNA technology)
 
-Week 3: Introduction to Python and R for Genomics
+**Week 3: Introduction to Python and R for Genomics**
 
-    • Basics of Python and R programming
-    • Biological data handling in programming
-    • Ethical considerations in data processing
+ - Basics of Python and R programming
+ - Biological data handling in programming
+ - Ethical considerations in data processing
 
-Week 4: High-Throughput Sequencing (HTS) Technologies
+**Week 4: High-Throughput Sequencing (HTS) Technologies**
 
-    • DNA sequencing technologies (e.g., Illumina, PacBio, Nanopore)
-    • Quality control and preprocessing
-    • Current issue: Challenges in equitable access to sequencing technologies
+ - DNA sequencing technologies (e.g., Illumina, PacBio, Nanopore)
+ - Quality control and preprocessing
+ - Current issue: Challenges in equitable access to sequencing technologies
 
-Week 5: Genome Assembly and Annotation
+**Week 5: Genome Assembly and Annotation**
 
-    • De novo assembly and reference-guided assembly
-    • Functional annotation tools and databases
-    • Future challenge: Creating high-quality genome assemblies for non-model organisms
+ - De novo assembly and reference-guided assembly
+ - Functional annotation tools and databases
+ - Future challenge: Creating high-quality genome assemblies for non-model organisms
     
-Week 6: RNA-Seq Data Analysis
+**Week 6: RNA-Seq Data Analysis**
 
-    • Transcriptomics workflow and differential gene expression
-    • Applications in disease research and personalized medicine
-    • Ethical concerns in transcriptomic studies
+ - Transcriptomics workflow and differential gene expression
+ - Applications in disease research and personalized medicine
+ - Ethical concerns in transcriptomic studies
     
-Week 7: Metagenomics and Microbial Community Analysis
+**Week 7: Metagenomics and Microbial Community Analysis**
 
-    • Metagenomic sequencing and taxonomic profiling
-    • Case study: Genomics in pathogen surveillance (e.g., SARS-CoV-2 variants)
-    • Challenges in data sharing during pandemics
+ - Metagenomic sequencing and taxonomic profiling
+ - Case study: Genomics in pathogen surveillance (e.g., SARS-CoV-2 variants)
+ - Challenges in data sharing during pandemics
     
-Week 8: Midterm Review and Exam
+**Week 8: Midterm Review and Exam**
 
-    • In-class review session
-    • Midterm exam
+ - In-class review session
+ - Midterm exam
     
-Week 9: Variant Calling and Genotype Analysis
+**Week 9: Variant Calling and Genotype Analysis**
 
-    • SNP and indel detection
-    • Population genomics and GWAS basics
-    • Ethical issues in genetic testing and ancestry tracing
+ - SNP and indel detection
+ - Population genomics and GWAS basics
+ - Ethical issues in genetic testing and ancestry tracing
     
-Week 10: Epigenomics and ChIP-Seq Analysis
+**Week 10: Epigenomics and ChIP-Seq Analysis**
 
-    • DNA methylation, histone modifications, and their roles in disease
-    • Applications in cancer research and environmental epigenetics
-    • Discussion: Privacy risks in epigenetic data
+ - DNA methylation, histone modifications, and their roles in disease
+ - Applications in cancer research and environmental epigenetics
+ - Discussion: Privacy risks in epigenetic data
     
-Week 11: Structural Genomics and 3D Genome Organization
+**Week 11: Structural Genomics and 3D Genome Organization**
 
-    • Structural variation detection and Hi-C analysis
-    • Current frontier: Understanding 3D genome structure in evolution and development
+ - Structural variation detection and Hi-C analysis
+ - Current frontier: Understanding 3D genome structure in evolution and development
     
-Week 12: Machine Learning in Genomics
+**Week 12: Machine Learning in Genomics**
 
-    • Basics of machine learning for genomic data
-    • Applications: Predicting disease risk and drug response
-    • Ethical considerations: Bias and transparency in AI-driven genomics
+ - Basics of machine learning for genomic data
+ - Applications: Predicting disease risk and drug response
+ - Ethical considerations: Bias and transparency in AI-driven genomics
 
-Week 13: Functional Genomics and Pathway Analysis
+**Week 13: Functional Genomics and Pathway Analysis**
 
-    • Gene ontology and pathway enrichment analysis
-    • Applications in agricultural genomics and climate change adaptation
-    • Future frontier: Synthetic biology and genome engineering
+ - Gene ontology and pathway enrichment analysis
+ - Applications in agricultural genomics and climate change adaptation
+ - Future frontier: Synthetic biology and genome engineering
 
-Week 14: Ethical and Societal Implications in Genomics
+**Week 14: Ethical and Societal Implications in Genomics**
 
-    • Privacy and security in genomic research
-    • Genomic data sharing and equity in access
-    • Discussion: Potential misuse of genomic data (e.g., bioweapons)
+ - Privacy and security in genomic research
+ - Genomic data sharing and equity in access
+ - Discussion: Potential misuse of genomic data (e.g., bioweapons)
 
-Week 15: Future Challenges and Frontiers in Genomics
+**Week 15: Future Challenges and Frontiers in Genomics**
 
-    • Pan-genomics and the study of genetic diversity
-    • Synthetic biology and editing technologies (e.g., CRISPR)
-    • AI-driven genomics and systems biology
-    • Student-led discussion on the most promising and concerning frontiers
+ - Pan-genomics and the study of genetic diversity
+ - Synthetic biology and editing technologies (e.g., CRISPR)
+ - AI-driven genomics and systems biology
+ - Student-led discussion on the most promising and concerning frontiers
 
-Week 16: Final Project Presentations and Exam
+**Week 16: Final Project Presentations and Exam**
 
-    • Presentations of final projects addressing a current genomic issue
-    • Peer feedback and discussion
-    • Comprehensive final exam
+ - Presentations of final projects addressing a current genomic issue
+ - Peer feedback and discussion
+ - Comprehensive final exam
 
 ___
 
