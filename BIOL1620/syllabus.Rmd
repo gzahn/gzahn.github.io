@@ -29,6 +29,8 @@ pts <- read_xlsx("./1620_sheets.xlsx",sheet=1)
 
 **Office: SB242t**
 
+**Office hours: By appointment. Send a Teams message**
+
 **Email: zahn.geoff@gmail.com**
 
 **Course Website: [https://gzahn.github.io/BIOL1620/](https://gzahn.github.io/BIOL1620/)**
