@@ -309,7 +309,7 @@ knitr::include_graphics("../media/week8.jpg")
 
   - Campbell Ch 31
   - Canvas quiz 7 due before our first class this week (see Canvas)
-  - Exam 2 due Friday (closes 11:59pm)  --  Exam 2 opens Wednesday because of Fall Break
+  - Exam 2 due Friday (closes 11:59pm)
   - 50 Your-Choice Points Due Friday 11:59pm
 
 **Resources**
