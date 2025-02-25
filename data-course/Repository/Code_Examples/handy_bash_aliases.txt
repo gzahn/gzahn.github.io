@@ -1,7 +1,14 @@
-alias cd..='cd ..'
+# Add the lines below to ~/.bash_profile
+#--------------------------------------#
+
+# "up"
 alias u='clear; cd ../; pwd; ls -lhGgo'
+# "down"
 alias d='clear; cd -; ls -lhGgo'
+# grep with color by default
 alias grep='grep --color=auto'
+# list-long, human, all
 alias ll='ls -ahl --group-directories-first'
+# auto color directories with ls
 alias ls='ls --color=auto'
 

@@ -375,7 +375,7 @@ knitr::include_graphics("../media/real_world_data.jpg")
 **Resources**
 
   - [Data Wrangling Chapter](https://r4ds.had.co.nz/wrangle-intro.html){target="_blank"}
-  - [Wrangling Cheat Sheet](https://rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf){target="_blank"}
+  - [Wrangling Cheat Sheet](https://www.rstudio.com/wp-content%2Fuploads%2F2015%2F02%2Fdata-wrangling-cheatsheet.pdf%2F){target="_blank"}
   - [Visual Explanations of Joins](https://github.com/gadenbuie/tidyexplain){target="_blank"}
   - Janitor package on [CRAN](https://cran.r-project.org/web/packages/janitor/index.html){target="_blank"}
   - Rstats [illustrations](https://github.com/allisonhorst/stats-illustrations){target="_blank"}

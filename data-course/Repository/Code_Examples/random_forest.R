@@ -2,12 +2,14 @@
 
 # install.packages(c("DALEX","ranger","vip","ALEPlot"))
 library(ALEPlot) # see information at https://christophm.github.io/interpretable-ml-book/ale.html
-
+library(ranger)
+library(DALEX)
+library(vip)
 
 data(titanic_imputed, package = "DALEX") # load data set
 
 head(titanic_imputed)
-library(ALEPlot)
+
 
 ranger_model <- ranger::ranger(survived~., data = titanic_imputed, classification = TRUE, probability = TRUE,importance = 'permutation')
 vip::vip(ranger_model) # find most important factors for success (survival)
