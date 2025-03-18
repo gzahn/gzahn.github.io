@@ -23,11 +23,8 @@ div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
 
 ___
 
-#### **I offer a wide range of data analytics and microbial bioinformatics consultancy services. If you are interested please get in touch.**
 
-___
-
-### I am an Associate Professor of Bioinformatics/Mycology at Utah Valley University and Visiting Professor of Environmental Studies at Dartmouth College. My students and I investigate how microbiome communities influence host organisms' fitness and recovery from disturbance. We also study the factors that shape microbiome community formation. I am broadly interested in microbial ecology and biogeochemistry, but am particularly drawn to applied questions and manipulative experimentation.
+### I am an Associate Professor of Bioinformatics/Mycology at Utah Valley University and Visiting Professor of Environmental Studies at Dartmouth College. Starting Fall of 2025, I will be joining the Applied Science Department at the College of William & Mary. My students and I investigate how microbiome communities influence host organisms' fitness and recovery from disturbance. We also study the factors that shape microbiome community formation. I am broadly interested in microbial ecology and biogeochemistry, but am particularly drawn to applied questions and manipulative experimentation.
 
 
 <div style= "float:right;position: relative;top:10px">

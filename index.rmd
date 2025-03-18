@@ -48,9 +48,9 @@ knitr::include_graphics("./media/lab_logo_transparent.png")
 ## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/) | [CV](https://docs.google.com/document/d/1f1DEO7XyHATpOhZWt7Rl-ELzte-SAOTww5uZnUXNTwM/edit?usp=sharing)
 
 
-# **Zahn Lab - Utah Valley University**
+# **Translational Ecology Lab**
 
-## The Zahn lab is currently housed in the Department of Environmental Studies at Dartmouth College
+### The Zahn Translational Ecology Lab lab is relocating to the Applied Science Department at William & Mary in Fall 2025
 
 
 ```{r, out.width = "500px",out.height="375px",echo=FALSE}
@@ -67,13 +67,17 @@ ___
 
 ### **Contact Info:**
 
-**Geoffrey Zahn**
+**Geoffrey Zahn, PhD**
 
-**Biology Department - Utah Valley University**
+[**Biology Department**](https://www.uvu.edu/college-of-science/biology/){target="_blank"} **- Utah Valley University**
 
-**Environmental Studies Department - Dartmouth College**
+[**Applied Science Department**](https://www.wm.edu/as/appliedscience/){target="_blank"} **- College of William & Mary**
 
-**zahn.geoff@gmail.com**
+[**Environmental Studies Department**](https://envs.dartmouth.edu/){target="_blank"} **- Dartmouth College**
+
+**zahn.ecology@gmail.com**
+
+[**@geoffzahn.bsky.social**](https://bsky.app/profile/geoffzahn.bsky.social){target="_blank"}
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 

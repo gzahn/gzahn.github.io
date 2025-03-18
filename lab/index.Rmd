@@ -51,14 +51,21 @@ knitr::include_graphics("../media/Lab_Cookout.jpg")
 
 ___
 
+# Joining the lab
+
+### Graduate students should reach out to me well in advance of applying to the [Applied Science PhD Program](https://www.wm.edu/as/appliedscience/graduateprogram/). Appications for Fall admission are due early February. If you're interested in doing a PhD in my lab, I'd like to be in conversation with you about it the prior September, if possible.
+
+See more info [here](https://www.wm.edu/as/appliedscience/graduateprogram/admission/).
+
+
+### Undergraduate student applications are accepted on a rolling basis. Please feel free come by my office to chat with me to see what projects are available, or to propose a new one. Priority is given to students with 2 or more years left until graduation.
+
 
 ### Here’s the [online lab handbook](https://gzahn.github.io/lab/lab_handbook.html) with expectations and information for lab members.
 
-### Space is limited, and applications are accepted on a rolling basis. Please feel free come by my office to chat with me if you have a specific project in mind. Priority is given to students with at least 2 years left until graduation.
-
 ### Here's our [shared reading folder](https://www.zotero.org/groups/415455/microbe_ecology/items?).
 
-### If you need a reference letter from me for graduate or professional school, please see [these instructions](https://gzahn.github.io/lab/reference_letters.html)
+### If you need a reference letter from me, please see [these instructions](https://gzahn.github.io/lab/reference_letters.html)
 
 </div>
 

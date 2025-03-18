@@ -30,7 +30,7 @@ By the end of this course, students will be able to:
 challenges associated with genomic data.
   2. Apply programming languages (e.g., Python, R) and bioinformatics tools to analyze genomic data.
   3. Interpret data from high-throughput sequencing technologies such as RNA-seq, ChIP-seq, and metagenomics.
-  4. Identify and evaluate ethical concerns, including privacy, data sharing, and the impact of genomic research on individuals and society.
+  4. Identify and evaluate ethical considerations, including privacy, data sharing, and the impact of genomic research on individuals and society.
 Analyze current issues in genomics, such as precision medicine, pathogen surveillance, and climate change adaptation.
   5. Explore future challenges and frontiers in genomic data science, including AI-driven genomics, synthetic biology, and pan-genomics.
 
@@ -300,7 +300,7 @@ ___
 
  - Transcriptomics workflow and differential gene expression
  - Applications in disease research and personalized medicine
- - Ethical concerns in transcriptomic studies
+ - Ethical considerations in transcriptomic studies
     
 **Week 7: Metagenomics and Microbial Community Analysis**
 
@@ -317,7 +317,7 @@ ___
 
  - SNP and indel detection
  - Population genomics and GWAS basics
- - Ethical issues in genetic testing and ancestry tracing
+ - Ethical considerations in genetic testing and ancestry tracing
     
 **Week 10: Epigenomics and ChIP-Seq Analysis**
 
