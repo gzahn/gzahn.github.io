@@ -1,0 +1,88 @@
+---
+output: html_document
+pagetitle: Zahn Lab
+---
+
+
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61759609-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61759609-2');
+</script>
+
+</head>
+
+
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<style>
+div.gray { background-color:#aabdaf; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "gray">
+
+
+
+<style>
+div.blue { background-color:#a89d82; border-radius: 5px; padding: 20px;}
+</style>
+<div class = "blue">
+
+<div style= "float:right;position: relative;top:20px;right:20px">
+```{r, out.width = "300px",echo=FALSE,fig.align='right'}
+knitr::include_graphics("./media/lab_logo_transparent.png")
+```
+</div>
+
+## [HOME](http://gzahn.github.io/) | [ABOUT ME](http://gzahn.github.io/about-me/) | [LAB](http://gzahn.github.io/lab/) | [RESEARCH](http://gzahn.github.io/pubs-and-pres/) | [TEACHING](http://gzahn.github.io/coursemap/) | [CV](https://docs.google.com/document/d/1f1DEO7XyHATpOhZWt7Rl-ELzte-SAOTww5uZnUXNTwM/edit?usp=sharing)
+
+
+# **Translational Ecology Lab**
+
+### The Zahn Translational Ecology Lab lab is relocating to the Applied Science Department at William & Mary in Fall 2025
+
+
+```{r, out.width = "500px",out.height="375px",echo=FALSE}
+knitr::include_graphics(c("./media/moss_mushrooms.jpg","./media/geoff_w_statue.jpg"))
+```
+
+<br>
+
+
+
+___
+
+<br>
+
+### **Contact Info:**
+
+**Geoffrey Zahn, PhD**
+
+[**Biology Department**](https://www.uvu.edu/college-of-science/biology/){target="_blank"} **- Utah Valley University**
+
+[**Applied Science Department**](https://www.wm.edu/as/appliedscience/){target="_blank"} **- College of William & Mary**
+
+[**Environmental Studies Department**](https://envs.dartmouth.edu/){target="_blank"} **- Dartmouth College**
+
+**zahn.ecology@gmail.com**
+
+[**@geoffzahn.bsky.social**](https://bsky.app/profile/geoffzahn.bsky.social){target="_blank"}
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+</div>
+
+
+
+

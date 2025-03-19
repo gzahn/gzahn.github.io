@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | TIDAL Lab</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script defer src="assets/gallery.js"></script> <!-- JavaScript for lightbox effect -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="assets/images/gallery_banner.png" alt="Lab Workspace">
+        <h1>TIDAL Lab</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="lab.html">Lab</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Gallery Section -->
+    <main>
+        <h2>Photo Gallery</h2>
+        <p>Explore moments from our research, fieldwork, and lab activities.</p>
+        
+        <div class="gallery">
+            <img src="assets/images/geoff_labwork1.jpg" alt="Geoff in the lab" onclick="openLightbox(this)">
+            <img src="assets/images/gallery2.jpg" alt="Gallery Image 2" onclick="openLightbox(this)">
+            <img src="assets/images/gallery3.jpg" alt="Gallery Image 3" onclick="openLightbox(this)">
+            <img src="assets/images/gallery4.jpg" alt="Gallery Image 4" onclick="openLightbox(this)">
+            <img src="assets/images/gallery5.jpg" alt="Gallery Image 5" onclick="openLightbox(this)">
+            <img src="assets/images/gallery6.jpg" alt="Gallery Image 6" onclick="openLightbox(this)">
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TIDAL Lab. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+

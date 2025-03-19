@@ -1,0 +1,27 @@
+---
+output: html_document
+---
+
+# Geoff Zahn, PhD
+
+Here's my website. I hope you enjoy it.
+
+___
+
+
+```{r echo=FALSE}
+knitr::include_graphics("./media/catburger.png")
+```
+
+
+___
+
+2 is better than one.
+
+
+```{r echo=FALSE}
+knitr::include_graphics("./media/catburger.png")
+```
+
+
+
