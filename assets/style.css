@@ -327,3 +327,31 @@ button:hover {
     }
 }
 
+<style>
+    .member-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .member {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .member img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .alumni-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 15px;
+        text-align: center;
+    }
+    .alumni-member img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+</style>
