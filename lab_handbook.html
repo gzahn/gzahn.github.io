@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TIDAL Lab Handbook</title>
+  <link rel="stylesheet" href="assets/style.css" /> <!-- assuming your other pages use this CSS file -->
+</head>
+<body>
+    <header>
+        <img src="assets/images/artwork_banner.png" alt="watercolor paintings of mushrooms">
+        <h1>TIDAL Lab Handbook</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="people.html">People</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="lab.html">Lab Resources</a>
+    </nav>
+
+  <!-- Dropdown Navigation -->
+  <main class="content">
+    <div class="dropdown-container">
+      <label for="sectionSelect">Jump to a section:</label>
+      <select id="sectionSelect" onchange="scrollToSection(this.value)">
+        <option value="mission">Lab mission</option>
+        <option value="roles">Roles and expectations</option>
+        <option value="logistics">Logistics</option>
+        <option value="conduct">Code of conduct</option>
+      </select>
+    </div>
+
+    <!-- Sections -->
+    <section id="mission" class="handbook-section">
+      <h2>Lab Mission</h2>
+      <p style="text-align: left;"><strong>Our mission is to learn and share new things about the world, to develop as scientists and professionals, to be friendly, and to have fun. Most of the research that takes place in this lab is centered around trying to uncover <u>how microbes disperse, how they assemble into communities, how they affect their hosts, and how we can harness them to useful ends</u>. Experiments can include computational simulations, field studies, manipulated experiments, observational surveys, and/or applied trials. All of this work involves bioinformatics and data analysis.
+      </strong></p>
+      <p style="text-align: left;"><strong>Our lab strongly values:</strong></p>
+      <ul style="text-align: left; font-weight: bold; margin-left: 1.5em;">
+        <li>Productive collaborations with internal and external partners</li>
+        <li>Open science (FAIR: Findable, Accessible, Interoperable, Reproducible)</li>
+        <li>Open and honest communication</li>
+        <li>Work that is clean and detail-oriented (including proper computational hygeine)</li>
+        <li>The golden rule & respect for everyone</li>
+        <li>Unix-based operating systems</li>
+        <li>A team approach where new ideas are welcomed</li>
+        <li>Mindfulness and personal growth</li>        
+      </ul>
+   <h2>My mentoring philosophy</h2>    
+      <p style="text-align: left;">Mentoring trainees is one of the highest-impact practices available to educators. But it is an opportunity that expands beyond traditional educational boundaries and thus demands even greater responsibility. As research mentors, we get the chance to interact with trainees in a less formal and more intensive way, and we are responsible for not only teaching relevant skills, but also for providing career advice, helping students build professional networks, and opening doors of opportunity.</p>
+
+      <p style="text-align: left;">It is my philosophy that my trainees are colleagues, and that we only differ from each other in the amount of experience that we have. Thus, it is incredibly rewarding to see students bloom into their future careers as they participate in scholarly activities. In these mentored activities they are 1) getting a head start on their upcoming professional experiences, 2) finding topics that genuinely intrigue them and pursuing new avenues of thought, 3) developing critical thinking skills, 4) networking with professionals from this field, and 5) making their own original contributions to human knowledge.</p>
+
+      <p style="text-align: left;">I believe the most important elements for success in mentoring are open communication and mutual respect.  For me, trainee success is not easily defined by traditional measures such as degree completion, graduate school or career placement, etc., so the way I have chosen to define it is that a successful trainee is one who achieves THEIR educational and career goals. It is my duty to make every effort to help them along the path that they have chosen.</p>
+
+      <p style="text-align: left;">In return, I expect my trainees to act as ambassadors for the lab, treating others with respect, and provide their full attention to the science that we do. I expect open and prompt feedback from trainees if they are struggling, need help, have broken something or just aren’t sure about something. This is a friendly and safe space :)</p>
+    </section>
+                                        <hr>
+
+    <section id="roles" class="handbook-section">
+      <h2>Roles and Expectations</h2>
+
+    <h3 style="text-align: left;"><strong>Principal Investigator:</strong></h3>
+      <p style="text-align: left;">
+I'm responsible for everything that goes on in our lab... my goal is to have a lab dedicated not only to uncovering new information about the world, but also to helping you succeed and achieve your academic and professional goals. Your time and effort are valuable to me and I will do my utmost to help you in your work, take your best interests to heart, and direct your efforts in ways that benefit you first and foremost. I will help you learn how research works, how to ask a question, how to get funding, how to collaborate, and how to share your results. I will invest in a friendly and pleasant working environment, with a healthy work/life balance.</p>
+
+    <h3 style="text-align: left;"><strong>You:</strong></h3>
+      <p style="text-align: left;">
+<strong>Here's a non-comprehensive list of things you should be doing:</strong>
+      </p>
+      <ul style="text-align: left; font-weight: bold; margin-left: 1.5em;">
+        <li>Come to lab meetings prepared.</li>
+        <li>Keep the lab clean. If something is dirty, clean it up!</li>
+        <li>If you have a lab task, make sure to do it in a timely and diligent manner. We're all depending on each other. No slackers.</li>
+        <li>Apply for all available fellowships and grants. Take the initiative to find new ones.</li>
+        <li>Stay organized. Plan your experiments so you don't just wander around, keep track of everything in a lab notebook, try to be aware of your whole project.</li>
+        <li>It's a molecular lab space. It seriously needs to be kept clean. Wipe surfaces with alcohol. All the time. Be crazy clean or all our work will suffer.</li>
+      </ul>
+
+    <p style="text-align: left;"><strong>And here's a non-comprehensive list of things can can get you asked to leave the team:</strong></p>
+    <ul style="text-align: left; font-weight: bold; margin-left: 1.5em;">
+      <li>Regularly missing lab meetings</li>
+      <li>Repeatedly leaving messes in the lab</li>
+      <li>Leaving the -80 freezer door unlocked and open (even once)</li>
+      <li>Harassment/bullying of other team members</li>
+      <li>Trying to hide a mistake/accident/spill/error instead of informing me and fixing it</li>
+      <li>Using supplies from other lab groups without their permission. You need something? I'll find funding and we will buy it</li>
+    </ul>
+    </section>
+                                        <hr>
+
+    <section id="logistics" class="handbook-section">
+      <h2>Logistics</h2>
+      <p style="text-align: left;">
+        <strong>Here are some simple ligistics for how this lab is run:</strong>
+      </p>
+    </section>
+    <section id="lab-setup">
+  <table class="classic-table">
+    <tbody>
+      <tr><td>Dr. Zahn’s Office</td><td>TBD</td></tr>
+      <tr><td>Lab</td><td>TBD</td></tr>
+      <tr><td>Primary communication</td><td>Teams (TIDAL Lab Channel)</td></tr>
+      <tr><td>Version control</td><td><a href="https://github.com/" target="_blank">Git / GitHub</a></td></tr>
+      <tr><td>Reference manager</td><td><a href="https://www.zotero.org/" target="_blank">Zotero</a></td></tr>
+      <tr><td>Primary code language</td><td><a href="https://cran.r-project.org/" target="_blank">R</a></td></tr>
+      <tr><td>Preferred code style</td><td><a href="https://www.tidyverse.org/blog/2025/02/air/" target="_blank">Tidyverse</a></td></tr>
+      <tr><td>Manuscript preparation</td><td>Google Docs</td></tr>
+      <tr><td>File naming</td><td>snake_case</td></tr>
+      <tr><td>Lab meetings</td><td>Weekly - Location and time varies</td></tr>
+      <tr><td>Oxford comma?</td><td>Yes</td></tr>
+    </tbody>
+  </table>
+</section>
+                                        <hr>
+
+    <section id="conduct" class="handbook-section">
+      <h2>Code of Conduct</h2>
+      <p style="text-align: left;">
+        This Code of Conduct is a collection of expectations for being a member of the TIDAL Lab. We strive to be an inclusive and welcoming lab, and act ethically both personally and with respect to our science. As a member of the lab, you represent the lab (the lab, the department, and the university), this includes at W&M, at conferences, and while conducting research. All must be mindful that actions influence the people around us. Decisions being made affect others. Actions that violate this code of conduct will not be tolerated, some violations will result in the immediate dismissal from the lab. <strong> We are collaborators, not competitors. As ecologists, we can acknowledge that competition is always a net negative for everyone...strive for mutualism!</strong> 
+      </p>
+      <p style="text-align: left;">
+        <strong>Ethics – </strong>
+        Lab members will adhere to the highest level of standards related to ethical practices of data collection, analysis, scientific reporting, and treatment of others. Research is expected to be rigorous, but never at the expense of being good and respectful humans.
+
+      </p>
+      <p  style="text-align: left;">
+        <strong>Respect of people in lab and beyond – </strong>
+        Lab members will respect the diversity in our lab and recognize that they are ambassadors for our lab and our institution when interacting with stakeholders. Racism, sexism, any form of harassment, or discrimination based on a person’s race, sexual preference, or cultural heritage will not be tolerated and is strictly against lab and university policy. At conferences, read and adhere to the Code of Conduct.
+
+      </p>
+      <p  style="text-align: left;">
+        <strong>Team Environment – </strong>
+        Lab members must recognize that we often work in a team environment and be prepared to support others. If a student is working on research related to a long-term lab project, they are expected to contribute to the long-term data collection. Also, as time permits, assist others through teaching techniques, giving advice on statistics, providing input on presentations. Feedback is extremely valuable, ensure it is constructive. When working on a project with an appointed Team Leader, respect their decisions.
+      </p>
+      <p  style="text-align: left;">
+        <strong>Safety – </strong>
+        Lab members will all participate in ensuring that our work environment is safe and will identify, report and remedy hazards and adhere to necessary safety protocols. Actions that put others at risk (physical, legal, emotional) will not be tolerated. Keep the lab door locked at all times. For fieldwork projects, proper field clothing should be worn at all times while working in the field (this will vary from project to project). For fieldwork, be aware of your surroundings and weather conditions. While working in forests, do not work in high wind or lightning storms. In remote settings, multiple people should be at the site at the same time. If someone feels at risk due to working conditions, don’t do it – go back later or find another solution. Driving – avoid driving while tired.
+
+      </p>
+      <p  style="text-align: left;">
+        <strong>Respectful of Equipment – </strong>
+        Lab members will respect lab/field equipment and will ensure that it is clean, maintained and ready for use by others.  Any problems with equipment must be reported immediately to Dr. Zahn or the Team Lead (if there is one appointed). If you are unfamiliar with how to properly care for a piece of equipment, it is your responsibility to ask for help.
+      </p>
+      <p  style="text-align: left;">
+        <strong>Research Progress – </strong>
+        During the academic terms, all lab members will have weekly meetings scheduled with Dr. Zahn. These are so that research moves forward and that I am in the loop on research progress and any issues. Manuscripts or other writing drafts must be submitted with ample time to allow for constructive feedback before due dates. NO MANUSCRIPTS, CONFERENCE ABSTRACTS, GRANT PROPOSALS, THESIS DRAFTS, ETC. SHALL BE SUBMITTED WITHOUT FINAL APPROVAL OF DR. ZAHN.
+      </p>
+      <p  style="text-align: left;">
+        <STRONG>Lab meetings - </STRONG>
+        Students will be responsible for attending and participating in weekly lab meetings. This is an opportunity to present your work, get feedback, and discuss ideas. You will have the opportunity to lead lab meetings from time to time and as needed for your research progress. Lab meeting materials that are drafts of writing and where feedback is expected must be sent to the lab group five days in advance of the meeting; where there is a published paper to be discussed it must be sent to the lab group four days in advance of the meeting.
+      </p>
+      <p  style="text-align: left;">
+        <strong>Data Saving and Sharing – </strong>
+        Lab members are expected to routinely backup their data and will share it with other lab members and collaborators as needed/appropriate. Thus, data should be quickly copied from field notes and input into appropriate files. Put all papers in the appropriate place (data sheets, maps) so they are stored properly to be found and used by others.  Backing up of data and code should occur weekly when possible and there should never be only one copy of the data. All data and code (with metadata and ample documentation) should be given to Dr. Zahn upon graduation (final signatures will depend upon this information being complete), or finishing with the lab. We use GitHub for version control and backup of code. Raw sequence data will be uploaded to SRA or another suitable repository as soon as it is available (with appropriate embargoes until publication). When you get metagenomic data back, you will be excited...but your first action will be to document it with a metadata spreadsheet (Google Sheets and GitHub) and upload it the the SRA!
+      </p>
+      <p  style="text-align: left;">
+        <strong>Funding – </strong>
+        Graduate students and postdocs are expected to find and apply for funding  (internal and external) to support their project, starting in their first year. There are many funding opportunities available to apply for and this provides professional development skills. Undergraduates are also encouraged to seek out funding opportunities. Dr. Zahn will help with these applications, but start EARLY.
+      </p>
+      <p  style="text-align: left;">
+        <strong>Timely Dissemination – </strong>
+        Communicating research findings is a key responsibility of researchers. This responsibility is to collaborators, colleagues, the lab, those who gave research permits, and funders. Lab members are expected (when data are suitable for publication) to disseminate their work to the scientific community through a variety of outlets including conference presentations and peer-reviewed publications. The target is for every student (grad and undergrad) to have a manuscript submitted for publication prior to leaving the lab. Note that journals require that all authors contribute to manuscripts and particularly that all authors provide feedback and have read the final version of the manuscript that is submitted – if students move on to other things and do not contribute in these late stages, their contributions will be acknowledged in the paper but they will not be listed as authors. Authorship WILL NOT BE COMPETITIVE.
+      </p>
+      <p  style="text-align: left;">
+        <strong>Illegal Activities – </strong>
+        Lab members are expected to adhere to all relevant laws while engaged in work activities or representing the lab (e.g., no federally illicit drugs, no providing alcohol to people under the legal drinking age, etc.). Lab activities that take place in other countries will be subject to the relevant laws there. For example, Singapore has a mandatory death penalty for trafficking cannabis... don't be stupid.
+      </p>
+      <p  style="text-align: left;">
+        <strong>Dealing with failure – </strong>
+        You will fail sometimes. You will drop samples. You will forget an important step in the DNA extraction protocol. You will forget to check on your incubations. You will run out of reagents. Even if everything goes really well and you try your best and are very careful and deliberate, you could <em>still</em> fail! Sometimes your data just tell you something you didn't want to hear. That's science. It's fine. Do your best, be careful, and follow the evidence wherever it leads. Failing doesn't make you a failure.
+      </p>
+      
+    </section>
+                                        <hr>
+
+  </main>
+
+  <!-- JavaScript for smooth scroll -->
+  <script>
+    function scrollToSection(id) {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  </script>
+</body>
+</html>

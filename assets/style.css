@@ -355,3 +355,43 @@ button:hover {
         border-radius: 50%;
     }
 </style>
+
+<style>
+  table.classic-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: white;
+    border: 1px solid #ccc;
+  }
+
+  table.classic-table th,
+  table.classic-table td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+    transition: all 0.2s ease-in-out;
+  }
+
+  table.classic-table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+
+  table.classic-table tbody tr:hover {
+    background-color: #000000;
+    color: white;
+  }
+
+  /* Optional: ensure links inside also switch color */
+  table.classic-table tbody tr:hover a {
+    color: white;
+  }
+</style>
+
+.handbook-section ul {
+  text-align: left;
+  font-weight: bold;
+  margin-left: 1.5em; /* optional: gives a clean indent */
+  list-style-type: disc; /* optional: ensures standard bullets */
+}
