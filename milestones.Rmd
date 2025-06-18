@@ -1,0 +1,34 @@
+---
+title: "milestones"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,message = FALSE,warning = FALSE)
+library(googlesheets4)
+library(tidyverse)
+
+dat <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1xooSm-Lpf4yIpOllQpPyrFc30_thBcMg044IRPeWeo0/edit?usp=drive_link")
+1
+dat$target_date %>% class
+neworder <- 
+  dat %>% 
+  arrange(desc(target_date)) %>% 
+  pluck("goal")
+dat$goal <- factor(dat$goal,levels = neworder)
+```
+
+
+```{r}
+
+dat %>% 
+  ggplot(aes(x=target_date,y=goal,color=status)) +
+  # geom_errorbarh(aes(xmin = as.POSIXct(Sys.Date()),xmax=target_date),height = .2)
+  geom_point()
+
+```
+
+```{r}
+
+```
+
